@@ -1,0 +1,1315 @@
+{
+  "4000": {
+    "id": 4000,
+    "name": "Farvhan the Dreamer",
+    "type": 6,
+    "set": 0,
+    "collectible": false,
+    "rarity": "Basic",
+    "color": "Green",
+    "attack": 4,
+    "health": 10,
+    "bounty": 5,
+    "illustrator": "Wisnu Tan",
+    "artwork": {
+      "artwork_id": 4000
+    },
+    "signature": [
+      {
+        "card_id": 4002,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      4001
+    ],
+    "engine": {
+      "basic": true
+    },
+    "release_date": "2018-11-28"
+  },
+  "4003": {
+    "id": 4003,
+    "name": "Keefe the Bold",
+    "type": 6,
+    "set": 0,
+    "collectible": false,
+    "rarity": "Basic",
+    "color": "Red",
+    "attack": 6,
+    "armor": 1,
+    "health": 11,
+    "bounty": 5,
+    "illustrator": "Lius Lasahido",
+    "artwork": {
+      "artwork_id": 4003
+    },
+    "signature": [
+      {
+        "card_id": 4004,
+        "count": 3
+      }
+    ],
+    "engine": {
+      "basic": true
+    },
+    "release_date": "2018-11-28"
+  },
+  "4005": {
+    "id": 4005,
+    "name": "Debbi the Cunning",
+    "type": 6,
+    "set": 0,
+    "collectible": false,
+    "rarity": "Basic",
+    "color": "Black",
+    "attack": 7,
+    "health": 5,
+    "bounty": 5,
+    "illustrator": "Livia Prima",
+    "artwork": {
+      "artwork_id": 4005
+    },
+    "signature": [
+      {
+        "card_id": 4007,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      4006
+    ],
+    "engine": {
+      "basic": true
+    },
+    "release_date": "2018-11-28"
+  },
+  "4008": {
+    "id": 4008,
+    "name": "J'Muy the Wise",
+    "type": 6,
+    "set": 0,
+    "collectible": false,
+    "rarity": "Basic",
+    "color": "Blue",
+    "attack": 3,
+    "health": 8,
+    "bounty": 5,
+    "illustrator": "Billy Christian",
+    "artwork": {
+      "artwork_id": 4008
+    },
+    "signature": [
+      {
+        "card_id": 4010,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      4009
+    ],
+    "engine": {
+      "basic": true
+    },
+    "release_date": "2018-11-28"
+  },
+  "10001": {
+    "id": 10001,
+    "name": "Venomancer",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Blue",
+    "attack": 2,
+    "health": 6,
+    "bounty": 5,
+    "illustrator": "JiHun Lee",
+    "item_def": 110001,
+    "artwork": {
+      "artwork_id": 10001
+    },
+    "signature": [
+      {
+        "card_id": 10002,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10491
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10004": {
+    "id": 10004,
+    "name": "Meepo",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Blue",
+    "attack": 4,
+    "health": 5,
+    "bounty": 5,
+    "illustrator": "Wisnu Tan",
+    "item_def": 110004,
+    "artwork": {
+      "artwork_id": 10004,
+      "alternate_artwork_ids": [
+        10426,
+        10427,
+        10428
+      ],
+      "variants": [
+        10426,
+        10427,
+        10428
+      ]
+    },
+    "signature": [
+      {
+        "card_id": 10005,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10429,
+      10490
+    ],
+    "release_date": "2018-11-28",
+    "referenced_by": [
+      10005,
+      10429
+    ]
+  },
+  "10006": {
+    "id": 10006,
+    "name": "Luna",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Blue",
+    "attack": 3,
+    "health": 8,
+    "bounty": 5,
+    "illustrator": "Anthony Palumbo",
+    "item_def": 110006,
+    "artwork": {
+      "artwork_id": 10006
+    },
+    "signature": [
+      {
+        "card_id": 10007,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10489
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10010": {
+    "id": 10010,
+    "name": "Winter Wyvern",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Black",
+    "attack": 6,
+    "health": 6,
+    "bounty": 5,
+    "illustrator": "Sung Choi",
+    "item_def": 110010,
+    "artwork": {
+      "artwork_id": 10010
+    },
+    "signature": [
+      {
+        "card_id": 10011,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10430
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10014": {
+    "id": 10014,
+    "name": "Lycan",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Green",
+    "attack": 4,
+    "health": 10,
+    "bounty": 5,
+    "illustrator": "Ryan Pancoast",
+    "item_def": 110014,
+    "artwork": {
+      "artwork_id": 10014
+    },
+    "signature": [
+      {
+        "card_id": 10112,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10494
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10016": {
+    "id": 10016,
+    "name": "Abaddon",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Green",
+    "attack": 4,
+    "health": 9,
+    "bounty": 5,
+    "illustrator": "Chase Stone",
+    "item_def": 110016,
+    "artwork": {
+      "artwork_id": 10016
+    },
+    "signature": [
+      {
+        "card_id": 10287,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10431
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10017": {
+    "id": 10017,
+    "name": "Chen",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Green",
+    "attack": 4,
+    "health": 9,
+    "bounty": 5,
+    "illustrator": "Clint Cearley",
+    "item_def": 110017,
+    "artwork": {
+      "artwork_id": 10017
+    },
+    "signature": [
+      {
+        "card_id": 10340,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10432
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10018": {
+    "id": 10018,
+    "name": "Bloodseeker",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Black",
+    "attack": 7,
+    "health": 7,
+    "bounty": 5,
+    "illustrator": "Lake Hurwitz",
+    "item_def": 110018,
+    "artwork": {
+      "artwork_id": 10018
+    },
+    "signature": [
+      {
+        "card_id": 10289,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10496
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10020": {
+    "id": 10020,
+    "name": "Axe",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Red",
+    "attack": 6,
+    "armor": 2,
+    "health": 10,
+    "bounty": 5,
+    "illustrator": "Tyler Jacobson",
+    "item_def": 110020,
+    "artwork": {
+      "artwork_id": 10020
+    },
+    "signature": [
+      {
+        "card_id": 10288,
+        "count": 3
+      }
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10021": {
+    "id": 10021,
+    "name": "Centaur Warrunner",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Red",
+    "attack": 4,
+    "health": 14,
+    "bounty": 5,
+    "illustrator": "Lius Lasahido",
+    "item_def": 110021,
+    "artwork": {
+      "artwork_id": 10021
+    },
+    "signature": [
+      {
+        "card_id": 10292,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10497
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10022": {
+    "id": 10022,
+    "name": "Timbersaw",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Red",
+    "attack": 4,
+    "health": 11,
+    "bounty": 5,
+    "illustrator": "JiHun Lee",
+    "item_def": 110022,
+    "artwork": {
+      "artwork_id": 10022
+    },
+    "signature": [
+      {
+        "card_id": 10296,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10498
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10023": {
+    "id": 10023,
+    "name": "Bounty Hunter",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Black",
+    "attack": 7,
+    "health": 7,
+    "bounty": 5,
+    "illustrator": "E.M. Gist",
+    "item_def": 110023,
+    "artwork": {
+      "artwork_id": 10023
+    },
+    "signature": [
+      {
+        "card_id": 10416,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10499
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10024": {
+    "id": 10024,
+    "name": "Tidehunter",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Red",
+    "attack": 2,
+    "armor": 1,
+    "health": 18,
+    "bounty": 5,
+    "illustrator": "Daarken",
+    "item_def": 110024,
+    "artwork": {
+      "artwork_id": 10024
+    },
+    "signature": [
+      {
+        "card_id": 10290,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10434
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10025": {
+    "id": 10025,
+    "name": "Tinker",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Black",
+    "attack": 7,
+    "health": 5,
+    "bounty": 5,
+    "illustrator": "James Paick",
+    "item_def": 110025,
+    "artwork": {
+      "artwork_id": 10025
+    },
+    "signature": [
+      {
+        "card_id": 10291,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10435
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10026": {
+    "id": 10026,
+    "name": "Rix",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Green",
+    "attack": 3,
+    "health": 7,
+    "bounty": 5,
+    "illustrator": "Chris Rahn",
+    "item_def": 110026,
+    "artwork": {
+      "artwork_id": 10026
+    },
+    "signature": [
+      {
+        "card_id": 10420,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10500
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10028": {
+    "id": 10028,
+    "name": "Viper",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Green",
+    "attack": 4,
+    "health": 10,
+    "bounty": 5,
+    "illustrator": "Lars Grant-West",
+    "item_def": 110028,
+    "artwork": {
+      "artwork_id": 10028
+    },
+    "signature": [
+      {
+        "card_id": 10294,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10501
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10029": {
+    "id": 10029,
+    "name": "Beastmaster",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Red",
+    "attack": 5,
+    "health": 12,
+    "bounty": 5,
+    "illustrator": "Clint Cearley",
+    "item_def": 110029,
+    "artwork": {
+      "artwork_id": 10029
+    },
+    "signature": [
+      {
+        "card_id": 10293,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10437
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10030": {
+    "id": 10030,
+    "name": "Bristleback",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Red",
+    "attack": 8,
+    "health": 12,
+    "bounty": 5,
+    "illustrator": "JiHun Lee",
+    "item_def": 110030,
+    "artwork": {
+      "artwork_id": 10030
+    },
+    "signature": [
+      {
+        "card_id": 10419,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10502
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10031": {
+    "id": 10031,
+    "name": "Kanna",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Blue",
+    "attack": 2,
+    "health": 12,
+    "bounty": 5,
+    "illustrator": "Scott M Fischer",
+    "item_def": 110031,
+    "artwork": {
+      "artwork_id": 10031
+    },
+    "signature": [
+      {
+        "card_id": 10325,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10503
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10032": {
+    "id": 10032,
+    "name": "Drow Ranger",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Green",
+    "attack": 4,
+    "health": 7,
+    "bounty": 5,
+    "illustrator": "Livia Prima",
+    "item_def": 110032,
+    "artwork": {
+      "artwork_id": 10032
+    },
+    "signature": [
+      {
+        "card_id": 10339,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10504
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10033": {
+    "id": 10033,
+    "name": "Earthshaker",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Blue",
+    "attack": 2,
+    "health": 7,
+    "bounty": 5,
+    "illustrator": "Forrest Imel",
+    "item_def": 110033,
+    "artwork": {
+      "artwork_id": 10033
+    },
+    "signature": [
+      {
+        "card_id": 10323,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10438
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10036": {
+    "id": 10036,
+    "name": "Enchantress",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Green",
+    "attack": 4,
+    "health": 8,
+    "bounty": 5,
+    "illustrator": "Randy Vargas",
+    "item_def": 110036,
+    "artwork": {
+      "artwork_id": 10036
+    },
+    "signature": [
+      {
+        "card_id": 10193,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10506
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10038": {
+    "id": 10038,
+    "name": "Lich",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Black",
+    "attack": 5,
+    "health": 9,
+    "bounty": 5,
+    "illustrator": "Wisnu Tan",
+    "item_def": 110038,
+    "artwork": {
+      "artwork_id": 10038
+    },
+    "signature": [
+      {
+        "card_id": 10318,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10440
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10043": {
+    "id": 10043,
+    "name": "Ogre Magi",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Blue",
+    "attack": 3,
+    "health": 7,
+    "bounty": 5,
+    "illustrator": "Randy Vargas",
+    "item_def": 110043,
+    "artwork": {
+      "artwork_id": 10043
+    },
+    "signature": [
+      {
+        "card_id": 10160,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10509
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10044": {
+    "id": 10044,
+    "name": "Omniknight",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Green",
+    "attack": 5,
+    "health": 12,
+    "bounty": 5,
+    "illustrator": "Sam Carr",
+    "item_def": 110044,
+    "artwork": {
+      "artwork_id": 10044
+    },
+    "signature": [
+      {
+        "card_id": 10348,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10443
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10046": {
+    "id": 10046,
+    "name": "Outworld Devourer",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Blue",
+    "attack": 4,
+    "health": 7,
+    "bounty": 5,
+    "illustrator": "Joseph Meehan",
+    "item_def": 110046,
+    "artwork": {
+      "artwork_id": 10046
+    },
+    "signature": [
+      {
+        "card_id": 10267,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10511
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10047": {
+    "id": 10047,
+    "name": "Phantom Assassin",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Black",
+    "attack": 6,
+    "health": 8,
+    "bounty": 5,
+    "illustrator": "Greg Opalinski",
+    "item_def": 110047,
+    "artwork": {
+      "artwork_id": 10047
+    },
+    "signature": [
+      {
+        "card_id": 10308,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10512
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10048": {
+    "id": 10048,
+    "name": "Pugna",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Red",
+    "attack": 6,
+    "health": 9,
+    "bounty": 5,
+    "illustrator": "Randy Vargas",
+    "item_def": 110048,
+    "artwork": {
+      "artwork_id": 10048
+    },
+    "signature": [
+      {
+        "card_id": 10173,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10444
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10050": {
+    "id": 10050,
+    "name": "Sniper",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Black",
+    "attack": 5,
+    "health": 6,
+    "bounty": 5,
+    "illustrator": "Forrest Imel",
+    "item_def": 110050,
+    "artwork": {
+      "artwork_id": 10050
+    },
+    "signature": [
+      {
+        "card_id": 10272,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10446
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10052": {
+    "id": 10052,
+    "name": "Mazzie",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Red",
+    "attack": 6,
+    "armor": 3,
+    "health": 6,
+    "bounty": 5,
+    "illustrator": "Lius Lasahido",
+    "item_def": 110052,
+    "artwork": {
+      "artwork_id": 10052
+    },
+    "signature": [
+      {
+        "card_id": 10179,
+        "count": 3
+      }
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10053": {
+    "id": 10053,
+    "name": "Prellex",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Blue",
+    "attack": 3,
+    "health": 5,
+    "bounty": 5,
+    "illustrator": "Lius Lasahido",
+    "item_def": 110053,
+    "artwork": {
+      "artwork_id": 10053
+    },
+    "signature": [
+      {
+        "card_id": 10147,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10523
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10054": {
+    "id": 10054,
+    "name": "Sven",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Red",
+    "attack": 5,
+    "health": 11,
+    "bounty": 5,
+    "illustrator": "Yongjae Choi",
+    "item_def": 110054,
+    "artwork": {
+      "artwork_id": 10054
+    },
+    "signature": [
+      {
+        "card_id": 10330,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10513
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10056": {
+    "id": 10056,
+    "name": "Treant Protector",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Green",
+    "attack": 4,
+    "health": 10,
+    "bounty": 5,
+    "illustrator": "Alix Branwyn",
+    "item_def": 110056,
+    "artwork": {
+      "artwork_id": 10056
+    },
+    "signature": [
+      {
+        "card_id": 10117,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10514
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10058": {
+    "id": 10058,
+    "name": "Sorla Khan",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Black",
+    "attack": 8,
+    "health": 6,
+    "bounty": 5,
+    "illustrator": "Tyler Jacobson",
+    "item_def": 110058,
+    "artwork": {
+      "artwork_id": 10058
+    },
+    "signature": [
+      {
+        "card_id": 10177,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10516
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10059": {
+    "id": 10059,
+    "name": "Necrophos",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Black",
+    "attack": 5,
+    "health": 6,
+    "bounty": 5,
+    "illustrator": "Kieran Yanner",
+    "item_def": 110059,
+    "artwork": {
+      "artwork_id": 10059
+    },
+    "signature": [
+      {
+        "card_id": 10274,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10517
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10060": {
+    "id": 10060,
+    "name": "Lion",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Black",
+    "attack": 6,
+    "health": 5,
+    "bounty": 5,
+    "illustrator": "Stepan Alekseev",
+    "item_def": 110060,
+    "artwork": {
+      "artwork_id": 10060
+    },
+    "signature": [
+      {
+        "card_id": 10275,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10449
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10062": {
+    "id": 10062,
+    "name": "Skywrath Mage",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Blue",
+    "attack": 3,
+    "health": 6,
+    "bounty": 5,
+    "illustrator": "Greg Opalinski",
+    "item_def": 110062,
+    "artwork": {
+      "artwork_id": 10062
+    },
+    "signature": [
+      {
+        "card_id": 10063,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10451
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10064": {
+    "id": 10064,
+    "name": "Crystal Maiden",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Blue",
+    "attack": 2,
+    "health": 5,
+    "bounty": 5,
+    "illustrator": "Stepan Alekseev",
+    "item_def": 110064,
+    "artwork": {
+      "artwork_id": 10064
+    },
+    "signature": [
+      {
+        "card_id": 10277,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10518
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10065": {
+    "id": 10065,
+    "name": "Zeus",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Blue",
+    "attack": 3,
+    "health": 7,
+    "bounty": 5,
+    "illustrator": "David Palumbo",
+    "item_def": 110065,
+    "artwork": {
+      "artwork_id": 10065
+    },
+    "signature": [
+      {
+        "card_id": 10278,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10519
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10067": {
+    "id": 10067,
+    "name": "Magnus",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Green",
+    "attack": 4,
+    "armor": 1,
+    "health": 9,
+    "bounty": 5,
+    "illustrator": "Magali Villeneuve",
+    "item_def": 110067,
+    "artwork": {
+      "artwork_id": 10067
+    },
+    "signature": [
+      {
+        "card_id": 10280,
+        "count": 3
+      }
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10068": {
+    "id": 10068,
+    "name": "Dark Seer",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Green",
+    "attack": 5,
+    "health": 9,
+    "bounty": 5,
+    "illustrator": "Stepan Alekseev",
+    "item_def": 110068,
+    "artwork": {
+      "artwork_id": 10068
+    },
+    "signature": [
+      {
+        "card_id": 10281,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10452
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10069": {
+    "id": 10069,
+    "name": "Legion Commander",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Red",
+    "attack": 6,
+    "armor": 1,
+    "health": 8,
+    "bounty": 5,
+    "illustrator": "Randy Vargas",
+    "item_def": 110069,
+    "artwork": {
+      "artwork_id": 10069
+    },
+    "signature": [
+      {
+        "card_id": 10341,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10520
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10070": {
+    "id": 10070,
+    "name": "Ursa",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Red",
+    "attack": 7,
+    "health": 10,
+    "bounty": 5,
+    "illustrator": "Forrest Imel",
+    "item_def": 110070,
+    "artwork": {
+      "artwork_id": 10070
+    },
+    "signature": [
+      {
+        "card_id": 10282,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10521
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10536": {
+    "id": 10536,
+    "name": "Storm Spirit",
+    "type": 6,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Black",
+    "attack": 4,
+    "health": 6,
+    "bounty": 5,
+    "illustrator": "JiHun Lee",
+    "item_def": 110536,
+    "artwork": {
+      "artwork_id": 10536
+    },
+    "signature": [
+      {
+        "card_id": 10538,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10537
+    ],
+    "release_date": "2018-11-28"
+  }
+}

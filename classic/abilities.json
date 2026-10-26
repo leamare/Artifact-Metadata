@@ -1,0 +1,1929 @@
+{
+  "4001": {
+    "id": 4001,
+    "name": "Pack Leadership",
+    "type": 8,
+    "set": 0,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 4001
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-28",
+    "ability_of": [
+      4000
+    ],
+    "is_passive": true
+  },
+  "4006": {
+    "id": 4006,
+    "name": "Meticulous Planner",
+    "type": 8,
+    "set": 0,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 4006
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-28",
+    "ability_of": [
+      4005
+    ],
+    "is_passive": true
+  },
+  "4009": {
+    "id": 4009,
+    "name": "Wisdom of the Elders",
+    "type": 8,
+    "set": 0,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 4009
+    },
+    "release_date": "2018-11-28",
+    "cooldown": 4,
+    "ability_of": [
+      4008
+    ]
+  },
+  "10429": {
+    "id": 10429,
+    "name": "Poof",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "crosslane": true,
+    "references": [
+      10004
+    ],
+    "engine": {
+      "ability_rules": [
+        {
+          "lanes": 1,
+          "mod_duration": 1,
+          "auto": true,
+          "parent": true
+        }
+      ]
+    },
+    "release_date": "2018-11-28",
+    "cooldown": 2,
+    "ability_of": [
+      10004
+    ]
+  },
+  "10430": {
+    "id": 10430,
+    "name": "Arctic Burn",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "engine": {
+      "ability_rules": [
+        {
+          "lanes": 1,
+          "mod_duration": 2,
+          "auto": true,
+          "parent": true
+        }
+      ]
+    },
+    "release_date": "2018-11-28",
+    "cooldown": 2,
+    "ability_of": [
+      10010
+    ]
+  },
+  "10431": {
+    "id": 10431,
+    "name": "Borrowed Time",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10431
+    },
+    "engine": {
+      "ability_rules": [
+        {
+          "lanes": 1,
+          "mod_duration": 2,
+          "auto": true,
+          "parent": true
+        }
+      ]
+    },
+    "release_date": "2018-11-28",
+    "cooldown": 2,
+    "ability_of": [
+      10016
+    ]
+  },
+  "10432": {
+    "id": 10432,
+    "name": "Holy Persuasion",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10432
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Creep_Enemy_control",
+          "enemy_only": true,
+          "mod_duration": 1,
+          "creeps_only": true
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Creep_Enemy_control",
+          "enemy_only": true,
+          "mod_duration": 1,
+          "creeps_only": true
+        }
+      ],
+      "ability_rules": [
+        {
+          "hint": "#DCG_ActionHint_Creep_Enemy_control",
+          "enemy_only": true,
+          "mod_duration": 1,
+          "creeps_only": true
+        }
+      ]
+    },
+    "release_date": "2018-11-28",
+    "cooldown": 4,
+    "ability_of": [
+      10017
+    ]
+  },
+  "10434": {
+    "id": 10434,
+    "name": "Ravage",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10434
+    },
+    "engine": {
+      "ability_rules": [
+        {
+          "enemy_only": true,
+          "mod_duration": 2,
+          "auto": true,
+          "source_neighbors": -1
+        },
+        {
+          "enemy_only": true,
+          "mod_duration": 2,
+          "auto": true,
+          "not_source": true
+        }
+      ],
+      "cast_sound": "DCG_Spell.Ravage"
+    },
+    "release_date": "2018-11-28",
+    "cooldown": 4,
+    "ability_of": [
+      10024
+    ]
+  },
+  "10435": {
+    "id": 10435,
+    "name": "Laser",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10435
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_damage",
+          "enemy_only": true,
+          "mod_duration": 2
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_damage",
+          "enemy_only": true,
+          "mod_duration": 2
+        }
+      ],
+      "ability_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_damage",
+          "enemy_only": true,
+          "mod_duration": 2
+        }
+      ]
+    },
+    "release_date": "2018-11-28",
+    "cooldown": 3,
+    "ability_of": [
+      10025
+    ]
+  },
+  "10437": {
+    "id": 10437,
+    "name": "Call of the Wild",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10437
+    },
+    "references": [
+      10136
+    ],
+    "engine": {
+      "ability_rules": [
+        {
+          "lanes": 1,
+          "lane_pick": true,
+          "mod_duration": 1,
+          "auto": true
+        }
+      ]
+    },
+    "release_date": "2018-11-28",
+    "cooldown": 3,
+    "ability_of": [
+      10029
+    ]
+  },
+  "10438": {
+    "id": 10438,
+    "name": "Fissure",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10438
+    },
+    "engine": {
+      "ability_rules": [
+        {
+          "enemy_only": true,
+          "mod_duration": 2,
+          "auto": true,
+          "source_neighbors": -1
+        }
+      ]
+    },
+    "release_date": "2018-11-28",
+    "cooldown": 4,
+    "ability_of": [
+      10033
+    ]
+  },
+  "10440": {
+    "id": 10440,
+    "name": "Sacrifice",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10440
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_Ally_kill",
+          "allied_only": true,
+          "mod_duration": 1,
+          "not_source": true
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_Ally_kill",
+          "allied_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "ability_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_Ally_kill",
+          "allied_only": true,
+          "mod_duration": 1,
+          "not_source": true
+        }
+      ]
+    },
+    "release_date": "2018-11-28",
+    "cooldown": 2,
+    "ability_of": [
+      10038
+    ]
+  },
+  "10443": {
+    "id": 10443,
+    "name": "Purification",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10443
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_heal",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_heal",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "ability_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_heal",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28",
+    "cooldown": 2,
+    "ability_of": [
+      10044
+    ]
+  },
+  "10444": {
+    "id": 10444,
+    "name": "Nether Blast",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10444
+    },
+    "engine": {
+      "cast_sound": "DCG_Spell.Nether_Blast"
+    },
+    "release_date": "2018-11-28",
+    "cooldown": 3,
+    "ability_of": [
+      10048
+    ]
+  },
+  "10446": {
+    "id": 10446,
+    "name": "Headshot",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10446
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_damage",
+          "enemy_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_damage",
+          "enemy_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "ability_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_damage",
+          "enemy_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "precast_sound": "DCG_Spell.Headshot_PreCast"
+    },
+    "release_date": "2018-11-28",
+    "cooldown": 3,
+    "ability_of": [
+      10050
+    ]
+  },
+  "10449": {
+    "id": 10449,
+    "name": "Finger of Death",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10449
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_damage",
+          "targets_hero_only": true,
+          "enemy_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_damage",
+          "targets_hero_only": true,
+          "enemy_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "ability_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_damage",
+          "targets_hero_only": true,
+          "enemy_only": true,
+          "mod_duration": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28",
+    "cooldown": 1,
+    "ability_of": [
+      10060
+    ]
+  },
+  "10451": {
+    "id": 10451,
+    "name": "Concussive Shot",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10451
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "enemy_only": true,
+          "mod_armor": -2,
+          "mod_duration": 2,
+          "neighbors": true
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "enemy_only": true,
+          "mod_armor": -2,
+          "mod_duration": 2,
+          "neighbors": true
+        }
+      ],
+      "ability_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "enemy_only": true,
+          "mod_armor": -2,
+          "mod_duration": 2,
+          "neighbors": true
+        }
+      ],
+      "data_effect": true
+    },
+    "release_date": "2018-11-28",
+    "cooldown": 2,
+    "ability_of": [
+      10062
+    ]
+  },
+  "10452": {
+    "id": 10452,
+    "name": "Surge",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "crosslane": true,
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_Ally_move",
+          "allied_only": true,
+          "mod_duration": 1,
+          "not_source": true
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_Ally_move",
+          "allied_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "ability_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_Ally_move",
+          "allied_only": true,
+          "mod_duration": 1,
+          "not_source": true
+        }
+      ]
+    },
+    "release_date": "2018-11-28",
+    "cooldown": 2,
+    "ability_of": [
+      10068
+    ]
+  },
+  "10454": {
+    "id": 10454,
+    "name": "Sister of the Veil",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10077
+    },
+    "engine": {
+      "ability_rules": [
+        {
+          "lanes": 1,
+          "mod_duration": 1,
+          "auto": true,
+          "parent": true
+        }
+      ]
+    },
+    "ability_of": [
+      10077
+    ]
+  },
+  "10455": {
+    "id": 10455,
+    "name": "Rebel Decoy",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10080
+    },
+    "engine": {
+      "ability_rules": [
+        {
+          "lanes": 1,
+          "mod_duration": 1,
+          "auto": true,
+          "parent": true
+        }
+      ]
+    },
+    "ability_of": [
+      10080
+    ]
+  },
+  "10456": {
+    "id": 10456,
+    "name": "Mercenary Exiles",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10094
+    },
+    "ability_of": [
+      10094
+    ]
+  },
+  "10457": {
+    "id": 10457,
+    "name": "Emissary of the Quorum",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10096
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "allied_only": true,
+          "mod_attack": 2,
+          "mod_health": 2,
+          "mod_duration": 1,
+          "auto": true
+        }
+      ],
+      "ability_rules": [
+        {
+          "allied_only": true,
+          "mod_attack": 2,
+          "mod_health": 2,
+          "mod_duration": 1,
+          "auto": true
+        }
+      ],
+      "lane_rules": [
+        {
+          "allied_only": true,
+          "mod_attack": 2,
+          "mod_health": 2,
+          "mod_duration": 1,
+          "auto": true
+        }
+      ],
+      "data_effect": true
+    },
+    "ability_of": [
+      10096
+    ]
+  },
+  "10459": {
+    "id": 10459,
+    "name": "Ravenous Mass",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10116
+    },
+    "engine": {
+      "ability_rules": [
+        {
+          "allied_only": true,
+          "mod_duration": 1,
+          "auto": true,
+          "source_neighbors": 1
+        }
+      ]
+    },
+    "ability_of": [
+      10116
+    ]
+  },
+  "10462": {
+    "id": 10462,
+    "name": "Unsupervised Artillery",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10162
+    },
+    "engine": {
+      "ability_rules": [
+        {
+          "enemy_only": true,
+          "mod_duration": 1,
+          "auto": true,
+          "towers": true
+        }
+      ]
+    },
+    "ability_of": [
+      10162
+    ]
+  },
+  "10463": {
+    "id": 10463,
+    "name": "Revtel Investments",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10164
+    },
+    "engine": {
+      "ability_rules": [
+        {
+          "lanes": 1,
+          "mod_duration": 1,
+          "auto": true,
+          "parent": true
+        }
+      ],
+      "has_triggers": true,
+      "trigger_count": 1,
+      "has_charges": true
+    },
+    "ability_of": [
+      10164
+    ]
+  },
+  "10464": {
+    "id": 10464,
+    "name": "Aghanim's Sanctum",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10175
+    },
+    "ability_of": [
+      10175
+    ]
+  },
+  "10465": {
+    "id": 10465,
+    "name": "Escape Route",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10176
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_Ally_return",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_Ally_return",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "ability_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_Ally_return",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "cast_sound": "DCG_Abilities.GetOuttaHere"
+    },
+    "ability_of": [
+      10176
+    ]
+  },
+  "10466": {
+    "id": 10466,
+    "name": "Messenger Rookery",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10180
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_Ally",
+          "allied_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_Ally",
+          "allied_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "ability_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_Ally",
+          "allied_only": true,
+          "mod_duration": 1
+        },
+        {
+          "lanes": 1,
+          "mod_duration": 1,
+          "auto": true,
+          "native": true
+        }
+      ]
+    },
+    "ability_of": [
+      10180
+    ]
+  },
+  "10467": {
+    "id": 10467,
+    "name": "Keenfolk Turret",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10184
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_damage",
+          "enemy_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_damage",
+          "enemy_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "ability_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_damage",
+          "enemy_only": true,
+          "mod_duration": 1
+        }
+      ]
+    },
+    "ability_of": [
+      10184
+    ]
+  },
+  "10468": {
+    "id": 10468,
+    "name": "Steam Cannon",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "crosslane": true,
+    "artwork": {
+      "artwork_id": 10185
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_damage_AnyLane",
+          "enemy_only": true,
+          "lanes": 1,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_damage_AnyLane",
+          "enemy_only": true,
+          "lanes": 1,
+          "mod_duration": 1
+        }
+      ],
+      "ability_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_damage_AnyLane",
+          "enemy_only": true,
+          "lanes": 1,
+          "mod_duration": 1
+        }
+      ]
+    },
+    "ability_of": [
+      10185
+    ]
+  },
+  "10469": {
+    "id": 10469,
+    "name": "Assassin's Veil",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10202
+    },
+    "engine": {
+      "ability_rules": [
+        {
+          "lanes": 1,
+          "mod_duration": 1,
+          "auto": true,
+          "parent": true
+        }
+      ]
+    },
+    "ability_of": [
+      10202
+    ]
+  },
+  "10470": {
+    "id": 10470,
+    "name": "Phase Boots",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10203
+    },
+    "engine": {
+      "ability_rules": [
+        {
+          "lanes": 1,
+          "mod_duration": 1,
+          "auto": true,
+          "parent": true
+        }
+      ]
+    },
+    "ability_of": [
+      10203
+    ]
+  },
+  "10471": {
+    "id": 10471,
+    "name": "Blink Dagger",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "crosslane": true,
+    "artwork": {
+      "artwork_id": 10206
+    },
+    "engine": {
+      "ability_rules": [
+        {
+          "lanes": 1,
+          "mod_duration": 1,
+          "auto": true,
+          "parent": true
+        }
+      ]
+    },
+    "ability_of": [
+      10206
+    ]
+  },
+  "10473": {
+    "id": 10473,
+    "name": "Rumusque Vestments",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10217
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_heal",
+          "allied_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_heal",
+          "allied_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "ability_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_heal",
+          "allied_only": true,
+          "mod_duration": 1
+        }
+      ]
+    },
+    "ability_of": [
+      10217
+    ]
+  },
+  "10474": {
+    "id": 10474,
+    "name": "Keenfolk Musket",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10218
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_damage",
+          "enemy_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_damage",
+          "enemy_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "ability_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_damage",
+          "enemy_only": true,
+          "mod_duration": 1
+        }
+      ]
+    },
+    "ability_of": [
+      10218
+    ]
+  },
+  "10476": {
+    "id": 10476,
+    "name": "Bracers of Sacrifice",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10222
+    },
+    "engine": {
+      "ability_rules": [
+        {
+          "enemy_only": true,
+          "mod_duration": 1,
+          "auto": true,
+          "source_neighbors": -1
+        },
+        {
+          "lanes": 1,
+          "mod_duration": 1,
+          "auto": true,
+          "parent": true
+        }
+      ]
+    },
+    "ability_of": [
+      10222
+    ]
+  },
+  "10477": {
+    "id": 10477,
+    "name": "Helm of the Dominator",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10224
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Creep_Enemy_control",
+          "enemy_only": true,
+          "mod_duration": 1,
+          "creeps_only": true
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Creep_Enemy_control",
+          "enemy_only": true,
+          "mod_duration": 1,
+          "creeps_only": true
+        }
+      ],
+      "ability_rules": [
+        {
+          "hint": "#DCG_ActionHint_Creep_Enemy_control",
+          "enemy_only": true,
+          "mod_duration": 1,
+          "creeps_only": true
+        }
+      ]
+    },
+    "ability_of": [
+      10224
+    ]
+  },
+  "10478": {
+    "id": 10478,
+    "name": "Wingfall Hammer",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10226
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "lanes": 1,
+          "mod_keywords": {
+            "regeneration": 1
+          },
+          "mod_duration": 2,
+          "neighbors": true,
+          "auto": true,
+          "parent": true
+        }
+      ],
+      "ability_rules": [
+        {
+          "lanes": 1,
+          "mod_keywords": {
+            "regeneration": 1
+          },
+          "mod_duration": 2,
+          "neighbors": true,
+          "auto": true,
+          "parent": true
+        }
+      ],
+      "lane_rules": [
+        {
+          "lanes": 1,
+          "mod_keywords": {
+            "regeneration": 1
+          },
+          "mod_duration": 2,
+          "neighbors": true,
+          "auto": true,
+          "parent": true
+        }
+      ]
+    },
+    "ability_of": [
+      10226
+    ]
+  },
+  "10480": {
+    "id": 10480,
+    "name": "Book of the Dead",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10235
+    },
+    "references": [
+      1009,
+      1006
+    ],
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1,
+      "has_charges": true
+    },
+    "ability_of": [
+      10235
+    ]
+  },
+  "10481": {
+    "id": 10481,
+    "name": "Shiva's Guard",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10248
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_modify",
+          "targets_hero_only": true,
+          "enemy_only": true,
+          "mod_attack": -2,
+          "mod_duration": 1,
+          "neighbors": true
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_modify",
+          "targets_hero_only": true,
+          "enemy_only": true,
+          "mod_attack": -2,
+          "mod_duration": 1,
+          "neighbors": true
+        }
+      ],
+      "ability_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_modify",
+          "targets_hero_only": true,
+          "enemy_only": true,
+          "mod_attack": -2,
+          "mod_duration": 1,
+          "neighbors": true
+        }
+      ],
+      "data_effect": true
+    },
+    "ability_of": [
+      10248
+    ]
+  },
+  "10483": {
+    "id": 10483,
+    "name": "Horn of the Alpha",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10260
+    },
+    "references": [
+      10102
+    ],
+    "engine": {
+      "ability_rules": [
+        {
+          "lanes": 1,
+          "lane_pick": true,
+          "mod_duration": 1,
+          "auto": true
+        }
+      ]
+    },
+    "ability_of": [
+      10260
+    ]
+  },
+  "10484": {
+    "id": 10484,
+    "name": "Nyctasha's Guard",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10262
+    },
+    "engine": {
+      "ability_rules": [
+        {
+          "enemy_only": true,
+          "mod_duration": 1,
+          "auto": true,
+          "source_neighbors": -1
+        }
+      ]
+    },
+    "ability_of": [
+      10262
+    ]
+  },
+  "10489": {
+    "id": 10489,
+    "name": "Lucent Beam",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "references": [
+      10007
+    ],
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28",
+    "ability_of": [
+      10006
+    ],
+    "is_passive": true
+  },
+  "10490": {
+    "id": 10490,
+    "name": "United We Fall",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10490
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-28",
+    "ability_of": [
+      10004
+    ],
+    "is_passive": true
+  },
+  "10491": {
+    "id": 10491,
+    "name": "Venomous Nature",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10491
+    },
+    "references": [
+      10003
+    ],
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28",
+    "cooldown": 1,
+    "ability_of": [
+      10001
+    ],
+    "is_passive": true
+  },
+  "10494": {
+    "id": 10494,
+    "name": "Feral Impulse",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10494
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-28",
+    "ability_of": [
+      10014
+    ],
+    "is_passive": true
+  },
+  "10496": {
+    "id": 10496,
+    "name": "Blood Bath",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10496
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28",
+    "ability_of": [
+      10018
+    ],
+    "is_passive": true
+  },
+  "10497": {
+    "id": 10497,
+    "name": "Return",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10497
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-28",
+    "ability_of": [
+      10021
+    ],
+    "is_passive": true
+  },
+  "10498": {
+    "id": 10498,
+    "name": "Reactive Armor",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10498
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-28",
+    "cooldown": 1,
+    "ability_of": [
+      10022
+    ],
+    "is_passive": true
+  },
+  "10499": {
+    "id": 10499,
+    "name": "Jinada",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10499
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28",
+    "ability_of": [
+      10023
+    ],
+    "is_passive": true
+  },
+  "10500": {
+    "id": 10500,
+    "name": "Relentless Rebel",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10500
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-28",
+    "ability_of": [
+      10026
+    ],
+    "is_passive": true
+  },
+  "10501": {
+    "id": 10501,
+    "name": "Corrosive Skin",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10501
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28",
+    "ability_of": [
+      10028
+    ],
+    "is_passive": true
+  },
+  "10502": {
+    "id": 10502,
+    "name": "Barroom Brawler",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10502
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28",
+    "ability_of": [
+      10030
+    ],
+    "is_passive": true
+  },
+  "10503": {
+    "id": 10503,
+    "name": "Bringer of Conquest",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10503
+    },
+    "references": [
+      1006
+    ],
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-28",
+    "ability_of": [
+      10031
+    ],
+    "is_passive": true
+  },
+  "10504": {
+    "id": 10504,
+    "name": "Precision Aura",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10504
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-28",
+    "ability_of": [
+      10032
+    ],
+    "is_passive": true
+  },
+  "10506": {
+    "id": 10506,
+    "name": "Nature's Attendants",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10506
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-28",
+    "ability_of": [
+      10036
+    ],
+    "is_passive": true
+  },
+  "10509": {
+    "id": 10509,
+    "name": "Multicast",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10509
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1,
+      "cast_sound": "DCG_Spell.Multicast"
+    },
+    "release_date": "2018-11-28",
+    "ability_of": [
+      10043
+    ],
+    "is_passive": true
+  },
+  "10511": {
+    "id": 10511,
+    "name": "Essence Aura",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10511
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28",
+    "ability_of": [
+      10046
+    ],
+    "is_passive": true
+  },
+  "10512": {
+    "id": 10512,
+    "name": "Efficient Killer",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10512
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-28",
+    "ability_of": [
+      10047
+    ],
+    "is_passive": true
+  },
+  "10513": {
+    "id": 10513,
+    "name": "Great Cleave",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10513
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-28",
+    "ability_of": [
+      10054
+    ],
+    "is_passive": true
+  },
+  "10514": {
+    "id": 10514,
+    "name": "Branches of Iron",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10514
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-28",
+    "ability_of": [
+      10056
+    ],
+    "is_passive": true
+  },
+  "10516": {
+    "id": 10516,
+    "name": "Warmonger",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10516
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-28",
+    "ability_of": [
+      10058
+    ],
+    "is_passive": true
+  },
+  "10517": {
+    "id": 10517,
+    "name": "Sadist",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10517
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28",
+    "ability_of": [
+      10059
+    ],
+    "is_passive": true
+  },
+  "10518": {
+    "id": 10518,
+    "name": "Arcane Aura",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10518
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28",
+    "ability_of": [
+      10064
+    ],
+    "is_passive": true
+  },
+  "10519": {
+    "id": 10519,
+    "name": "Static Field",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10519
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28",
+    "ability_of": [
+      10065
+    ],
+    "is_passive": true
+  },
+  "10520": {
+    "id": 10520,
+    "name": "Moment of Courage",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10520
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-28",
+    "ability_of": [
+      10069
+    ],
+    "is_passive": true
+  },
+  "10521": {
+    "id": 10521,
+    "name": "Fury Swipes",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10521
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28",
+    "ability_of": [
+      10070
+    ],
+    "is_passive": true
+  },
+  "10523": {
+    "id": 10523,
+    "name": "Bringer of the Faithful",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10523
+    },
+    "references": [
+      1006
+    ],
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28",
+    "ability_of": [
+      10053
+    ],
+    "is_passive": true
+  },
+  "10524": {
+    "id": 10524,
+    "name": "Ravenhook",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10115
+    },
+    "engine": {
+      "ability_rules": [
+        {
+          "lanes": 1,
+          "mod_duration": 1,
+          "auto": true,
+          "parent": true,
+          "blocker": true
+        }
+      ]
+    },
+    "ability_of": [
+      10115
+    ]
+  },
+  "10537": {
+    "id": 10537,
+    "name": "Overload",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10537
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28",
+    "ability_of": [
+      10536
+    ],
+    "is_passive": true
+  },
+  "10539": {
+    "id": 10539,
+    "name": "Cheating Death",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10181
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_modify",
+          "allied_only": true,
+          "mod_duration": 2
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_modify",
+          "allied_only": true,
+          "mod_duration": 2
+        }
+      ],
+      "ability_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_modify",
+          "allied_only": true,
+          "mod_duration": 2
+        }
+      ]
+    },
+    "ability_of": [
+      10181
+    ]
+  },
+  "10540": {
+    "id": 10540,
+    "name": "Demagicking Maul",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10210
+    },
+    "ability_of": [
+      10210
+    ]
+  },
+  "10541": {
+    "id": 10541,
+    "name": "Apotheosis Blade",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10263
+    },
+    "engine": {
+      "ability_rules": [
+        {
+          "enemy_only": true,
+          "mod_duration": 1,
+          "auto": true,
+          "improvements": true
+        },
+        {
+          "lanes": 1,
+          "mod_duration": 1,
+          "auto": true,
+          "parent": true,
+          "blocker": true
+        }
+      ]
+    },
+    "ability_of": [
+      10263
+    ]
+  },
+  "10542": {
+    "id": 10542,
+    "name": "Satyr Magician",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10137
+    },
+    "ability_of": [
+      10137
+    ]
+  },
+  "10543": {
+    "id": 10543,
+    "name": "Assassin's Apprentice",
+    "type": 8,
+    "set": 1,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10129
+    },
+    "engine": {
+      "ability_rules": [
+        {
+          "lanes": 1,
+          "mod_duration": 1,
+          "auto": true,
+          "parent": true
+        }
+      ]
+    },
+    "ability_of": [
+      10129
+    ]
+  }
+}

@@ -1,0 +1,988 @@
+{
+  "keywords": {
+    "0": {
+      "name": "Hero",
+      "words": [
+        "hero",
+        "heroes"
+      ],
+      "glossary_key": "DCG_Glossary_Hero",
+      "title": "Hero",
+      "description": "A hero is a unit that allows you to play cards of its color in its lane. A hero can equip items. When it is killed, it is worth 5 Bounty to the opponent and returns to the Fountain to be redeployed later.",
+      "example_cards": [
+        3000,
+        3001,
+        3002,
+        3006,
+        4004
+      ]
+    },
+    "1": {
+      "name": "Creep",
+      "words": [
+        "creep",
+        "creeps"
+      ],
+      "glossary_key": "DCG_Glossary_Creep",
+      "title": "Creep",
+      "description": "A creep is a non-hero unit. Unlike a hero, a creep cannot equip items, and does not return to play after it is killed. It is worth 1 Bounty to the opponent when killed.",
+      "example_cards": [
+        7002,
+        10017,
+        10084,
+        10182,
+        10224
+      ]
+    },
+    "2": {
+      "name": "Tower",
+      "words": [
+        "tower",
+        "towers"
+      ],
+      "glossary_key": "DCG_Glossary_Tower",
+      "title": "Tower",
+      "description": "Each lane contains an allied tower that must be defended and an enemy tower that must be destroyed. The objective of the game is to destroy any 2 enemy towers. The tower can be a target of some spells and abilities.",
+      "example_cards": [
+        4005,
+        4006,
+        6000,
+        6003,
+        6007
+      ]
+    },
+    "3": {
+      "name": "Improvement",
+      "words": [
+        "improvement",
+        "improvements"
+      ],
+      "glossary_key": "DCG_Glossary_Improvement",
+      "title": "Improvement",
+      "description": "An improvement (▩) is a card that has a permanent effect on a tower. Improvements are cross lane cards (when played, they use mana and heroes from the active lane, but can be played into any lane.) Improvements are not units and do not occupy combat positions.",
+      "example_cards": [
+        6005,
+        10048,
+        10194,
+        10210,
+        10211
+      ]
+    },
+    "4": {
+      "name": "Spell",
+      "words": [
+        "spell",
+        "spells"
+      ],
+      "glossary_key": "DCG_Glossary_Spell",
+      "title": "Spell",
+      "description": "A spell (▪) is a card that has a one-time effect and is then removed from the game. Spells deal damage, modify objects in play temporarily or permanently, summon units, or draw cards.",
+      "example_cards": [
+        10043,
+        10064,
+        10173,
+        10182,
+        10509
+      ]
+    },
+    "5": {
+      "name": "Item",
+      "words": [
+        "item"
+      ],
+      "glossary_key": "DCG_Glossary_Item",
+      "title": "Item",
+      "description": "An item is a card that can be purchased during the shopping phase using gold. A Weapon, Armor, or Accessory item is equipped onto a hero to buff its stats. A consumable item has a one-time effect and is then removed from the game.",
+      "example_cards": [
+        10115,
+        10196,
+        10216,
+        10255,
+        10263
+      ]
+    },
+    "200": {
+      "name": "Before the action phase",
+      "words": [
+        "Before the action phase",
+        "before the action phase"
+      ],
+      "example_cards": [
+        10003,
+        10006,
+        10023,
+        10148,
+        10155
+      ]
+    },
+    "202": {
+      "name": "After the combat phase",
+      "words": [
+        "After the combat phase",
+        "after the combat phase"
+      ],
+      "example_cards": [
+        10084,
+        10111,
+        10112,
+        10113,
+        10114
+      ]
+    },
+    "203": {
+      "name": "Combat phase",
+      "words": [
+        "combat phase"
+      ],
+      "example_cards": [
+        10324,
+        10326,
+        10404,
+        10536,
+        10537
+      ]
+    },
+    "204": {
+      "name": "Deployment phase",
+      "words": [
+        "deployment phase"
+      ],
+      "example_cards": [
+        7009,
+        10001,
+        10053,
+        10147,
+        10491
+      ]
+    },
+    "205": {
+      "name": "Shopping phase",
+      "words": [
+        "shopping phase"
+      ],
+      "example_cards": [
+        7001,
+        7010
+      ]
+    },
+    "300": {
+      "name": "Fountain",
+      "words": [
+        "Fountain"
+      ],
+      "glossary_key": "DCG_Glossary_Fountain",
+      "title": "Fountain",
+      "description": "When heroes die they are placed in the Fountain zone for a full round before becoming ready to redeploy. When heroes enter the Fountain they are fully healed and temporary effects on them are purged.",
+      "example_cards": [
+        3006,
+        10176,
+        10191,
+        10465
+      ]
+    },
+    "400": {
+      "name": "Battle",
+      "words": [
+        "battle"
+      ],
+      "glossary_key": "DCG_Glossary_Battle",
+      "title": "Battle",
+      "description": "When a unit battles, it deals its Attack damage to its target. When units battle each other, they deal their damage simultaneously. Combat attributes such as Armor, Retaliate, and Piercing are applied.",
+      "example_cards": [
+        10011,
+        10328,
+        10341,
+        10360
+      ]
+    },
+    "401": {
+      "name": "Modify",
+      "words": [
+        "Modify",
+        "modify"
+      ],
+      "glossary_key": "DCG_Glossary_Modify",
+      "title": "Modify",
+      "description": "When an effect modifies another card it applies a permanent buff or debuff to the target. Heroes retain modifiers through death.",
+      "example_cards": [
+        4004,
+        6028,
+        7001,
+        7009,
+        10028
+      ]
+    },
+    "402": {
+      "name": "Purge",
+      "words": [
+        "Purge"
+      ],
+      "glossary_key": "DCG_Glossary_Purge",
+      "title": "Purge",
+      "description": "Removes modifications and temporary effects, but not damage. Purging does not affect base abilities or external effects, such as those from equipped items and continuous effects from neighbors or improvements.",
+      "example_cards": [
+        10256,
+        10287,
+        10382
+      ]
+    },
+    "403": {
+      "name": "Taunts",
+      "words": [
+        "taunts"
+      ],
+      "glossary_key": "DCG_Glossary_Taunt",
+      "title": "Taunt",
+      "description": "When a unit taunts all of its enemy neighbors change their combat target to that unit.",
+      "example_cards": [
+        10342,
+        10418
+      ]
+    },
+    "404": {
+      "name": "Disarm",
+      "words": [
+        "Disarm",
+        "disarm"
+      ],
+      "glossary_key": "DCG_Glossary_Disarm",
+      "title": "Disarm",
+      "description": "A disarmed unit does not attack its target during battles.",
+      "example_cards": [
+        6024,
+        10011,
+        10025,
+        10155,
+        10277
+      ]
+    },
+    "405": {
+      "name": "Stun",
+      "words": [
+        "Stun",
+        "stun"
+      ],
+      "glossary_key": "DCG_Glossary_Stun",
+      "title": "Stun",
+      "description": "A stunned unit is silenced (cannot use any active abilities and cannot be used to play cards of its color) and disarmed (does not attack its target during battles).",
+      "example_cards": [
+        6023,
+        10024,
+        10033,
+        10187,
+        10267
+      ]
+    },
+    "406": {
+      "name": "Silence",
+      "words": [
+        "Silence"
+      ],
+      "glossary_key": "DCG_Glossary_Silence",
+      "title": "Silence",
+      "description": "A silenced unit cannot use its active abilities or item active abilities. A silenced hero cannot be used to play cards of its color.",
+      "example_cards": [
+        6027,
+        10289,
+        10339,
+        10420
+      ]
+    },
+    "407": {
+      "name": "Lock",
+      "words": [
+        "Lock",
+        "lock"
+      ],
+      "glossary_key": "DCG_Glossary_Locked",
+      "title": "Lock",
+      "description": "A delay that prevents the card from being played for that many rounds. Lock decreases at the end of the round.",
+      "example_cards": [
+        6022,
+        10148,
+        10241,
+        10298,
+        10359
+      ]
+    },
+    "408": {
+      "name": "Condemn",
+      "words": [
+        "Condemn",
+        "condemn"
+      ],
+      "glossary_key": "DCG_Glossary_Condemn",
+      "title": "Condemn",
+      "description": "Mark a unit, improvement, or equipment for death. Death Shields may save a condemned unit, but Damage Immunity does not.",
+      "example_cards": [
+        6003,
+        6005,
+        6009,
+        6026,
+        10038
+      ]
+    },
+    "409": {
+      "name": "Summon",
+      "words": [
+        "Summon",
+        "summon"
+      ],
+      "glossary_key": "DCG_Glossary_Summon",
+      "title": "Summon",
+      "description": "Create a unit and immediately put it into a random empty combat position.",
+      "example_cards": [
+        10001,
+        10002,
+        10005,
+        10029,
+        10053
+      ]
+    },
+    "500": {
+      "name": "Bounty",
+      "words": [
+        "Bounty"
+      ],
+      "glossary_key": "DCG_Glossary_Bounty",
+      "title": "Bounty",
+      "description": "The amount of gold awarded to the opponent when this unit dies.",
+      "example_cards": [
+        7002,
+        10207,
+        10416
+      ]
+    },
+    "501": {
+      "name": "Siege",
+      "words": [
+        "Siege"
+      ],
+      "glossary_key": "DCG_Glossary_Siege",
+      "title": "Siege",
+      "description": "When blocked during the combat phase, in addition to battle damage to the blocking unit, also deal the Siege damage to the enemy tower.",
+      "example_cards": [
+        10085,
+        10102,
+        10141,
+        10150,
+        10223
+      ]
+    },
+    "502": {
+      "name": "Cleave",
+      "words": [
+        "Cleave"
+      ],
+      "glossary_key": "DCG_Glossary_Cleave",
+      "title": "Cleave",
+      "description": "When blocked during the combat phase, in addition to battle damage to the blocking unit, also deal the Cleave damage to that unit's neighbors.",
+      "example_cards": [
+        10054,
+        10133,
+        10178,
+        10212,
+        10280
+      ]
+    },
+    "503": {
+      "name": "Retaliate",
+      "words": [
+        "Retaliate"
+      ],
+      "glossary_key": "DCG_Glossary_Retaliate",
+      "title": "Retaliate",
+      "description": "When attacked during a battle (even outside of the combat phase), deal this much extra damage to the attackers.",
+      "example_cards": [
+        10021,
+        10069,
+        10174,
+        10208,
+        10281
+      ]
+    },
+    "504": {
+      "name": "Armor",
+      "words": [
+        "Armor"
+      ],
+      "glossary_key": "DCG_Glossary_Armor",
+      "title": "Armor",
+      "description": "Armor reduces each incoming damage source by that amount.",
+      "example_cards": [
+        3001,
+        4000,
+        4001,
+        4002,
+        4004
+      ]
+    },
+    "505": {
+      "name": "Regeneration",
+      "words": [
+        "Regeneration"
+      ],
+      "glossary_key": "DCG_Glossary_Regeneration",
+      "title": "Regeneration",
+      "description": "The unit heals this amount during the combat phase. Regeneration is applied before checking for death.",
+      "example_cards": [
+        10036,
+        10152,
+        10170,
+        10220,
+        10226
+      ]
+    },
+    "506": {
+      "name": "Death Shield",
+      "words": [
+        "Death Shield"
+      ],
+      "glossary_key": "DCG_Glossary_DeathShield",
+      "title": "Death Shield",
+      "description": "If a unit would die, instead remove its death shield and it survives with 1 Health. A unit may only have one death shield at a time.",
+      "example_cards": [
+        10090,
+        10181,
+        10539
+      ]
+    },
+    "507": {
+      "name": "Damage Immunity",
+      "words": [
+        "Damage Immunity"
+      ],
+      "glossary_key": "DCG_Glossary_DamageImmunity",
+      "title": "Damage Immunity",
+      "description": "A unit with Damage Immunity does not take damage. It will still die if condemned.",
+      "example_cards": [
+        10016,
+        10267,
+        10338,
+        10340,
+        10378
+      ]
+    },
+    "508": {
+      "name": "Piercing",
+      "words": [
+        "piercing"
+      ],
+      "glossary_key": "DCG_Glossary_Piercing",
+      "title": "Piercing",
+      "description": "Piercing damage is not reduced by the target's armor.",
+      "example_cards": [
+        10003,
+        10006,
+        10007,
+        10060,
+        10103
+      ]
+    },
+    "509": {
+      "name": "Attack",
+      "words": [
+        "Attack"
+      ],
+      "glossary_key": "DCG_Glossary_Attack",
+      "title": "Attack",
+      "description": "The amount of damage a unit deals during battle.",
+      "example_cards": [
+        3002,
+        4004,
+        7009,
+        10010,
+        10014
+      ]
+    },
+    "510": {
+      "name": "Health",
+      "words": [
+        "Health"
+      ],
+      "glossary_key": "DCG_Glossary_Health",
+      "title": "Health",
+      "description": "The amount of damage a unit can sustain before dying. Damage persists across rounds.",
+      "example_cards": [
+        3000,
+        7004,
+        10059,
+        10094,
+        10096
+      ]
+    },
+    "511": {
+      "name": "Mana",
+      "words": [
+        "Mana",
+        "mana"
+      ],
+      "glossary_key": "DCG_Glossary_ManaModifier",
+      "title": "Mana",
+      "description": "Current mana. Resource required to cast spells.",
+      "example_cards": [
+        6000,
+        7001,
+        10046,
+        10064,
+        10078
+      ]
+    },
+    "512": {
+      "name": "Soulbound",
+      "words": [
+        "Soulbound"
+      ],
+      "glossary_key": "DCG_Glossary_Soulbound",
+      "title": "Soulbound",
+      "description": "When an allied unit with soulbound dies, all other allied units in any lane with the same name also die.",
+      "example_cards": [
+        10004,
+        10490
+      ]
+    },
+    "600": {
+      "name": "Enemy neighbors",
+      "words": [
+        "enemy neighbor",
+        "enemy neighbors"
+      ],
+      "glossary_key": "DCG_Glossary_EnemyNeighbors",
+      "title": "Enemy Neighbors",
+      "description": "Any enemies in the three enemy combat positions closest to this unit.",
+      "example_cards": [
+        10003,
+        10004,
+        10024,
+        10033,
+        10059
+      ]
+    },
+    "601": {
+      "name": "Allied neighbors",
+      "words": [
+        "allied neighbor",
+        "allied neighbors"
+      ],
+      "glossary_key": "DCG_Glossary_AlliedNeighbors",
+      "title": "Allied Neighbors",
+      "description": "The units directly to the left and right of a unit.",
+      "example_cards": [
+        4000,
+        4001,
+        4002,
+        6004,
+        10011
+      ]
+    },
+    "602": {
+      "name": "Play Effect",
+      "words": [
+        "Play Effect"
+      ],
+      "glossary_key": "DCG_Glossary_PlayEffect",
+      "title": "Play Effect",
+      "description": "An additional effect that is processed at the time you play this creep.",
+      "example_cards": [
+        7006,
+        10076,
+        10079,
+        10090,
+        10092
+      ]
+    },
+    "603": {
+      "name": "Death Effect",
+      "words": [
+        "Death Effect"
+      ],
+      "glossary_key": "DCG_Glossary_DeathEffect",
+      "title": "Death Effect",
+      "description": "An effect that is processed after this unit dies.",
+      "example_cards": [
+        10107
+      ]
+    },
+    "604": {
+      "name": "Get initiative",
+      "words": [
+        "Get initiative"
+      ],
+      "glossary_key": "DCG_Glossary_Initiative",
+      "title": "&#9634; Get Initiative",
+      "description": "After you play this spell, you get the initiative coin and may immediately take another action. If you use this action to pass, you will retain initiative and may act first in the next lane.",
+      "example_cards": [
+        6002,
+        6003,
+        6004,
+        6005,
+        6006
+      ]
+    },
+    "606": {
+      "name": "Unblocked",
+      "words": [
+        "unblocked"
+      ],
+      "glossary_key": "DCG_Glossary_Unblocked",
+      "title": "Unblocked",
+      "description": "A unit is unblocked if its combat target is the tower.",
+      "example_cards": [
+        10162,
+        10210,
+        10462,
+        10540
+      ]
+    },
+    "607": {
+      "name": "Unit",
+      "words": [
+        "unit"
+      ],
+      "glossary_key": "DCG_Glossary_Unit",
+      "title": "Unit",
+      "description": "A unit is any creep or hero in a combat position. Towers are not units.",
+      "example_cards": [
+        3003,
+        3004,
+        4007,
+        4010,
+        6002
+      ]
+    },
+    "609": {
+      "name": "Battle damage",
+      "words": [
+        "battle damage"
+      ],
+      "glossary_key": "DCG_Glossary_BattleDamage",
+      "title": "Battle Damage",
+      "description": "Any damage assigned during a battle, most often during the combat phase.",
+      "example_cards": [
+        10028,
+        10070,
+        10084,
+        10118,
+        10132
+      ]
+    },
+    "610": {
+      "name": "Rapid Deployment",
+      "words": [
+        "Rapid Deployment"
+      ],
+      "glossary_key": "DCG_Glossary_RapidDeployment",
+      "title": "Rapid Deployment",
+      "description": "When a hero with Rapid Deployment dies, it is immediately ready for deployment, so it can be deployed at the start of the next round.",
+      "example_cards": [
+        7007,
+        10026,
+        10225,
+        10500
+      ]
+    },
+    "611": {
+      "name": "Pierce",
+      "words": [
+        "Pierce"
+      ],
+      "glossary_key": "DCG_Glossary_Pierce",
+      "title": "Pierce",
+      "description": "Damage from a unit with Pierce is not reduced by the target's armor.",
+      "example_cards": [
+        10256,
+        10316
+      ]
+    }
+  },
+  "glossary": {
+    "Creep": {
+      "title": "Creep",
+      "description": "A creep is a non-hero unit. Unlike a hero, a creep cannot equip items, and does not return to play after it is killed. It is worth 1 Bounty to the opponent when killed."
+    },
+    "Hero": {
+      "title": "Hero",
+      "description": "A hero is a unit that allows you to play cards of its color in its lane. A hero can equip items. When it is killed, it is worth 5 Bounty to the opponent and returns to the Fountain to be redeployed later."
+    },
+    "Tower": {
+      "title": "Tower",
+      "description": "Each lane contains an allied tower that must be defended and an enemy tower that must be destroyed. The objective of the game is to destroy any 2 enemy towers. The tower can be a target of some spells and abilities."
+    },
+    "Improvement": {
+      "title": "Improvement",
+      "description": "An improvement (▩) is a card that has a permanent effect on a tower. Improvements are cross lane cards (when played, they use mana and heroes from the active lane, but can be played into any lane.) Improvements are not units and do not occupy combat positions."
+    },
+    "Spell": {
+      "title": "Spell",
+      "description": "A spell (▪) is a card that has a one-time effect and is then removed from the game. Spells deal damage, modify objects in play temporarily or permanently, summon units, or draw cards."
+    },
+    "Item": {
+      "title": "Item",
+      "description": "An item is a card that can be purchased during the shopping phase using gold. A Weapon, Armor, or Accessory item is equipped onto a hero to buff its stats. A consumable item has a one-time effect and is then removed from the game."
+    },
+    "WeaponItem": {
+      "title": "Weapon Item",
+      "description": "A type of item that is equipped in a hero's weapon slot. All weapons increase a hero's Attack."
+    },
+    "ArmorItem": {
+      "title": "Armor Item",
+      "description": "A type of item that is equipped in a hero's armor slot. All armors increase a hero's Armor."
+    },
+    "AccessoryItem": {
+      "title": "Accessory Item",
+      "description": "A type of item that is equipped in a hero's accessory slot. All accessories increase a hero's Health."
+    },
+    "ConsumableItem": {
+      "title": "Consumable",
+      "description": "A type of item that is not equipped and is played during the action phase like a spell. Consumables do not cost mana to play and may be played without a hero in the lane."
+    },
+    "CombatPhase": {
+      "title": "Lane Phases",
+      "description": "There are four phases in each lane.\n\nBefore the action phase: Many reactive abilities trigger automatically. All triggers happen simultaneously.\nAction phase: Players alternate playing cards or abilities.\nCombat phase: Each unit battles its combat target simultaneously.\nAfter the combat phase: Many reactive abilities trigger automatically. All triggers happen simultaneously."
+    },
+    "ActionPhase": {
+      "title": "Lane Phases",
+      "description": "There are four phases in each lane.\n\nBefore the action phase: Many reactive abilities trigger automatically. All triggers happen simultaneously.\nAction phase: Players alternate playing cards or abilities.\nCombat phase: Each unit battles its combat target simultaneously.\nAfter the combat phase: Many reactive abilities trigger automatically. All triggers happen simultaneously."
+    },
+    "BeforeActionPhase": {
+      "title": "Lane Phases",
+      "description": "There are four phases in each lane.\n\nBefore the action phase: Many reactive abilities trigger automatically. All triggers happen simultaneously.\nAction phase: Players alternate playing cards or abilities.\nCombat phase: Each unit battles its combat target simultaneously.\nAfter the combat phase: Many reactive abilities trigger automatically. All triggers happen simultaneously."
+    },
+    "AfterCombatPhase": {
+      "title": "Lane Phases",
+      "description": "There are four phases in each lane.\n\nBefore the action phase: Many reactive abilities trigger automatically. All triggers happen simultaneously.\nAction phase: Players alternate playing cards or abilities.\nCombat phase: Each unit battles its combat target simultaneously.\nAfter the combat phase: Many reactive abilities trigger automatically. All triggers happen simultaneously."
+    },
+    "DeploymentPhase": {
+      "title": "Round Phases",
+      "description": "There are two phases in between rounds. These phases are played by both players simultaneously.\n\nShopping phase: Players purchase cards from the item shops using gold.\nDeployment phase: Lane creeps are revealed and players choose which lanes to deploy their ready heroes into."
+    },
+    "ShoppingPhase": {
+      "title": "Round Phases",
+      "description": "There are two phases in between rounds. These phases are played by both players simultaneously.\n\nShopping phase: Players purchase cards from the item shops using gold.\nDeployment phase: Lane creeps are revealed and players choose which lanes to deploy their ready heroes into."
+    },
+    "Fountain": {
+      "title": "Fountain",
+      "description": "When heroes die they are placed in the Fountain zone for a full round before becoming ready to redeploy. When heroes enter the Fountain they are fully healed and temporary effects on them are purged."
+    },
+    "Battle": {
+      "title": "Battle",
+      "description": "When a unit battles, it deals its Attack damage to its target. When units battle each other, they deal their damage simultaneously. Combat attributes such as Armor, Retaliate, and Piercing are applied."
+    },
+    "Modify": {
+      "title": "Modify",
+      "description": "When an effect modifies another card it applies a permanent buff or debuff to the target. Heroes retain modifiers through death."
+    },
+    "Purge": {
+      "title": "Purge",
+      "description": "Removes modifications and temporary effects, but not damage. Purging does not affect base abilities or external effects, such as those from equipped items and continuous effects from neighbors or improvements."
+    },
+    "Taunt": {
+      "title": "Taunt",
+      "description": "When a unit taunts all of its enemy neighbors change their combat target to that unit."
+    },
+    "Disarm": {
+      "title": "Disarm",
+      "description": "A disarmed unit does not attack its target during battles."
+    },
+    "Stun": {
+      "title": "Stun",
+      "description": "A stunned unit is silenced (cannot use any active abilities and cannot be used to play cards of its color) and disarmed (does not attack its target during battles)."
+    },
+    "Silence": {
+      "title": "Silence",
+      "description": "A silenced unit cannot use its active abilities or item active abilities. A silenced hero cannot be used to play cards of its color."
+    },
+    "Lock": {
+      "title": "Lock",
+      "description": "Cards cannot be played as long as they are locked. Lock is applied for a duration in rounds. At the end of a round, all locked cards lose 1 Lock."
+    },
+    "Condemn": {
+      "title": "Condemn",
+      "description": "Mark a unit, improvement, or equipment for death. Death Shields may save a condemned unit, but Damage Immunity does not."
+    },
+    "Summon": {
+      "title": "Summon",
+      "description": "Create a unit and immediately put it into a random empty combat position."
+    },
+    "Inspect_Mana": {
+      "title": "Mana",
+      "description": "Mana is a resource used to play non-item cards. Each round, towers refresh their mana and increase the amount by 1."
+    },
+    "Inspect_Crosslane": {
+      "title": "Cross Lane",
+      "description": "When played, Cross Lane cards use mana and heroes from the active lane, but can be played into any lane."
+    },
+    "Inspect_Initiative": {
+      "title": "&#9634; Get Initiative",
+      "description": "After you play this spell, you get the initiative coin and may immediately take another action. If you use this action to pass, you will retain initiative and may act first in the next lane."
+    },
+    "Inspect_IncludedBy": {
+      "title": "Signature Card",
+      "description": "This card was automatically included in your deck by {s:includedByHeroName}."
+    },
+    "Inspect_GoldCost": {
+      "title": "Gold Cost",
+      "description": "This card costs {i:goldCost} gold to buy. Once purchased, items do not cost gold or mana to play."
+    },
+    "Inspect_Rarity": {
+      "title": "Set Info",
+      "description": "Rarity: {s:rarity}"
+    },
+    "Bounty": {
+      "title": "Bounty",
+      "description": "The amount of gold awarded to the opponent when this unit dies."
+    },
+    "Siege": {
+      "title": "Siege",
+      "description": "When blocked during the combat phase, in addition to battle damage to the blocking unit, also deal the Siege damage to the enemy tower."
+    },
+    "Cleave": {
+      "title": "Cleave",
+      "description": "When blocked during the combat phase, in addition to battle damage to the blocking unit, also deal the Cleave damage to that unit's neighbors."
+    },
+    "Retaliate": {
+      "title": "Retaliate",
+      "description": "When attacked during a battle (even outside of the combat phase), deal this much extra damage to the attackers."
+    },
+    "Armor": {
+      "title": "Armor",
+      "description": "Armor reduces each incoming damage source by that amount."
+    },
+    "Regeneration": {
+      "title": "Regeneration",
+      "description": "The unit heals this amount during the combat phase. Regeneration is applied before checking for death."
+    },
+    "DeathShield": {
+      "title": "Death Shield",
+      "description": "If a unit would die, instead remove its death shield and it survives with 1 Health. A unit may only have one death shield at a time."
+    },
+    "DamageImmunity": {
+      "title": "Damage Immunity",
+      "description": "A unit with Damage Immunity does not take damage. It will still die if condemned."
+    },
+    "BattleDamageIsPiercing": {
+      "title": "Pierce",
+      "description": "Battle damage dealt by this unit is piercing. Piercing damage is not reduced by the target's armor."
+    },
+    "Piercing": {
+      "title": "Piercing",
+      "description": "Piercing damage is not reduced by the target's armor."
+    },
+    "Attack": {
+      "title": "Attack",
+      "description": "The amount of damage a unit deals during battle."
+    },
+    "Health": {
+      "title": "Health",
+      "description": "The amount of damage a unit can sustain before dying. Damage persists across rounds."
+    },
+    "Mana": {
+      "title": "Mana",
+      "description": "Mana is a resource used to play non-item cards. Each round, towers refresh their mana and increase the amount by 1."
+    },
+    "Soulbound": {
+      "title": "Soulbound",
+      "description": "When an allied unit with soulbound dies, all other allied units in any lane with the same name also die."
+    },
+    "LethalToCreeps": {
+      "title": "Lethal to Creeps",
+      "description": "Condemn each creep this unit deals battle damage to."
+    },
+    "LethalToHeroes": {
+      "title": "Lethal to Heroes",
+      "description": "Condemn each hero this unit deals battle damage to."
+    },
+    "ManaModifier": {
+      "title": "Mana",
+      "description": "Current mana. Resource required to cast spells."
+    },
+    "Locked": {
+      "title": "Lock",
+      "description": "A delay that prevents the card from being played for that many rounds. Lock decreases at the end of the round."
+    },
+    "Pierce": {
+      "title": "Pierce",
+      "description": "Damage from a unit with Pierce is not reduced by the target's armor."
+    },
+    "NumHacks": {
+      "title": "Hacks",
+      "description": "The text of this card has been changed."
+    },
+    "NoEquipmentRestriction": {
+      "title": "No Equipped Item Restriction",
+      "description": "This hero can equip any number of items."
+    },
+    "isRevealed": {
+      "title": "Revealed",
+      "description": "Both players can see this card."
+    },
+    "Stunned": {
+      "title": "Stunned",
+      "description": "Cannot use active abilities and does not contribute its color to mana for playing cards. Does not attack its target during battles. When attacked, it still deals retaliate damage."
+    },
+    "NotTargetable": {
+      "title": "Not Targetable",
+      "description": "Cannot be the target of spells or abilities."
+    },
+    "Silenced": {
+      "title": "Silenced",
+      "description": "Cannot use active abilities and does not contribute its color to mana for playing cards."
+    },
+    "Disarmed": {
+      "title": "Disarmed",
+      "description": "Does not attack its target during battles. When attacked, it still deals retaliate damage."
+    },
+    "Quick": {
+      "title": "Quick",
+      "description": "Gives the player another turn to take an action or pass to gain initiative."
+    },
+    "HasModifiedBounty": {
+      "title": "Bounty Modified ({s:bountyDifferential})",
+      "description": "Amount of gold awarded to the opponent when this unit dies."
+    },
+    "AlliedNeighbors": {
+      "title": "Allied Neighbors",
+      "description": "The units directly to the left and right of a unit."
+    },
+    "EnemyNeighbors": {
+      "title": "Enemy Neighbors",
+      "description": "Any enemies in the three enemy combat positions closest to this unit."
+    },
+    "PlayEffect": {
+      "title": "Play Effect",
+      "description": "An additional effect that is processed at the time you play this creep."
+    },
+    "DeathEffect": {
+      "title": "Death Effect",
+      "description": "An effect that is processed after this unit dies."
+    },
+    "Initiative": {
+      "title": "&#9634; Get Initiative",
+      "description": "After you play this spell, you get the initiative coin and may immediately take another action. If you use this action to pass, you will retain initiative and may act first in the next lane."
+    },
+    "Active": {
+      "title": "Active Ability",
+      "description": "An active ability may be used during the action phase. An active ability with a cooldown may not be used again until that number of rounds have passed. Active abilities may not be used if their owner is stunned or silenced."
+    },
+    "Unblocked": {
+      "title": "Unblocked",
+      "description": "A unit is unblocked if its combat target is the tower."
+    },
+    "Unit": {
+      "title": "Unit",
+      "description": "A unit is any creep or hero in a combat position. Towers are not units."
+    },
+    "ZToken": {
+      "title": "&#9633; Pulse",
+      "description": "A delay between effects of a spell or ability. Continuous effects are updated, reactive abilities are processed, and units that have been condemned or dealt lethal damage are destroyed."
+    },
+    "BattleDamage": {
+      "title": "Battle Damage",
+      "description": "Any damage assigned during a battle, most often during the combat phase."
+    },
+    "RapidDeployment": {
+      "title": "Rapid Deployment",
+      "description": "When a hero with Rapid Deployment dies, it is immediately ready for deployment, so it can be deployed at the start of the next round."
+    }
+  }
+}

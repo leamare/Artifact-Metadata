@@ -1,0 +1,649 @@
+{
+  "4000": [
+    "prowler_shaman_angry_06",
+    "prowler_shaman_arrogant_05",
+    "prowler_shaman_arrogant_07",
+    "prowler_shaman_arrogant_10",
+    "prowler_shaman_concerned_02",
+    "prowler_shaman_concerned_03",
+    "prowler_shaman_enigmatic_10"
+  ],
+  "4002": [
+    "prowler_vanguard_ancient_both_01",
+    "prowler_vanguard_unique_08",
+    "prowler_vanguard_ancient_both_02",
+    "prowler_vanguard_summon_03"
+  ],
+  "4003": [
+    "ogre_bruiser_angry_05",
+    "ogre_bruiser_arrogant_10",
+    "ogre_bruiser_arrogant_07",
+    "ogre_bruiser_arrogant_08",
+    "ogre_bruiser_concerned_05",
+    "ogre_bruiser_concerned_04",
+    "ogre_bruiser_enigmatic_06"
+  ],
+  "4005": [
+    "kobold_saboteur_single_target_damage_02",
+    "kobold_saboteur_multi_damage_small_06",
+    "kobold_saboteur_concerned_03",
+    "kobold_saboteur_concerned_07",
+    "kobold_saboteur_angry_09",
+    "kobold_saboteur_pleased_04",
+    "kobold_saboteur_single_target_damage_09"
+  ],
+  "4008": [
+    "dark_troll_chieften_arrogant_07",
+    "dark_troll_chieften_arrogant_10",
+    "dark_troll_chieften_angry_09",
+    "dark_troll_chieften_angry_05",
+    "dark_troll_chieften_concerned_07",
+    "dark_troll_chieften_pleased_03",
+    "dark_troll_chieften_enigmatic_06"
+  ],
+  "10001": [
+    "venomancer_angry_10",
+    "venomancer_arrogant_02",
+    "venomancer_concerned_04",
+    "venomancer_concerned_08",
+    "venomancer_enigmatic_08",
+    "venomancer_arrogant_06"
+  ],
+  "10003": [
+    "plague_ward_hiss_02",
+    "plague_ward_pain_01",
+    "plague_ward_pain_08"
+  ],
+  "10004": [
+    "meepo_arrogant_04",
+    "meepo_enigmatic_04",
+    "meepo_angry_06",
+    "meepo_angry_01",
+    "meepo_concerned_04",
+    "meepo_concerned_08",
+    "meepo_enigmatic_10"
+  ],
+  "10006": [
+    "luna_cast_spell_09",
+    "luna_permanent_attack_03",
+    "luna_taunt_generic_08",
+    "luna_unique_20",
+    "luna_kill_rival_09",
+    "luna_unique_16"
+  ],
+  "10010": [
+    "winter_wyvern_angry_08",
+    "winter_wyvern_arrogant_06",
+    "winter_wyvern_arrogant_10",
+    "winter_wyvern_concerned_06",
+    "winter_wyvern_concerned_07",
+    "winter_wyvern_enigmatic_10",
+    "winter_wyvern_enigmatic_03"
+  ],
+  "10014": [
+    "lycan_unique_07",
+    "lycan_permanent_attack_05",
+    "lycan_cast_spell_07",
+    "lycan_potential_save_05",
+    "lycan_potential_save_01",
+    "lycan_cast_spell_05",
+    "lycan_cast_spell_10"
+  ],
+  "10016": [
+    "abaddon_potential_kill_05",
+    "abaddon_potential_save_03",
+    "abaddon_cast_spell_06",
+    "abaddon_permanent_armor_03",
+    "abaddon_kill_rival_09",
+    "abaddon_unique_19",
+    "abaddon_potential_kill_02"
+  ],
+  "10017": [
+    "chen_angry_05",
+    "chen_angry_06",
+    "chen_enigmatic_01",
+    "chen_concerned_09",
+    "chen_angry_01",
+    "chen_arrogant_02",
+    "chen_angry_07"
+  ],
+  "10018": [
+    "bloodseeker_angry_03",
+    "bloodseeker_angry_06",
+    "bloodseeker_arrogant_05",
+    "bloodseeker_concerned_08",
+    "bloodseeker_concerned_06",
+    "bloodseeker_single_target_damage_10",
+    "bloodseeker_arrogant_08"
+  ],
+  "10020": [
+    "axe_taunt_generic_01",
+    "axe_equip_generic_armor_04",
+    "axe_kill_rival_05",
+    "axe_unique_01",
+    "axe_unique_06",
+    "axe_cast_spell_05",
+    "axe_cast_spell_07"
+  ],
+  "10021": [
+    "centaur_warrunner_angry_07",
+    "centaur_warrunner_arrogant_09",
+    "centaur_warrunner_arrogant_05",
+    "centaur_warrunner_enigmatic_10",
+    "centaur_warrunner_enigmatic_06",
+    "centaur_warrunner_concerned_03",
+    "centaur_warrunner_pleased_09"
+  ],
+  "10022": [
+    "timbersaw_angry_09",
+    "timbersaw_enigmatic_02",
+    "timbersaw_arrogant_10",
+    "timbersaw_concerned_08",
+    "timbersaw_concerned_10",
+    "timbersaw_enigmatic_01",
+    "timbersaw_enigmatic_05"
+  ],
+  "10023": [
+    "bounty_hunter_multi_damage_small_05",
+    "bounty_hunter_multi_damage_small_06",
+    "bounty_hunter_pleased_06",
+    "bounty_hunter_concerned_05",
+    "bounty_hunter_concerned_08",
+    "bounty_hunter_arrogant_09",
+    "bounty_hunter_arrogant_06"
+  ],
+  "10024": [
+    "tidehunter_arrogant_04",
+    "tidehunter_angry_08",
+    "tidehunter_arrogant_06",
+    "tidehunter_concerned_06",
+    "tidehunter_concerned_02",
+    "tidehunter_enigmatic_08",
+    "tidehunter_enigmatic_06"
+  ],
+  "10025": [
+    "tinker_arrogant_02",
+    "tinker_single_target_damage_06",
+    "tinker_angry_02",
+    "tinker_concerned_10",
+    "tinker_concerned_06",
+    "tinker_multi_damage_large_05",
+    "tinker_arrogant_04"
+  ],
+  "10026": [
+    "rix_permanent_attack_04",
+    "rix_taunt_generic_08",
+    "rix_taunt_generic_04",
+    "rix_potential_save_04",
+    "rix_potential_save_02",
+    "rix_kill_rival_08",
+    "rix_kill_rival_04"
+  ],
+  "10028": [
+    "viper_angry_06",
+    "viper_arrogant_01",
+    "viper_arrogant_08",
+    "viper_concerned_08",
+    "viper_concerned_04",
+    "viper_enigmatic_06",
+    "viper_enigmatic_07"
+  ],
+  "10029": [
+    "beastmaster_angry_08",
+    "beastmaster_angry_09",
+    "beastmaster_arrogant_06",
+    "beastmaster_concerned_06",
+    "beastmaster_concerned_03",
+    "beastmaster_enigmatic_03",
+    "beastmaster_arrogant_10"
+  ],
+  "10030": [
+    "bristleback_unique_04",
+    "bristleback_unique_05",
+    "bristleback_kill_rival_05",
+    "bristleback_healed_04",
+    "bristleback_potential_kill_03",
+    "bristleback_potential_kill_05"
+  ],
+  "10031": [
+    "kanna_angry_08",
+    "kanna_arrogant_03",
+    "kanna_arrogant_07",
+    "kanna_concerned_04",
+    "kanna_concerned_07",
+    "kanna_enigmatic_08",
+    "kanna_enigmatic_03"
+  ],
+  "10032": [
+    "drow_ranger_angry_07",
+    "drow_ranger_angry_09",
+    "drow_ranger_pleased_04",
+    "drow_ranger_concerned_04",
+    "drow_ranger_concerned_07",
+    "drow_ranger_arrogant_06",
+    "drow_ranger_enigmatic_09"
+  ],
+  "10033": [
+    "earthshaker_angry_07",
+    "earthshaker_enigmatic_08",
+    "earthshaker_arrogant_08",
+    "earthshaker_arrogant_07",
+    "earthshaker_concerned_04",
+    "earthshaker_angry_08",
+    "earthshaker_enigmatic_06"
+  ],
+  "10036": [
+    "enchantress_angry_07",
+    "enchantress_arrogant_09",
+    "enchantress_arrogant_05",
+    "enchantress_concerned_10",
+    "enchantress_concerned_01",
+    "enchantress_enigmatic_04",
+    "enchantress_pleased_08"
+  ],
+  "10038": [
+    "lich_angry_06",
+    "lich_angry_03",
+    "lich_arrogant_06",
+    "lich_concerned_01",
+    "lich_concerned_05",
+    "lich_pleased_03",
+    "lich_enigmatic_08"
+  ],
+  "10043": [
+    "ogre_magi_angry_08",
+    "ogre_magi_arrogant_10",
+    "ogre_magi_enigmatic_06",
+    "ogre_magi_concerned_06",
+    "ogre_magi_concerned_01",
+    "ogre_magi_pleased_08",
+    "ogre_magi_enigmatic_10"
+  ],
+  "10044": [
+    "omniknight_angry_07",
+    "omniknight_angry_02",
+    "omniknight_arrogant_10",
+    "omniknight_concerned_05",
+    "omniknight_concerned_09",
+    "omniknight_enigmatic_06",
+    "omniknight_enigmatic_02"
+  ],
+  "10046": [
+    "outworld_devourer_angry_08",
+    "outworld_devourer_arrogant_04",
+    "outworld_devourer_arrogant_07",
+    "outworld_devourer_concerned_07",
+    "outworld_devourer_concerned_01",
+    "outworld_devourer_enigmatic_07",
+    "outworld_devourer_arrogant_01"
+  ],
+  "10047": [
+    "phantom_assassin_permanent_attack_05",
+    "phantom_assassin_cast_spell_08",
+    "phantom_assassin_cast_spell_07",
+    "phantom_assassin_cast_spell_06",
+    "phantom_assassin_potential_save_03",
+    "phantom_assassin_potential_save_04",
+    "phantom_assassin_kill_rival_06"
+  ],
+  "10048": [
+    "pugna_arrogant_07",
+    "pugna_angry_01",
+    "pugna_angry_03",
+    "pugna_concerned_05",
+    "pugna_concerned_01",
+    "pugna_enigmatic_07"
+  ],
+  "10050": [
+    "sniper_angry_08",
+    "sniper_arrogant_04",
+    "sniper_arrogant_06",
+    "sniper_concerned_09",
+    "sniper_concerned_06",
+    "sniper_enigmatic_07",
+    "sniper_enigmatic_05"
+  ],
+  "10052": [
+    "mazzie_pleased_08",
+    "mazzie_enigmatic_03",
+    "mazzie_angry_03",
+    "mazzie_concerned_06",
+    "mazzie_arrogant_10",
+    "mazzie_arrogant_09",
+    "mazzie_angry_10"
+  ],
+  "10053": [
+    "prellex_cast_spell_05",
+    "prellex_cast_spell_01",
+    "prellex_kill_rival_03",
+    "prellex_permanent_health_03",
+    "prellex_taunt_generic_10",
+    "prellex_kill_rival_09",
+    "prellex_cast_spell_09"
+  ],
+  "10054": [
+    "sven_angry_07",
+    "sven_angry_10",
+    "sven_arrogant_08",
+    "sven_concerned_05",
+    "sven_concerned_10",
+    "sven_enigmatic_01",
+    "sven_enigmatic_08"
+  ],
+  "10056": [
+    "treant_protector_angry_05",
+    "treant_protector_arrogant_01",
+    "treant_protector_arrogant_04",
+    "treant_protector_concerned_07",
+    "treant_protector_concerned_01",
+    "treant_protector_pleased_07",
+    "treant_protector_multi_damage_large_10"
+  ],
+  "10058": [
+    "sorla_khan_angry_08",
+    "sorla_khan_arrogant_02",
+    "sorla_khan_concerned_07",
+    "sorla_khan_concerned_05",
+    "sorla_khan_concerned_04",
+    "sorla_khan_pleased_05",
+    "sorla_khan_pleased_07"
+  ],
+  "10059": [
+    "necrophos_angry_03",
+    "necrophos_arrogant_04",
+    "necrophos_arrogant_08",
+    "necrophos_concerned_06",
+    "necrophos_concerned_03",
+    "necrophos_pleased_09",
+    "necrophos_enigmatic_08"
+  ],
+  "10060": [
+    "lion_cast_spell_09",
+    "lion_cast_spell_05",
+    "lion_taunt_generic_04",
+    "lion_unique_06",
+    "lion_kill_rival_08",
+    "lion_kill_rival_02",
+    "lion_kill_rival_04"
+  ],
+  "10062": [
+    "skywrath_mage_angry_08",
+    "skywrath_mage_arrogant_05",
+    "skywrath_mage_arrogant_07",
+    "skywrath_mage_concerned_08",
+    "skywrath_mage_concerned_10",
+    "skywrath_mage_arrogant_09",
+    "skywrath_mage_pleased_08"
+  ],
+  "10064": [
+    "crystal_maiden_kill_rival_03",
+    "crystal_maiden_unique_06",
+    "crystal_maiden_taunt_generic_07",
+    "crystal_maiden_unique_18",
+    "crystal_maiden_unique_12",
+    "crystal_maiden_permanent_health_05"
+  ],
+  "10065": [
+    "zeus_arrogant_05",
+    "zeus_enigmatic_09",
+    "zeus_arrogant_06",
+    "zeus_concerned_07",
+    "zeus_concerned_08",
+    "zeus_enigmatic_02",
+    "zeus_arrogant_10"
+  ],
+  "10067": [
+    "magnus_cast_spell_07",
+    "magnus_taunt_generic_08",
+    "magnus_potential_kill_03",
+    "magnus_cast_spell_08",
+    "magnus_cast_spell_09",
+    "magnus_kill_rival_09",
+    "magnus_kill_rival_06"
+  ],
+  "10068": [
+    "dark_seer_cast_spell_07",
+    "dark_seer_cast_spell_08",
+    "dark_seer_cast_spell_01",
+    "dark_seer_permanent_armor_05",
+    "dark_seer_potential_save_05",
+    "dark_seer_potential_kill_04",
+    "dark_seer_taunt_generic_06"
+  ],
+  "10069": [
+    "legion_commander_cast_spell_06",
+    "legion_commander_cast_spell_09",
+    "legion_commander_taunt_generic_02",
+    "legion_commander_kill_rival_09",
+    "legion_commander_kill_rival_08",
+    "legion_commander_cast_spell_03",
+    "legion_commander_taunt_generic_01"
+  ],
+  "10070": [
+    "ursa_arrogant_02",
+    "ursa_angry_02",
+    "ursa_arrogant_03",
+    "ursa_concerned_08",
+    "ursa_concerned_06",
+    "ursa_pleased_10",
+    "ursa_enigmatic_08"
+  ],
+  "10076": [
+    "smeevil_armsmaster_summon_02",
+    "smeevil_armsmaster_ancient_both_02",
+    "smeevil_armsmaster_ancient_both_01"
+  ],
+  "10077": [
+    "sis_o_veil_tower_destroy_01",
+    "sis_o_veil_tower_saved_01",
+    "sis_o_veil_unique_01",
+    "sis_o_veil_tower_destroy_04"
+  ],
+  "10078": [
+    "tyler_estate_censor_ancient_attack_01",
+    "tyler_estate_censor_summon_03",
+    "tyler_estate_censor_ancient_both_02",
+    "tyler_estate_censor_unique_06"
+  ],
+  "10079": [
+    "smeevil_blacksmith_ancient_both_01",
+    "smeevil_blacksmith_ancient_both_02",
+    "smeevil_blacksmith_summon_03",
+    "smeevil_blacksmith_ancient_protect_01"
+  ],
+  "10080": [
+    "rebel_decoy_ancient_protect_02",
+    "rebel_decoy_use_ability_02",
+    "rebel_decoy_use_ability_03",
+    "rebel_decoy_hero_rival_02"
+  ],
+  "10083": [
+    "quoidge_pugilist_summon_01",
+    "quoidge_pugilist_hero_rival_01",
+    "quoidge_pugilist_ancient_attack_02",
+    "quoidge_pugilist_ancient_protect_02"
+  ],
+  "10084": [
+    "rebel_instigator_summon_02",
+    "rebel_instigator_ancient_protect_01",
+    "rebel_instigator_ancient_both_01",
+    "rebel_instigator_ancient_attack_01"
+  ],
+  "10085": [
+    "assassins_shadow_ancient_attack_01",
+    "assassins_shadow_ancient_protect_02",
+    "assassins_shadow_ancient_both_02"
+  ],
+  "10086": [
+    "disciple_of_nevermore_ancient_both_02",
+    "disciple_of_nevermore_ancient_attack_02",
+    "disciple_of_nevermore_unique_01",
+    "disciple_of_nevermore_ancient_both_01"
+  ],
+  "10087": [
+    "legion_standard_bearer_summon_01",
+    "legion_standard_bearer_ancient_protect_02",
+    "legion_standard_bearer_ancient_attack_02",
+    "legion_standard_bearer_ancient_both_01"
+  ],
+  "10091": [
+    "revtel_convoy_summon_01",
+    "revtel_convoy_unique_02",
+    "revtel_convoy_hero_rival_02",
+    "revtel_convoy_ancient_attack_02"
+  ],
+  "10092": [
+    "rampaging_vandal_summon_03",
+    "rampaging_vandal_unique_06",
+    "rampaging_vandal_faction_ally_03",
+    "rampaging_vandal_ancient_protect_02"
+  ],
+  "10094": [
+    "mercenary_exiles_ancient_attack_02",
+    "mercenary_exiles_ancient_attack_01",
+    "mercenary_exiles_hero_rival_03",
+    "mercenary_exiles_unique_04"
+  ],
+  "10095": [
+    "blood_golem_summon_03",
+    "blood_golem_ancient_attack_01",
+    "blood_golem_summon_01"
+  ],
+  "10096": [
+    "emissary_tower_destroy_04",
+    "emissary_tower_saved_03",
+    "emissary_tower_saved_01",
+    "emissary_tower_destroy_01"
+  ],
+  "10097": [
+    "marrowfell_brawler_ancient_attack_02",
+    "marrowfell_brawler_ancient_both_02",
+    "marrowfell_brawler_ancient_protect_02",
+    "marrowfell_brawler_summon_02"
+  ],
+  "10103": [
+    "ogre_corpse_tosser_summon_03",
+    "ogre_corpse_tosser_ancient_both_02",
+    "ogre_corpse_tosser_hero_rival_03",
+    "ogre_corpse_tosser_unique_06"
+  ],
+  "10104": [
+    "bronze_legionnaire_tower_destroy_01",
+    "bronze_legionnaire_tower_destroy_02",
+    "bronze_legionnaire_tower_saved_02",
+    "bronze_legionnaire_summon_01"
+  ],
+  "10107": [
+    "vhoul_martyr_summon_03",
+    "vhoul_martyr_ancient_protect_01",
+    "vhoul_martyr_ancient_both_01",
+    "vhoul_martyr_faction_ally_01"
+  ],
+  "10111": [
+    "satyr_duelist_ancient_attack_01",
+    "satyr_duelist_ancient_attack_02",
+    "satyr_duelist_ancient_protect_02",
+    "satyr_duelist_ancient_both_01"
+  ],
+  "10112": [
+    "savage_wolf_growls_01",
+    "savage_wolf_growls_12"
+  ],
+  "10113": [
+    "rampaging_hellbear_summon_02",
+    "rampaging_hellbear_summon_03"
+  ],
+  "10114": [
+    "cursed_satyr_tower_destroy_05",
+    "cursed_satyr_tower_destroy_01",
+    "cursed_satyr_tower_saved_03",
+    "cursed_satyr_tower_destroy_04"
+  ],
+  "10115": [
+    "ravenhook_summon_03",
+    "ravenhook_ancient_attack_01",
+    "ravenhook_ancient_both_02",
+    "ravenhook_use_ability_02"
+  ],
+  "10117": [
+    "roseleaf_druid_ancient_attack_01",
+    "roseleaf_druid_ancient_protect_01",
+    "roseleaf_druid_ancient_both_02",
+    "roseleaf_druid_healed_03"
+  ],
+  "10119": [
+    "selfish_cleric_tower_saved_05",
+    "selfish_cleric_tower_destroy_02",
+    "selfish_cleric_tower_saved_01",
+    "selfish_cleric_unique_07"
+  ],
+  "10127": [
+    "ogre_conscript_ancient_both_02",
+    "ogre_conscript_ancient_attack_01",
+    "ogre_conscript_ancient_protect_01",
+    "ogre_conscript_summon_01"
+  ],
+  "10128": [
+    "untested_grunt_ancient_attack_02",
+    "untested_grunt_ancient_both_01",
+    "untested_grunt_hero_rival_02",
+    "untested_grunt_unique_08"
+  ],
+  "10129": [
+    "assassins_apprentice_ancient_both_01",
+    "assassins_apprentice_ancient_protect_01",
+    "assassins_apprentice_hero_friend_02",
+    "assassins_apprentice_use_ability_01"
+  ],
+  "10131": [
+    "stonehall_elite_ancient_attack_02",
+    "stonehall_elite_summon_01",
+    "stonehall_elite_ancient_both_01",
+    "stonehall_elite_unique_02"
+  ],
+  "10132": [
+    "red_mist_pillager_summon_02",
+    "red_mist_pillager_ancient_attack_02",
+    "red_mist_pillager_hero_friend_02",
+    "red_mist_pillager_ancient_protect_01"
+  ],
+  "10133": [
+    "champion_of_the_ancient_summon_03",
+    "champion_of_the_ancient_ancient_protect_02",
+    "champion_of_the_ancient_unique_07",
+    "champion_of_the_ancient_healed_02"
+  ],
+  "10134": [
+    "roseleaf_rejuvinator_ancient_both_02",
+    "roseleaf_rejuvinator_ancient_attack_02",
+    "roseleaf_rejuvinator_summon_03",
+    "roseleaf_rejuvinator_hero_friend_03"
+  ],
+  "10137": [
+    "satyr_magician_tower_destroy_02",
+    "satyr_magician_unique_07",
+    "satyr_magician_ancient_both_01",
+    "satyr_magician_tower_destroy_05"
+  ],
+  "10138": [
+    "troll_soothsayer_summon_01",
+    "troll_soothsayer_ancient_attack_01",
+    "troll_soothsayer_ancient_attack_02",
+    "troll_soothsayer_ancient_both_02"
+  ],
+  "10310": [
+    "oglodi_catapult_ancient_attack_01",
+    "oglodi_catapult_ancient_both_01",
+    "oglodi_catapult_unique_08",
+    "oglodi_catapult_unique_03"
+  ],
+  "10536": [
+    "storm_spirit_angry_07",
+    "storm_spirit_arrogant_05",
+    "storm_spirit_pleased_07",
+    "storm_spirit_concerned_04",
+    "storm_spirit_concerned_10",
+    "storm_spirit_enigmatic_09",
+    "storm_spirit_enigmatic_08"
+  ]
+}

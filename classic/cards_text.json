@@ -1,0 +1,3428 @@
+{
+  "3000": {
+    "text": "Equipped [g:0[hero]] has +4 [g:510[Health]].",
+    "text_plain": "Equipped hero has +4 Health.",
+    "keyword_ids": [
+      0,
+      510
+    ],
+    "lore": "It's not fancy but it makes going from here to there a far more pleasant experience. — Jolixia, The Card Faun"
+  },
+  "3001": {
+    "text": "Equipped [g:0[hero]] has +1 [g:504[Armor]].",
+    "text_plain": "Equipped hero has +1 Armor.",
+    "keyword_ids": [
+      0,
+      504
+    ],
+    "lore": "Is it the prettiest thing in the world? No. Is it better than a knife in your belly? Without question. — Jolixia, The Card Faun"
+  },
+  "3002": {
+    "text": "Equipped [g:0[hero]] has +2 [g:509[Attack]].",
+    "text_plain": "Equipped hero has +2 Attack.",
+    "keyword_ids": [
+      0,
+      509
+    ],
+    "lore": "Not every hero wields a blade... but let's be honest, most of them do. — Jolixia, The Card Faun"
+  },
+  "3003": {
+    "text": "Heal a [g:607[unit]] 6.",
+    "text_plain": "Heal a unit 6.",
+    "keyword_ids": [
+      607
+    ],
+    "lore": "A soothing balm that eases the most grievous of wounds. — Jolixia, The Card Faun"
+  },
+  "3004": {
+    "text": "Fully heal a [g:607[unit]].",
+    "text_plain": "Fully heal a unit.",
+    "keyword_ids": [
+      607
+    ],
+    "lore": "This water blessed by the Ancients can cure any wound. — Jolixia, The Card Faun"
+  },
+  "3005": {
+    "text": "Draw a card.",
+    "text_plain": "Draw a card.",
+    "lore": "They say a little bit of knowledge can be a dangerous thing... it also can be your salvation... — Jolixia, The Card Faun"
+  },
+  "3006": {
+    "text": "Return an allied [g:0[hero]] to the [g:300[Fountain]].",
+    "text_plain": "Return an allied hero to the Fountain.",
+    "keyword_ids": [
+      0,
+      300
+    ],
+    "lore": "Knowing when to step away from a battle isn't cowardice, it is wisdom. — Jolixia, The Card Faun"
+  },
+  "4000": {
+    "text": "[abilityname[Pack Leadership]]{s:thisCardName}'s [g:601[allied neighbors]] have +1 [g:504[Armor]].",
+    "text_plain": "Pack Leadership\nFarvhan the Dreamer's allied neighbors have +1 Armor.",
+    "keyword_ids": [
+      504,
+      601
+    ],
+    "lore": "Magnus brought the child to us for safe keeping. He didn't say why but he didn't have to. I knew who she was, and who she could become. — Farvhan, the Prowler Shaman"
+  },
+  "4001": {
+    "text": "{s:parentCardName}'s [g:601[allied neighbors]] have +1 [g:504[Armor]].",
+    "text_plain": "Farvhan the Dreamer's allied neighbors have +1 Armor.",
+    "keyword_ids": [
+      504,
+      601
+    ]
+  },
+  "4002": {
+    "text": "{s:thisCardName}'s [g:601[allied neighbors]] have +1 [g:504[Armor]].",
+    "text_plain": "Prowler Vanguard's allied neighbors have +1 Armor.",
+    "keyword_ids": [
+      504,
+      601
+    ],
+    "lore": "I don't know why the child is important... all I know is that we have been charged with her protection, and we won't let The Shaman down. — The Prowler Vanguard take in Ilexa"
+  },
+  "4003": {
+    "lore": "Fighting is like crushing someone's skull with a tree trunk. That's an analogy! — Keefe Treekiller, the Ogre Bruiser"
+  },
+  "4004": {
+    "text": "[g:401[Modify]] a [color:red[red [g:0[hero]]]] with +1 [g:509[Attack]] and +1 [g:504[Armor]].",
+    "text_plain": "Modify a red hero with +1 Attack and +1 Armor.",
+    "keyword_ids": [
+      0,
+      401,
+      504,
+      509
+    ],
+    "lore": "Life is a series of people trying to kill you. Kill them first. — Keefe imparts wisdom to his 4 year old daughter"
+  },
+  "4005": {
+    "text": "[abilityname[Meticulous Planner]]{s:thisCardName} deals +2 damage when attacking a [g:0[hero]] or [g:2[tower]].",
+    "text_plain": "Meticulous Planner\nDebbi the Cunning deals +2 damage when attacking a hero or tower.",
+    "keyword_ids": [
+      0,
+      2
+    ],
+    "lore": "Kobold's aren't born with names. We take them from the first person we kill. In retrospect I should have considered that before I shoved that baker into her oven. On the other hand - I kind of look like a Debbi. — Debbi, the Kobold Saboteur"
+  },
+  "4006": {
+    "text": "{s:parentCardName} deals +2 damage when attacking a [g:0[hero]] or [g:2[tower]].",
+    "text_plain": "Debbi the Cunning deals +2 damage when attacking a hero or tower.",
+    "keyword_ids": [
+      0,
+      2
+    ]
+  },
+  "4007": {
+    "text": "Deal 3 damage to a [g:607[unit]].",
+    "text_plain": "Deal 3 damage to a unit.",
+    "keyword_ids": [
+      607
+    ],
+    "lore": "Ever since I heard about the Jasper Circle I wanted to be a part of it, but a group like that... you don't ask to join, you have to be approached... which means you need to make a name for yourself. Six months I shadowed Sunbreeze. Six months of watching that stupid fairy do stupid merchant fairy things. Finally I had a plan. Then the Veiled Sisterhood went and assassinated Kwerthias which ruined everything. Sure I could have killed Sunbreeze, but then people would have given the Sisterhood the credit, so I just said to hell with it and scrapped everything. — Debbi, Foiled Assassin"
+  },
+  "4008": {
+    "text": "[abilityname[Wisdom of the Elders]][activatedability[[color:ability[Active &#9632;4:]] Draw a card.]]",
+    "text_plain": "Wisdom of the Elders\nActive 4: Draw a card.",
+    "lore": "The people I lead are small in number but vast in potential... and I will not see them slaughtered as the forest burns. The time has come for us to leave our ancestral home; and so I will lead my tribe to Weeping Rose... there our magicks will be celebrated, not feared. — The Dark Troll Chieftain on his people's exodus"
+  },
+  "4009": {
+    "text": "Draw a card.",
+    "text_plain": "Draw a card."
+  },
+  "4010": {
+    "text": "Choose a [g:607[unit]]. Choose a combat target for it.",
+    "text_plain": "Choose a unit. Choose a combat target for it.",
+    "keyword_ids": [
+      607
+    ],
+    "lore": "Sometimes the simplest of spells can be the most effective. — J'muy, The Dark Troll Chieftain"
+  },
+  "6000": {
+    "text": "All [g:2[towers]] in all lanes have +50 [g:511[mana]].",
+    "text_plain": "All towers in all lanes have +50 mana.",
+    "keyword_ids": [
+      2,
+      511
+    ]
+  },
+  "6002": {
+    "text": "<br><br>[color:quick[[g:604[&#9634; Get initiative]].]]  Change control of any [g:607[unit]] in any lane. (Could be used to give a [g:607[unit]] to your opponent.)",
+    "text_plain": "Get initiative. Change control of any unit in any lane. (Could be used to give a unit to your opponent.)",
+    "keyword_ids": [
+      604,
+      607
+    ]
+  },
+  "6003": {
+    "text": "<br><br>[color:quick[[g:604[&#9634; Get initiative]].]]  [g:408[Condemn]] a [g:2[tower]] in any lane.",
+    "text_plain": "Get initiative. Condemn a tower in any lane.",
+    "keyword_ids": [
+      2,
+      408,
+      604
+    ]
+  },
+  "6004": {
+    "text": "<br><br>[color:quick[[g:604[&#9634; Get initiative]].]]  Swap a [g:607[unit]] with one of its [g:601[allied neighbors]].",
+    "text_plain": "Get initiative. Swap a unit with one of its allied neighbors.",
+    "keyword_ids": [
+      601,
+      604,
+      607
+    ]
+  },
+  "6005": {
+    "text": "<br><br>[color:quick[[g:604[&#9634; Get initiative]].]]  [g:408[Condemn]] an [g:3[improvement]] in any lane.",
+    "text_plain": "Get initiative. Condemn an improvement in any lane.",
+    "keyword_ids": [
+      3,
+      408,
+      604
+    ]
+  },
+  "6006": {
+    "text": "<br><br>[color:quick[[g:604[&#9634; Get initiative]].]]  Get 1000 gold.",
+    "text_plain": "Get initiative. Get 1000 gold.",
+    "keyword_ids": [
+      604
+    ]
+  },
+  "6007": {
+    "text": "<br><br>[color:quick[[g:604[&#9634; Get initiative]].]]  Fully heal a [g:607[unit]] or [g:2[tower]] in any lane.",
+    "text_plain": "Get initiative. Fully heal a unit or tower in any lane.",
+    "keyword_ids": [
+      2,
+      604,
+      607
+    ]
+  },
+  "6008": {
+    "text": "<br><br>[color:quick[[g:604[&#9634; Get initiative]].]]  Reveal all cards in opponent's hand.",
+    "text_plain": "Get initiative. Reveal all cards in opponent's hand.",
+    "keyword_ids": [
+      604
+    ]
+  },
+  "6009": {
+    "text": "<br><br>[color:quick[[g:604[&#9634; Get initiative]].]]  [g:408[Condemn]] a [g:607[unit]] in any lane.",
+    "text_plain": "Get initiative. Condemn a unit in any lane.",
+    "keyword_ids": [
+      408,
+      604,
+      607
+    ]
+  },
+  "6022": {
+    "text": "<br><br>[color:quick[[g:604[&#9634; Get initiative]].]]  Give all cards in your hand +1 [g:407[lock]] then reveal all cards in your hand. Give all cards in opponent's hand +1 [g:407[lock]] then reveal all cards in opponent's hand.",
+    "text_plain": "Get initiative. Give all cards in your hand +1 lock then reveal all cards in your hand. Give all cards in opponent's hand +1 lock then reveal all cards in opponent's hand.",
+    "keyword_ids": [
+      407,
+      604
+    ]
+  },
+  "6023": {
+    "text": "<br><br>[color:quick[[g:604[&#9634; Get initiative]].]]  [g:405[Stun]] a [g:607[unit]] in any lane.",
+    "text_plain": "Get initiative. Stun a unit in any lane.",
+    "keyword_ids": [
+      405,
+      604,
+      607
+    ]
+  },
+  "6024": {
+    "text": "<br><br>[color:quick[[g:604[&#9634; Get initiative]].]]  [g:404[Disarm]] a [g:607[unit]] in any lane.",
+    "text_plain": "Get initiative. Disarm a unit in any lane.",
+    "keyword_ids": [
+      404,
+      604,
+      607
+    ]
+  },
+  "6025": {
+    "text": "<br><br>[color:quick[[g:604[&#9634; Get initiative]].]]",
+    "text_plain": "Get initiative.",
+    "keyword_ids": [
+      604
+    ]
+  },
+  "6026": {
+    "text": "<br><br>[color:quick[[g:604[&#9634; Get initiative]].]]  [g:408[Condemn]] all units in all lanes.",
+    "text_plain": "Get initiative. Condemn all units in all lanes.",
+    "keyword_ids": [
+      408,
+      604
+    ]
+  },
+  "6027": {
+    "text": "<br><br>[color:quick[[g:604[&#9634; Get initiative]].]]  [g:406[Silence]] a [g:607[unit]] in any lane.",
+    "text_plain": "Get initiative. Silence a unit in any lane.",
+    "keyword_ids": [
+      406,
+      604,
+      607
+    ]
+  },
+  "6028": {
+    "text": "<br><br>[color:quick[[g:604[&#9634; Get initiative]].]]  [g:401[Modify]] two random cards in your hand with \"[g:608[&#9633;]] Deal 6 damage to a random allied [g:2[tower]] in any lane.\"",
+    "text_plain": "Get initiative. Modify two random cards in your hand with \" Deal 6 damage to a random allied tower in any lane.\"",
+    "keyword_ids": [
+      2,
+      401,
+      604,
+      608
+    ]
+  },
+  "7001": {
+    "text": "Your [g:2[towers]] in all lanes have +1 [g:511[Mana]].  Before the [g:205[shopping phase]], [g:401[modify]] {s:thisCardName} with \"Your [g:2[towers]] in all lanes have +1 [g:511[Mana]].\"",
+    "text_plain": "Your towers in all lanes have +1 Mana. Before the shopping phase, modify Mana Boost with \"Your towers in all lanes have +1 Mana.\"",
+    "keyword_ids": [
+      2,
+      205,
+      401,
+      511
+    ]
+  },
+  "7002": {
+    "text": "Enemy [g:0[heroes]] in all lanes have +5 [g:500[Bounty]].  Enemy [g:1[creeps]] in all lanes have +1 [g:500[Bounty]].",
+    "text_plain": "Enemy heroes in all lanes have +5 Bounty. Enemy creeps in all lanes have +1 Bounty.",
+    "keyword_ids": [
+      0,
+      1,
+      500
+    ]
+  },
+  "7004": {
+    "text": "Your [g:2[towers]] in all lanes have -10 [g:510[Health]].  Your ancients in all lanes have -10 [g:510[Health]].",
+    "text_plain": "Your towers in all lanes have -10 Health. Your ancients in all lanes have -10 Health.",
+    "keyword_ids": [
+      2,
+      510
+    ]
+  },
+  "7006": {
+    "text": "[color:play_effect[[g:602[Play Effect]]:]]  Put a [[Town Portal Scroll]] card into your hand.",
+    "text_plain": "Play Effect: Put a Town Portal Scroll card into your hand.",
+    "keyword_ids": [
+      602
+    ]
+  },
+  "7007": {
+    "text": "Allied [g:0[heroes]] in all lanes have [g:610[Rapid Deployment]].",
+    "text_plain": "Allied heroes in all lanes have Rapid Deployment.",
+    "keyword_ids": [
+      0,
+      610
+    ]
+  },
+  "7009": {
+    "text": "After the [g:0[hero]] [g:204[deployment phase]], [g:401[modify]] each ally in all lanes with +1 [g:509[Attack]].",
+    "text_plain": "After the hero deployment phase, modify each ally in all lanes with +1 Attack.",
+    "keyword_ids": [
+      0,
+      204,
+      401,
+      509
+    ]
+  },
+  "7010": {
+    "text": "Before the [g:205[shopping phase]], get 9 gold.",
+    "text_plain": "Before the shopping phase, get 9 gold.",
+    "keyword_ids": [
+      205
+    ]
+  },
+  "7012": {
+    "text": "Before the card draw phase, put a [[Golden Ticket]] card into your hand.",
+    "text_plain": "Before the card draw phase, put a Golden Ticket card into your hand."
+  },
+  "10001": {
+    "text": "[abilityname[Venomous Nature]][g:409[Summon]] a [[Plague Ward]] into {s:thisCardName}'s lane each [g:204[deployment phase]].",
+    "text_plain": "Venomous Nature\nSummon a Plague Ward into Venomancer's lane each deployment phase.",
+    "keyword_ids": [
+      204,
+      409
+    ],
+    "lore": "Most people are content eeking out an existence... eat. Work. Copulate. Sleep. This cycle continues, ad nauseam yielding useless children that are raised by their useless parents to have useless purposes in life. But I am not most people. I am a man of vision. My daughters are creations of purpose. And together we will spread a delicious poison across this countryside, purging it of weakness and stupidity. — Lesale, the Venomancer"
+  },
+  "10002": {
+    "text": "[g:409[Summon]] two [[Plague Wards]].",
+    "text_plain": "Summon two Plague Wards.",
+    "keyword_ids": [
+      409
+    ],
+    "lore": "I like to take time when placing my creations, ensuring that each of my daughters has a chance to blossom into what they are destined to become...but sometimes I'm seized with inspiration and tend to my work faster than normal. — Venomancer, Wicked Gardener"
+  },
+  "10003": {
+    "text": "[g:200[Before the action phase]], deal 2 [g:508[piercing]] damage to a random [g:600[enemy neighbor]] of {s:thisCardName}.",
+    "text_plain": "Before the action phase, deal 2 piercing damage to a random enemy neighbor of Plague Ward.",
+    "keyword_ids": [
+      200,
+      508,
+      600
+    ],
+    "lore": "My daughters are beautiful in design and purpose. To see them spread their poison is a wonder to behold. — Venomancer, Proud Papa"
+  },
+  "10004": {
+    "text": "[abilityname[Poof]][activatedability[[color:ability[Active &#9632;2:]] Move {s:thisCardName} to an allied [[Meepo]]'s lane. [g:608[&#9633;]] Deal 2 damage to the new [g:600[enemy neighbors]].]]<BR/>\n<BR/>\n[abilityname[United We Fall]]{s:thisCardName} has [g:512[Soulbound]]. (If {s:thisCardName} dies, other allied {s:thisCardName}s in every lane also die.)",
+    "text_plain": "Poof\nActive 2: Move Meepo to an allied Meepo's lane. Deal 2 damage to the new enemy neighbors.\n\nUnited We Fall\nMeepo has Soulbound. (If Meepo dies, other allied Meepos in every lane also die.)",
+    "keyword_ids": [
+      512,
+      600,
+      608
+    ],
+    "lore": "I'm not going to lie, life's been a little rough. I was on a tear playin' the couriers in White Spire, when all of a sudden I hit a cold streak. It happens. We figure we were due for a win so we go to Momma Eeb and take out a marker. Based on past dealings, Eeb's not too keen to let us borrow the money so we give her Meepo 3 as a collateral. We go back to the track, and well- look, I can't stress enough how cold the couriers were that day. We have a team meeting and decide it's not fair that Meepo 3 gets his legs broken because a sure thing fell through. So I go the Jasper Circle and get a loan to pay Eeb and get Meepo 3 back. But now we're in it with the Jasper Circle so we really don't want to take any chances because Momma Eeb will mess you up, Lasan will straight up kill ya. So we decide to do some odd jobs for the Ravenhooks and skim enough money off the top to be able to pay back the Jasper Circle, but that's when I realize that there's no way we could get cleaned out 3 times in a row... you're smart people, I think you can figure out where this is going. So mistakes were made and now we're back to where we started with the Jasper Circle debt only this time the Ravenhooks won't take us back because, ya know, we robbed them. We're freaking out and pointing fingers, and that's when Meepo 3 sees a wanted poster for our old friend Mireska. Now Lord Sunbreeze has put a huge bounty on his daughter that would cover the Jasper debt in spades, but A: Mireska's a friend... and more importantly B: there was no way we'd get to her before Gondar did. So I come up with a new plan. Gondar will capture Mireska. We'll free Mireska. Mireska will owe us. And Mireska will keep the Jasper Circle from killing us. It's a perfect plan. What could go wrong? — Meepo, Petty Con Man"
+  },
+  "10005": {
+    "text": "[g:409[Summon]] a [[Meepo]].",
+    "text_plain": "Summon a Meepo.",
+    "keyword_ids": [
+      409
+    ],
+    "lore": "I think it's important to have friends that can compensate for your weakness. For instance, I'm great at playing cards; whereas Meepo 2 is more of a dice guy. Does that mean we all get along? Of course not, one of us is always getting the rest of us in trouble... but at the end of the day, we always work together to find a way out... because if you can't count on yourselves... who can you count on? — Meepo, Team of Grifters"
+  },
+  "10006": {
+    "text": "[abilityname[Lucent Beam]][g:200[Before the action phase]], deal 1 [g:508[piercing]] damage to a random enemy and add a charge to three random [[Eclipse]] cards in your hand or deck.",
+    "text_plain": "Lucent Beam\nBefore the action phase, deal 1 piercing damage to a random enemy and add a charge to three random Eclipse cards in your hand or deck.",
+    "keyword_ids": [
+      200,
+      508
+    ],
+    "lore": "Once I was like Sorla Khan... a warlord that did as she pleased. Strong and immortal I knew that no man or beast was my equal... until my hubris cost me everything. It was there at my lowest that Selemene found me. Tested me. And showed me the moon lit path. Much time has passed since that day, and I find purpose and pride in protecting the Nightsilver Woods with other members of the Dark Moon. But word has spread of Sorla Khan's march, and while we have never met I understand her all too well. And so I travel to Roseleaf to defeat her, and save her from herself. — Luna, the Moon Rider"
+  },
+  "10007": {
+    "text": "Repeat one time for each charge: [g:608[&#9633;]] Deal 3 [g:508[piercing]] damage to a random enemy.",
+    "text_plain": "Repeat one time for each charge: Deal 3 piercing damage to a random enemy.",
+    "keyword_ids": [
+      508,
+      608
+    ],
+    "lore": "Selemene has rewarded my faith in her with terrible power, and I have taken a vow never to misuse it. — Luna, Servant of Selemene"
+  },
+  "10010": {
+    "text": "[abilityname[Arctic Burn]][activatedability[[color:ability[Active &#9632;2:]] Move {s:thisCardName} to an empty combat position and give it +4 [g:509[Attack]] this round.]]",
+    "text_plain": "Arctic Burn\nActive 2: Move Winter Wyvern to an empty combat position and give it +4 Attack this round.",
+    "keyword_ids": [
+      509
+    ],
+    "lore": "Writers block. It is an awful condition that can ensure even the most prolific of authors. Once the words used to flow freely from my lips to my scribe Thrael's ears...but lately I have been... distracted by the pulp drivel Goodkind unleashes into the world. I had no idea that the adventures of a monosyllabic red thug could capture so many readers, yet if I am to be honest my own works feel boring in comparison... its vexing. Ah well, I guess it's time to find Goodkind and eat her. — Auroth, the Winter Wyvern"
+  },
+  "10011": {
+    "text": "[g:404[Disarm]] a [g:607[unit]] until end of round. [g:608[&#9633;]] That [g:607[unit]]'s [g:601[allied neighbors]] [g:400[battle]] it.",
+    "text_plain": "Disarm a unit until end of round. That unit's allied neighbors battle it.",
+    "keyword_ids": [
+      400,
+      404,
+      601,
+      607,
+      608
+    ],
+    "lore": "Feeble minds can prove useful for fleeting entertainment. — Winter Wyvern, Bored Poet"
+  },
+  "10014": {
+    "text": "[abilityname[Feral Impulse]]{s:thisCardName}'s [g:601[allied neighbors]] have +2 [g:509[Attack]].",
+    "text_plain": "Feral Impulse\nLycan's allied neighbors have +2 Attack.",
+    "keyword_ids": [
+      509,
+      601
+    ],
+    "lore": "My father was good man. A regent over the lands of Slom, he ruled the small folk with fairness and justice. My mother was the picture of patience and compassion, a woman beloved by her people as if they were her children. And my siblings? Gods we were trouble. I remember the day we found Father's collection of ancient maps, Tressa thought it would be funny if we- it doesn't matter now. They're all dead. — Banehallow, the Lycan"
+  },
+  "10016": {
+    "text": "[abilityname[Borrowed Time]][activatedability[[color:ability[Active &#9632;2:]] Fully heal {s:thisCardName} and give it [g:507[Damage Immunity]] this round.]]",
+    "text_plain": "Borrowed Time\nActive 2: Fully heal Abaddon and give it Damage Immunity this round.",
+    "keyword_ids": [
+      507
+    ],
+    "lore": "As a child I was baptized in the Font of Avernus...its black mist embracing me...enveloping me... becoming one with me. As a man I have wielded its power to defend the House of Avernus, and build a legacy that will never be forgotten. But rumors have reached my ears.... rumors that indicate that my familial font is not the only source of the mist... if this is true I must find it and consume it. For its blessings must remain mine alone. — Abaddon, the Lord of Avernus"
+  },
+  "10017": {
+    "text": "[abilityname[Holy Persuasion]][activatedability[[color:ability[Active &#9632;4:]] Get control of an enemy [g:1[creep]].]]",
+    "text_plain": "Holy Persuasion\nActive 4: Get control of an enemy creep.",
+    "keyword_ids": [
+      1
+    ],
+    "lore": "The Rumusque Faithful have grown in number and in reputation and Lady Anshu is revered as a prophet and the second coming of Crella herself. Such a woman will be a powerful convert to the Knights of the Fold. And once I have shown her the true light of god... she will bring her followers to me. — Chen, Holy Knight of the Fold"
+  },
+  "10018": {
+    "text": "[abilityname[Blood Bath]]Fully heal {s:thisCardName} after a [g:607[unit]] blocking it dies.",
+    "text_plain": "Blood Bath\nFully heal Bloodseeker after a unit blocking it dies.",
+    "keyword_ids": [
+      607
+    ],
+    "lore": "My homeland is a place of beauty and grace... of crystal streams and bountiful harvest...it is undeniably a gift from the gods. But when such a gift is bestowed upon you, it is right to give thanks... and there is only one way to show gratitude to the Flayed Twins. With blood. — Strygwyr, the Bloodseeker"
+  },
+  "10020": {
+    "lore": "Axe is a man of many talents. Well one talent. The murder talent. However that seems to be enough for Axe to attract a legion of devoted fans that follow his adventures. It also probably helps that Axe's bard, Goodkind is good at what she calls 'embellishment'. Axe is unsure what the word means, but it's probably a good thing. — Axe, Adventurer and Murder Machine"
+  },
+  "10021": {
+    "text": "[abilityname[Return]]{s:thisCardName} has +2 [g:503[Retaliate]].",
+    "text_plain": "Return\nCentaur Warrunner has +2 Retaliate.",
+    "keyword_ids": [
+      503
+    ],
+    "lore": "The hunt is a sacred thing, and to be asked to lead it is a great honor. These centaurs claim to be the finest hunters of the Marrowfell Tribe. We shall see if any of them are worthy to claim the Horn of the Alpha. — Bradwarden, the Centaur Warrunner"
+  },
+  "10022": {
+    "text": "[abilityname[Reactive Armor]]{s:thisCardName} has +1 [g:504[Armor]] for each of its attackers. {s:thisCardName}'s attackers have -1 [g:504[Armor]].",
+    "text_plain": "Reactive Armor\nTimbersaw has +1 Armor for each of its attackers. Timbersaw's attackers have -1 Armor.",
+    "keyword_ids": [
+      504
+    ],
+    "lore": "I know they think I'm crazy... and that's ok... they didn't see what I saw... see what the trees did. 'Ohh it's nature, look at the beauty of the forest.' Lies. That's not a tranquil jungle... that's a sleeping army. And unless we are prepared when that forest starts to march it will be the end of everybody. — Rizzrack, the Timbersaw"
+  },
+  "10023": {
+    "text": "[abilityname[Jinada]][g:200[Before the action phase]], there is a 50% chance to give {s:thisCardName} +4 [g:509[Attack]] this round.",
+    "text_plain": "Jinada\nBefore the action phase, there is a 50% chance to give Bounty Hunter +4 Attack this round.",
+    "keyword_ids": [
+      200,
+      509
+    ],
+    "lore": "Lord Sunbreeze is willing to pay handsomely to anyone who was able to return his daughter to him alive... which is somewhat unfortunate because 'Dead' is significantly easier for me. Oh well, the customer is always right. Looks like it's time to hunt a fairy. — Gondar, the Bounty Hunter"
+  },
+  "10024": {
+    "text": "[abilityname[Ravage]][activatedability[[color:ability[Active &#9632;4:]] [g:405[Stun]] {s:thisCardName}'s [g:600[enemy neighbors]] this round and each other enemy has a 50% chance of being stunned this round.]]",
+    "text_plain": "Ravage\nActive 4: Stun Tidehunter's enemy neighbors this round and each other enemy has a 50% chance of being stunned this round.",
+    "keyword_ids": [
+      405,
+      600
+    ],
+    "lore": "My dominion over the seas is absolute... and soon it will be the same on land. — Leviathan, the Tidehunter"
+  },
+  "10025": {
+    "text": "[abilityname[Laser]][activatedability[[color:ability[Active &#9632;3:]] Deal 3 damage to a [g:607[unit]] and [g:404[disarm]] it this round.]]",
+    "text_plain": "Laser\nActive 3: Deal 3 damage to a unit and disarm it this round.",
+    "keyword_ids": [
+      404,
+      607
+    ],
+    "lore": "The idea of working with Mazzie is...less exciting to me. But Sniper has raised some excellent points: The keen have been divided for too long and at least he doesn't yell at trees. Still, it's hard for me to overlook our past. Do I think we'll be friends? No. Do I think I can stomach his presence and not 'accidently' shoot in him the back of the head? Maybe if I drink enough. Time will tell. — Boush, the Tinker"
+  },
+  "10026": {
+    "text": "[abilityname[Relentless Rebel]]{s:thisCardName} has [g:610[Rapid Deployment]].",
+    "text_plain": "Relentless Rebel\nRix has Rapid Deployment.",
+    "keyword_ids": [
+      610
+    ],
+    "lore": "I was conscripted to the Bronze Legion when I was a pup. They marched through my village with their shiny armor and promises of glory and I couldn't sign on fast enough. I smiled when they put the conscript mark on my arm cause I knew that if I worked hard enough, if I followed orders, if I showed valor and skill in battle I would make something of myself and become more than just a stupid savage from redmaw. And so I followed. And fought. And killed. And with every town we occupied, every insurrection we quelled, every voice of dissent I silenced, the words 'for the glory of Stonehall' grew hollower, and that bronzed mark I took pride in became heavier. So now we march through Roseleaf to intercept the Red Mist Horde, and again my Commander has asked me to 'speak to my savage people'... well speak to them I shall... and when I do, they'll understand that I will fight beside them until every soldier is sent back to Stonehall in a bronzed coffin. — Rix, Leader of the Vhoul Rebellion"
+  },
+  "10028": {
+    "text": "[abilityname[Corrosive Skin]]When a [g:607[unit]] deals [g:609[battle damage]] to {s:thisCardName}, [g:401[modify]] that [g:607[unit]] with -1 [g:509[Attack]].",
+    "text_plain": "Corrosive Skin\nWhen a unit deals battle damage to Viper, modify that unit with -1 Attack.",
+    "keyword_ids": [
+      401,
+      509,
+      607,
+      609
+    ],
+    "lore": "Once Pugna used me. Controlled me. Owned me. Eventually I escaped, and while at first I relished in my newfound freedom, as years passed it became a more hollow existence... for a while I thought this ennui came because my tormentor still roamed free, and I wouldn't find peace until I make him suffer as I did. But after I began my quest for vengeance I came to a realization. Pugna is not an abnormality. How many dabble in magic to summon and control. To create life then force it to obey. No. Pugna's enslavement won't bring me peace... but enslaving every wizard? Now that is something that will help me sleep well at night. — Viper, the Netherdrake"
+  },
+  "10029": {
+    "text": "[abilityname[Call of the Wild]][activatedability[[color:ability[Active &#9632;3:]] [g:409[Summon]] a [[Loyal Beast]].]]",
+    "text_plain": "Call of the Wild\nActive 3: Summon a Loyal Beast.",
+    "keyword_ids": [
+      409
+    ],
+    "lore": "Every year the Marrowfell Centaurs send their bravest warriors into Roseleaf to hunt Thunderhides... to them this gruesome safari is a rite of passage, but I will not let these majestic creatures be hunted for sport. The only question that remains is how many centaurs will I have to kill before they realize Roseleaf Forest is no longer their hunting grounds. — Karroch, the Beastmaster"
+  },
+  "10030": {
+    "text": "[abilityname[Barroom Brawler]][g:401[Modify]] {s:thisCardName} with +2 [g:504[Armor]] after a [g:0[hero]] blocking it dies.",
+    "text_plain": "Barroom Brawler\nModify Bristleback with +2 Armor after a hero blocking it dies.",
+    "keyword_ids": [
+      0,
+      401,
+      504
+    ],
+    "lore": "I never went to some fancy military school to learn how to beat a man half to death... that's what bars were for. — Bristleback, Barfly"
+  },
+  "10031": {
+    "text": "[abilityname[Bringer of Conquest]]The random allied [[Melee Creeps]] are deployed into {s:thisCardName}'s lane.",
+    "text_plain": "Bringer of Conquest\nThe random allied Melee Creeps are deployed into Kanna's lane.",
+    "lore": "I am a woman of my word. I promised my mother that I would find a way to fix my frail body, and I found salvation in the Dire. In exchange I promised the Dire a mighty army... and here you stand. And on the day we built this citadel I promised I would give you purpose... and you have found it in the glory of battle and the honor of serving The Dire. I am a woman of my word, and today I make a new promise: soon Prellex's body will be crushed in the rubble of her false god, and on that day you will be rewarded beyond all measure. — Kanna, Priestess of the Dire"
+  },
+  "10032": {
+    "text": "[abilityname[Precision Aura]]Other allies in all lanes have +1 [g:509[Attack]].",
+    "text_plain": "Precision Aura\nOther allies in all lanes have +1 Attack.",
+    "keyword_ids": [
+      509
+    ],
+    "lore": "Power is a funny thing. It's something we all want but are taught to be ashamed to seek. But power is neither good nor evil. It's freedom. It's the ability to live the life you choose, on the terms that you want. People like to criticize where that power came from but in time, history forgets... and only remembers what you chose to do with it. People can judge me for helping Kanna. But in time they will understand. — Traxex, the Drow Ranger"
+  },
+  "10033": {
+    "text": "[abilityname[Fissure]][activatedability[[color:ability[Active &#9632;4:]] [g:405[Stun]] {s:thisCardName}'s [g:600[enemy neighbors]] this round.]]",
+    "text_plain": "Fissure\nActive 4: Stun Earthshaker's enemy neighbors this round.",
+    "keyword_ids": [
+      405,
+      600
+    ],
+    "lore": "My existence shouldn't be. I was not born of a mother, but from a rock...and yet I was carved by no artisan. No... I willed my consciousness into being. For so long, I walked alone... confused... but that all changed when I met Kanna. I was rudderless, and she gave me direction. I was ignorant of the ways of man, and she gave me understanding. I was alone in this world, and she gave me companionship. But above all, she gave me a name and sense of self. Once I called myself Raigor Stonehoof...but she has given me a new name that is far more fitting...Earthshaker. — Earthshaker, Adopted Son"
+  },
+  "10036": {
+    "text": "[abilityname[Nature's Attendants]]{s:thisCardName} has +2 [g:505[Regeneration]]. {s:thisCardName}'s [g:601[allied neighbors]] have +2 [g:505[Regeneration]].",
+    "text_plain": "Nature's Attendants\nEnchantress has +2 Regeneration. Enchantress's allied neighbors have +2 Regeneration.",
+    "keyword_ids": [
+      505,
+      601
+    ],
+    "lore": "Rix. Tresdin. Sorla Khan. You ask any one of them and they will spin you a story about why their cause is just; and every single one of them is wrong. This war is senseless, its cost will be immeasurable, and the only people who will profit are the future historians who'll sell books about the massacre. I can't stop this war from happening... but I will do whatever I can to minimize the damage. — Aiustha, the Enchantress"
+  },
+  "10038": {
+    "text": "[abilityname[Sacrifice]][activatedability[[color:ability[Active &#9632;2:]] [g:408[Condemn]] another ally and draw a card. If that ally has 6 or more [g:509[Attack]], draw an extra card.]]",
+    "text_plain": "Sacrifice\nActive 2: Condemn another ally and draw a card. If that ally has 6 or more Attack, draw an extra card.",
+    "keyword_ids": [
+      408,
+      509
+    ],
+    "lore": "Opportunity calls to me in Roseleaf. Lion flees to Weeping Rose, and will undoubtedly be looking for allies to aid him. The Vhoul are losing their battle against The Bronze Legion and are willing to do anything for victory... and the Crystal Maiden of Icewrack happens to be on holiday. It truly is an embarrassment of riches. The only lingering question is who should I kill first. — Ethreain, the Lich"
+  },
+  "10043": {
+    "text": "[abilityname[Multicast]]After you play a [color:blue[blue [g:4[spell]]]], there is a 25% chance to put a base copy of that card into your hand.",
+    "text_plain": "Multicast\nAfter you play a blue spell, there is a 25% chance to put a base copy of that card into your hand.",
+    "keyword_ids": [
+      4
+    ],
+    "lore": "'It's not easy being the smartest ogre in the world. There's lots of jealous people out there.'\n'Think about how many people you know with one head.'\n'I bet it's a lot.'\n'Now realize that every single one of them is half as smart as us. Do you know how lonely it is to walk this earth, never finding an intellectual eq-'\n'WE LIKE ROCKS!'\n'Yes...yes we do.' — Aggron Stonebreak, the Ogre Magi"
+  },
+  "10044": {
+    "text": "[abilityname[Purification]][activatedability[[color:ability[Active &#9632;2:]] Heal a [g:607[unit]] 3.]]",
+    "text_plain": "Purification\nActive 2: Heal a unit 3.",
+    "keyword_ids": [
+      607
+    ],
+    "lore": "Something is stirring in Roseleaf. I'm not referring to Stonehall's war machine, or the Red Mist Horde... no... those are problems of flesh and blood, distractions keeping attention divided from the real danger. The Court of Ristul. But I cannot face this danger alone, and so I hope to meet with Luna of the Dark Moon. With the combined might of Selemene and the All Seeing One, we may have a chance. — Omniknight, Devoted to the Allseeing One"
+  },
+  "10046": {
+    "text": "[abilityname[Essence Aura]]After you play a [color:blue[blue card]], there is a 50% chance to restore 2 [g:511[Mana]].",
+    "text_plain": "Essence Aura\nAfter you play a blue card, there is a 50% chance to restore 2 Mana.",
+    "keyword_ids": [
+      511
+    ],
+    "lore": "The Dire Child has begun to come into her own. She will need guidance. Molding. She has chosen the beast to be her champion... but I shall be her seneschal...and eventually... her master. — Harbinger, the Outworld Devourer"
+  },
+  "10047": {
+    "text": "[abilityname[Efficient Killer]]{s:thisCardName} deals +4 damage when attacking a [g:0[hero]].",
+    "text_plain": "Efficient Killer\nPhantom Assassin deals +4 damage when attacking a hero.",
+    "keyword_ids": [
+      0
+    ],
+    "lore": "The Veiled Sisterhood gave me everything. My life. My skills. My family... My very purpose. So when the Veiled Oracles provide me a list of names, I never question what it is I need to do. — Mortred, the Phantom Assassin"
+  },
+  "10048": {
+    "text": "[abilityname[Nether Blast]][activatedability[[color:ability[Active &#9632;3:]] [g:408[Condemn]] a random enemy [g:3[improvement]].]]",
+    "text_plain": "Nether Blast\nActive 3: Condemn a random enemy improvement.",
+    "keyword_ids": [
+      3,
+      408
+    ],
+    "lore": "The Tyler Estate. It seeks to control magic. Punish those that violate rules set by the Quorum. But I will show them that some things cannot be controlled. And when the Tyler Estate Burns, I will set my sights on Weeping Rose itself. — Pugna, Ill-Tempered Nihilist"
+  },
+  "10050": {
+    "text": "[abilityname[Headshot]][activatedability[[color:ability[Active &#9632;3:]] Deal 5 damage to a [g:607[unit]].]]",
+    "text_plain": "Headshot\nActive 3: Deal 5 damage to a unit.",
+    "keyword_ids": [
+      607
+    ],
+    "lore": "For too long the Keenfolk have been fractured. Little colonies spread across the world each coveting their own research... but as we kept to our workshops the world around us changed. Stonehall rose to power. The nation of Revtel was born. The Quroum of Weeping Rose grew bolder... and what did we do? We toiled and tinkered. We built wondrous machines and used them for petty tasks. This cannot continue. The Keenfolk clans need to unite, and show the world what we're capable of. — Kardel, the Sniper"
+  },
+  "10052": {
+    "lore": "So there I was: drinking with my friends, well actually I was drinking alone but I was thinking about my friends so it's basically the same thing. Anyway. Sniper walks into my workshop and is like 'Mazzie, you're wasting your life' and I'm like 'Geeze Sniper, if I wanted to feel bad about myself I'd ask my parents why they never visit me on my birthday' but Sniper's not interested in hearing about parental abandonment, he's interested in uniting the Keenfolk clans. So I say I'll help: on the condition that I get to give our group a cool name. Sniper rolled his eyes and sighed, which is basically the same thing as a yes, and THAT'S how the Society of Likeminded Keenfolk was born. — Mazzie, Founding Member of the Society of Likeminded Keenfolk"
+  },
+  "10053": {
+    "text": "[abilityname[Bringer of the Faithful]][g:409[Summon]] a [[Melee Creep]] into {s:thisCardName}'s lane each [g:204[deployment phase]].",
+    "text_plain": "Bringer of the Faithful\nSummon a Melee Creep into Prellex's lane each deployment phase.",
+    "keyword_ids": [
+      204,
+      409
+    ],
+    "lore": "Brothers and sisters, The Ancient is coming. With every passing day my visions grow stronger: A violet sky. A sundered moon. And an Ancient voice that whispers 'Prepare for my arrival.' Prepare. Such a simple word that does no justice to the work that lies before us... We must be heralds; walking testimonies to the benevolence of The Ancient. Spreading the word of its glorious arrival, no matter if that message is received with joy or scorn. We must be architects; building not just this monastery for those who believe what I have seen, but an entire world that is worthy of the Ancient's splendor. We must be zealots; willing to lay down our lives in defense of this sacred space, because rest assured we are at war. Kanna and her heretics will stop at nothing to undo the work that we've accomplished, and that is why we must return in kind. — Prellex, Priestess of the Radiant"
+  },
+  "10054": {
+    "text": "[abilityname[Great Cleave]]{s:thisCardName} has +X [g:502[Cleave]] where X is equal to half its [g:509[Attack]].",
+    "text_plain": "Great Cleave\nSven has +X Cleave where X is equal to half its Attack.",
+    "keyword_ids": [
+      502,
+      509
+    ],
+    "lore": "I've given myself to the Vigil Knights. I will train with them. Learn their ways. Become the best... and ultimately: destroy them from within. — Sven, Knight of the Vigil"
+  },
+  "10056": {
+    "text": "[abilityname[Branches of Iron]]{s:thisCardName}'s [g:601[allied neighbors]] have +2 [g:504[Armor]].",
+    "text_plain": "Branches of Iron\nTreant Protector's allied neighbors have +2 Armor.",
+    "keyword_ids": [
+      504,
+      601
+    ],
+    "lore": "My feelings on the war in roseleaf are... complicated. Neither the bronze legion nor the red mist are threats to my people, and yet my cousins willingly intercede on the Vhoul's behalf. Their fondness for such frail creatures is strange to me, but none the less they call for my aid, and I am compelled to answer. — Rooftrellen, the Treant Protector"
+  },
+  "10058": {
+    "text": "[abilityname[Warmonger]]{s:thisCardName} deals +4 damage when attacking a [g:2[tower]].",
+    "text_plain": "Warmonger\nSorla Khan deals +4 damage when attacking a tower.",
+    "keyword_ids": [
+      2
+    ],
+    "lore": "I'm not oblivious to my reputation. I won't even pretend that it's un-earned. I've lead the Red Mist from town to town taking whatever it is we want... and what we want is to survive. So yes. I am a warlord. I have done and will do unspeakable things. But make no mistake, I am no conqueror. I am the Savior of the Oglodi. It's just an unfortunate reality that my people's salvation means your people's destruction. — Sorla, Khan of the Red Mist"
+  },
+  "10059": {
+    "text": "[abilityname[Sadist]][g:401[Modify]] {s:thisCardName} with +1 [g:510[Health]] after an [g:600[enemy neighbor]] dies.",
+    "text_plain": "Sadist\nModify Necrophos with +1 Health after an enemy neighbor dies.",
+    "keyword_ids": [
+      401,
+      510,
+      600
+    ],
+    "lore": "For years I travelled, spreading the gift of pestilence city by city. But now a unique opportunity has arisen. If I can infect the Red Mist Horde... they can do the travelling for me, and pass along my gift faster than I could ever dream. — Rotund'jere, the Necrophos"
+  },
+  "10060": {
+    "text": "[abilityname[Finger of Death]][activatedability[[color:ability[Active &#9632;4:]] Deal 8 [g:508[piercing]] damage to a [g:607[unit]].  Quicken (reduce cooldown by 1, but not below 1).]]",
+    "text_plain": "Finger of Death\nActive 4: Deal 8 piercing damage to a unit. Quicken (reduce cooldown by 1, but not below 1).",
+    "keyword_ids": [
+      508,
+      607
+    ],
+    "lore": "I am a hunted man. The Court of Ristul seek my hand. The Anti-Mage, my head. Now I seek asylum in Weeping Rose, but first I must seek the Quorum's emissary. — Lion, the Demon Witch"
+  },
+  "10062": {
+    "text": "[abilityname[Concussive Shot]][activatedability[[color:ability[Active &#9632;2:]] Give a [g:0[hero]] and its [g:601[allied neighbors]] -2 [g:504[Armor]] this round.]]",
+    "text_plain": "Concussive Shot\nActive 2: Give a hero and its allied neighbors -2 Armor this round.",
+    "keyword_ids": [
+      0,
+      504,
+      601
+    ],
+    "lore": "I empathize with Rix. It's not easy following the orders of a leader you despise. But I don't have the luxury of staging a rebellion...the stakes are too high, and so I must bide my time... and wait to be reunited with my beloved. — Dragonus, the Skywrath Mage"
+  },
+  "10063": {
+    "text": "Deal 12 damage evenly divided among a [g:607[unit]] and its [g:601[allied neighbors]].",
+    "text_plain": "Deal 12 damage evenly divided among a unit and its allied neighbors.",
+    "keyword_ids": [
+      601,
+      607
+    ],
+    "lore": "I dedicated my life to the pursuit of the mystic arts...But while my head was buried in books, my beloved was betrayed and cast out of the Ghastly Eyrie. I was unable to save her then... but at least I have the power to save her now. — Skywrath Mage, Guilt-Wrecked"
+  },
+  "10064": {
+    "text": "[abilityname[Arcane Aura]]After the first time an allied [g:4[spell]] is played in each lane, restore 2 [g:511[Mana]] to the [g:2[tower]] in that lane.",
+    "text_plain": "Arcane Aura\nAfter the first time an allied spell is played in each lane, restore 2 Mana to the tower in that lane.",
+    "keyword_ids": [
+      2,
+      4,
+      511
+    ],
+    "lore": "'Warden of Icewrack.' It's a fancy title. In theory it means I'm responsible for maintaining law and order, collaborating with the Sapphire Conclave on magical crimes, and protecting the weak from all manners of nasty things. In practice I help farmers fix fences. So I decided to go on a little sabbatical. Besides... I couldn't stay in Icewrack. It's cold. It's boring. And I heard my sister was planning on visiting so I definitely had to get the hell outta there. — Rylai, the Crystal Maiden"
+  },
+  "10065": {
+    "lore": "I care little for the affairs of mortals. I have no stake in the war between the Red Mist and the Bronze Legion, and the plight of the Vhoul does little to stir my blood. What I DO care about however, is that charlatan Storm Spirit claiming my lightning as his own... and so I travel to Roseleaf; to prove that there is no god of lightning above me. — Zeus, Lord of Heaven"
+  },
+  "10067": {
+    "lore": "I'm no stranger to man's lust for conquest. To be seen not as a person but as a commodity... and I refuse to stand idly by while the Vhoul are subjugated. It's too late for my people... but it might not be too late for theirs. — Magnus, Endangered Protector"
+  },
+  "10068": {
+    "text": "[abilityname[Surge]][activatedability[[color:ability[Active &#9632;2:]] Move another ally to another lane.]]",
+    "text_plain": "Surge\nActive 2: Move another ally to another lane.",
+    "lore": "The Red Mist slowly marches to Stonehall. The Bronze Legion plans an ambush in Roseleaf. But the denizens of that Vhoul city do not take kindly to occupation and have sparked an insurrection. Three factions. One battlefield. And not a strategic mind between them. I will defeat these charlatans of war. And in doing so, prove my brilliance. — Ish'kafel, the Dark Seer"
+  },
+  "10069": {
+    "text": "[abilityname[Moment of Courage]]{s:thisCardName} has +2 [g:503[Retaliate]].",
+    "text_plain": "Moment of Courage\nLegion Commander has +2 Retaliate.",
+    "keyword_ids": [
+      503
+    ],
+    "lore": "I know these people think me a monster. I don't blame them. No one wants to be occupied, but it's in their best interests! If we weren't here in Roseleaf the Red Mist would have slaughtered them all... today the Vhoul see us as villains, but after we defeat Sorla Khan... The Bronze Legion will be heralded as the heroes we are. — Tresdin, Legion Commander"
+  },
+  "10070": {
+    "text": "[abilityname[Fury Swipes]]When {s:thisCardName} deals [g:609[battle damage]] to a [g:607[unit]], [g:401[modify]] that [g:607[unit]] with -1 [g:504[Armor]].",
+    "text_plain": "Fury Swipes\nWhen Ursa deals battle damage to a unit, modify that unit with -1 Armor.",
+    "keyword_ids": [
+      401,
+      504,
+      607,
+      609
+    ],
+    "lore": "This isn't my fight. But if I don't stand with the Vhoul it's only a matter of time before the Bronze Legion comes for my people. A message needs to be sent... and it will be bloody. — Ursa, Tribal Protector"
+  },
+  "10076": {
+    "text": "[color:play_effect[[g:602[Play Effect]]:]]  [g:401[Modify]] a random allied [g:0[hero]] with +2 [g:509[Attack]].",
+    "text_plain": "Play Effect: Modify a random allied hero with +2 Attack.",
+    "keyword_ids": [
+      0,
+      401,
+      509,
+      602
+    ],
+    "lore": "Greevils were terrible mistake. Smeevils were created to fix mistake. Greevils hurt. Smeevils help. For instance. I make swords that can be used to kill Greevils. And other people. But ideally Greevils. — Kareth, Smeevil Armsmaster"
+  },
+  "10077": {
+    "text": "[activatedability[[color:ability[Active &#9632;1:]] Choose a combat target for {s:thisCardName}.]]",
+    "text_plain": "Active 1: Choose a combat target for Sister of the Veil.",
+    "lore": "My role is not to question, but to act. It doesn't matter if you are a pauper in the street, a king on a throne, or a mad wizard locked away in the Tyler Estate. If your name is given to me by The Veiled Sisters... your death is inevitable. The only question is when will I choose to take it. — Hetheel, Sister of the Veil"
+  },
+  "10078": {
+    "text": "The enemy [g:2[tower]] has -1 [g:511[Mana]].",
+    "text_plain": "The enemy tower has -1 Mana.",
+    "keyword_ids": [
+      2,
+      511
+    ],
+    "lore": "There is no such thing as forbidden magic in Weeping Rose. But some mistake the Quorums...open mindedness... as a license to be irresponsible. The Tyler Estate is what awaits those who would abuse the hospitality Weeping Rose provides. — Votajo, Tyler Estate Censor"
+  },
+  "10079": {
+    "text": "[color:play_effect[[g:602[Play Effect]]:]]  [g:401[Modify]] a random allied [g:0[hero]] with +1 [g:504[Armor]].",
+    "text_plain": "Play Effect: Modify a random allied hero with +1 Armor.",
+    "keyword_ids": [
+      0,
+      401,
+      504,
+      602
+    ],
+    "lore": "My needs are simple. A hammer. An anvil. And a master who appreciates my skill. The first two are easy to come by. The third is more elusive. Fortunately bad masters have a tendency to die in battle. Some say this is because of flaws in their armor. I say...'prove it?' — Vareth, Smeevil Blacksmith"
+  },
+  "10080": {
+    "text": "[activatedability[[color:ability[Active &#9632;1:]] Swap {s:thisCardName} with another ally.]]",
+    "text_plain": "Active 1: Swap Rebel Decoy with another ally.",
+    "lore": "I'll never forget the day I met Rix. It was in the early days of the revolution, when people were scared to even gather at night. We met in the tailor's wine cellar and Rix talked... god did he talk. Of passion. Of mistakes. Of his love for our people. I was mesmerized. We all were. So when he turned to me and asked what I could give to help the rebellion, there was only one answer... 'My life.' — Lyla, Rebel Decoy"
+  },
+  "10083": {
+    "text": "[g:401[Modify]] {s:thisCardName} with +2 [g:509[Attack]] after an [g:601[allied neighbor]] dies.",
+    "text_plain": "Modify Pit Fighter of Quoidge with +2 Attack after an allied neighbor dies.",
+    "keyword_ids": [
+      401,
+      509,
+      601
+    ],
+    "lore": "I get it, I get it, 'The Fields of Endless Carnage' sounds like a horrible place to take a holiday but I'm tellin' you Quoidge is a great city filled with lovely people. If you ever make the trip be sure to stop by the fightin' pits and say hello. I may look different on account of the whole sewing-on-limbs thing but I'll remember you... I never forget a face. — Tristan, Undead Boxer and all around swell chap"
+  },
+  "10084": {
+    "text": "[g:202[After the combat phase]], if {s:thisCardName} dealt [g:609[battle damage]] to a [g:1[creep]] this round, [g:409[summon]] a [[Rebel Instigator]].",
+    "text_plain": "After the combat phase, if Rebel Instigator dealt battle damage to a creep this round, summon a Rebel Instigator.",
+    "keyword_ids": [
+      1,
+      202,
+      409,
+      609
+    ],
+    "lore": "I'm not some wide-eyed pup with delusions of being a hero. I know what we're up against, and I know I'll be leaving my wife a widow. But this our home. How can I look my daughter in the eyes and say that when our only chance to free ourselves from the yoke of the bronze legion came I did nothing. That so many of our brothers died for nothing, that maybe things would have been different if I just tried. No. I know what I need to do. And when I'm finished others will as well. — Gorn, Rebel Instigator"
+  },
+  "10085": {
+    "text": "[g:501[Siege]] 5. {s:thisCardName} has -2 [g:509[Attack]] for each ally.",
+    "text_plain": "Siege 5. Assassin's Shadow has -2 Attack for each ally.",
+    "keyword_ids": [
+      501,
+      509
+    ],
+    "lore": "For the most powerful of our order... not even death removes us from our sacred duty. Our communion with the Phantom Veil is strong enough to let our spirit live on, long after our bodies have rot. The mortal coil is now behind me, and the presence of my sisters, while comforting, is a distraction from the work I must do. My list still has names on it...and I won't rest until they are dead. — Elsbeth, the Assassin's Shadow"
+  },
+  "10086": {
+    "text": "Other allies have +2 [g:509[Attack]] and -2 [g:504[Armor]].",
+    "text_plain": "Other allies have +2 Attack and -2 Armor.",
+    "keyword_ids": [
+      504,
+      509
+    ],
+    "lore": "There is delicious conflict here. And where there is conflict there is desperation. And where there is desperation there is blood to be shed and deals to be made. — Zo, Disciple of Nevermore"
+  },
+  "10087": {
+    "text": "{s:thisCardName}'s [g:601[allied neighbors]] have +4 [g:509[Attack]].",
+    "text_plain": "Legion Standard Bearer's allied neighbors have +4 Attack.",
+    "keyword_ids": [
+      509,
+      601
+    ],
+    "lore": "As a boy I dreamed of being a member of the Stonehall Elite... to be trained by Belasanno himself in the ways of war... but the sad truth is that I have no gift for combat. I am no soldier. But I am a believer. In our emperor. In our country. In our mission. I may not be a swordsman, but I am proud to carry the bullsnake into battle. — Pololo, Standard Bearer of the Bronze Legion"
+  },
+  "10090": {
+    "text": "[color:play_effect[[g:602[Play Effect]]:]]  Give {s:thisCardName} a [g:506[Death Shield]].",
+    "text_plain": "Play Effect: Give Relentless Zombie a Death Shield.",
+    "keyword_ids": [
+      506,
+      602
+    ],
+    "lore": "The dead are rising in Roseleaf, Knogh...someone took The Oath. — Vanessa, Heretic for Hire"
+  },
+  "10091": {
+    "text": "{s:thisCardName} has +X [g:509[Attack]] where X is equal to half your gold.",
+    "text_plain": "Revtel Convoy has +X Attack where X is equal to half your gold.",
+    "keyword_ids": [
+      509
+    ],
+    "lore": "These are strange times in Revtel. Iron Fog is terrorized by Losel. The Veiled Sisters assassinated Kwerthias. And Lord Sunbreeze's own daughter has burned down his estate. But despite the setbacks, the wheel continues to turn and profits continue to roll in. But there is no time to mourn in Revtel... there is business to be done. — Lowenplatt, Merchant of Revtel"
+  },
+  "10092": {
+    "text": "[color:play_effect[[g:602[Play Effect]]:]]  Deal 4 damage to the enemy [g:2[tower]].",
+    "text_plain": "Play Effect: Deal 4 damage to the enemy tower.",
+    "keyword_ids": [
+      2,
+      602
+    ],
+    "lore": "Besiege Stonehall. I've seen Khan's over thrown for even suggesting it. But when Sorla gave the order, not one of us batted an eye. Not because she's the strongest. Not because we fear her cruelty. But because we knew that she would die before she failed her people. And so The Red Mist marches... and may the gods have mercy on whoever stands in our way. — Seguri, Red Mist Vandal"
+  },
+  "10093": {
+    "lore": "They smell blood, but what they track is fear. — Kanna, Dire Child"
+  },
+  "10094": {
+    "text": "[activatedability[[color:ability[Active &#9632;2:]] Spend all your gold. [g:401[Modify]] {s:thisCardName} with +X [g:509[Attack]] and +X [g:510[Health]] where X is half the gold spent.]]",
+    "text_plain": "Active 2: Spend all your gold. Modify Mercenary Exiles with +X Attack and +X Health where X is half the gold spent.",
+    "keyword_ids": [
+      401,
+      509,
+      510
+    ],
+    "lore": "We were good soldiers that served Galanius and the Bronze Legion for years. The blood we spilt didn't just bring glory to Stonehall, it helped build the whole damn empire. And how were we rewarded? With a fancy piece of red cloth to wear into battle. But you can't build a keep out of honor. You can't feed your family with Pride. You can't repay a debt with Glory. So now we fight for the only thing that matters. Gold. — Tessgan, leader of the Black Hilt Mercenary Company"
+  },
+  "10095": {
+    "text": "[color:play_effect[[g:602[Play Effect]]:]]  Discard your hand.",
+    "text_plain": "Play Effect: Discard your hand.",
+    "keyword_ids": [
+      602
+    ],
+    "lore": "Mazzie is horrible at lots of things. Being dependable. Staying sober. Keeping secrets. But I'll give him credit: he knows how to build a giant robot. — Tinker, Humbled Inventor"
+  },
+  "10096": {
+    "text": "[activatedability[[color:ability[Active &#9632;1:]] [g:401[Modify]] allies with +2 [g:509[Attack]] and +2 [g:510[Health]].]]",
+    "text_plain": "Active 1: Modify allies with +2 Attack and +2 Health.",
+    "keyword_ids": [
+      401,
+      509,
+      510
+    ],
+    "lore": "The more judgmental call Weeping Rose a place where magic is unfettered by morality... a chaotic city of delights and horrors. And they would be partially right. The city was founded on the idea that 'good magic' and 'evil magic' are labels created by lesser minds... But there is no chaos in Weeping Rose... The Quorum ensures that is the case. And it is on their behalf that I have traveled here. — The Emissary of the Quorum"
+  },
+  "10097": {
+    "lore": "Every year my clan comes to Roseleaf for the Thunderhide migration... and while the denizens of Roseleaf were a minor nuisance we never bothered to hunt them... they were too frail to make a worthy trophy. But now things have changed. This 'Rix' has stirred their blood and now they fancy themselves warriors... perhaps it's time to start a new hunt. — Mavor, Marrowfell Brawler"
+  },
+  "10102": {
+    "text": "[g:501[Siege]] 6.",
+    "text_plain": "Siege 6.",
+    "keyword_ids": [
+      501
+    ],
+    "lore": "When hunting Thunderhides, you always come home with new scars...if you come home at all. — Warrunner warns his hunters"
+  },
+  "10103": {
+    "text": "Deal 2 [g:508[piercing]] damage to the enemy [g:2[tower]] after an allied [[Melee Creep]] dies.",
+    "text_plain": "Deal 2 piercing damage to the enemy tower after an allied Melee Creep dies.",
+    "keyword_ids": [
+      2,
+      508
+    ],
+    "lore": "Friends said throwing dead bodies was hobby, not real job. Who's laughing now? Not friends. I kill them for not supporting my dream. — Lommett, Ogre Corpse Tosser"
+  },
+  "10104": {
+    "lore": "The Red Mist Horde is on the march, looting and destroying every city that stands between them and our great capital of Stonehall. If we wish to protect our home...if we wish to stop these monsters... we must be willing to do whatever it takes. — Decius, Bronze Legionnaire"
+  },
+  "10106": {
+    "text": "Fully restore your [g:2[tower]]'s [g:511[Mana]] after you play any card.",
+    "text_plain": "Fully restore your tower's Mana after you play any card.",
+    "keyword_ids": [
+      2,
+      511
+    ],
+    "lore": "Like any mother, I've had to watch as harm befalls my children... hoping that by not intervening they would learn how to navigate this cruel and unfeeling world. But sometimes... sometimes the cries of my beloved are too loud for me not to answer — Selemene, Godess of the Moon"
+  },
+  "10107": {
+    "text": "[color:death_effect[[g:603[Death Effect]]:]]  [g:401[Modify]] allies with +1 [g:509[Attack]] and +1 [g:510[Health]].",
+    "text_plain": "Death Effect: Modify allies with +1 Attack and +1 Health.",
+    "keyword_ids": [
+      401,
+      509,
+      510,
+      603
+    ],
+    "lore": "I knew this day would come the moment I agreed to host Rix's gatherings in my wine cellar... but I wasn't ready for what it felt like to be pulled from my home in the middle of the night. I know it's only a matter of time before Tresdin has me executed, and I won't lie. I'm scared. But we all have our parts to play. — Papa Samet, Vhoul Martyr"
+  },
+  "10108": {
+    "lore": "The Alpha is a fearsome beast, capable of untold destruction... only the strongest of centaurs dare to stand in its presence, let alone fight it one on one. — Warrunner on the trail of the Alpha"
+  },
+  "10111": {
+    "text": "[g:401[Modify]] {s:thisCardName} with +2 [g:509[Attack]] [g:202[after the combat phase]].",
+    "text_plain": "Modify Satyr Duelist with +2 Attack after the combat phase.",
+    "keyword_ids": [
+      202,
+      401,
+      509
+    ],
+    "lore": "I am not a swordsman. I am artist. Now, I'm not foolish enough to boast that none are my equal, after all the world is filled with exceptional individuals...but I am wise enough to know that I am better than most. — Trivian, the Satyr Duelist"
+  },
+  "10112": {
+    "text": "[g:401[Modify]] {s:thisCardName} with +1 [g:509[Attack]] and +2 [g:510[Health]] [g:202[after the combat phase]].",
+    "text_plain": "Modify Savage Wolf with +1 Attack and +2 Health after the combat phase.",
+    "keyword_ids": [
+      202,
+      401,
+      509,
+      510
+    ],
+    "lore": "My family was taken from me; but in my solitude I found a new family... and they will help me have my revenge. — Lycan, Pack Leader"
+  },
+  "10113": {
+    "text": "[g:401[Modify]] {s:thisCardName} with +4 [g:509[Attack]] [g:202[after the combat phase]].",
+    "text_plain": "Modify Rampaging Hellbear with +4 Attack after the combat phase.",
+    "keyword_ids": [
+      202,
+      401,
+      509
+    ],
+    "lore": "Kwerthias took great pride in his menagerie, though ultimately it led to his undoing. The Phantom Assassin unleashed his pets in the palace... while his guards were focused on his beasts... she slit his throat. — The Brass Herald giving respect where it is due"
+  },
+  "10114": {
+    "text": "[g:409[Summon]] a [[Zombie]] for your opponent [g:202[after the combat phase]].",
+    "text_plain": "Summon a Zombie for your opponent after the combat phase.",
+    "keyword_ids": [
+      202,
+      409
+    ],
+    "lore": "I'm not proud of what I've done, we were children playing games... how could I've expected what would come, what she was willing to awaken. Death is coming for us all now... but it is most certainly coming for me first. — Giamma, the Cursed Satyr"
+  },
+  "10115": {
+    "text": "[activatedability[[color:ability[Active &#9632;1:]] [g:408[Condemn]] a random [g:5[item]] equipped by the [g:607[unit]] blocking {s:thisCardName}. Get gold equal to the base cost of that [g:5[item]].]]",
+    "text_plain": "Active 1: Condemn a random item equipped by the unit blocking Ravenhook. Get gold equal to the base cost of that item.",
+    "keyword_ids": [
+      5,
+      408,
+      607
+    ],
+    "lore": "I'm not oblivious to the reputation I have; after all, the visits my brothers and sisters make are... rarely social. But it's not my fault I'm here, it's yours. Maybe you stole from your noble father... perhaps you defaulted on a Revtel debt... or could it be something as pedestrian as revenge... Eh, who's to say, the 'whys' don't matter do they? No. All that matters is that there is something you hold dear, and my employer wants me to take it from you. — Jorbiah, the Ravenhook"
+  },
+  "10116": {
+    "text": "[activatedability[[color:ability[Active &#9632;1:]] [g:408[Condemn]] {s:thisCardName}'s [g:601[allied neighbors]]. [g:401[Modify]] {s:thisCardName} with their [g:509[Attack]] and [g:510[Health]].]]",
+    "text_plain": "Active 1: Condemn Ravenous Mass's allied neighbors. Modify Ravenous Mass with their Attack and Health.",
+    "keyword_ids": [
+      401,
+      408,
+      509,
+      510,
+      601
+    ],
+    "lore": "In the Fields of Endless Carnage, the dead can never die... leading to the creation of grotesque perversions such as these. — Lady Anshu expresses her scorn"
+  },
+  "10117": {
+    "text": "Your [g:2[tower]] has +1 [g:511[Mana]].",
+    "text_plain": "Your tower has +1 Mana.",
+    "keyword_ids": [
+      2,
+      511
+    ],
+    "lore": "To fight alongside Rooftrellen is a great honor. With his help I have no doubt that these trespassers will be removed in no time. But even still, sometimes I am filled with doubt. Today it is the Red Mist and Bronze Legion. Tomorrow it will be the keen. When will the despoiling of our home ever end... — Aubgraw, Roseleaf Druid"
+  },
+  "10118": {
+    "text": "When {s:thisCardName} deals [g:609[battle damage]] to a [g:607[unit]], [g:401[modify]] that [g:607[unit]] with -1 [g:509[Attack]].",
+    "text_plain": "When Hellbear Crippler deals battle damage to a unit, modify that unit with -1 Attack.",
+    "keyword_ids": [
+      401,
+      509,
+      607,
+      609
+    ],
+    "lore": "Any centaur worth his skinning knife can kill a Hellbear. The real trick is doing it without getting scarred. — Bradwarden remains unimpressed"
+  },
+  "10119": {
+    "text": "Fully heal {s:thisCardName} [g:202[after the combat phase]].",
+    "text_plain": "Fully heal Selfish Cleric after the combat phase.",
+    "keyword_ids": [
+      202
+    ],
+    "lore": "For generations the Rumusque Faithful have defended the living world from the abominations that slink from the Fields of Endless Carnage. We were known as men and women of principle. Of valor. Of Devotion. And then Necrophos tried to destroy us all. — Abajen, Rumusque Cleric"
+  },
+  "10127": {
+    "lore": "The Bronze Legion brings peace, the stupid Vhoul bring chaos. Like Rix I joined the Legion. Unlike Rix I'm loyal. Soon the rebellion will be finished, perhaps then Commander Tresdin will let me eat Vhoul. — Tox Armripper, Bronze Legion Conscript"
+  },
+  "10128": {
+    "lore": "I know my parents feel betrayed that I left with the Red Mist. My path was set to be an artisan... but they didn't see Sorla Khan stand in the marketplace. They didn't hear her talk about the old ways. About how the Red Mist isn't about destroying the past but protecting it. Honoring it. Together we're going to build a better future for the Oglodi. — Nalon, the Untested Grunt"
+  },
+  "10129": {
+    "text": "[activatedability[[color:ability[Active &#9632;1:]] Choose a combat target for {s:thisCardName}.]]",
+    "text_plain": "Active 1: Choose a combat target for Assassin's Apprentice.",
+    "lore": "The Revtel campaign was successful, but I was only there to observe, not take part... they say I'm not ready to kill on my own... but I'll prove them wrong. — Myrian, the Assassin's Apprentice"
+  },
+  "10131": {
+    "text": "[g:401[Modify]] {s:thisCardName} with +2 [g:509[Attack]] and +2 [g:510[Health]] after a [g:607[unit]] blocking it dies.",
+    "text_plain": "Modify Stonehall Elite with +2 Attack and +2 Health after a unit blocking it dies.",
+    "keyword_ids": [
+      401,
+      509,
+      510,
+      607
+    ],
+    "lore": "The Bronze Legion is Stonehall's first line of defense. But sometimes the threats to our great nation don't come from external forces... they come from within. Situations like Rix's betrayal are why Belasanno formed the Stonehall Elite, and it will be my privilege to end this rebellion. — Tyber, member of the Stonehall Elite"
+  },
+  "10132": {
+    "text": "[g:202[After the combat phase]], if {s:thisCardName} dealt [g:609[battle damage]] to a [g:2[tower]] this round, [g:409[summon]] a [[Red Mist Pillager]].",
+    "text_plain": "After the combat phase, if Red Mist Pillager dealt battle damage to a tower this round, summon a Red Mist Pillager.",
+    "keyword_ids": [
+      2,
+      202,
+      409,
+      609
+    ],
+    "lore": "The Bronze Legion thinks they can stop us at Roseleaf, but already the cracks are showing. Tresdin is delusional if she thinks she can fight Rix's rebellion and the Red Mist. No. Stonehall will fall. It's only a matter of time. — Mial, Red Mist Pillager"
+  },
+  "10133": {
+    "text": "[color:play_effect[[g:602[Play Effect]]:]]  [g:401[Modify]] {s:thisCardName} with +1 [g:509[Attack]], +1 [g:510[Health]], and +1 [g:502[Cleave]] for each enemy.",
+    "text_plain": "Play Effect: Modify Champion of the Ancient with +1 Attack, +1 Health, and +1 Cleave for each enemy.",
+    "keyword_ids": [
+      401,
+      502,
+      509,
+      510,
+      602
+    ],
+    "lore": "My people have pledged their lives in service to the ancient... offering ourselves to be a tide of flesh that will protect the Radiant from Kanna and her Dire heretics. Thanks to the blessing of the Radiant, I have become the crashing wave of that tide... and I will give the Dire something to fear. — Breno, the Champion of the Ancient"
+  },
+  "10134": {
+    "text": "[color:play_effect[[g:602[Play Effect]]:]]  Heal your [g:2[tower]] 7.",
+    "text_plain": "Play Effect: Heal your tower 7.",
+    "keyword_ids": [
+      2,
+      602
+    ],
+    "lore": "The Treants of Roseleaf and the Vhoul have lived together peacefully for generations. But now interlopers have turned our home into a battlefield. We have made the call to our cousins in the Vale of Augery. The vhoul must be protected... and those that would despoil this place must be destroyed. — Springwind, the Roseleaf Rejuvenator"
+  },
+  "10136": {
+    "text": "When {s:thisCardName} deals [g:609[battle damage]] to a [g:607[unit]], [g:401[modify]] that [g:607[unit]] with -1 [g:509[Attack]].",
+    "text_plain": "When Loyal Beast deals battle damage to a unit, modify that unit with -1 Attack.",
+    "keyword_ids": [
+      401,
+      509,
+      607,
+      609
+    ],
+    "lore": "This forest has been my home for many years... and its denizens are quick to come to my aid. — Beastmaster, Friend of the Forest"
+  },
+  "10137": {
+    "text": "[activatedability[[color:ability[Active &#9632;1:]] Fully restore your [g:2[tower]]'s [g:511[Mana]].]]",
+    "text_plain": "Active 1: Fully restore your tower's Mana.",
+    "keyword_ids": [
+      2,
+      511
+    ],
+    "lore": "Power. Immortality. Revenge. These are the three biggest reasons people seek mastery of the arcane arts. But they are not my reasons. I pursue magic because it makes anything possible... and if anything is possible then hope, no matter how remote, can never die. — Allegra, Satyr Magician"
+  },
+  "10138": {
+    "text": "Draw an extra card each round.",
+    "text_plain": "Draw an extra card each round.",
+    "lore": "The Red Mist Horde is just the beginning. Another force is coming. I've felt it in the winds and seen it in the bones. Something Dark. Something Seductive. Something Evil. If we don't prepare for its arrival, it will certainly consume us all. — Ruseth, Troll Soothsayer"
+  },
+  "10141": {
+    "text": "All [g:0[heroes]] have +4 [g:501[Siege]].",
+    "text_plain": "All heroes have +4 Siege.",
+    "keyword_ids": [
+      0,
+      501
+    ],
+    "lore": "The difference between victory and defeat is the willingness to make unconscionable choices and sacrifice everything. — Sorla Khan, Destroyer"
+  },
+  "10142": {
+    "text": "[g:408[Condemn]] all equipped items.",
+    "text_plain": "Condemn all equipped items.",
+    "keyword_ids": [
+      408
+    ],
+    "lore": "I am able to thrive in... less hospitable environs. — Viper, Ultimate Survivor"
+  },
+  "10147": {
+    "text": "[g:409[Summon]] a [[Melee Creep]] into this lane each [g:204[deployment phase]].",
+    "text_plain": "Summon a Melee Creep into this lane each deployment phase.",
+    "keyword_ids": [
+      204,
+      409
+    ],
+    "lore": "More of the faithful come by the day... and they will need a home to house them. — Prellex, Bringer of the Faithful"
+  },
+  "10148": {
+    "text": "[g:200[Before the action phase]], give a random card in opponent's hand +1 [g:407[Lock]].",
+    "text_plain": "Before the action phase, give a random card in opponent's hand +1 Lock.",
+    "keyword_ids": [
+      200,
+      407
+    ],
+    "lore": "I respect the Claszureme Treaty and the human wizard that helped broker it. As such I would never rewrite time for my own amusement... however, I think it's healthy to remind the Sapphire Conclave what I am capable of; lest they grow complacent and fail to live up to their end of the bargain. — Faceless Void, Lord of Claszureme"
+  },
+  "10149": {
+    "text": "Draw a card [g:202[after the combat phase]] if your [g:2[tower]] was dealt damage this round.",
+    "text_plain": "Draw a card after the combat phase if your tower was dealt damage this round.",
+    "keyword_ids": [
+      2,
+      202
+    ],
+    "lore": "For so long I was afraid to return home...but the time has come to confront the past. — Lycan, Last Son of House Ambry"
+  },
+  "10150": {
+    "text": "After you play a [color:black[black card]], [g:401[modify]] a random ally with +1 [g:501[Siege]].",
+    "text_plain": "After you play a black card, modify a random ally with +1 Siege.",
+    "keyword_ids": [
+      401,
+      501
+    ],
+    "lore": "What if I told you that there is always a better solution than the one immediately before you. That horrific wars could have been avoided with negotiation or the strategic removal of individuals. If what I said rings true to you... perhaps you should walk The Path of the Cunning. — Jolixia assesses The Murderer"
+  },
+  "10151": {
+    "text": "After you play a [color:blue[blue card]], deal 1 [g:508[piercing]] damage to a random enemy.",
+    "text_plain": "After you play a blue card, deal 1 piercing damage to a random enemy.",
+    "keyword_ids": [
+      508
+    ],
+    "lore": "What if I told you that most are not fit to lead. That to rule effectively you need to be willing to keep secrets from your own people, and that sentimentality makes you unable to make the right decisions when stakes are high. If what I said rings true to you... perhaps you should walk The Path of the Wise. — Jolixia assesses The Warden"
+  },
+  "10152": {
+    "text": "After you play a [color:green[green card]], give your [g:2[tower]] +3 [g:505[Regeneration]] until end of round.",
+    "text_plain": "After you play a green card, give your tower +3 Regeneration until end of round.",
+    "keyword_ids": [
+      2,
+      505
+    ],
+    "lore": "What if I told you that we don't have to accept the world as it is? That people all too often confuse 'the difficult' with 'the impossible' and in doing so close their minds and hearts to wondrous possibilities. If what I said rings true to you... perhaps you should walk The Path of the Dreamer. — Jolixia assesses The Scholar"
+  },
+  "10153": {
+    "text": "After you play a [color:red[red card]], [g:401[modify]] a random ally with +1 [g:509[Attack]].",
+    "text_plain": "After you play a red card, modify a random ally with +1 Attack.",
+    "keyword_ids": [
+      401,
+      509
+    ],
+    "lore": "What if I told you that not everyone is special. That there are some people who are destined for greatness, and it is through their skill, dedication, and will that great works are accomplished. If what I said rings true to you... perhaps you should walk The Path of the Bold. — Jolixia assesses The Adventurer"
+  },
+  "10154": {
+    "text": "Both [g:2[towers]] have -2 [g:511[Mana]].",
+    "text_plain": "Both towers have -2 Mana.",
+    "keyword_ids": [
+      2,
+      511
+    ],
+    "lore": "Most of the magical world acknowledges the authority of the Sapphire Conclave. But in Weeping Rose we govern ourselves, answering only to The Quorum, a senate of 31 powerful wizards. And while Weeping Rose is not home to many rules, the few we have are obeyed without question. Because to fail to do so is to be sent to the Tyler Estate. — Vanessa, 'law abiding' citizen of Weeping Rose"
+  },
+  "10155": {
+    "text": "[g:200[Before the action phase]] [g:404[disarm]] a random enemy this round.",
+    "text_plain": "Before the action phase disarm a random enemy this round.",
+    "keyword_ids": [
+      200,
+      404
+    ],
+    "lore": "The armor the bronze legion wears makes them tough to kill, but surprisingly easy to outrun... — Enchantress, Conscientious Objector"
+  },
+  "10156": {
+    "text": "[g:202[After the combat phase]], remove a charge from {s:thisCardName}. [g:200[Before the action phase]], if there are zero charges on {s:thisCardName}, deal 6 damage to both [g:2[towers]].",
+    "text_plain": "After the combat phase, remove a charge from Bitter Enemies. Before the action phase, if there are zero charges on Bitter Enemies, deal 6 damage to both towers.",
+    "keyword_ids": [
+      2,
+      200,
+      202
+    ],
+    "lore": "'Look around you commander, this is what awaits your beloved Stonehall.'\n\n'You're very confident for a woman who's about to die.\n\n'You have a high opinion of yourself.'\n\n'No. Just a very poor one of you.'\n— Roseleaf in flames"
+  },
+  "10157": {
+    "text": "Deal 2 damage to each enemy [g:200[before the action phase]].",
+    "text_plain": "Deal 2 damage to each enemy before the action phase.",
+    "keyword_ids": [
+      200
+    ],
+    "lore": "We may sort of hate each other, but at the end of the day if I was going to war I'd want her on my side. — Crystal Maiden, Twin Sister"
+  },
+  "10160": {
+    "text": "Deal 1 [g:508[piercing]] damage to each enemy [g:200[before the action phase]].",
+    "text_plain": "Deal 1 piercing damage to each enemy before the action phase.",
+    "keyword_ids": [
+      200,
+      508
+    ],
+    "lore": "'I think we're probably the first person to figure out that fire can be used not just to cook meat. But also light people on fire.'\n'If not the first, definitely in the top five.' — Ogre Magi, Innovator"
+  },
+  "10161": {
+    "text": "Deal 2 [g:508[piercing]] damage to the enemy [g:2[tower]] [g:200[before the action phase]].",
+    "text_plain": "Deal 2 piercing damage to the enemy tower before the action phase.",
+    "keyword_ids": [
+      2,
+      200,
+      508
+    ],
+    "lore": "I almost feel sorry for Tresdin, were it not for Rix her little ambush may have worked. But in the end, the Bronze Legion cannot wage a two front war. — Sorla Khan seizes the moment"
+  },
+  "10162": {
+    "text": "[activatedability[[color:ability[Active &#9632;1:]] Deal 4 [g:508[piercing]] damage to the enemy [g:2[tower]]. May only be used if there are no [g:606[unblocked]] enemies.]]",
+    "text_plain": "Active 1: Deal 4 piercing damage to the enemy tower. May only be used if there are no unblocked enemies.",
+    "keyword_ids": [
+      2,
+      508,
+      606
+    ],
+    "lore": "Yes you can find cheaper alternatives to the Jasper Circle, but you almost always get what you pay for. — Lorlin Lasan, Dealmaker"
+  },
+  "10164": {
+    "text": "Add a charge to {s:thisCardName} [g:202[after the combat phase]].<BR/>\n<BR/>\n[activatedability[[color:ability[Active &#9632;1:]] Get 4 gold for each charge. [g:408[Condemn]] {s:thisCardName}.]]",
+    "text_plain": "Add a charge to Revtel Investments after the combat phase.\n\nActive 1: Get 4 gold for each charge. Condemn Revtel Investments.",
+    "keyword_ids": [
+      202,
+      408
+    ],
+    "lore": "Revtel is the result of 3 different societies uniting to build something better. Each of the Merchant Kings brings a...unique perspective on how to do business, but all of us have an eye for profit. — The Brass Herald, Merchant King of Revtel"
+  },
+  "10165": {
+    "text": "Get 3 gold [g:202[after the combat phase]].",
+    "text_plain": "Get 3 gold after the combat phase.",
+    "keyword_ids": [
+      202
+    ],
+    "lore": "Iron Fog. A city of industry. Of Precision. Of perfection. I guided not only its constrution, but its conception. And while some take issue with our labor practices, the results speak for themselves. — The Brass Herald, King of Iron Fog"
+  },
+  "10168": {
+    "text": "Your [g:2[tower]] has +2 [g:511[Mana]].",
+    "text_plain": "Your tower has +2 Mana.",
+    "keyword_ids": [
+      2,
+      511
+    ],
+    "lore": "Lead by Luna, the Dark Moon worship Selemene, goddess of magic and the moon. To underestimate their power is to court disaster — Omniknight, Theologist"
+  },
+  "10169": {
+    "text": "[g:401[Modify]] allies with +1 [g:509[Attack]] [g:200[before the action phase]].",
+    "text_plain": "Modify allies with +1 Attack before the action phase.",
+    "keyword_ids": [
+      200,
+      401,
+      509
+    ],
+    "lore": "True power awaits those who bathe in the Mist of Avernus... — Abaddon, Keeper of the Mist of Avernus"
+  },
+  "10170": {
+    "text": "Allied [[Melee Creeps]] have +2 [g:505[Regeneration]].",
+    "text_plain": "Allied Melee Creeps have +2 Regeneration.",
+    "keyword_ids": [
+      505
+    ],
+    "lore": "Mother sings of the Radiant's benevolence... but I've seen what the Radiant truly wants. What it is willing to do. And I will never be its slave. — Kanna, Reborn by the Dire"
+  },
+  "10171": {
+    "text": "You and your opponent draw an extra card each round.",
+    "text_plain": "You and your opponent draw an extra card each round.",
+    "lore": "It doesn't happen often, but every now and again a wizard is allowed to leave the Tyler Estate... though when they do they are irreparably changed. — Vanessa, Occult Investigator"
+  },
+  "10172": {
+    "text": "All equipped [g:0[heroes]] have +2 [g:509[Attack]] and +1 [g:504[Armor]].",
+    "text_plain": "All equipped heroes have +2 Attack and +1 Armor.",
+    "keyword_ids": [
+      0,
+      504,
+      509
+    ],
+    "lore": "Our god is strange to the Vhoul. I understand. Once She was strange to me. But in time they will learn to love her as we do. — Legion Commander on the repurposing of a Vhoul place of worship"
+  },
+  "10173": {
+    "text": "After opponent plays a [g:4[spell]], deal 3 damage to the enemy [g:2[tower]].",
+    "text_plain": "After opponent plays a spell, deal 3 damage to the enemy tower.",
+    "keyword_ids": [
+      2,
+      4
+    ],
+    "lore": "You could tell me that there are more sublime things than watching a wizard slowly kill themselves... but I'm not sure I'd believe you. — Pugna, Maniacal Tormentor"
+  },
+  "10174": {
+    "text": "Your [g:2[tower]] has +2 [g:503[Retaliate]].",
+    "text_plain": "Your tower has +2 Retaliate.",
+    "keyword_ids": [
+      2,
+      503
+    ],
+    "lore": "I know Sorla's tactics...when her men come to scale these walls they will find an unpleasant surprise. — Legion Commander plans to secure Roseleaf"
+  },
+  "10175": {
+    "text": "[activatedability[[color:ability[Active &#9632;1:]] Fully restore your [g:2[tower]]'s [g:511[Mana]].]]",
+    "text_plain": "Active 1: Fully restore your tower's Mana.",
+    "keyword_ids": [
+      2,
+      511
+    ],
+    "lore": "Aghanim is the greatest wizard of all time. There is no question. There is no debate. No one is his equal. So when he vanished one day, we never wondered 'how' we wondered 'why'. Some say he feared for his life and ran into hiding, but I don't believe that for a second. You ask me, Aghanim is working on something. Something important. Something that will change the world. — Vanessa, on Aghanim's disappearance"
+  },
+  "10176": {
+    "text": "[activatedability[[color:ability[Active &#9632;1:]] Return an allied [g:0[hero]] to the [g:300[Fountain]].]]",
+    "text_plain": "Active 1: Return an allied hero to the Fountain.",
+    "keyword_ids": [
+      0,
+      300
+    ],
+    "lore": "Losel. We both know who wants you dead... and we both know the wealth they command. However, seeing as I’m sitting here talking and not hiding your family’s bodies it should be obvious that the Jasper Circle has not been extended a contract yet. And while there is good money in murder, there’s also a lot of effort in it and I’m a busy man. So, if you were to say, hire the Jasper Circle to smuggle you out of town safely, I would be forced to tell the gentleman whom I’m meeting tonight that my services are already under retainer. Regardless of what you choose, our paths will cross again this evening... but the circumstances of that visit are entirely up to you. — Lorlin Lasan, Leader of the Jasper Circle"
+  },
+  "10177": {
+    "text": "Allies deal +2 damage when attacking a [g:2[tower]].",
+    "text_plain": "Allies deal +2 damage when attacking a tower.",
+    "keyword_ids": [
+      2
+    ],
+    "lore": "There is no city so secure that it's out of the Red Mist's reach. Anything is possible given enough preparation. — Sorla Khan, Warmonger"
+  },
+  "10178": {
+    "text": "If there is an [color:red[allied red [g:0[hero]]]] in this lane, all [g:0[heroes]] have +2 [g:502[Cleave]].",
+    "text_plain": "If there is an allied red hero in this lane, all heroes have +2 Cleave.",
+    "keyword_ids": [
+      0,
+      502
+    ],
+    "lore": "You can always judge a bar by the quality of the fights that break out. So when looking for a place to drink at, try to find one where the blood is stained into the wood. That's the Axe seal of approval — An excerpt from 'Axe's Guide to Travel'"
+  },
+  "10179": {
+    "text": "Your [g:2[tower]] has +1 [g:504[Armor]].",
+    "text_plain": "Your tower has +1 Armor.",
+    "keyword_ids": [
+      2,
+      504
+    ],
+    "lore": "When you have a whole town looking to destroy your workshop, you get pretty good at reinforcing buildings. — Mazzie, People Person"
+  },
+  "10180": {
+    "text": "[activatedability[[color:ability[Active &#9632;1:]] Choose an ally. Choose a combat target for it.]]",
+    "text_plain": "Active 1: Choose an ally. Choose a combat target for it.",
+    "lore": "The holdings of Revtel are vast, and so the Merchant Kings rely on Wildwing messengers to communicate between the capital and our lands. — The Brass Herald, Lover of Efficiency"
+  },
+  "10181": {
+    "text": "[activatedability[[color:ability[Active &#9632;1:]] Give a [g:607[unit]] a [g:506[Death Shield]] this round. May only be used if there is an [color:green[allied green [g:0[hero]]]] in this lane.]]",
+    "text_plain": "Active 1: Give a unit a Death Shield this round. May only be used if there is an allied green hero in this lane.",
+    "keyword_ids": [
+      0,
+      506,
+      607
+    ],
+    "lore": "The Narrow Maze is a nightmarish labyrinth where the souls of dead Heroes are given a chance to return to the living. Axe claims that he's escaped it twice, but I don't believe him... mainly for two reasons. 1: You can't kill Axe. 2. Even if he DID die, he would punch death in the face before he could be taken to the narrow maze. — Goodkind on metaphysics"
+  },
+  "10182": {
+    "text": "You can not play [g:4[spells]] or [g:1[creeps]] while this is the active lane. If there is an [color:black[allied black [g:0[hero]]]] in this lane, allies have +4 [g:509[Attack]].",
+    "text_plain": "You can not play spells or creeps while this is the active lane. If there is an allied black hero in this lane, allies have +4 Attack.",
+    "keyword_ids": [
+      0,
+      1,
+      4,
+      509
+    ],
+    "lore": "I know why you're here. Despite all your intentions and ambitions, things didn't go as planned and you need help. Help that the Court of Ristul is willing to provide; but before we lend you our strength, there's something we need you to do... — Nevermore, of the Court of Ristul"
+  },
+  "10183": {
+    "text": "Draw a card after a [g:0[hero]] dies.",
+    "text_plain": "Draw a card after a hero dies.",
+    "keyword_ids": [
+      0
+    ],
+    "lore": "The Omexe Arena is where I made a name for myself. I was its champion, and no one was my equal. — Bradwarden reflects on his glory days"
+  },
+  "10184": {
+    "text": "[activatedability[[color:ability[Active &#9632;1:]] Deal 2 [g:508[piercing]] damage to a [g:607[unit]].]]",
+    "text_plain": "Active 1: Deal 2 piercing damage to a unit.",
+    "keyword_ids": [
+      508,
+      607
+    ],
+    "lore": "They're not particularly mobile, but they do the job when it comes to defending your workshop — Sniper wants people off his lawn"
+  },
+  "10185": {
+    "text": "[activatedability[[color:ability[Active &#9632;1:]] Deal 4 [g:508[piercing]] damage to a [g:607[unit]] in any lane.]]",
+    "text_plain": "Active 1: Deal 4 piercing damage to a unit in any lane.",
+    "keyword_ids": [
+      508,
+      607
+    ],
+    "lore": "Sniper asked me to design him a gun. I got over excited. — Tinker, Founding Member of the S.O.L.K."
+  },
+  "10187": {
+    "text": "Whenever any [g:607[unit]] enters this lane, [g:405[stun]] it this round.",
+    "text_plain": "Whenever any unit enters this lane, stun it this round.",
+    "keyword_ids": [
+      405,
+      607
+    ],
+    "lore": "It is a nasty world out there, and when a non-trivial percentage of it would like to see you dead you learn to take certain precautionary measures. — Vanessa, People Person"
+  },
+  "10191": {
+    "text": "[g:401[Modify]] enemy [g:0[heroes]] at the [g:300[Fountain]] with -X [g:509[Attack]] where X is half their [g:509[Attack]]. [g:401[Modify]] them with \"Your [g:2[tower]] has -1 [g:511[Mana]].\"",
+    "text_plain": "Modify enemy heroes at the Fountain with -X Attack where X is half their Attack. Modify them with \"Your tower has -1 Mana.\"",
+    "keyword_ids": [
+      0,
+      2,
+      300,
+      401,
+      509,
+      511
+    ],
+    "lore": "If you want a battle to truly end, you must be relentless... even when the enemy is broken. — Legion Commander explains her philosophy on victory"
+  },
+  "10192": {
+    "text": "Choose a lane. [g:401[Modify]] allies in that lane with +3 [g:510[Health]].",
+    "text_plain": "Choose a lane. Modify allies in that lane with +3 Health.",
+    "keyword_ids": [
+      401,
+      510
+    ],
+    "lore": "Go forth and do good. Through your deeds may the humble be inspired to greatness; and the plans of the wicked made undone. — traditional blessing of the Rumusque"
+  },
+  "10193": {
+    "text": "Allies have +1 [g:504[Armor]].",
+    "text_plain": "Allies have +1 Armor.",
+    "keyword_ids": [
+      504
+    ],
+    "lore": "I'm not a fighter. I'm a protector. It's not too late for you to walk away, but if you try to hurt these people, I promise it will not go well for you. — Enchantress takes a stand"
+  },
+  "10194": {
+    "text": "Whenever an enemy [g:3[improvement]] enters this lane, draw a card.",
+    "text_plain": "Whenever an enemy improvement enters this lane, draw a card.",
+    "keyword_ids": [
+      3
+    ],
+    "lore": "Kanna's forces are always a threat... we must remain vigilant. — Prellex, Mother of Sorrow"
+  },
+  "10196": {
+    "text": "Choose a [g:0[hero]].  Put a base copy of a random [g:5[item]] equipped by that [g:0[hero]] into your hand.",
+    "text_plain": "Choose a hero. Put a base copy of a random item equipped by that hero into your hand.",
+    "keyword_ids": [
+      0,
+      5
+    ],
+    "lore": "'Where we come from; when an Ogre wants something, they tend just to kill whoever's holding it.'\n'But since we couldn't exactly do that, we invented a process of giving and taking items without murder.'\n'It's like sharing.'\n'But better, because we came up with it.' — Ogre Magi, His Own Best Friend"
+  },
+  "10198": {
+    "text": "Deal 2 damage to all [g:2[towers]] in all lanes.",
+    "text_plain": "Deal 2 damage to all towers in all lanes.",
+    "keyword_ids": [
+      2
+    ],
+    "lore": "The worst part of meeting up with Zeus is the posturing we have to go through before we have a serious conversation. — Storm Spirit, Rising Storm"
+  },
+  "10202": {
+    "text": "Equipped [g:0[hero]] has +4 [g:510[Health]].<BR/>\n<BR/>\n[activatedability[[color:ability[Active &#9632;2:]] Choose a combat target for equipped [g:0[hero]].]]",
+    "text_plain": "Equipped hero has +4 Health.\n\nActive 2: Choose a combat target for equipped hero.",
+    "keyword_ids": [
+      0,
+      510
+    ],
+    "lore": "To bolster their numbers, the Sisters of the Veil often abduct children and train them in their ways. When they come of age, they are bestowed this in preparation of their first kill. — Jolixia, The Card Faun"
+  },
+  "10203": {
+    "text": "Equipped [g:0[hero]] has +4 [g:510[Health]].<BR/>\n<BR/>\n[activatedability[[color:ability[Active &#9632;2:]] Swap equipped [g:0[hero]] with another ally.]]",
+    "text_plain": "Equipped hero has +4 Health.\n\nActive 2: Swap equipped hero with another ally.",
+    "keyword_ids": [
+      0,
+      510
+    ],
+    "lore": "To many this pair of boots seems like a lesser magical item... but in the right hands these can turn the tide of any battle. — Jolixia, The Card Faun"
+  },
+  "10205": {
+    "text": "Equipped [g:0[hero]] has +4 [g:510[Health]]. [g:401[Modify]] {s:thisCardName} with \"Equipped [g:0[hero]] has +2 [g:510[Health]]\" [g:202[after the combat phase]].",
+    "text_plain": "Equipped hero has +4 Health. Modify Stonehall Cloak with \"Equipped hero has +2 Health\" after the combat phase.",
+    "keyword_ids": [
+      0,
+      202,
+      401,
+      510
+    ],
+    "lore": "The bullsnake is a fitting symbol for Stonehall. They conquer. They occupy. They move on. — Jolixia, The Card Faun"
+  },
+  "10206": {
+    "text": "Equipped [g:0[hero]] has +2 [g:509[Attack]].<BR/>\n<BR/>\n[activatedability[[color:ability[Active &#9632;2:]] Move equipped [g:0[hero]] to another lane.]]",
+    "text_plain": "Equipped hero has +2 Attack.\n\nActive 2: Move equipped hero to another lane.",
+    "keyword_ids": [
+      0,
+      509
+    ],
+    "lore": "For years Axe has yearned to trade out his blink dagger for a blink axe, and for years Goodkind has had to remind him that blink axes don't exist. — Jolixia, The Card Faun"
+  },
+  "10207": {
+    "text": "Equipped [g:0[hero]] has +4 [g:510[Health]] and -3 [g:500[Bounty]].",
+    "text_plain": "Equipped hero has +4 Health and -3 Bounty.",
+    "keyword_ids": [
+      0,
+      500,
+      510
+    ],
+    "lore": "Three nations collectively make up The Merchant Kingdom of Revtel. And while each of the Merchant Kings is recognized as sovereign within their own lands, in the Revtel capital, each are equal. — Jolixia, The Card Faun"
+  },
+  "10208": {
+    "text": "Equipped [g:0[hero]] has +1 [g:504[Armor]] and +2 [g:503[Retaliate]].",
+    "text_plain": "Equipped hero has +1 Armor and +2 Retaliate.",
+    "keyword_ids": [
+      0,
+      503,
+      504
+    ],
+    "lore": "You have to be really careful when you put this thing on. — Jolixia, The Card Faun"
+  },
+  "10210": {
+    "text": "Equipped [g:0[hero]] has +2 [g:509[Attack]].<BR/>\n<BR/>\n[activatedability[[color:ability[Active &#9632;1:]] [g:408[Condemn]] a random enemy [g:3[improvement]]. May only be used if equipped [g:0[hero]] is [g:606[unblocked]].]]",
+    "text_plain": "Equipped hero has +2 Attack.\n\nActive 1: Condemn a random enemy improvement. May only be used if equipped hero is unblocked.",
+    "keyword_ids": [
+      0,
+      3,
+      408,
+      509,
+      606
+    ],
+    "lore": "Magic can be more fragile than most people think. — Jolixia, The Card Faun"
+  },
+  "10211": {
+    "text": "[g:408[Condemn]] an [g:3[improvement]].",
+    "text_plain": "Condemn an improvement.",
+    "keyword_ids": [
+      3,
+      408
+    ],
+    "lore": "In the right hands, this orb can undermine the most well laid of plans... naturally Vanessa always keeps a few in her possession. — Jolixia, The Card Faun"
+  },
+  "10212": {
+    "text": "Equipped [g:0[hero]] has +2 [g:509[Attack]] and +4 [g:502[Cleave]].",
+    "text_plain": "Equipped hero has +2 Attack and +4 Cleave.",
+    "keyword_ids": [
+      0,
+      502,
+      509
+    ],
+    "lore": "The Knights of the Vigil were renowned for their skill in battle. The stories of Sven, Geeta the Wildblade, and Klemens have captured the imagination of so many... you can't throw a rock in the Gardens of Freth without hitting a group of school kids recreating their adventures. But playing a knight is easy... wielding one of their swords is far more challenging. — Jolixia, The Card Faun"
+  },
+  "10213": {
+    "text": "Equipped [g:0[hero]] has +8 [g:510[Health]].",
+    "text_plain": "Equipped hero has +8 Health.",
+    "keyword_ids": [
+      0,
+      510
+    ],
+    "lore": "Icewrack is not a clever name. It's cold there. Very cold. And those that don't dress for the weather won't be around long enough to enjoy the view. — Jolixia, The Card Faun"
+  },
+  "10214": {
+    "text": "Equipped [g:0[hero]] has +2 [g:504[Armor]].",
+    "text_plain": "Equipped hero has +2 Armor.",
+    "keyword_ids": [
+      0,
+      504
+    ],
+    "lore": "Leather armor is cheaper, but you get what you pay for. — Jolixia, The Card Faun"
+  },
+  "10215": {
+    "text": "Equipped [g:0[hero]] has +4 [g:509[Attack]].",
+    "text_plain": "Equipped hero has +4 Attack.",
+    "keyword_ids": [
+      0,
+      509
+    ],
+    "lore": "Perfect for the warrior on a budget. — Jolixia, The Card Faun"
+  },
+  "10216": {
+    "text": "Get a random [g:5[item]] from the Secret Shop.",
+    "text_plain": "Get a random item from the Secret Shop.",
+    "keyword_ids": [
+      5
+    ],
+    "lore": "In Revtel everyone is looking for a bargain... — Jolixia, The Card Faun"
+  },
+  "10217": {
+    "text": "Equipped [g:0[hero]] has +1 [g:504[Armor]].<BR/>\n<BR/>\n[activatedability[[color:ability[Active &#9632;2:]] Heal a [g:607[unit]] 4.]]",
+    "text_plain": "Equipped hero has +1 Armor.\n\nActive 2: Heal a unit 4.",
+    "keyword_ids": [
+      0,
+      504,
+      607
+    ],
+    "lore": "The warrior priests of the Rumusque Faithful are led by Lady Anshu, and their mere presence can bolster the hearts of the virtuous — Jolixia, The Card Faun"
+  },
+  "10218": {
+    "text": "Equipped [g:0[hero]] has +2 [g:509[Attack]].<BR/>\n<BR/>\n[activatedability[[color:ability[Active &#9632;2:]] Deal 2 damage to a [g:607[unit]].]]",
+    "text_plain": "Equipped hero has +2 Attack.\n\nActive 2: Deal 2 damage to a unit.",
+    "keyword_ids": [
+      0,
+      509,
+      607
+    ],
+    "lore": "The Keenfolk are a clever people always looking for a way to use science to improve things... even warfare. — Jolixia, The Card Faun"
+  },
+  "10220": {
+    "text": "Equipped [g:0[hero]] has +4 [g:510[Health]] and +6 [g:505[Regeneration]].",
+    "text_plain": "Equipped hero has +4 Health and +6 Regeneration.",
+    "keyword_ids": [
+      0,
+      505,
+      510
+    ],
+    "lore": "Some say this ring can let it's bearer live forever. Naturally that's an exaggeration, a Tarrasque itself isn't an immortal creature, though it does make you wonder... if this ring is fashioned out of bone and muscle, what could someone do with a Tarrasque's heart? — Jolixia, The Card Faun"
+  },
+  "10222": {
+    "text": "Equipped [g:0[hero]] has +2 [g:504[Armor]].<BR/>\n<BR/>\n[activatedability[[color:ability[Active &#9632;1:]] Deal 6 damage to equipped [g:0[hero]]'s [g:600[enemy neighbors]] and [g:408[condemn]] equipped [g:0[hero]].]]",
+    "text_plain": "Equipped hero has +2 Armor.\n\nActive 1: Deal 6 damage to equipped hero's enemy neighbors and condemn equipped hero.",
+    "keyword_ids": [
+      0,
+      408,
+      504,
+      600
+    ],
+    "lore": "In Xhacatocatl, High Priests don these bracers when preparing to make an offering to the Flayed Twins. So devout are the priests in their faith, that if a suitable sacrifice can not be found to please The Twins, they are willing to offer themselves instead. Well, \"willing\" is relative, some try to make a run for it and are tied down screaming, but generally they're all on board. — Jolixia, The Card Faun"
+  },
+  "10223": {
+    "text": "Equipped [g:0[hero]] has +2 [g:509[Attack]] and +5 [g:501[Siege]].",
+    "text_plain": "Equipped hero has +2 Attack and +5 Siege.",
+    "keyword_ids": [
+      0,
+      501,
+      509
+    ],
+    "lore": "Long ago, the Oglodi capital was a shining beacon of art and philosophy... and then they met the Tarnsmen. A barbarous group of demon worshipers, the Tarns lay siege to the Oglodi's great city, sating their bloodlust on any they could find. It was a massacre. The battle ended, only because the Tarns grew bored... and left a great civilization in ashes. Ever a resilient people, the Oglodi rebuilt and started again... referring to the razing of their capital as 'The Bleak Day'. But for some rebuilding was not enough. They believed that forsaking the martial in favor of the esoteric is what led to their down fall... and so they left and formed the first Red Mist Horde. — Jolixia, The Card Faun"
+  },
+  "10224": {
+    "text": "Equipped [g:0[hero]] has +3 [g:504[Armor]].<BR/>\n<BR/>\n[activatedability[[color:ability[Active &#9632;2:]] Get control of an enemy [g:1[creep]].]]",
+    "text_plain": "Equipped hero has +3 Armor.\n\nActive 2: Get control of an enemy creep.",
+    "keyword_ids": [
+      0,
+      1,
+      504
+    ],
+    "lore": "It takes the blackest of hearts to be willing to bend the wills of men. Or you could be Chen. Chen does it all the time. — Jolixia, The Card Faun"
+  },
+  "10225": {
+    "text": "Equipped [g:0[hero]] has +3 [g:504[Armor]] and [g:610[Rapid Deployment]]. Your [g:2[tower]] has +3 [g:504[Armor]].",
+    "text_plain": "Equipped hero has +3 Armor and Rapid Deployment. Your tower has +3 Armor.",
+    "keyword_ids": [
+      0,
+      2,
+      504,
+      610
+    ],
+    "lore": "To say Galanius is a polarizing figure is an understatement. The Emperor of Stonehall is seen by many of his people as a savior who brought them safety... to others he is a merciless conqueror that has destroyed their people's way of life. But no matter their position, everyone knows better than to publically question his authority. — Jolixia, The Card Faun"
+  },
+  "10226": {
+    "text": "Equipped [g:0[hero]] has +4 [g:509[Attack]].<BR/>\n<BR/>\n[activatedability[[color:ability[Active &#9632;1:]] Give equipped [g:0[hero]] and its [g:601[allied neighbors]] +X [g:505[Regeneration]] this round where X is half its [g:509[Attack]].]]",
+    "text_plain": "Equipped hero has +4 Attack.\n\nActive 1: Give equipped hero and its allied neighbors +X Regeneration this round where X is half its Attack.",
+    "keyword_ids": [
+      0,
+      505,
+      509,
+      601
+    ],
+    "lore": "The All Seeing One anointed this hammer, giving its wielder the strength to bolster their allies and crush their enemies. — Jolixia, The Card Faun"
+  },
+  "10230": {
+    "text": "Equipped [g:0[hero]] has +4 [g:510[Health]] and -2 [g:504[Armor]]. The [g:607[unit]] blocking equipped [g:0[hero]] has -2 [g:504[Armor]].",
+    "text_plain": "Equipped hero has +4 Health and -2 Armor. The unit blocking equipped hero has -2 Armor.",
+    "keyword_ids": [
+      0,
+      504,
+      510,
+      607
+    ],
+    "lore": "To those willing to step into a world of Demonic etiquette and politics, the Court of Ristul is willing to offer considerable power... for a price. — Jolixia, The Card Faun"
+  },
+  "10231": {
+    "text": "Equipped [g:0[hero]] has +8 [g:510[Health]]. Draw a card after an [g:601[allied neighbor]] of equipped [g:0[hero]] dies.",
+    "text_plain": "Equipped hero has +8 Health. Draw a card after an allied neighbor of equipped hero dies.",
+    "keyword_ids": [
+      0,
+      510,
+      601
+    ],
+    "lore": "Nestled in the Fields of Endless Carnage lies the city of Quoidge. An undead metropolis where slovenly butchers rub shoulders with the most proper of corpses. To the living, this cloak is grotesque. To dead, it's the height of fashion. — Jolixia, The Card Faun"
+  },
+  "10232": {
+    "text": "Equipped [g:0[hero]] has +2 [g:504[Armor]]. All units have -2 [g:509[Attack]].",
+    "text_plain": "Equipped hero has +2 Armor. All units have -2 Attack.",
+    "keyword_ids": [
+      0,
+      504,
+      509
+    ],
+    "lore": "Conflict is not for everyone. — Jolixia, The Card Faun"
+  },
+  "10234": {
+    "text": "Equipped [g:0[hero]] has +2 [g:509[Attack]]. Get 5 gold after an enemy [g:0[hero]] dies. Get 1 gold after an enemy [g:1[creep]] dies.",
+    "text_plain": "Equipped hero has +2 Attack. Get 5 gold after an enemy hero dies. Get 1 gold after an enemy creep dies.",
+    "keyword_ids": [
+      0,
+      1,
+      509
+    ],
+    "lore": "A Marrowfell Hunter's skinning knife is one of their most prized possession. Made during a centaur coming-of-age ritual, each knife is unique to its wielder, and each one tells a specific story. — Jolixia, The Card Faun"
+  },
+  "10235": {
+    "text": "Equipped [g:0[hero]] has +4 [g:510[Health]]. Add a charge to {s:thisCardName} after an allied [[Melee Creep]] dies.<BR/>\n<BR/>\n[activatedability[[color:ability[Active &#9632;2:]] [g:409[Summon]] a [[Zombie]] for each charge and remove all charges.]]",
+    "text_plain": "Equipped hero has +4 Health. Add a charge to Book of the Dead after an allied Melee Creep dies.\n\nActive 2: Summon a Zombie for each charge and remove all charges.",
+    "keyword_ids": [
+      0,
+      409,
+      510
+    ],
+    "lore": "Vanessa wanted to take it to the Burnt Hall. Pierpont wanted it safely locked away with the Sapphire Conclave. It was the Crystal Maiden who suggested that they leave it with Auroth... reluctantly, they agreed. — Jolixia, The Card Faun"
+  },
+  "10236": {
+    "text": "Equipped [g:0[hero]] has +16 [g:510[Health]].",
+    "text_plain": "Equipped hero has +16 Health.",
+    "keyword_ids": [
+      0,
+      510
+    ],
+    "lore": "Some heroes have a greater flair for the dramatic than others... — Jolixia, The Card Faun"
+  },
+  "10237": {
+    "text": "Equipped [g:0[hero]] has +4 [g:504[Armor]].",
+    "text_plain": "Equipped hero has +4 Armor.",
+    "keyword_ids": [
+      0,
+      504
+    ],
+    "lore": "It's not magical, but it is effective. — Jolixia, The Card Faun"
+  },
+  "10238": {
+    "text": "Equipped [g:0[hero]] has +8 [g:509[Attack]].",
+    "text_plain": "Equipped hero has +8 Attack.",
+    "keyword_ids": [
+      0,
+      509
+    ],
+    "lore": "You can kill a whole lotta people with this thing. — Jolixia, The Card Faun"
+  },
+  "10241": {
+    "text": "Equipped [g:0[hero]] has +4 [g:510[Health]]. Whenever opponent draws a card, give that card +1 [g:407[Lock]] if equipped [g:0[hero]] is in any lane.",
+    "text_plain": "Equipped hero has +4 Health. Whenever opponent draws a card, give that card +1 Lock if equipped hero is in any lane.",
+    "keyword_ids": [
+      0,
+      407,
+      510
+    ],
+    "lore": "It was Pierpont who helped broker the Claszureme Treaty, ensuring that Faceless Void would not wreak havoc with our time stream. In exchange, the Sapphire Conclave agreed to enforce a strict crackdown on Chronomancy. Most hourglasses on this plane were confiscated, but every now and again one turns up... usually in the possession of a wizard too foolish to understand the consequences of his actions — Jolixia, The Card Faun"
+  },
+  "10242": {
+    "text": "Equipped [g:0[hero]] has +2 [g:504[Armor]]. Equipped [g:0[hero]]'s [g:601[allied neighbors]] have +1 [g:504[Armor]].",
+    "text_plain": "Equipped hero has +2 Armor. Equipped hero's allied neighbors have +1 Armor.",
+    "keyword_ids": [
+      0,
+      504,
+      601
+    ],
+    "lore": "The rivalry between Aquila and Basilius is often dramatized by bards throughout the world... but with so many renditions covering all manner of points of view, it's become almost impossible to tell what is fact and what is fiction. — Jolixia, The Card Faun"
+  },
+  "10243": {
+    "text": "Equipped [g:0[hero]] has +2 [g:504[Armor]]. Equipped [g:0[hero]]'s [g:601[allied neighbors]] have +3 [g:504[Armor]].",
+    "text_plain": "Equipped hero has +2 Armor. Equipped hero's allied neighbors have +3 Armor.",
+    "keyword_ids": [
+      0,
+      504,
+      601
+    ],
+    "lore": "Aquila is long since dead, but there are those who still seek out items of the famed warlord. — Jolixia, The Card Faun"
+  },
+  "10248": {
+    "text": "Equipped [g:0[hero]] has +2 [g:504[Armor]].<BR/>\n<BR/>\n[activatedability[[color:ability[Active &#9632;2:]] [g:401[Modify]] a [g:607[unit]] and its [g:601[allied neighbors]] with -2 [g:509[Attack]].]]",
+    "text_plain": "Equipped hero has +2 Armor.\n\nActive 2: Modify a unit and its allied neighbors with -2 Attack.",
+    "keyword_ids": [
+      0,
+      401,
+      504,
+      509,
+      601,
+      607
+    ],
+    "lore": "If the Seraphim Shield is a hammer, Shiva’s Guard is a scalpel — and when wielded properly can hobble the mightiest of armies. — Jolixia, The Card Faun"
+  },
+  "10252": {
+    "text": "Equipped [g:0[hero]] has +2 [g:509[Attack]]. [g:401[Modify]] {s:thisCardName} with \"Equipped [g:0[hero]] has +1 [g:509[Attack]]\" [g:202[after the combat phase]].",
+    "text_plain": "Equipped hero has +2 Attack. Modify Stonehall Pike with \"Equipped hero has +1 Attack\" after the combat phase.",
+    "keyword_ids": [
+      0,
+      202,
+      401,
+      509
+    ],
+    "lore": "The Bronze Legion's hallmark is discipline... not a day goes by where its soldiers aren't training to be the best. — Jolixia, The Card Faun"
+  },
+  "10253": {
+    "text": "Equipped [g:0[hero]] has +1 [g:504[Armor]]. [g:401[Modify]] {s:thisCardName} with \"Equipped [g:0[hero]] has +1 [g:504[Armor]]\" [g:202[after the combat phase]].",
+    "text_plain": "Equipped hero has +1 Armor. Modify Stonehall Plate with \"Equipped hero has +1 Armor\" after the combat phase.",
+    "keyword_ids": [
+      0,
+      202,
+      401,
+      504
+    ],
+    "lore": "The forges of Stonehall blacksmiths burn day and night, fueling Emperor Galanius' war machine. — Jolixia, The Card Faun"
+  },
+  "10255": {
+    "text": "Each [g:5[item]] in your Secret Shop costs X less gold, where X is equal to its base cost.",
+    "text_plain": "Each item in your Secret Shop costs X less gold, where X is equal to its base cost.",
+    "keyword_ids": [
+      5
+    ],
+    "lore": "Welcome to the wonderful world of commerce. — Jolixia, The Card Faun"
+  },
+  "10256": {
+    "text": "Equipped [g:0[hero]] has +2 [g:509[Attack]] and [g:611[Pierce]]. <br><br>[color:equip_effect[Equip Effect:]]  [g:402[Purge]] your opponent's effects from equipped [g:0[hero]].",
+    "text_plain": "Equipped hero has +2 Attack and Pierce.\n\nEquip Effect: Purge your opponent's effects from equipped hero.",
+    "keyword_ids": [
+      0,
+      402,
+      509,
+      611
+    ],
+    "lore": "Many characterise the Jasper Circle as a group of assassins for hire... this is a crude oversimplification. Lorlin Lasan's spy ring offers many services to those who can afford them, murder just happens to be the most popular. — Jolixia, The Card Faun"
+  },
+  "10259": {
+    "text": "Equipped [g:0[hero]] has +1 [g:504[Armor]]. Equipped [g:0[hero]] has +1 [g:504[Armor]] for each of its attackers. Equipped [g:0[hero]]'s attackers have -1 [g:504[Armor]].",
+    "text_plain": "Equipped hero has +1 Armor. Equipped hero has +1 Armor for each of its attackers. Equipped hero's attackers have -1 Armor.",
+    "keyword_ids": [
+      0,
+      504
+    ],
+    "lore": "The...'unique' personality of many Keenfolk lead to the development of armor that could respond to the number of people trying to beat them up. — Jolixia, The Card Faun"
+  },
+  "10260": {
+    "text": "Equipped [g:0[hero]] has +4 [g:510[Health]].<BR/>\n<BR/>\n[activatedability[[color:ability[Active &#9632;2:]] [g:409[Summon]] a [[Thunderhide Pack]].]]",
+    "text_plain": "Equipped hero has +4 Health.\n\nActive 2: Summon a Thunderhide Pack.",
+    "keyword_ids": [
+      0,
+      409,
+      510
+    ],
+    "lore": "Every year, a group of centaurs from the Marrowfell Tribe are chosen to go on 'The Great Hunt'. The goal of this expedition is to test the skill and endurance of the tribe's finest trackers. To these men and women, there is no glory greater than claiming the horn of a Thunderhide Alpha for their own. — Jolixia, The Card Faun"
+  },
+  "10262": {
+    "text": "Equipped [g:0[hero]] has +1 [g:504[Armor]].<BR/>\n<BR/>\n[activatedability[[color:ability[Active &#9632;1:]] Move equipped [g:0[hero]]'s [g:600[enemy neighbors]] to random other lanes.]]",
+    "text_plain": "Equipped hero has +1 Armor.\n\nActive 1: Move equipped hero's enemy neighbors to random other lanes.",
+    "keyword_ids": [
+      0,
+      504,
+      600
+    ],
+    "lore": "Legend has it that the God of Fear herself forged this shield, and that no enemy of its wielder can dare to stand its presence. — Jolixia, The Card Faun"
+  },
+  "10263": {
+    "text": "Equipped [g:0[hero]] has +8 [g:509[Attack]] and +4 [g:501[Siege]]. [g:408[Condemn]] each [g:607[unit]] equipped [g:0[hero]] deals [g:609[battle damage]] to.<BR/>\n<BR/>\n[activatedability[[color:ability[Active &#9632;1:]] [g:408[Condemn]] enemy [g:3[improvements]]. [g:408[Condemn]] each [g:5[item]] equipped by the [g:607[unit]] blocking equipped [g:0[hero]].]]",
+    "text_plain": "Equipped hero has +8 Attack and +4 Siege. Condemn each unit equipped hero deals battle damage to.\n\nActive 1: Condemn enemy improvements. Condemn each item equipped by the unit blocking equipped hero.",
+    "keyword_ids": [
+      0,
+      3,
+      5,
+      408,
+      501,
+      509,
+      607,
+      609
+    ],
+    "lore": "Long ago, the Apotheosis Blade was forged with a singular and wicked purpose: to let the wielder kill a god and assume its power. Today, it is but one of many accursed artifacts safely tucked away inside the Burnt Hall of Weeping Rose. — Jolixia, The Card Faun"
+  },
+  "10267": {
+    "text": "[g:405[Stun]] a [g:607[unit]] this round. Give that [g:607[unit]] [g:507[Damage Immunity]] this round.",
+    "text_plain": "Stun a unit this round. Give that unit Damage Immunity this round.",
+    "keyword_ids": [
+      405,
+      507,
+      607
+    ],
+    "lore": "For me, the void is a place of reflection and peace... but to my enemies, it is a realm of inscrutable horror. — Outworld Devourer, Master of the Void"
+  },
+  "10268": {
+    "text": "Deal damage to the enemy [g:2[tower]] equal to the total [g:504[Armor]] on enemies.",
+    "text_plain": "Deal damage to the enemy tower equal to the total Armor on enemies.",
+    "keyword_ids": [
+      2,
+      504
+    ],
+    "lore": "The temporary battlements the Bronze Legion erected in Roseleaf aren't particularly well constructed and lodestone is dreadfully magnetic. We should be able to pull Tresdin's soldiers right through her own defenses. — Lorlin Lasan, Saboteur"
+  },
+  "10270": {
+    "text": "Deal 2 damage to a [g:607[unit]] in any lane.",
+    "text_plain": "Deal 2 damage to a unit in any lane.",
+    "keyword_ids": [
+      607
+    ],
+    "lore": "Listen I'm not saying Windranger is a bad shot, I'm saying she's an aggressively mediocre shot. — Drow Ranger, Not-So-Friendly Rival"
+  },
+  "10272": {
+    "text": "Deal 10 [g:508[piercing]] damage to a [g:607[unit]] in any lane.",
+    "text_plain": "Deal 10 piercing damage to a unit in any lane.",
+    "keyword_ids": [
+      508,
+      607
+    ],
+    "lore": "Don't get me wrong I'm impressed with what these young Keen are able to dream up, but lasers and robots take away the artistry of killing a man. In my day you had to have skill and patience to assassinate someone at range. Now they just set off an explosion. — Sniper reminisces about the good old days"
+  },
+  "10273": {
+    "text": "Deal 4 damage to a [g:607[unit]]. <br><br>[color:quick[[g:604[&#9634; Get initiative]].]]",
+    "text_plain": "Deal 4 damage to a unit.\n\nGet initiative.",
+    "keyword_ids": [
+      604,
+      607
+    ],
+    "lore": "I may be old, but my reflexes are as sharp as ever. Unless I skipped my nap, in which case my reflexes are significantly less sharp. — Sniper, Oldie But A Goodie"
+  },
+  "10274": {
+    "text": "[g:401[Modify]] a [color:black[black [g:0[hero]]]] with \"Deal 2 [g:508[piercing]] damage to this [g:0[hero]]'s [g:600[enemy neighbors]] [g:200[before the action phase]].\"",
+    "text_plain": "Modify a black hero with \"Deal 2 piercing damage to this hero's enemy neighbors before the action phase.\"",
+    "keyword_ids": [
+      0,
+      200,
+      401,
+      508,
+      600
+    ],
+    "lore": "The weak are not worthy to be culled by my blade. — Necrophos, Sadist"
+  },
+  "10275": {
+    "text": "Give the enemy [g:2[tower]] -2 [g:511[Mana]] this round and give your [g:2[tower]] +2 [g:511[Mana]] this round.",
+    "text_plain": "Give the enemy tower -2 Mana this round and give your tower +2 Mana this round.",
+    "keyword_ids": [
+      2,
+      511
+    ],
+    "lore": "The demon's hand grants me not just the ability to snuff out life. But to consume their very essence. — Lion, Mage Bane"
+  },
+  "10277": {
+    "text": "Deal 2 damage to a [g:607[unit]] and [g:404[disarm]] it this round.",
+    "text_plain": "Deal 2 damage to a unit and disarm it this round.",
+    "keyword_ids": [
+      404,
+      607
+    ],
+    "lore": "Unlike Lina, I like to try to find solutions that don't involve killing everyone. — Crystal Maiden, Less Destructive Sister"
+  },
+  "10278": {
+    "text": "Deal 4 [g:508[piercing]] damage to each enemy [g:0[hero]] in all lanes.",
+    "text_plain": "Deal 4 piercing damage to each enemy hero in all lanes.",
+    "keyword_ids": [
+      0,
+      508
+    ],
+    "lore": "The full brunt of my fury is something beautiful and terrible to behold. — Zeus, Angry God"
+  },
+  "10280": {
+    "text": "[g:401[Modify]] a [g:607[unit]] with +3 [g:509[Attack]] and +3 [g:502[Cleave]].",
+    "text_plain": "Modify a unit with +3 Attack and +3 Cleave.",
+    "keyword_ids": [
+      401,
+      502,
+      509,
+      607
+    ],
+    "lore": "The strength of my people lives in me... and I will use it to find those who hunt my kin. — Magnus, Proud Magnoceros"
+  },
+  "10281": {
+    "text": "[g:401[Modify]] a [g:607[unit]] with +3 [g:503[Retaliate]].",
+    "text_plain": "Modify a unit with +3 Retaliate.",
+    "keyword_ids": [
+      401,
+      503,
+      607
+    ],
+    "lore": "A thug knows only how to swing a sword... he gives no thought into the consequences... this predictable behavior is easily exploited. — Dark Seer, Master Tactician"
+  },
+  "10282": {
+    "text": "Give a [color:red[red [g:0[hero]]]] +4 [g:509[Attack]] and +4 [g:504[Armor]] this round.",
+    "text_plain": "Give a red hero +4 Attack and +4 Armor this round.",
+    "keyword_ids": [
+      0,
+      504,
+      509
+    ],
+    "lore": "When you see one of my people fight, it is not just a body on a battlefield. Each of us is joined by the spirits of our ancestors, and it's their strength that fuels us... — Ursa, Guided By His Ancestors"
+  },
+  "10287": {
+    "text": "[g:402[Purge]] your opponent's effects from a [g:607[unit]]. Give that [g:607[unit]] +2 [g:504[Armor]] and +2 [g:503[Retaliate]] this round.",
+    "text_plain": "Purge your opponent's effects from a unit. Give that unit +2 Armor and +2 Retaliate this round.",
+    "keyword_ids": [
+      402,
+      503,
+      504,
+      607
+    ],
+    "lore": "Those with the gall to strike at the Lord of Avernus will pay for their transgressions. — Abaddon, Imbued By The Mist"
+  },
+  "10288": {
+    "text": "Choose an [color:red[allied red [g:0[hero]]]]. It battles its [g:600[enemy neighbors]].",
+    "text_plain": "Choose an allied red hero. It battles its enemy neighbors.",
+    "keyword_ids": [
+      0,
+      600
+    ],
+    "lore": "Axe doesn't look back on his time in the Red Mist with particular fondness, but he acknowledges that he learned a lot about violence. — Axe, Former Khan of the Red Mist"
+  },
+  "10289": {
+    "text": "[g:406[Silence]] a [g:607[unit]] this round. Give that [g:607[unit]] +4 [g:509[Attack]] this round.",
+    "text_plain": "Silence a unit this round. Give that unit +4 Attack this round.",
+    "keyword_ids": [
+      406,
+      509,
+      607
+    ],
+    "lore": "My role is a sacred one. The holy blades and armor I wield allows me to be a conduit to the Flayed Ones... and the blood I spill in combat becomes tribute, given in the name of my people. — Bloodseeker, Servant of the Flayed Ones"
+  },
+  "10290": {
+    "text": "[g:401[Modify]] a [color:red[red [g:0[hero]]]] with +1 [g:504[Armor]]. <br><br>[color:quick[[g:604[&#9634; Get initiative]].]]",
+    "text_plain": "Modify a red hero with +1 Armor.\n\nGet initiative.",
+    "keyword_ids": [
+      0,
+      401,
+      504,
+      604
+    ],
+    "lore": "Don't call it a backpack. — Tidehunter, In Denial"
+  },
+  "10291": {
+    "text": "[g:200[Before the action phase]], if there are charges on {s:thisCardName}, remove one and deal 2 damage to the enemy [g:2[tower]] and 2 damage to each enemy.",
+    "text_plain": "Before the action phase, if there are charges on March of the Machines, remove one and deal 2 damage to the enemy tower and 2 damage to each enemy.",
+    "keyword_ids": [
+      2,
+      200
+    ],
+    "lore": "Every Keenfolk has a pet obsession. Sniper likes shooting things. Timbersaw cuts down trees. I develop fun and exciting ways to kill Mazzie. Some might frown at my attempted murder, but if I never developed these drones, he never would have built his robot suit to hide in. So really, he should be thanking me. — Tinker, No Friend Of Mazzie"
+  },
+  "10292": {
+    "text": "Give a [color:red[red [g:0[hero]]]] +8 [g:509[Attack]] and -8 [g:504[Armor]] this round.",
+    "text_plain": "Give a red hero +8 Attack and -8 Armor this round.",
+    "keyword_ids": [
+      0,
+      504,
+      509
+    ],
+    "lore": "In battle, as in life; there are moments where you are forced to choose between greatness and security. — Warrunner, Fearless Warrior"
+  },
+  "10293": {
+    "text": "[g:405[Stun]] a [g:607[unit]] blocking an [color:red[allied red [g:0[hero]]]] this round. Move that [g:607[unit]]'s [g:601[allied neighbors]] to random other lanes.",
+    "text_plain": "Stun a unit blocking an allied red hero this round. Move that unit's allied neighbors to random other lanes.",
+    "keyword_ids": [
+      0,
+      405,
+      601,
+      607
+    ],
+    "lore": "I've seen many hunters in my day. Each one bold. And strong. And fearless. Fearless that is, until they realize they're not the Apex Predator... and then they run like the cowards they are.— Beastmaster, Apex Predator"
+  },
+  "10294": {
+    "text": "Give a [g:607[unit]] \"Deal 2 [g:508[piercing]] damage to this [g:607[unit]] [g:200[before the action phase]]\" until it dies.",
+    "text_plain": "Give a unit \"Deal 2 piercing damage to this unit before the action phase\" until it dies.",
+    "keyword_ids": [
+      200,
+      508,
+      607
+    ],
+    "lore": "In time, all things will die... I just like to do my part to speed up the process. — Viper, Lethal Fangs"
+  },
+  "10295": {
+    "text": "[g:401[Modify]] the enemy [g:2[tower]] with -1 [g:511[Mana]].",
+    "text_plain": "Modify the enemy tower with -1 Mana.",
+    "keyword_ids": [
+      2,
+      401,
+      511
+    ],
+    "lore": "Many different types of wizards fall under my care in the Tyler Estate. I do not bother to learn their stories or their crimes... if the Quorum has sent them to me they are to be treated in the same manner. Harshly. — Silencer, Warden of the Tyler Estate"
+  },
+  "10296": {
+    "text": "Choose an [color:red[allied red [g:0[hero]]]]. Deal 2 damage to its [g:600[enemy neighbors]] and give them -2 [g:509[Attack]] this round.",
+    "text_plain": "Choose an allied red hero. Deal 2 damage to its enemy neighbors and give them -2 Attack this round.",
+    "keyword_ids": [
+      0,
+      509,
+      600
+    ],
+    "lore": "I was nervous about following the Society of Likeminded Keenfolk to Roseleaf... Sniper had a lot of rules. Rules like 'we can't stop to cut down every tree'. But when he saw the Treants marching towards us, he quickly made an exception. — Timbersaw, Crazed Lumberjack"
+  },
+  "10297": {
+    "text": "Give a [g:0[hero]] +3 [g:504[Armor]] this round.",
+    "text_plain": "Give a hero +3 Armor this round.",
+    "keyword_ids": [
+      0,
+      504
+    ],
+    "lore": "Sometimes people ask me 'Mazzie, how do you keep from getting killed if everyone hates you?' And that's when I tell them 'The secret is not letting them stab you to death.' — Mazzie, Full of Good Advice"
+  },
+  "10298": {
+    "text": "Give three random cards in opponent's hand +3 [g:407[Lock]].",
+    "text_plain": "Give three random cards in opponent's hand +3 Lock.",
+    "keyword_ids": [
+      407
+    ],
+    "lore": "In Claszureme, time is like water... nourishing, beautiful to behold in its various forms... and endlessly fun to play in. — Faceless Void, Shaper of Time"
+  },
+  "10299": {
+    "text": "[g:401[Modify]] a [g:607[unit]] with \"This [g:607[unit]]'s [g:601[allied neighbors]] have +2 [g:504[Armor]].\"",
+    "text_plain": "Modify a unit with \"This unit's allied neighbors have +2 Armor.\"",
+    "keyword_ids": [
+      401,
+      504,
+      601,
+      607
+    ],
+    "lore": "Ilexa has no idea how important she will be in the days to come. She must be protected at all costs. — Magnus to the Prowlers"
+  },
+  "10300": {
+    "text": "[g:401[Modify]] a [g:0[hero]] with +2 [g:509[Attack]].",
+    "text_plain": "Modify a hero with +2 Attack.",
+    "keyword_ids": [
+      0,
+      401,
+      509
+    ],
+    "lore": "The ability to successfully kill someone that wants to kill you is a life skill everyone should have. Even Goodkind. — Axe, Proud Teacher"
+  },
+  "10302": {
+    "text": "[g:401[Modify]] two random cards in opponent's hand with \"[g:608[&#9633;]] Deal 6 damage to a random allied [g:2[tower]] in any lane.\"",
+    "text_plain": "Modify two random cards in opponent's hand with \" Deal 6 damage to a random allied tower in any lane.\"",
+    "keyword_ids": [
+      2,
+      401,
+      608
+    ],
+    "lore": "I wouldn't go so far as to say that there are some places that even the Jasper Circle can't reach, just that sometimes courting betrayal is significantly easier. — Lorlin Lasan, Problem Solver"
+  },
+  "10303": {
+    "text": "Move a [g:1[creep]] to a random other lane.",
+    "text_plain": "Move a creep to a random other lane.",
+    "keyword_ids": [
+      1
+    ],
+    "lore": "It's the rule of nature: there is always something stronger and deadlier than you. Some people need to be reminded of that truth. — Magnus on Jungle Survival"
+  },
+  "10305": {
+    "text": "[g:408[Condemn]] all enemy [g:3[improvements]].",
+    "text_plain": "Condemn all enemy improvements.",
+    "keyword_ids": [
+      3,
+      408
+    ],
+    "lore": "Sometimes I think Sniper doesn't really want to be my friend, he just wants me on his side so I won't destroy everything he loves. — Timbersaw, Paranoid Keen"
+  },
+  "10306": {
+    "text": "[g:408[Condemn]] an [g:3[improvement]]. [g:608[&#9633;]] Draw a card.",
+    "text_plain": "Condemn an improvement. Draw a card.",
+    "keyword_ids": [
+      3,
+      408,
+      608
+    ],
+    "lore": "Everyone likes to think they build things that last, but if you give the Keen enough time, we'll figure out how to destroy anything. — Timbersaw, Founding Member of the S.O.L.K."
+  },
+  "10307": {
+    "text": "Draw 2 cards.",
+    "text_plain": "Draw 2 cards.",
+    "lore": "The Oracle claims to see every eventuality; if true such a man could be a powerful ally... or at the very least a foe worth testing myself against. — Dark Seer ponders the future"
+  },
+  "10308": {
+    "text": "Discard a random card. [g:408[Condemn]] a [g:0[hero]].",
+    "text_plain": "Discard a random card. Condemn a hero.",
+    "keyword_ids": [
+      0,
+      408
+    ],
+    "lore": "I'm immoral, not a sadist. If I am asked to kill you it will be clean and quick. — Phantom Assassin, Efficient Killer"
+  },
+  "10310": {
+    "text": "Deal 2 [g:508[piercing]] damage to the enemy [g:2[tower]] [g:200[before the action phase]].",
+    "text_plain": "Deal 2 piercing damage to the enemy tower before the action phase.",
+    "keyword_ids": [
+      2,
+      200,
+      508
+    ],
+    "lore": "The Bronze Legion weren't supposed be in Roseleaf, but it doesn't matter... we were going to have to face them eventually. On one hand it's a shame. A warrior like Tresdin deserves more than dying in some backwater vhoul city. On the other, perhaps it is a mercy that she will be spared from seeing her beloved city burn. — Vreth, Oglodi Artillerist"
+  },
+  "10311": {
+    "text": "[g:401[Modify]] allied [g:1[creeps]] with +2 [g:509[Attack]] and +1 [g:504[Armor]].",
+    "text_plain": "Modify allied creeps with +2 Attack and +1 Armor.",
+    "keyword_ids": [
+      1,
+      401,
+      504,
+      509
+    ],
+    "lore": "I'll never forget the first day of the rebellion. Tresdin sent me to collect rations from the farmers of Roseleaf... supplies in case the Red Mist siege would be prolonged... but it was a lean year for those farmers. I reported what they could spare, but Tresdin decided it wasn't enough, and so she instructed her thugs to take what they needed by force...after all, 'it was for their own good.' Well when her people arrived they didn't find cowering farmers. They found an army that I will lead until my dying day. The men, women and pups of Roseleaf deserve to live their lives free of Stonehall's grip. And while the price of their freedom will be blood, it is a price we are all willing to pay. — Rix, Rabble-Rouser"
+  },
+  "10312": {
+    "text": "Deal 2 damage to each enemy [g:1[creep]].",
+    "text_plain": "Deal 2 damage to each enemy creep.",
+    "keyword_ids": [
+      1
+    ],
+    "lore": "Soaring through the air is not just a liberating experience, it is also an effective way to dispatch one's enemies. — Skywrath Mage, Flying Free"
+  },
+  "10313": {
+    "text": "Give a [color:red[red [g:0[hero]]]] +4 [g:509[Attack]] this round.",
+    "text_plain": "Give a red hero +4 Attack this round.",
+    "keyword_ids": [
+      0,
+      509
+    ],
+    "lore": "Courage is not what makes a hunter great. It's patience. — Warrunner speaks to the hunters of Marrowfell"
+  },
+  "10314": {
+    "text": "Deal 2 damage to the enemy [g:2[tower]] for each of its [g:3[improvements]].",
+    "text_plain": "Deal 2 damage to the enemy tower for each of its improvements.",
+    "keyword_ids": [
+      2,
+      3
+    ],
+    "lore": "Slark and I go back a long time. He's a bastard, but he's my kind of bastard. — Lorlin Lasan, Morally Flexible"
+  },
+  "10315": {
+    "text": "[g:408[Condemn]] all units.",
+    "text_plain": "Condemn all units.",
+    "keyword_ids": [
+      408
+    ],
+    "lore": "It is wise to fear the power of the Ancients... — Kanna, Seeker of Matricide"
+  },
+  "10316": {
+    "text": "Give a [g:0[hero]] and its [g:601[allied neighbors]] [g:611[Pierce]] this round. Draw a card.",
+    "text_plain": "Give a hero and its allied neighbors Pierce this round. Draw a card.",
+    "keyword_ids": [
+      0,
+      601,
+      611
+    ],
+    "lore": "Anything is killable. The only question is if you can live long enough to spot its weakness. — Warrunner speaks to the hunters of Marrowfell"
+  },
+  "10317": {
+    "text": "[g:401[Modify]] enemy [g:0[heroes]] with -2 [g:509[Attack]].",
+    "text_plain": "Modify enemy heroes with -2 Attack.",
+    "keyword_ids": [
+      0,
+      401,
+      509
+    ],
+    "lore": "Scree'auk has given me the power to exact my revenge... and it will be slow and agonizing. — Shendelzare, the Vengeful Spirit"
+  },
+  "10318": {
+    "text": "Deal 3 damage to a [g:607[unit]]. Repeat 7 times: [g:608[&#9633;]] Deal 3 damage to a random [g:607[unit]] to its left or right. <br><br>[color:quick[[g:604[&#9634; Get initiative]].]]",
+    "text_plain": "Deal 3 damage to a unit. Repeat 7 times: Deal 3 damage to a random unit to its left or right.\n\nGet initiative.",
+    "keyword_ids": [
+      604,
+      607,
+      608
+    ],
+    "lore": "Could I simply cast out a wave of frost? Certainly. But flash freezing your enemies isn't nearly as satisfying as watching them panic before their impending death. — Lich on savoring the moment"
+  },
+  "10319": {
+    "text": "Draw 2 cards. Deal 2 damage to allies in all lanes.",
+    "text_plain": "Draw 2 cards. Deal 2 damage to allies in all lanes.",
+    "lore": "My mother speaks of the Ancients desires. Order. Peace. Devotion. But she's wrong. The ancients demand one thing, and that's blood. — Kanna, Daughter of Prellex"
+  },
+  "10322": {
+    "text": "Double your gold.",
+    "text_plain": "Double your gold.",
+    "lore": "Revtel is my favorite place to do business. The morals are lose, but their contracts are fair; whenever I took a job from The Brass Herald, Lord Sunbreeze, or Kwerthias I knew they'd make good. Kwerthias... ya know, as a general rule you don't make too many friends in my line of work but... he was one of the good ones. I'm sorry he's dead. — in which Gondar remembers a fallen friend"
+  },
+  "10323": {
+    "text": "Deal damage to each enemy equal to the number of enemies.",
+    "text_plain": "Deal damage to each enemy equal to the number of enemies.",
+    "lore": "Prellex is raising an army to destroy her daughter, but I won't allow that to happen. Let them come in droves... no one will get past me. — Earthshaker, Protector of Kanna"
+  },
+  "10324": {
+    "text": "Give a [g:607[unit]] in any lane +3 [g:504[Armor]] until end of its next [g:203[combat phase]].",
+    "text_plain": "Give a unit in any lane +3 Armor until end of its next combat phase.",
+    "keyword_ids": [
+      203,
+      504,
+      607
+    ],
+    "lore": "I remember when the Vhoul first made their home in roseleaf. At the time they were not much more than feral beasts, barely worth the treants notice. But as the generations came and went, my cousins became fascinated as they watched a culture grow before their very eyes so when the Vhoul named their city after my cousins as a sign of respect, well... that fascination turned into a sort of love. And so while the Treants of roseleaf try not to directly interfere with the goings on of the Vhoul, they always try to help from afar. — Treant Protector, Branches of Iron"
+  },
+  "10325": {
+    "text": "[g:409[Summon]] a [[Hound of War]] for every damaged [g:607[unit]].",
+    "text_plain": "Summon a Hound of War for every damaged unit.",
+    "keyword_ids": [
+      409,
+      607
+    ],
+    "lore": "There's something particularly satisfying about watching Radiant zealots run for their lives. — Kanna, The Cruelty of Youth"
+  },
+  "10326": {
+    "text": "Proceed to the [g:203[combat phase]].",
+    "text_plain": "Proceed to the combat phase.",
+    "keyword_ids": [
+      203
+    ],
+    "lore": "Axe doesn't know much about magic except that you have to punch it. — Axe, Fan of Simple Solutions"
+  },
+  "10327": {
+    "text": "[g:401[Modify]] a [color:red[red [g:0[hero]]]] with \"After you play a non-[g:5[item]] card costing 2 or less, [g:401[modify]] this [g:0[hero]] with +2 [g:510[Health]].\"",
+    "text_plain": "Modify a red hero with \"After you play a non-item card costing 2 or less, modify this hero with +2 Health.\"",
+    "keyword_ids": [
+      0,
+      5,
+      401,
+      510
+    ],
+    "lore": "The world is a like a 280 lbs belligerent walrus man... it's not just gonna try to beat you down, it's gonna try to beat you while you're down. So when that metaphorical, or in my case very literal, walrus man starts stalkin' towards ya... you only got one option: pick yourself up and punch that bastard in the face. — Bristleback, 5 Pint Philosopher"
+  },
+  "10328": {
+    "text": "Choose an [color:black[allied black [g:0[hero]]]]. Choose another [g:607[unit]] in any lane. They [g:400[battle]] each other.",
+    "text_plain": "Choose an allied black hero. Choose another unit in any lane. They battle each other.",
+    "keyword_ids": [
+      0,
+      400,
+      607
+    ],
+    "lore": "If you want someone dead, Slark is a wonderful gentleman to know. — Lorlin Lasan, Kobold Spymaster"
+  },
+  "10330": {
+    "text": "[g:401[Modify]] a [color:red[red [g:0[hero]]]] with +4 [g:509[Attack]].",
+    "text_plain": "Modify a red hero with +4 Attack.",
+    "keyword_ids": [
+      0,
+      401,
+      509
+    ],
+    "lore": "I am not yet strong enough to avenge my father's execution. But in time... I will be. — Sven, Preparing for Vengeance"
+  },
+  "10331": {
+    "text": "Spend all your gold. Repeat one time for each gold spent: [g:608[&#9633;]] Deal 4 damage to a random ally or enemy.",
+    "text_plain": "Spend all your gold. Repeat one time for each gold spent: Deal 4 damage to a random ally or enemy.",
+    "keyword_ids": [
+      608
+    ],
+    "lore": "The coin of man is useless to me, but instrumental in their own undoing. — in which Outworld Devourer decides to take things literally"
+  },
+  "10332": {
+    "text": "Give a [color:black[black [g:0[hero]]]] +8 [g:509[Attack]] this round. Choose a combat target for it.",
+    "text_plain": "Give a black hero +8 Attack this round. Choose a combat target for it.",
+    "keyword_ids": [
+      0,
+      509
+    ],
+    "lore": "My task in Revtel has set many events into motion. A new Merchant King will rise to stand alongside Sunbreeze and the Brass Herald. The Relic Slayer has grown bolder in Iron Fog... and the Veiled Sisterhood is now at war with Revtel... but all of this was seen by the Veiled Oracles and all is as it needs to be. — Phantom Assassin, Kingslayer"
+  },
+  "10334": {
+    "text": "Give your [g:2[tower]] +3 [g:511[Mana]] this round.",
+    "text_plain": "Give your tower +3 Mana this round.",
+    "keyword_ids": [
+      2,
+      511
+    ],
+    "lore": "Weeping Rose is shrouded in perpetual nightfall, a means for the Quorum to harness the power of the stars. — Silencer welcomes a visitor to Weeping Rose"
+  },
+  "10335": {
+    "text": "[g:409[Summon]] two [[Melee Creeps]] into any lane.",
+    "text_plain": "Summon two Melee Creeps into any lane.",
+    "keyword_ids": [
+      409
+    ],
+    "lore": "There is no place to hide from the wrath of the Dire. — Kanna, Vengeful Daughter"
+  },
+  "10336": {
+    "text": "[g:409[Summon]] a [[Melee Creep]] into any lane.",
+    "text_plain": "Summon a Melee Creep into any lane.",
+    "keyword_ids": [
+      409
+    ],
+    "lore": "Prellex's army grows larger by the day. For now they're disorganized, but I know my mother. It won't take long before they're a threat. — Kanna strategizes with her allies"
+  },
+  "10338": {
+    "text": "Give allies [g:507[Damage Immunity]] this round.",
+    "text_plain": "Give allies Damage Immunity this round.",
+    "keyword_ids": [
+      507
+    ],
+    "lore": "The Allseeing one will never forsake His agents. — Omniknight, Soldier of the Divine"
+  },
+  "10339": {
+    "text": "[g:406[Silence]] an enemy [g:0[hero]] and its [g:601[allied neighbors]] this round.",
+    "text_plain": "Silence an enemy hero and its allied neighbors this round.",
+    "keyword_ids": [
+      0,
+      406,
+      601
+    ],
+    "lore": "Never take victory for granted... the moment you assume there's nothing an enemy can do to stop you, is the moment you're most likely to lose.— Drow Ranger, Spoiler"
+  },
+  "10340": {
+    "text": "Fully heal each ally. Give allies [g:507[Damage Immunity]] this round.",
+    "text_plain": "Fully heal each ally. Give allies Damage Immunity this round.",
+    "keyword_ids": [
+      507
+    ],
+    "lore": "The Knights of the Fold gave me a fresh start and a new life. It will do the same for you was well. — Chen, Converter of Many"
+  },
+  "10341": {
+    "text": "Choose an [color:red[allied red [g:0[hero]]]] and another [g:607[unit]]. They [g:400[battle]] each other.",
+    "text_plain": "Choose an allied red hero and another unit. They battle each other.",
+    "keyword_ids": [
+      0,
+      400,
+      607
+    ],
+    "lore": "How many more of our people need to die? Let's just end this here and now. — Legion Commander, The battle of Roseleaf"
+  },
+  "10342": {
+    "text": "Choose an allied [g:0[hero]]. It [g:403[taunts]]. Choose a combat target for it.",
+    "text_plain": "Choose an allied hero. It taunts. Choose a combat target for it.",
+    "keyword_ids": [
+      0,
+      403
+    ],
+    "lore": "It takes a lot to get me mad- ok that's a lie, I'm always mad. It takes a lot to make me wanna fight someone- yeah, that's not true either. I- oh to hell with it, let's be honest I like punching people. — Bristleback, Lover of Violence"
+  },
+  "10344": {
+    "text": "Give allied [g:0[heroes]] +4 [g:502[Cleave]] this round.",
+    "text_plain": "Give allied heroes +4 Cleave this round.",
+    "keyword_ids": [
+      0,
+      502
+    ],
+    "lore": "Kunkka can hide on his boat all he likes... it won't be enough to save him. — Tidehunter, Kunkka's Rival"
+  },
+  "10347": {
+    "text": "[g:409[Summon]] two [[Roseleaf Walls]].",
+    "text_plain": "Summon two Roseleaf Walls.",
+    "keyword_ids": [
+      409
+    ],
+    "lore": "I protect the forest, and in turn the forest protects me. — Enchantress, Soul of Spring"
+  },
+  "10348": {
+    "text": "[g:401[Modify]] a [color:green[green [g:0[hero]]]] with \"Allies have +2 [g:505[Regeneration]].\"",
+    "text_plain": "Modify a green hero with \"Allies have +2 Regeneration.\"",
+    "keyword_ids": [
+      0,
+      401,
+      505
+    ],
+    "lore": "Once I doubted my faith; but no longer. The All Seeing one has chosen me to be its champion and I will not let the Omniscience down. — Omniknight, Rewarded For His Faith"
+  },
+  "10349": {
+    "text": "[g:401[Modify]] a [color:red[red [g:0[hero]]]] with \"After you play a non-[g:5[item]] card costing 2 or less, [g:401[modify]] this [g:0[hero]] with +1 [g:509[Attack]].\"",
+    "text_plain": "Modify a red hero with \"After you play a non-item card costing 2 or less, modify this hero with +1 Attack.\"",
+    "keyword_ids": [
+      0,
+      5,
+      401,
+      509
+    ],
+    "lore": "Tusk's breath was a mix of stale beer and raw fish, but I wasn't about to back down... no... I was just getting started. — Bristleback, No Quit In Him"
+  },
+  "10350": {
+    "text": "[g:405[Stun]] a [g:607[unit]] blocking an [color:red[allied red [g:0[hero]]]] this round. Deal 2 damage to that [g:607[unit]].",
+    "text_plain": "Stun a unit blocking an allied red hero this round. Deal 2 damage to that unit.",
+    "keyword_ids": [
+      0,
+      405,
+      607
+    ],
+    "lore": "There are few things more annoying than fighting a cat man that makes copies of himself. Every time you think you kill the last one, there’s always another one behind you. — Axe, Easily Fooled"
+  },
+  "10352": {
+    "text": "Deal 6 damage to the enemy [g:2[tower]].",
+    "text_plain": "Deal 6 damage to the enemy tower.",
+    "keyword_ids": [
+      2
+    ],
+    "lore": "Be grateful you only annoyed me mortal, had you offended me the results would be far more... interesting. — Zeus, 'Merciful' God"
+  },
+  "10353": {
+    "text": "Deal 20 damage to the enemy [g:2[tower]].",
+    "text_plain": "Deal 20 damage to the enemy tower.",
+    "keyword_ids": [
+      2
+    ],
+    "lore": "Some mistake my taking on the mortal coil as a sign that I have grown weaker. Every now and again I like to remind the world that that isn't the case. My wife would say that cratering a city is overkill. She's probably right. But I've always been a fan of grand gestures. — Zeus, Poor Impulse Control"
+  },
+  "10354": {
+    "text": "Deal 4 damage to a [g:607[unit]] in any lane.",
+    "text_plain": "Deal 4 damage to a unit in any lane.",
+    "keyword_ids": [
+      607
+    ],
+    "lore": "If I'm to survive long enough to make it to Weeping Rose, I need to stay vigilant... and remove any threats before they could possibly harm me. — Lion, Asylum Seeker"
+  },
+  "10355": {
+    "text": "[g:409[Summon]] three [[Melee Creeps]].",
+    "text_plain": "Summon three Melee Creeps.",
+    "keyword_ids": [
+      409
+    ],
+    "lore": "It doesn't matter where the battle rages... the Radiant will always stand up to the horrors the Dire bring. — Prellex, Committed to her Cause"
+  },
+  "10358": {
+    "text": "Heal your [g:2[tower]] 8.",
+    "text_plain": "Heal your tower 8.",
+    "keyword_ids": [
+      2
+    ],
+    "lore": "Eventually the war will be over and the armies will scatter, but that's when the real work will begin. — Enchantress, Bringer of Hope"
+  },
+  "10359": {
+    "text": "Give two random cards in opponent's hand +2 [g:407[Lock]].",
+    "text_plain": "Give two random cards in opponent's hand +2 Lock.",
+    "keyword_ids": [
+      407
+    ],
+    "lore": "Pierpont and I don’t agree on a lot of things, but he was wise to recognize the dangers of angering The Faceless Void. I'm not super wild about the Claszureme Treaty, Chronomancy was a lot of fun. But you know what's also fun? Not having your timeline obliterated. — Vanessa opines on the Claszureme Treaty"
+  },
+  "10360": {
+    "text": "Choose two enemies. They [g:400[battle]] each other.",
+    "text_plain": "Choose two enemies. They battle each other.",
+    "keyword_ids": [
+      400
+    ],
+    "lore": "Friends always let you down. — Drow Ranger, Force Unto Herself"
+  },
+  "10361": {
+    "text": "[g:401[Modify]] a [color:black[black [g:0[hero]]]] with \"After you play a [color:black[black card]], give this [g:0[hero]] and its [g:601[allied neighbors]] +2 [g:509[Attack]] this round.\"",
+    "text_plain": "Modify a black hero with \"After you play a black card, give this hero and its allied neighbors +2 Attack this round.\"",
+    "keyword_ids": [
+      0,
+      401,
+      509,
+      601
+    ],
+    "lore": "I don't understand why the veiled sisterhood decided to provoke a war with Revtel, but it is a fight they will regret starting. — The Brass Herald, Monster in Mourning"
+  },
+  "10365": {
+    "text": "Swap an ally with one of its [g:601[allied neighbors]].",
+    "text_plain": "Swap an ally with one of its allied neighbors.",
+    "keyword_ids": [
+      601
+    ],
+    "lore": "I've lived a long as I have because I always stay mobile... — Drow Ranger, On The Move"
+  },
+  "10366": {
+    "text": "Choose an ally. Choose a combat target for it.",
+    "text_plain": "Choose an ally. Choose a combat target for it.",
+    "lore": "Armies lose battles when their generals are unable to adapt to the situation. — Legion Commander on maintaining poise"
+  },
+  "10367": {
+    "text": "[g:401[Modify]] a [g:607[unit]] with -X [g:504[Armor]] where X is its [g:504[Armor]].",
+    "text_plain": "Modify a unit with -X Armor where X is its Armor.",
+    "keyword_ids": [
+      401,
+      504,
+      607
+    ],
+    "lore": "The keen believe that their soulless contraptions give them an edge in battle, but I will show them that their 'sci-ance' is not strong enough. — Ursa, Armor's Bane"
+  },
+  "10368": {
+    "text": "[g:401[Modify]] a [g:607[unit]] with +2 [g:509[Attack]].",
+    "text_plain": "Modify a unit with +2 Attack.",
+    "keyword_ids": [
+      401,
+      509,
+      607
+    ],
+    "lore": "If Abaddon isn't willing to share the mist of Avernus, I'll just have to find a way to take it — Traxex on her quest for power"
+  },
+  "10370": {
+    "text": "Give a [color:red[red [g:0[hero]]]] +2 [g:504[Armor]] this round. <br><br>[color:quick[[g:604[&#9634; Get initiative]].]]",
+    "text_plain": "Give a red hero +2 Armor this round.\n\nGet initiative.",
+    "keyword_ids": [
+      0,
+      504,
+      604
+    ],
+    "lore": "I've seen a lot of people try to kill Axe over the years. 3 of them even got close. — Goodkind, Bard to Axe"
+  },
+  "10373": {
+    "text": "[g:401[Modify]] a [g:0[hero]] with \"After you play a [color:green[green card]], give this [g:0[hero]] and its [g:601[allied neighbors]] +4 [g:505[Regeneration]] this round.\"",
+    "text_plain": "Modify a hero with \"After you play a green card, give this hero and its allied neighbors +4 Regeneration this round.\"",
+    "keyword_ids": [
+      0,
+      401,
+      505,
+      601
+    ],
+    "lore": "Hope never dies, it just goes dormant... and when the conditions are right, it can be reborn anew. — Enchantress, on the destruction of Roseleaf"
+  },
+  "10374": {
+    "text": "Deal 2 damage to the enemy [g:2[tower]]. Draw a card. <br><br>[color:quick[[g:604[&#9634; Get initiative]].]]",
+    "text_plain": "Deal 2 damage to the enemy tower. Draw a card.\n\nGet initiative.",
+    "keyword_ids": [
+      2,
+      604
+    ],
+    "lore": "Rubick claims to be Aghanim's son. I'm not sure I believe it, but I certainly wouldn't say that to Rubick's face. — Vanessa, Opinionated Occultist"
+  },
+  "10376": {
+    "text": "Deal 5 damage to each enemy across from an empty combat position.",
+    "text_plain": "Deal 5 damage to each enemy across from an empty combat position.",
+    "lore": "The purist in me hates how much Techies rely on explosives... but you can't deny they're effective. — Kardel debates the pros and cons of Techies"
+  },
+  "10377": {
+    "text": "Each enemy has a 50% chance of being disarmed this round.",
+    "text_plain": "Each enemy has a 50% chance of being disarmed this round.",
+    "lore": "Chronicling Axe's adventure's has taken me to lots of interesting places. It first it was scary but eventually you get used to a certain level of baseline terror. — Goodkind, Axe's Voice of Reason"
+  },
+  "10378": {
+    "text": "[g:401[Modify]] a [g:607[unit]] with [g:507[Damage Immunity]].",
+    "text_plain": "Modify a unit with Damage Immunity.",
+    "keyword_ids": [
+      401,
+      507,
+      607
+    ],
+    "lore": "My god gave me purpose. A holy mission. Until this geas is completed I will not know defeat. — Omniknight, Man on a Mission"
+  },
+  "10379": {
+    "text": "Move a [g:607[unit]] to a random other lane.",
+    "text_plain": "Move a unit to a random other lane.",
+    "keyword_ids": [
+      607
+    ],
+    "lore": "Pugna taught me to savor every delicious moment before the kill. — Viper, Trained by Pugna"
+  },
+  "10382": {
+    "text": "[g:402[Purge]] your opponent's effects from a [g:0[hero]].",
+    "text_plain": "Purge your opponent's effects from a hero.",
+    "keyword_ids": [
+      0,
+      402
+    ],
+    "lore": "Healing doesn't end suffering, it merely treats it. The only way to end suffering is to actively fight those who cause it. — Lady Anshu, Rumusque High Priestess"
+  },
+  "10385": {
+    "text": "[g:401[Modify]] a [color:red[red [g:0[hero]]]] with \"After you play a [color:red[red card]], give this [g:0[hero]] and its [g:601[allied neighbors]] +1 [g:509[Attack]] and +1 [g:504[Armor]] this round.\"",
+    "text_plain": "Modify a red hero with \"After you play a red card, give this hero and its allied neighbors +1 Attack and +1 Armor this round.\"",
+    "keyword_ids": [
+      0,
+      401,
+      504,
+      509,
+      601
+    ],
+    "lore": "Emperor Galanius expects much from me. And I expect the same from those I command. — a quiet moment between Tresdin and Belasanno"
+  },
+  "10391": {
+    "text": "Choose a [g:607[unit]]. Choose a combat target for it. Draw a card.",
+    "text_plain": "Choose a unit. Choose a combat target for it. Draw a card.",
+    "keyword_ids": [
+      607
+    ],
+    "lore": "Some are fit to rule. Most live to obey. — Kanna, Cult of Personality"
+  },
+  "10396": {
+    "text": "[g:405[Stun]] a [g:0[hero]] until they equip an [g:5[item]].",
+    "text_plain": "Stun a hero until they equip an item.",
+    "keyword_ids": [
+      0,
+      5,
+      405
+    ],
+    "lore": "You don't need a gun, just a drop on the guy who has one. — Traxex, Keenfolk Hunter"
+  },
+  "10399": {
+    "text": "Choose a [g:607[unit]] in another lane. Move a random [color:black[allied black [g:0[hero]]]] from this lane to that lane. [g:608[&#9633;]] Deal 2 damage to the chosen [g:607[unit]].",
+    "text_plain": "Choose a unit in another lane. Move a random allied black hero from this lane to that lane. Deal 2 damage to the chosen unit.",
+    "keyword_ids": [
+      0,
+      607,
+      608
+    ],
+    "lore": "When The Veiled Sisters set their mind to a pursuit, they are dogged in it. It is a lesson I have learned well. — The Brass Herald, Ruthless Enemy"
+  },
+  "10402": {
+    "text": "Deal 2 damage to each enemy.",
+    "text_plain": "Deal 2 damage to each enemy.",
+    "lore": "Our defenses are strong, but not impenetrable... Fortunately our towers tend to ward off all but the most determined. — Prellex, Defender of the Radiant"
+  },
+  "10403": {
+    "text": "Give a [g:607[unit]] -4 [g:509[Attack]] this round and give another [g:607[unit]] +4 [g:509[Attack]] this round.",
+    "text_plain": "Give a unit -4 Attack this round and give another unit +4 Attack this round.",
+    "keyword_ids": [
+      509,
+      607
+    ],
+    "lore": "The strong always think they are untouchable. But the look on their faces when they realize they are not, is a joy to behold. — Shendelzare, beloved of Skywrath Mage"
+  },
+  "10404": {
+    "text": "Move an [color:black[allied black [g:0[hero]]]] to another lane. Give that [g:0[hero]] +4 [g:509[Attack]] and +7 [g:501[Siege]] until end of its next [g:203[combat phase]].",
+    "text_plain": "Move an allied black hero to another lane. Give that hero +4 Attack and +7 Siege until end of its next combat phase.",
+    "keyword_ids": [
+      0,
+      203,
+      501,
+      509
+    ],
+    "lore": "Don't worry. I travel at night all the time. — in which the Enchantress makes a horrible decision"
+  },
+  "10410": {
+    "text": "[g:408[Condemn]] a [g:1[creep]].",
+    "text_plain": "Condemn a creep.",
+    "keyword_ids": [
+      1,
+      408
+    ],
+    "lore": "The Phantom Assassin wastes no effort in her function. Almost as if she was a creature of my design. — The Brass Herald, Architect of Iron Fog"
+  },
+  "10411": {
+    "text": "Swap a [g:607[unit]] with one of its [g:601[allied neighbors]]. Draw a card.",
+    "text_plain": "Swap a unit with one of its allied neighbors. Draw a card.",
+    "keyword_ids": [
+      601,
+      607
+    ],
+    "lore": "Mireska likes the long con. Me? I like to shake things up and see what happens. — Meepo, Impulsive Criminal"
+  },
+  "10412": {
+    "text": "Deal 4 damage to each enemy.",
+    "text_plain": "Deal 4 damage to each enemy.",
+    "lore": "Zeus destroyed a building so I destroyed an army... I thought the matter was settled but then he decided to go throw a temper tantrum and crater a city. — Storm Spirit, Sore Loser"
+  },
+  "10413": {
+    "text": "Give allies +2 [g:501[Siege]] this round. Allies change their combat target to the [g:607[unit]] or [g:2[tower]] across from them.",
+    "text_plain": "Give allies +2 Siege this round. Allies change their combat target to the unit or tower across from them.",
+    "keyword_ids": [
+      2,
+      501,
+      607
+    ],
+    "lore": "There is a time for tactics, and there is a time for conviction. — Sorla Khan, Proud Oglodi"
+  },
+  "10415": {
+    "text": "[g:401[Modify]] a [color:black[black [g:0[hero]]]] with +3 [g:501[Siege]].",
+    "text_plain": "Modify a black hero with +3 Siege.",
+    "keyword_ids": [
+      0,
+      401,
+      501
+    ],
+    "lore": "Convincing The Antimage to work with the Tyler Estate wasn't an easy task, but it was worth it. He is...exuberant in his work. — Silencer, on working with The Anti-Mage"
+  },
+  "10416": {
+    "text": "Give a [g:0[hero]] +10 [g:500[Bounty]] until it dies.",
+    "text_plain": "Give a hero +10 Bounty until it dies.",
+    "keyword_ids": [
+      0,
+      500
+    ],
+    "lore": "It's not always honest work, but it's certainly lucrative. — Bounty Hunter, Professional Tracker"
+  },
+  "10417": {
+    "text": "[g:409[Summon]] two [[Centaur Hunters]] into any lane.",
+    "text_plain": "Summon two Centaur Hunters into any lane.",
+    "keyword_ids": [
+      409
+    ],
+    "lore": "There are no words to describe the anticipation you feel the moment before you descend on your prey. — Warrunner, Leader of the Hunt"
+  },
+  "10418": {
+    "text": "Choose a [g:607[unit]]. It [g:403[taunts]].",
+    "text_plain": "Choose a unit. It taunts.",
+    "keyword_ids": [
+      403,
+      607
+    ],
+    "lore": "The best way to survive in this world is knowing who you can shove in front of the town guards so you can make a quick getaway. — Meepo, Always Skipping the Check"
+  },
+  "10419": {
+    "text": "[g:401[Modify]] a [g:607[unit]] with -2 [g:504[Armor]].",
+    "text_plain": "Modify a unit with -2 Armor.",
+    "keyword_ids": [
+      401,
+      504,
+      607
+    ],
+    "lore": "It's not gonna score points with the ladies, but when it comes to winning a fight I'll take every advantage I can get. — Bristleback, Dirty Fighter"
+  },
+  "10420": {
+    "text": "[g:406[Silence]] a [g:607[unit]] this round.",
+    "text_plain": "Silence a unit this round.",
+    "keyword_ids": [
+      406,
+      607
+    ],
+    "lore": "The powerful would have the weak be silent. To accept the status quo. To bend the knee. To accept their lot in life. For too long I was complicit in Stonehall’s grab for power. It ends today. I will be a voice for my people, and I will not be silenced. — Rix, Ex-Bronze Legion"
+  },
+  "10421": {
+    "text": "[g:401[Modify]] a [g:0[hero]] with -2 [g:509[Attack]].",
+    "text_plain": "Modify a hero with -2 Attack.",
+    "keyword_ids": [
+      0,
+      401,
+      509
+    ],
+    "lore": "The best part of making your enemy limp away is that you really get to take the time to savor their last moments. — Pugna, Delights in Malice"
+  },
+  "10422": {
+    "text": "[g:405[Stun]] an enemy this round and [g:405[stun]] allied [g:0[heroes]] in all lanes this round.",
+    "text_plain": "Stun an enemy this round and stun allied heroes in all lanes this round.",
+    "keyword_ids": [
+      0,
+      405
+    ],
+    "lore": "Pierpont always warns me about 'dabbling with things you don't understand'. Most of the time he's being a sanctimonious bastard... unfortunately sometimes he's right. Well, mostly right, I mean I've never died permanently. Ya know, now that I think about it, he's basically always just being a sanctimonious bastard. — Vanessa, Pierpont's Foil"
+  },
+  "10424": {
+    "text": "Deal 6 damage to every [g:607[unit]].",
+    "text_plain": "Deal 6 damage to every unit.",
+    "keyword_ids": [
+      607
+    ],
+    "lore": "There's a lot things you can say about my sister. Most of them revolve around her being a rage-filled arson machine. — Crystal Maiden calls it like she sees it"
+  },
+  "10425": {
+    "text": "[g:401[Modify]] allied [g:0[heroes]] with +4 [g:509[Attack]], +4 [g:504[Armor]], +4 [g:510[Health]], +4 [g:502[Cleave]], +4 [g:503[Retaliate]], and +4 [g:501[Siege]].",
+    "text_plain": "Modify allied heroes with +4 Attack, +4 Armor, +4 Health, +4 Cleave, +4 Retaliate, and +4 Siege.",
+    "keyword_ids": [
+      0,
+      401,
+      501,
+      502,
+      503,
+      504,
+      509,
+      510
+    ],
+    "lore": "I've written a lot of books about Axe, the most popular of which is easily 'The Roshan Expedition'. Personally I think, 'Red Mist, Red Passion' is better, but people heard 'erotic thriller' and never gave it a chance. — Goodkind, Literary Icon"
+  },
+  "10429": {
+    "text": "Move {s:parentCardName} to an allied [[Meepo]]'s lane. [g:608[&#9633;]] Deal 2 damage to the new [g:600[enemy neighbors]].",
+    "text_plain": "Move Meepo to an allied Meepo's lane. Deal 2 damage to the new enemy neighbors.",
+    "keyword_ids": [
+      600,
+      608
+    ]
+  },
+  "10430": {
+    "text": "Move {s:parentCardName} to an empty combat position and give it +4 [g:509[Attack]] this round.",
+    "text_plain": "Move Winter Wyvern to an empty combat position and give it +4 Attack this round.",
+    "keyword_ids": [
+      509
+    ]
+  },
+  "10431": {
+    "text": "Fully heal {s:parentCardName} and give it [g:507[Damage Immunity]] this round.",
+    "text_plain": "Fully heal Abaddon and give it Damage Immunity this round.",
+    "keyword_ids": [
+      507
+    ]
+  },
+  "10432": {
+    "text": "Get control of an enemy [g:1[creep]].",
+    "text_plain": "Get control of an enemy creep.",
+    "keyword_ids": [
+      1
+    ]
+  },
+  "10434": {
+    "text": "[g:405[Stun]] {s:parentCardName}'s [g:600[enemy neighbors]] this round and each other enemy has a 50% chance of being stunned this round.",
+    "text_plain": "Stun Tidehunter's enemy neighbors this round and each other enemy has a 50% chance of being stunned this round.",
+    "keyword_ids": [
+      405,
+      600
+    ]
+  },
+  "10435": {
+    "text": "Deal 3 damage to a [g:607[unit]] and [g:404[disarm]] it this round.",
+    "text_plain": "Deal 3 damage to a unit and disarm it this round.",
+    "keyword_ids": [
+      404,
+      607
+    ]
+  },
+  "10437": {
+    "text": "[g:409[Summon]] a [[Loyal Beast]].",
+    "text_plain": "Summon a Loyal Beast.",
+    "keyword_ids": [
+      409
+    ]
+  },
+  "10438": {
+    "text": "[g:405[Stun]] {s:parentCardName}'s [g:600[enemy neighbors]] this round.",
+    "text_plain": "Stun Earthshaker's enemy neighbors this round.",
+    "keyword_ids": [
+      405,
+      600
+    ]
+  },
+  "10440": {
+    "text": "[g:408[Condemn]] another ally and draw a card. If that ally has 6 or more [g:509[Attack]], draw an extra card.",
+    "text_plain": "Condemn another ally and draw a card. If that ally has 6 or more Attack, draw an extra card.",
+    "keyword_ids": [
+      408,
+      509
+    ]
+  },
+  "10443": {
+    "text": "Heal a [g:607[unit]] 3.",
+    "text_plain": "Heal a unit 3.",
+    "keyword_ids": [
+      607
+    ]
+  },
+  "10444": {
+    "text": "[g:408[Condemn]] a random enemy [g:3[improvement]].",
+    "text_plain": "Condemn a random enemy improvement.",
+    "keyword_ids": [
+      3,
+      408
+    ]
+  },
+  "10446": {
+    "text": "Deal 5 damage to a [g:607[unit]].",
+    "text_plain": "Deal 5 damage to a unit.",
+    "keyword_ids": [
+      607
+    ]
+  },
+  "10449": {
+    "text": "Deal 8 [g:508[piercing]] damage to a [g:607[unit]].  Quicken (reduce cooldown by 1, but not below 1).",
+    "text_plain": "Deal 8 piercing damage to a unit. Quicken (reduce cooldown by 1, but not below 1).",
+    "keyword_ids": [
+      508,
+      607
+    ]
+  },
+  "10451": {
+    "text": "Give a [g:0[hero]] and its [g:601[allied neighbors]] -2 [g:504[Armor]] this round.",
+    "text_plain": "Give a hero and its allied neighbors -2 Armor this round.",
+    "keyword_ids": [
+      0,
+      504,
+      601
+    ]
+  },
+  "10452": {
+    "text": "Move another ally to another lane.",
+    "text_plain": "Move another ally to another lane."
+  },
+  "10454": {
+    "text": "Choose a combat target for {s:parentCardName}.",
+    "text_plain": "Choose a combat target for Sister of the Veil."
+  },
+  "10455": {
+    "text": "Swap {s:parentCardName} with another ally.",
+    "text_plain": "Swap Rebel Decoy with another ally."
+  },
+  "10456": {
+    "text": "Spend all your gold. [g:401[Modify]] {s:parentCardName} with +X [g:509[Attack]] and +X [g:510[Health]] where X is half the gold spent.",
+    "text_plain": "Spend all your gold. Modify Mercenary Exiles with +X Attack and +X Health where X is half the gold spent.",
+    "keyword_ids": [
+      401,
+      509,
+      510
+    ]
+  },
+  "10457": {
+    "text": "[g:401[Modify]] allies with +2 [g:509[Attack]] and +2 [g:510[Health]].",
+    "text_plain": "Modify allies with +2 Attack and +2 Health.",
+    "keyword_ids": [
+      401,
+      509,
+      510
+    ]
+  },
+  "10459": {
+    "text": "[g:408[Condemn]] {s:parentCardName}'s [g:601[allied neighbors]]. [g:401[Modify]] {s:parentCardName} with their [g:509[Attack]] and [g:510[Health]].",
+    "text_plain": "Condemn Ravenous Mass's allied neighbors. Modify Ravenous Mass with their Attack and Health.",
+    "keyword_ids": [
+      401,
+      408,
+      509,
+      510,
+      601
+    ]
+  },
+  "10462": {
+    "text": "Deal 4 [g:508[piercing]] damage to the enemy [g:2[tower]]. May only be used if there are no [g:606[unblocked]] enemies.",
+    "text_plain": "Deal 4 piercing damage to the enemy tower. May only be used if there are no unblocked enemies.",
+    "keyword_ids": [
+      2,
+      508,
+      606
+    ]
+  },
+  "10463": {
+    "text": "Get 4 gold for each charge. [g:408[Condemn]] {s:parentCardName}.",
+    "text_plain": "Get 4 gold for each charge. Condemn Revtel Investments.",
+    "keyword_ids": [
+      408
+    ]
+  },
+  "10464": {
+    "text": "Fully restore your [g:2[tower]]'s [g:511[Mana]].",
+    "text_plain": "Fully restore your tower's Mana.",
+    "keyword_ids": [
+      2,
+      511
+    ]
+  },
+  "10465": {
+    "text": "Return an allied [g:0[hero]] to the [g:300[Fountain]].",
+    "text_plain": "Return an allied hero to the Fountain.",
+    "keyword_ids": [
+      0,
+      300
+    ]
+  },
+  "10466": {
+    "text": "Choose an ally. Choose a combat target for it.",
+    "text_plain": "Choose an ally. Choose a combat target for it."
+  },
+  "10467": {
+    "text": "Deal 2 [g:508[piercing]] damage to a [g:607[unit]].",
+    "text_plain": "Deal 2 piercing damage to a unit.",
+    "keyword_ids": [
+      508,
+      607
+    ]
+  },
+  "10468": {
+    "text": "Deal 4 [g:508[piercing]] damage to a [g:607[unit]] in any lane.",
+    "text_plain": "Deal 4 piercing damage to a unit in any lane.",
+    "keyword_ids": [
+      508,
+      607
+    ]
+  },
+  "10469": {
+    "text": "Choose a combat target for equipped [g:0[hero]].",
+    "text_plain": "Choose a combat target for equipped hero.",
+    "keyword_ids": [
+      0
+    ]
+  },
+  "10470": {
+    "text": "Swap equipped [g:0[hero]] with another ally.",
+    "text_plain": "Swap equipped hero with another ally.",
+    "keyword_ids": [
+      0
+    ]
+  },
+  "10471": {
+    "text": "Move equipped [g:0[hero]] to another lane.",
+    "text_plain": "Move equipped hero to another lane.",
+    "keyword_ids": [
+      0
+    ]
+  },
+  "10473": {
+    "text": "Heal a [g:607[unit]] 4.",
+    "text_plain": "Heal a unit 4.",
+    "keyword_ids": [
+      607
+    ]
+  },
+  "10474": {
+    "text": "Deal 2 damage to a [g:607[unit]].",
+    "text_plain": "Deal 2 damage to a unit.",
+    "keyword_ids": [
+      607
+    ]
+  },
+  "10476": {
+    "text": "Deal 6 damage to equipped [g:0[hero]]'s [g:600[enemy neighbors]] and [g:408[condemn]] equipped [g:0[hero]].",
+    "text_plain": "Deal 6 damage to equipped hero's enemy neighbors and condemn equipped hero.",
+    "keyword_ids": [
+      0,
+      408,
+      600
+    ]
+  },
+  "10477": {
+    "text": "Get control of an enemy [g:1[creep]].",
+    "text_plain": "Get control of an enemy creep.",
+    "keyword_ids": [
+      1
+    ]
+  },
+  "10478": {
+    "text": "Give equipped [g:0[hero]] and its [g:601[allied neighbors]] +X [g:505[Regeneration]] this round where X is half its [g:509[Attack]].",
+    "text_plain": "Give equipped hero and its allied neighbors +X Regeneration this round where X is half its Attack.",
+    "keyword_ids": [
+      0,
+      505,
+      509,
+      601
+    ]
+  },
+  "10480": {
+    "text": "[g:409[Summon]] a [[Zombie]] for each charge and remove all charges.",
+    "text_plain": "Summon a Zombie for each charge and remove all charges.",
+    "keyword_ids": [
+      409
+    ]
+  },
+  "10481": {
+    "text": "[g:401[Modify]] a [g:607[unit]] and its [g:601[allied neighbors]] with -2 [g:509[Attack]].",
+    "text_plain": "Modify a unit and its allied neighbors with -2 Attack.",
+    "keyword_ids": [
+      401,
+      509,
+      601,
+      607
+    ]
+  },
+  "10483": {
+    "text": "[g:409[Summon]] a [[Thunderhide Pack]].",
+    "text_plain": "Summon a Thunderhide Pack.",
+    "keyword_ids": [
+      409
+    ]
+  },
+  "10484": {
+    "text": "Move equipped [g:0[hero]]'s [g:600[enemy neighbors]] to random other lanes.",
+    "text_plain": "Move equipped hero's enemy neighbors to random other lanes.",
+    "keyword_ids": [
+      0,
+      600
+    ]
+  },
+  "10489": {
+    "text": "[g:200[Before the action phase]], deal 1 [g:508[piercing]] damage to a random enemy and add a charge to three random [[Eclipse]] cards in your hand or deck.",
+    "text_plain": "Before the action phase, deal 1 piercing damage to a random enemy and add a charge to three random Eclipse cards in your hand or deck.",
+    "keyword_ids": [
+      200,
+      508
+    ]
+  },
+  "10490": {
+    "text": "{s:parentCardName} has [g:512[Soulbound]]. (If {s:parentCardName} dies, other allied {s:parentCardName}s in every lane also die.)",
+    "text_plain": "Meepo has Soulbound. (If Meepo dies, other allied Meepos in every lane also die.)",
+    "keyword_ids": [
+      512
+    ]
+  },
+  "10491": {
+    "text": "[g:409[Summon]] a [[Plague Ward]] into {s:parentCardName}'s lane each [g:204[deployment phase]].",
+    "text_plain": "Summon a Plague Ward into Venomancer's lane each deployment phase.",
+    "keyword_ids": [
+      204,
+      409
+    ]
+  },
+  "10494": {
+    "text": "{s:parentCardName}'s [g:601[allied neighbors]] have +2 [g:509[Attack]].",
+    "text_plain": "Lycan's allied neighbors have +2 Attack.",
+    "keyword_ids": [
+      509,
+      601
+    ]
+  },
+  "10496": {
+    "text": "Fully heal {s:parentCardName} after a [g:607[unit]] blocking it dies.",
+    "text_plain": "Fully heal Bloodseeker after a unit blocking it dies.",
+    "keyword_ids": [
+      607
+    ]
+  },
+  "10497": {
+    "text": "{s:parentCardName} has +2 [g:503[Retaliate]].",
+    "text_plain": "Centaur Warrunner has +2 Retaliate.",
+    "keyword_ids": [
+      503
+    ]
+  },
+  "10498": {
+    "text": "{s:parentCardName} has +1 [g:504[Armor]] for each of its attackers. {s:parentCardName}'s attackers have -1 [g:504[Armor]].",
+    "text_plain": "Timbersaw has +1 Armor for each of its attackers. Timbersaw's attackers have -1 Armor.",
+    "keyword_ids": [
+      504
+    ]
+  },
+  "10499": {
+    "text": "[g:200[Before the action phase]], there is a 50% chance to give {s:parentCardName} +4 [g:509[Attack]] this round.",
+    "text_plain": "Before the action phase, there is a 50% chance to give Bounty Hunter +4 Attack this round.",
+    "keyword_ids": [
+      200,
+      509
+    ]
+  },
+  "10500": {
+    "text": "{s:parentCardName} has [g:610[Rapid Deployment]].",
+    "text_plain": "Rix has Rapid Deployment.",
+    "keyword_ids": [
+      610
+    ]
+  },
+  "10501": {
+    "text": "When a [g:607[unit]] deals [g:609[battle damage]] to {s:parentCardName}, [g:401[modify]] that [g:607[unit]] with -1 [g:509[Attack]].",
+    "text_plain": "When a unit deals battle damage to Viper, modify that unit with -1 Attack.",
+    "keyword_ids": [
+      401,
+      509,
+      607,
+      609
+    ]
+  },
+  "10502": {
+    "text": "[g:401[Modify]] {s:parentCardName} with +2 [g:504[Armor]] after a [g:0[hero]] blocking it dies.",
+    "text_plain": "Modify Bristleback with +2 Armor after a hero blocking it dies.",
+    "keyword_ids": [
+      0,
+      401,
+      504
+    ]
+  },
+  "10503": {
+    "text": "The random allied [[Melee Creeps]] are deployed into {s:parentCardName}'s lane.",
+    "text_plain": "The random allied Melee Creeps are deployed into Kanna's lane."
+  },
+  "10504": {
+    "text": "Other allies in all lanes have +1 [g:509[Attack]].",
+    "text_plain": "Other allies in all lanes have +1 Attack.",
+    "keyword_ids": [
+      509
+    ]
+  },
+  "10506": {
+    "text": "{s:parentCardName} has +2 [g:505[Regeneration]]. {s:parentCardName}'s [g:601[allied neighbors]] have +2 [g:505[Regeneration]].",
+    "text_plain": "Enchantress has +2 Regeneration. Enchantress's allied neighbors have +2 Regeneration.",
+    "keyword_ids": [
+      505,
+      601
+    ]
+  },
+  "10509": {
+    "text": "After you play a [color:blue[blue [g:4[spell]]]], there is a 25% chance to put a base copy of that card into your hand.",
+    "text_plain": "After you play a blue spell, there is a 25% chance to put a base copy of that card into your hand.",
+    "keyword_ids": [
+      4
+    ]
+  },
+  "10511": {
+    "text": "After you play a [color:blue[blue card]], there is a 50% chance to restore 2 [g:511[Mana]].",
+    "text_plain": "After you play a blue card, there is a 50% chance to restore 2 Mana.",
+    "keyword_ids": [
+      511
+    ]
+  },
+  "10512": {
+    "text": "{s:parentCardName} deals +4 damage when attacking a [g:0[hero]].",
+    "text_plain": "Phantom Assassin deals +4 damage when attacking a hero.",
+    "keyword_ids": [
+      0
+    ]
+  },
+  "10513": {
+    "text": "{s:parentCardName} has +X [g:502[Cleave]] where X is equal to half its [g:509[Attack]].",
+    "text_plain": "Sven has +X Cleave where X is equal to half its Attack.",
+    "keyword_ids": [
+      502,
+      509
+    ]
+  },
+  "10514": {
+    "text": "{s:parentCardName}'s [g:601[allied neighbors]] have +2 [g:504[Armor]].",
+    "text_plain": "Treant Protector's allied neighbors have +2 Armor.",
+    "keyword_ids": [
+      504,
+      601
+    ]
+  },
+  "10516": {
+    "text": "{s:parentCardName} deals +4 damage when attacking a [g:2[tower]].",
+    "text_plain": "Sorla Khan deals +4 damage when attacking a tower.",
+    "keyword_ids": [
+      2
+    ]
+  },
+  "10517": {
+    "text": "[g:401[Modify]] {s:parentCardName} with +1 [g:510[Health]] after an [g:600[enemy neighbor]] dies.",
+    "text_plain": "Modify Necrophos with +1 Health after an enemy neighbor dies.",
+    "keyword_ids": [
+      401,
+      510,
+      600
+    ]
+  },
+  "10518": {
+    "text": "After the first time an allied [g:4[spell]] is played in each lane, restore 2 [g:511[Mana]] to the [g:2[tower]] in that lane.",
+    "text_plain": "After the first time an allied spell is played in each lane, restore 2 Mana to the tower in that lane.",
+    "keyword_ids": [
+      2,
+      4,
+      511
+    ]
+  },
+  "10519": {
+    "text": "Deal 1 [g:508[piercing]] damage to {s:parentCardName}'s [g:600[enemy neighbors]] after you play a [color:blue[blue [g:4[spell]]]].",
+    "text_plain": "Deal 1 piercing damage to Zeus's enemy neighbors after you play a blue spell.",
+    "keyword_ids": [
+      4,
+      508,
+      600
+    ]
+  },
+  "10520": {
+    "text": "{s:parentCardName} has +2 [g:503[Retaliate]].",
+    "text_plain": "Legion Commander has +2 Retaliate.",
+    "keyword_ids": [
+      503
+    ]
+  },
+  "10521": {
+    "text": "When {s:parentCardName} deals [g:609[battle damage]] to a [g:607[unit]], [g:401[modify]] that [g:607[unit]] with -1 [g:504[Armor]].",
+    "text_plain": "When Ursa deals battle damage to a unit, modify that unit with -1 Armor.",
+    "keyword_ids": [
+      401,
+      504,
+      607,
+      609
+    ]
+  },
+  "10523": {
+    "text": "[g:409[Summon]] a [[Melee Creep]] into {s:parentCardName}'s lane each [g:204[deployment phase]].",
+    "text_plain": "Summon a Melee Creep into Prellex's lane each deployment phase.",
+    "keyword_ids": [
+      204,
+      409
+    ]
+  },
+  "10524": {
+    "text": "[g:408[Condemn]] a random [g:5[item]] equipped by the [g:607[unit]] blocking {s:parentCardName}. Get gold equal to the base cost of that [g:5[item]].",
+    "text_plain": "Condemn a random item equipped by the unit blocking Ravenhook. Get gold equal to the base cost of that item.",
+    "keyword_ids": [
+      5,
+      408,
+      607
+    ]
+  },
+  "10536": {
+    "text": "[abilityname[Overload]]Give {s:thisCardName} +2 [g:509[Attack]] until end of its next [g:203[combat phase]] after you play a [color:black[black card]] in any lane.",
+    "text_plain": "Overload\nGive Storm Spirit +2 Attack until end of its next combat phase after you play a black card in any lane.",
+    "keyword_ids": [
+      203,
+      509
+    ],
+    "lore": "There are number of things one could say about Zeus. He has a delightful mustache. His physique is chiseled out of marble. And when it comes to two-timing your wife while disguised as a swan, there is no equal. But one thing he is not is 'The God of Thunder'. For I am thunder. And lightning. And wind. And rain. Indeed, I am the tempest itself... and there is no god to whom I bow. — Storm Spirit, Zeus' Rival"
+  },
+  "10537": {
+    "text": "Give {s:parentCardName} +2 [g:509[Attack]] until end of its next [g:203[combat phase]] after you play a [color:black[black card]] in any lane.",
+    "text_plain": "Give Storm Spirit +2 Attack until end of its next combat phase after you play a black card in any lane.",
+    "keyword_ids": [
+      203,
+      509
+    ]
+  },
+  "10538": {
+    "text": "Move an [color:black[allied black [g:0[hero]]]] to an empty combat position in any lane.",
+    "text_plain": "Move an allied black hero to an empty combat position in any lane.",
+    "keyword_ids": [
+      0
+    ],
+    "lore": "The so-called 'God of Thunder' may use his feet to get around, but the true Lord of Lightning has a better means of travel. — Storm Spirit, Swift As Lightning"
+  },
+  "10539": {
+    "text": "Give a [g:607[unit]] a [g:506[Death Shield]] this round. May only be used if there is an [color:green[allied green [g:0[hero]]]] in this lane.",
+    "text_plain": "Give a unit a Death Shield this round. May only be used if there is an allied green hero in this lane.",
+    "keyword_ids": [
+      0,
+      506,
+      607
+    ]
+  },
+  "10540": {
+    "text": "[g:408[Condemn]] a random enemy [g:3[improvement]]. May only be used if equipped [g:0[hero]] is [g:606[unblocked]].",
+    "text_plain": "Condemn a random enemy improvement. May only be used if equipped hero is unblocked.",
+    "keyword_ids": [
+      0,
+      3,
+      408,
+      606
+    ]
+  },
+  "10541": {
+    "text": "[g:408[Condemn]] enemy [g:3[improvements]]. [g:408[Condemn]] each [g:5[item]] equipped by the [g:607[unit]] blocking equipped [g:0[hero]].",
+    "text_plain": "Condemn enemy improvements. Condemn each item equipped by the unit blocking equipped hero.",
+    "keyword_ids": [
+      0,
+      3,
+      5,
+      408,
+      607
+    ]
+  },
+  "10542": {
+    "text": "Fully restore your [g:2[tower]]'s [g:511[Mana]].",
+    "text_plain": "Fully restore your tower's Mana.",
+    "keyword_ids": [
+      2,
+      511
+    ]
+  },
+  "10543": {
+    "text": "Choose a combat target for {s:parentCardName}.",
+    "text_plain": "Choose a combat target for Assassin's Apprentice."
+  }
+}

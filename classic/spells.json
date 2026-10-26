@@ -1,0 +1,3891 @@
+{
+  "4004": {
+    "id": 4004,
+    "name": "Fighting Instinct",
+    "type": 7,
+    "set": 0,
+    "collectible": false,
+    "rarity": "Basic",
+    "color": "Red",
+    "mana_cost": 5,
+    "illustrator": "Lius Lasahido",
+    "artwork": {
+      "artwork_id": 4004
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_attack": 1,
+          "mod_armor": 1,
+          "mod_duration": 1,
+          "color": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_attack": 1,
+          "mod_armor": 1,
+          "mod_duration": 1,
+          "color": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28",
+    "signature_of": [
+      4003
+    ]
+  },
+  "4007": {
+    "id": 4007,
+    "name": "No Accident",
+    "type": 7,
+    "set": 0,
+    "collectible": false,
+    "rarity": "Basic",
+    "color": "Black",
+    "mana_cost": 3,
+    "illustrator": "Livia Prima",
+    "artwork": {
+      "artwork_id": 4007
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_damage",
+          "enemy_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_damage",
+          "enemy_only": true,
+          "mod_duration": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28",
+    "signature_of": [
+      4005
+    ]
+  },
+  "4010": {
+    "id": 4010,
+    "name": "Battlefield Control",
+    "type": 7,
+    "set": 0,
+    "collectible": false,
+    "rarity": "Basic",
+    "color": "Blue",
+    "mana_cost": 1,
+    "illustrator": "Billy Christian",
+    "artwork": {
+      "artwork_id": 4010
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit",
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit",
+          "mod_duration": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28",
+    "signature_of": [
+      4008
+    ]
+  },
+  "6002": {
+    "id": 6002,
+    "name": "Cheat Whose",
+    "type": 7,
+    "set": 0,
+    "dev": true,
+    "collectible": false,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 6002
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_control_AnyLane",
+          "lanes": 1,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_control_AnyLane",
+          "lanes": 1,
+          "mod_duration": 1
+        }
+      ]
+    }
+  },
+  "6003": {
+    "id": 6003,
+    "name": "Cheat Demolish",
+    "type": 7,
+    "set": 0,
+    "dev": true,
+    "collectible": false,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 6003
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Tower_kill_AnyLane",
+          "lanes": 1,
+          "mod_duration": 1,
+          "towers": true
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Tower_kill_AnyLane",
+          "lanes": 1,
+          "mod_duration": 1,
+          "towers": true
+        }
+      ]
+    }
+  },
+  "6004": {
+    "id": 6004,
+    "name": "Cheat Maneuver",
+    "type": 7,
+    "set": 0,
+    "dev": true,
+    "collectible": false,
+    "quick": true,
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_swap",
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_swap",
+          "mod_duration": 1
+        }
+      ]
+    }
+  },
+  "6005": {
+    "id": 6005,
+    "name": "Cheat Destroy",
+    "type": 7,
+    "set": 0,
+    "dev": true,
+    "collectible": false,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 6005
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Improvement_kill_AnyLane",
+          "lanes": 1,
+          "mod_duration": 1,
+          "improvements": true
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Improvement_kill_AnyLane",
+          "lanes": 1,
+          "mod_duration": 1,
+          "improvements": true
+        }
+      ]
+    }
+  },
+  "6006": {
+    "id": 6006,
+    "name": "Cheat Rich",
+    "type": 7,
+    "set": 0,
+    "dev": true,
+    "collectible": false,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 10463
+    }
+  },
+  "6007": {
+    "id": 6007,
+    "name": "Cheat Heal",
+    "type": 7,
+    "set": 0,
+    "dev": true,
+    "collectible": false,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 6007
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_Tower_heal_AnyLane",
+          "lanes": 1,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_Tower_heal_AnyLane",
+          "lanes": 1,
+          "mod_duration": 1
+        }
+      ]
+    }
+  },
+  "6008": {
+    "id": 6008,
+    "name": "Cheat Revelation",
+    "type": 7,
+    "set": 0,
+    "dev": true,
+    "collectible": false,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 6008
+    }
+  },
+  "6009": {
+    "id": 6009,
+    "name": "Cheat Kill",
+    "type": 7,
+    "set": 0,
+    "dev": true,
+    "collectible": false,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 6009
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_kill_AnyLane",
+          "lanes": 1,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_kill_AnyLane",
+          "lanes": 1,
+          "mod_duration": 1
+        }
+      ]
+    }
+  },
+  "6022": {
+    "id": 6022,
+    "name": "Cheat LockAndReveal",
+    "type": 7,
+    "set": 0,
+    "dev": true,
+    "collectible": false,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 6022
+    }
+  },
+  "6023": {
+    "id": 6023,
+    "name": "Cheat Stun",
+    "type": 7,
+    "set": 0,
+    "dev": true,
+    "collectible": false,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 10323
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_AnyLane",
+          "lanes": 1,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_AnyLane",
+          "lanes": 1,
+          "mod_duration": 1
+        }
+      ]
+    }
+  },
+  "6024": {
+    "id": 6024,
+    "name": "Cheat Disarm",
+    "type": 7,
+    "set": 0,
+    "dev": true,
+    "collectible": false,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 10497
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_AnyLane",
+          "lanes": 1,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_AnyLane",
+          "lanes": 1,
+          "mod_duration": 1
+        }
+      ]
+    }
+  },
+  "6025": {
+    "id": 6025,
+    "name": "Cheat Quick",
+    "type": 7,
+    "set": 0,
+    "dev": true,
+    "collectible": false,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 10203
+    }
+  },
+  "6026": {
+    "id": 6026,
+    "name": "Cheat Megannihilate",
+    "type": 7,
+    "set": 0,
+    "dev": true,
+    "collectible": false,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 6026
+    }
+  },
+  "6027": {
+    "id": 6027,
+    "name": "Cheat Silence",
+    "type": 7,
+    "set": 0,
+    "dev": true,
+    "collectible": false,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 10327
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_AnyLane",
+          "lanes": 1,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_AnyLane",
+          "lanes": 1,
+          "mod_duration": 1
+        }
+      ]
+    }
+  },
+  "6028": {
+    "id": 6028,
+    "name": "Cheat Hack Self",
+    "type": 7,
+    "set": 0,
+    "dev": true,
+    "collectible": false,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 6028
+    }
+  },
+  "10002": {
+    "id": 10002,
+    "name": "Sow Venom",
+    "type": 7,
+    "set": 1,
+    "collectible": false,
+    "color": "Blue",
+    "mana_cost": 4,
+    "illustrator": "JiHun Lee",
+    "artwork": {
+      "artwork_id": 10002
+    },
+    "references": [
+      10003
+    ],
+    "release_date": "2018-11-28",
+    "signature_of": [
+      10001
+    ]
+  },
+  "10005": {
+    "id": 10005,
+    "name": "Divided We Stand",
+    "type": 7,
+    "set": 1,
+    "collectible": false,
+    "color": "Blue",
+    "mana_cost": 4,
+    "illustrator": "Wisnu Tan",
+    "artwork": {
+      "artwork_id": 10005
+    },
+    "references": [
+      10004
+    ],
+    "release_date": "2018-11-28",
+    "signature_of": [
+      10004
+    ]
+  },
+  "10007": {
+    "id": 10007,
+    "name": "Eclipse",
+    "type": 7,
+    "set": 1,
+    "collectible": false,
+    "color": "Blue",
+    "mana_cost": 6,
+    "charges": 1,
+    "illustrator": "Anthony Palumbo",
+    "artwork": {
+      "artwork_id": 10007
+    },
+    "engine": {
+      "has_charges": true
+    },
+    "release_date": "2018-11-28",
+    "signature_of": [
+      10006
+    ],
+    "referenced_by": [
+      10489
+    ]
+  },
+  "10011": {
+    "id": 10011,
+    "name": "Winter's Curse",
+    "type": 7,
+    "set": 1,
+    "collectible": false,
+    "color": "Black",
+    "mana_cost": 6,
+    "illustrator": "Sung Choi",
+    "artwork": {
+      "artwork_id": 10011
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit",
+          "enemy_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit",
+          "enemy_only": true,
+          "mod_duration": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28",
+    "signature_of": [
+      10010
+    ]
+  },
+  "10063": {
+    "id": 10063,
+    "name": "Mystic Flare",
+    "type": 7,
+    "set": 1,
+    "collectible": false,
+    "color": "Blue",
+    "mana_cost": 6,
+    "illustrator": "Greg Opalinski",
+    "artwork": {
+      "artwork_id": 10063
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_damage",
+          "enemy_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_damage",
+          "enemy_only": true,
+          "mod_duration": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28",
+    "signature_of": [
+      10062
+    ]
+  },
+  "10142": {
+    "id": 10142,
+    "name": "Corrosive Mist",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Green",
+    "mana_cost": 5,
+    "illustrator": "Magali Villeneuve",
+    "item_def": 110142,
+    "artwork": {
+      "artwork_id": 10142
+    },
+    "release_date": "2018-11-28"
+  },
+  "10191": {
+    "id": 10191,
+    "name": "Routed",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Red",
+    "mana_cost": 6,
+    "illustrator": "Robert Simon",
+    "item_def": 110191,
+    "artwork": {
+      "artwork_id": 10191
+    },
+    "release_date": "2018-11-28"
+  },
+  "10192": {
+    "id": 10192,
+    "name": "Rumusque Blessing",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Green",
+    "mana_cost": 3,
+    "crosslane": true,
+    "illustrator": "John Stanko",
+    "item_def": 110192,
+    "artwork": {
+      "artwork_id": 10192
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_SelectALaneToModify_AnyLane",
+          "lanes": 1,
+          "lane_pick": true,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_SelectALaneToModify_AnyLane",
+          "lanes": 1,
+          "lane_pick": true,
+          "mod_duration": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10196": {
+    "id": 10196,
+    "name": "...And One For Me",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Blue",
+    "mana_cost": 4,
+    "illustrator": "Randy Vargas",
+    "item_def": 110196,
+    "artwork": {
+      "artwork_id": 10196
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero",
+          "targets_hero_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero",
+          "targets_hero_only": true,
+          "mod_duration": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10198": {
+    "id": 10198,
+    "name": "Rolling Storm",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Blue",
+    "mana_cost": 3,
+    "illustrator": "Daarken",
+    "item_def": 110198,
+    "artwork": {
+      "artwork_id": 10198
+    },
+    "release_date": "2018-11-28"
+  },
+  "10267": {
+    "id": 10267,
+    "name": "Astral Imprisonment",
+    "type": 7,
+    "set": 1,
+    "collectible": false,
+    "color": "Blue",
+    "mana_cost": 4,
+    "illustrator": "Joseph Meehan",
+    "artwork": {
+      "artwork_id": 10267
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit",
+          "targets_hero_only": true,
+          "enemy_only": true,
+          "mod_duration": 2
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit",
+          "targets_hero_only": true,
+          "enemy_only": true,
+          "mod_duration": 2
+        }
+      ],
+      "cast_sound": "DCG_Spell.Astral_Imprisonment"
+    },
+    "release_date": "2018-11-28",
+    "signature_of": [
+      10046
+    ]
+  },
+  "10268": {
+    "id": 10268,
+    "name": "Lodestone Demolition",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Black",
+    "mana_cost": 3,
+    "illustrator": "Darek Zabrocki",
+    "item_def": 110268,
+    "artwork": {
+      "artwork_id": 10268
+    },
+    "release_date": "2018-11-28"
+  },
+  "10270": {
+    "id": 10270,
+    "name": "Grazing Shot",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Black",
+    "mana_cost": 1,
+    "crosslane": true,
+    "illustrator": "Kieran Yanner",
+    "item_def": 110270,
+    "artwork": {
+      "artwork_id": 10270
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_damage_AnyLane",
+          "enemy_only": true,
+          "lanes": 1,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_damage_AnyLane",
+          "enemy_only": true,
+          "lanes": 1,
+          "mod_duration": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10272": {
+    "id": 10272,
+    "name": "Assassinate",
+    "type": 7,
+    "set": 1,
+    "collectible": false,
+    "color": "Black",
+    "mana_cost": 7,
+    "crosslane": true,
+    "illustrator": "Forrest Imel",
+    "artwork": {
+      "artwork_id": 10272
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_damage_AnyLane",
+          "targets_hero_only": true,
+          "enemy_only": true,
+          "lanes": 1,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_damage_AnyLane",
+          "targets_hero_only": true,
+          "enemy_only": true,
+          "lanes": 1,
+          "mod_duration": 1
+        }
+      ],
+      "precast_sound": "DCG_Spell.Headshot_PreCast"
+    },
+    "release_date": "2018-11-28",
+    "signature_of": [
+      10050
+    ]
+  },
+  "10273": {
+    "id": 10273,
+    "name": "Hip Fire",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Black",
+    "mana_cost": 4,
+    "quick": true,
+    "illustrator": "Daarken",
+    "item_def": 110273,
+    "artwork": {
+      "artwork_id": 10273
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_damage",
+          "targets_hero_only": true,
+          "enemy_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_damage",
+          "targets_hero_only": true,
+          "enemy_only": true,
+          "mod_duration": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10274": {
+    "id": 10274,
+    "name": "Heartstopper Aura",
+    "type": 7,
+    "set": 1,
+    "collectible": false,
+    "color": "Black",
+    "mana_cost": 4,
+    "illustrator": "Kieran Yanner",
+    "artwork": {
+      "artwork_id": 10274
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 1,
+          "color": 3
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 1,
+          "color": 3
+        }
+      ]
+    },
+    "release_date": "2018-11-28",
+    "signature_of": [
+      10059
+    ]
+  },
+  "10275": {
+    "id": 10275,
+    "name": "Mana Drain",
+    "type": 7,
+    "set": 1,
+    "collectible": false,
+    "color": "Black",
+    "mana_cost": 2,
+    "illustrator": "Stepan Alekseev",
+    "artwork": {
+      "artwork_id": 10275
+    },
+    "release_date": "2018-11-28",
+    "signature_of": [
+      10060
+    ]
+  },
+  "10277": {
+    "id": 10277,
+    "name": "Frostbite",
+    "type": 7,
+    "set": 1,
+    "collectible": false,
+    "color": "Blue",
+    "mana_cost": 3,
+    "illustrator": "Stepan Alekseev",
+    "artwork": {
+      "artwork_id": 10277
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_damage",
+          "enemy_only": true,
+          "mod_duration": 2
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_damage",
+          "enemy_only": true,
+          "mod_duration": 2
+        }
+      ]
+    },
+    "release_date": "2018-11-28",
+    "signature_of": [
+      10064
+    ]
+  },
+  "10278": {
+    "id": 10278,
+    "name": "Thundergod's Wrath",
+    "type": 7,
+    "set": 1,
+    "collectible": false,
+    "color": "Blue",
+    "mana_cost": 7,
+    "illustrator": "David Palumbo",
+    "artwork": {
+      "artwork_id": 10278
+    },
+    "release_date": "2018-11-28",
+    "signature_of": [
+      10065
+    ]
+  },
+  "10280": {
+    "id": 10280,
+    "name": "Empower",
+    "type": 7,
+    "set": 1,
+    "collectible": false,
+    "color": "Green",
+    "mana_cost": 4,
+    "illustrator": "Magali Villeneuve",
+    "artwork": {
+      "artwork_id": 10280
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_attack": 3,
+          "mod_keywords": {
+            "cleave": 3
+          },
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_attack": 3,
+          "mod_keywords": {
+            "cleave": 3
+          },
+          "mod_duration": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28",
+    "signature_of": [
+      10067
+    ]
+  },
+  "10281": {
+    "id": 10281,
+    "name": "Ion Shell",
+    "type": 7,
+    "set": 1,
+    "collectible": false,
+    "color": "Green",
+    "mana_cost": 4,
+    "illustrator": "Stepan Alekseev",
+    "artwork": {
+      "artwork_id": 10281
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_keywords": {
+            "retaliate": 3
+          },
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_keywords": {
+            "retaliate": 3
+          },
+          "mod_duration": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28",
+    "signature_of": [
+      10068
+    ]
+  },
+  "10282": {
+    "id": 10282,
+    "name": "Enrage",
+    "type": 7,
+    "set": 1,
+    "collectible": false,
+    "color": "Red",
+    "mana_cost": 4,
+    "illustrator": "Forrest Imel",
+    "artwork": {
+      "artwork_id": 10282
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_attack": 4,
+          "mod_armor": 4,
+          "mod_duration": 2,
+          "color": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_attack": 4,
+          "mod_armor": 4,
+          "mod_duration": 2,
+          "color": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28",
+    "signature_of": [
+      10070
+    ]
+  },
+  "10287": {
+    "id": 10287,
+    "name": "Aphotic Shield",
+    "type": 7,
+    "set": 1,
+    "collectible": false,
+    "color": "Green",
+    "mana_cost": 2,
+    "illustrator": "Chase Stone",
+    "artwork": {
+      "artwork_id": 10287
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_purge",
+          "mod_duration": 2
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_purge",
+          "mod_duration": 2
+        }
+      ]
+    },
+    "release_date": "2018-11-28",
+    "signature_of": [
+      10016
+    ]
+  },
+  "10288": {
+    "id": 10288,
+    "name": "Berserker's Call",
+    "type": 7,
+    "set": 1,
+    "collectible": false,
+    "color": "Red",
+    "mana_cost": 6,
+    "illustrator": "Tyler Jacobson",
+    "artwork": {
+      "artwork_id": 10288
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_Ally",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 1,
+          "color": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_Ally",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 1,
+          "color": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28",
+    "signature_of": [
+      10020
+    ]
+  },
+  "10289": {
+    "id": 10289,
+    "name": "Blood Rage",
+    "type": 7,
+    "set": 1,
+    "collectible": false,
+    "color": "Black",
+    "mana_cost": 4,
+    "illustrator": "Lake Hurwitz",
+    "artwork": {
+      "artwork_id": 10289
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit",
+          "allied_only": true,
+          "mod_duration": 2,
+          "creeps_only": true
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit",
+          "allied_only": true,
+          "mod_duration": 2,
+          "creeps_only": true
+        }
+      ]
+    },
+    "release_date": "2018-11-28",
+    "signature_of": [
+      10018
+    ]
+  },
+  "10290": {
+    "id": 10290,
+    "name": "Kraken Shell",
+    "type": 7,
+    "set": 1,
+    "collectible": false,
+    "color": "Red",
+    "mana_cost": 1,
+    "quick": true,
+    "illustrator": "Daarken",
+    "artwork": {
+      "artwork_id": 10290
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_armor": 1,
+          "mod_duration": 1,
+          "color": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_armor": 1,
+          "mod_duration": 1,
+          "color": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28",
+    "signature_of": [
+      10024
+    ]
+  },
+  "10292": {
+    "id": 10292,
+    "name": "Double Edge",
+    "type": 7,
+    "set": 1,
+    "collectible": false,
+    "color": "Red",
+    "mana_cost": 1,
+    "illustrator": "Lius Lasahido",
+    "artwork": {
+      "artwork_id": 10292
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_attack": 8,
+          "mod_armor": -8,
+          "mod_duration": 2,
+          "color": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_attack": 8,
+          "mod_armor": -8,
+          "mod_duration": 2,
+          "color": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28",
+    "signature_of": [
+      10021
+    ]
+  },
+  "10293": {
+    "id": 10293,
+    "name": "Primal Roar",
+    "type": 7,
+    "set": 1,
+    "collectible": false,
+    "color": "Red",
+    "mana_cost": 7,
+    "illustrator": "Clint Cearley",
+    "artwork": {
+      "artwork_id": 10293
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Relative_BlockingUnit_Hero_Ally",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 2,
+          "color": 1,
+          "blocker": true
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Relative_BlockingUnit_Hero_Ally",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 2,
+          "color": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28",
+    "signature_of": [
+      10029
+    ]
+  },
+  "10294": {
+    "id": 10294,
+    "name": "Viper Strike",
+    "type": 7,
+    "set": 1,
+    "collectible": false,
+    "color": "Green",
+    "mana_cost": 3,
+    "illustrator": "Lars Grant-West",
+    "artwork": {
+      "artwork_id": 10294
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_modify",
+          "targets_hero_only": true,
+          "enemy_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_modify",
+          "targets_hero_only": true,
+          "enemy_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "cast_sound": "DCG_Spell.Viper_Strike"
+    },
+    "release_date": "2018-11-28",
+    "signature_of": [
+      10028
+    ]
+  },
+  "10295": {
+    "id": 10295,
+    "name": "Arcane Censure",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Black",
+    "mana_cost": 4,
+    "illustrator": "Alix Branwyn",
+    "item_def": 110295,
+    "artwork": {
+      "artwork_id": 10295
+    },
+    "release_date": "2018-11-28"
+  },
+  "10296": {
+    "id": 10296,
+    "name": "Whirling Death",
+    "type": 7,
+    "set": 1,
+    "collectible": false,
+    "color": "Red",
+    "mana_cost": 2,
+    "illustrator": "JiHun Lee",
+    "artwork": {
+      "artwork_id": 10296
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_Ally",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 2,
+          "color": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_Ally",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 2,
+          "color": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28",
+    "signature_of": [
+      10022
+    ]
+  },
+  "10297": {
+    "id": 10297,
+    "name": "Defensive Stance",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Red",
+    "mana_cost": 2,
+    "illustrator": "Bayard Wu",
+    "item_def": 110297,
+    "artwork": {
+      "artwork_id": 10297
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_armor": 3,
+          "mod_duration": 2
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_armor": 3,
+          "mod_duration": 2
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10298": {
+    "id": 10298,
+    "name": "Lost in Time",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Blue",
+    "mana_cost": 6,
+    "illustrator": "JiHun Lee",
+    "item_def": 110298,
+    "artwork": {
+      "artwork_id": 10298
+    },
+    "release_date": "2018-11-28"
+  },
+  "10299": {
+    "id": 10299,
+    "name": "Defend the Weak",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Green",
+    "mana_cost": 2,
+    "illustrator": "Svetlin Velinov",
+    "item_def": 110299,
+    "artwork": {
+      "artwork_id": 10299
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10300": {
+    "id": 10300,
+    "name": "Combat Training",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Red",
+    "mana_cost": 3,
+    "illustrator": "Magali Villeneuve",
+    "item_def": 110300,
+    "artwork": {
+      "artwork_id": 10300
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_attack": 2,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_attack": 2,
+          "mod_duration": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10302": {
+    "id": 10302,
+    "name": "Self Sabotage",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Blue",
+    "mana_cost": 4,
+    "illustrator": "JiHun Lee",
+    "item_def": 110302,
+    "artwork": {
+      "artwork_id": 10302
+    },
+    "release_date": "2018-11-28"
+  },
+  "10303": {
+    "id": 10303,
+    "name": "Bellow",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Green",
+    "mana_cost": 2,
+    "illustrator": "Forrest Imel",
+    "item_def": 110303,
+    "artwork": {
+      "artwork_id": 10303
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Creep_move",
+          "mod_duration": 1,
+          "creeps_only": true
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Creep_move",
+          "mod_duration": 1,
+          "creeps_only": true
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10305": {
+    "id": 10305,
+    "name": "Raze",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Red",
+    "mana_cost": 5,
+    "illustrator": "Mike Azevedo",
+    "item_def": 110305,
+    "artwork": {
+      "artwork_id": 10305
+    },
+    "release_date": "2018-11-28"
+  },
+  "10306": {
+    "id": 10306,
+    "name": "Smash Their Defenses!",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Red",
+    "mana_cost": 3,
+    "illustrator": "JiHun Lee",
+    "item_def": 110306,
+    "artwork": {
+      "artwork_id": 10306
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Improvement_kill",
+          "enemy_only": true,
+          "mod_duration": 1,
+          "improvements": true
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Improvement_kill",
+          "enemy_only": true,
+          "mod_duration": 1,
+          "improvements": true
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10307": {
+    "id": 10307,
+    "name": "Foresight",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Blue",
+    "mana_cost": 4,
+    "illustrator": "Magali Villeneuve",
+    "item_def": 110307,
+    "artwork": {
+      "artwork_id": 10307
+    },
+    "release_date": "2018-11-28"
+  },
+  "10308": {
+    "id": 10308,
+    "name": "Coup de Grace",
+    "type": 7,
+    "set": 1,
+    "collectible": false,
+    "color": "Black",
+    "mana_cost": 6,
+    "illustrator": "Greg Opalinski",
+    "artwork": {
+      "artwork_id": 10308
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_kill",
+          "targets_hero_only": true,
+          "enemy_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_kill",
+          "targets_hero_only": true,
+          "enemy_only": true,
+          "mod_duration": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28",
+    "signature_of": [
+      10047
+    ]
+  },
+  "10311": {
+    "id": 10311,
+    "name": "Arm the Rebellion",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Green",
+    "mana_cost": 4,
+    "illustrator": "Robert Simon",
+    "item_def": 110311,
+    "artwork": {
+      "artwork_id": 10311
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "allied_only": true,
+          "mod_attack": 2,
+          "mod_armor": 1,
+          "mod_duration": 1,
+          "creeps_only": true,
+          "auto": true
+        }
+      ],
+      "lane_rules": [
+        {
+          "allied_only": true,
+          "mod_attack": 2,
+          "mod_armor": 1,
+          "mod_duration": 1,
+          "creeps_only": true,
+          "auto": true
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10312": {
+    "id": 10312,
+    "name": "Strafing Run",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Blue",
+    "mana_cost": 1,
+    "illustrator": "Daarken",
+    "item_def": 110312,
+    "artwork": {
+      "artwork_id": 10312
+    },
+    "release_date": "2018-11-28"
+  },
+  "10313": {
+    "id": 10313,
+    "name": "Poised to Strike",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Red",
+    "mana_cost": 1,
+    "illustrator": "Magali Villeneuve",
+    "item_def": 110313,
+    "artwork": {
+      "artwork_id": 10313
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_attack": 4,
+          "mod_duration": 2,
+          "color": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_attack": 4,
+          "mod_duration": 2,
+          "color": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10314": {
+    "id": 10314,
+    "name": "Dirty Deeds",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Black",
+    "mana_cost": 3,
+    "illustrator": "Forrest Imel",
+    "item_def": 110314,
+    "artwork": {
+      "artwork_id": 10314
+    },
+    "release_date": "2018-11-28"
+  },
+  "10315": {
+    "id": 10315,
+    "name": "Annihilation",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Blue",
+    "mana_cost": 6,
+    "illustrator": "Titus Lunter",
+    "item_def": 110315,
+    "artwork": {
+      "artwork_id": 10315
+    },
+    "release_date": "2018-11-28"
+  },
+  "10316": {
+    "id": 10316,
+    "name": "Spot Weakness",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Red",
+    "mana_cost": 3,
+    "illustrator": "Lius Lasahido",
+    "item_def": 110316,
+    "artwork": {
+      "artwork_id": 10316
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 2,
+          "neighbors": true
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 2,
+          "neighbors": true
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10317": {
+    "id": 10317,
+    "name": "Curse of Atrophy",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Green",
+    "mana_cost": 6,
+    "illustrator": "Magali Villeneuve",
+    "item_def": 110317,
+    "artwork": {
+      "artwork_id": 10317
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "targets_hero_only": true,
+          "enemy_only": true,
+          "mod_attack": -2,
+          "mod_duration": 1,
+          "auto": true
+        }
+      ],
+      "lane_rules": [
+        {
+          "targets_hero_only": true,
+          "enemy_only": true,
+          "mod_attack": -2,
+          "mod_duration": 1,
+          "auto": true
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10318": {
+    "id": 10318,
+    "name": "Chain Frost",
+    "type": 7,
+    "set": 1,
+    "collectible": false,
+    "color": "Black",
+    "mana_cost": 7,
+    "quick": true,
+    "illustrator": "Wisnu Tan",
+    "artwork": {
+      "artwork_id": 10318
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_damage",
+          "enemy_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_damage",
+          "enemy_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "cast_sound": "DCG_Spell.Chain_Frost"
+    },
+    "release_date": "2018-11-28",
+    "signature_of": [
+      10038
+    ]
+  },
+  "10319": {
+    "id": 10319,
+    "name": "Diabolic Revelation",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Blue",
+    "mana_cost": 1,
+    "illustrator": "Jana Schirmer",
+    "item_def": 110319,
+    "artwork": {
+      "artwork_id": 10319
+    },
+    "release_date": "2018-11-28"
+  },
+  "10322": {
+    "id": 10322,
+    "name": "Payday",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Black",
+    "mana_cost": 3,
+    "illustrator": "JiHun Lee",
+    "item_def": 110322,
+    "artwork": {
+      "artwork_id": 10322
+    },
+    "release_date": "2018-11-28"
+  },
+  "10323": {
+    "id": 10323,
+    "name": "Echo Slam",
+    "type": 7,
+    "set": 1,
+    "collectible": false,
+    "color": "Blue",
+    "mana_cost": 7,
+    "illustrator": "Forrest Imel",
+    "artwork": {
+      "artwork_id": 10323
+    },
+    "release_date": "2018-11-28",
+    "signature_of": [
+      10033
+    ]
+  },
+  "10324": {
+    "id": 10324,
+    "name": "Iron Branch Protection",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Green",
+    "mana_cost": 2,
+    "crosslane": true,
+    "illustrator": "Magali Villeneuve",
+    "item_def": 110324,
+    "artwork": {
+      "artwork_id": 10324
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_modify_AnyLane",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "lanes": 1,
+          "mod_armor": 3,
+          "mod_duration": 3
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_modify_AnyLane",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "lanes": 1,
+          "mod_armor": 3,
+          "mod_duration": 3
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10325": {
+    "id": 10325,
+    "name": "Prey on the Weak",
+    "type": 7,
+    "set": 1,
+    "collectible": false,
+    "color": "Blue",
+    "mana_cost": 4,
+    "illustrator": "Lake Hurwitz",
+    "artwork": {
+      "artwork_id": 10325
+    },
+    "references": [
+      10093
+    ],
+    "release_date": "2018-11-28",
+    "signature_of": [
+      10031
+    ]
+  },
+  "10326": {
+    "id": 10326,
+    "name": "Enough Magic!",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Red",
+    "mana_cost": 5,
+    "illustrator": "JiHun Lee",
+    "item_def": 110326,
+    "artwork": {
+      "artwork_id": 10326
+    },
+    "release_date": "2018-11-28"
+  },
+  "10327": {
+    "id": 10327,
+    "name": "Heroic Resolve",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Red",
+    "mana_cost": 2,
+    "illustrator": "JiHun Lee",
+    "item_def": 110327,
+    "artwork": {
+      "artwork_id": 10327
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 1,
+          "color": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 1,
+          "color": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10328": {
+    "id": 10328,
+    "name": "Gank",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Black",
+    "mana_cost": 4,
+    "crosslane": true,
+    "illustrator": "Yongjae Choi",
+    "item_def": 110328,
+    "artwork": {
+      "artwork_id": 10328
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_Ally",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 1,
+          "color": 3
+        },
+        {
+          "hint": "#DCG_ActionHint_Unit_AnyLane",
+          "targets_hero_only": true,
+          "enemy_only": true,
+          "lanes": 1,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_Ally",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 1,
+          "color": 3
+        },
+        {
+          "hint": "#DCG_ActionHint_Unit_AnyLane",
+          "targets_hero_only": true,
+          "enemy_only": true,
+          "lanes": 1,
+          "mod_duration": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10330": {
+    "id": 10330,
+    "name": "God's Strength",
+    "type": 7,
+    "set": 1,
+    "collectible": false,
+    "color": "Red",
+    "mana_cost": 6,
+    "illustrator": "Yongjae Choi",
+    "artwork": {
+      "artwork_id": 10330
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_attack": 4,
+          "mod_duration": 1,
+          "color": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_attack": 4,
+          "mod_duration": 1,
+          "color": 1
+        }
+      ],
+      "cast_sound": "DCG_Spell.Gods_Strength"
+    },
+    "release_date": "2018-11-28",
+    "signature_of": [
+      10054
+    ]
+  },
+  "10331": {
+    "id": 10331,
+    "name": "Wrath of Gold",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Blue",
+    "mana_cost": 3,
+    "illustrator": "Mike Azevedo",
+    "item_def": 110331,
+    "artwork": {
+      "artwork_id": 10331
+    },
+    "release_date": "2018-11-28"
+  },
+  "10332": {
+    "id": 10332,
+    "name": "Murder Plot",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Black",
+    "mana_cost": 4,
+    "illustrator": "Kieran Yanner",
+    "item_def": 110332,
+    "artwork": {
+      "artwork_id": 10332
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_attack": 8,
+          "mod_duration": 2,
+          "color": 3
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_attack": 8,
+          "mod_duration": 2,
+          "color": 3
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10334": {
+    "id": 10334,
+    "name": "Stars Align",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Green",
+    "mana_cost": 1,
+    "illustrator": "John Stanko",
+    "item_def": 110334,
+    "artwork": {
+      "artwork_id": 10334
+    },
+    "release_date": "2018-11-28"
+  },
+  "10335": {
+    "id": 10335,
+    "name": "Call the Reserves",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Blue",
+    "mana_cost": 6,
+    "crosslane": true,
+    "illustrator": "Mike Azevedo",
+    "item_def": 110335,
+    "artwork": {
+      "artwork_id": 10335
+    },
+    "references": [
+      1006
+    ],
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_SelectALaneToSummonInto_AnyLane",
+          "lanes": 1,
+          "lane_pick": true,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_SelectALaneToSummonInto_AnyLane",
+          "lanes": 1,
+          "lane_pick": true,
+          "mod_duration": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10336": {
+    "id": 10336,
+    "name": "Better Late Than Never",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Blue",
+    "mana_cost": 3,
+    "crosslane": true,
+    "illustrator": "Lake Hurwitz",
+    "item_def": 110336,
+    "artwork": {
+      "artwork_id": 10336
+    },
+    "references": [
+      1006
+    ],
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_SelectALaneToSummonInto_AnyLane",
+          "lanes": 1,
+          "lane_pick": true,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_SelectALaneToSummonInto_AnyLane",
+          "lanes": 1,
+          "lane_pick": true,
+          "mod_duration": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10338": {
+    "id": 10338,
+    "name": "Divine Intervention",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Green",
+    "mana_cost": 5,
+    "illustrator": "Wisnu Tan",
+    "item_def": 110338,
+    "artwork": {
+      "artwork_id": 10338
+    },
+    "release_date": "2018-11-28"
+  },
+  "10339": {
+    "id": 10339,
+    "name": "Gust",
+    "type": 7,
+    "set": 1,
+    "collectible": false,
+    "color": "Green",
+    "mana_cost": 4,
+    "illustrator": "Livia Prima",
+    "artwork": {
+      "artwork_id": 10339
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_Enemy",
+          "targets_hero_only": true,
+          "enemy_only": true,
+          "mod_duration": 2,
+          "neighbors": true
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_Enemy",
+          "targets_hero_only": true,
+          "enemy_only": true,
+          "mod_duration": 2,
+          "neighbors": true
+        }
+      ]
+    },
+    "release_date": "2018-11-28",
+    "signature_of": [
+      10032
+    ]
+  },
+  "10340": {
+    "id": 10340,
+    "name": "Hand of God",
+    "type": 7,
+    "set": 1,
+    "collectible": false,
+    "color": "Green",
+    "mana_cost": 7,
+    "illustrator": "Clint Cearley",
+    "artwork": {
+      "artwork_id": 10340
+    },
+    "engine": {
+      "cast_sound": "DCG_Spell.Hand_of_God"
+    },
+    "release_date": "2018-11-28",
+    "signature_of": [
+      10017
+    ]
+  },
+  "10341": {
+    "id": 10341,
+    "name": "Duel",
+    "type": 7,
+    "set": 1,
+    "collectible": false,
+    "color": "Red",
+    "mana_cost": 2,
+    "illustrator": "Bayard Wu",
+    "artwork": {
+      "artwork_id": 10341
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_Ally",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 1,
+          "color": 1
+        },
+        {
+          "hint": "#DCG_ActionHint_Unit",
+          "enemy_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_Ally",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 1,
+          "color": 1
+        },
+        {
+          "hint": "#DCG_ActionHint_Unit",
+          "enemy_only": true,
+          "mod_duration": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28",
+    "signature_of": [
+      10069
+    ]
+  },
+  "10342": {
+    "id": 10342,
+    "name": "Pick a Fight",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Red",
+    "mana_cost": 2,
+    "illustrator": "JiHun Lee",
+    "item_def": 110342,
+    "artwork": {
+      "artwork_id": 10342
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_Ally",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_Ally",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10344": {
+    "id": 10344,
+    "name": "Clear the Deck",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Red",
+    "mana_cost": 4,
+    "illustrator": "Bayard Wu",
+    "item_def": 110344,
+    "artwork": {
+      "artwork_id": 10344
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_keywords": {
+            "cleave": 4
+          },
+          "mod_duration": 2,
+          "auto": true
+        }
+      ],
+      "lane_rules": [
+        {
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_keywords": {
+            "cleave": 4
+          },
+          "mod_duration": 2,
+          "auto": true
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10347": {
+    "id": 10347,
+    "name": "Defensive Bloom",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Green",
+    "mana_cost": 4,
+    "illustrator": "Jana Schirmer",
+    "item_def": 110347,
+    "artwork": {
+      "artwork_id": 10347
+    },
+    "references": [
+      10120
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10348": {
+    "id": 10348,
+    "name": "Allseeing One's Favor",
+    "type": 7,
+    "set": 1,
+    "collectible": false,
+    "color": "Green",
+    "mana_cost": 4,
+    "illustrator": "Sam Carr",
+    "artwork": {
+      "artwork_id": 10348
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 1,
+          "color": 4
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 1,
+          "color": 4
+        }
+      ]
+    },
+    "release_date": "2018-11-28",
+    "signature_of": [
+      10044
+    ]
+  },
+  "10349": {
+    "id": 10349,
+    "name": "Rising Anger",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Red",
+    "mana_cost": 2,
+    "illustrator": "JiHun Lee",
+    "item_def": 110349,
+    "artwork": {
+      "artwork_id": 10349
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 1,
+          "color": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 1,
+          "color": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10350": {
+    "id": 10350,
+    "name": "Sucker Punch",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Red",
+    "mana_cost": 4,
+    "illustrator": "Wisnu Tan",
+    "item_def": 110350,
+    "artwork": {
+      "artwork_id": 10350
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Relative_BlockingUnit_Hero_Ally",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 2,
+          "color": 1,
+          "blocker": true
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Relative_BlockingUnit_Hero_Ally",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 2,
+          "color": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10352": {
+    "id": 10352,
+    "name": "Lightning Strike",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Blue",
+    "mana_cost": 2,
+    "illustrator": "Daniel Romanovsky",
+    "item_def": 110352,
+    "artwork": {
+      "artwork_id": 10352
+    },
+    "release_date": "2018-11-28"
+  },
+  "10353": {
+    "id": 10353,
+    "name": "Bolt of Damocles",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Blue",
+    "mana_cost": 10,
+    "illustrator": "Daniel Romanovsky",
+    "item_def": 110353,
+    "artwork": {
+      "artwork_id": 10353
+    },
+    "release_date": "2018-11-28"
+  },
+  "10354": {
+    "id": 10354,
+    "name": "Pick Off",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Black",
+    "mana_cost": 4,
+    "crosslane": true,
+    "illustrator": "Randy Vargas",
+    "item_def": 110354,
+    "artwork": {
+      "artwork_id": 10354
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_damage_AnyLane",
+          "enemy_only": true,
+          "lanes": 1,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_damage_AnyLane",
+          "enemy_only": true,
+          "lanes": 1,
+          "mod_duration": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10355": {
+    "id": 10355,
+    "name": "Dimensional Portal",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Blue",
+    "mana_cost": 4,
+    "illustrator": "Svetlin Velinov",
+    "item_def": 110355,
+    "artwork": {
+      "artwork_id": 10355
+    },
+    "references": [
+      1006
+    ],
+    "engine": {
+      "cast_sound": "DCG_Spell.Dimensional_Portal"
+    },
+    "release_date": "2018-11-28"
+  },
+  "10358": {
+    "id": 10358,
+    "name": "Restoration Effort",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Green",
+    "mana_cost": 4,
+    "illustrator": "Darkken",
+    "item_def": 110358,
+    "artwork": {
+      "artwork_id": 10358
+    },
+    "release_date": "2018-11-28"
+  },
+  "10359": {
+    "id": 10359,
+    "name": "Buying Time",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Blue",
+    "mana_cost": 3,
+    "illustrator": "Sung Choi",
+    "item_def": 110359,
+    "artwork": {
+      "artwork_id": 10359
+    },
+    "release_date": "2018-11-28"
+  },
+  "10360": {
+    "id": 10360,
+    "name": "Friendly Fire",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Blue",
+    "mana_cost": 6,
+    "illustrator": "Darek Zabrocki",
+    "item_def": 110360,
+    "artwork": {
+      "artwork_id": 10360
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_Enemy",
+          "enemy_only": true,
+          "mod_duration": 1
+        },
+        {
+          "hint": "#DCG_ActionHint_Unit_Enemy",
+          "enemy_only": true,
+          "mod_duration": 1,
+          "not_source": true
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_Enemy",
+          "enemy_only": true,
+          "mod_duration": 1
+        },
+        {
+          "hint": "#DCG_ActionHint_Unit_Enemy",
+          "enemy_only": true,
+          "mod_duration": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10361": {
+    "id": 10361,
+    "name": "Coordinated Assault",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Black",
+    "mana_cost": 4,
+    "illustrator": "Wisnu Tan",
+    "item_def": 110361,
+    "artwork": {
+      "artwork_id": 10361
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 2,
+          "color": 3
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 2,
+          "color": 3
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10365": {
+    "id": 10365,
+    "name": "Juke",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Green",
+    "mana_cost": 1,
+    "illustrator": "Forrest Imel",
+    "item_def": 110365,
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_Ally_swap",
+          "allied_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_Ally_swap",
+          "allied_only": true,
+          "mod_duration": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10366": {
+    "id": 10366,
+    "name": "New Orders",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Red",
+    "mana_cost": 1,
+    "illustrator": "Robert Simon",
+    "item_def": 110366,
+    "artwork": {
+      "artwork_id": 10366
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_Ally",
+          "allied_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_Ally",
+          "allied_only": true,
+          "mod_duration": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10367": {
+    "id": 10367,
+    "name": "Rend Armor",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Red",
+    "mana_cost": 3,
+    "illustrator": "Forrest Imel",
+    "item_def": 110367,
+    "artwork": {
+      "artwork_id": 10367
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_affect",
+          "targets_hero_only": true,
+          "mod_armor": -1,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_affect",
+          "targets_hero_only": true,
+          "mod_armor": -1,
+          "mod_duration": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10368": {
+    "id": 10368,
+    "name": "Avernus' Blessing",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Green",
+    "mana_cost": 3,
+    "illustrator": "Livia Prima",
+    "item_def": 110368,
+    "artwork": {
+      "artwork_id": 10368
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_attack": 2,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_attack": 2,
+          "mod_duration": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10370": {
+    "id": 10370,
+    "name": "Fight Through the Pain",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Red",
+    "mana_cost": 1,
+    "quick": true,
+    "illustrator": "Forrest Imel",
+    "item_def": 110370,
+    "artwork": {
+      "artwork_id": 10370
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_armor": 2,
+          "mod_duration": 2,
+          "color": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_armor": 2,
+          "mod_duration": 2,
+          "color": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10373": {
+    "id": 10373,
+    "name": "Soul of Spring",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Green",
+    "mana_cost": 4,
+    "illustrator": "Jana Schirmer",
+    "item_def": 110373,
+    "artwork": {
+      "artwork_id": 10373
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 2
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 2
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10374": {
+    "id": 10374,
+    "name": "Arcane Assault",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Blue",
+    "mana_cost": 4,
+    "quick": true,
+    "illustrator": "Alix Branwyn",
+    "item_def": 110374,
+    "artwork": {
+      "artwork_id": 10374
+    },
+    "release_date": "2018-11-28"
+  },
+  "10376": {
+    "id": 10376,
+    "name": "Remote Detonation",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Blue",
+    "mana_cost": 6,
+    "illustrator": "Jason Kang",
+    "item_def": 110376,
+    "artwork": {
+      "artwork_id": 10376
+    },
+    "release_date": "2018-11-28"
+  },
+  "10377": {
+    "id": 10377,
+    "name": "Fog of War",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Blue",
+    "mana_cost": 4,
+    "illustrator": "Magali Villeneuve",
+    "item_def": 110377,
+    "artwork": {
+      "artwork_id": 10377
+    },
+    "release_date": "2018-11-28"
+  },
+  "10378": {
+    "id": 10378,
+    "name": "Divine Purpose",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Green",
+    "mana_cost": 7,
+    "illustrator": "Kieran Yanner",
+    "item_def": 110378,
+    "artwork": {
+      "artwork_id": 10378
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10379": {
+    "id": 10379,
+    "name": "Intimidation",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Green",
+    "mana_cost": 5,
+    "illustrator": "Bayard Wu",
+    "item_def": 110379,
+    "artwork": {
+      "artwork_id": 10379
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_move",
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_move",
+          "mod_duration": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10382": {
+    "id": 10382,
+    "name": "Cleansing Rite",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Green",
+    "mana_cost": 4,
+    "illustrator": "John Stanko",
+    "item_def": 110382,
+    "artwork": {
+      "artwork_id": 10382
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_purge",
+          "targets_hero_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_purge",
+          "targets_hero_only": true,
+          "mod_duration": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10385": {
+    "id": 10385,
+    "name": "Tresdin's Standards",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Red",
+    "mana_cost": 4,
+    "illustrator": "James Paick",
+    "item_def": 110385,
+    "artwork": {
+      "artwork_id": 10385
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 2,
+          "color": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 2,
+          "color": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10391": {
+    "id": 10391,
+    "name": "Compel",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Blue",
+    "mana_cost": 3,
+    "illustrator": "Lake Hurwitz",
+    "item_def": 110391,
+    "artwork": {
+      "artwork_id": 10391
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit",
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit",
+          "mod_duration": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10396": {
+    "id": 10396,
+    "name": "Caught Unprepared",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Green",
+    "mana_cost": 4,
+    "illustrator": "Forrest Imel",
+    "item_def": 110396,
+    "artwork": {
+      "artwork_id": 10396
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero",
+          "targets_hero_only": true,
+          "enemy_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero",
+          "targets_hero_only": true,
+          "enemy_only": true,
+          "mod_duration": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10399": {
+    "id": 10399,
+    "name": "Relentless Pursuit",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Black",
+    "mana_cost": 1,
+    "crosslane": true,
+    "illustrator": "Stepan Alekseev",
+    "item_def": 110399,
+    "artwork": {
+      "artwork_id": 10399
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_AnyLane",
+          "enemy_only": true,
+          "lanes": 2,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_AnyLane",
+          "enemy_only": true,
+          "lanes": 2,
+          "mod_duration": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10402": {
+    "id": 10402,
+    "name": "Tower Barrage",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Blue",
+    "mana_cost": 3,
+    "illustrator": "JiHun Lee",
+    "item_def": 110402,
+    "artwork": {
+      "artwork_id": 10402
+    },
+    "release_date": "2018-11-28"
+  },
+  "10403": {
+    "id": 10403,
+    "name": "Steal Strength",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Green",
+    "mana_cost": 4,
+    "illustrator": "Darek Zabrocki",
+    "item_def": 110403,
+    "artwork": {
+      "artwork_id": 10403
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_modify",
+          "enemy_only": true,
+          "mod_attack": -4,
+          "mod_duration": 2
+        },
+        {
+          "hint": "#DCG_ActionHint_Unit_modify",
+          "allied_only": true,
+          "mod_attack": 4,
+          "mod_duration": 2
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_modify",
+          "enemy_only": true,
+          "mod_attack": -4,
+          "mod_duration": 2
+        },
+        {
+          "hint": "#DCG_ActionHint_Unit_modify",
+          "allied_only": true,
+          "mod_attack": 4,
+          "mod_duration": 2
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10404": {
+    "id": 10404,
+    "name": "The Cover of Night",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Black",
+    "mana_cost": 7,
+    "crosslane": true,
+    "illustrator": "Michael Kommark",
+    "item_def": 110404,
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_Ally_move",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 3,
+          "color": 3
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_Ally_move",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 3,
+          "color": 3
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10410": {
+    "id": 10410,
+    "name": "Slay",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Black",
+    "mana_cost": 3,
+    "illustrator": "Jana Schirmer",
+    "item_def": 110410,
+    "artwork": {
+      "artwork_id": 10410
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Creep_kill",
+          "enemy_only": true,
+          "mod_duration": 1,
+          "creeps_only": true
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Creep_kill",
+          "enemy_only": true,
+          "mod_duration": 1,
+          "creeps_only": true
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10411": {
+    "id": 10411,
+    "name": "Cunning Plan",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Blue",
+    "mana_cost": 2,
+    "illustrator": "Bayard Wu",
+    "item_def": 110411,
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_swap",
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_swap",
+          "mod_duration": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10412": {
+    "id": 10412,
+    "name": "Thunderstorm",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Blue",
+    "mana_cost": 6,
+    "illustrator": "James Paick",
+    "item_def": 110412,
+    "artwork": {
+      "artwork_id": 10412
+    },
+    "engine": {
+      "cast_sound": "DCG_Spell.ThunderStorm"
+    },
+    "release_date": "2018-11-28"
+  },
+  "10413": {
+    "id": 10413,
+    "name": "Forward Charge",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Black",
+    "mana_cost": 3,
+    "illustrator": "Darek Zabrocki",
+    "item_def": 110413,
+    "artwork": {
+      "artwork_id": 10413
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "allied_only": true,
+          "mod_keywords": {
+            "siege": 2
+          },
+          "mod_duration": 2,
+          "auto": true
+        }
+      ],
+      "lane_rules": [
+        {
+          "allied_only": true,
+          "mod_keywords": {
+            "siege": 2
+          },
+          "mod_duration": 2,
+          "auto": true
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10415": {
+    "id": 10415,
+    "name": "Collateral Damage",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Black",
+    "mana_cost": 4,
+    "illustrator": "JiHun Lee",
+    "item_def": 110415,
+    "artwork": {
+      "artwork_id": 10415
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_keywords": {
+            "siege": 3
+          },
+          "mod_duration": 1,
+          "color": 3
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_keywords": {
+            "siege": 3
+          },
+          "mod_duration": 1,
+          "color": 3
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10416": {
+    "id": 10416,
+    "name": "Track",
+    "type": 7,
+    "set": 1,
+    "collectible": false,
+    "color": "Black",
+    "mana_cost": 3,
+    "illustrator": "E.M. Gist",
+    "artwork": {
+      "artwork_id": 10416
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "enemy_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "enemy_only": true,
+          "mod_duration": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28",
+    "signature_of": [
+      10023
+    ]
+  },
+  "10417": {
+    "id": 10417,
+    "name": "Spring the Trap",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Red",
+    "mana_cost": 7,
+    "crosslane": true,
+    "illustrator": "James Paick",
+    "item_def": 110417,
+    "artwork": {
+      "artwork_id": 10417
+    },
+    "references": [
+      10082
+    ],
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_SelectALaneToSummonInto_AnyLane",
+          "lanes": 1,
+          "lane_pick": true,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_SelectALaneToSummonInto_AnyLane",
+          "lanes": 1,
+          "lane_pick": true,
+          "mod_duration": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10418": {
+    "id": 10418,
+    "name": "Ventriloquy",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Blue",
+    "mana_cost": 1,
+    "illustrator": "Daarken",
+    "item_def": 110418,
+    "artwork": {
+      "artwork_id": 10418
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit",
+          "targets_hero_only": true,
+          "enemy_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit",
+          "targets_hero_only": true,
+          "enemy_only": true,
+          "mod_duration": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10419": {
+    "id": 10419,
+    "name": "Viscous Nasal Goo",
+    "type": 7,
+    "set": 1,
+    "collectible": false,
+    "color": "Red",
+    "mana_cost": 4,
+    "illustrator": "JiHun Lee",
+    "artwork": {
+      "artwork_id": 10419
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_modify",
+          "targets_hero_only": true,
+          "enemy_only": true,
+          "mod_armor": -2,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_modify",
+          "targets_hero_only": true,
+          "enemy_only": true,
+          "mod_armor": -2,
+          "mod_duration": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28",
+    "signature_of": [
+      10030
+    ]
+  },
+  "10420": {
+    "id": 10420,
+    "name": "Act of Defiance",
+    "type": 7,
+    "set": 1,
+    "collectible": false,
+    "color": "Green",
+    "mana_cost": 5,
+    "illustrator": "Chris Rahn",
+    "artwork": {
+      "artwork_id": 10420
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit",
+          "targets_hero_only": true,
+          "enemy_only": true,
+          "mod_duration": 2
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit",
+          "targets_hero_only": true,
+          "enemy_only": true,
+          "mod_duration": 2
+        }
+      ]
+    },
+    "release_date": "2018-11-28",
+    "signature_of": [
+      10026
+    ]
+  },
+  "10421": {
+    "id": 10421,
+    "name": "Crippling Blow",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Red",
+    "mana_cost": 4,
+    "illustrator": "Daarken",
+    "item_def": 110421,
+    "artwork": {
+      "artwork_id": 10421
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "enemy_only": true,
+          "mod_attack": -2,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_modify",
+          "targets_hero_only": true,
+          "enemy_only": true,
+          "mod_attack": -2,
+          "mod_duration": 1
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10422": {
+    "id": 10422,
+    "name": "Whispers of Madness",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Blue",
+    "mana_cost": 2,
+    "illustrator": "Daarken",
+    "item_def": 110422,
+    "artwork": {
+      "artwork_id": 10422
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_Enemy",
+          "targets_hero_only": true,
+          "enemy_only": true,
+          "mod_duration": 2
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_Enemy",
+          "targets_hero_only": true,
+          "enemy_only": true,
+          "mod_duration": 2
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10424": {
+    "id": 10424,
+    "name": "At Any Cost",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Blue",
+    "mana_cost": 3,
+    "illustrator": "Livia Prima",
+    "item_def": 110424,
+    "artwork": {
+      "artwork_id": 10424
+    },
+    "release_date": "2018-11-28"
+  },
+  "10425": {
+    "id": 10425,
+    "name": "Time of Triumph",
+    "type": 7,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Red",
+    "mana_cost": 8,
+    "illustrator": "Darek Zabrocki",
+    "item_def": 110425,
+    "artwork": {
+      "artwork_id": 10425
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_attack": 4,
+          "mod_armor": 4,
+          "mod_health": 4,
+          "mod_keywords": {
+            "cleave": 4,
+            "retaliate": 4,
+            "siege": 4
+          },
+          "mod_duration": 1,
+          "auto": true
+        }
+      ],
+      "lane_rules": [
+        {
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_attack": 4,
+          "mod_armor": 4,
+          "mod_health": 4,
+          "mod_keywords": {
+            "cleave": 4,
+            "retaliate": 4,
+            "siege": 4
+          },
+          "mod_duration": 1,
+          "auto": true
+        }
+      ]
+    },
+    "release_date": "2018-11-28"
+  },
+  "10538": {
+    "id": 10538,
+    "name": "Ball Lightning",
+    "type": 7,
+    "set": 1,
+    "collectible": false,
+    "color": "Black",
+    "mana_cost": 3,
+    "crosslane": true,
+    "illustrator": "JiHun Lee",
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_Ally_move",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 1,
+          "color": 3
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_Ally_move",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 1,
+          "color": 3
+        }
+      ]
+    },
+    "release_date": "2018-11-28",
+    "signature_of": [
+      10536
+    ]
+  }
+}
