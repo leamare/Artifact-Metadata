@@ -1,0 +1,18 @@
+{
+  "classic": {
+    "0": "Basic",
+    "1": "Common",
+    "2": "Uncommon",
+    "3": "Rare"
+  },
+  "client_rarity_bits": {
+    "2": "Common",
+    "4": "Uncommon",
+    "8": "Rare"
+  },
+  "colors": {
+    "Common": "#b0c3d9",
+    "Uncommon": "#5e98d9",
+    "Rare": "#4b69ff"
+  }
+}

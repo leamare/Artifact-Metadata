@@ -1,0 +1,193 @@
+{
+  "0": {
+    "name": "unspecified",
+    "key": "unspecified",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "artifact": true,
+    "artifact_code": "UNS"
+  },
+  "1": {
+    "name": "US West",
+    "key": "USWest",
+    "code": "eat",
+    "latitude": 47.6052,
+    "longitude": -122.17,
+    "artifact": true,
+    "artifact_code": "mwh"
+  },
+  "2": {
+    "name": "US East",
+    "key": "USEast",
+    "code": "iad",
+    "latitude": 39.00622,
+    "longitude": -77.428599,
+    "artifact": true
+  },
+  "3": {
+    "name": "Europe",
+    "key": "Europe",
+    "code": "fra",
+    "latitude": 52.523405,
+    "longitude": 13.4114
+  },
+  "5": {
+    "name": "Singapore",
+    "key": "Singapore",
+    "code": "sgp",
+    "latitude": 1.283333,
+    "longitude": 103.833333,
+    "artifact": true
+  },
+  "6": {
+    "name": "Dubai",
+    "key": "Dubai",
+    "code": "dxb",
+    "latitude": 25.25,
+    "longitude": 55.3
+  },
+  "7": {
+    "name": "Australia",
+    "key": "Australia",
+    "code": "syd",
+    "latitude": -33.859972,
+    "longitude": 151.211111
+  },
+  "8": {
+    "name": "Stockholm",
+    "key": "Stockholm",
+    "code": "sto",
+    "latitude": 55.75,
+    "longitude": 37.616667,
+    "artifact": true
+  },
+  "9": {
+    "name": "Austria",
+    "key": "Austria",
+    "code": "vie",
+    "latitude": 48.12,
+    "longitude": 16.22
+  },
+  "10": {
+    "name": "Brazil",
+    "key": "Brazil",
+    "code": "gru",
+    "latitude": -23.532891,
+    "longitude": -46.642251
+  },
+  "11": {
+    "name": "Southafrica",
+    "key": "SouthAfrica",
+    "code": "jnb",
+    "latitude": -33.925278,
+    "longitude": 18.423889
+  },
+  "12": {
+    "name": "PW Telecom Shanghai"
+  },
+  "13": {
+    "name": "PW Unicom"
+  },
+  "14": {
+    "name": "Chile",
+    "key": "Chile",
+    "code": "scl",
+    "latitude": -33.6682982,
+    "longitude": -70.363372
+  },
+  "15": {
+    "name": "Peru",
+    "key": "Peru",
+    "code": "lim",
+    "latitude": -12.0553442,
+    "longitude": -77.0451853
+  },
+  "16": {
+    "name": "India",
+    "key": "India",
+    "code": "bom",
+    "latitude": 18.58,
+    "longitude": 72.49
+  },
+  "17": {
+    "name": "PW Telecom Guangdong"
+  },
+  "18": {
+    "name": "PW Telecom Zhejiang"
+  },
+  "19": {
+    "name": "Japan",
+    "key": "Japan",
+    "code": "tyo",
+    "latitude": 35.7,
+    "longitude": 139.7
+  },
+  "20": {
+    "name": "PW Telecom Wuhan"
+  },
+  "24": {
+    "name": "Hong Kong"
+  },
+  "25": {
+    "name": "PW Unicom Tianjin"
+  },
+  "27": {
+    "name": "US North Central",
+    "key": "USNorthCentral",
+    "code": "ord",
+    "latitude": 41.823,
+    "longitude": -87.809
+  },
+  "28": {
+    "name": "Warsaw",
+    "key": "Poland",
+    "code": "waw",
+    "latitude": 52.24,
+    "longitude": 21.01
+  },
+  "31": {
+    "name": "US South Central",
+    "key": "USSouthCentral",
+    "code": "dfw",
+    "latitude": 32.77,
+    "longitude": -96.8
+  },
+  "37": {
+    "name": "Taiwan"
+  },
+  "38": {
+    "name": "Argentina",
+    "key": "Argentina",
+    "code": "eze",
+    "latitude": -34.6037,
+    "longitude": -58.3816
+  },
+  "42": {
+    "name": "AlicloudChengdu",
+    "key": "AlicloudChengdu",
+    "code": "ctu",
+    "latitude": 30.66,
+    "longitude": 103.75
+  },
+  "46": {
+    "name": "AlicloudShanghai",
+    "key": "AlicloudShanghai",
+    "code": "pvg",
+    "latitude": 31.22,
+    "longitude": 121.47
+  },
+  "49": {
+    "name": "TencentGuangzhou",
+    "key": "TencentGuangzhou",
+    "code": "tgd",
+    "latitude": 23.1,
+    "longitude": 113.3
+  },
+  "51": {
+    "name": "AlicloudBeijing",
+    "key": "AlicloudBeijing",
+    "code": "pek",
+    "latitude": 39.91,
+    "longitude": 116.38
+  }
+}
