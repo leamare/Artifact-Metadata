@@ -1,0 +1,2564 @@
+{
+  "1006": {
+    "id": 1006,
+    "name": "Melee Creep",
+    "type": 4,
+    "type_source": "classic",
+    "set": 0,
+    "mana_cost": 3,
+    "attack": 2,
+    "health": 4,
+    "artwork": {
+      "artwork_id": 1098,
+      "alternate_artwork_ids": [
+        1526
+      ]
+    }
+  },
+  "1009": {
+    "id": 1009,
+    "name": "Zombie",
+    "type": 4,
+    "type_source": "community",
+    "set": 0,
+    "hidden_reason": "Uncollectable",
+    "rarity": 1,
+    "mana_cost": 1,
+    "attack": 2,
+    "armor": 0,
+    "health": 1,
+    "artwork": {
+      "artwork_id": 1009
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10090,
+      10628,
+      11097
+    ],
+    "is_summon": true
+  },
+  "10076": {
+    "id": 10076,
+    "name": "Smeevil Armsmaster",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 1,
+    "mana_cost": 3,
+    "attack": 3,
+    "armor": 0,
+    "health": 2,
+    "artwork": {
+      "artwork_id": 10076
+    },
+    "release_date": "2020-05-25"
+  },
+  "10077": {
+    "id": 10077,
+    "name": "Sister of the Void",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 2,
+    "mana_cost": 2,
+    "attack": 2,
+    "armor": 0,
+    "health": 3,
+    "artwork": {
+      "artwork_id": 10077
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10735
+    ]
+  },
+  "10078": {
+    "id": 10078,
+    "name": "Tyler Estate Censor",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 4,
+    "mana_cost": 4,
+    "attack": 2,
+    "armor": 0,
+    "health": 6,
+    "artwork": {
+      "artwork_id": 10078
+    },
+    "release_date": "2020-05-25"
+  },
+  "10079": {
+    "id": 10079,
+    "name": "Smeevil Blacksmith",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 1,
+    "mana_cost": 3,
+    "attack": 2,
+    "armor": 0,
+    "health": 2,
+    "artwork": {
+      "artwork_id": 10079
+    },
+    "release_date": "2020-05-25"
+  },
+  "10080": {
+    "id": 10080,
+    "name": "Rebel Decoy",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 2,
+    "faction": "Vhoul Rebellion",
+    "mana_cost": 2,
+    "attack": 1,
+    "armor": 0,
+    "health": 3,
+    "artwork": {
+      "artwork_id": 10080
+    },
+    "release_date": "2020-05-25"
+  },
+  "10082": {
+    "id": 10082,
+    "name": "Centaur Poacher",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "hidden_reason": "Uncollectable",
+    "color": "Red",
+    "rarity": 2,
+    "mana_cost": 4,
+    "attack": 3,
+    "armor": 0,
+    "health": 4,
+    "artwork": {
+      "artwork_id": 10082
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10417
+    ],
+    "is_summon": true
+  },
+  "10083": {
+    "id": 10083,
+    "name": "Pit Fighter of Quoidge",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 1,
+    "mana_cost": 4,
+    "attack": 1,
+    "armor": 0,
+    "health": 6,
+    "artwork": {
+      "artwork_id": 10083
+    },
+    "release_date": "2020-05-25"
+  },
+  "10085": {
+    "id": 10085,
+    "name": "Assassin's Shadow",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 2,
+    "mana_cost": 5,
+    "attack": 6,
+    "armor": 0,
+    "health": 4,
+    "artwork": {
+      "artwork_id": 10085
+    },
+    "release_date": "2020-05-25"
+  },
+  "10086": {
+    "id": 10086,
+    "name": "Disciple of Nevermore",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 2,
+    "mana_cost": 2,
+    "attack": 4,
+    "armor": -1,
+    "health": 3,
+    "artwork": {
+      "artwork_id": 10086
+    },
+    "release_date": "2020-05-25"
+  },
+  "10087": {
+    "id": 10087,
+    "name": "Legion Standard Bearer",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 1,
+    "faction": "Bronze Legion",
+    "mana_cost": 3,
+    "attack": 0,
+    "armor": 0,
+    "health": 3,
+    "artwork": {
+      "artwork_id": 10087
+    },
+    "release_date": "2020-05-21"
+  },
+  "10090": {
+    "id": 10090,
+    "name": "Relentless Zombie",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 1,
+    "mana_cost": 2,
+    "attack": 2,
+    "armor": 0,
+    "health": 2,
+    "artwork": {
+      "artwork_id": 10090
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      1009
+    ]
+  },
+  "10091": {
+    "id": 10091,
+    "name": "Revtel Convoy",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 5,
+    "mana_cost": 6,
+    "attack": 0,
+    "armor": 0,
+    "health": 13,
+    "artwork": {
+      "artwork_id": 10091
+    },
+    "release_date": "2020-05-25"
+  },
+  "10092": {
+    "id": 10092,
+    "name": "Oglodi Vandal",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 1,
+    "faction": "Red Mist",
+    "mana_cost": 4,
+    "attack": 3,
+    "armor": 0,
+    "health": 2,
+    "artwork": {
+      "artwork_id": 10092
+    },
+    "release_date": "2020-05-21"
+  },
+  "10094": {
+    "id": 10094,
+    "name": "Mercenary Exiles",
+    "type": 4,
+    "type_source": "classic",
+    "set": 1,
+    "mana_cost": 3,
+    "attack": 2,
+    "armor": 1,
+    "health": 4,
+    "color": "Red",
+    "artwork": {
+      "artwork_id": 10094
+    }
+  },
+  "10095": {
+    "id": 10095,
+    "name": "Keenfolk Golem",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 4,
+    "mana_cost": 5,
+    "attack": 9,
+    "armor": 0,
+    "health": 9,
+    "artwork": {
+      "artwork_id": 10095
+    },
+    "release_date": "2020-05-25"
+  },
+  "10096": {
+    "id": 10096,
+    "name": "Emissary of the Quorum",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 5,
+    "mana_cost": 6,
+    "attack": 2,
+    "armor": 0,
+    "health": 8,
+    "artwork": {
+      "artwork_id": 10096
+    },
+    "release_date": "2020-05-25"
+  },
+  "10097": {
+    "id": 10097,
+    "name": "Marrowfell Brawler",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 2,
+    "mana_cost": 5,
+    "attack": 3,
+    "armor": 0,
+    "health": 9,
+    "artwork": {
+      "artwork_id": 10097
+    },
+    "release_date": "2020-05-25"
+  },
+  "10102": {
+    "id": 10102,
+    "name": "Thunderhide Pack",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 1,
+    "mana_cost": 7,
+    "attack": 8,
+    "armor": 0,
+    "health": 8,
+    "artwork": {
+      "artwork_id": 10102
+    },
+    "release_date": "2020-05-25",
+    "search_terms": "thide",
+    "related_cards": [
+      10260
+    ]
+  },
+  "10103": {
+    "id": 10103,
+    "name": "Ogre Corpse Tosser",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 1,
+    "mana_cost": 3,
+    "attack": 1,
+    "armor": 0,
+    "health": 5,
+    "artwork": {
+      "artwork_id": 10103
+    },
+    "release_date": "2020-05-21"
+  },
+  "10104": {
+    "id": 10104,
+    "name": "Bronze Legionnaire",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 1,
+    "faction": "Bronze Legion",
+    "mana_cost": 2,
+    "attack": 3,
+    "armor": 1,
+    "health": 2,
+    "artwork": {
+      "artwork_id": 10104
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10970
+    ]
+  },
+  "10107": {
+    "id": 10107,
+    "name": "Vhoul Martyr",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 2,
+    "faction": "Vhoul Rebellion",
+    "mana_cost": 2,
+    "attack": 1,
+    "armor": 0,
+    "health": 1,
+    "artwork": {
+      "artwork_id": 10107
+    },
+    "release_date": "2020-05-25"
+  },
+  "10108": {
+    "id": 10108,
+    "name": "Thunderhide Alpha",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 1,
+    "mana_cost": 8,
+    "attack": 20,
+    "armor": 0,
+    "health": 20,
+    "artwork": {
+      "artwork_id": 10108
+    },
+    "release_date": "2020-05-25",
+    "search_terms": "thide"
+  },
+  "10111": {
+    "id": 10111,
+    "name": "Satyr Duelist",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 2,
+    "mana_cost": 3,
+    "attack": 1,
+    "armor": 0,
+    "health": 4,
+    "artwork": {
+      "artwork_id": 10111
+    },
+    "release_date": "2020-05-25"
+  },
+  "10112": {
+    "id": 10112,
+    "name": "Savage Wolf",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 2,
+    "mana_cost": 3,
+    "attack": 2,
+    "armor": 0,
+    "health": 2,
+    "artwork": {
+      "artwork_id": 10112
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10014
+    ]
+  },
+  "10113": {
+    "id": 10113,
+    "name": "Rampaging Hellbear",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 1,
+    "mana_cost": 3,
+    "attack": 1,
+    "armor": 0,
+    "health": 3,
+    "artwork": {
+      "artwork_id": 10113
+    },
+    "release_date": "2020-05-25",
+    "search_terms": "Potato"
+  },
+  "10114": {
+    "id": 10114,
+    "name": "Cursed Satyr",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 5,
+    "mana_cost": 4,
+    "attack": 4,
+    "armor": 0,
+    "health": 3,
+    "artwork": {
+      "artwork_id": 10114
+    },
+    "release_date": "2020-05-25"
+  },
+  "10115": {
+    "id": 10115,
+    "name": "Ravenhook",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 5,
+    "mana_cost": 5,
+    "attack": 2,
+    "armor": 0,
+    "health": 4,
+    "artwork": {
+      "artwork_id": 10115
+    },
+    "release_date": "2020-05-25"
+  },
+  "10116": {
+    "id": 10116,
+    "name": "Ravenous Mass",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 3,
+    "mana_cost": 1,
+    "attack": 1,
+    "armor": 0,
+    "health": 1,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 10116
+    },
+    "release_date": "2020-05-25"
+  },
+  "10117": {
+    "id": 10117,
+    "name": "Roseleaf Druid",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 1,
+    "mana_cost": 1,
+    "attack": 1,
+    "armor": 0,
+    "health": 1,
+    "artwork": {
+      "artwork_id": 10117
+    },
+    "release_date": "2020-05-25"
+  },
+  "10118": {
+    "id": 10118,
+    "name": "Hellbear Crippler",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 3,
+    "mana_cost": 2,
+    "attack": 2,
+    "armor": 0,
+    "health": 4,
+    "artwork": {
+      "artwork_id": 10118
+    },
+    "release_date": "2020-05-25",
+    "search_terms": "Tomato"
+  },
+  "10119": {
+    "id": 10119,
+    "name": "Selfish Cleric",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 1,
+    "mana_cost": 3,
+    "attack": 3,
+    "armor": 0,
+    "health": 3,
+    "artwork": {
+      "artwork_id": 10119
+    },
+    "release_date": "2020-05-25"
+  },
+  "10127": {
+    "id": 10127,
+    "name": "Ogre Conscript",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 1,
+    "faction": "Bronze Legion",
+    "mana_cost": 5,
+    "attack": 6,
+    "armor": 2,
+    "health": 6,
+    "artwork": {
+      "artwork_id": 10127
+    },
+    "release_date": "2020-05-25"
+  },
+  "10128": {
+    "id": 10128,
+    "name": "Untested Grunt",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 1,
+    "mana_cost": 1,
+    "attack": 3,
+    "armor": 0,
+    "health": 1,
+    "artwork": {
+      "artwork_id": 10128
+    },
+    "release_date": "2020-05-25"
+  },
+  "10129": {
+    "id": 10129,
+    "name": "Assassin's Apprentice",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 2,
+    "mana_cost": 2,
+    "attack": 3,
+    "armor": 0,
+    "health": 2,
+    "artwork": {
+      "artwork_id": 10129
+    },
+    "release_date": "2020-05-25"
+  },
+  "10131": {
+    "id": 10131,
+    "name": "Stonehall Elite",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 2,
+    "faction": "Bronze Legion",
+    "mana_cost": 4,
+    "attack": 3,
+    "armor": 2,
+    "health": 2,
+    "artwork": {
+      "artwork_id": 10131
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      11045
+    ]
+  },
+  "10132": {
+    "id": 10132,
+    "name": "Red Mist Pillager",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 3,
+    "mana_cost": 4,
+    "attack": 4,
+    "armor": 0,
+    "health": 2,
+    "artwork": {
+      "artwork_id": 10132
+    },
+    "release_date": "2020-05-25"
+  },
+  "10133": {
+    "id": 10133,
+    "name": "Champion of the Ancient",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 4,
+    "mana_cost": 5,
+    "attack": 1,
+    "armor": 0,
+    "health": 4,
+    "artwork": {
+      "artwork_id": 10133
+    },
+    "release_date": "2020-05-25"
+  },
+  "10134": {
+    "id": 10134,
+    "name": "Roseleaf Rejuvenator",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 1,
+    "mana_cost": 5,
+    "attack": 5,
+    "armor": 0,
+    "health": 5,
+    "artwork": {
+      "artwork_id": 10134
+    },
+    "release_date": "2020-05-25"
+  },
+  "10136": {
+    "id": 10136,
+    "name": "Loyal Beast",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "hidden_reason": "Uncollectable",
+    "color": "Red",
+    "rarity": 2,
+    "mana_cost": 2,
+    "attack": 1,
+    "armor": 0,
+    "health": 2,
+    "artwork": {
+      "artwork_id": 10136
+    },
+    "release_date": "2020-05-21",
+    "related_cards": [
+      10029
+    ],
+    "is_summon": true
+  },
+  "10137": {
+    "id": 10137,
+    "name": "Satyr Magician",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 1,
+    "mana_cost": 4,
+    "attack": 1,
+    "armor": 0,
+    "health": 3,
+    "artwork": {
+      "artwork_id": 10137
+    },
+    "release_date": "2020-05-25"
+  },
+  "10138": {
+    "id": 10138,
+    "name": "Troll Soothsayer",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 1,
+    "mana_cost": 5,
+    "attack": 2,
+    "armor": 0,
+    "health": 6,
+    "artwork": {
+      "artwork_id": 10138
+    },
+    "release_date": "2020-05-25"
+  },
+  "10310": {
+    "id": 10310,
+    "name": "Oglodi Catapult",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 3,
+    "mana_cost": 2,
+    "attack": 0,
+    "armor": 0,
+    "health": 4,
+    "artwork": {
+      "artwork_id": 10310
+    },
+    "release_date": "2020-05-25"
+  },
+  "10600": {
+    "id": 10600,
+    "name": "Berserker of the Abyssm",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 5,
+    "mana_cost": 5,
+    "attack": 3,
+    "armor": 0,
+    "health": 2,
+    "artwork": {
+      "artwork_id": 10600
+    },
+    "release_date": "2020-05-25"
+  },
+  "10601": {
+    "id": 10601,
+    "name": "Stonehall Conscriptor",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 4,
+    "faction": "Bronze Legion",
+    "mana_cost": 5,
+    "attack": 3,
+    "armor": 1,
+    "health": 4,
+    "artwork": {
+      "artwork_id": 10601
+    },
+    "release_date": "2020-05-25"
+  },
+  "10602": {
+    "id": 10602,
+    "name": "Unstable Elemental",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 3,
+    "mana_cost": 2,
+    "attack": 1,
+    "armor": 0,
+    "health": 1,
+    "artwork": {
+      "artwork_id": 10602
+    },
+    "release_date": "2020-05-25"
+  },
+  "10605": {
+    "id": 10605,
+    "name": "Slumbering Brute",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 2,
+    "faction": "Bronze Legion",
+    "mana_cost": 6,
+    "attack": 8,
+    "armor": 2,
+    "health": 8,
+    "artwork": {
+      "artwork_id": 10605
+    },
+    "release_date": "2020-05-25"
+  },
+  "10609": {
+    "id": 10609,
+    "name": "Committed Rebel",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 2,
+    "faction": "Vhoul Rebellion",
+    "mana_cost": 2,
+    "attack": 3,
+    "armor": 0,
+    "health": 1,
+    "artwork": {
+      "artwork_id": 10609
+    },
+    "release_date": "2020-05-25"
+  },
+  "10610": {
+    "id": 10610,
+    "name": "Honor Guard",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 5,
+    "faction": "Bronze Legion",
+    "mana_cost": 4,
+    "attack": 3,
+    "armor": 1,
+    "health": 3,
+    "artwork": {
+      "artwork_id": 10610
+    },
+    "release_date": "2020-05-21"
+  },
+  "10612": {
+    "id": 10612,
+    "name": "Fell Spirit",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 1,
+    "mana_cost": 2,
+    "attack": 1,
+    "armor": 0,
+    "health": 3,
+    "artwork": {
+      "artwork_id": 10612
+    },
+    "release_date": "2020-05-25"
+  },
+  "10614": {
+    "id": 10614,
+    "name": "Wall of Secrets",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 1,
+    "mana_cost": 4,
+    "attack": 0,
+    "armor": 0,
+    "health": 6,
+    "artwork": {
+      "artwork_id": 10614
+    },
+    "release_date": "2020-05-25"
+  },
+  "10619": {
+    "id": 10619,
+    "name": "Infernal Ally",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 4,
+    "mana_cost": 3,
+    "attack": 2,
+    "armor": 0,
+    "health": 2,
+    "artwork": {
+      "artwork_id": 10619
+    },
+    "release_date": "2020-05-25"
+  },
+  "10637": {
+    "id": 10637,
+    "name": "Ozkavosh Horror",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "hidden_reason": "Removed",
+    "color": "Green",
+    "rarity": 2,
+    "mana_cost": 1,
+    "attack": 0,
+    "armor": 0,
+    "health": 1,
+    "artwork": {
+      "artwork_id": 10637
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10604
+    ],
+    "is_summon": true
+  },
+  "10638": {
+    "id": 10638,
+    "name": "Wildwing",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "hidden_reason": "Uncollectable",
+    "color": "Blue",
+    "rarity": 2,
+    "mana_cost": 3,
+    "attack": 3,
+    "armor": 0,
+    "health": 4,
+    "artwork": {
+      "artwork_id": 10638
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10611
+    ],
+    "is_summon": true
+  },
+  "10641": {
+    "id": 10641,
+    "name": "Animated Armor",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "hidden_reason": "Uncollectable",
+    "rarity": 2,
+    "mana_cost": 1,
+    "attack": 3,
+    "armor": 1,
+    "health": 2,
+    "artwork": {
+      "artwork_id": 10641
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10629
+    ],
+    "is_summon": true
+  },
+  "10642": {
+    "id": 10642,
+    "name": "Revtel Mercenary",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "hidden_reason": "Removed",
+    "rarity": 2,
+    "mana_cost": 2,
+    "attack": 2,
+    "armor": 0,
+    "health": 1,
+    "artwork": {
+      "artwork_id": 10642
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10631
+    ],
+    "is_summon": true
+  },
+  "10662": {
+    "id": 10662,
+    "name": "Sapphire Archon",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 2,
+    "mana_cost": 6,
+    "attack": 6,
+    "armor": 0,
+    "health": 6,
+    "artwork": {
+      "artwork_id": 10662
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10658
+    ]
+  },
+  "10677": {
+    "id": 10677,
+    "name": "Ice Shard",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "hidden_reason": "Uncollectable",
+    "color": "Red",
+    "rarity": 2,
+    "mana_cost": 1,
+    "attack": 0,
+    "armor": 0,
+    "health": 1,
+    "artwork": {
+      "artwork_id": 10677
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10674,
+      10676
+    ],
+    "is_summon": true
+  },
+  "10708": {
+    "id": 10708,
+    "name": "Agent of Claszureme",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 3,
+    "mana_cost": 2,
+    "attack": 1,
+    "armor": 0,
+    "health": 3,
+    "artwork": {
+      "artwork_id": 10708
+    },
+    "release_date": "2020-05-25"
+  },
+  "10709": {
+    "id": 10709,
+    "name": "Spirit Swordsman",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 3,
+    "mana_cost": 4,
+    "attack": 2,
+    "armor": 0,
+    "health": 2,
+    "artwork": {
+      "artwork_id": 10709
+    },
+    "release_date": "2020-05-25"
+  },
+  "10714": {
+    "id": 10714,
+    "name": "Rumusque Redeemer",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 2,
+    "mana_cost": 3,
+    "attack": 2,
+    "armor": 0,
+    "health": 3,
+    "artwork": {
+      "artwork_id": 10714
+    },
+    "release_date": "2020-05-25"
+  },
+  "10715": {
+    "id": 10715,
+    "name": "Fist of the Allseeing One",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 3,
+    "mana_cost": 8,
+    "attack": 14,
+    "armor": 1,
+    "health": 14,
+    "artwork": {
+      "artwork_id": 10715
+    },
+    "release_date": "2020-05-25"
+  },
+  "10716": {
+    "id": 10716,
+    "name": "Abyssm Flesh Render",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 4,
+    "mana_cost": 6,
+    "attack": 8,
+    "armor": 0,
+    "health": 8,
+    "artwork": {
+      "artwork_id": 10716
+    },
+    "release_date": "2020-05-25"
+  },
+  "10717": {
+    "id": 10717,
+    "name": "Horde Stryder",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 1,
+    "mana_cost": 4,
+    "attack": 3,
+    "armor": 0,
+    "health": 2,
+    "artwork": {
+      "artwork_id": 10717
+    },
+    "release_date": "2020-05-21"
+  },
+  "10723": {
+    "id": 10723,
+    "name": "Lancer Illusion",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": false,
+    "hidden_reason": "Uncollectable",
+    "color": "Red",
+    "rarity": 2,
+    "mana_cost": 3,
+    "attack": 2,
+    "armor": 0,
+    "health": 1,
+    "artwork": {
+      "artwork_id": 10723
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10721,
+      10724
+    ]
+  },
+  "10729": {
+    "id": 10729,
+    "name": "Red Mist Siegemaster",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 1,
+    "faction": "Red Mist",
+    "mana_cost": 3,
+    "attack": 3,
+    "armor": 0,
+    "health": 1,
+    "artwork": {
+      "artwork_id": 10729
+    },
+    "release_date": "2021-03-04"
+  },
+  "10732": {
+    "id": 10732,
+    "name": "Conspiracy of Ravens",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 3,
+    "mana_cost": 1,
+    "attack": 1,
+    "armor": 0,
+    "health": 3,
+    "artwork": {
+      "artwork_id": 10732
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10730
+    ]
+  },
+  "10734": {
+    "id": 10734,
+    "name": "Acolyte of the Forbidden Gate",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": false,
+    "hidden_reason": "Removed",
+    "color": "Black",
+    "rarity": 1,
+    "mana_cost": 2,
+    "attack": 3,
+    "armor": 0,
+    "health": 1,
+    "artwork": {
+      "artwork_id": 10734
+    },
+    "release_date": "2020-05-25"
+  },
+  "10735": {
+    "id": 10735,
+    "name": "Eidolon",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "hidden_reason": "Uncollectable",
+    "rarity": 1,
+    "mana_cost": 1,
+    "attack": 1,
+    "armor": 0,
+    "health": 1,
+    "artwork": {
+      "artwork_id": 10735
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10077,
+      10703
+    ],
+    "is_summon": true
+  },
+  "10736": {
+    "id": 10736,
+    "name": "Wild Boar",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": false,
+    "hidden_reason": "Removed",
+    "color": "Red",
+    "rarity": 1,
+    "mana_cost": 2,
+    "attack": 3,
+    "armor": 0,
+    "health": 2,
+    "artwork": {
+      "artwork_id": 10736
+    },
+    "release_date": "2020-05-21"
+  },
+  "10739": {
+    "id": 10739,
+    "name": "Hellbear Smasher",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": false,
+    "hidden_reason": "Removed",
+    "color": "Red",
+    "rarity": 1,
+    "mana_cost": 7,
+    "attack": 18,
+    "armor": 0,
+    "health": 9,
+    "artwork": {
+      "artwork_id": 10739
+    },
+    "release_date": "2020-05-25",
+    "search_terms": "Tomato"
+  },
+  "10743": {
+    "id": 10743,
+    "name": "Quicksap Sproutling",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 1,
+    "mana_cost": 1,
+    "attack": 1,
+    "armor": 0,
+    "health": 1,
+    "artwork": {
+      "artwork_id": 10743
+    },
+    "release_date": "2020-05-25"
+  },
+  "10744": {
+    "id": 10744,
+    "name": "Fey Wayfinder",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 2,
+    "mana_cost": 3,
+    "attack": 3,
+    "armor": 0,
+    "health": 3,
+    "artwork": {
+      "artwork_id": 10744
+    },
+    "release_date": "2020-05-25"
+  },
+  "10745": {
+    "id": 10745,
+    "name": "Lashvine Creeper",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 4,
+    "mana_cost": 5,
+    "attack": 4,
+    "armor": 0,
+    "health": 7,
+    "artwork": {
+      "artwork_id": 10745
+    },
+    "release_date": "2020-05-25"
+  },
+  "10746": {
+    "id": 10746,
+    "name": "Overgrowther",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": false,
+    "hidden_reason": "Removed",
+    "color": "Green",
+    "rarity": 3,
+    "mana_cost": 2,
+    "attack": 2,
+    "armor": 0,
+    "health": 3,
+    "artwork": {
+      "artwork_id": 10746
+    },
+    "release_date": "2020-05-25"
+  },
+  "10747": {
+    "id": 10747,
+    "name": "Moonglade Fusilier",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": false,
+    "hidden_reason": "Removed",
+    "color": "Green",
+    "rarity": 1,
+    "mana_cost": 3,
+    "attack": 3,
+    "armor": 0,
+    "health": 3,
+    "artwork": {
+      "artwork_id": 10747
+    },
+    "release_date": "2020-05-25"
+  },
+  "10748": {
+    "id": 10748,
+    "name": "Homunculus",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 5,
+    "mana_cost": 2,
+    "attack": 0,
+    "armor": 0,
+    "health": 1,
+    "artwork": {
+      "artwork_id": 10748
+    },
+    "release_date": "2020-05-25"
+  },
+  "10749": {
+    "id": 10749,
+    "name": "Spirit of Desolation",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 2,
+    "mana_cost": 3,
+    "attack": 2,
+    "armor": 0,
+    "health": 2,
+    "artwork": {
+      "artwork_id": 10749
+    },
+    "release_date": "2020-05-25"
+  },
+  "10750": {
+    "id": 10750,
+    "name": "Morphling Whelp",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 1,
+    "mana_cost": 4,
+    "attack": 1,
+    "armor": 0,
+    "health": 5,
+    "artwork": {
+      "artwork_id": 10750
+    },
+    "release_date": "2020-04-06"
+  },
+  "10751": {
+    "id": 10751,
+    "name": "Resonant Construct",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": false,
+    "hidden_reason": "Removed",
+    "color": "Blue",
+    "rarity": 3,
+    "mana_cost": 4,
+    "attack": 0,
+    "armor": 1,
+    "health": 3,
+    "artwork": {
+      "artwork_id": 10751
+    },
+    "release_date": "2020-05-25"
+  },
+  "10752": {
+    "id": 10752,
+    "name": "Sapphire Archivist",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 4,
+    "mana_cost": 2,
+    "attack": 1,
+    "armor": 0,
+    "health": 4,
+    "artwork": {
+      "artwork_id": 10752
+    },
+    "release_date": "2020-05-25"
+  },
+  "10753": {
+    "id": 10753,
+    "name": "Defenestrating Kobold",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 1,
+    "mana_cost": 5,
+    "attack": 4,
+    "armor": 0,
+    "health": 5,
+    "artwork": {
+      "artwork_id": 10753
+    },
+    "release_date": "2020-04-06"
+  },
+  "10754": {
+    "id": 10754,
+    "name": "Maelrawn Pupate",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 5,
+    "mana_cost": 3,
+    "attack": 0,
+    "armor": 0,
+    "health": 6,
+    "artwork": {
+      "artwork_id": 10754
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10758
+    ]
+  },
+  "10758": {
+    "id": 10758,
+    "name": "Spawn of Maelrawn",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "hidden_reason": "Uncollectable",
+    "color": "Blue",
+    "rarity": 2,
+    "mana_cost": 13,
+    "attack": 32,
+    "armor": 0,
+    "health": 32,
+    "artwork": {
+      "artwork_id": 10758
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10754
+    ],
+    "is_summon": true
+  },
+  "10759": {
+    "id": 10759,
+    "name": "Arclight Elemental",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 4,
+    "mana_cost": 2,
+    "attack": 3,
+    "armor": 0,
+    "health": 1,
+    "artwork": {
+      "artwork_id": 10759
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10761
+    ]
+  },
+  "10761": {
+    "id": 10761,
+    "name": "Arc Remnant",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "hidden_reason": "Uncollectable",
+    "color": "Black",
+    "rarity": 2,
+    "mana_cost": 2,
+    "attack": 3,
+    "armor": 0,
+    "health": 1,
+    "artwork": {
+      "artwork_id": 10761
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10759
+    ],
+    "is_summon": true
+  },
+  "10779": {
+    "id": 10779,
+    "name": "Rebel Rabble Rouser",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 2,
+    "faction": "Vhoul Rebellion",
+    "mana_cost": 4,
+    "attack": 2,
+    "armor": 0,
+    "health": 3,
+    "artwork": {
+      "artwork_id": 10779
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10936
+    ]
+  },
+  "10789": {
+    "id": 10789,
+    "name": "Plague Ward",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "hidden_reason": "Uncollectable",
+    "color": "Blue",
+    "rarity": 2,
+    "mana_cost": 1,
+    "attack": 1,
+    "armor": 0,
+    "health": 2,
+    "artwork": {
+      "artwork_id": 10789
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10786,
+      10788
+    ],
+    "is_summon": true
+  },
+  "10794": {
+    "id": 10794,
+    "name": "Possessed Blade",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 2,
+    "mana_cost": 1,
+    "attack": 2,
+    "armor": 0,
+    "health": 1,
+    "artwork": {
+      "artwork_id": 10794
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      3002
+    ]
+  },
+  "10809": {
+    "id": 10809,
+    "name": "Incarnation of Selemene",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 4,
+    "mana_cost": 9,
+    "attack": 1,
+    "armor": 0,
+    "health": 9,
+    "artwork": {
+      "artwork_id": 10809
+    },
+    "release_date": "2020-05-25"
+  },
+  "10820": {
+    "id": 10820,
+    "name": "Static Remnant",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "hidden_reason": "Uncollectable",
+    "color": "Black",
+    "rarity": 2,
+    "mana_cost": 2,
+    "attack": 0,
+    "armor": 0,
+    "health": 1,
+    "artwork": {
+      "artwork_id": 10820
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10536
+    ],
+    "is_summon": true
+  },
+  "10909": {
+    "id": 10909,
+    "name": "Hound of War",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "hidden_reason": "Uncollectable",
+    "color": "Blue",
+    "rarity": 2,
+    "mana_cost": 1,
+    "attack": 2,
+    "armor": 0,
+    "health": 0,
+    "artwork": {
+      "artwork_id": 10909
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10906
+    ],
+    "is_summon": true
+  },
+  "10935": {
+    "id": 10935,
+    "name": "Acolyte of the Radiant",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "hidden_reason": "Uncollectable",
+    "color": "Blue",
+    "rarity": 1,
+    "mana_cost": 2,
+    "attack": 2,
+    "armor": 1,
+    "health": 3,
+    "artwork": {
+      "artwork_id": 10935
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10336
+    ],
+    "is_summon": true
+  },
+  "10936": {
+    "id": 10936,
+    "name": "Roused Rabble",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "hidden_reason": "Uncollectable",
+    "color": "Green",
+    "rarity": 1,
+    "faction": "Vhoul Rebellion",
+    "mana_cost": 1,
+    "attack": 1,
+    "armor": 0,
+    "health": 1,
+    "artwork": {
+      "artwork_id": 10936
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10779
+    ],
+    "is_summon": true
+  },
+  "10955": {
+    "id": 10955,
+    "name": "Demonic Archer",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "hidden_reason": "Uncollectable",
+    "rarity": 2,
+    "mana_cost": 2,
+    "attack": 1,
+    "armor": 0,
+    "health": 2,
+    "artwork": {
+      "artwork_id": 10955
+    },
+    "release_date": "2020-05-04",
+    "related_cards": [
+      10944
+    ],
+    "is_summon": true
+  },
+  "10956": {
+    "id": 10956,
+    "name": "Crafty Kobold",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 3,
+    "mana_cost": 3,
+    "attack": 3,
+    "armor": 0,
+    "health": 3,
+    "artwork": {
+      "artwork_id": 10956
+    },
+    "release_date": "2020-05-25"
+  },
+  "10957": {
+    "id": 10957,
+    "name": "Screeching Wildwing",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 4,
+    "mana_cost": 5,
+    "attack": 6,
+    "armor": 0,
+    "health": 6,
+    "artwork": {
+      "artwork_id": 10957
+    },
+    "release_date": "2020-05-25"
+  },
+  "10958": {
+    "id": 10958,
+    "name": "Thieving Greevil",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 2,
+    "faction": "Greevil",
+    "mana_cost": 1,
+    "attack": 1,
+    "armor": 0,
+    "health": 1,
+    "artwork": {
+      "artwork_id": 10958
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10967
+    ]
+  },
+  "10959": {
+    "id": 10959,
+    "name": "Gaseous Greevil",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 3,
+    "faction": "Greevil",
+    "mana_cost": 1,
+    "attack": 1,
+    "armor": 0,
+    "health": 1,
+    "artwork": {
+      "artwork_id": 10959
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10967
+    ]
+  },
+  "10960": {
+    "id": 10960,
+    "name": "Greevil Bronco",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 2,
+    "faction": "Greevil",
+    "mana_cost": 1,
+    "attack": 1,
+    "armor": 0,
+    "health": 1,
+    "artwork": {
+      "artwork_id": 10960
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10967
+    ]
+  },
+  "10961": {
+    "id": 10961,
+    "name": "Greevil Eggtender",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 3,
+    "faction": "Greevil",
+    "mana_cost": 1,
+    "attack": 1,
+    "armor": 0,
+    "health": 1,
+    "artwork": {
+      "artwork_id": 10961
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10967
+    ]
+  },
+  "10962": {
+    "id": 10962,
+    "name": "Spirited Greevil",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 3,
+    "faction": "Greevil",
+    "mana_cost": 1,
+    "attack": 1,
+    "armor": 0,
+    "health": 1,
+    "artwork": {
+      "artwork_id": 10962
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10967
+    ]
+  },
+  "10963": {
+    "id": 10963,
+    "name": "Sticky Greevil",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 1,
+    "faction": "Greevil",
+    "mana_cost": 1,
+    "attack": 1,
+    "armor": 0,
+    "health": 1,
+    "artwork": {
+      "artwork_id": 10963
+    },
+    "release_date": "2020-04-06",
+    "related_cards": [
+      10967
+    ]
+  },
+  "10964": {
+    "id": 10964,
+    "name": "Spitting Greevil",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 2,
+    "faction": "Greevil",
+    "mana_cost": 1,
+    "attack": 1,
+    "armor": 0,
+    "health": 1,
+    "artwork": {
+      "artwork_id": 10964
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10967
+    ]
+  },
+  "10965": {
+    "id": 10965,
+    "name": "Determined Greevil",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 3,
+    "faction": "Greevil",
+    "mana_cost": 1,
+    "attack": 1,
+    "armor": 0,
+    "health": 1,
+    "artwork": {
+      "artwork_id": 10965
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10967
+    ]
+  },
+  "10966": {
+    "id": 10966,
+    "name": "Naked Greevil",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 2,
+    "faction": "Greevil",
+    "mana_cost": 1,
+    "attack": 1,
+    "armor": 0,
+    "health": 1,
+    "artwork": {
+      "artwork_id": 10966
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10967
+    ]
+  },
+  "10968": {
+    "id": 10968,
+    "name": "Rebel Recruiter",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 5,
+    "faction": "Vhoul Rebellion",
+    "mana_cost": 3,
+    "attack": 2,
+    "armor": 0,
+    "health": 4,
+    "artwork": {
+      "artwork_id": 10968
+    },
+    "release_date": "2020-12-03"
+  },
+  "10970": {
+    "id": 10970,
+    "name": "Legion Scouting Party",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 5,
+    "faction": "Bronze Legion",
+    "mana_cost": 5,
+    "attack": 3,
+    "armor": 1,
+    "health": 2,
+    "artwork": {
+      "artwork_id": 10970
+    },
+    "release_date": "2020-11-21",
+    "related_cards": [
+      10104
+    ]
+  },
+  "10973": {
+    "id": 10973,
+    "name": "Imperial Herald",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 5,
+    "faction": "Bronze Legion",
+    "mana_cost": 4,
+    "attack": 2,
+    "armor": 1,
+    "health": 2,
+    "artwork": {
+      "artwork_id": 10973
+    },
+    "release_date": "2020-11-21"
+  },
+  "10980": {
+    "id": 10980,
+    "name": "Rock",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "hidden_reason": "Uncollectable",
+    "color": "Blue",
+    "rarity": 2,
+    "mana_cost": 1,
+    "attack": 0,
+    "armor": 0,
+    "health": 1,
+    "artwork": {
+      "artwork_id": 10980
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10033
+    ],
+    "is_summon": true
+  },
+  "10990": {
+    "id": 10990,
+    "name": "Mega Creep",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "hidden_reason": "Uncollectable",
+    "rarity": 2,
+    "mana_cost": 2,
+    "attack": 2,
+    "armor": 0,
+    "health": 3,
+    "artwork": {
+      "artwork_id": 10990
+    },
+    "release_date": "2020-05-11",
+    "related_cards": [
+      10053
+    ],
+    "is_summon": true
+  },
+  "11002": {
+    "id": 11002,
+    "name": "Prowler Vanguard",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 1,
+    "mana_cost": 3,
+    "attack": 2,
+    "armor": 0,
+    "health": 4,
+    "artwork": {
+      "artwork_id": 11002
+    },
+    "release_date": "2020-04-27",
+    "signature_of": [
+      11000
+    ]
+  },
+  "11045": {
+    "id": 11045,
+    "name": "Stonehall Paragon",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "hidden_reason": "Uncollectable",
+    "color": "Red",
+    "rarity": 2,
+    "faction": "Bronze Legion",
+    "mana_cost": 4,
+    "attack": 7,
+    "armor": 2,
+    "health": 4,
+    "artwork": {
+      "artwork_id": 11045
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10131
+    ],
+    "is_summon": true
+  },
+  "11049": {
+    "id": 11049,
+    "name": "Spark Wraith",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 4,
+    "mana_cost": 2,
+    "attack": 0,
+    "armor": 0,
+    "health": 1,
+    "artwork": {
+      "artwork_id": 11049
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      11046
+    ]
+  },
+  "11054": {
+    "id": 11054,
+    "name": "Spirit of St. Crella",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 3,
+    "mana_cost": 3,
+    "attack": 3,
+    "armor": 0,
+    "health": 5,
+    "artwork": {
+      "artwork_id": 11054
+    },
+    "release_date": "2020-05-29",
+    "related_cards": [
+      11055
+    ]
+  },
+  "11055": {
+    "id": 11055,
+    "name": "Presence of St. Crella",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": false,
+    "hidden_reason": "Uncollectable",
+    "color": "Green",
+    "rarity": 3,
+    "mana_cost": 3,
+    "attack": 4,
+    "armor": 2,
+    "health": 5,
+    "artwork": {
+      "artwork_id": 11054
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      11054
+    ]
+  },
+  "11071": {
+    "id": 11071,
+    "name": "Tempest Clone",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "hidden_reason": "Uncollectable",
+    "color": "Blue",
+    "rarity": 5,
+    "mana_cost": 1,
+    "attack": 3,
+    "armor": 0,
+    "health": 4,
+    "artwork": {
+      "artwork_id": 11071
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      11046
+    ],
+    "is_summon": true
+  },
+  "11085": {
+    "id": 11085,
+    "name": "Rumusque Choir",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 2,
+    "mana_cost": 3,
+    "attack": 2,
+    "armor": 0,
+    "health": 2,
+    "artwork": {
+      "artwork_id": 11085
+    },
+    "release_date": "2020-09-18"
+  },
+  "11086": {
+    "id": 11086,
+    "name": "Shock Trooper",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 3,
+    "faction": "Bronze Legion",
+    "mana_cost": 2,
+    "attack": 2,
+    "armor": 0,
+    "health": 2,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 11086
+    },
+    "release_date": "2020-10-01"
+  },
+  "11088": {
+    "id": 11088,
+    "name": "Birds of Paradox",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 3,
+    "mana_cost": 2,
+    "attack": 0,
+    "armor": 0,
+    "health": 2,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 11088
+    },
+    "release_date": "2020-10-01"
+  },
+  "11089": {
+    "id": 11089,
+    "name": "Centaur Warband",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 3,
+    "mana_cost": 6,
+    "attack": 6,
+    "armor": 0,
+    "health": 6,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 11089
+    },
+    "release_date": "2020-10-01"
+  },
+  "11092": {
+    "id": 11092,
+    "name": "Loyal Guardian",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 3,
+    "mana_cost": 3,
+    "attack": 2,
+    "armor": 1,
+    "health": 2,
+    "artwork": {
+      "artwork_id": 11092
+    },
+    "release_date": "2020-10-01",
+    "related_cards": [
+      11093
+    ]
+  },
+  "11095": {
+    "id": 11095,
+    "name": "Ozkavosh Horror",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 3,
+    "mana_cost": 4,
+    "attack": 3,
+    "armor": 0,
+    "health": 3,
+    "artwork": {
+      "artwork_id": 11095
+    },
+    "release_date": "2020-10-01"
+  },
+  "11096": {
+    "id": 11096,
+    "name": "Gold Elemental",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 3,
+    "mana_cost": 3,
+    "attack": 2,
+    "armor": 0,
+    "health": 4,
+    "artwork": {
+      "artwork_id": 11096
+    },
+    "release_date": "2020-10-01"
+  },
+  "11099": {
+    "id": 11099,
+    "name": "Canid Bushwacker",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 3,
+    "faction": "Vhoul Rebellion",
+    "mana_cost": 3,
+    "attack": 3,
+    "armor": 0,
+    "health": 1,
+    "artwork": {
+      "artwork_id": 11099
+    },
+    "release_date": "2020-12-03"
+  },
+  "11100": {
+    "id": 11100,
+    "name": "Doomed Villager",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 3,
+    "mana_cost": 2,
+    "attack": 0,
+    "armor": 0,
+    "health": 2,
+    "artwork": {
+      "artwork_id": 11100
+    },
+    "release_date": "2020-12-03",
+    "related_cards": [
+      11101
+    ]
+  },
+  "11101": {
+    "id": 11101,
+    "name": "Vengeful Vhoul",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": false,
+    "hidden_reason": "Uncollectable",
+    "color": "Green",
+    "rarity": 1,
+    "faction": "Vhoul Rebellion",
+    "mana_cost": 2,
+    "attack": 4,
+    "armor": 0,
+    "health": 4,
+    "artwork": {
+      "artwork_id": 11101
+    },
+    "release_date": "2020-12-03",
+    "related_cards": [
+      11100
+    ]
+  },
+  "11103": {
+    "id": 11103,
+    "name": "Canid Commando",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": false,
+    "hidden_reason": "Uncollectable",
+    "color": "Black",
+    "rarity": 1,
+    "faction": "Vhoul Rebellion",
+    "mana_cost": 2,
+    "attack": 4,
+    "armor": 0,
+    "health": 2,
+    "artwork": {
+      "artwork_id": 11103
+    },
+    "release_date": "2020-12-03",
+    "related_cards": [
+      11102
+    ]
+  },
+  "11104": {
+    "id": 11104,
+    "name": "Vhoul Ringleader",
+    "type": 4,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 3,
+    "faction": "Vhoul Rebellion",
+    "mana_cost": 4,
+    "attack": 2,
+    "armor": 0,
+    "health": 6,
+    "artwork": {
+      "artwork_id": 11104
+    },
+    "release_date": "2020-12-03"
+  }
+}

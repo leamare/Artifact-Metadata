@@ -1,0 +1,1886 @@
+{
+  "10004": {
+    "id": 10004,
+    "name": "Meepo",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 5,
+    "attack": 3,
+    "armor": 0,
+    "health": 4,
+    "artwork": {
+      "artwork_id": 10004
+    },
+    "release_date": "2020-05-25",
+    "signature": [
+      {
+        "card_id": 10005,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10490,
+      10429
+    ]
+  },
+  "10006": {
+    "id": 10006,
+    "name": "Luna",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 2,
+    "attack": 2,
+    "armor": 0,
+    "health": 6,
+    "artwork": {
+      "artwork_id": 10006
+    },
+    "release_date": "2020-05-21",
+    "signature": [
+      {
+        "card_id": 10007,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10489
+    ]
+  },
+  "10010": {
+    "id": 10010,
+    "name": "Winter Wyvern",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 4,
+    "attack": 4,
+    "armor": 0,
+    "health": 5,
+    "artwork": {
+      "artwork_id": 10010
+    },
+    "release_date": "2020-05-25",
+    "search_terms": "ww",
+    "signature": [
+      {
+        "card_id": 10011,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10430
+    ]
+  },
+  "10014": {
+    "id": 10014,
+    "name": "Lycan",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 2,
+    "attack": 3,
+    "armor": 0,
+    "health": 6,
+    "artwork": {
+      "artwork_id": 10014
+    },
+    "release_date": "2020-05-21",
+    "signature": [
+      {
+        "card_id": 10112,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10494,
+      11069
+    ]
+  },
+  "10016": {
+    "id": 10016,
+    "name": "Abaddon",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 2,
+    "attack": 2,
+    "armor": 0,
+    "health": 9,
+    "artwork": {
+      "artwork_id": 10016
+    },
+    "release_date": "2020-09-03",
+    "signature": [
+      {
+        "card_id": 11074,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10431
+    ]
+  },
+  "10017": {
+    "id": 10017,
+    "name": "Chen",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 2,
+    "attack": 3,
+    "armor": 0,
+    "health": 7,
+    "artwork": {
+      "artwork_id": 10017
+    },
+    "release_date": "2020-05-25",
+    "signature": [
+      {
+        "card_id": 10340,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10432,
+      11072
+    ]
+  },
+  "10018": {
+    "id": 10018,
+    "name": "Bloodseeker",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 2,
+    "attack": 3,
+    "armor": 0,
+    "health": 5,
+    "artwork": {
+      "artwork_id": 10018
+    },
+    "release_date": "2020-05-25",
+    "search_terms": "bs",
+    "signature": [
+      {
+        "card_id": 10289,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10496
+    ]
+  },
+  "10020": {
+    "id": 10020,
+    "name": "Axe",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 2,
+    "attack": 3,
+    "armor": 2,
+    "health": 6,
+    "artwork": {
+      "artwork_id": 10020
+    },
+    "release_date": "2020-05-25",
+    "signature": [
+      {
+        "card_id": 10288,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10816
+    ]
+  },
+  "10021": {
+    "id": 10021,
+    "name": "Centaur Warrunner",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 3,
+    "faction": "Marrowfell Hunters",
+    "attack": 3,
+    "armor": 0,
+    "health": 9,
+    "artwork": {
+      "artwork_id": 10021
+    },
+    "release_date": "2020-05-25",
+    "signature": [
+      {
+        "card_id": 10292,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10497,
+      11063
+    ]
+  },
+  "10022": {
+    "id": 10022,
+    "name": "Timbersaw",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 1,
+    "faction": "The S.O.L.K.",
+    "attack": 4,
+    "armor": 1,
+    "health": 6,
+    "artwork": {
+      "artwork_id": 10022
+    },
+    "release_date": "2020-05-25",
+    "signature": [
+      {
+        "card_id": 10296,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10498
+    ]
+  },
+  "10024": {
+    "id": 10024,
+    "name": "Tidehunter",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 4,
+    "attack": 2,
+    "armor": 1,
+    "health": 8,
+    "artwork": {
+      "artwork_id": 10024
+    },
+    "release_date": "2020-05-25",
+    "signature": [
+      {
+        "card_id": 10975,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      11065,
+      10434
+    ]
+  },
+  "10025": {
+    "id": 10025,
+    "name": "Tinker",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 4,
+    "faction": "The S.O.L.K.",
+    "attack": 4,
+    "armor": 0,
+    "health": 4,
+    "artwork": {
+      "artwork_id": 10025
+    },
+    "release_date": "2020-05-25",
+    "signature": [
+      {
+        "card_id": 10291,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10435
+    ]
+  },
+  "10026": {
+    "id": 10026,
+    "name": "Rix",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 2,
+    "faction": "Vhoul Rebellion",
+    "attack": 3,
+    "armor": 0,
+    "health": 3,
+    "artwork": {
+      "artwork_id": 10026
+    },
+    "release_date": "2020-05-25",
+    "signature": [
+      {
+        "card_id": 10420,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10500
+    ]
+  },
+  "10028": {
+    "id": 10028,
+    "name": "Viper",
+    "type": 6,
+    "type_source": "classic",
+    "set": 1,
+    "attack": 4,
+    "health": 10,
+    "color": "Green",
+    "artwork": {
+      "artwork_id": 10028
+    },
+    "abilities": [
+      11036
+    ]
+  },
+  "10029": {
+    "id": 10029,
+    "name": "Beastmaster",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 5,
+    "attack": 3,
+    "armor": 0,
+    "health": 6,
+    "artwork": {
+      "artwork_id": 10029
+    },
+    "release_date": "2020-05-21",
+    "search_terms": "bm",
+    "signature": [
+      {
+        "card_id": 10293,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10437,
+      11051
+    ],
+    "related_cards": [
+      10136
+    ]
+  },
+  "10030": {
+    "id": 10030,
+    "name": "Bristleback",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 3,
+    "attack": 4,
+    "armor": 1,
+    "health": 5,
+    "artwork": {
+      "artwork_id": 10030
+    },
+    "release_date": "2020-04-13",
+    "signature": [
+      {
+        "card_id": 10419,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10502,
+      11012
+    ]
+  },
+  "10032": {
+    "id": 10032,
+    "name": "Drow Ranger",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 1,
+    "attack": 3,
+    "armor": 0,
+    "health": 5,
+    "artwork": {
+      "artwork_id": 10032
+    },
+    "release_date": "2020-05-25",
+    "search_terms": "traxex",
+    "signature": [
+      {
+        "card_id": 10339,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10504
+    ]
+  },
+  "10033": {
+    "id": 10033,
+    "name": "Earthshaker",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 3,
+    "attack": 2,
+    "armor": 0,
+    "health": 6,
+    "artwork": {
+      "artwork_id": 10033
+    },
+    "release_date": "2020-05-25",
+    "search_terms": "es",
+    "signature": [
+      {
+        "card_id": 10323,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10981,
+      10438
+    ],
+    "related_cards": [
+      10980
+    ]
+  },
+  "10036": {
+    "id": 10036,
+    "name": "Enchantress",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 2,
+    "attack": 3,
+    "armor": 0,
+    "health": 5,
+    "artwork": {
+      "artwork_id": 10036
+    },
+    "release_date": "2020-05-21",
+    "signature": [
+      {
+        "card_id": 10193,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10506
+    ]
+  },
+  "10038": {
+    "id": 10038,
+    "name": "Lich",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 2,
+    "attack": 3,
+    "armor": 0,
+    "health": 5,
+    "artwork": {
+      "artwork_id": 10038
+    },
+    "release_date": "2020-05-25",
+    "signature": [
+      {
+        "card_id": 10318,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10440
+    ]
+  },
+  "10043": {
+    "id": 10043,
+    "name": "Ogre Magi",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 3,
+    "attack": 2,
+    "armor": 2,
+    "health": 5,
+    "artwork": {
+      "artwork_id": 10043
+    },
+    "release_date": "2020-05-11",
+    "signature": [
+      {
+        "card_id": 10160,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10509
+    ]
+  },
+  "10044": {
+    "id": 10044,
+    "name": "Omniknight",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 4,
+    "attack": 3,
+    "armor": 0,
+    "health": 9,
+    "artwork": {
+      "artwork_id": 10044
+    },
+    "release_date": "2020-05-25",
+    "signature": [
+      {
+        "card_id": 10348,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10443
+    ]
+  },
+  "10047": {
+    "id": 10047,
+    "name": "Phantom Assassin",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 1,
+    "faction": "Veiled Sisterhood",
+    "attack": 4,
+    "armor": 0,
+    "health": 6,
+    "artwork": {
+      "artwork_id": 10047
+    },
+    "release_date": "2020-05-21",
+    "search_terms": "pa Mortred",
+    "signature": [
+      {
+        "card_id": 10308,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10512
+    ]
+  },
+  "10048": {
+    "id": 10048,
+    "name": "Pugna",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 3,
+    "attack": 3,
+    "armor": 0,
+    "health": 6,
+    "artwork": {
+      "artwork_id": 10048
+    },
+    "release_date": "2020-05-21",
+    "signature": [
+      {
+        "card_id": 10821,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10444
+    ]
+  },
+  "10050": {
+    "id": 10050,
+    "name": "Sniper",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 2,
+    "faction": "The S.O.L.K.",
+    "attack": 3,
+    "armor": 0,
+    "health": 5,
+    "artwork": {
+      "artwork_id": 10050
+    },
+    "release_date": "2020-05-21",
+    "signature": [
+      {
+        "card_id": 10272,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10446
+    ]
+  },
+  "10052": {
+    "id": 10052,
+    "name": "Mazzie",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 2,
+    "faction": "The S.O.L.K.",
+    "attack": 2,
+    "armor": 2,
+    "health": 4,
+    "artwork": {
+      "artwork_id": 10052
+    },
+    "release_date": "2020-09-03",
+    "signature": [
+      {
+        "card_id": 11076,
+        "count": 3
+      },
+      {
+        "card_id": 11078,
+        "count": 3
+      },
+      {
+        "card_id": 11080,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10179
+    ]
+  },
+  "10053": {
+    "id": 10053,
+    "name": "Prellex",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 1,
+    "faction": "Keeper of the Ancients",
+    "attack": 2,
+    "armor": 0,
+    "health": 5,
+    "artwork": {
+      "artwork_id": 10053
+    },
+    "release_date": "2020-05-11",
+    "signature": [
+      {
+        "card_id": 10055,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10523
+    ],
+    "related_cards": [
+      10990
+    ]
+  },
+  "10054": {
+    "id": 10054,
+    "name": "Sven",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 2,
+    "attack": 4,
+    "armor": 0,
+    "health": 5,
+    "artwork": {
+      "artwork_id": 10054
+    },
+    "release_date": "2020-05-25",
+    "signature": [
+      {
+        "card_id": 10330,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10513
+    ]
+  },
+  "10056": {
+    "id": 10056,
+    "name": "Treant Protector",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 1,
+    "attack": 2,
+    "armor": 0,
+    "health": 8,
+    "artwork": {
+      "artwork_id": 10056
+    },
+    "release_date": "2020-04-13",
+    "signature": [
+      {
+        "card_id": 10617,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10514
+    ]
+  },
+  "10058": {
+    "id": 10058,
+    "name": "Sorla Khan",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 2,
+    "faction": "Red Mist",
+    "attack": 4,
+    "armor": 0,
+    "health": 4,
+    "artwork": {
+      "artwork_id": 10058
+    },
+    "release_date": "2020-05-25",
+    "search_terms": "sk",
+    "signature": [
+      {
+        "card_id": 10177,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10516
+    ]
+  },
+  "10059": {
+    "id": 10059,
+    "name": "Necrophos",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 3,
+    "attack": 3,
+    "armor": 0,
+    "health": 6,
+    "artwork": {
+      "artwork_id": 10059
+    },
+    "release_date": "2020-05-25",
+    "signature": [
+      {
+        "card_id": 10818,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10517,
+      11042
+    ]
+  },
+  "10062": {
+    "id": 10062,
+    "name": "Skywrath Mage",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 2,
+    "attack": 3,
+    "armor": 0,
+    "health": 5,
+    "artwork": {
+      "artwork_id": 10062
+    },
+    "release_date": "2020-05-21",
+    "search_terms": "sm swm",
+    "signature": [
+      {
+        "card_id": 10063,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10451
+    ]
+  },
+  "10064": {
+    "id": 10064,
+    "name": "Crystal Maiden",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 1,
+    "attack": 2,
+    "armor": 0,
+    "health": 4,
+    "artwork": {
+      "artwork_id": 10064
+    },
+    "release_date": "2020-05-21",
+    "search_terms": "cm rylai",
+    "signature": [
+      {
+        "card_id": 10277,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10518
+    ]
+  },
+  "10065": {
+    "id": 10065,
+    "name": "Zeus",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 2,
+    "attack": 2,
+    "armor": 0,
+    "health": 6,
+    "artwork": {
+      "artwork_id": 10065
+    },
+    "release_date": "2020-05-25",
+    "signature": [
+      {
+        "card_id": 10278,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10519
+    ]
+  },
+  "10067": {
+    "id": 10067,
+    "name": "Magnus",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 2,
+    "attack": 3,
+    "armor": 1,
+    "health": 6,
+    "artwork": {
+      "artwork_id": 10067
+    },
+    "release_date": "2020-10-22",
+    "search_terms": "Magnoceros",
+    "signature": [
+      {
+        "card_id": 10280,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      11098
+    ]
+  },
+  "10068": {
+    "id": 10068,
+    "name": "Dark Seer",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 2,
+    "attack": 3,
+    "armor": 0,
+    "health": 8,
+    "artwork": {
+      "artwork_id": 10068
+    },
+    "release_date": "2020-05-25",
+    "signature": [
+      {
+        "card_id": 10281,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10452
+    ]
+  },
+  "10069": {
+    "id": 10069,
+    "name": "Legion Commander",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 1,
+    "faction": "Bronze Legion",
+    "attack": 5,
+    "armor": 1,
+    "health": 4,
+    "artwork": {
+      "artwork_id": 10069
+    },
+    "release_date": "2020-05-25",
+    "search_terms": "lc",
+    "signature": [
+      {
+        "card_id": 10341,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10520
+    ]
+  },
+  "10070": {
+    "id": 10070,
+    "name": "Ursa",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 2,
+    "attack": 5,
+    "armor": 0,
+    "health": 7,
+    "artwork": {
+      "artwork_id": 10070
+    },
+    "release_date": "2020-05-25",
+    "signature": [
+      {
+        "card_id": 10282,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10521
+    ]
+  },
+  "10536": {
+    "id": 10536,
+    "name": "Storm Spirit",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 3,
+    "attack": 4,
+    "armor": 0,
+    "health": 5,
+    "artwork": {
+      "artwork_id": 10536
+    },
+    "release_date": "2020-05-25",
+    "search_terms": "ss",
+    "signature": [
+      {
+        "card_id": 10538,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10537,
+      11068
+    ],
+    "related_cards": [
+      10820
+    ]
+  },
+  "10646": {
+    "id": 10646,
+    "name": "Anti-Mage",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 1,
+    "attack": 5,
+    "armor": 0,
+    "health": 5,
+    "artwork": {
+      "artwork_id": 10646
+    },
+    "release_date": "2020-05-21",
+    "search_terms": "am",
+    "signature": [
+      {
+        "card_id": 10648,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10647,
+      11035
+    ]
+  },
+  "10649": {
+    "id": 10649,
+    "name": "Death Prophet",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 5,
+    "attack": 3,
+    "armor": 0,
+    "health": 3,
+    "artwork": {
+      "artwork_id": 10649
+    },
+    "release_date": "2020-05-21",
+    "search_terms": "dp",
+    "signature": [
+      {
+        "card_id": 10651,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10650
+    ]
+  },
+  "10652": {
+    "id": 10652,
+    "name": "Lady Anshu",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 3,
+    "faction": "Rumusque Faithful",
+    "attack": 4,
+    "armor": 0,
+    "health": 4,
+    "artwork": {
+      "artwork_id": 10652
+    },
+    "release_date": "2020-05-25",
+    "signature": [
+      {
+        "card_id": 10654,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10653
+    ]
+  },
+  "10655": {
+    "id": 10655,
+    "name": "Mirana",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 2,
+    "attack": 4,
+    "armor": 0,
+    "health": 5,
+    "artwork": {
+      "artwork_id": 10655
+    },
+    "release_date": "2020-04-06",
+    "signature": [
+      {
+        "card_id": 10657,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10656
+    ]
+  },
+  "10658": {
+    "id": 10658,
+    "name": "Pierpont",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 2,
+    "attack": 2,
+    "armor": 0,
+    "health": 6,
+    "artwork": {
+      "artwork_id": 10658
+    },
+    "release_date": "2020-05-25",
+    "signature": [
+      {
+        "card_id": 10662,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10659,
+      11061
+    ]
+  },
+  "10663": {
+    "id": 10663,
+    "name": "Rix, Oathbound",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 5,
+    "faction": "Court of Ristul",
+    "attack": 3,
+    "armor": 0,
+    "health": 3,
+    "artwork": {
+      "artwork_id": 10663
+    },
+    "release_date": "2020-05-25",
+    "signature": [
+      {
+        "card_id": 10666,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10665,
+      10664
+    ]
+  },
+  "10668": {
+    "id": 10668,
+    "name": "Rubick",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 5,
+    "attack": 2,
+    "armor": 0,
+    "health": 5,
+    "artwork": {
+      "artwork_id": 10668
+    },
+    "release_date": "2020-05-25",
+    "signature": [
+      {
+        "card_id": 10670,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10669
+    ]
+  },
+  "10671": {
+    "id": 10671,
+    "name": "Shadow Fiend",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 3,
+    "faction": "Court of Ristul",
+    "attack": 3,
+    "armor": 0,
+    "health": 5,
+    "artwork": {
+      "artwork_id": 10671
+    },
+    "release_date": "2020-05-21",
+    "search_terms": "sf nevermore",
+    "signature": [
+      {
+        "card_id": 10673,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10672,
+      10819
+    ]
+  },
+  "10674": {
+    "id": 10674,
+    "name": "Tusk",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 5,
+    "attack": 4,
+    "armor": 0,
+    "health": 6,
+    "artwork": {
+      "artwork_id": 10674
+    },
+    "release_date": "2020-05-21",
+    "signature": [
+      {
+        "card_id": 10676,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10675
+    ]
+  },
+  "10678": {
+    "id": 10678,
+    "name": "Underlord",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 4,
+    "faction": "Court of Ristul",
+    "attack": 3,
+    "armor": 0,
+    "health": 8,
+    "artwork": {
+      "artwork_id": 10678
+    },
+    "release_date": "2020-05-25",
+    "signature": [
+      {
+        "card_id": 10700,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10679
+    ]
+  },
+  "10701": {
+    "id": 10701,
+    "name": "Vanessa",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 4,
+    "attack": 2,
+    "armor": 0,
+    "health": 7,
+    "artwork": {
+      "artwork_id": 10701
+    },
+    "release_date": "2020-05-25",
+    "signature": [
+      {
+        "card_id": 10703,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10702,
+      11062
+    ]
+  },
+  "10704": {
+    "id": 10704,
+    "name": "Dazzle",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 5,
+    "attack": 2,
+    "armor": 0,
+    "health": 6,
+    "artwork": {
+      "artwork_id": 10704
+    },
+    "release_date": "2020-05-25",
+    "signature": [
+      {
+        "card_id": 10706,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10705
+    ]
+  },
+  "10721": {
+    "id": 10721,
+    "name": "Phantom Lancer",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 2,
+    "attack": 4,
+    "armor": 0,
+    "health": 4,
+    "artwork": {
+      "artwork_id": 10721
+    },
+    "release_date": "2020-05-25",
+    "search_terms": "pl",
+    "signature": [
+      {
+        "card_id": 10724,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10722,
+      11050
+    ],
+    "related_cards": [
+      10723
+    ]
+  },
+  "10730": {
+    "id": 10730,
+    "name": "Imperia",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 3,
+    "attack": 2,
+    "armor": 0,
+    "health": 6,
+    "artwork": {
+      "artwork_id": 10730
+    },
+    "release_date": "2020-05-25",
+    "signature": [
+      {
+        "card_id": 10732,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10731,
+      11064
+    ]
+  },
+  "10755": {
+    "id": 10755,
+    "name": "Outworld Destroyer",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 5,
+    "attack": 3,
+    "armor": 0,
+    "health": 4,
+    "artwork": {
+      "artwork_id": 10755
+    },
+    "release_date": "2020-05-25",
+    "search_terms": "od",
+    "signature": [
+      {
+        "card_id": 10757,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10756
+    ]
+  },
+  "10783": {
+    "id": 10783,
+    "name": "Bounty Hunter",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 2,
+    "attack": 4,
+    "armor": 0,
+    "health": 5,
+    "artwork": {
+      "artwork_id": 10783
+    },
+    "release_date": "2020-04-13",
+    "search_terms": "bh",
+    "signature": [
+      {
+        "card_id": 10785,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10784
+    ]
+  },
+  "10786": {
+    "id": 10786,
+    "name": "Venomancer",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 2,
+    "attack": 1,
+    "armor": 0,
+    "health": 5,
+    "artwork": {
+      "artwork_id": 10786
+    },
+    "release_date": "2020-05-25",
+    "signature": [
+      {
+        "card_id": 10788,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10787,
+      11067
+    ],
+    "related_cards": [
+      10789
+    ]
+  },
+  "10811": {
+    "id": 10811,
+    "name": "Lina",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 2,
+    "attack": 2,
+    "armor": 0,
+    "health": 5,
+    "artwork": {
+      "artwork_id": 10811
+    },
+    "release_date": "2020-05-25",
+    "signature": [
+      {
+        "card_id": 10813,
+        "count": 3
+      },
+      {
+        "card_id": 10814,
+        "count": 3
+      },
+      {
+        "card_id": 10815,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10812
+    ]
+  },
+  "10906": {
+    "id": 10906,
+    "name": "Kanna",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 5,
+    "faction": "Keeper of the Ancients",
+    "attack": 1,
+    "armor": 0,
+    "health": 8,
+    "artwork": {
+      "artwork_id": 10906
+    },
+    "release_date": "2020-05-25",
+    "signature": [
+      {
+        "card_id": 10908,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10907,
+      10910
+    ],
+    "related_cards": [
+      10909
+    ]
+  },
+  "10937": {
+    "id": 10937,
+    "name": "Sand King",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 3,
+    "attack": 3,
+    "armor": 0,
+    "health": 7,
+    "artwork": {
+      "artwork_id": 10937
+    },
+    "release_date": "2020-05-25",
+    "search_terms": "sk",
+    "signature": [
+      {
+        "card_id": 10938,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10939
+    ]
+  },
+  "10940": {
+    "id": 10940,
+    "name": "Tiny",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 4,
+    "attack": 2,
+    "armor": 0,
+    "health": 4,
+    "artwork": {
+      "artwork_id": 10940
+    },
+    "release_date": "2020-05-21",
+    "signature": [
+      {
+        "card_id": 10942,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10941
+    ]
+  },
+  "10982": {
+    "id": 10982,
+    "name": "Dragon Knight",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 2,
+    "attack": 3,
+    "armor": 0,
+    "health": 5,
+    "artwork": {
+      "artwork_id": 10982
+    },
+    "release_date": "2020-05-25",
+    "search_terms": "dk",
+    "signature": [
+      {
+        "card_id": 11033,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10984,
+      10983
+    ]
+  },
+  "10991": {
+    "id": 10991,
+    "name": "Wraith King",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 3,
+    "attack": 4,
+    "armor": 0,
+    "health": 3,
+    "artwork": {
+      "artwork_id": 10991
+    },
+    "release_date": "2020-04-06",
+    "search_terms": "wk",
+    "signature": [
+      {
+        "card_id": 10993,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      10992
+    ]
+  },
+  "11000": {
+    "id": 11000,
+    "name": "Farvhan the Dreamer",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 1,
+    "attack": 3,
+    "armor": 0,
+    "health": 6,
+    "artwork": {
+      "artwork_id": 11000
+    },
+    "release_date": "2020-05-25",
+    "signature": [
+      {
+        "card_id": 11002,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      11001
+    ]
+  },
+  "11003": {
+    "id": 11003,
+    "name": "Keefe the Bold",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 1,
+    "attack": 3,
+    "armor": 0,
+    "health": 8,
+    "artwork": {
+      "artwork_id": 11003
+    },
+    "release_date": "2020-04-27",
+    "search_terms": "Slacks",
+    "signature": [
+      {
+        "card_id": 11004,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      11011
+    ]
+  },
+  "11005": {
+    "id": 11005,
+    "name": "Debbi the Cunning",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 1,
+    "attack": 4,
+    "armor": 0,
+    "health": 4,
+    "artwork": {
+      "artwork_id": 11005
+    },
+    "release_date": "2020-04-20",
+    "signature": [
+      {
+        "card_id": 11007,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      11006
+    ]
+  },
+  "11008": {
+    "id": 11008,
+    "name": "J'Muy the Wise",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 1,
+    "attack": 2,
+    "armor": 0,
+    "health": 7,
+    "artwork": {
+      "artwork_id": 11008
+    },
+    "release_date": "2020-04-27",
+    "search_terms": "jmuy jimmy",
+    "signature": [
+      {
+        "card_id": 11010,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      11009
+    ]
+  },
+  "11039": {
+    "id": 11039,
+    "name": "Troll Warlord",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 2,
+    "attack": 2,
+    "armor": 0,
+    "health": 6,
+    "artwork": {
+      "artwork_id": 11039
+    },
+    "release_date": "2020-09-03",
+    "signature": [
+      {
+        "card_id": 11041,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      11040,
+      11084
+    ]
+  },
+  "11046": {
+    "id": 11046,
+    "name": "Arc Warden",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 4,
+    "attack": 3,
+    "armor": 0,
+    "health": 4,
+    "artwork": {
+      "artwork_id": 11046
+    },
+    "release_date": "2020-05-25",
+    "search_terms": "aw",
+    "signature": [
+      {
+        "card_id": 11049,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      11047
+    ],
+    "related_cards": [
+      11071
+    ]
+  },
+  "11056": {
+    "id": 11056,
+    "name": "Nyx Assassin",
+    "type": 6,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 5,
+    "attack": 3,
+    "armor": 0,
+    "health": 4,
+    "artwork": {
+      "artwork_id": 11056
+    },
+    "release_date": "2020-06-02",
+    "signature": [
+      {
+        "card_id": 11058,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      11057
+    ]
+  }
+}

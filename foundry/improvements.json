@@ -1,0 +1,781 @@
+{
+  "6000": {
+    "id": 6000,
+    "name": "Cheat Mana",
+    "type": 9,
+    "type_source": "classic",
+    "set": 0,
+    "artwork": {
+      "artwork_id": 6000
+    }
+  },
+  "10055": {
+    "id": 10055,
+    "name": "Barracks",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 1,
+    "mana_cost": 3,
+    "improvement_type": "Reactive",
+    "artwork": {
+      "artwork_id": 10055
+    },
+    "release_date": "2020-05-11",
+    "signature_of": [
+      10053
+    ]
+  },
+  "10141": {
+    "id": 10141,
+    "name": "Assured Destruction",
+    "type": 9,
+    "type_source": "classic",
+    "set": 1,
+    "mana_cost": 3,
+    "crosslane": true,
+    "color": "Black",
+    "artwork": {
+      "artwork_id": 10141
+    }
+  },
+  "10148": {
+    "id": 10148,
+    "name": "Fractured Timeline",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 5,
+    "mana_cost": 1,
+    "improvement_type": "Passive",
+    "artwork": {
+      "artwork_id": 10148
+    },
+    "release_date": "2020-05-25"
+  },
+  "10149": {
+    "id": 10149,
+    "name": "Unearthed Secrets",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 1,
+    "mana_cost": 3,
+    "improvement_type": "Passive",
+    "artwork": {
+      "artwork_id": 10149
+    },
+    "release_date": "2020-05-25"
+  },
+  "10154": {
+    "id": 10154,
+    "name": "The Tyler Estate",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 5,
+    "mana_cost": 3,
+    "improvement_type": "Passive",
+    "artwork": {
+      "artwork_id": 10154
+    },
+    "release_date": "2020-05-25"
+  },
+  "10155": {
+    "id": 10155,
+    "name": "Homefield Advantage",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 3,
+    "faction": "Vhoul Rebellion",
+    "mana_cost": 3,
+    "improvement_type": "Passive",
+    "artwork": {
+      "artwork_id": 10155
+    },
+    "release_date": "2020-05-25"
+  },
+  "10156": {
+    "id": 10156,
+    "name": "Bitter Enemies",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 4,
+    "mana_cost": 1,
+    "improvement_type": "Passive",
+    "artwork": {
+      "artwork_id": 10156
+    },
+    "release_date": "2020-05-25"
+  },
+  "10157": {
+    "id": 10157,
+    "name": "Conflagration",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 2,
+    "mana_cost": 5,
+    "improvement_type": "Passive",
+    "artwork": {
+      "artwork_id": 10157
+    },
+    "release_date": "2020-05-25"
+  },
+  "10161": {
+    "id": 10161,
+    "name": "Trebuchets",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 2,
+    "mana_cost": 1,
+    "improvement_type": "Passive",
+    "artwork": {
+      "artwork_id": 10161
+    },
+    "release_date": "2020-05-25"
+  },
+  "10162": {
+    "id": 10162,
+    "name": "Unsupervised Artillery",
+    "type": 9,
+    "type_source": "classic",
+    "set": 1,
+    "mana_cost": 2,
+    "crosslane": true,
+    "color": "Black",
+    "artwork": {
+      "artwork_id": 10162
+    }
+  },
+  "10164": {
+    "id": 10164,
+    "name": "Revtel Investments",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 3,
+    "mana_cost": 2,
+    "improvement_type": "Passive",
+    "artwork": {
+      "artwork_id": 10164
+    },
+    "release_date": "2020-05-25"
+  },
+  "10165": {
+    "id": 10165,
+    "name": "Iron Fog Goldmine",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 1,
+    "mana_cost": 3,
+    "improvement_type": "Passive",
+    "artwork": {
+      "artwork_id": 10165
+    },
+    "release_date": "2020-05-25"
+  },
+  "10168": {
+    "id": 10168,
+    "name": "Selemene's Favor",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 1,
+    "mana_cost": 6,
+    "improvement_type": "Passive",
+    "artwork": {
+      "artwork_id": 10168
+    },
+    "release_date": "2020-05-25"
+  },
+  "10169": {
+    "id": 10169,
+    "name": "Mist of Avernus",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 1,
+    "mana_cost": 3,
+    "improvement_type": "Passive",
+    "artwork": {
+      "artwork_id": 10169
+    },
+    "release_date": "2020-05-25"
+  },
+  "10170": {
+    "id": 10170,
+    "name": "Altar of the Mad Moon",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 1,
+    "mana_cost": 3,
+    "improvement_type": "Passive",
+    "artwork": {
+      "artwork_id": 10170
+    },
+    "release_date": "2020-05-25"
+  },
+  "10172": {
+    "id": 10172,
+    "name": "Temple of War",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 5,
+    "mana_cost": 3,
+    "improvement_type": "Active",
+    "artwork": {
+      "artwork_id": 10172
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      3000,
+      3001,
+      3002
+    ]
+  },
+  "10173": {
+    "id": 10173,
+    "name": "Nether Ward",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": false,
+    "hidden_reason": "Removed",
+    "color": "Red",
+    "rarity": 5,
+    "mana_cost": 2,
+    "improvement_type": "Passive",
+    "artwork": {
+      "artwork_id": 10173
+    },
+    "release_date": "2020-05-25"
+  },
+  "10174": {
+    "id": 10174,
+    "name": "Burning Oil",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 1,
+    "mana_cost": 1,
+    "improvement_type": "Passive",
+    "artwork": {
+      "artwork_id": 10174
+    },
+    "release_date": "2020-05-25"
+  },
+  "10175": {
+    "id": 10175,
+    "name": "Aghanim's Sanctum",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 1,
+    "mana_cost": 4,
+    "improvement_type": "Passive",
+    "artwork": {
+      "artwork_id": 10175
+    },
+    "release_date": "2020-05-25"
+  },
+  "10176": {
+    "id": 10176,
+    "name": "Escape Route",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 3,
+    "mana_cost": 1,
+    "improvement_type": "Passive",
+    "artwork": {
+      "artwork_id": 10176
+    },
+    "release_date": "2020-05-25"
+  },
+  "10177": {
+    "id": 10177,
+    "name": "Assault Ladders",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 2,
+    "mana_cost": 2,
+    "improvement_type": "Passive",
+    "artwork": {
+      "artwork_id": 10177
+    },
+    "release_date": "2020-05-11",
+    "signature_of": [
+      10058
+    ]
+  },
+  "10180": {
+    "id": 10180,
+    "name": "Messenger Rookery",
+    "type": 9,
+    "type_source": "classic",
+    "set": 1,
+    "mana_cost": 1,
+    "crosslane": true,
+    "color": "Blue",
+    "artwork": {
+      "artwork_id": 10180
+    }
+  },
+  "10181": {
+    "id": 10181,
+    "name": "Cheating Death",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 4,
+    "mana_cost": 3,
+    "improvement_type": "Passive",
+    "artwork": {
+      "artwork_id": 10181
+    },
+    "release_date": "2020-05-25"
+  },
+  "10183": {
+    "id": 10183,
+    "name": "The Omexe Arena",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 2,
+    "mana_cost": 3,
+    "improvement_type": "Passive",
+    "artwork": {
+      "artwork_id": 10183
+    },
+    "release_date": "2020-05-25"
+  },
+  "10184": {
+    "id": 10184,
+    "name": "Keenfolk Turret",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 3,
+    "mana_cost": 3,
+    "improvement_type": "Passive",
+    "artwork": {
+      "artwork_id": 10184
+    },
+    "release_date": "2020-05-25"
+  },
+  "10185": {
+    "id": 10185,
+    "name": "Steam Cannon",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 2,
+    "mana_cost": 6,
+    "crosslane": true,
+    "improvement_type": "Passive",
+    "artwork": {
+      "artwork_id": 10185
+    },
+    "release_date": "2020-05-25"
+  },
+  "10187": {
+    "id": 10187,
+    "name": "Glyph of Confusion",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 5,
+    "mana_cost": 5,
+    "improvement_type": "Passive",
+    "artwork": {
+      "artwork_id": 10187
+    },
+    "release_date": "2020-05-25"
+  },
+  "10194": {
+    "id": 10194,
+    "name": "Watchtower",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 3,
+    "mana_cost": 2,
+    "improvement_type": "Passive",
+    "artwork": {
+      "artwork_id": 10194
+    },
+    "release_date": "2020-05-25"
+  },
+  "10291": {
+    "id": 10291,
+    "name": "March of the Machines",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 4,
+    "mana_cost": 4,
+    "improvement_type": "Passive",
+    "artwork": {
+      "artwork_id": 10291
+    },
+    "release_date": "2020-05-11",
+    "search_terms": "motm",
+    "signature_of": [
+      10025
+    ]
+  },
+  "10603": {
+    "id": 10603,
+    "name": "Burning Pitch",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 1,
+    "mana_cost": 3,
+    "improvement_type": "Passive",
+    "artwork": {
+      "artwork_id": 10603
+    },
+    "release_date": "2020-05-25"
+  },
+  "10604": {
+    "id": 10604,
+    "name": "Summoning Circle",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": false,
+    "hidden_reason": "Removed",
+    "color": "Green",
+    "rarity": 5,
+    "mana_cost": 3,
+    "improvement_type": "Passive",
+    "artwork": {
+      "artwork_id": 10604
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10637
+    ]
+  },
+  "10611": {
+    "id": 10611,
+    "name": "Wildwing Bait",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 2,
+    "mana_cost": 3,
+    "attack": 0,
+    "armor": 0,
+    "health": 1,
+    "improvement_type": "Passive",
+    "artwork": {
+      "artwork_id": 10611
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10638
+    ]
+  },
+  "10666": {
+    "id": 10666,
+    "name": "The Twisted Path",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 5,
+    "mana_cost": 3,
+    "improvement_type": "Reactive",
+    "artwork": {
+      "artwork_id": 10666
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10663
+    ]
+  },
+  "10706": {
+    "id": 10706,
+    "name": "Weave",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 5,
+    "mana_cost": 5,
+    "improvement_type": "Passive",
+    "artwork": {
+      "artwork_id": 10706
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10704
+    ]
+  },
+  "10767": {
+    "id": 10767,
+    "name": "Veteran's Insight",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 4,
+    "mana_cost": 3,
+    "improvement_type": "Reactive",
+    "artwork": {
+      "artwork_id": 10767
+    },
+    "release_date": "2020-05-25"
+  },
+  "10775": {
+    "id": 10775,
+    "name": "Path of the Cunning",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 2,
+    "mana_cost": 2,
+    "improvement_type": "Passive",
+    "artwork": {
+      "artwork_id": 10775
+    },
+    "release_date": "2020-05-25"
+  },
+  "10776": {
+    "id": 10776,
+    "name": "Path of the Wise",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 4,
+    "mana_cost": 2,
+    "improvement_type": "Passive",
+    "artwork": {
+      "artwork_id": 10776
+    },
+    "release_date": "2020-05-25"
+  },
+  "10777": {
+    "id": 10777,
+    "name": "Path of the Dreamer",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 2,
+    "mana_cost": 2,
+    "improvement_type": "Passive",
+    "artwork": {
+      "artwork_id": 10777
+    },
+    "release_date": "2020-05-25"
+  },
+  "10778": {
+    "id": 10778,
+    "name": "Path of the Bold",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 4,
+    "mana_cost": 2,
+    "improvement_type": "Passive",
+    "artwork": {
+      "artwork_id": 10778
+    },
+    "release_date": "2020-05-25"
+  },
+  "10810": {
+    "id": 10810,
+    "name": "The Oath",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 4,
+    "mana_cost": 2,
+    "improvement_type": "Passive",
+    "artwork": {
+      "artwork_id": 10810
+    },
+    "release_date": "2020-05-25"
+  },
+  "11043": {
+    "id": 11043,
+    "name": "Courier",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": false,
+    "hidden_reason": "Uncollectable",
+    "rarity": 1,
+    "mana_cost": 0,
+    "improvement_type": "Passive",
+    "artwork": {
+      "artwork_id": 11043
+    },
+    "release_date": "2020-05-21"
+  },
+  "11052": {
+    "id": 11052,
+    "name": "Corrosive Breath",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": false,
+    "hidden_reason": "Removed",
+    "color": "Green",
+    "rarity": 2,
+    "mana_cost": 4,
+    "improvement_type": "Passive",
+    "artwork": {
+      "artwork_id": 11052
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10982
+    ]
+  },
+  "11059": {
+    "id": 11059,
+    "name": "In Full Bloom",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 1,
+    "mana_cost": 3,
+    "improvement_type": "Passive",
+    "artwork": {
+      "artwork_id": 11059
+    },
+    "release_date": "2020-06-19"
+  },
+  "11060": {
+    "id": 11060,
+    "name": "Plague Hex",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 1,
+    "mana_cost": 3,
+    "improvement_type": "Passive",
+    "artwork": {
+      "artwork_id": 11060
+    },
+    "release_date": "2020-06-19"
+  },
+  "11093": {
+    "id": 11093,
+    "name": "Loyal Guardian",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": false,
+    "hidden_reason": "Uncollectable",
+    "color": "Red",
+    "rarity": 1,
+    "mana_cost": 3,
+    "improvement_type": "Passive",
+    "artwork": {
+      "artwork_id": 11093
+    },
+    "release_date": "2020-10-01",
+    "related_cards": [
+      11092
+    ]
+  },
+  "11094": {
+    "id": 11094,
+    "name": "Arcane Citadel",
+    "type": 9,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 1,
+    "mana_cost": 3,
+    "improvement_type": "Passive",
+    "artwork": {
+      "artwork_id": 11094
+    },
+    "release_date": "2020-10-01"
+  }
+}

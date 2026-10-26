@@ -1,0 +1,6223 @@
+{
+  "3007": [
+    {
+      "release_date": "2020-05-21",
+      "text": " Move caster to an adjacent lane. /n This is a reward for damaging the enemy tower. /n [TG]Cross Lane[ET]"
+    },
+    {
+      "release_date": "2020-07-16",
+      "text": " Move caster to an adjacent lane. /n This is a reward for destroying the enemy tower. /n [TG]Cross Lane[ET]"
+    }
+  ],
+  "10006": [
+    {
+      "release_date": "2020-05-21",
+      "health": 5
+    },
+    {
+      "release_date": "2020-05-25",
+      "health": 6
+    }
+  ],
+  "10011": [
+    {
+      "release_date": "2020-05-25",
+      "cost": 5,
+      "text": " Stun an enemy. It is attacked by its allied neighbors.",
+      "is_signature": "10010_1"
+    },
+    {
+      "release_date": "2020-09-24",
+      "cost": 4,
+      "is_signature": "10010_2"
+    },
+    {
+      "release_date": "2020-10-09",
+      "text": " Stun an enemy. It's allied neighbors strike it.",
+      "is_signature": "10010_3"
+    }
+  ],
+  "10014": [
+    {
+      "release_date": "2020-05-21",
+      "abilities": [
+        10494
+      ]
+    },
+    {
+      "release_date": "2020-08-21",
+      "abilities": [
+        10494,
+        11069
+      ]
+    }
+  ],
+  "10016": [
+    {
+      "release_date": "2020-09-03",
+      "attack": 3,
+      "health": 6
+    },
+    {
+      "release_date": "2020-10-09",
+      "attack": 2,
+      "health": 8
+    },
+    {
+      "release_date": "2021-03-11",
+      "health": 9
+    }
+  ],
+  "10017": [
+    {
+      "release_date": "2020-05-25",
+      "rarity": 3,
+      "abilities": [
+        10432
+      ]
+    },
+    {
+      "release_date": "2020-08-21",
+      "rarity": 2,
+      "abilities": [
+        10432,
+        11072
+      ]
+    }
+  ],
+  "10018": [
+    {
+      "release_date": "2020-05-25",
+      "attack": 5,
+      "health": 6
+    },
+    {
+      "release_date": "2020-09-18",
+      "attack": 3,
+      "health": 5
+    }
+  ],
+  "10021": [
+    {
+      "release_date": "2020-05-25",
+      "attack": 2,
+      "health": 5,
+      "abilities": [
+        10497
+      ]
+    },
+    {
+      "attack": 3,
+      "health": 9
+    },
+    {
+      "release_date": "2020-07-09",
+      "abilities": [
+        10497,
+        11063
+      ]
+    },
+    {
+      "release_date": "2020-11-21",
+      "faction": "Marrowfell Hunters"
+    }
+  ],
+  "10022": [
+    {
+      "release_date": "2020-05-25",
+      "health": 7
+    },
+    {
+      "release_date": "2020-07-31",
+      "health": 6
+    },
+    {
+      "release_date": "2020-11-21",
+      "faction": "The S.O.L.K."
+    }
+  ],
+  "10024": [
+    {
+      "release_date": "2020-05-25",
+      "health": 10,
+      "abilities": [
+        10290,
+        10434
+      ]
+    },
+    {
+      "release_date": "2020-07-23",
+      "abilities": [
+        11065,
+        10434
+      ]
+    },
+    {
+      "release_date": "2020-10-29",
+      "health": 9
+    },
+    {
+      "release_date": "2021-03-11",
+      "health": 8
+    }
+  ],
+  "10025": [
+    {
+      "release_date": "2020-05-25",
+      "attack": 5
+    },
+    {
+      "release_date": "2020-07-31",
+      "attack": 4
+    },
+    {
+      "release_date": "2020-11-21",
+      "faction": "The S.O.L.K."
+    }
+  ],
+  "10026": [
+    {
+      "release_date": "2020-05-25"
+    },
+    {
+      "release_date": "2020-11-21",
+      "faction": "Vhoul Rebellion"
+    }
+  ],
+  "10029": [
+    {
+      "release_date": "2020-05-21",
+      "attack": 2,
+      "health": 5,
+      "abilities": [
+        10437
+      ]
+    },
+    {
+      "release_date": "2020-05-25",
+      "attack": 3,
+      "health": 7,
+      "abilities": [
+        10437,
+        11051
+      ]
+    },
+    {
+      "release_date": "2020-06-26",
+      "health": 6
+    }
+  ],
+  "10030": [
+    {
+      "release_date": "2020-04-13",
+      "armor": 0,
+      "health": 5
+    },
+    {
+      "release_date": "2020-10-29",
+      "armor": 1,
+      "health": 4
+    },
+    {
+      "release_date": "2021-03-04",
+      "health": 5
+    }
+  ],
+  "10033": [
+    {
+      "release_date": "2020-05-25",
+      "attack": 1
+    },
+    {
+      "release_date": "2020-07-31",
+      "attack": 2
+    }
+  ],
+  "10036": [
+    {
+      "release_date": "2020-05-21",
+      "health": 3
+    },
+    {
+      "release_date": "2020-05-25",
+      "health": 4
+    },
+    {
+      "release_date": "2020-09-18",
+      "health": 5
+    }
+  ],
+  "10043": [
+    {
+      "release_date": "2020-05-11",
+      "health": 4
+    },
+    {
+      "release_date": "2020-05-25",
+      "health": 5
+    }
+  ],
+  "10047": [
+    {
+      "release_date": "2020-05-21",
+      "health": 5
+    },
+    {
+      "release_date": "2020-05-25",
+      "health": 6
+    },
+    {
+      "release_date": "2020-11-21",
+      "faction": "Veiled Sisterhood"
+    }
+  ],
+  "10048": [
+    {
+      "release_date": "2020-05-21",
+      "color": "Red",
+      "health": 9
+    },
+    {
+      "release_date": "2020-05-25",
+      "health": 6
+    },
+    {
+      "release_date": "2020-08-21",
+      "color": "Black"
+    }
+  ],
+  "10050": [
+    {
+      "release_date": "2020-05-21",
+      "health": 4
+    },
+    {
+      "release_date": "2020-05-25",
+      "health": 5
+    },
+    {
+      "release_date": "2020-11-21",
+      "faction": "The S.O.L.K."
+    }
+  ],
+  "10052": [
+    {
+      "release_date": "2020-09-03",
+      "signature": [
+        11075,
+        11077,
+        11079
+      ]
+    },
+    {
+      "release_date": "2020-11-06",
+      "signature": [
+        11076,
+        11078,
+        11080
+      ]
+    },
+    {
+      "release_date": "2020-11-21",
+      "faction": "The S.O.L.K."
+    }
+  ],
+  "10053": [
+    {
+      "release_date": "2020-05-11",
+      "health": 4
+    },
+    {
+      "release_date": "2020-05-25",
+      "health": 5
+    },
+    {
+      "release_date": "2020-11-21",
+      "faction": "Keeper of the Ancients"
+    }
+  ],
+  "10054": [
+    {
+      "release_date": "2020-05-25",
+      "rarity": 1
+    },
+    {
+      "release_date": "2020-06-15",
+      "rarity": 2
+    }
+  ],
+  "10055": [
+    {
+      "release_date": "2020-05-11",
+      "cost": 3,
+      "text": " Enchant Tower /n [TG]Aura:[ET] Your creeps have +1[ATT]/+1[HP].",
+      "is_signature": "10053_2"
+    },
+    {
+      "release_date": "2020-10-29",
+      "text": " [TG]After Combat:[ET] Add a charge. /n /n Before your turn, if you have an empty slot, remove a charge and summon a Melee Creep.",
+      "cost": 2,
+      "is_signature": "10053_4"
+    },
+    {
+      "release_date": "2021-03-11",
+      "cost": 3,
+      "is_signature": "10053_5"
+    }
+  ],
+  "10056": [
+    {
+      "release_date": "2020-04-13",
+      "health": 7,
+      "signature": [
+        10117
+      ]
+    },
+    {
+      "release_date": "2020-05-25",
+      "health": 8
+    },
+    {
+      "release_date": "2020-11-21",
+      "signature": [
+        10773
+      ]
+    },
+    {
+      "release_date": "2021-03-04",
+      "signature": [
+        10617
+      ]
+    }
+  ],
+  "10058": [
+    {
+      "release_date": "2020-05-25"
+    },
+    {
+      "release_date": "2020-11-21",
+      "faction": "Red Mist"
+    }
+  ],
+  "10062": [
+    {
+      "release_date": "2020-05-21",
+      "attack": 2,
+      "health": 4
+    },
+    {
+      "release_date": "2020-05-25",
+      "health": 5
+    },
+    {
+      "release_date": "2020-07-31",
+      "attack": 3
+    }
+  ],
+  "10064": [
+    {
+      "release_date": "2020-05-21",
+      "attack": 1,
+      "health": 3
+    },
+    {
+      "release_date": "2020-05-25",
+      "health": 4
+    },
+    {
+      "release_date": "2020-07-31",
+      "attack": 2
+    }
+  ],
+  "10065": [
+    {
+      "release_date": "2020-05-25",
+      "attack": 1
+    },
+    {
+      "release_date": "2020-07-31",
+      "attack": 2
+    }
+  ],
+  "10067": [
+    {
+      "release_date": "2020-10-22",
+      "attack": 2
+    },
+    {
+      "release_date": "2020-10-29",
+      "attack": 3
+    }
+  ],
+  "10068": [
+    {
+      "release_date": "2020-05-25",
+      "color": "Green",
+      "health": 7
+    },
+    {
+      "release_date": "2020-10-22",
+      "color": "Red"
+    },
+    {
+      "release_date": "2021-03-11",
+      "health": 8
+    }
+  ],
+  "10069": [
+    {
+      "release_date": "2020-05-25",
+      "rarity": 2,
+      "attack": 4,
+      "health": 5
+    },
+    {
+      "release_date": "2020-06-02",
+      "attack": 5,
+      "health": 4
+    },
+    {
+      "release_date": "2020-06-15",
+      "rarity": 1
+    },
+    {
+      "release_date": "2020-11-21",
+      "faction": "Bronze Legion"
+    }
+  ],
+  "10070": [
+    {
+      "release_date": "2020-05-25",
+      "rarity": 3
+    },
+    {
+      "release_date": "2020-06-15",
+      "rarity": 2
+    }
+  ],
+  "10076": [
+    {
+      "release_date": "2020-05-25",
+      "text": " When one of your units deals battle damage to an enemy, give it +1[ATT] permanently.",
+      "attack": 2,
+      "health": 1
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " Whenever one of your units deals battle damage to an enemy, give it +1[ATT] permanently."
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": " Whenever one of your units deals physical damage to an enemy, give it +1[ATT] permanently."
+    },
+    {
+      "release_date": "2020-10-29",
+      "health": 2
+    },
+    {
+      "release_date": "2020-12-03",
+      "attack": 3
+    }
+  ],
+  "10077": [
+    {
+      "release_date": "2020-05-25",
+      "cost": 4,
+      "text": "After an ally dies: Summon an Eidolon and remove a charge. /n /n [TG]Charges: 5[ET]"
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": "Whenever an ally dies, Summon an Eidolon and remove a charge. /n /n [TG]Charges: 5[ET]"
+    },
+    {
+      "release_date": "2020-09-24",
+      "cost": 3
+    },
+    {
+      "release_date": "2020-12-03",
+      "cost": 2
+    }
+  ],
+  "10078": [
+    {
+      "release_date": "2020-05-25",
+      "text": " After opponent plays a card from this lane, burn 1 of their remaining Mana.",
+      "attack": 1
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " Whenever opponent plays a card from this lane, burn 1 of their remaining Mana."
+    },
+    {
+      "release_date": "2020-12-03",
+      "attack": 2
+    }
+  ],
+  "10079": [
+    {
+      "release_date": "2020-05-25",
+      "color": "Green",
+      "text": " Whenever an ally enters this lane, give it +1 armor permanently.",
+      "health": 1
+    },
+    {
+      "release_date": "2020-10-29",
+      "color": "Red",
+      "health": 2
+    },
+    {
+      "release_date": "2020-10-29",
+      "text": " Whenever an ally enters this lane, give it +1 [TG][AR][ET] permanently."
+    }
+  ],
+  "10080": [
+    {
+      "release_date": "2020-05-25"
+    },
+    {
+      "release_date": "2020-11-21",
+      "faction": "Vhoul Rebellion"
+    }
+  ],
+  "10083": [
+    {
+      "release_date": "2020-05-25",
+      "text": " After a neighbor dies: Gain +3[ATT] permanently. "
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " Whenever a neighbor dies, gain +3[ATT] permanently. "
+    },
+    {
+      "release_date": "2020-12-03",
+      "text": " Devour /n/n Whenever a neighbor dies, gain +3[ATT] permanently. "
+    }
+  ],
+  "10085": [
+    {
+      "release_date": "2020-05-25",
+      "cost": 6,
+      "text": " [TG]Play Effect:[ET] Give Assassin's Shadow quickstrike until it battles.",
+      "health": 5
+    },
+    {
+      "release_date": "2020-06-02",
+      "text": " Quickstrike."
+    },
+    {
+      "release_date": "2020-12-03",
+      "cost": 5,
+      "health": 4
+    }
+  ],
+  "10086": [
+    {
+      "release_date": "2020-05-25",
+      "attack": 3
+    },
+    {
+      "release_date": "2020-12-03",
+      "attack": 4
+    }
+  ],
+  "10087": [
+    {
+      "release_date": "2020-05-21"
+    },
+    {
+      "release_date": "2020-11-21",
+      "faction": "Bronze Legion"
+    }
+  ],
+  "10090": [
+    {
+      "release_date": "2020-05-25",
+      "text": " [TG]Death Effect:[ET] Summon a Zombie into the closest empty position to Relentless Zombie."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " [TG]Death Effect:[ET] Summon a Zombie into the closest empty slot."
+    }
+  ],
+  "10091": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Revtel Convoy has bonus Attack equal to half your gold."
+    },
+    {
+      "release_date": "2020-08-21",
+      "text": " Revtel Convoy has +[ATT] equal to half your gold."
+    },
+    {
+      "release_date": "2020-12-03",
+      "text": "Revtel Convoy has +[ATT] equal to half your gold. /n/n [TG]After Combat:[ET] Move Revtel Convoy to the next lane."
+    }
+  ],
+  "10092": [
+    {
+      "release_date": "2020-05-21",
+      "text": " Pillager /n [TG]Play Effect:[ET] Deal 2 damage to the enemy tower."
+    },
+    {
+      "release_date": "2020-12-23",
+      "faction": "Red Mist",
+      "text": " Pillager /n /n [TG]Play Effect:[ET] Each [Faction]Red Mist[ET] ally deals 1 damage to the enemy tower."
+    }
+  ],
+  "10095": [
+    {
+      "release_date": "2020-05-25",
+      "text": "[TG]Play Effect:[ET] Discard your hand. Give Keenfolk Golem +1[ATT]/+1[HP] permanently for each card discarded."
+    },
+    {
+      "release_date": "2020-07-23",
+      "text": "[TG]Play Effect:[ET] Discard 4 random non-item cards. Give Keenfolk Golem +1[ATT]/+1[HP] permanently for each card discarded."
+    }
+  ],
+  "10096": [
+    {
+      "release_date": "2020-05-25",
+      "text": " [TG]Active 1[AC], 1 Mana:[ET] Give Emissary of the Quorum's allies +2[ATT]/+2[HP] permanently.",
+      "attack": 1,
+      "health": 7
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " [TG]Active 1[AC], 1 Mana:[ET] Give other allies +2[ATT]/+2[HP] permanently."
+    },
+    {
+      "release_date": "2020-12-03",
+      "attack": 2,
+      "health": 8
+    }
+  ],
+  "10097": [
+    {
+      "release_date": "2020-05-25",
+      "text": "Gives units damaged by Marrowfell Brawler -1[ATT] permanently. /n [TG]Play Effect:[ET] Marrowfell Brawler battles the enemy blocking it.",
+      "health": 6
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": "Whenever Marrowfell Brawler deals battle damage to a unit, give it -1[ATT] permanently. /n [TG]Play Effect:[ET] Marrowfell Brawler battles the enemy blocking it."
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": "Whenever Marrowfell Brawler deals physical damage to a unit, give it -1[ATT] permanently. /n [TG]Play Effect:[ET] Marrowfell Brawler battles the enemy blocking it."
+    },
+    {
+      "release_date": "2020-11-06",
+      "health": 9,
+      "text": "Whenever Marrowfell Brawler deals physical damage to a unit, give it -1[ATT] until it dies. /n [TG]Play Effect:[ET] Marrowfell Brawler battles the enemy blocking it twice."
+    }
+  ],
+  "10103": [
+    {
+      "release_date": "2020-05-21",
+      "cost": 4,
+      "text": "Deal 1 piercing damage to the enemy tower after an allied Melee Creep dies.",
+      "health": 7
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": "Whenever an ally dies, deal 1 piercing damage to the enemy tower."
+    },
+    {
+      "release_date": "2020-09-24",
+      "cost": 3,
+      "health": 4
+    },
+    {
+      "release_date": "2020-12-03",
+      "health": 5
+    }
+  ],
+  "10104": [
+    {
+      "release_date": "2020-05-25",
+      "health": 1
+    },
+    {
+      "release_date": "2020-11-06",
+      "health": 2
+    },
+    {
+      "release_date": "2020-11-21",
+      "faction": "Bronze Legion",
+      "related_cards": [
+        10970
+      ]
+    }
+  ],
+  "10107": [
+    {
+      "release_date": "2020-05-25"
+    },
+    {
+      "release_date": "2020-11-21",
+      "faction": "Vhoul Rebellion"
+    }
+  ],
+  "10108": [
+    {
+      "release_date": "2020-05-25",
+      "attack": 18,
+      "health": 18
+    },
+    {
+      "release_date": "2020-12-03",
+      "attack": 20,
+      "health": 20
+    }
+  ],
+  "10113": [
+    {
+      "release_date": "2020-05-25",
+      "health": 2
+    },
+    {
+      "release_date": "2020-12-03",
+      "health": 3
+    }
+  ],
+  "10114": [
+    {
+      "release_date": "2020-05-25",
+      "text": " [TG]Active 3[AC], 1 Mana:[ET] /n Choose a blocked unit. It battles the unit blocking it."
+    },
+    {
+      "release_date": "2020-11-06",
+      "text": " [TG]After Combat:[ET] Slay Cursed Satyr. /n /n [TG]Active 0[AC], 1 Mana:[ET] Choose a blocked unit. It battles the unit blocking it."
+    }
+  ],
+  "10115": [
+    {
+      "release_date": "2020-05-25",
+      "text": "[TG]Active 1[AC], 1 Mana:[ET] Choose a hero adjacent to Ravenhook. Destroy a random item equipped by that hero. Gain gold equal to the base cost of that item."
+    },
+    {
+      "release_date": "2020-06-19",
+      "text": "[TG]Active 1[AC], 1 Mana:[ET] Choose an enemy hero. Destroy a random item equipped by that hero. Gain gold equal to the base cost of that item."
+    }
+  ],
+  "10116": [
+    {
+      "release_date": "2020-05-25",
+      "text": " [TG]Play Effect:[ET] Devour. Activate Ravenous Mass. /n [TG]Active 0[AC], 1 Mana:[ET] Devour Ravenous Mass's neighbors. /n [TG][QU]Quickcast[ET]"
+    },
+    {
+      "release_date": "2020-06-02",
+      "text": " Devour /n [TG]Active 0[AC], 1 Mana:[ET] Move to a neighbor and devour it. /n [TG][QU]Quickcast[ET]"
+    }
+  ],
+  "10117": [
+    {
+      "release_date": "2020-05-25",
+      "cost": 2,
+      "is_signature": "10056_2"
+    },
+    {
+      "release_date": "2020-11-21",
+      "cost": 1,
+      "is_signature": false
+    }
+  ],
+  "10118": [
+    {
+      "release_date": "2020-05-25",
+      "text": "Gives units damaged by Hellbear Crippler -1[AR] permanently. /n [TG]Play Effect:[ET] Hellbear Crippler battles the enemy blocking it.",
+      "health": 3
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": "Whenever Hellbear Crippler deals battle damage to a unit, give it -1[AR] permanently. /n [TG]Play Effect:[ET] Hellbear Crippler battles the enemy blocking it."
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": "Whenever Hellbear Crippler deals physical damage to a unit, give it -1 [AR] permanently. /n [TG]Play Effect:[ET] Hellbear Crippler battles the enemy blocking it."
+    },
+    {
+      "release_date": "2020-12-03",
+      "health": 4
+    }
+  ],
+  "10127": [
+    {
+      "release_date": "2020-05-25",
+      "armor": 1
+    },
+    {
+      "release_date": "2020-11-06",
+      "armor": 2
+    },
+    {
+      "release_date": "2020-11-21",
+      "faction": "Bronze Legion"
+    }
+  ],
+  "10128": [
+    {
+      "release_date": "2020-05-25",
+      "cost": 2
+    },
+    {
+      "release_date": "2020-10-01",
+      "cost": 1
+    }
+  ],
+  "10129": [
+    {
+      "release_date": "2020-05-25",
+      "text": " [TG]Play Effect:[ET] Give Assassin's Apprentice quickstrike until it battles.",
+      "attack": 2
+    },
+    {
+      "release_date": "2020-06-02",
+      "text": " Quickstrike."
+    },
+    {
+      "release_date": "2020-12-03",
+      "attack": 3
+    }
+  ],
+  "10131": [
+    {
+      "release_date": "2020-05-25",
+      "armor": 1
+    },
+    {
+      "release_date": "2020-11-21",
+      "faction": "Bronze Legion"
+    },
+    {
+      "release_date": "2020-12-03",
+      "armor": 2
+    }
+  ],
+  "10132": [
+    {
+      "release_date": "2020-05-25",
+      "color": "Red",
+      "cost": 5,
+      "text": " Pillager, Trample /n After damaging a tower, Summon a Red Mist Pillager into the closest position.",
+      "attack": 3
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " Pillager, Trample /n After damaging a tower, Summon a Red Mist Pillager into the closest slot."
+    },
+    {
+      "release_date": "2020-10-01",
+      "cost": 4
+    },
+    {
+      "release_date": "2020-10-09",
+      "text": " Pillager, Trample /n/n [TG]After Combat:[ET] If Red Mist Pillager damaged a tower, summon a Red Mist Pillager into the closest slot."
+    },
+    {
+      "release_date": "2020-11-21",
+      "color": "Black",
+      "text": "Pillager, Trample",
+      "attack": 4
+    }
+  ],
+  "10137": [
+    {
+      "release_date": "2020-05-25",
+      "text": " [TG]Active 1[AC], 1 Mana:[ET] Restore 4 Mana."
+    },
+    {
+      "release_date": "2020-07-16",
+      "text": " Satyr Magician has +Attack equal to half your unspent Mana. /n /n [TG]Active 1[AC], 1 Mana:[ET] Restore 4 Mana."
+    },
+    {
+      "release_date": "2020-08-21",
+      "text": " Satyr Magician has +[ATT] equal to half your unspent Mana. /n /n [TG]Active 1[AC], 1 Mana:[ET] Restore 4 Mana."
+    }
+  ],
+  "10138": [
+    {
+      "release_date": "2020-05-25",
+      "attack": 1
+    },
+    {
+      "release_date": "2020-12-03",
+      "attack": 2
+    }
+  ],
+  "10142": [
+    {
+      "release_date": "2020-05-25",
+      "cost": 5
+    },
+    {
+      "release_date": "2020-06-02",
+      "cost": 6
+    }
+  ],
+  "10149": [
+    {
+      "release_date": "2020-05-25",
+      "cost": 2,
+      "text": " Enchant Tower /n /n [TG]After Combat:[ET] Draw a card if your tower took damage this round."
+    },
+    {
+      "release_date": "2020-06-05",
+      "text": " TEMPORARILY REMOVED FROM THE GAME"
+    },
+    {
+      "release_date": "2020-10-01",
+      "cost": 3,
+      "text": "Enchant Tower/n/nWhen you play another non-item card from this lane, it has Mulch. If you have a black hero, gain 5 gold./n/n1 round cooldown."
+    }
+  ],
+  "10154": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Enchant Tower /n After a player plays a card from this lane, burn 2 of their Mana."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " Enchant Tower /n Whenever any player plays a card from this lane, burn 2 of their Mana."
+    }
+  ],
+  "10155": [
+    {
+      "release_date": "2020-05-25"
+    },
+    {
+      "release_date": "2020-12-03",
+      "faction": "Vhoul Rebellion"
+    }
+  ],
+  "10156": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Enchant Tower /n /n [TG]Combat:[ET] Deal 1 damage to both towers for each charge then add a charge."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " Enchant Tower /n /n [TG]Combat:[ET] Deal 1 damage to both towers per charge, then add a charge."
+    }
+  ],
+  "10160": [
+    {
+      "release_date": "2020-05-11",
+      "cost": 4,
+      "text": " Enchant Caster. /n [TG]Round Start:[ET] Deal 1 piercing damage to each enemy.",
+      "is_signature": "10043_3"
+    },
+    {
+      "release_date": "2020-08-21",
+      "cost": 2,
+      "text": " Enchant Caster. /n [TG]Round Start:[ET] Deal 1 damage to the two closest enemies.",
+      "is_signature": "10043_4"
+    },
+    {
+      "release_date": "2020-09-24",
+      "text": " Enchant Caster. /n [TG]Round Start:[ET] Deal 1 damage to the two closest enemies and give them +1 Decay.",
+      "is_signature": "10043_5"
+    }
+  ],
+  "10165": [
+    {
+      "release_date": "2020-05-25",
+      "cost": 4
+    },
+    {
+      "release_date": "2020-09-24",
+      "cost": 3
+    }
+  ],
+  "10169": [
+    {
+      "release_date": "2020-05-25",
+      "cost": 4
+    },
+    {
+      "release_date": "2020-06-02",
+      "cost": 3
+    }
+  ],
+  "10172": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Enchant Tower /n [TG]Active 1[AC], 1 Mana:[ET] Equip an allied hero with basic items."
+    },
+    {
+      "release_date": "2020-09-18",
+      "text": " Enchant Tower /n [TG]Active 1[AC], 1 Mana:[ET] Equip an allied hero with a basic item of each equipment type they don't have."
+    },
+    {
+      "release_date": "2020-12-23",
+      "text": " Enchant Tower /n [TG]Active 1[AC], 1 Mana:[ET] Equip an allied hero's empty item slots with random basic items."
+    }
+  ],
+  "10173": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Enchant Tower /n When your opponent plays a card from this lane, deal 1 piercing damage to their tower and burn 1 of their mana."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " Enchant Tower /n Whenever your opponent plays a card from this lane, deal 1 piercing damage to their tower and burn 1 of their mana."
+    },
+    {
+      "text": " Enchant Tower /n Whenever your opponent plays a non-item card from this lane, deal 1 piercing damage to their tower and burn 1 of their mana."
+    },
+    {
+      "release_date": "2020-08-21",
+      "text": "REMOVED FROM THE GAME (Given to Pugna as a passive ability)."
+    }
+  ],
+  "10175": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Enchant Tower /n The first time you play a card from this lane each round, restore 3 Mana."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " Enchant Tower /n When you play a card from this lane, restore 3 Mana./n/n1 round cooldown."
+    }
+  ],
+  "10177": [
+    {
+      "release_date": "2020-05-11",
+      "text": " Enchant Tower /n [TG]Aura:[ET] Enemy units with 3 or less health are feeble. /n [TG]Aura:[ET] Allies deal +1 damage when attacking a tower.",
+      "is_signature": "10058_0"
+    },
+    {
+      "release_date": "2020-10-09",
+      "text": " Enchant Tower /n [TG]Aura:[ET] Enemy units with 3 or less health are feeble. /n [TG]Aura:[ET] Allies deal +1 damage when striking a tower.",
+      "is_signature": "10058_2"
+    }
+  ],
+  "10179": [
+    {
+      "release_date": "2020-09-03",
+      "text": "Equipping Mazzie does not require item slots. /n Mazzie has +1[ATT], +1[AR], and +1[HP] for each equipped item."
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": "Mazzie may equip any number of unique items. /n Mazzie has +1[ATT], +1[AR], and +1[HP] for each equipped item."
+    },
+    {
+      "release_date": "2020-12-23",
+      "text": "Mazzie has infinite item slots. /n Mazzie has +1[ATT], +1[AR], and +1[HP] for each equipped item."
+    }
+  ],
+  "10183": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Enchant Tower /n Draw a card after a hero dies."
+    },
+    {
+      "release_date": "2020-06-05",
+      "text": " TEMPORARILY REMOVED FROM THE GAME."
+    },
+    {
+      "release_date": "2020-06-19",
+      "text": " Enchant Tower /n /n [TG]Aura: [ET] Allied heroes in the center slot have rapid deployment."
+    }
+  ],
+  "10193": [
+    {
+      "release_date": "2020-05-25",
+      "is_signature": "10036_5"
+    },
+    {
+      "release_date": "2021-03-04",
+      "is_signature": "10036_6"
+    }
+  ],
+  "10194": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Enchant Tower /n When the enemy casts a tower enchantment, draw a card. /n [TG]Play Effect:[ET] If the enemy tower has no enchantments, draw a card."
+    },
+    {
+      "release_date": "2020-06-19",
+      "text": " Enchant Tower /n /n [TG]Play Effect:[ET] Copy a random card from your deck. It is blue, ephemeral, and can only be played from this lane. /n /n When your opponent plays a non-item cards in this lane, repeat this effect."
+    },
+    {
+      "release_date": "2020-06-22",
+      "text": " Enchant Tower /n /n [TG]Play Effect:[ET] Copy a random card from your deck. It is blue, ephemeral, and can only be played from this lane. /n /n When your opponent plays a spell or enchantment in this lane, repeat this effect."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " Enchant Tower /n /n [TG]Play Effect:[ET] Copy a random card from your deck. It is blue, ephemeral, and can only be played from this lane. /n /n Whenever your opponent plays a spell or enchantment in this lane, repeat this effect."
+    }
+  ],
+  "10203": [
+    {
+      "release_date": "2020-05-11",
+      "gold_cost": 10,
+      "text": " +3[HP] /n /n [TG]Active 2[AC], 1 Mana: [ET] /n Swap this hero to another position."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " +3[HP] /n /n [TG]Active 2[AC], 1 Mana: [ET] /n Swap this hero to another slot."
+    },
+    {
+      "release_date": "2020-10-22",
+      "gold_cost": 15
+    }
+  ],
+  "10205": [
+    {
+      "release_date": "2020-05-25",
+      "text": " +3[HP] /n [TG]After Combat:[ET] Increase Health by 1."
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": " +3[HP] /n [TG]After Combat:[ET] Increase [HP] by 1."
+    }
+  ],
+  "10206": [
+    {
+      "release_date": "2020-05-25",
+      "gold_cost": 15,
+      "text": " +2[ATT]/n [TG]Active 2[AC], 1 Mana:[ET] /n Move this hero into an adjacent lane."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " +2[ATT]/n [TG]Active 2[AC], 1 Mana:[ET] /n Move this hero to a slot in an adjacent lane."
+    },
+    {
+      "release_date": "2020-10-22",
+      "gold_cost": 25
+    }
+  ],
+  "10210": [
+    {
+      "release_date": "2020-05-25",
+      "gold_cost": 10,
+      "text": " +2[ATT] /n /n Dispel a random tower enchantment when dealing battle damage to a tower."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " +2[ATT] /n /n Whenever equipped hero deals battle damage to a tower, dispel a random tower enchantment"
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": " +2[ATT] /n /n Whenever equipped hero deals physical damage to a tower, dispel a random tower enchantment"
+    },
+    {
+      "release_date": "2021-03-04",
+      "gold_cost": 15
+    }
+  ],
+  "10212": [
+    {
+      "release_date": "2020-05-21",
+      "text": " +2[ATT] and +3 Cleave.",
+      "attack": 2
+    },
+    {
+      "release_date": "2020-06-02",
+      "text": " +4 Cleave.",
+      "attack": 0
+    },
+    {
+      "release_date": "2020-07-31",
+      "text": " +5 Cleave."
+    }
+  ],
+  "10215": [
+    {
+      "release_date": "2020-05-25",
+      "gold_cost": 15,
+      "text": " +5[ATT]",
+      "attack": 5
+    },
+    {
+      "release_date": "2020-08-21",
+      "text": " +6[ATT]",
+      "attack": 6
+    },
+    {
+      "release_date": "2020-10-29",
+      "gold_cost": 20
+    }
+  ],
+  "10216": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Get a random item from the Secret Shop."
+    },
+    {
+      "release_date": "2020-08-21",
+      "text": " Get a random item at your shop level. It costs 0 Mana."
+    },
+    {
+      "release_date": "2020-10-01",
+      "text": "REMOVED FROM THE GAME"
+    }
+  ],
+  "10222": [
+    {
+      "release_date": "2020-05-25",
+      "text": " +1[AR]/n [TG]Active 0[AC], 1 Mana:[ET] Slay this hero and deal 5 damage to adjacent enemies."
+    },
+    {
+      "release_date": "2020-06-09",
+      "text": " +1[AR]/n [TG]Active 0[AC], 1 Mana:[ET] Slay this hero and deal 4 damage to adjacent enemies."
+    },
+    {
+      "release_date": "2020-07-16",
+      "text": " +1[AR]/n [TG]Active 2[AC], 1 Mana:[ET] Slay this hero and deal 4 damage to adjacent enemies."
+    }
+  ],
+  "10223": [
+    {
+      "release_date": "2020-05-25",
+      "gold_cost": 15
+    },
+    {
+      "release_date": "2020-10-22",
+      "gold_cost": 20
+    }
+  ],
+  "10224": [
+    {
+      "release_date": "2020-05-25",
+      "gold_cost": 20
+    },
+    {
+      "release_date": "2020-06-26",
+      "gold_cost": 25
+    },
+    {
+      "release_date": "2020-10-22",
+      "gold_cost": 35
+    },
+    {
+      "release_date": "2020-10-29",
+      "gold_cost": 30
+    }
+  ],
+  "10225": [
+    {
+      "release_date": "2020-05-25",
+      "gold_cost": 20
+    },
+    {
+      "release_date": "2020-07-31",
+      "gold_cost": 25
+    },
+    {
+      "release_date": "2020-10-22",
+      "gold_cost": 40
+    }
+  ],
+  "10226": [
+    {
+      "release_date": "2020-05-25",
+      "gold_cost": 20,
+      "text": " [TG]Aura:[ET] You and your neighbors have +2[ATT] and +2 Regeneration.",
+      "attack": 2
+    },
+    {
+      "release_date": "2020-05-26",
+      "text": " [TG]Aura:[ET] You and your neighbors have +3[ATT] and +3 Regeneration.",
+      "attack": 3
+    },
+    {
+      "release_date": "2020-06-19",
+      "text": " [TG]Aura:[ET] Equipped hero and its neighbors have +3[ATT] and +3 Regeneration."
+    },
+    {
+      "release_date": "2020-10-01",
+      "text": " [TG]Aura:[ET] Equipped hero and its neighbors have +4[ATT] and +4 Regeneration.",
+      "attack": 4
+    },
+    {
+      "release_date": "2020-10-22",
+      "gold_cost": 35
+    }
+  ],
+  "10230": [
+    {
+      "release_date": "2020-05-25",
+      "gold_cost": 15
+    },
+    {
+      "release_date": "2020-10-22",
+      "gold_cost": 25
+    },
+    {
+      "release_date": "2020-10-29",
+      "gold_cost": 20
+    }
+  ],
+  "10231": [
+    {
+      "release_date": "2020-05-25",
+      "text": " +6[HP]/n After a neighbor dies, Draw a card"
+    },
+    {
+      "release_date": "2020-06-02",
+      "text": " +6[HP]/n The first time a neighbor dies, Draw a card"
+    },
+    {
+      "release_date": "2020-06-05",
+      "text": " TEMPORARILY REMOVED FROM THE GAME."
+    }
+  ],
+  "10238": [
+    {
+      "release_date": "2020-05-21",
+      "gold_cost": 20
+    },
+    {
+      "release_date": "2020-10-22",
+      "gold_cost": 35
+    },
+    {
+      "release_date": "2020-11-06",
+      "gold_cost": 30
+    }
+  ],
+  "10252": [
+    {
+      "release_date": "2020-05-04",
+      "gold_cost": 10,
+      "text": " +2[ATT] /n /n [TG]Round Start: [ET] Disarm the closest enemy creep."
+    },
+    {
+      "release_date": "2020-08-21",
+      "text": " +2[ATT] /n /n Adjacent enemy creeps are rooted and have -2[ATT], -2[AR] and +2 Bounty."
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": " +2[ATT] /n /n Adjacent enemy creeps are rooted and have -2[ATT], -2[AR] and +1 Bounty."
+    },
+    {
+      "release_date": "2020-10-22",
+      "gold_cost": 15
+    },
+    {
+      "release_date": "2020-11-06",
+      "text": " +2[ATT] /n /n [TG]Aura:[ET] Adjacent enemy creeps are rooted and have -2[ATT], -2[AR] and +1 Bounty."
+    }
+  ],
+  "10260": [
+    {
+      "release_date": "2020-05-21",
+      "gold_cost": 25,
+      "text": " +3[HP]. /n /n [TG]Active 2[AC], 1 Mana:[ET] Summon a Thunderhide Pack.",
+      "health": 3
+    },
+    {
+      "release_date": "2020-10-22",
+      "gold_cost": 40
+    },
+    {
+      "release_date": "2020-10-29",
+      "text": " +6[HP]. /n /n [TG]Active 2[AC], 1 Mana:[ET] Summon a Thunderhide Pack.",
+      "health": 6
+    }
+  ],
+  "10262": [
+    {
+      "release_date": "2020-05-11",
+      "cost": 1,
+      "gold_cost": 30,
+      "text": " +1[AR] /n [TG]Active 1[AC], 1 Mana: [ET] /n Reduce adjacent enemies to 1 Health. They are stunned, rooted, and feeble."
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": " +1[TG][AR] /n Active 1[AC], 1 Mana: [ET] /n Reduce adjacent enemies to 1[TG][HP][ET]. They are stunned, rooted, and feeble."
+    },
+    {
+      "release_date": "2020-10-22",
+      "cost": 2,
+      "gold_cost": 50
+    },
+    {
+      "release_date": "2020-11-06",
+      "gold_cost": 45
+    },
+    {
+      "release_date": "2020-12-03",
+      "text": " +1[TG][AR] /n Active 1[AC], 1 Mana: [ET] /n Reduce adjacent enemies to 1[TG][HP][ET]. Stun, Root and Enfeeble them."
+    }
+  ],
+  "10263": [
+    {
+      "release_date": "2020-05-25",
+      "cost": 1,
+      "gold_cost": 30
+    },
+    {
+      "release_date": "2020-10-22",
+      "cost": 2,
+      "gold_cost": 50
+    }
+  ],
+  "10270": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Choose caster. Deal 1 piercing damage to a unit in any lane and deal 1 damage to the next unit away from the caster./n[TG]Cross Lane[ET]"
+    },
+    {
+      "release_date": "2020-06-03",
+      "text": " Choose caster as a starting point. Deal 1 piercing damage to a unit in any lane then deal 1 damage to the unit after it./n[TG]Cross Lane[ET]"
+    },
+    {
+      "release_date": "2020-08-07",
+      "text": " Choose caster as a starting point. Deal 1 piercing damage to a unit in any lane then deal 1 damage to the next unit past it./n[TG]Cross Lane[ET]"
+    }
+  ],
+  "10272": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Choose caster. /n Slay a unit in any lane. /n [TG]Cross Lane[ET]",
+      "is_signature": "10050_1"
+    },
+    {
+      "release_date": "2020-08-21",
+      "text": " Choose caster. Slay a unit in any lane. /n Costs 1 less for each time you've passed this round. /n [TG]Cross Lane[ET]",
+      "is_signature": "10050_2"
+    },
+    {
+      "release_date": "2020-09-24",
+      "text": " Choose caster. Slay a unit in any lane. /n Costs 2 less for each time you've passed this round. /n [TG]Cross Lane[ET]",
+      "is_signature": "10050_4"
+    }
+  ],
+  "10273": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Deal 3 Damage. /n [TG][QU] Quickcast[ET]"
+    },
+    {
+      "text": " Deal 3 damage to a unit. /n [TG][QU] Quickcast[ET]"
+    }
+  ],
+  "10277": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Deal 2 damage and disarm it this round.",
+      "is_signature": "10064_3"
+    },
+    {
+      "release_date": "2020-09-24",
+      "text": " Deal 2 damage to a unit. Disarm and root it.",
+      "is_signature": "10064_4"
+    }
+  ],
+  "10278": [
+    {
+      "release_date": "2020-05-25",
+      "cost": 6,
+      "is_signature": "10065_2"
+    },
+    {
+      "release_date": "2020-10-15",
+      "cost": 5,
+      "is_signature": "10065_3"
+    }
+  ],
+  "10280": [
+    {
+      "release_date": "2020-10-22",
+      "is_signature": "10067_1"
+    },
+    {
+      "release_date": "2021-03-04",
+      "is_signature": "10067_2"
+    }
+  ],
+  "10281": [
+    {
+      "release_date": "2020-05-25",
+      "color": "Green",
+      "is_signature": "10068_0"
+    },
+    {
+      "release_date": "2020-10-22",
+      "color": "Red",
+      "is_signature": "10068_2"
+    }
+  ],
+  "10282": [
+    {
+      "release_date": "2020-05-25",
+      "rarity": 3,
+      "text": " Repeat three times: [RP] Deal 1 battle damage to the enemy blocking the caster. ",
+      "is_signature": "10070_0"
+    },
+    {
+      "release_date": "2020-06-15",
+      "rarity": 2,
+      "is_signature": "10070_2"
+    },
+    {
+      "release_date": "2020-08-21",
+      "text": " Repeat two times: [RP] Caster attacks the unit blocking it for 2 battle damage. ",
+      "is_signature": "10070_3"
+    },
+    {
+      "release_date": "2020-10-09",
+      "text": " Repeat two times: [RP] Caster strikes the unit blocking it for 2 battle damage. ",
+      "is_signature": "10070_4"
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": " Repeat two times: [RP] Caster strikes the unit blocking it for 2 [ATT]. ",
+      "is_signature": "10070_5"
+    }
+  ],
+  "10288": [
+    {
+      "release_date": "2020-05-11",
+      "text": " Slay a damaged enemy hero with 3 or less Health. Repeatable this round.",
+      "is_signature": "10020_0"
+    },
+    {
+      "release_date": "2020-07-16",
+      "text": " Slay a damaged enemy unit with 3 or less Health. /n /n If you slay a hero, Culling Blade is repeatable this round.",
+      "is_signature": "10020_1"
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": " Slay a damaged enemy unit with 3 or less [HP] and Stun other enemies for 1 action. /n /n Repeatable this round when you slay a hero",
+      "is_signature": "10020_2"
+    },
+    {
+      "release_date": "2021-03-04",
+      "is_signature": "10020_3"
+    }
+  ],
+  "10289": [
+    {
+      "release_date": "2020-05-25",
+      "cost": 4,
+      "text": " Choose caster. Choose an enemy unit, reduce it to 3 Health and heal caster for the amount removed.",
+      "is_signature": "10018_0"
+    },
+    {
+      "release_date": "2020-07-16",
+      "text": " Choose caster. Choose an enemy unit, reduce it to 3 Health and give caster temporary health equal to the amount removed.",
+      "is_signature": "10018_2"
+    },
+    {
+      "release_date": "2020-09-18",
+      "cost": 3,
+      "is_signature": "10018_3"
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": " Choose caster. Choose an enemy unit, reduce it to 3 [HP] and give caster temporary [HP] equal to the amount removed.",
+      "is_signature": "10018_4"
+    },
+    {
+      "release_date": "2021-03-04",
+      "is_signature": "10018_5"
+    }
+  ],
+  "10290": [
+    {
+      "release_date": "2020-05-25",
+      "text": "The first time Tidehunter takes damage each round, purge your opponent's effects from it."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": "When Tidehunter takes damage each round, purge your opponent's effects from it. 1 round cooldown."
+    }
+  ],
+  "10292": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Give a red Hero on either team +6[ATT] and -6[AR] ",
+      "is_signature": "10021_6"
+    },
+    {
+      "release_date": "2021-03-04",
+      "text": " Give a Hero on either team +6[ATT] and -6[AR] ",
+      "is_signature": "10021_7"
+    }
+  ],
+  "10303": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Move a creep to the first empty position in another lane./n[TG]Cross Lane[ET]"
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " Move a creep to the first empty slot in another lane./n[TG]Cross Lane[ET]"
+    }
+  ],
+  "10308": [
+    {
+      "release_date": "2020-05-21",
+      "text": " Discard a random card. /n Slay a hero.",
+      "is_signature": "10047_1"
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " Discard a random non-item card. /n Slay a hero.",
+      "is_signature": "10047_4"
+    }
+  ],
+  "10311": [
+    {
+      "release_date": "2020-05-25"
+    },
+    {
+      "release_date": "2020-12-03",
+      "faction": "Vhoul Rebellion"
+    }
+  ],
+  "10312": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Deal 1 damage /n Repeat twice: [RP] Jump left or right and deal 1 damage."
+    },
+    {
+      "release_date": "2020-07-16",
+      "text": " Deal 1 damage /n Repeat three times: [RP] Jump left or right and deal 1 damage."
+    },
+    {
+      "release_date": "2020-07-31",
+      "text": " Deal 1 damage /n Repeat three times: [RP] Jump left or right and deal 1 piercing damage."
+    }
+  ],
+  "10313": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Repeat three times: [RP] Deal 1 damage to a random enemy with the least Health."
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": " Repeat three times: [RP] Deal 1 damage to a random enemy with the least [HP]."
+    }
+  ],
+  "10323": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Deal damage to each enemy equal to the number of enemies.",
+      "is_signature": "10033_3"
+    },
+    {
+      "release_date": "2020-08-21",
+      "text": " Deal damage to each enemy equal to double the number of enemies.",
+      "is_signature": "10033_4"
+    }
+  ],
+  "10326": [
+    {
+      "release_date": "2020-05-25",
+      "cost": 2
+    },
+    {
+      "release_date": "2020-10-01",
+      "cost": 3
+    },
+    {
+      "release_date": "2020-10-15",
+      "cost": 2
+    }
+  ],
+  "10327": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Enchant Caster /n Caster has +1[ATT] per missing Health."
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": " Enchant Caster /n Caster has +1[ATT] per missing [HP]."
+    }
+  ],
+  "10330": [
+    {
+      "release_date": "2020-05-25",
+      "rarity": 1,
+      "cost": 5,
+      "is_signature": "10054_0"
+    },
+    {
+      "release_date": "2020-06-15",
+      "rarity": 2,
+      "cost": 3,
+      "is_signature": "10054_2"
+    }
+  ],
+  "10336": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Choose caster. Summon a Terrapin Channeler to any lane. /n [TG]Cross Lane[ET]"
+    },
+    {
+      "release_date": "2020-12-23",
+      "text": " Choose caster. Summon a Terrapin Channeler to any lane and change its color to the casters' color. /n [TG]Cross Lane[ET]"
+    },
+    {
+      "release_date": "2021-03-04",
+      "text": " Choose caster. Summon an Acolyte of the Radiant to any lane and change its color to the casters' color. /n [TG]Cross Lane[ET]"
+    }
+  ],
+  "10339": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Silence an enemy hero and its neighbors.",
+      "is_signature": "10032_0"
+    },
+    {
+      "release_date": "2020-12-03",
+      "text": " Choose an enemy slot. /n Silence any enemy units within range 1 of it.",
+      "is_signature": "10032_1"
+    }
+  ],
+  "10340": [
+    {
+      "release_date": "2020-05-25",
+      "rarity": 3,
+      "text": " Give allied heroes in all lanes +4 temporary health. /n [TG]Cross Lane[ET]",
+      "is_signature": "10017_1"
+    },
+    {
+      "release_date": "2020-07-31",
+      "text": " Give allied heroes in all lanes +4[HP] until death. /n [TG]Cross Lane[ET]",
+      "is_signature": "10017_2"
+    },
+    {
+      "release_date": "2020-08-21",
+      "rarity": 2,
+      "is_signature": "10017_3"
+    }
+  ],
+  "10341": [
+    {
+      "release_date": "2020-05-25",
+      "rarity": 2,
+      "is_signature": "10069_1"
+    },
+    {
+      "release_date": "2020-06-15",
+      "rarity": 1,
+      "is_signature": "10069_7"
+    }
+  ],
+  "10342": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Choose one of your heroes. It taunts. Pick its combat target."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " Choose an allied hero. It taunts. Pick its combat target."
+    },
+    {
+      "release_date": "2020-12-03",
+      "text": " Choose an allied hero. It taunts. Choose its combat target."
+    }
+  ],
+  "10344": [
+    {
+      "release_date": "2020-05-25",
+      "cost": 3,
+      "text": " Give your units Lethal to Heroes and Lethal to Creeps."
+    },
+    {
+      "release_date": "2020-08-28",
+      "cost": 5
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": " Give caster +3 Cleave./nGive your units Lethal to Heroes."
+    }
+  ],
+  "10348": [
+    {
+      "release_date": "2020-05-25",
+      "is_signature": "10044_0"
+    },
+    {
+      "release_date": "2021-03-04",
+      "is_signature": "10044_1"
+    }
+  ],
+  "10352": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Deal 4 damage to caster's combat target. /n (Can hit towers)."
+    },
+    {
+      "release_date": "2020-07-31",
+      "text": " Deal 4 piercing damage to caster's combat target. /n (Can hit towers)."
+    }
+  ],
+  "10353": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Revealed when drawn. /n Deal 15 damage to the caster's combat target. /n (Can hit towers)"
+    },
+    {
+      "release_date": "2020-07-31",
+      "text": " Revealed when drawn. /n Deal 15 piercing damage to the caster's combat target. /n (Can hit towers)"
+    }
+  ],
+  "10358": [
+    {
+      "release_date": "2020-05-25"
+    },
+    {
+      "release_date": "2020-12-03",
+      "faction": "Vhoul Rebellion"
+    }
+  ],
+  "10365": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Swap an ally with one of its neighbors./n [TG][QU] Quickcast[ET]"
+    },
+    {
+      "release_date": "2020-11-21",
+      "text": " Swap an ally into an adjacent slot./n [TG][QU] Quickcast[ET]"
+    }
+  ],
+  "10367": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Give a unit -Armor equal to its current Armor value permanently."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " REMOVED FROM THE GAME. /n/n Give a unit -Armor equal to its current Armor value permanently."
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": " REMOVED FROM THE GAME. /n/n Give a unit -[AR] equal to its current [AR] value permanently."
+    }
+  ],
+  "10373": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Enchant Hero/n After you play a green card, this hero and its neighbors gain +3 Regeneration. "
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " Enchant Hero/n Whenever you play a green card, this hero and its neighbors gain +3 Regeneration. "
+    },
+    {
+      "text": " Enchant Hero/n Whenever you play a non-item card, this hero and its neighbors gain +3 Regeneration. "
+    }
+  ],
+  "10376": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Deal 5 damage to each enemy across from an empty slot."
+    },
+    {
+      "release_date": "2020-08-21",
+      "text": " Deal 5 damage to each unopposed enemy."
+    }
+  ],
+  "10377": [
+    {
+      "release_date": "2020-05-25",
+      "name": "Fog of War",
+      "text": " Disarm both teams' unblocked units."
+    },
+    {
+      "release_date": "2020-07-16",
+      "name": "Volatile Fog",
+      "text": " Disarm both teams' units and give them -3[AR]."
+    }
+  ],
+  "10379": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Move an enemy to the first empty position in another lane. /n [TG]Cross Lane.[ET]"
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " Move an enemy to the first empty slot in another lane. /n [TG]Cross Lane.[ET]"
+    }
+  ],
+  "10396": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Stun a hero until they equip an item."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " Enchant Enemy /n This hero is stunned until it equips an item."
+    },
+    {
+      "release_date": "2020-12-03",
+      "text": " Stun an enemy hero until it equips an item."
+    }
+  ],
+  "10404": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Move caster to an empty position in any lane and give it \"Scheme: +4 Siege\"./n[TG]Cross Lane[ET]/n[TG][QU] Quickcast[ET]"
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " Move caster to an empty slot in any lane and give it \"Scheme: +4 Siege\"./n[TG]Cross Lane[ET]/n[TG][QU] Quickcast[ET]"
+    }
+  ],
+  "10411": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Swap a unit to a neighboring position."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " Swap a unit to a neighboring slot."
+    },
+    {
+      "release_date": "2020-07-16",
+      "text": " Swap a unit to another slot."
+    }
+  ],
+  "10412": [
+    {
+      "release_date": "2020-05-25",
+      "cost": 5,
+      "text": " Deal 3 damage to each enemy."
+    },
+    {
+      "release_date": "2020-07-31",
+      "cost": 4,
+      "text": " Deal 3 piercing damage to each enemy."
+    }
+  ],
+  "10417": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Summon two Centaur Poachers into any lane./n[TG]Cross Lane[ET]"
+    },
+    {
+      "release_date": "2020-06-12",
+      "text": " Play two Centaur Poachers into any lane./n[TG]Cross Lane[ET]"
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " Play two Centaur Poachers into the first two empty spaces in any lane./n[TG]Cross Lane[ET]"
+    },
+    {
+      "release_date": "2020-09-24",
+      "text": " Choose caster. Play two Centaur Poachers into the first two empty spaces in any lane./n[TG]Cross Lane[ET]"
+    }
+  ],
+  "10418": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Choose unit. It taunts."
+    },
+    {
+      "release_date": "2020-07-23",
+      "text": " Choose unit. It taunts, then each unit pointing at it deals 1 battle damage to it."
+    },
+    {
+      "release_date": "2020-08-21",
+      "text": " Choose unit. It taunts, then each unit pointing at it attacks it for 1 battle damage."
+    },
+    {
+      "release_date": "2020-10-09",
+      "text": " Choose unit. It taunts, then each unit pointing at it strikes it for 1 battle damage."
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": " Choose unit. It taunts, then each unit pointing at it strikes it for 1 [ATT]."
+    }
+  ],
+  "10420": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Silence a unit for 2 rounds.",
+      "is_signature": "10026_2"
+    },
+    {
+      "release_date": "2020-12-03",
+      "faction": "Vhoul Rebellion",
+      "text": " Silence an enemy hero for two rounds and silence its allies of the same color for this round.",
+      "is_signature": "10026_3"
+    }
+  ],
+  "10429": [
+    {
+      "release_date": "2020-05-25",
+      "text": "[TG]Active 2[AC], 1 Mana:[ET] Move Meepo to the first empty position in any Meepo's lane (including this one). Deal 2 damage to the new adjacent enemies. /n [TG][QU]Quickcast[ET]"
+    },
+    {
+      "release_date": "2020-06-19",
+      "text": "[TG]Active 2[AC], 1 Mana:[ET] Move Meepo to an empty position in any allied Meepo's lane. May also stay in place. Deal 2 damage to the new adjacent enemies. /n [TG]Cross Lane[ET] /n [TG][QU]Quickcast[ET]"
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": "[TG]Active 2[AC], 1 Mana:[ET] Move Meepo to an empty slot in any allied Meepo's lane. May also stay in place. Deal 2 damage to the new adjacent enemies. /n [TG]Cross Lane[ET] /n [TG][QU]Quickcast[ET]"
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": "[TG]Active 2[AC], 1 Mana:[ET] Move Meepo to a slot in any allied Meepo's lane. Deal 2 damage to the new adjacent enemies. /n [TG]Cross Lane[ET] /n [TG][QU]Quickcast[ET]"
+    }
+  ],
+  "10430": [
+    {
+      "release_date": "2020-05-25",
+      "text": "[TG]Active 2[AC], 1 Mana:[ET] +3[ATT]. Move up to 3 slots. Give +2 Decay to each enemy passed. /n [TG]Cross Lane[ET]"
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": "[TG]Active 2[AC], 1 Mana:[ET] +3[ATT]. Move up to range 3. Give +2 Decay to each enemy passed. /n [TG]Cross Lane[ET]"
+    }
+  ],
+  "10431": [
+    {
+      "release_date": "2020-09-03",
+      "cooldown": 3,
+      "text": "[TG]Active 3[AC], 1 Mana:[ET] When Abaddon is dealt damage this round, heal that much instead."
+    },
+    {
+      "release_date": "2020-10-09",
+      "cooldown": 2,
+      "text": "[TG]Active 2[AC], 1 Mana:[ET] Purge opponent's effects. When Abaddon is dealt damage this round, heal that much instead. May be used when stunned or silenced."
+    }
+  ],
+  "10432": [
+    {
+      "release_date": "2020-05-25",
+      "text": "[TG]Active 3[AC], 1 Mana:[ET] Steal an enemy creep."
+    },
+    {
+      "release_date": "2020-07-16",
+      "text": "[TG]Active 3[AC], 1 Mana:[ET] Steal an enemy creep. Give it +2[ATT] and +2[HP] permanently."
+    }
+  ],
+  "10434": [
+    {
+      "release_date": "2020-05-25",
+      "cooldown": 5,
+      "text": "[TG]Active 5[AC], 1 Mana:[ET] Stun enemy units up to 2 slots away this round."
+    },
+    {
+      "release_date": "2020-06-26",
+      "cooldown": 4,
+      "text": "[TG]Active 4[AC], 1 Mana:[ET] Stun enemy units in this lane within range 2."
+    }
+  ],
+  "10435": [
+    {
+      "release_date": "2020-05-25",
+      "text": "[TG]Active 3[AC], 1 Mana:[ET] Deal 3 damage to a unit and disarm it."
+    },
+    {
+      "release_date": "2020-07-31",
+      "text": "[TG]Active 3[AC], 1 Mana:[ET] Deal 2 damage to a unit and disarm it."
+    },
+    {
+      "release_date": "2020-09-24",
+      "text": "[TG]Active 3[AC], 1 Mana:[ET] Deal 1 piercing damage to a unit and disarm it. Give it -2[AR] for two rounds."
+    }
+  ],
+  "10438": [
+    {
+      "release_date": "2020-05-25",
+      "text": "[TG]Active 3[AC], 1 Mana:[ET] Bounce allies in a line up to 3 slots away and summon Rocks in their place."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": "[TG]Active 3[AC], 1 Mana:[ET] Bounce allies from Earthshaker to a slot in this lane within range 3, then summon Rocks in their place."
+    }
+  ],
+  "10444": [
+    {
+      "release_date": "2020-08-21",
+      "text": "Whenever your opponent plays a non-item card from this lane, deal 1 piercing damage to their tower and burn 1 of their mana. 1 round cooldown."
+    },
+    {
+      "release_date": "2020-08-28",
+      "text": "When your opponent plays a non-item card from this lane, deal 1 piercing damage to their tower and burn 1 of their mana. 1 round cooldown."
+    },
+    {
+      "release_date": "2020-09-24",
+      "text": "When your opponent plays a non-item card from this lane, deal 1 piercing damage to their tower and burn 1 of their mana."
+    }
+  ],
+  "10446": [
+    {
+      "release_date": "2020-05-25",
+      "text": "Active 3[AC], 1 Mana: Deal 4 damage to a unit."
+    },
+    {
+      "release_date": "2020-08-21",
+      "text": "Active 3[AC], 1 Mana: Deal 4 damage to another unit within range 5. [TG]Cross Lane[ET]."
+    }
+  ],
+  "10490": [
+    {
+      "release_date": "2020-05-25",
+      "text": "Soulbound. (If one Meepo dies, all your Meepos die)"
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": "If one Meepo dies, all your Meepos die."
+    },
+    {
+      "release_date": "2020-08-21",
+      "text": "If this Meepo dies, your Meepos in all lanes die."
+    }
+  ],
+  "10494": [
+    {
+      "release_date": "2020-05-25",
+      "text": "Aura: Lycan's allies up to 2 slots away in this lane have +2[ATT]."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": "Aura: Lycan's allies within range 2 in this lane have +2[ATT]."
+    },
+    {
+      "release_date": "2020-08-28",
+      "text": "Aura: Your creeps in this lane within range 2 have +2[ATT]."
+    }
+  ],
+  "10496": [
+    {
+      "release_date": "2020-05-25",
+      "text": "Bloodseeker has +Attack equal to the highest missing Health from an enemy hero in any lane. /n Cross Lane"
+    },
+    {
+      "release_date": "2020-08-21",
+      "text": "Bloodseeker has +[ATT] equal to the highest missing Health from an enemy hero in any lane. Does not decrease if the hero dies. /n Cross Lane"
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": "Bloodseeker has +[ATT] equal to the highest missing [HP] from an enemy hero in any lane. Does not decrease if the hero dies. /n Cross Lane"
+    }
+  ],
+  "10497": [
+    {
+      "release_date": "2020-05-25",
+      "text": "Active 3[AC], 1 Mana: Give your units Trample."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": "Active 3[AC], 1 Mana: Give Centaur Warrunner and allies Trample."
+    }
+  ],
+  "10498": [
+    {
+      "release_date": "2020-05-25",
+      "text": "Active [AC]3, 1 Mana: Move Timbersaw up to 5 slots away. Deal 1 damage to each enemy passed on the way. /n [TG]Cross Lane[ET]"
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": "Active [AC]3, 1 Mana: Move up to range 5. Deal 1 damage to each enemy passed on the way. /n [TG]Cross Lane[ET]"
+    }
+  ],
+  "10500": [
+    {
+      "release_date": "2020-05-25",
+      "text": "Rapid deployment. /n [TG]Death Effect:[ET] Gain +1[ATT] permanently."
+    },
+    {
+      "release_date": "2020-11-06",
+      "text": "[TG]Death Effect:[ET] Gain +2[ATT] permanently. Give Rix Rapid Deployment. 2 round cooldown."
+    }
+  ],
+  "10502": [
+    {
+      "release_date": "2020-05-25",
+      "text": "When Bristleback takes damage outside of combat, reduce that damage to 1, then activate Quill Spray."
+    },
+    {
+      "release_date": "2020-06-03",
+      "text": "When Bristleback takes non-battle damage, reduce that damage to 1, then activate Quill Spray."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": "Whenever Bristleback takes non-battle damage, reduce that damage to 1, then activate Quill Spray."
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": "Whenever Bristleback takes non-physical damage, reduce that damage to 1, then activate Quill Spray."
+    }
+  ],
+  "10506": [
+    {
+      "release_date": "2020-05-25",
+      "text": "When a unit deals battle damage to Enchantress, it is disarmed for the next combat. When Deployed: Disarm the enemy blocking Enchantress for the next combat."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": "Whenever a unit deals battle damage to Enchantress, it is disarmed for the next combat. When Deployed: Disarm the enemy blocking Enchantress for the next combat."
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": "Whenever a unit deals physical damage to Enchantress, it is disarmed for the next combat. When Deployed: Disarm the enemy blocking Enchantress for the next combat."
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": "Whenever a unit deals physical damage to Enchantress, disarm it for the next combat. Deploy: Disarm the enemy blocking Enchantress for the next combat."
+    }
+  ],
+  "10509": [
+    {
+      "release_date": "2020-05-25",
+      "text": "The first blue spell or enchantment you cast from this lane can be repeated this round. 2 round cooldown."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": "When you cast a blue spell or enchantment from this lane it can be repeated this round. 2 round cooldown."
+    },
+    {
+      "release_date": "2020-07-31",
+      "text": "When you cast a spell or enchantment from this lane it can be repeated this round. 2 round cooldown."
+    }
+  ],
+  "10512": [
+    {
+      "release_date": "2020-05-25",
+      "text": "Double damage when attacking a hero."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": "Double Phantom Assassin's damage when attacking a hero."
+    },
+    {
+      "release_date": "2020-10-09",
+      "text": "Double Phantom Assassin's damage when striking a hero."
+    }
+  ],
+  "10513": [
+    {
+      "release_date": "2020-05-25",
+      "text": "Sven's attack counts as Cleave in the combat phase. /n Sven still hits the tower if unblocked."
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": "Sven's [ATT] counts as Cleave in the combat phase. /n Sven still hits the tower if unblocked."
+    }
+  ],
+  "10514": [
+    {
+      "release_date": "2020-05-25",
+      "text": "Aura: Treant Protector's allies up to 2 slots away in this lane have +2[AR]."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": "Aura: Treant Protector's allies in this lane within range 2 have +2[AR]."
+    },
+    {
+      "release_date": "2020-11-19",
+      "text": "Aura: Treant Protector's allies in this lane within range 2 have +2 Regeneration."
+    }
+  ],
+  "10516": [
+    {
+      "release_date": "2020-05-25",
+      "text": "Pillager. /n +2 damage when attacking a tower."
+    },
+    {
+      "release_date": "2020-10-09",
+      "text": "Pillager. /n +2 damage when striking a tower."
+    }
+  ],
+  "10517": [
+    {
+      "release_date": "2020-05-25",
+      "text": "Restore 1 mana after Necrophos kills a unit."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": "Whenever Necrophos kills a unit, restore 1 mana."
+    },
+    {
+      "release_date": "2020-10-29",
+      "text": "Whenever an enemy unit dies, restore 1 mana."
+    }
+  ],
+  "10518": [
+    {
+      "release_date": "2020-05-25",
+      "text": "Restore 2 mana the first time you play a spell or enchantment in any lane."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": "When you play a spell or enchantment from any lane, restore 2 Mana. 1 round cooldown./n[TG]Cross Lane[ET]"
+    }
+  ],
+  "10519": [
+    {
+      "release_date": "2020-05-25",
+      "text": "Deal 1 piercing damage to Zeus's adjacent enemies after you play a blue spell or enchantment from this lane."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": "Whenever you play a blue spell or enchantment from this lane, deal 1 piercing damage to Zeus's adjacent enemies."
+    },
+    {
+      "release_date": "2020-07-31",
+      "text": "Whenever you play a spell or enchantment from this lane, deal 1 piercing damage to Zeus's adjacent enemies."
+    }
+  ],
+  "10520": [
+    {
+      "release_date": "2020-05-25",
+      "text": "After battling a unit, heal 2."
+    },
+    {
+      "release_date": "2020-06-02",
+      "text": "After battling a unit, heal 3."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": "Whenever Legion Commander attacks a unit in battle, heal Legion Commander 3."
+    },
+    {
+      "release_date": "2020-07-31",
+      "text": "Whenever Legion Commander attacks a unit in battle and survives, heal Legion Commander 3."
+    },
+    {
+      "release_date": "2020-10-09",
+      "text": "Whenever Legion Commander strikes a unit in battle and survives, heal Legion Commander 3."
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": "Whenever Legion Commander strikes a unit and survives, heal Legion Commander 3."
+    }
+  ],
+  "10521": [
+    {
+      "release_date": "2020-05-25",
+      "text": "Give units who take battle damage from Ursa -1[AR] permanently."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": "Whenever Ursa deals battle damage to a unit, give it -1[AR] permanently."
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": "Whenever Ursa deals physical damage to a unit, give it -1[AR] permanently."
+    }
+  ],
+  "10523": [
+    {
+      "release_date": "2020-05-25",
+      "text": "Deploy to the right instead of the left and Mega Creeps instead of Melee Creeps. /n [TG]Deploy:[ET] Redeploy your leftmost Melee Creep."
+    },
+    {
+      "release_date": "2020-06-12",
+      "text": "Summon Mega Creeps instead of Melee Creeps. Your Melee Creep are summoned on the right. /n [TG]Deploy:[ET] Resummon your leftmost Melee Creep."
+    }
+  ],
+  "10536": [
+    {
+      "release_date": "2020-05-25",
+      "attack": 5,
+      "abilities": [
+        10537
+      ]
+    },
+    {
+      "release_date": "2020-08-21",
+      "abilities": [
+        10537,
+        11068
+      ]
+    },
+    {
+      "release_date": "2020-08-28",
+      "attack": 4
+    }
+  ],
+  "10537": [
+    {
+      "release_date": "2020-05-25",
+      "text": "Leave a Static Remnant behind when Storm Spirit moves from a slot."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": "Whenever Storm Spirit moves from a slot, summon a Static Remnant in that slot."
+    }
+  ],
+  "10538": [
+    {
+      "release_date": "2020-05-25",
+      "cost": 2,
+      "text": " Move caster to any empty position in any lane. /n [TG]Cross Lane[ET]",
+      "is_signature": "10536_0"
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " Move caster to any empty slot in any lane. /n [TG]Cross Lane[ET]",
+      "is_signature": "10536_1"
+    },
+    {
+      "release_date": "2020-08-21",
+      "cost": 1,
+      "text": " Move up to range 5. Repeatable this round /n /n [TG]Cross Lane[ET] /n [TG][QU]Quickcast[ET]",
+      "is_signature": "10536_3"
+    },
+    {
+      "release_date": "2020-09-18",
+      "cost": 2,
+      "text": " Move up to range 5. /n Repeatable this round. /n [TG][QU]Quickcast[ET] if the slot was empty. /n /n [TG]Cross Lane[ET] /n ",
+      "is_signature": "10536_7"
+    }
+  ],
+  "10600": [
+    {
+      "release_date": "2020-05-25",
+      "text": "Devour /n [TG]Play Effect:[ET] Deal damage equal to Berserker of the Abyssm's Health to the unit blocking it."
+    },
+    {
+      "release_date": "2020-08-21",
+      "text": "Devour /n [TG]Play Effect:[ET] Berserker of the Abyssm attacks the unit blocking it for battle damage equal to its health."
+    },
+    {
+      "release_date": "2020-10-01",
+      "text": "Devour /n [TG]Play Effect:[ET] Berserker of the Abyssm attacks the unit blocking it for battle damage equal to Berserker of the Abyssm's health."
+    },
+    {
+      "release_date": "2020-10-09",
+      "text": "Devour /n [TG]Play Effect:[ET] Berserker of the Abyssm strikes the unit blocking it for battle damage equal to Berserker of the Abyssm's health."
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": "Devour /n/n [TG]Play Effect:[ET] Berserker of the Abyssm strikes the unit blocking it using Berserker of the Abyssm's [HP] instead of [ATT]."
+    }
+  ],
+  "10601": [
+    {
+      "release_date": "2020-05-25",
+      "text": " After battling a unit, draw the next creep card from your deck. That card has +1[AR] and costs 2 less."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " Whenever Stonehall Conscriptor battles a unit, draw the next creep card from your deck. That card has +1[AR] and costs 2 less."
+    },
+    {
+      "release_date": "2020-11-21",
+      "faction": "Bronze Legion"
+    }
+  ],
+  "10602": [
+    {
+      "release_date": "2020-05-25",
+      "text": "[TG]Play Effect:[ET] Give Unstable Elemental a Death Shield. /n [TG]Active 1[AC], 1 Mana:[ET] Deal 1 damage to all units on both teams."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": "[TG]Play Effect:[ET] Give Unstable Elemental a Death Shield until death. /n [TG]Active 1[AC], 1 Mana:[ET] Deal 1 damage to all units on both teams."
+    }
+  ],
+  "10604": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Enchant Tower /n [TG]Active 2[AC], 1 Mana:[ET] Spend all your Mana. Summon an Ozkavosh Horror with +1[ATT]/+1[HP] for each Mana spent."
+    },
+    {
+      "release_date": "2021-03-04",
+      "text": " Removed from the game."
+    }
+  ],
+  "10605": [
+    {
+      "release_date": "2020-05-25",
+      "text": " [TG]Minion:[ET] Stun Slumbering Brute unless it neighbors a hero. /n [TG]Round Start:[ET] Slumbering Brute taunts."
+    },
+    {
+      "release_date": "2020-11-21",
+      "faction": "Bronze Legion"
+    },
+    {
+      "release_date": "2020-12-03",
+      "text": " [TG]Minion:[ET] Slumbering Brute is stunned unless it neighbors a hero. /n [TG]Round Start:[ET] Taunt."
+    }
+  ],
+  "10608": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Enchant Caster /n /nWhen damaged, gain +1[ATT] permanently./n /n[TG]Round Start: [ET]Take one piercing damage."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " Enchant Caster /n /nWhenever this hero is damaged, gain +1[ATT] permanently./n /n[TG]Round Start: [ET]Take one piercing damage."
+    }
+  ],
+  "10609": [
+    {
+      "release_date": "2020-05-25",
+      "attack": 2
+    },
+    {
+      "release_date": "2020-12-03",
+      "faction": "Vhoul Rebellion",
+      "attack": 3
+    }
+  ],
+  "10610": [
+    {
+      "release_date": "2020-05-21",
+      "text": " [TG]Minion:[ET] Honor Guard has +1[ATT] and +1[AR] per neighboring hero. /n [TG]Play Effect:[ET] Honor Guard taunts."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " [TG]Minion:[ET] Honor Guard has +1[ATT] and +1[AR] per neighboring hero. /n [TG]Play Effect:[ET] Taunt."
+    },
+    {
+      "release_date": "2020-11-06",
+      "text": " [TG]Minion:[ET] Honor Guard has +2[ATT] and +2[AR] per neighboring hero. /n [TG]Play Effect:[ET] Taunt."
+    },
+    {
+      "release_date": "2020-11-21",
+      "faction": "Bronze Legion"
+    }
+  ],
+  "10611": [
+    {
+      "release_date": "2020-05-25",
+      "type": "Creep",
+      "text": " Deploy Wildwings instead of Melee Creeps."
+    },
+    {
+      "release_date": "2020-06-12",
+      "text": " Summon Wildwings instead of Melee Creeps."
+    },
+    {
+      "release_date": "2020-07-16",
+      "type": "Improvement",
+      "improvement_type": "Passive"
+    },
+    {
+      "release_date": "2020-07-23",
+      "text": " Summon Wildwings instead of Melee Creeps. /n Dispel when out of charges. /n /n [TG]Charges: 3[ET]"
+    },
+    {
+      "release_date": "2020-12-03",
+      "text": "Enchant Tower /n/n Summon Wildwings instead of Melee Creeps. /n Dispel when out of charges. /n /n [TG]Charges: 3[ET]"
+    }
+  ],
+  "10612": [
+    {
+      "release_date": "2020-05-25",
+      "cost": 3,
+      "text": " [TG]Active 1[AC], 1 Mana:[ET] Disarm a unit."
+    },
+    {
+      "release_date": "2020-08-21",
+      "cost": 2
+    },
+    {
+      "release_date": "2020-09-24",
+      "text": " [TG]Active 1[AC], 1 Mana:[ET] Disarm a unit. Give Fell Spirit +2[ATT]."
+    }
+  ],
+  "10613": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Swap one of your creeps with an enemy creep."
+    },
+    {
+      "release_date": "2020-07-09",
+      "text": " Swap one of your creeps with an enemy creep. Swap their colors."
+    },
+    {
+      "release_date": "2020-12-23",
+      "text": " Swap one of your creeps with an enemy creep. Swap their colors and factions."
+    }
+  ],
+  "10614": [
+    {
+      "release_date": "2020-05-25",
+      "text": " When Wall of Secrets takes damage: draw a card."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " Whenever Wall of Secrets takes damage: draw a card."
+    }
+  ],
+  "10615": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Each unit on both teams battles itself."
+    },
+    {
+      "release_date": "2020-10-22",
+      "text": " Each unit on both teams strikes itself."
+    }
+  ],
+  "10617": [
+    {
+      "release_date": "2020-05-25",
+      "cost": 2,
+      "text": " Mulch/nGive caster and another unit in any lane +1[ATT] and +2 Regeneration./n[TG]Cross Lane[ET]"
+    },
+    {
+      "release_date": "2021-03-04",
+      "text": " Mulch/nGive caster and another unit in any lane +2[ATT] and +2 Regeneration./n[TG]Cross Lane[ET]",
+      "cost": 3,
+      "is_signature": "10056_4"
+    }
+  ],
+  "10618": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Deploy one of your heroes at random from the Fountain to the first empty position."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " Deploy one of your heroes at random from the Fountain to the first empty slot."
+    }
+  ],
+  "10619": [
+    {
+      "release_date": "2020-05-25",
+      "cost": 2,
+      "text": " [TG]Play Effect:[ET] Trigger neighbor Death Effects."
+    },
+    {
+      "release_date": "2020-09-24",
+      "text": " [TG]Play Effect:[ET] Trigger neighbor Death Effects twice."
+    },
+    {
+      "release_date": "2020-10-01",
+      "cost": 3
+    }
+  ],
+  "10622": [
+    {
+      "release_date": "2020-05-25",
+      "gold_cost": 10,
+      "text": " +2[ATT], +3 damage when attacking a tower."
+    },
+    {
+      "release_date": "2020-07-31",
+      "text": " +5 damage when attacking a tower."
+    },
+    {
+      "release_date": "2020-09-18",
+      "text": " +4 damage when attacking a tower."
+    },
+    {
+      "release_date": "2020-10-09",
+      "text": " +4 damage when striking a tower."
+    },
+    {
+      "release_date": "2020-10-22",
+      "gold_cost": 15
+    }
+  ],
+  "10623": [
+    {
+      "release_date": "2020-05-25",
+      "item_subtype": "Consumable",
+      "gold_cost": 15,
+      "text": " +2[ATT]/n/nDoes not use an item slot./n/nWhen you buy Main Gauche, get another one.",
+      "attack": 2,
+      "armor": 0
+    },
+    {
+      "release_date": "2020-08-28",
+      "item_subtype": "Armor",
+      "text": " +2[AR]/n/nEquipped hero has +2[ATT] per empty item slot.",
+      "attack": 0,
+      "armor": 2
+    },
+    {
+      "release_date": "2020-10-22",
+      "gold_cost": 20
+    },
+    {
+      "release_date": "2020-12-23",
+      "text": " +2[AR]/n/nEquipped hero has +4[ATT] if they have an empty item slot."
+    }
+  ],
+  "10625": [
+    {
+      "release_date": "2020-05-25",
+      "gold_cost": 20,
+      "text": " +2[ATT], Quickstrike",
+      "attack": 2
+    },
+    {
+      "release_date": "2020-08-21",
+      "text": " +5[ATT], Quickstrike",
+      "attack": 5
+    },
+    {
+      "release_date": "2020-10-22",
+      "gold_cost": 30
+    },
+    {
+      "release_date": "2020-11-06",
+      "text": " +5[ATT], Quickstrike /n /n [TG]Play Effect:[ET] Equipped hero battles the unit blocking it."
+    }
+  ],
+  "10627": [
+    {
+      "release_date": "2020-05-25",
+      "gold_cost": 15
+    },
+    {
+      "release_date": "2020-10-22",
+      "gold_cost": 25
+    },
+    {
+      "release_date": "2020-10-29",
+      "gold_cost": 20
+    }
+  ],
+  "10628": [
+    {
+      "release_date": "2020-05-25",
+      "text": " [TG]+2[AR]/n After Combat:[ET] Summon a Zombie into the closest position"
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " +2 [TG][AR]/n/n After Combat:[ET] Summon a Zombie into the closest slot"
+    }
+  ],
+  "10629": [
+    {
+      "release_date": "2020-05-25",
+      "gold_cost": 15
+    },
+    {
+      "release_date": "2020-10-22",
+      "gold_cost": 20
+    }
+  ],
+  "10630": [
+    {
+      "release_date": "2020-05-25",
+      "gold_cost": 15
+    },
+    {
+      "release_date": "2020-10-22",
+      "gold_cost": 20
+    }
+  ],
+  "10631": [
+    {
+      "release_date": "2020-05-04",
+      "text": " Summon a Revtel Mercenary."
+    },
+    {
+      "release_date": "2020-07-09",
+      "text": " Removed from the game."
+    }
+  ],
+  "10637": [
+    {
+      "release_date": "2020-05-25"
+    },
+    {
+      "release_date": "2020-12-03",
+      "text": "Trample."
+    },
+    {
+      "release_date": "2021-03-04",
+      "text": "Removed from the game."
+    }
+  ],
+  "10638": [
+    {
+      "release_date": "2020-05-25"
+    },
+    {
+      "release_date": "2020-07-23",
+      "text": "Whenever Wildwing enters any lane, remove a charge from Wildwing Bait."
+    }
+  ],
+  "10641": [
+    {
+      "release_date": "2020-05-25",
+      "cost": 5,
+      "text": " [TG]Death Effect:[ET] Put an Artificer's Mail card into your hand."
+    },
+    {
+      "release_date": "2020-05-29",
+      "text": " [TG]Death Effect:[ET] Put a locked Artificer's Mail card into your hand."
+    },
+    {
+      "release_date": "2020-10-29",
+      "cost": 1
+    }
+  ],
+  "10646": [
+    {
+      "release_date": "2020-05-21",
+      "health": 3
+    },
+    {
+      "release_date": "2020-05-25",
+      "health": 4
+    },
+    {
+      "release_date": "2021-03-11",
+      "health": 5
+    }
+  ],
+  "10647": [
+    {
+      "release_date": "2020-05-25",
+      "name": "Blink",
+      "text": "[TG]Active 3, 1 Mana:[ET] Move Anti-Mage up to 5 slots away. Deal 1 battle damage to the unit now blocking Anti-Mage. [TG]Cross Lane[ET]."
+    },
+    {
+      "release_date": "2020-06-26",
+      "name": "Blink Strike",
+      "text": "[TG]Active 3, 1 Mana:[ET] Move up to range 5. Deal 1 battle damage to the unit now blocking Anti-Mage. [TG]Cross Lane[ET]."
+    },
+    {
+      "release_date": "2020-09-18",
+      "text": "[TG]Active 3, 1 Mana:[ET] Move up to range 5. Anti-Mage attacks the new unit blocking it for 1 battle damage. [TG]Cross Lane[ET]."
+    },
+    {
+      "release_date": "2020-10-09",
+      "text": "[TG]Active 3, 1 Mana:[ET] Move up to range 5. Anti-Mage strikes the new unit blocking it for 1 battle damage. [TG]Cross Lane[ET]."
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": "[TG]Active 3, 1 Mana:[ET] Move up to range 5. Anti-Mage strikes the new unit blocking it for 1 [ATT]. [TG]Cross Lane[ET]."
+    }
+  ],
+  "10648": [
+    {
+      "release_date": "2020-05-25",
+      "is_signature": "10646_5"
+    },
+    {
+      "release_date": "2021-03-04",
+      "is_signature": "10646_7"
+    }
+  ],
+  "10651": [
+    {
+      "release_date": "2020-05-25",
+      "cost": 7,
+      "is_signature": "10649_1"
+    },
+    {
+      "release_date": "2020-07-16",
+      "cost": 8,
+      "is_signature": "10649_2"
+    },
+    {
+      "release_date": "2020-12-23",
+      "is_signature": "10649_3"
+    },
+    {
+      "release_date": "2021-03-04",
+      "is_signature": "10649_4"
+    }
+  ],
+  "10652": [
+    {
+      "release_date": "2020-05-25"
+    },
+    {
+      "release_date": "2020-11-21",
+      "faction": "Rumusque Faithful"
+    }
+  ],
+  "10653": [
+    {
+      "release_date": "2020-05-25",
+      "cooldown": 0,
+      "text": "Rapid Deployment. /n [TG]Death Effect:[ET] Give your allies +2[HP] permanently."
+    },
+    {
+      "release_date": "2020-11-06",
+      "cooldown": 2,
+      "text": "Rapid Deployment. /n [TG]Death Effect:[ET] Give your allies +2[HP] permanently and give Lady Anshu Rapid Deployment. 2 round cooldown."
+    }
+  ],
+  "10654": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Slay caster. /n [RP] Deploy heroes currently in your fountain to the first empty positions in this lane.",
+      "is_signature": "10652_0"
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " Slay caster. /n [RP] Deploy heroes currently in your fountain to the first empty slots in this lane.",
+      "is_signature": "10652_3"
+    },
+    {
+      "release_date": "2021-03-04",
+      "is_signature": "10652_4"
+    }
+  ],
+  "10655": [
+    {
+      "release_date": "2020-04-06",
+      "health": 4
+    },
+    {
+      "release_date": "2020-05-25",
+      "health": 5
+    }
+  ],
+  "10656": [
+    {
+      "release_date": "2020-05-25",
+      "text": "Active 3[AC], 1 Mana: Move Mirana up to 5 slots away. Give Mirana and new neighbors +2[ATT]. [TG]Cross Lane[ET]"
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": "Active 3[AC], 1 Mana: Move Mirana up to range 5. Give Mirana and new neighbors +2[ATT]. [TG]Cross Lane[ET]"
+    }
+  ],
+  "10657": [
+    {
+      "release_date": "2020-04-06",
+      "cost": 4,
+      "is_signature": "10655_2"
+    },
+    {
+      "release_date": "2020-09-24",
+      "cost": 3,
+      "is_signature": "10655_3"
+    },
+    {
+      "release_date": "2021-03-04",
+      "is_signature": "10655_4"
+    }
+  ],
+  "10658": [
+    {
+      "release_date": "2020-05-25",
+      "rarity": 5,
+      "attack": 1,
+      "abilities": [
+        10659
+      ]
+    },
+    {
+      "release_date": "2020-06-22",
+      "rarity": 2,
+      "abilities": [
+        10659,
+        11061
+      ]
+    },
+    {
+      "release_date": "2020-07-31",
+      "attack": 2
+    }
+  ],
+  "10659": [
+    {
+      "release_date": "2020-05-25",
+      "text": "[TG]Active 2[AC], 1 Mana:[ET] Increase Mana cost of two random cards in your opponents hand by 1. Reveal them. /n [TG][QU]Quickcast[ET]"
+    },
+    {
+      "release_date": "2020-09-18",
+      "text": "[TG]Active 2[AC], 1 Mana:[ET] Reveal two random cards in your opponents hand. Increase their cost by 1. Reveal them. /n [TG][QU]Quickcast[ET]"
+    }
+  ],
+  "10662": [
+    {
+      "release_date": "2020-05-25",
+      "rarity": 5,
+      "text": " Pierce. /n Sapphire Archon has -1 Mana cost per revealed card in opponent's hand.",
+      "is_signature": "10658_0"
+    },
+    {
+      "release_date": "2020-06-22",
+      "rarity": 2,
+      "is_signature": "10658_1"
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": " Pierce. /n Sapphire Archon has -1 Mana cost per revealed non-item card in opponent's hand.",
+      "is_signature": "10658_3"
+    },
+    {
+      "release_date": "2021-03-04",
+      "is_signature": "10658_5"
+    }
+  ],
+  "10663": [
+    {
+      "release_date": "2020-05-25"
+    },
+    {
+      "release_date": "2020-10-29",
+      "color": "Black"
+    },
+    {
+      "release_date": "2020-11-21",
+      "faction": "Court of Ristul"
+    }
+  ],
+  "10664": [
+    {
+      "release_date": "2020-05-25",
+      "cooldown": 0,
+      "text": "Rapid Deployment. /n [TG]Deploy:[ET] Give your other allies +1 Siege."
+    },
+    {
+      "release_date": "2020-06-01",
+      "text": "Rapid Deployment."
+    },
+    {
+      "release_date": "2020-11-06",
+      "cooldown": 2,
+      "text": "[TG]Death Effect:[ET] Ready Rix, Oathbound for deployment. 2 round cooldown."
+    },
+    {
+      "release_date": "2020-11-13",
+      "text": "[TG]Death Effect:[ET] Give Rix, Oathbound Rapid Deployment. 2 round cooldown."
+    }
+  ],
+  "10666": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Enchant Tower /n /n [TG]Active 1[AC], Mana 1:[ET] Choose an ally. It battles the enemy tower. Slay that ally.",
+      "is_signature": "10663_1"
+    },
+    {
+      "release_date": "2020-07-31",
+      "text": " Enchant Tower /n /n [TG]Active 2[AC], Mana 1:[ET] Choose an ally. It battles the enemy tower. Slay that ally.",
+      "is_signature": "10663_2"
+    },
+    {
+      "release_date": "2020-10-09",
+      "text": " Enchant Tower /n /n [TG]Active 2[AC], Mana 1:[ET] Choose an ally. It strikes the enemy tower. Slay that ally.",
+      "is_signature": "10663_3"
+    },
+    {
+      "release_date": "2020-10-29",
+      "color": "Black",
+      "is_signature": "10663_7"
+    },
+    {
+      "release_date": "2021-03-04",
+      "is_signature": "10663_8"
+    }
+  ],
+  "10669": [
+    {
+      "release_date": "2020-05-25",
+      "cooldown": 2,
+      "text": "[TG]Active 2[AC], 1 Mana:[ET] Swap an enemy to another position. /n [TG][QU]Quickcast[ET]"
+    },
+    {
+      "release_date": "2020-06-22",
+      "text": "[TG]Active 2[AC], 1 Mana:[ET] Swap an enemy to another position up to three slots away. /n [TG][QU]Quickcast[ET]"
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": "[TG]Active 2[AC], 1 Mana:[ET] Choose an enemy within range 3. Swap them to a new slot within range 3. /n [TG][QU]Quickcast[ET]"
+    },
+    {
+      "release_date": "2020-08-21",
+      "cooldown": 3,
+      "text": "[TG]Active 3[AC], 1 Mana:[ET] Choose an enemy within range 3. Swap them to a new slot within range 3. Stun them and their new neighbors. /n [TG]Cross Lane[ET]"
+    },
+    {
+      "release_date": "2020-10-29",
+      "text": "[TG]Active 3[AC], 1 Mana:[ET] Choose an enemy within range 3. Swap them to a new slot within range 3. Stun their new neighbors. /n [TG]Cross Lane[ET]"
+    }
+  ],
+  "10670": [
+    {
+      "release_date": "2020-05-25",
+      "cost": 3,
+      "text": " Put a copy of the last non-item card your opponent played into your hand. That card is blue and costs 3. /n [TG][QU]Quickcast[ET]",
+      "is_signature": "10668_0"
+    },
+    {
+      "release_date": "2020-06-22",
+      "cost": 1,
+      "text": " Put a copy of the last non-item card your opponent played into your hand. That card is blue, ephemeral and costs 1 less. /n [TG][QU]Quickcast[ET]",
+      "is_signature": "10668_2"
+    },
+    {
+      "release_date": "2020-09-18",
+      "text": "Put a copy of the last non-item card your opponent played into your hand. That card is blue and costs 1 less. /n/n [TG][QU]Quickcast[ET]",
+      "is_signature": "10668_5"
+    },
+    {
+      "release_date": "2020-12-23",
+      "is_signature": "10668_6"
+    },
+    {
+      "release_date": "2021-03-04",
+      "is_signature": "10668_7"
+    }
+  ],
+  "10671": [
+    {
+      "release_date": "2020-05-21",
+      "rarity": 5,
+      "health": 6
+    },
+    {
+      "release_date": "2020-05-25",
+      "health": 5
+    },
+    {
+      "release_date": "2020-06-26",
+      "rarity": 3
+    },
+    {
+      "release_date": "2020-11-21",
+      "faction": "Court of Ristul"
+    }
+  ],
+  "10673": [
+    {
+      "release_date": "2020-05-25",
+      "rarity": 5,
+      "is_signature": "10671_1"
+    },
+    {
+      "release_date": "2020-06-26",
+      "rarity": 3,
+      "is_signature": "10671_3"
+    },
+    {
+      "release_date": "2021-03-04",
+      "is_signature": "10671_4"
+    }
+  ],
+  "10674": [
+    {
+      "release_date": "2020-05-21",
+      "health": 7
+    },
+    {
+      "release_date": "2020-05-25",
+      "health": 6
+    }
+  ],
+  "10675": [
+    {
+      "release_date": "2020-05-25",
+      "text": "[TG]Active 3[AC], 1 Mana:[ET] Double Tusk's Attack this round."
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": "[TG]Active 3[AC], 1 Mana:[ET] Double Tusk's [ATT] this round."
+    }
+  ],
+  "10676": [
+    {
+      "release_date": "2020-05-21",
+      "rarity": 3,
+      "cost": 2,
+      "text": " Deal 1 damage to an enemy and displace it with an Ice Shard. ",
+      "is_signature": "10674_1"
+    },
+    {
+      "release_date": "2020-05-25",
+      "rarity": 5,
+      "text": " Push an enemy and deal 1 damage to it. Summon an Ice Shard in its place.",
+      "is_signature": "10674_3"
+    },
+    {
+      "release_date": "2021-03-04",
+      "is_signature": "10674_4"
+    },
+    {
+      "release_date": "2021-03-11",
+      "cost": 1,
+      "is_signature": "10674_5"
+    }
+  ],
+  "10678": [
+    {
+      "release_date": "2020-05-25"
+    },
+    {
+      "release_date": "2020-11-21",
+      "faction": "Court of Ristul"
+    }
+  ],
+  "10679": [
+    {
+      "release_date": "2020-05-25",
+      "text": "[TG]Active 3[AC], 1 Mana:[ET] Move all your heroes in this lane to another lane."
+    },
+    {
+      "release_date": "2020-10-29",
+      "text": "[TG]Active 3[AC], 1 Mana:[ET] Move Underlord and the closest allied heroes to another lane."
+    }
+  ],
+  "10700": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Enchant Unit /n [TG]Aura:[ET] Enemies up to 2 slots away have -1[ATT]. When one dies gain +1[ATT] permanently.",
+      "is_signature": "10678_0"
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " Enchant Unit /n [TG]Aura:[ET] Enemies in this lane within range 2 have -1[ATT]. Whenever one dies gain +1[ATT] permanently.",
+      "is_signature": "10678_3"
+    },
+    {
+      "release_date": "2021-03-04",
+      "is_signature": "10678_4"
+    }
+  ],
+  "10701": [
+    {
+      "release_date": "2020-05-25",
+      "attack": 1,
+      "abilities": [
+        10702
+      ]
+    },
+    {
+      "release_date": "2020-06-22",
+      "abilities": [
+        10702,
+        11062
+      ]
+    },
+    {
+      "release_date": "2020-07-31",
+      "attack": 2
+    }
+  ],
+  "10703": [
+    {
+      "release_date": "2020-05-25",
+      "is_signature": "10701_2"
+    },
+    {
+      "release_date": "2020-12-23",
+      "is_signature": "10701_3"
+    },
+    {
+      "release_date": "2021-03-04",
+      "is_signature": "10701_4"
+    }
+  ],
+  "10705": [
+    {
+      "release_date": "2020-05-25",
+      "text": "[TG]Active 2[AC], 1 Mana:[ET] Repeat 4 times: [RP] Heal a damaged ally 1 and deal 1 damage to the closest adjacent enemy. Jump left or right to a damaged ally."
+    },
+    {
+      "release_date": "2020-07-16",
+      "text": "[TG]Active 2[AC], 1 Mana:[ET] Repeat 4 times: [RP] Give an ally +1 temporary health and deal 1 damage to its closest adjacent enemy. Jump left or right to the ally with the least health."
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": "[TG]Active 2[AC], 1 Mana:[ET] Repeat 4 times: [RP] Give an ally +1 temporary [HP] and deal 1 damage to its closest adjacent enemy. Jump left or right to the ally with the least [HP]."
+    }
+  ],
+  "10706": [
+    {
+      "release_date": "2020-05-25",
+      "is_signature": "10704_2"
+    },
+    {
+      "release_date": "2020-12-23",
+      "is_signature": "10704_3"
+    },
+    {
+      "release_date": "2021-03-04",
+      "is_signature": "10704_4"
+    }
+  ],
+  "10713": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Choose a lane. Deploy all heroes from both Fountains to that lane./n[TG]Cross Lane[ET]"
+    },
+    {
+      "release_date": "2020-09-24",
+      "text": " Move caster up to range 5. Deploy all heroes from both Fountains to that lane./n[TG]Cross Lane[ET]"
+    }
+  ],
+  "10714": [
+    {
+      "release_date": "2020-05-25",
+      "cost": 4
+    },
+    {
+      "release_date": "2020-12-03",
+      "cost": 3
+    }
+  ],
+  "10715": [
+    {
+      "release_date": "2020-05-25",
+      "text": " [TG]After Combat:[ET] Move to the rightmost position in the next lane."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " [TG]After Combat:[ET] Move to the rightmost slot in the next lane."
+    }
+  ],
+  "10716": [
+    {
+      "release_date": "2020-05-25",
+      "text": " [TG]Play Effect:[ET] Deal 1 damage to adjacent units on both teams."
+    },
+    {
+      "release_date": "2020-08-21",
+      "text": " [TG]Play Effect:[ET] Abyssm Flesh Render attacks adjacent units on both teams for 1 battle damage."
+    },
+    {
+      "release_date": "2020-10-09",
+      "text": " [TG]Play Effect:[ET] Abyssm Flesh Render strikes adjacent units on both teams for 1 battle damage."
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": " [TG]Play Effect:[ET] Abyssm Flesh Render strikes adjacent units on both teams for 1 [ATT]."
+    },
+    {
+      "release_date": "2020-12-03",
+      "text": "Devour /n/n [TG]Play Effect:[ET] Abyssm Flesh Render strikes adjacent units on both teams for 1 [ATT]."
+    }
+  ],
+  "10717": [
+    {
+      "release_date": "2020-05-21",
+      "text": " +2 damage when attacking a tower. /n /n [TG]Active 1[AC], 1 Mana:[ET] Move to an empty position."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " +2 damage when attacking a tower. /n /n [TG]Active 1[AC], 1 Mana:[ET] Move to an empty slot."
+    },
+    {
+      "release_date": "2020-08-21",
+      "text": " +2 damage when attacking a tower. /n [TG]Active 1[AC], 1 Mana:[ET] Move to an empty slot. Horde Stryder attacks its new combat target for 2 battle damage."
+    },
+    {
+      "release_date": "2020-10-09",
+      "text": " +2 damage when striking a tower. /n [TG]Active 1[AC], 1 Mana:[ET] Move to an empty slot. Horde Stryder strikes its new combat target for 2 battle damage."
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": " +2 damage when striking a tower. /n [TG]Active 1[AC], 1 Mana:[ET] Move to an empty slot. Horde Stryder strikes its new combat target for 2 [ATT]."
+    }
+  ],
+  "10719": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Put a Destroyed from Within card into your opponent's hand."
+    },
+    {
+      "release_date": "2020-12-03",
+      "text": " Put two Destroyed from Within cards into your opponent's hand."
+    }
+  ],
+  "10720": [
+    {
+      "release_date": "2020-05-25",
+      "cost": 4
+    },
+    {
+      "release_date": "2020-12-03",
+      "cost": 1
+    }
+  ],
+  "10721": [
+    {
+      "release_date": "2020-05-25",
+      "health": 4,
+      "signature": [
+        10723
+      ]
+    },
+    {
+      "release_date": "2020-07-09",
+      "health": 3,
+      "related_cards": [
+        10723
+      ],
+      "signature": [
+        10724
+      ]
+    },
+    {
+      "release_date": "2020-10-01",
+      "health": 4
+    }
+  ],
+  "10722": [
+    {
+      "release_date": "2020-05-25",
+      "text": "After Combat: Summon a Lancer Illusion into the closest position."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": "After Combat: Summon a Lancer Illusion into the closest slot."
+    }
+  ],
+  "10723": [
+    {
+      "release_date": "2020-05-25",
+      "text": "[TG]After Combat:[ET] Summon a Lancer Illusion into the closest position.",
+      "is_signature": "10721_0"
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": "[TG]After Combat:[ET] Summon a Lancer Illusion into the closest slot.",
+      "is_signature": "10721_1"
+    },
+    {
+      "release_date": "2020-07-09",
+      "related_cards": [
+        10721,
+        10724
+      ]
+    }
+  ],
+  "10724": [
+    {
+      "release_date": "2020-07-09",
+      "text": " Move caster to a neighboring slot. Replace it with a Lancer Illusion.",
+      "is_signature": "10721_3"
+    },
+    {
+      "release_date": "2020-11-06",
+      "text": " Move caster to another slot. Replace it with a Lancer Illusion.",
+      "is_signature": "10721_5"
+    },
+    {
+      "release_date": "2020-12-23",
+      "is_signature": "10721_6"
+    },
+    {
+      "release_date": "2021-01-13",
+      "is_signature": "10721_8"
+    }
+  ],
+  "10727": [
+    {
+      "release_date": "2020-05-25",
+      "gold_cost": 15
+    },
+    {
+      "release_date": "2020-10-22",
+      "gold_cost": 20
+    }
+  ],
+  "10730": [
+    {
+      "release_date": "2020-05-25",
+      "rarity": 4,
+      "abilities": [
+        10731
+      ]
+    },
+    {
+      "release_date": "2020-07-16",
+      "rarity": 3,
+      "abilities": [
+        10731,
+        11064
+      ]
+    }
+  ],
+  "10731": [
+    {
+      "release_date": "2020-05-25",
+      "text": "[TG]Active 2[AC], 1 Mana:[ET] Choose a non-item card in your opponent's hand. They discard it then draw 1. /n Give Imperia +Attack equal to the discarded card's Mana cost."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": "[TG]Active 2[AC], 1 Mana:[ET] Choose a non-item card in your opponent's hand. They discard it then draw a card. /n Give Imperia +Attack equal to the discarded card's Mana cost."
+    },
+    {
+      "release_date": "2020-07-16",
+      "text": "[TG]Active 2[AC], 1 Mana:[ET] Discard a non-item card in either player's hand. That player draws another card, and it is revealed to you."
+    }
+  ],
+  "10732": [
+    {
+      "release_date": "2020-05-25",
+      "rarity": 4,
+      "text": " Devour, Feeble. /n When Conspiracy of Ravens is dealt damage, reveal a random card in the opponent's hand.",
+      "attack": 0,
+      "health": 2,
+      "is_signature": "10730_0"
+    },
+    {
+      "release_date": "2020-06-19",
+      "text": " Devour, Feeble. /n When Conspiracy of Ravens devours or kills a unit, reveal a random card in the opponent's hand.",
+      "is_signature": "10730_1"
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " Devour, Feeble. /n Whenever Conspiracy of Ravens devours or kills a unit, reveal a random card in the opponent's hand.",
+      "is_signature": "10730_4"
+    },
+    {
+      "release_date": "2020-07-16",
+      "rarity": 3
+    },
+    {
+      "release_date": "2020-12-23",
+      "is_signature": "10730_6",
+      "attack": 1,
+      "health": 3
+    },
+    {
+      "release_date": "2021-03-04",
+      "is_signature": "10730_7"
+    }
+  ],
+  "10734": [
+    {
+      "release_date": "2020-05-25",
+      "cost": 3,
+      "text": " [TG]Death Effect:[ET] Draw a card."
+    },
+    {
+      "release_date": "2020-12-03",
+      "cost": 2
+    },
+    {
+      "release_date": "2021-03-04",
+      "text": " Removed from the game."
+    }
+  ],
+  "10736": [
+    {
+      "release_date": "2020-05-21",
+      "text": " Wild Boar deals +2 damage when attacking a unit.",
+      "attack": 2
+    },
+    {
+      "release_date": "2020-10-09",
+      "text": " Wild Boar deals +2 damage when striking a unit."
+    },
+    {
+      "release_date": "2020-12-03",
+      "attack": 3
+    },
+    {
+      "release_date": "2021-03-04",
+      "text": " Removed from the game."
+    }
+  ],
+  "10739": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Disarm Hellbear Smasher when unblocked. /n [TG]Round Start:[ET] Move to a random blocked position."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " Hellbear Smasher is disarmed while unblocked. /n [TG]Round Start:[ET] Move to a random blocked slot."
+    },
+    {
+      "release_date": "2021-03-04",
+      "text": " Removed from the game."
+    }
+  ],
+  "10744": [
+    {
+      "release_date": "2020-05-25",
+      "cost": 4,
+      "text": " Trample /n [TG]Play Effect:[ET] Give neighbors Trample.",
+      "health": 5
+    },
+    {
+      "release_date": "2020-12-03",
+      "cost": 3,
+      "text": " Fey Wayfinder and its neighbors have Trample.",
+      "health": 3
+    }
+  ],
+  "10745": [
+    {
+      "release_date": "2020-05-25",
+      "text": "Lashvine Creeper and its combat target are rooted. /n [TG]Round Start:[ET] If Lashvine Creeper is unblocked move a random enemy to block it.",
+      "health": 6
+    },
+    {
+      "release_date": "2020-06-02",
+      "text": "Lashvine Creeper and its combat target are rooted. /n [TG]Round Start:[ET] If Lashvine Creeper is unblocked, move the closest enemy to block it."
+    },
+    {
+      "release_date": "2020-12-03",
+      "health": 7
+    }
+  ],
+  "10746": [
+    {
+      "release_date": "2020-05-25",
+      "cost": 3,
+      "text": " [TG]Play Effect:[ET] Neighbors gain Regeneration equal to their current Health.",
+      "health": 1
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " [TG]Play Effect:[ET] Give neighbors Regeneration equal to their current Health."
+    },
+    {
+      "release_date": "2020-10-26",
+      "text": " [TG]Play Effect:[ET] Give neighbors Regeneration equal to their current [HP]."
+    },
+    {
+      "release_date": "2020-12-03",
+      "cost": 2,
+      "health": 3
+    },
+    {
+      "release_date": "2021-03-04",
+      "text": " Removed from the game."
+    }
+  ],
+  "10747": [
+    {
+      "release_date": "2020-05-25",
+      "cost": 4,
+      "text": " [TG]Active 1[AC], 1 Mana:[ET] Deal 1 damage to all enemies to the left of Moonglade Fusilier."
+    },
+    {
+      "release_date": "2020-12-03",
+      "cost": 3
+    },
+    {
+      "release_date": "2021-03-04",
+      "text": " Removed from the game."
+    }
+  ],
+  "10748": [
+    {
+      "release_date": "2020-05-25",
+      "name": "Doppelganger",
+      "text": "Replace an allied unit. Bounce and gain the unit's attack and health. /n Dopplegangers who replace heroes can cast spells."
+    },
+    {
+      "release_date": "2020-06-19",
+      "text": "Replace an allied unit. Bounce and gain the unit's attack and health. If the bounced unit is a creep, give it +1 Lock. /n Dopplegangers who replace heroes can cast spells."
+    },
+    {
+      "release_date": "2020-06-26",
+      "name": "Homunculus",
+      "text": "Replace an allied unit. Bounce and gain the unit's attack and health. If the bounced unit is a creep, give it +1 Lock. /n Homunculus which replace heroes can cast spells."
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": "Replace an allied unit. Bounce and gain the unit's [ATT] and [HP]. If the bounced unit is a creep, give it +1 Lock. /n Homunculus which replace heroes can cast spells."
+    },
+    {
+      "release_date": "2020-11-13",
+      "text": " Devour. /n/n If Homunculus would devour a hero, it bounces it instead, then Homunculus becomes a caster of that hero's color."
+    }
+  ],
+  "10749": [
+    {
+      "release_date": "2020-05-25",
+      "attack": 1,
+      "health": 1
+    },
+    {
+      "release_date": "2020-12-03",
+      "attack": 2,
+      "health": 2
+    }
+  ],
+  "10751": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Deploy Resonant Constructs instead of Melee Creeps. /n +1[ATT] when you play a spell or enchantment in any lane.",
+      "armor": 0
+    },
+    {
+      "release_date": "2020-06-12",
+      "text": " Summon Resonant Constructs instead of Melee Creeps. /n +1[ATT] when you play a spell or enchantment in any lane."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " Summon Resonant Constructs instead of Melee Creeps. /n Whenever you play a spell or enchantment in any lane, gain +1[ATT]."
+    },
+    {
+      "release_date": "2020-07-16",
+      "armor": 1
+    },
+    {
+      "release_date": "2020-12-03",
+      "text": " Summon Resonant Constructs instead of Melee Creeps. /n Whenever you play a spell or enchantment in any lane, gain +2[ATT]."
+    },
+    {
+      "release_date": "2021-03-04",
+      "text": " Removed from the game."
+    }
+  ],
+  "10752": [
+    {
+      "release_date": "2020-05-25",
+      "name": "Claddish Archivist",
+      "text": " [TG]Active 1[AC], 1 Mana:[ET] Choose a card in your hand. Discard all copies and draw to replace them.",
+      "attack": 0,
+      "health": 2
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " [TG]Active 1[AC], 1 Mana:[ET] Choose a card in your hand, discard all copies and draw to replace them."
+    },
+    {
+      "release_date": "2020-07-16",
+      "attack": 1,
+      "health": 4
+    },
+    {
+      "release_date": "2021-03-04",
+      "name": "Sapphire Archivist"
+    }
+  ],
+  "10753": [
+    {
+      "release_date": "2020-04-06",
+      "name": "Defenestrating Ogre",
+      "text": "[TG]Play Effect:[ET] Bounce the enemy blocking Defenestrating Ogre."
+    },
+    {
+      "release_date": "2021-03-04",
+      "name": "Defenestrating Kobold",
+      "text": "[TG]Play Effect:[ET] Bounce the enemy blocking Defenestrating Kobold."
+    }
+  ],
+  "10754": [
+    {
+      "release_date": "2020-05-25",
+      "health": 5
+    },
+    {
+      "release_date": "2020-07-16",
+      "health": 6
+    }
+  ],
+  "10755": [
+    {
+      "release_date": "2020-05-25",
+      "name": "Outworld Devourer",
+      "rarity": 2
+    },
+    {
+      "release_date": "2020-06-26",
+      "rarity": 5
+    },
+    {
+      "release_date": "2020-12-23",
+      "name": "Outworld Destroyer"
+    }
+  ],
+  "10757": [
+    {
+      "release_date": "2020-05-25",
+      "rarity": 2,
+      "cost": 4,
+      "text": " Stun a unit and give it Damage Immunity until the start of next round. /n Deal 1 damage to adjacent enemies when this effect expires.",
+      "is_signature": "10755_0"
+    },
+    {
+      "release_date": "2020-06-26",
+      "rarity": 5,
+      "text": " Stun a unit and give it Damage Immunity until the start of next round. /n When this effect expires, deal 1 damage to adjacent enemies.",
+      "is_signature": "10755_2"
+    },
+    {
+      "release_date": "2020-10-01",
+      "cost": 2,
+      "is_signature": "10755_3"
+    }
+  ],
+  "10759": [
+    {
+      "release_date": "2020-05-25",
+      "text": "Feeble, Pierce /n [TG]Active 1[AC], 1 Mana:[ET] Bounce Arclight Elemental and give it +1[ATT] until end of its next combat phase. Summon an Arc Remnant into this position.",
+      "attack": 2
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": "Feeble, Pierce /n [TG]Active 1[AC], 1 Mana:[ET] Bounce Arclight Elemental. Summon an Arc Remnant into this slot."
+    },
+    {
+      "release_date": "2020-12-03",
+      "attack": 3
+    }
+  ],
+  "10761": [
+    {
+      "release_date": "2020-05-25",
+      "attack": 2
+    },
+    {
+      "release_date": "2020-12-03",
+      "attack": 3
+    }
+  ],
+  "10765": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Enchant Caster/n[TG]Aura: [ET] Caster and neighboring creeps ignore incoming damage of two or less."
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": " Enchant Caster/n[TG]Aura: [ET] Caster and neighbors ignore incoming damage of two or less."
+    }
+  ],
+  "10766": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Bounce all items from caster and the enemy blocking them. They battle each other."
+    },
+    {
+      "release_date": "2020-08-21",
+      "text": " Bounce all items from caster and the enemy blocking those items +1 Lock. /n /n [RP] They battle each other."
+    },
+    {
+      "release_date": "2020-08-28",
+      "text": " Bounce all items from caster and the enemy blocking it. Give those items +1 Lock. /n /n [RP] They battle each other."
+    }
+  ],
+  "10767": [
+    {
+      "release_date": "2020-05-25",
+      "type": "Spell",
+      "text": " Enchant Caster /n [TG]Aura:[ET] Allies randomly gain +1[ATT], [AR] or [HP] after dealing battle damage."
+    },
+    {
+      "release_date": "2020-06-19",
+      "type": "Improvement",
+      "improvement_type": "Reactive",
+      "text": " [TG]Aura:[ET] Allied units randomly gain +1[ATT], [AR] or [HP] permanently after dealing battle damage."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " [TG]Aura:[ET] Whenever allied units deal battle damage, give them +1[ATT], [AR] or [HP] permanently."
+    },
+    {
+      "release_date": "2020-07-31",
+      "text": " [TG]Aura:[ET] Whenever an allied unit deal battle damage to another unit, give that ally +1[ATT], [AR] or [HP] permanently."
+    },
+    {
+      "release_date": "2020-09-18",
+      "text": " [TG]Aura:[ET] Whenever an allied unit deal battle damage to another unit and survives, give that ally +1[ATT], [AR] or [HP] permanently."
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": " [TG]Aura:[ET] Whenever an allied unit deal physical damage to another unit and survives, give that ally +1[ATT], [AR] or [HP] permanently."
+    },
+    {
+      "release_date": "2020-10-29",
+      "text": " Enchant Tower /n/n [TG]Aura:[ET] Whenever an allied unit from this lane deals physical damage to another unit and survives, give that ally +1[ATT], [AR] or [HP] permanently."
+    }
+  ],
+  "10768": [
+    {
+      "release_date": "2020-05-25",
+      "name": "Punch It!"
+    },
+    {
+      "release_date": "2021-03-04",
+      "name": "Slash It!"
+    }
+  ],
+  "10770": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Bounce each item from a hero and equip it with cursed items."
+    },
+    {
+      "release_date": "2020-08-21",
+      "text": " Bounce each item from a hero and give them +1 Lock. Equip that hero with cursed items."
+    },
+    {
+      "release_date": "2020-12-23",
+      "text": " Bounce each item from a hero and give them +1 Lock. Equip that hero with random cursed items."
+    }
+  ],
+  "10772": [
+    {
+      "release_date": "2020-05-25",
+      "name": "Ironwood Heart",
+      "text": " Enchant Caster, Mulch/nGain +1[ATT]/+1[HP] permanently/n[TG]Round Start:[ET] Repeat this effect."
+    },
+    {
+      "release_date": "2020-06-19",
+      "text": " Enchant Caster, Mulch /n Gain +1[ATT]/+1[HP] permanently. /n [TG]After Combat:[ET] Repeat this effect."
+    },
+    {
+      "release_date": "2021-03-04",
+      "name": "Nature's Fury"
+    }
+  ],
+  "10773": [
+    {
+      "release_date": "2020-05-25",
+      "rarity": 5,
+      "text": " Mulch /n Root an enemy and give it +4 Decay. Your units adjacent to it gain +4 Regeneration."
+    },
+    {
+      "release_date": "2020-11-21",
+      "rarity": 1,
+      "is_signature": "10056_3"
+    },
+    {
+      "release_date": "2021-03-04",
+      "text": " Removed from the game. "
+    }
+  ],
+  "10774": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Move caster to an unblocked enemy in another lane./n[RP] Deal 2 damage to that enemy./n/n[TG]Cross Lane[ET]"
+    },
+    {
+      "release_date": "2020-07-31",
+      "text": " Move caster to an unopposed enemy in another lane./n[RP] Deal 2 damage to that enemy./n/n[TG]Cross Lane[ET]"
+    },
+    {
+      "release_date": "2020-08-28",
+      "text": " Move caster to an unopposed enemy in another lane./n[RP] Caster attacks it for 2 battle damage./n/n[TG]Cross Lane[ET]"
+    },
+    {
+      "release_date": "2020-10-09",
+      "text": " Move caster to an unopposed enemy in another lane./n[RP] Caster strikes it for 2 battle damage./n/n[TG]Cross Lane[ET]"
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": " Move caster to an unopposed enemy in another lane./n[RP] Caster strikes it for 2 [ATT]./n/n[TG]Cross Lane[ET]"
+    }
+  ],
+  "10775": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Enchant Tower /n /n The enemy tower has -1[AR] per charge. /n Add a charge after you play a black card."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " Enchant Tower /n /n The enemy tower has -1[AR] per charge. /nWhenever you play a black card, add one charge."
+    },
+    {
+      "release_date": "2020-07-31",
+      "text": " Enchant Tower /n /n The enemy tower has -1[AR] per charge. /nWhenever you play a non-item card, add one charge."
+    }
+  ],
+  "10776": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Enchant Tower /n /n After you play a blue card, deal 1 piercing damage to a random enemy with the least health."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " Enchant Tower /n /n Whenever you play a blue card, deal 1 piercing damage to a random enemy with the least health."
+    },
+    {
+      "release_date": "2020-07-31",
+      "text": " Enchant Tower /n /n Whenever you play a non-item card, deal 1 piercing damage to a random enemy with the least health."
+    }
+  ],
+  "10777": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Enchant Tower /n /n After you play a green card, give this tower +2[HP] permanently."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " Enchant Tower /n /n Whenever you play a green card, give this tower +2[HP] permanently."
+    },
+    {
+      "release_date": "2020-07-31",
+      "text": " Enchant Tower /n /n Whenever you play a non-item card, give this tower +2[HP] permanently."
+    }
+  ],
+  "10778": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Enchant Tower /n /n Your blocked heroes have +1[ATT] per charge. Add a charge after you play a [TRed]red card[ET]."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " Enchant Tower /n /n Your blocked heroes have +1[ATT] per charge. Whenever you play a [TRed]red card[ET], add one charge."
+    },
+    {
+      "release_date": "2020-07-31",
+      "text": " Enchant Tower /n /n Your blocked heroes have +1[ATT] per charge. Whenever you play a non-item card, add one charge."
+    },
+    {
+      "release_date": "2020-09-24",
+      "text": " Enchant Tower /n /n Your blocked units have +1[ATT] per charge. Whenever you play a non-item card, add one charge."
+    }
+  ],
+  "10779": [
+    {
+      "release_date": "2020-05-25",
+      "color": "Red",
+      "text": " Put a Roused Rabble into your hand after Rebel Rabble Rouser kills a unit.",
+      "armor": 1
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " Whenever Rebel Rabble Rouser kills a unit, put a Roused Rabble card into your hand."
+    },
+    {
+      "release_date": "2020-11-21",
+      "faction": "Vhoul Rebellion",
+      "armor": 0,
+      "color": "Green"
+    },
+    {
+      "release_date": "2020-12-23",
+      "text": " Whenever Rebel Rabble Rouser kills a unit, put a Roused Rabble card into your hand. Change it to Rebel Rabble Rouser's color and faction."
+    }
+  ],
+  "10781": [
+    {
+      "release_date": "2020-05-25",
+      "gold_cost": 20,
+      "text": "+12 [TG][HP][ET]"
+    },
+    {
+      "release_date": "2020-10-22",
+      "gold_cost": 30
+    },
+    {
+      "release_date": "2020-11-06",
+      "text": "+12 [TG][HP] /n /n Play Effect:[ET] Fully heal equipped hero."
+    }
+  ],
+  "10782": [
+    {
+      "release_date": "2020-05-11",
+      "gold_cost": 10,
+      "text": " +3[HP] /n /n +2 Lock to any extra cards your opponent draws each round.",
+      "health": 3
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " +3[HP] /n /n Whenever your opponent draws extra cards each round give them +2 Lock."
+    },
+    {
+      "text": " +3[HP] /n /n Whenever an opponent's effect causes them to draw extra cards each round give them +2 Lock."
+    },
+    {
+      "release_date": "2020-07-31",
+      "text": " [TG]After Combat:[ET] Bounce this hero. /n/n [TG]Active 3[AC], 1 Mana:[ET] Bounce the unit blocking equipped hero.",
+      "health": 0
+    },
+    {
+      "release_date": "2020-08-07",
+      "gold_cost": 15,
+      "text": " [TG]After Combat:[ET] Bounce this hero. /n/n 2 round cooldown."
+    },
+    {
+      "release_date": "2020-10-09",
+      "text": "+2[HP]/n/n [TG]After Combat:[ET] Bounce this hero. /n/n 2 round cooldown."
+    }
+  ],
+  "10783": [
+    {
+      "release_date": "2020-04-13",
+      "health": 4
+    },
+    {
+      "release_date": "2020-05-25",
+      "health": 5
+    }
+  ],
+  "10784": [
+    {
+      "release_date": "2020-05-25",
+      "text": "Bounty Hunter deals +3 damage when attacking tracked heroes. /n [TG]Deploy:[ET] Track Bounty Hunter's target if it's a hero. Tracked units have +5 Bounty."
+    },
+    {
+      "release_date": "2020-10-09",
+      "text": "Bounty Hunter deals +3 damage when striking tracked heroes. /n [TG]Deploy:[ET] Track Bounty Hunter's target if it's a hero. Tracked units have +5 Bounty."
+    }
+  ],
+  "10785": [
+    {
+      "release_date": "2020-05-21",
+      "text": " Redeploy caster if they survive combat.",
+      "quick": false,
+      "is_signature": "10783_0"
+    },
+    {
+      "release_date": "2020-05-25",
+      "text": " Give caster Untargetable./n /n Bounce caster if they survive combat.",
+      "is_signature": "10783_1"
+    },
+    {
+      "release_date": "2020-09-24",
+      "text": " Give caster Untargetable./n /n Bounce caster if they survive combat. /n /n [TG][QU]Quickcast[ET]",
+      "quick": true,
+      "is_signature": "10783_3"
+    },
+    {
+      "release_date": "2021-03-04",
+      "is_signature": "10783_4"
+    }
+  ],
+  "10786": [
+    {
+      "release_date": "2020-05-25",
+      "abilities": [
+        10787
+      ]
+    },
+    {
+      "release_date": "2020-07-31",
+      "abilities": [
+        10787,
+        11067
+      ]
+    }
+  ],
+  "10787": [
+    {
+      "release_date": "2020-05-25",
+      "text": "[TG]After Combat:[ET] Summon a Plague Ward into the closest position."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": "[TG]After Combat:[ET] Summon a Plague Ward into the closest slot."
+    }
+  ],
+  "10789": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Feeble. /n /n [TG]Round Start:[ET] Deal 2 piercing damage to a random adjacent enemy. "
+    },
+    {
+      "release_date": "2020-07-16",
+      "text": " Feeble. /n [TG]Round Start:[ET] Deal 2 piercing damage to a random adjacent enemy. If there are none, deal 2 piercing damage to the enemy tower instead.                     "
+    },
+    {
+      "release_date": "2020-10-29",
+      "text": " Feeble. /n [TG]Round Start:[ET] Strike a random adjacent enemy for 2 [ATT]. If there are none, strike the enemy tower for 2 [ATT] instead."
+    }
+  ],
+  "10790": [
+    {
+      "release_date": "2020-05-25",
+      "gold_cost": 20,
+      "text": " +2[ATT], +2 Siege /n /n Scheme: +2[ATT] and +2 Siege."
+    },
+    {
+      "release_date": "2020-10-22",
+      "gold_cost": 35
+    },
+    {
+      "release_date": "2020-10-29",
+      "gold_cost": 30
+    },
+    {
+      "release_date": "2020-11-06",
+      "text": " +2[ATT], +2 Siege, Pierce /n /n Scheme: +2[ATT] and +2 Siege."
+    }
+  ],
+  "10793": [
+    {
+      "release_date": "2020-05-25",
+      "gold_cost": 15
+    },
+    {
+      "release_date": "2020-10-22",
+      "gold_cost": 25
+    }
+  ],
+  "10794": [
+    {
+      "release_date": "2020-05-25",
+      "cost": 2
+    },
+    {
+      "release_date": "2020-12-03",
+      "cost": 1
+    }
+  ],
+  "10796": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Silence each enemy in lane other than the target. The target takes 2 damage instead."
+    },
+    {
+      "release_date": "2020-06-01",
+      "text": " Deal 2 damage to an enemy unit. Silence each enemy other than the target."
+    },
+    {
+      "release_date": "2021-03-04",
+      "text": " Removed from the game."
+    }
+  ],
+  "10797": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Deal damage equal to the enemy player's current Mana."
+    },
+    {
+      "release_date": "2020-07-09",
+      "text": " Deal damage to a unit equal to the enemy player's current Mana."
+    }
+  ],
+  "10798": [
+    {
+      "release_date": "2020-05-25",
+      "rarity": 2,
+      "text": " Swap colors and items permanently between a hero in this lane and another hero in any lane./n[TG]Cross Lane[ET]",
+      "quick": false
+    },
+    {
+      "release_date": "2020-06-09",
+      "rarity": 3
+    },
+    {
+      "release_date": "2020-06-12",
+      "text": " Swap colors and items permanently between a hero in this lane and another hero on the same team in any lane./n[TG]Cross Lane[ET]"
+    },
+    {
+      "release_date": "2020-07-16",
+      "text": " Swap colors and items permanently between a hero in this lane and another hero on the same team in any lane./n[TG]Cross Lane[ET]/n[TG][QU]Quickcast[ET]",
+      "quick": true
+    },
+    {
+      "release_date": "2020-09-18",
+      "text": "Swap colors and items permanently between a hero in this lane and another hero on the same team in any lane.  This effect cannot be purged./n[TG]Cross Lane[ET]/n[TG][QU]Quickcast[ET]"
+    },
+    {
+      "release_date": "2021-03-04",
+      "text": " Removed from the game."
+    }
+  ],
+  "10800": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Enchant Unit /n /n Restore 1 Mana after you spend Mana in any lane."
+    },
+    {
+      "release_date": "2020-06-12",
+      "text": " Enchant Caster /n /n Restore 1 Mana after you play any card from this lane or activate an ability in this lane."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " Enchant Caster /n /n Whenever you play a card or activate an ability in this lane, restore 1 Mana."
+    }
+  ],
+  "10803": [
+    {
+      "release_date": "2020-05-25",
+      "name": "A Thousand Cuts",
+      "text": " Enchant Enemy /n Scheme: Take 1 damage."
+    },
+    {
+      "release_date": "2020-10-01",
+      "text": " Enchant Enemy /n Scheme:  Enchanted unit deals 1 damage to itself"
+    },
+    {
+      "release_date": "2021-03-04",
+      "name": "Greevil Shenanigans"
+    }
+  ],
+  "10805": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Enchant Caster/nIf there are no adjacent enemies, this hero has +Attack equal to its health."
+    },
+    {
+      "release_date": "2020-07-31",
+      "text": " Enchant Caster/nIf there are no adjacent enemies, this hero has +Attack equal to its Max health."
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": " Enchant Caster/nIf there are no adjacent enemies, this hero has +[ATT] equal to its [HP]."
+    },
+    {
+      "release_date": "2020-10-29",
+      "text": " TEMPORARILY REMOVED FROM THE GAME, FOR DURATION OF THE <a href=\"https://steamcommunity.com/games/1269260/announcements/detail/2959388481797802731\">MULTICOLOR EXPERIMENT</a>."
+    }
+  ],
+  "10806": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Deal damage equal to this spell's cost to an enemy with the lowest health. /n Repeatable at +1 mana if this spell kills a unit."
+    },
+    {
+      "release_date": "2020-09-24",
+      "text": " Deal damage equal to this spell's cost to a unit. /n Repeatable at +1 mana if this spell kills a unit."
+    }
+  ],
+  "10809": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Restore 3 Mana after you play any card from this lane or activate an ability in this lane."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " Whenever you play a card or activate an ability in this lane, restore 3 Mana."
+    }
+  ],
+  "10811": [
+    {
+      "release_date": "2020-05-25",
+      "rarity": 3
+    },
+    {
+      "release_date": "2020-07-31",
+      "rarity": 2
+    }
+  ],
+  "10812": [
+    {
+      "release_date": "2020-05-25",
+      "text": "The first time you play a blue spell or enchantment from Lina's lane, deal damage to Lina's combat target equal to the number of charges on Fiery Soul and add 1 charge to Fiery Soul."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": "When you play a blue spell or enchantment from Lina's lane, deal damage to Lina's combat target equal to the number of charges on Fiery Soul and add 1 charge to Fiery Soul. 1 round cooldown."
+    },
+    {
+      "release_date": "2020-07-31",
+      "text": "When you play a spell or enchantment from Lina's lane, deal damage to Lina's combat target equal to the number of charges on Fiery Soul and add 1 charge to Fiery Soul. 1 round cooldown."
+    }
+  ],
+  "10813": [
+    {
+      "release_date": "2020-05-25",
+      "rarity": 3,
+      "is_signature": "10811_1"
+    },
+    {
+      "release_date": "2020-07-31",
+      "rarity": 2,
+      "is_signature": "10811_2"
+    },
+    {
+      "release_date": "2021-03-04",
+      "is_signature": "10811_3"
+    }
+  ],
+  "10814": [
+    {
+      "release_date": "2020-05-25",
+      "rarity": 3,
+      "is_signature": "10811_1"
+    },
+    {
+      "release_date": "2020-07-31",
+      "rarity": 2,
+      "is_signature": "10811_2"
+    },
+    {
+      "release_date": "2021-03-04",
+      "is_signature": "10811_3"
+    }
+  ],
+  "10815": [
+    {
+      "release_date": "2020-05-25",
+      "rarity": 3,
+      "is_signature": "10811_1"
+    },
+    {
+      "release_date": "2020-07-31",
+      "rarity": 2,
+      "is_signature": "10811_2"
+    },
+    {
+      "release_date": "2021-03-04",
+      "is_signature": "10811_3"
+    }
+  ],
+  "10818": [
+    {
+      "release_date": "2020-05-25",
+      "is_signature": "10059_3"
+    },
+    {
+      "release_date": "2021-03-04",
+      "is_signature": "10059_4"
+    }
+  ],
+  "10819": [
+    {
+      "release_date": "2020-05-25",
+      "text": "Shadow Fiend has +1[ATT] per charge. /n Add 1 charge after an adjacent enemy dies. /n [TG]Death Effect:[ET] Halve the charges on Necromastery."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": "Shadow Fiend has +1[ATT] per charge. /n Whenever an adjacent enemy dies, add 1 charge. /n [TG]Death Effect:[ET] Halve the charges on Necromastery."
+    }
+  ],
+  "10820": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Feeble, +1 Decay /n [TG]Death Effect:[ET] Deal 2 damage to Static Remnant's adjacent enemies."
+    },
+    {
+      "release_date": "2020-08-21",
+      "text": " Feeble /n [TG]After Combat:[ET] Slay Static Remnant. /n [TG]Death Effect:[ET] Deal 2 piercing damage to Static Remnant's adjacent enemies."
+    },
+    {
+      "release_date": "2020-08-28",
+      "text": " Feeble /n [TG]After Combat:[ET] Slay Static Remnant. /n [TG]Death Effect:[ET] Deal 1 piercing damage to Static Remnant's adjacent enemies."
+    },
+    {
+      "release_date": "2020-09-18",
+      "text": " Feeble /n [TG]After Combat:[ET] Slay Static Remnant. /n [TG]Death Effect:[ET] Deal 2 piercing damage to Static Remnant's adjacent enemies."
+    }
+  ],
+  "10821": [
+    {
+      "release_date": "2020-05-25",
+      "color": "Red",
+      "text": " Give an enemy +3 Decay and an ally +3 Regeneration",
+      "is_signature": "10048_1"
+    },
+    {
+      "release_date": "2020-08-21",
+      "color": "Black",
+      "text": " Deal 3 damage to an enemy and give an ally +3 temporary Health.",
+      "is_signature": "10048_4"
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": " Deal 3 damage to an enemy and give an ally +3 temporary [HP].",
+      "is_signature": "10048_5"
+    },
+    {
+      "release_date": "2021-03-04",
+      "is_signature": "10048_6"
+    }
+  ],
+  "10906": [
+    {
+      "release_date": "2020-05-25",
+      "health": 7
+    },
+    {
+      "release_date": "2020-10-15",
+      "health": 9
+    },
+    {
+      "release_date": "2020-11-21",
+      "faction": "Keeper of the Ancients"
+    },
+    {
+      "release_date": "2021-03-11",
+      "health": 8
+    }
+  ],
+  "10908": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Give caster Trample. Disarm your creeps and give their Attack to the caster.",
+      "is_signature": "10906_1"
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": " Give caster Trample. Disarm your creeps and give their [ATT] to the caster.",
+      "is_signature": "10906_4"
+    }
+  ],
+  "10909": [
+    {
+      "release_date": "2020-05-25",
+      "color": "Black"
+    },
+    {
+      "release_date": "2020-07-09",
+      "color": "Blue"
+    }
+  ],
+  "10910": [
+    {
+      "release_date": "2020-05-25",
+      "text": "Whenever a creep enters this lane under your control, summon a Hound of War to devour it."
+    },
+    {
+      "release_date": "2020-10-01",
+      "text": "Before your turn, summon a Hound of War to devour each allied non-Hound creep."
+    }
+  ],
+  "10930": [
+    {
+      "release_date": "2020-04-06",
+      "gold_cost": 25,
+      "text": " +5[ATT] /n /n [TG]Active 2[AC], 1 Mana:[ET] Hex an enemy for two rounds. (They are stunned and look like a sheep.)"
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " +5[ATT] /n /n [TG]Active 2[AC], 1 Mana:[ET] Hex an enemy for two rounds."
+    },
+    {
+      "release_date": "2020-10-22",
+      "gold_cost": 40
+    },
+    {
+      "release_date": "2020-11-06",
+      "gold_cost": 35
+    }
+  ],
+  "10935": [
+    {
+      "release_date": "2020-05-25",
+      "name": "Terrapin Channeler",
+      "text": " Can cast spells. /n Disarm Terrapin Channeler when it enters a lane.",
+      "armor": 0
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " Can cast spells. /n /n Whenever Terrapin Channeler enters a lane, disarm it."
+    },
+    {
+      "release_date": "2020-07-16",
+      "armor": 1
+    },
+    {
+      "release_date": "2020-11-13",
+      "text": " Can cast spells as a blue hero. /n /n Whenever Terrapin Channeler enters a lane, disarm it."
+    },
+    {
+      "release_date": "2020-12-23",
+      "text": " Terrapin Channeler is a caster. /n Whenever Terrapin Channeler enters a lane, disarm it."
+    },
+    {
+      "release_date": "2021-03-04",
+      "name": "Acolyte of the Radiant",
+      "text": " Acolyte of the Radiant is a caster. /n Whenever Acolyte of the Radiant enters a lane, disarm it."
+    }
+  ],
+  "10936": [
+    {
+      "release_date": "2020-05-25",
+      "color": "Red",
+      "text": " Pillager."
+    },
+    {
+      "release_date": "2020-11-21",
+      "color": "Green",
+      "text": " Roused Rabble has +1 [ATT] and +1 [HP] for each allied [Faction]Vhoul Rebellion[/Faction] unit."
+    },
+    {
+      "release_date": "2020-12-23",
+      "faction": "Vhoul Rebellion"
+    }
+  ],
+  "10938": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Give enemy units +2 Decay. Randomize their combat targets, preferring units over the tower.",
+      "is_signature": "10937_2"
+    },
+    {
+      "release_date": "2020-09-24",
+      "text": " Give enemy units +3 Decay. Randomize their combat targets, preferring units over the tower.",
+      "is_signature": "10937_3"
+    },
+    {
+      "release_date": "2021-03-04",
+      "is_signature": "10937_4"
+    }
+  ],
+  "10939": [
+    {
+      "release_date": "2020-05-25",
+      "cooldown": 4,
+      "text": "[TG]Active 4[AC], 1 Mana:[ET] Move up to 4 slots away in any lane. Stun and deal 1 damage to the new adjacent enemies. /n [TG]Cross Lane[ET]"
+    },
+    {
+      "release_date": "2020-06-02",
+      "text": "[TG]Active 4[AC], 1 Mana:[ET] Move up to 5 slots away in any lane. Stun and deal 1 damage to the new adjacent enemies. /n [TG]Cross Lane[ET]"
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": "[TG]Active 4[AC], 1 Mana:[ET] Move up to range 5. Stun and deal 1 damage to the new adjacent enemies. /n [TG]Cross Lane[ET]"
+    },
+    {
+      "release_date": "2020-09-24",
+      "cooldown": 3,
+      "text": "[TG]Active 3[AC], 1 Mana:[ET] Move up to range 5. Stun and deal 1 damage to the new adjacent enemies. /n [TG]Cross Lane[ET]"
+    }
+  ],
+  "10940": [
+    {
+      "release_date": "2020-05-21",
+      "color": "Red",
+      "health": 3
+    },
+    {
+      "release_date": "2020-05-25",
+      "health": 4
+    },
+    {
+      "release_date": "2020-10-22",
+      "color": "Green"
+    }
+  ],
+  "10941": [
+    {
+      "release_date": "2020-05-25",
+      "text": "[TG]Active 3[AC], 1 Mana:[ET] Gain +4[ATT]/+4[HP] permanently."
+    },
+    {
+      "release_date": "2020-07-31",
+      "text": "[TG]Active 3[AC], 1 Mana:[ET] Gain +4[ATT]/+4[HP] permanently. This effect cannot be purged."
+    }
+  ],
+  "10942": [
+    {
+      "release_date": "2020-05-25",
+      "color": "Red",
+      "text": " Choose caster. Move another unit to an empty slot up to 5 slots away from the caster. /n Deal 1 damage to the new neighbors your opponent controls. /n [TG]Cross Lane[ET]",
+      "is_signature": "10940_1"
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " Choose caster. Move another unit to an empty slot within range 5 from the caster. /n Deal 1 damage to the new neighbors your opponent controls. /n [TG]Cross Lane[ET]",
+      "is_signature": "10940_3"
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": " Choose caster. Move another unit to a slot within range 5 from the caster. /n Deal 1 damage to the new neighbors your opponent controls. /n [TG]Cross Lane[ET]",
+      "is_signature": "10940_4"
+    },
+    {
+      "release_date": "2020-10-22",
+      "color": "Green",
+      "is_signature": "10940_5"
+    },
+    {
+      "release_date": "2020-12-23",
+      "is_signature": "10940_6"
+    },
+    {
+      "release_date": "2021-03-04",
+      "is_signature": "10940_7"
+    }
+  ],
+  "10943": [
+    {
+      "release_date": "2020-05-21",
+      "text": " +1[TG][AR][ET] /n [TG]Aura:[ET] Your creeps have +1[TG][AR][ET]."
+    },
+    {
+      "release_date": "2020-10-01",
+      "text": " +1[TG][AR][ET] /n [TG]Aura:[ET] Your creeps have +1[TG][AR][ET] and -1 Bounty."
+    }
+  ],
+  "10944": [
+    {
+      "release_date": "2020-05-04",
+      "text": " +6[HP] /n /n Deploy Demonic Archers instead of Melee Creeps.",
+      "health": 6
+    },
+    {
+      "release_date": "2020-06-12",
+      "text": " +6[HP] /n /n Summon Demonic Archers instead of Melee Creeps."
+    },
+    {
+      "release_date": "2020-10-29",
+      "text": " +3[HP] /n /n Summon Demonic Archers instead of Melee Creeps.",
+      "health": 3
+    }
+  ],
+  "10956": [
+    {
+      "release_date": "2020-05-25",
+      "name": "Snarling Harpy"
+    },
+    {
+      "release_date": "2021-03-04",
+      "name": "Crafty Kobold"
+    }
+  ],
+  "10957": [
+    {
+      "release_date": "2020-05-25",
+      "name": "Screeching Harpy",
+      "text": " [TG]Play Effect:[ET] Move the unit blocking Screeching Harpy to the first empty position in a random other lane."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " [TG]Play Effect:[ET] Move the unit blocking Screeching Harpy to the first empty slot in a random other lane."
+    },
+    {
+      "release_date": "2021-03-04",
+      "name": "Screeching Wildwing"
+    }
+  ],
+  "10958": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Your Greevils in all lanes have Pillager."
+    },
+    {
+      "release_date": "2020-06-19",
+      "text": " Your Greevils in all lanes have Pillager. /n /n [TG]Cross Lane[ET]"
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " [TG]Aura:[ET] Your Greevils in all lanes have Pillager. /n /n [TG]Cross Lane[ET]"
+    },
+    {
+      "release_date": "2020-11-21",
+      "faction": "Greevil",
+      "text": " [TG]Aura:[ET] Your [Faction]Greevils[/Faction] in all lanes have Pillager. /n /n [TG]Cross Lane[ET]"
+    },
+    {
+      "release_date": "2020-12-23",
+      "text": " [TG]Aura:[ET] Your [Faction]Greevil[/Faction] units in all lanes have Pillager. /n /n [TG]Cross Lane[ET]"
+    }
+  ],
+  "10959": [
+    {
+      "release_date": "2020-05-25",
+      "text": " [TG]Death Effect:[ET] Deal 1 damage to adjacent units on both teams."
+    },
+    {
+      "release_date": "2020-06-01",
+      "text": " [TG]Death Effect:[ET] Deal 1 damage to adjacent enemies."
+    },
+    {
+      "release_date": "2020-11-21",
+      "faction": "Greevil"
+    }
+  ],
+  "10960": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Your Greevils in all lanes have +1 Cleave."
+    },
+    {
+      "release_date": "2020-06-19",
+      "text": " Your Greevils in all lanes have +1 Cleave. /n /n [TG]Cross Lane[ET]"
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " [TG]Aura:[ET] Your Greevils in all lanes have +1 Cleave. /n /n [TG]Cross Lane[ET]"
+    },
+    {
+      "release_date": "2020-11-21",
+      "faction": "Greevil",
+      "text": "[TG]Aura:[ET] Your [Faction]Greevils[/Faction] in all lanes have +1 Cleave. /n /n [TG]Cross Lane[ET]"
+    },
+    {
+      "release_date": "2020-12-23",
+      "text": "[TG]Aura:[ET] Your [Faction]Greevil[/Faction] units in all lanes have +1 Cleave. /n /n [TG]Cross Lane[ET]"
+    }
+  ],
+  "10961": [
+    {
+      "release_date": "2020-05-25",
+      "text": " [TG]Play Effect:[ET] Shuffle a random Greevil into your deck and draw one."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " [TG]Play Effect:[ET] Shuffle a random Greevil into your deck then draw a greevil from it."
+    },
+    {
+      "release_date": "2020-09-18",
+      "text": " [TG]Play Effect:[ET] Shuffle 3 random Greevils into your deck then draw a greevil from it."
+    },
+    {
+      "release_date": "2020-11-21",
+      "faction": "Greevil",
+      "text": " [TG]Play Effect:[ET] Shuffle 3 random [Faction]Greevils[/Faction] into your deck then draw a greevil from it."
+    },
+    {
+      "release_date": "2020-12-23",
+      "text": " [TG]Play Effect:[ET] Shuffle 3 random [Faction]Greevils[/Faction] into your deck then draw one with [Faction]Greevil[/Faction] as its faction."
+    }
+  ],
+  "10962": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Your Greevils in all lanes have +1 Regeneration."
+    },
+    {
+      "release_date": "2020-06-19",
+      "text": " Your Greevils in all lanes have +1 Regeneration. /n /n [TG]Cross Lane[ET]"
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " [TG]Aura:[ET] Your Greevils in all lanes have +1 Regeneration. /n /n [TG]Cross Lane[ET]"
+    },
+    {
+      "release_date": "2020-11-21",
+      "faction": "Greevil",
+      "text": " [TG]Aura:[ET] Your [Faction]Greevils[/Faction] in all lanes have +1 Regeneration. /n /n [TG]Cross Lane[ET]"
+    },
+    {
+      "release_date": "2020-12-23",
+      "text": " [TG]Aura:[ET] Your [Faction]Greevil[/Faction] units in all lanes have +1 Regeneration. /n /n [TG]Cross Lane[ET]"
+    }
+  ],
+  "10963": [
+    {
+      "release_date": "2020-04-06"
+    },
+    {
+      "release_date": "2020-11-21",
+      "faction": "Greevil"
+    }
+  ],
+  "10964": [
+    {
+      "release_date": "2020-05-25",
+      "text": " [TG]Play Effect:[ET] Your Greevils in all lanes deal 1 damage to their combat targets."
+    },
+    {
+      "release_date": "2020-06-19",
+      "text": " [TG]Play Effect:[ET] Your Greevils in all lanes deal 1 damage to their combat targets. /n /n [TG]Cross Lane[ET]"
+    },
+    {
+      "release_date": "2020-11-21",
+      "faction": "Greevil",
+      "text": " [TG]Play Effect:[ET] Your [Faction]Greevils[/Faction] in all lanes deal 1 damage to their combat targets. /n /n [TG]Cross Lane[ET]"
+    },
+    {
+      "release_date": "2020-12-23",
+      "text": " [TG]Play Effect:[ET] Your [Faction]Greevil[/Faction] units in all lanes deal 1 damage to their combat targets. /n /n [TG]Cross Lane[ET]"
+    }
+  ],
+  "10965": [
+    {
+      "release_date": "2020-05-25"
+    },
+    {
+      "release_date": "2020-11-21",
+      "faction": "Greevil"
+    }
+  ],
+  "10966": [
+    {
+      "release_date": "2020-05-25"
+    },
+    {
+      "release_date": "2020-11-21",
+      "faction": "Greevil"
+    }
+  ],
+  "10967": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Summon a random Greevil."
+    },
+    {
+      "release_date": "2020-09-07",
+      "text": " TEMPORARILY REMOVED FROM THE GAME."
+    },
+    {
+      "release_date": "2020-10-01",
+      "text": " Summon a random Greevil."
+    },
+    {
+      "release_date": "2020-11-21",
+      "text": " Summon a random [Faction]Greevil[/Faction]."
+    }
+  ],
+  "10968": [
+    {
+      "release_date": "2020-12-03",
+      "text": "When a [Faction]Vhoul Rebellion[/Faction] ally takes damage: Steal, draw, and reveal a creep from your opponent's deck as a [Faction]Vhoul Rebellion[/Faction] green creep. /n 1 round cooldown."
+    },
+    {
+      "release_date": "2020-12-23",
+      "text": "When a faction ally takes damage, draw and reveal a creep from your opponent's deck. Change it to Rebel Recruiter's faction and color. /n 1 round cooldown."
+    }
+  ],
+  "10970": [
+    {
+      "release_date": "2020-11-21",
+      "text": "[TG]Round Start:[ET] Shuffle a Bronze Legionnaire into your deck and draw a [Faction]Bronze Legion[/Faction] creep.",
+      "attack": 2,
+      "health": 1
+    },
+    {
+      "release_date": "2020-12-03",
+      "attack": 3,
+      "health": 2
+    },
+    {
+      "release_date": "2020-12-23",
+      "text": "[TG]Round Start:[ET] Shuffle a Bronze Legionnaire into your deck, change it to Legion Scouting Party's faction and color, and draw a [Faction]Bronze Legion[/Faction] creep."
+    }
+  ],
+  "10973": [
+    {
+      "release_date": "2020-11-21",
+      "text": "[TG]Play Effect:[ET] Modify allied [Faction]Bronze Legion[/Faction] units everywhere with +1[ATT] and +1[AR]",
+      "health": 1
+    },
+    {
+      "release_date": "2020-12-03",
+      "text": "[TG]Play Effect:[ET] Give allied [Faction]Bronze Legion[/Faction] units everywhere with +1[ATT] and +1[AR] permanently.",
+      "health": 2
+    }
+  ],
+  "10975": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Deal 2 damage to a unit and give it -2[AR] this round. /n [TG][QU]Quickcast[ET]",
+      "is_signature": "10024_3"
+    },
+    {
+      "release_date": "2020-09-18",
+      "text": " Deal 2 damage to a unit and give it -2[AR] this round.",
+      "is_signature": "10024_7"
+    },
+    {
+      "release_date": "2021-03-04",
+      "is_signature": "10024_9"
+    }
+  ],
+  "10981": [
+    {
+      "release_date": "2020-05-25",
+      "text": "Stun Earthshaker's adjacent enemies for one action after you play a blue spell or enchantment from this lane."
+    },
+    {
+      "release_date": "2020-06-19",
+      "text": "Stun Earthshaker's enemies for one action after you play a blue spell or enchantment from this lane."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": "Whenever you play a blue spell or enchantment from this lane, stun Earthshaker's enemies for one action."
+    },
+    {
+      "release_date": "2020-07-31",
+      "text": "Whenever you play a spell or enchantment from this lane, stun Earthshaker's enemies for one action."
+    }
+  ],
+  "10982": [
+    {
+      "release_date": "2020-05-25",
+      "rarity": 4,
+      "attack": 2,
+      "health": 6,
+      "related_cards": [
+        11052
+      ]
+    },
+    {
+      "release_date": "2020-06-12"
+    },
+    {
+      "release_date": "2020-08-07",
+      "rarity": 2,
+      "attack": 3,
+      "health": 5
+    }
+  ],
+  "10984": [
+    {
+      "release_date": "2020-05-25",
+      "text": "[TG]Active 3[AC], 1 Mana:[ET] Transform to a Dragon for one round. /n When you deal battle damage to towers or units in dragon form, give them +3 Decay for 3 rounds."
+    },
+    {
+      "release_date": "2020-06-12",
+      "text": "[TG]Active 3[AC], 1 Mana:[ET] Transform to a Dragon for one round. /n When you deal battle damage to towers or units in dragon form, give them +3 Decay for three rounds."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": "[TG]Active 3[AC], 1 Mana:[ET] Transform to a Dragon for one round. /n Whenever Dragon Knight deals battle damage to towers or units in Dragon Form, give them +3 Decay for three rounds."
+    },
+    {
+      "release_date": "2020-08-07",
+      "text": "[TG]Active 3[AC], 1 Mana:[ET] Transform to a Dragon for two rounds. /n While in Dragon form, Dragon Knight has +2[ATT], +2 Cleave, deals +2 damage to towers, and the first time it deals battle damage to each tower or unit, gives them +2 Decay for two rounds. /n This effect cannot be purged."
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": "[TG]Active 3[AC], 1 Mana:[ET] Transform to a Dragon for two rounds. /n While in Dragon form, Dragon Knight has +2[ATT], +2 Cleave, deals +2 damage to towers, and the first time it deals physical damage to each tower or unit, gives them +2 Decay for two rounds. /n This effect cannot be purged."
+    }
+  ],
+  "10990": [
+    {
+      "release_date": "2020-05-11",
+      "attack": 2
+    },
+    {
+      "release_date": "2020-09-24",
+      "attack": 3
+    },
+    {
+      "release_date": "2020-10-29",
+      "attack": 2
+    }
+  ],
+  "10991": [
+    {
+      "release_date": "2020-04-06",
+      "rarity": 1
+    },
+    {
+      "release_date": "2020-05-25",
+      "rarity": 3
+    }
+  ],
+  "10992": [
+    {
+      "release_date": "2020-05-25",
+      "text": "When Wraith King uses a death shield, heal to full and give enemies -2[ATT] for their next combat. /n [TG]Deploy:[ET] Gain a death shield."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": "Whenever Wraith King uses a death shield, heal to full and give enemies -2[ATT] for their next combat. /n [TG]Deploy:[ET] Gain a death shield."
+    }
+  ],
+  "10993": [
+    {
+      "release_date": "2020-04-06",
+      "name": "Hellfire Blast",
+      "text": "Stun a unit this round. Give it +2 Decay for two rounds.",
+      "is_signature": "10991_0"
+    },
+    {
+      "release_date": "2020-05-25",
+      "name": "Wraithfire Blast",
+      "text": "Stun a unit. Give it +2 Decay for two rounds.",
+      "is_signature": "10991_2"
+    },
+    {
+      "release_date": "2021-03-04",
+      "is_signature": "10991_3"
+    }
+  ],
+  "11001": [
+    {
+      "release_date": "2020-05-25",
+      "name": "Pack Leader"
+    },
+    {
+      "release_date": "2020-08-21",
+      "name": "Strength in Numbers"
+    }
+  ],
+  "11004": [
+    {
+      "release_date": "2020-04-27",
+      "text": " Swap caster to a neighboring position. It taunts. /n [TG][QU] Quickcast[ET]",
+      "is_signature": "11003_1"
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " Swap caster to a neighboring slot. It taunts. /n [TG][QU] Quickcast[ET]",
+      "is_signature": "11003_2"
+    },
+    {
+      "release_date": "2020-10-22",
+      "text": " Swap caster up to range 1. It taunts. /n [TG][QU] Quickcast[ET]",
+      "is_signature": "11003_3"
+    }
+  ],
+  "11005": [
+    {
+      "release_date": "2020-04-20",
+      "health": 3
+    },
+    {
+      "release_date": "2020-04-25",
+      "health": 4
+    }
+  ],
+  "11007": [
+    {
+      "release_date": "2020-04-20",
+      "text": " Deal 2 damage to a unit and give it Feeble.",
+      "is_signature": "11005_1"
+    },
+    {
+      "release_date": "2020-09-24",
+      "text": " Deal 2 damage to a unit and give it Feeble permanently.",
+      "is_signature": "11005_2"
+    }
+  ],
+  "11008": [
+    {
+      "release_date": "2020-04-27",
+      "health": 6
+    },
+    {
+      "release_date": "2020-05-25",
+      "health": 7
+    }
+  ],
+  "11009": [
+    {
+      "release_date": "2020-05-25",
+      "cooldown": 4,
+      "text": "Active [AC]4, 1 Mana: Draw a card. Reduce cooldown by 1, but not below 1."
+    },
+    {
+      "release_date": "2020-08-21",
+      "cooldown": 2,
+      "text": "Active [AC]2, 1 Mana: Draw a card."
+    }
+  ],
+  "11010": [
+    {
+      "release_date": "2020-04-27",
+      "text": "Refresh all cooldowns on one of your units.",
+      "is_signature": "11008_1"
+    },
+    {
+      "release_date": "2020-08-21",
+      "text": " Increase all cooldowns on an enemy unit by 2 or decrease all cooldowns on a friendly unit by 2.",
+      "is_signature": "11008_2"
+    },
+    {
+      "release_date": "2020-09-03",
+      "text": " Extend an enemy's cooldowns by 3 or reduce or an ally's cooldowns by 3. Does not affect passive abilities.",
+      "is_signature": "11008_3"
+    },
+    {
+      "release_date": "2020-09-10",
+      "text": " Extend an enemy's cooldowns by 3 or reduce an ally's cooldowns by 3. Does not affect passive abilities.",
+      "is_signature": "11008_4"
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": " Extend an enemy's cooldowns by 3 or reduce an ally's cooldowns by 3.",
+      "is_signature": "11008_5"
+    }
+  ],
+  "11011": [
+    {
+      "release_date": "2020-05-25",
+      "text": "Active [AC]3, 1 Mana: Each unit pointing at Keefe the Bold battles itself."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": "Active [AC]3, 1 Mana: Each unit with Keefe the Bold as their combat target battles itself."
+    },
+    {
+      "release_date": "2020-08-21",
+      "text": "Active [AC]3, 1 Mana: Each unit with Keefe the Bold as their combat target battles itself with +2[ATT]."
+    },
+    {
+      "release_date": "2020-10-22",
+      "text": "Active [AC]3, 1 Mana: Each unit with Keefe the Bold as their combat target strikes itself with +2[ATT]."
+    }
+  ],
+  "11012": [
+    {
+      "release_date": "2020-05-25",
+      "text": "[TG]Active 3[AC], 1 Mana:[ET] Deal 1 combat damage to adjacent enemies."
+    },
+    {
+      "release_date": "2020-06-03",
+      "text": "[TG]Active 3[AC], 1 Mana:[ET] Deal 1 damage to adjacent enemies."
+    }
+  ],
+  "11013": [
+    {
+      "release_date": "2020-05-25",
+      "name": "Mjolnir",
+      "gold_cost": 25,
+      "text": " +5[ATT]/n After battling a unit, deal 3 damage to it. Repeat 3 more times: [RP] Deal 3 damage to a random unit to its left or right."
+    },
+    {
+      "release_date": "2020-06-03",
+      "text": " +5[ATT]/n After battling a unit, deal 3 damage to it. Repeat 3 more times: [RP] Jump left or right and deal 3 damage."
+    },
+    {
+      "release_date": "2020-06-12",
+      "text": " +5[ATT]/n After attacking a unit in battle, deal 3 damage to it. Repeat 3 more times: [RP] Jump left or right and deal 3 damage."
+    },
+    {
+      "release_date": "2020-06-26",
+      "name": "Mjollnir",
+      "text": " +5[ATT]/n When attacking a unit in battle, deal 3 damage to it. Repeat 3 more times: [RP] Jump left or right and deal 3 damage."
+    },
+    {
+      "release_date": "2020-09-03",
+      "text": " +5[ATT]/n When equipped hero attacks a unit in battle and survives, deal 3 damage to that unit. Repeat 3 more times: [RP] Jump left or right and deal 3 damage."
+    },
+    {
+      "release_date": "2020-10-01",
+      "text": " +5[ATT]/n When equipped hero attacks a unit and survives, deal 3 damage to that unit. Repeat 3 more times: [RP] Jump left or right and deal 3 damage."
+    },
+    {
+      "release_date": "2020-10-09",
+      "text": " +5[ATT]/n When equipped hero strikes a unit and survives, deal 3 damage to that unit. Repeat 3 more times: [RP] Jump left or right and deal 3 damage."
+    },
+    {
+      "release_date": "2020-10-22",
+      "gold_cost": 45
+    },
+    {
+      "release_date": "2020-11-21",
+      "text": " +5[ATT]/n When equipped hero strikes any number of units and survives, deal 3 damage to one of those unit. Repeat 3 more times: [RP] Jump left or right and deal 3 damage."
+    }
+  ],
+  "11014": [
+    {
+      "release_date": "2020-05-25",
+      "gold_cost": 25,
+      "text": " +5[ATT] /n /n [TG]Active 2[AC], 1 Mana:[ET] Disable passive abilities on an enemy in any lane. Battle that enemy. /n [TG]Cross Lane[ET]"
+    },
+    {
+      "release_date": "2020-10-01",
+      "text": " +5[ATT] /n /n [TG]Active 2[AC], 1 Mana:[ET] Disable native abilities on an enemy in any lane. Battle that enemy. /n [TG]Cross Lane[ET]"
+    },
+    {
+      "release_date": "2020-10-22",
+      "gold_cost": 45
+    }
+  ],
+  "11015": [
+    {
+      "release_date": "2020-05-25",
+      "gold_cost": 20,
+      "text": " +2[AR], +2 Regeneration /n /n [TG]Active 3[AC], 1 Mana:[ET] Purge opponent's effects from an enemy unit."
+    },
+    {
+      "release_date": "2020-10-22",
+      "gold_cost": 30
+    },
+    {
+      "release_date": "2020-11-06",
+      "text": " +2[AR], +2 Regeneration /n /n [TG]Active 3[AC], 1 Mana:[ET] Purge opponent's effects from a unit."
+    }
+  ],
+  "11016": [
+    {
+      "release_date": "2020-05-25",
+      "name": "Guardian Greaves",
+      "gold_cost": 25,
+      "text": " +4 [AR]/n [TG]Play Effect:[ET] Activate./n [TG]Active 2[AC], 1 Mana:[ET] Purge your opponent's effects from equipped hero. Heal each ally 4."
+    },
+    {
+      "release_date": "2020-07-31",
+      "text": " +4 [AR]/n [TG]Play Effect:[ET] Activate./n [TG]Active 2[AC], 1 Mana:[ET] Purge your opponent's effects from equipped hero. Give each ally +4 temporary Health."
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": " +4 [AR]/n [TG]Play Effect:[ET] Activate./n [TG]Active 2[AC], 1 Mana:[ET] Purge your opponent's effects from equipped hero. Give each ally +4 temporary [HP]."
+    },
+    {
+      "release_date": "2020-10-22",
+      "gold_cost": 35
+    },
+    {
+      "release_date": "2020-11-06",
+      "gold_cost": 30
+    },
+    {
+      "release_date": "2021-03-04",
+      "name": "Shield of St. Crella"
+    }
+  ],
+  "11017": [
+    {
+      "release_date": "2020-05-25",
+      "gold_cost": 25
+    },
+    {
+      "release_date": "2020-10-22",
+      "gold_cost": 35
+    }
+  ],
+  "11018": [
+    {
+      "release_date": "2020-05-25",
+      "gold_cost": 25,
+      "text": " +9[HP], +1 Mana /n After a hero dies, add a charge. /n /n [TG]Active 0[AC], 1 Mana[ET]: Spend a charge. Give an enemy +4 Decay or an ally +4 Regeneration."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " +9[HP], +1 Mana /n Whenever a hero dies, add a charge. /n /n [TG]Active 0[AC], 1 Mana[ET]: Spend a charge. Give an enemy +4 Decay or an ally +4 Regeneration."
+    },
+    {
+      "release_date": "2020-07-31",
+      "text": " +9[HP], +2 Mana /n Whenever a hero dies, add a charge. /n /n [TG]Active 0[AC], 1 Mana[ET]: Spend a charge. Give an enemy +4 Decay or an ally +4 Regeneration."
+    },
+    {
+      "release_date": "2020-10-22",
+      "gold_cost": 45
+    },
+    {
+      "release_date": "2020-10-29",
+      "gold_cost": 40
+    }
+  ],
+  "11019": [
+    {
+      "release_date": "2020-05-25",
+      "gold_cost": 25,
+      "text": " +9[HP]/n When an enemy plays an ability or card from this lane, restore 1 Mana./n[TG]Aura:[ET] Allies have doubled Healing and Regeneration."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " +9[HP]/n Whenever an enemy plays an ability or card from this lane, restore 1 Mana./n[TG]Aura:[ET] Allies have doubled Healing and Regeneration."
+    },
+    {
+      "release_date": "2020-10-22",
+      "gold_cost": 35
+    }
+  ],
+  "11020": [
+    {
+      "release_date": "2020-05-25",
+      "cost": 1,
+      "gold_cost": 30,
+      "text": " +10[ATT]/n [TG]Round Start:[ET] Deal 2 piercing damage to enemy units."
+    },
+    {
+      "release_date": "2020-08-21",
+      "text": " +10 [TG][ATT][ET]/n /n Before your turn, deal 1 piercing damage to each enemy."
+    },
+    {
+      "release_date": "2020-10-22",
+      "cost": 2,
+      "gold_cost": 50
+    }
+  ],
+  "11021": [
+    {
+      "release_date": "2020-05-25",
+      "cost": 1,
+      "gold_cost": 30
+    },
+    {
+      "release_date": "2020-10-22",
+      "cost": 2,
+      "gold_cost": 50
+    }
+  ],
+  "11022": [
+    {
+      "release_date": "2020-05-25",
+      "cost": 1,
+      "gold_cost": 30
+    },
+    {
+      "release_date": "2020-10-22",
+      "cost": 2,
+      "gold_cost": 50
+    }
+  ],
+  "11023": [
+    {
+      "release_date": "2020-05-25",
+      "cost": 1,
+      "gold_cost": 30
+    },
+    {
+      "release_date": "2020-10-22",
+      "cost": 2,
+      "gold_cost": 50
+    }
+  ],
+  "11029": [
+    {
+      "release_date": "2020-05-25",
+      "name": "Vanguard",
+      "gold_cost": 20,
+      "text": " +5[AR], +3[HP], +3 Regeneration"
+    },
+    {
+      "release_date": "2020-10-01",
+      "text": " +4[AR], +4[HP], +4 Regeneration"
+    },
+    {
+      "release_date": "2020-10-22",
+      "gold_cost": 25
+    },
+    {
+      "release_date": "2021-03-04",
+      "name": "Seraphim Shield"
+    }
+  ],
+  "11030": [
+    {
+      "release_date": "2020-05-25",
+      "name": "Gem of Truesight",
+      "gold_cost": 20
+    },
+    {
+      "release_date": "2020-06-26",
+      "name": "Gem of True Sight"
+    },
+    {
+      "release_date": "2020-10-22",
+      "gold_cost": 30
+    }
+  ],
+  "11031": [
+    {
+      "release_date": "2020-05-25",
+      "gold_cost": 20,
+      "text": " +6[HP] /n [TG]Active 1 [AC], 1 Mana:[ET] Give a unit immunity to battle damage, other damage it takes is doubled."
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": " +6[HP] /n [TG]Active 1 [AC], 1 Mana:[ET] Give a unit immunity to physical damage, other damage it takes is doubled."
+    },
+    {
+      "release_date": "2020-10-22",
+      "gold_cost": 30
+    },
+    {
+      "release_date": "2020-11-06",
+      "text": " +6 [TG][HP] Play Effect: [ET]Activate targeting self. /n /n [TG]Active 1 [AC], 1 Mana:[ET] Give a unit immunity to physical damage, other damage it takes is doubled."
+    }
+  ],
+  "11033": [
+    {
+      "release_date": "2020-05-25",
+      "rarity": 4,
+      "text": " Deal 2 damage and stun an adjacent enemy.",
+      "is_signature": "10982_1"
+    },
+    {
+      "release_date": "2020-06-22",
+      "text": " Stun and deal 2 damage to an adjacent enemy.",
+      "is_signature": "10982_3"
+    },
+    {
+      "release_date": "2020-08-07",
+      "rarity": 2,
+      "is_signature": "10982_5"
+    },
+    {
+      "release_date": "2021-03-04",
+      "is_signature": "10982_6"
+    }
+  ],
+  "11034": [
+    {
+      "release_date": "2020-05-25",
+      "name": "Leading from Behind"
+    },
+    {
+      "release_date": "2021-03-04",
+      "name": "Creep Reinforcements"
+    }
+  ],
+  "11035": [
+    {
+      "release_date": "2020-05-25",
+      "text": "Burn 1 mana when Anti-Mage deals battle damage to an enemy hero before combat."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": "Whenever Anti-Mage deals battle damage to an enemy hero before combat, burn 1 mana."
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": "Whenever Anti-Mage deals physical damage to an enemy hero before combat, burn 1 mana."
+    }
+  ],
+  "11040": [
+    {
+      "release_date": "2020-09-03",
+      "text": "When Troll Warlord attacks a new target, set charges to 1. Whenever Troll Warlord attacks that target again, add a charge. /n Troll Warlord deals +1 damage per charge when attacking that target. /n Death Effect: Remove all charges."
+    },
+    {
+      "release_date": "2020-10-09",
+      "text": "When Troll Warlord strikes a new target, set charges to 1. Whenever Troll Warlord strikes that target again, add a charge. /n Troll Warlord deals +1 damage per charge when striking that target. /n Death Effect: Remove all charges."
+    }
+  ],
+  "11041": [
+    {
+      "release_date": "2020-09-03",
+      "text": " Give caster immunity to battle damage and Untargetable /n /n It battles an adjacent enemy.",
+      "is_signature": "11039_1"
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": " Give caster immunity to physical damage and Untargetable /n /n It battles an adjacent enemy.",
+      "is_signature": "11039_2"
+    },
+    {
+      "release_date": "2021-03-04",
+      "is_signature": "11039_3"
+    }
+  ],
+  "11042": [
+    {
+      "release_date": "2020-05-25",
+      "text": "[TG]Active 2[AC], 1 Mana:[ET] Deal damage to a unit equal to its missing Health."
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": "[TG]Active 2[AC], 1 Mana:[ET] Deal damage to a unit equal to its missing [HP]."
+    }
+  ],
+  "11043": [
+    {
+      "release_date": "2020-05-21",
+      "text": " Restore 1 mana, per round, when you play an item."
+    },
+    {
+      "release_date": "2020-06-02",
+      "text": " The first item you play each round cost 1 less."
+    },
+    {
+      "release_date": "2020-06-19",
+      "text": " The first item you play each round costs 1 less. /n /n [TG]Cross Lane[ET]"
+    }
+  ],
+  "11044": [
+    {
+      "release_date": "2020-05-04",
+      "name": "Root Boots",
+      "gold_cost": 20,
+      "text": " +2[AR] /n /n [TG]Aura: [ET] Adjacent enemies are rooted and have +2 decay."
+    },
+    {
+      "release_date": "2020-10-22",
+      "gold_cost": 25
+    },
+    {
+      "release_date": "2020-10-29",
+      "text": " +2[AR] /n /n [TG]Aura: [ET] Adjacent enemies are rooted and have +4 decay."
+    },
+    {
+      "release_date": "2021-03-04",
+      "name": "Noxious Talisman"
+    }
+  ],
+  "11045": [
+    {
+      "release_date": "2020-05-25",
+      "text": " [TG]Round Start:[ET] Deal 2 damage to the unit blocking Stonehall Paragon.",
+      "armor": 1
+    },
+    {
+      "release_date": "2020-08-21",
+      "text": " [TG]Round Start:[ET] Stonehall Paragon attacks the unit blocking it for 2 battle damage."
+    },
+    {
+      "release_date": "2020-10-09",
+      "text": " [TG]Round Start:[ET] Stonehall Paragon strikes the unit blocking it for 2 battle damage."
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": " [TG]Round Start:[ET] Stonehall Paragon strikes the unit blocking it for 2 [ATT]."
+    },
+    {
+      "release_date": "2020-11-21",
+      "faction": "Bronze Legion"
+    },
+    {
+      "release_date": "2020-12-03",
+      "armor": 2
+    }
+  ],
+  "11049": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Whenever an adjacent enemy enters this lane, deal 3 damage to it and disarm it, then slay Spark Wraith.",
+      "is_signature": "11046_0"
+    },
+    {
+      "release_date": "2020-12-03",
+      "text": " If Spark Wraith has any adjacent enemies before your turn, disarm and deal 3 damage to the closest one, then slay Spark Wraith.",
+      "is_signature": "11046_1"
+    },
+    {
+      "release_date": "2021-03-04",
+      "is_signature": "11046_2"
+    }
+  ],
+  "11050": [
+    {
+      "release_date": "2020-05-25",
+      "text": "Aura: When Phantom Lancer is blocked, Phantom Lancer and Lancer Illusions have +1[ATT] and +1[AR]."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": "Aura: If Phantom Lancer is blocked, Phantom Lancer and Lancer Illusions have +1[ATT] and +1[AR]."
+    },
+    {
+      "release_date": "2020-07-16",
+      "text": "Aura: If Phantom Lancer is blocked, Phantom Lancer and allied Lancer Illusions have +1[ATT] and +1[AR]."
+    }
+  ],
+  "11051": [
+    {
+      "release_date": "2020-05-25",
+      "text": "Beastmaster has +2 attack per neighboring Loyal Beast."
+    },
+    {
+      "release_date": "2020-08-21",
+      "text": "Beastmaster has +2[ATT] per neighboring Loyal Beast."
+    }
+  ],
+  "11052": [
+    {
+      "release_date": "2020-05-25",
+      "text": " Enchant Tower /n +3 Decay. /n Dispel after 3 rounds."
+    },
+    {
+      "release_date": "2020-06-12",
+      "text": " Removed from the game: No longer generated by Dragon Form ability."
+    }
+  ],
+  "11054": [
+    {
+      "release_date": "2020-05-29",
+      "name": "Shattered Terrapin",
+      "text": " [TG]Play Effect:[ET] Shattered Terrapin starts with 2 damage. /n When healed, transform Shattered Terrapin into Terrapin Greatshell."
+    },
+    {
+      "release_date": "2020-06-19",
+      "text": " [TG]Play Effect:[ET] Deal 2 damage to Shattered Terrapin. /n When healed, transform Shattered Terrapin into Terrapin Greatshell."
+    },
+    {
+      "release_date": "2020-07-31",
+      "text": " [TG]Play Effect:[ET] Reduce Shattered Terrapin to 3 health. /n When healed, transform Shattered Terrapin into Terrapin Greatshell."
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": " [TG]Play Effect:[ET] Reduce Shattered Terrapin to 3 [HP]. /n When healed, transform Shattered Terrapin into Terrapin Greatshell."
+    },
+    {
+      "release_date": "2021-03-04",
+      "name": "Spirit of St. Crella",
+      "text": " [TG]Play Effect:[ET] Reduce Spirit of St. Crella's to 3 [HP]. /n When healed, transform Spirit of St. Crella into Presence of St. Crella."
+    }
+  ],
+  "11055": [
+    {
+      "release_date": "2020-05-25",
+      "name": "Terrapin Greatshell",
+      "text": " [TG]Aura:[ET] Terrapin Greatshell's neighbors are Untargetable.",
+      "attack": 3,
+      "armor": 1
+    },
+    {
+      "release_date": "2020-07-31",
+      "text": " Untargetable /n/n [TG]Aura:[ET] Terrapin Greatshell's allied neighbors are Untargetable.",
+      "attack": 4,
+      "armor": 2
+    },
+    {
+      "release_date": "2021-03-04",
+      "name": "Presence of St. Crella",
+      "text": " Untargetable /n/n [TG]Aura:[ET] Presence of St. Crella's allied neighbors are Untargetable."
+    }
+  ],
+  "11057": [
+    {
+      "release_date": "2020-06-02",
+      "text": "[TG]Active 3[AC], 1 Mana:[ET] Move to a position in any lane. Nyx Assassin sneak attacks the new unit blocking it with +3[ATT]."
+    },
+    {
+      "release_date": "2020-06-12",
+      "text": "[TG]Active 3[AC], 1 Mana:[ET] Move to a position in any lane. Nyx Assassin sneak attacks the new unit blocking it with +3[ATT]./n[TG]Cross Lane[ET]"
+    },
+    {
+      "release_date": "2020-06-19",
+      "text": "[TG]Active 3[AC], 1 Mana:[ET] Move to a blocked position in any lane. Nyx Assassin sneak attacks the new unit blocking it with +3[ATT]./n[TG]Cross Lane[ET]"
+    },
+    {
+      "release_date": "2020-06-20",
+      "text": "[TG]Active 3[AC], 1 Mana:[ET] Choose an enemy in any lane and move Nyx Assassin across from it. Nyx Assassin sneak attacks the new unit blocking it with +3[ATT]./n[TG]Cross Lane[ET]"
+    },
+    {
+      "release_date": "2020-08-21",
+      "text": "[TG]Active 3[AC], 1 Mana:[ET] Choose an enemy in any lane and move Nyx Assassin across from it. Nyx Assassin attacks the new unit blocking it with +3[ATT]./n[TG]Cross Lane[ET]"
+    },
+    {
+      "release_date": "2020-10-09",
+      "text": "[TG]Active 3[AC], 1 Mana:[ET] Choose an enemy in any lane and move Nyx Assassin across from it. Nyx Assassin strikes the new unit blocking it with +3[ATT]./n[TG]Cross Lane[ET]"
+    }
+  ],
+  "11058": [
+    {
+      "release_date": "2020-06-02",
+      "cost": 1,
+      "text": " Choose caster. When taking damage this turn, reflect damage back, stun its source until its next combat, then purge enemy effects from this unit.",
+      "is_signature": "11056_3"
+    },
+    {
+      "release_date": "2020-07-16",
+      "cost": 2,
+      "is_signature": "11056_5"
+    },
+    {
+      "release_date": "2020-09-03",
+      "text": " Choose caster. When taking damage this round, reflect damage back, stun its source until its next combat, then purge enemy effects from this unit.",
+      "is_signature": "11056_7"
+    },
+    {
+      "release_date": "2020-12-23",
+      "is_signature": "11056_8"
+    },
+    {
+      "release_date": "2021-03-04",
+      "is_signature": "11056_9"
+    }
+  ],
+  "11059": [
+    {
+      "release_date": "2020-06-19",
+      "cost": 4,
+      "text": " Tower Enchantment. /n Mulch. /n /n [TG]Round Start: [ET] Give allied units +1 temporary health."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " Enchant Tower. /n Mulch. /n /n [TG]Round Start: [ET] Give allied units +1 temporary health."
+    },
+    {
+      "release_date": "2020-07-31",
+      "cost": 3
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": " Enchant Tower. /n Mulch. /n /n [TG]Round Start: [ET] Give allied units +1 temporary [HP]."
+    }
+  ],
+  "11060": [
+    {
+      "release_date": "2020-06-19",
+      "text": " Enchant Tower /n /n [TG]Aura: [ET] When an allied unit in this lane dies give a random enemy +1 decay until their next combat."
+    },
+    {
+      "release_date": "2020-06-26",
+      "text": " Enchant Tower /n /n [TG]Aura: [ET] Whenever an allied unit dies, give a random enemy +1 decay until their next combat."
+    },
+    {
+      "release_date": "2020-09-24",
+      "text": " Enchant Tower /n /n [TG]Aura: [ET] Whenever an allied unit dies, give a random enemy +1 decay they die."
+    },
+    {
+      "release_date": "2020-10-01",
+      "text": " Enchant Tower /n /n [TG]Aura: [ET] Whenever an allied unit dies, give a random enemy +1 decay until they die."
+    }
+  ],
+  "11063": [
+    {
+      "release_date": "2020-07-09",
+      "text": "Centaur Warrunner's stats cannot be reduced except by damage."
+    },
+    {
+      "release_date": "2020-07-16",
+      "text": "Centaur Warrunner ignores negative Attack, Armor, and Health effects."
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": "Centaur Warrunner ignores negative [ATT], [AR], and [HP] effects."
+    }
+  ],
+  "11064": [
+    {
+      "release_date": "2020-07-16",
+      "text": "Whenever you reveal an opponent's card, give Imperia +[ATT] for two rounds equal to its Mana cost."
+    },
+    {
+      "release_date": "2020-07-23",
+      "text": "Whenever you reveal an opponent's card, give Imperia +[ATT] until its next combat equal to its Mana cost."
+    },
+    {
+      "release_date": "2020-08-07",
+      "text": "Whenever you reveal an opponent's card, give Imperia +[ATT] equal to the revealed card's Mana cost until its next combat."
+    }
+  ],
+  "11065": [
+    {
+      "release_date": "2020-07-16",
+      "text": "The first time you play a non-item card from Tidehunter's lane, deal 1 damage to its adjacent enemies and give them -1[ATT] this round. If there are none, battle the enemy tower instead. 1 round cooldown."
+    },
+    {
+      "release_date": "2020-08-21",
+      "text": "When you play a non-item card, Tidehunter attacks its adjacent enemies for 1 battle damage and gives them -1[ATT]. If there are none, attack the enemy tower for 1 battle damage. 1 round cooldown."
+    },
+    {
+      "release_date": "2020-10-09",
+      "text": "When you play a non-item card, Tidehunter strikes its adjacent enemies for 1 battle damage and gives them -1[ATT]. If there are none, strike the enemy tower for 1 battle damage. 1 round cooldown."
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": "When you play a non-item card, Tidehunter strikes its adjacent enemies for 1 [ATT] and gives them -1[ATT]. If there are none, strike the enemy tower for 1 [ATT]. 1 round cooldown."
+    }
+  ],
+  "11067": [
+    {
+      "release_date": "2020-07-31",
+      "text": "When Venomancer and allied Plague Wards deal damage to a unit or tower, give it +1 Decay until its next combat phase."
+    },
+    {
+      "release_date": "2020-10-29",
+      "text": "When Venomancer and allied Plague Wards deal physical damage to a unit or tower, give it +1 Decay until its next combat phase."
+    }
+  ],
+  "11068": [
+    {
+      "release_date": "2020-08-21",
+      "text": "Storm Spirit has +1[ATT] per charge. After you play a spell or enchantment from any lane, add a charge until Storm Spirit attacks in a battle."
+    },
+    {
+      "release_date": "2020-09-24",
+      "text": "Storm Spirit has +1[ATT] per charge. After you play a spell or enchantment from this lane, add a charge until Storm Spirit attacks in a battle."
+    },
+    {
+      "release_date": "2020-10-09",
+      "text": "After you play a spell or enchantment from Storm Spirit's lane, give Storm Spirit +1[ATT] this round."
+    }
+  ],
+  "11069": [
+    {
+      "release_date": "2020-08-21",
+      "text": "Lycan has charges equal to the combined Attack of creeps in this lane. If Lycan has 15 or more charges, Lycan has +3[ATT] and allied creeps within range 2 have +1[ATT]."
+    },
+    {
+      "release_date": "2020-08-28",
+      "text": "If the combined Attack of your creeps in this lane is 15 or more, Lycan has +3[ATT] and your creeps within range 2 have an extra +1[ATT]."
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": "If the combined [ATT] of your creeps in this lane is 15 or more, Lycan has +3[ATT] and your creeps within range 2 have an extra +1[ATT]."
+    },
+    {
+      "release_date": "2020-11-06",
+      "text": "If the combined [ATT] of your creeps in Lycan's lane reaches 15 or more, Lycan has +3[ATT] and your creeps within range 2 have an extra +1[ATT]. /n /n This effect lasts until Lycan dies and cannot be purged."
+    }
+  ],
+  "11073": [
+    {
+      "release_date": "2020-08-28",
+      "gold_cost": 10
+    },
+    {
+      "release_date": "2020-10-22",
+      "gold_cost": 15
+    }
+  ],
+  "11074": [
+    {
+      "release_date": "2020-09-03",
+      "text": " Deal 3 damage to the caster. It cannot die from this spell. /n Heal and ally 3 or deal 3 damage to an enemy.",
+      "is_signature": "10016_0"
+    },
+    {
+      "release_date": "2020-10-09",
+      "text": " Deal 2 damage to the caster. It cannot die from this spell. /n Heal and ally 3 or deal 3 damage to an enemy.",
+      "is_signature": "10016_1"
+    },
+    {
+      "release_date": "2021-03-04",
+      "is_signature": "10016_3"
+    }
+  ],
+  "11075": [
+    {
+      "release_date": "2020-09-03",
+      "text": " Equip a Mazer Beam MK-179: /n +2[ATT] /n [TG]Active 3[AC], 1 Mana:[ET] Disarm each unit pointing at equipped hero."
+    },
+    {
+      "release_date": "2020-11-06",
+      "text": " Removed from the game. /n This card previously granted the item <a href=\"?id=11076_0\">Mazer Beam MK-179</a> to the caster."
+    }
+  ],
+  "11076": [
+    {
+      "release_date": "2020-09-03",
+      "related_cards": [
+        10052,
+        11075
+      ]
+    },
+    {
+      "release_date": "2020-11-06",
+      "is_signature": "10052_5"
+    },
+    {
+      "release_date": "2021-03-04",
+      "is_signature": "10052_6"
+    }
+  ],
+  "11077": [
+    {
+      "release_date": "2020-09-03",
+      "text": " Equip a Type XLII Kineto-Zap Harmor: /n +2[AR] /n [TG]Active 2[AC], 1 Mana:[ET] Deal damage to each unit pointing at equipped hero equal to the number of charges. /n After battling a unit, charge Prototype Shield, max 4."
+    },
+    {
+      "release_date": "2020-11-06",
+      "text": " Removed from the game. /n This card previously granted the item <a href=\"?id=11078_0\">Type XLII Kineto-Zap Harmor</a> to the caster."
+    }
+  ],
+  "11078": [
+    {
+      "release_date": "2020-09-03",
+      "related_cards": [
+        10052,
+        11077
+      ]
+    },
+    {
+      "release_date": "2020-11-06",
+      "is_signature": "10052_5"
+    },
+    {
+      "release_date": "2021-03-04",
+      "is_signature": "10052_6"
+    }
+  ],
+  "11079": [
+    {
+      "release_date": "2020-09-03",
+      "text": " Equip a Sproink Springers Mk.23: /n +2[HP] /n [TG]Active 3[AC], 1 Mana:[ET] Move this hero to another position. It taunts.",
+      "is_signature": "10052_1"
+    },
+    {
+      "release_date": "2020-10-29",
+      "text": " Equip a Sproink Springers Mk.23: /n +2[HP] /n [TG]Active 3[AC], 1 Mana:[ET] Move this hero to another position. It may stay in place. It taunts.",
+      "is_signature": "10052_2"
+    },
+    {
+      "release_date": "2020-11-06",
+      "text": " Removed from the game. /n This card previously granted the item <a href=\"?id=11076_0\">Mazer Beam MK-179</a> to the caster."
+    }
+  ],
+  "11080": [
+    {
+      "release_date": "2020-09-03",
+      "text": " +2[HP] /n [TG]Active 3[AC], 1 Mana:[ET] Move this hero to another position. It taunts.",
+      "related_cards": [
+        10052,
+        11079
+      ]
+    },
+    {
+      "release_date": "2020-10-29",
+      "text": " +2[HP] /n [TG]Active 3[AC], 1 Mana:[ET] Move this hero to another position. It may stay in place. It taunts."
+    },
+    {
+      "release_date": "2020-11-06",
+      "is_signature": "10052_5"
+    },
+    {
+      "release_date": "2021-03-04",
+      "is_signature": "10052_6"
+    }
+  ],
+  "11084": [
+    {
+      "release_date": "2020-09-03",
+      "text": "Round Start: Troll Warlord attacks its combat target for 1 battle damage."
+    },
+    {
+      "release_date": "2020-10-09",
+      "text": "Round Start: Troll Warlord strikes its combat target for 1 battle damage."
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": "Round Start: Troll Warlord strikes its combat target for 1 [ATT]."
+    }
+  ],
+  "11085": [
+    {
+      "release_date": "2020-09-18",
+      "cost": 2,
+      "text": "Whenever an ally other than a Rumusque Choir is healed, give Rumusque Choir +1[ATT]/+1[HP] permanently.",
+      "attack": 1,
+      "health": 1
+    },
+    {
+      "release_date": "2020-09-24",
+      "cost": 3,
+      "text": "Whenever another ally is healed or gains health for the first time in a round, give Rumusque Choir +1[ATT]/+1[HP] permanently."
+    },
+    {
+      "release_date": "2020-12-03",
+      "attack": 2,
+      "health": 2
+    }
+  ],
+  "11086": [
+    {
+      "release_date": "2020-10-01"
+    },
+    {
+      "release_date": "2020-11-21",
+      "faction": "Bronze Legion"
+    }
+  ],
+  "11088": [
+    {
+      "release_date": "2020-10-01",
+      "health": 1
+    },
+    {
+      "release_date": "2020-12-03",
+      "health": 2
+    }
+  ],
+  "11089": [
+    {
+      "release_date": "2020-10-01",
+      "name": "Captured Thunderhide"
+    },
+    {
+      "release_date": "2021-04-03",
+      "name": "Centaur Warband"
+    }
+  ],
+  "11091": [
+    {
+      "release_date": "2020-10-01",
+      "text": "Caster battles an adjacent enemy./nA random allied black hero with the highest Attack attacks that enemy."
+    },
+    {
+      "release_date": "2020-10-09",
+      "text": "Caster battles an adjacent enemy./nA random allied black hero with the highest Attack strikes that enemy."
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": "Caster battles an adjacent enemy./nA random allied black hero with the highest [ATT] strikes that enemy."
+    },
+    {
+      "release_date": "2020-11-06",
+      "text": " An allied red hero battles an adjacent enemy./n A random allied black hero with the highest [ATT] strikes that enemy."
+    }
+  ],
+  "11092": [
+    {
+      "release_date": "2020-10-01",
+      "name": "Spirit Guardian"
+    },
+    {
+      "release_date": "2021-04-03",
+      "name": "Loyal Guardian"
+    }
+  ],
+  "11093": [
+    {
+      "release_date": "2020-10-01",
+      "name": "Spirit Guardian"
+    },
+    {
+      "release_date": "2021-04-03",
+      "name": "Loyal Guardian"
+    }
+  ],
+  "11094": [
+    {
+      "release_date": "2020-10-01",
+      "name": "Archer's Parapet",
+      "text": "[TG]Round Start:[ET] Each ally deals 1 damage to the unit blocking it./nIf you have a red hero, allied units have +1[AR]."
+    },
+    {
+      "release_date": "2020-12-03",
+      "text": "Enchant Tower. /n/n[TG]Round Start:[ET] Each ally deals 1 damage to the unit blocking it./nIf you have a red hero, allied units have +1[AR]."
+    },
+    {
+      "release_date": "2021-03-04",
+      "name": "Arcane Citadel"
+    }
+  ],
+  "11095": [
+    {
+      "release_date": "2020-10-01",
+      "name": "Fungal Horror",
+      "text": "Devour./n/nIf you have a green hero, Fungal Horror has +2[ATT] and its adjacent enemies have rooted.",
+      "health": 2
+    },
+    {
+      "release_date": "2020-10-09",
+      "text": "Devour./n/nIf you have a green hero, Fungal Horror has +2[ATT] and its adjacent enemies are rooted."
+    },
+    {
+      "release_date": "2020-12-03",
+      "health": 3
+    },
+    {
+      "release_date": "2021-03-04",
+      "name": "Ozkavosh Horror"
+    }
+  ],
+  "11096": [
+    {
+      "release_date": "2020-10-01",
+      "name": "Gold-Plated Golem",
+      "attack": 1
+    },
+    {
+      "release_date": "2020-12-03",
+      "attack": 2
+    },
+    {
+      "release_date": "2021-03-04",
+      "name": "Gold Elemental"
+    }
+  ],
+  "11097": [
+    {
+      "release_date": "2020-10-01",
+      "text": "Enchant Caster./n/n[TG]Round Start:[ET] Summon a Zombie. If the lane is full, it devours a random allied creep with the lowest health./nIf you have a green hero, allies have trample."
+    },
+    {
+      "release_date": "2020-10-09",
+      "text": "Enchant Caster./n/n[TG]After Combat:[ET] [RP] Summon a Zombie. If the lane is full, it devours a random allied creep with the lowest health./nIf you have a green hero, allies have trample."
+    },
+    {
+      "release_date": "2020-10-15",
+      "text": "Enchant Caster./n/n[TG]After Combat:[ET] Summon a Zombie. If the lane is full, it devours a random allied creep with the lowest [HP]./nIf you have a green hero, allies have Trample and +1 Regeneration."
+    }
+  ],
+  "11098": [
+    {
+      "release_date": "2020-10-22",
+      "text": "[TG]Active 2[AC], 1 Mana:[ET] Choose an unopposed slot within range 5. Magnus strikes the closest hero in that direction for 2 [ATT] and moves it to the closest available slot. Move Magnus to it. Cross Lane"
+    },
+    {
+      "release_date": "2020-10-29",
+      "text": "[TG]Active 2[AC], 1 Mana:[ET] Move Magnus to a slot within range 5. Pull the first enemy hero in that direction through other units towards Magnus new slot. Magnus strikes it for 2 [ATT]. Cross Lane"
+    }
+  ],
+  "11100": [
+    {
+      "release_date": "2020-12-03",
+      "name": "Roseleaf Villagers",
+      "text": " Feeble. /n [TG]Death Effect:[ET] Summon an Angry Mob."
+    },
+    {
+      "release_date": "2021-03-04",
+      "name": "Doomed Villager",
+      "text": "Feeble. /n [TG]Death Effect:[ET] Summon a Vengeful Vhoul."
+    }
+  ],
+  "11101": [
+    {
+      "release_date": "2020-12-03",
+      "name": "Angry Mob"
+    },
+    {
+      "release_date": "2021-03-04",
+      "name": "Vengeful Vhoul"
+    }
+  ],
+  "11102": [
+    {
+      "release_date": "2020-12-03",
+      "name": "Lying in Bait"
+    },
+    {
+      "release_date": "2021-03-04",
+      "name": "Vhoul Ambush"
+    }
+  ],
+  "11103": [
+    {
+      "release_date": "2020-12-03",
+      "name": "Commando Pack"
+    },
+    {
+      "release_date": "2021-03-04",
+      "name": "Canid Commando"
+    }
+  ],
+  "11104": [
+    {
+      "release_date": "2020-12-03",
+      "name": "Vhoul Elder",
+      "text": "Whenever an allied [Faction]Vhoul Rebellion[ET] unit takes damage, reduce the cost of a random [Faction]Vhoul Rebellion[ET] card in your hand by 1. If it's a creep, give it +1[ATT]/+1[HP] permanently."
+    },
+    {
+      "release_date": "2020-12-23",
+      "text": "Whenever a faction ally takes damage, reduce the cost of a random [Faction]Vhoul Rebellion[ET] card in your hand by 1. If it's a creep, give it +1[ATT]/+1[HP] permanently."
+    },
+    {
+      "release_date": "2021-03-04",
+      "name": "Vhoul Ringleader"
+    }
+  ]
+}

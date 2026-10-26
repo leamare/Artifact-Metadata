@@ -1,0 +1,2453 @@
+{
+  "keywords": {
+    "0": {
+      "name": "Hero",
+      "words": [
+        "Hero",
+        "Heroes",
+        "hero",
+        "heroes"
+      ],
+      "glossary_key": "DCG_Glossary_Hero",
+      "title": "Hero",
+      "description": "A hero is a unit that allows you to play cards of its color in its lane. A hero can equip items. When it is killed, it is worth 5 Bounty to the opponent and returns to the Fountain to be redeployed later.",
+      "example_cards": [
+        3006,
+        10018,
+        10047,
+        10067,
+        10115
+      ]
+    },
+    "1": {
+      "name": "Creep",
+      "words": [
+        "Creeps",
+        "creep",
+        "creeps"
+      ],
+      "glossary_key": "DCG_Glossary_Creep",
+      "title": "Creep",
+      "description": "A creep is a non-hero unit. Unlike a hero, a creep cannot equip items, and does not return to play after it is killed. It is worth 1 Bounty to the opponent when killed.",
+      "example_cards": [
+        10014,
+        10017,
+        10170,
+        10193,
+        10224
+      ]
+    },
+    "2": {
+      "name": "Tower",
+      "words": [
+        "Tower",
+        "tower",
+        "towers"
+      ],
+      "glossary_key": "DCG_Glossary_Tower",
+      "title": "Tower",
+      "description": "Each lane contains an allied tower that must be defended and an enemy tower that must be destroyed. The objective of the game is to destroy any 2 enemy towers. The tower can be a target of some spells and abilities.",
+      "example_cards": [
+        3007,
+        3008,
+        6003,
+        6007,
+        10024
+      ]
+    },
+    "3": {
+      "name": "Enchantment",
+      "words": [
+        "Enchantment",
+        "enchantment",
+        "enchantments"
+      ],
+      "glossary_key": "DCG_Glossary_Enchant",
+      "title": "Enchantment",
+      "description": "A permanent effect that attaches to a tower, caster, or unit. Can be dispelled by another effect.",
+      "example_cards": [
+        10033,
+        10043,
+        10064,
+        10194,
+        10210
+      ]
+    },
+    "4": {
+      "name": "Spell",
+      "words": [
+        "spell"
+      ],
+      "glossary_key": "DCG_Glossary_Spell",
+      "title": "Spell",
+      "description": "A spell (▪) is a card that has a one-time effect and is then removed from the game. Spells deal damage, modify objects in play temporarily or permanently, summon units, or draw cards.",
+      "example_cards": [
+        10033,
+        10043,
+        10064,
+        10194,
+        10509
+      ]
+    },
+    "5": {
+      "name": "Item",
+      "words": [
+        "Item",
+        "item",
+        "items"
+      ],
+      "glossary_key": "DCG_Glossary_Item",
+      "title": "Item",
+      "description": "An item is a card that can be purchased during the shopping phase using gold. A Weapon, Armor, or Accessory item is equipped onto a hero to buff its stats. A consumable item has a one-time effect and is then removed from the game.",
+      "example_cards": [
+        10024,
+        10048,
+        10052,
+        10095,
+        10115
+      ]
+    },
+    "200": {
+      "name": "Before the action phase",
+      "words": [
+        "Before the action phase"
+      ],
+      "example_cards": [
+        10904,
+        10905
+      ]
+    },
+    "201": {
+      "name": "Action phase",
+      "words": [
+        "action phase"
+      ],
+      "example_cards": [
+        10385
+      ]
+    },
+    "202": {
+      "name": "After the combat phase",
+      "words": [
+        "After the combat phase"
+      ],
+      "example_cards": [
+        10825,
+        10826
+      ]
+    },
+    "203": {
+      "name": "Combat phase",
+      "words": [
+        "combat phase"
+      ],
+      "example_cards": [
+        10054,
+        10180,
+        10326,
+        10466,
+        10513
+      ]
+    },
+    "300": {
+      "name": "Fountain",
+      "words": [
+        "Fountain",
+        "Fountains",
+        "fountain"
+      ],
+      "glossary_key": "DCG_Glossary_Fountain",
+      "title": "Fountain",
+      "description": "When heroes die they are placed in the Fountain zone for a full round before becoming ready to redeploy. When heroes enter the Fountain they are fully healed and temporary effects on them are purged.",
+      "example_cards": [
+        3006,
+        10618,
+        10654,
+        10713
+      ]
+    },
+    "400": {
+      "name": "Battles",
+      "words": [
+        "Battle",
+        "battle",
+        "battles",
+        "battling"
+      ],
+      "glossary_key": "DCG_Glossary_Battle",
+      "title": "Battle",
+      "description": "When units battle, they strike each other, dealing their Attack Attack as physical damage.",
+      "example_cards": [
+        10020,
+        10097,
+        10114,
+        10118,
+        10193
+      ]
+    },
+    "401": {
+      "name": "Modify",
+      "words": [
+        "Modify"
+      ],
+      "glossary_key": "DCG_Glossary_Modify",
+      "title": "Modify",
+      "description": "When an effect modifies another card it applies a permanent buff or debuff to the target. Heroes retain modifiers through death.",
+      "example_cards": [
+        10769
+      ]
+    },
+    "402": {
+      "name": "Purge",
+      "words": [
+        "Purge",
+        "purge"
+      ],
+      "glossary_key": "DCG_Glossary_Purge",
+      "title": "Purge",
+      "description": "Removes modifications and temporary effects, but not damage. Purging does not affect base abilities or external effects, such as those from equipped items and continuous effects from auras.",
+      "example_cards": [
+        10016,
+        10290,
+        10348,
+        10431,
+        10793
+      ]
+    },
+    "403": {
+      "name": "Taunts",
+      "words": [
+        "Taunt",
+        "taunts"
+      ],
+      "glossary_key": "DCG_Glossary_Taunt",
+      "title": "Taunt",
+      "description": "When a unit taunts all of its adjacent enemies change their combat target to that unit. Targets reset after each round.",
+      "example_cards": [
+        10208,
+        10281,
+        10342,
+        10418,
+        10605
+      ]
+    },
+    "404": {
+      "name": "Disarm",
+      "words": [
+        "Disarm",
+        "disarm"
+      ],
+      "glossary_key": "DCG_Glossary_Disarm",
+      "title": "Disarm",
+      "description": "Disarmed units cannot strike.",
+      "example_cards": [
+        6024,
+        9000,
+        10025,
+        10036,
+        10155
+      ]
+    },
+    "405": {
+      "name": "Stun",
+      "words": [
+        "Stun",
+        "stun"
+      ],
+      "glossary_key": "DCG_Glossary_Stun",
+      "title": "Stun",
+      "description": "Stunned units cannot be casters and cannot use their active abilities or active abilities of their items. Stunned units cannot strike.",
+      "example_cards": [
+        6023,
+        9002,
+        10011,
+        10024,
+        10033
+      ]
+    },
+    "406": {
+      "name": "Silence",
+      "words": [
+        "Silence"
+      ],
+      "glossary_key": "DCG_Glossary_Silence",
+      "title": "Silence",
+      "description": "Silenced units cannot be casters and cannot use their active abilities or active abilities of their items.",
+      "example_cards": [
+        6027,
+        9001,
+        10339,
+        10420,
+        10727
+      ]
+    },
+    "407": {
+      "name": "Lock",
+      "words": [
+        "Lock",
+        "lock"
+      ],
+      "glossary_key": "DCG_Glossary_Locked",
+      "title": "Lock",
+      "description": "A delay that prevents the card from being played for that many rounds. Lock decreases at the end of the round.",
+      "example_cards": [
+        6022,
+        10359,
+        10708,
+        10766,
+        10770
+      ]
+    },
+    "409": {
+      "name": "Summon",
+      "words": [
+        "Summon",
+        "summon"
+      ],
+      "glossary_key": "DCG_Glossary_Summon",
+      "title": "Summon",
+      "description": "Creates a unit and puts it directly into play.",
+      "example_cards": [
+        10005,
+        10029,
+        10033,
+        10053,
+        10055
+      ]
+    },
+    "410": {
+      "name": "Bounce",
+      "words": [
+        "Bounce"
+      ],
+      "glossary_key": "DCG_Glossary_Bounce",
+      "title": "Bounce",
+      "description": "Return to hand (if creep) or the fountain (if hero) unless rooted.",
+      "example_cards": [
+        10033,
+        10438,
+        10753,
+        10759,
+        10760
+      ]
+    },
+    "411": {
+      "name": "Burn",
+      "words": [
+        "burn"
+      ],
+      "glossary_key": "DCG_Glossary_Burn",
+      "title": "Burn",
+      "description": "Spends the enemy player's mana.",
+      "example_cards": [
+        10048,
+        10078,
+        10154,
+        10173,
+        10646
+      ]
+    },
+    "412": {
+      "name": "Slay",
+      "words": [
+        "Slay",
+        "slay"
+      ],
+      "glossary_key": "DCG_Glossary_Slay",
+      "title": "Slay",
+      "description": "Kill a unit. Death Shields may save it, but Damage Immunity does not.",
+      "example_cards": [
+        6003,
+        6005,
+        6009,
+        6026,
+        10038
+      ]
+    },
+    "414": {
+      "name": "Push",
+      "words": [
+        "Push",
+        "push"
+      ],
+      "glossary_key": "DCG_Glossary_Displace",
+      "title": "Push",
+      "description": "Move a unit 1 slot randomly left or right to an unoccupied spot.",
+      "example_cards": [
+        10293,
+        10676,
+        10842,
+        10843,
+        10928
+      ]
+    },
+    "415": {
+      "name": "Hex",
+      "words": [
+        "Hex"
+      ],
+      "glossary_key": "DCG_Glossary_Hex",
+      "title": "Hex",
+      "description": "Transform a unit into a harmless form that can perform no actions.",
+      "example_cards": [
+        10930,
+        10931
+      ]
+    },
+    "416": {
+      "name": "Jump",
+      "words": [
+        "Jump"
+      ],
+      "glossary_key": "DCG_Glossary_Jump",
+      "title": "Jump",
+      "description": "Select a new target for this effect.",
+      "example_cards": [
+        10312,
+        10318,
+        10704,
+        10705,
+        11013
+      ]
+    },
+    "417": {
+      "name": "Give",
+      "words": [
+        "Gain",
+        "Give",
+        "gain",
+        "gains",
+        "give"
+      ],
+      "glossary_key": "DCG_Glossary_Give",
+      "title": "Give",
+      "description": "Give a unit an effect that lasts for one round unless otherwise specified.",
+      "example_cards": [
+        6002,
+        6022,
+        9004,
+        9005,
+        9006
+      ]
+    },
+    "418": {
+      "name": "Swap",
+      "words": [
+        "Swap",
+        "swap"
+      ],
+      "glossary_key": "DCG_Glossary_Swap",
+      "title": "Swap",
+      "description": "Move to the targeted slot. If occoupied, switch positions with that unit.",
+      "example_cards": [
+        6004,
+        10080,
+        10203,
+        10365,
+        10411
+      ]
+    },
+    "419": {
+      "name": "Dispel",
+      "words": [
+        "Dispel",
+        "dispel"
+      ],
+      "glossary_key": "DCG_Glossary_Dispel",
+      "title": "Dispel",
+      "description": "Removes an enchantment.",
+      "example_cards": [
+        10171,
+        10210,
+        10263,
+        10291,
+        10294
+      ]
+    },
+    "421": {
+      "name": "Root",
+      "words": [
+        "Root",
+        "root"
+      ],
+      "glossary_key": "DCG_Glossary_Root",
+      "title": "Root",
+      "description": "Prevent a unit from moving or being bounced. Lasts until the end of round by default.",
+      "example_cards": [
+        9003,
+        10262,
+        10277,
+        10484,
+        10915
+      ]
+    },
+    "422": {
+      "name": "Clone",
+      "words": [
+        "Clone"
+      ],
+      "glossary_key": "DCG_Glossary_Clone",
+      "title": "Clone",
+      "description": "Summon a copy of this unit.",
+      "example_cards": [
+        11046,
+        11047
+      ]
+    },
+    "423": {
+      "name": "Strikes",
+      "words": [
+        "Strike",
+        "strike",
+        "strikes",
+        "striking"
+      ],
+      "glossary_key": "DCG_Glossary_Strike",
+      "title": "Strike",
+      "description": "When a unit strikes another unit, it deals its Attack Attack to that unit as physical damage, unless a different amount is specified. Disarmed units and stunned units cannot strike.",
+      "example_cards": [
+        10011,
+        10024,
+        10047,
+        10058,
+        10067
+      ]
+    },
+    "424": {
+      "name": "Enfeeble",
+      "words": [
+        "Enfeeble",
+        "enfeeble"
+      ],
+      "glossary_key": "DCG_Glossary_Enfeeble",
+      "title": "Enfeeble",
+      "description": "Excess Attack Attack damage to this unit is dealt to its owner's tower in the combat phase.",
+      "example_cards": [
+        9008,
+        10262,
+        10484
+      ]
+    },
+    "500": {
+      "name": "Bounty",
+      "words": [
+        "Bounty",
+        "bounty"
+      ],
+      "glossary_key": "DCG_Glossary_Bounty",
+      "title": "Bounty",
+      "description": "The amount of gold awarded to the opponent when this unit dies.",
+      "example_cards": [
+        10252,
+        10780,
+        10783,
+        10784,
+        10943
+      ]
+    },
+    "501": {
+      "name": "Siege",
+      "words": [
+        "Siege"
+      ],
+      "glossary_key": "DCG_Glossary_Siege",
+      "title": "Siege",
+      "description": "During the combat phase, deal Siege damage to the enemy tower as physical damage.",
+      "example_cards": [
+        9017,
+        10141,
+        10223,
+        10310,
+        10404
+      ]
+    },
+    "502": {
+      "name": "Cleave",
+      "words": [
+        "Cleave"
+      ],
+      "glossary_key": "DCG_Glossary_Cleave",
+      "title": "Cleave",
+      "description": "Cleave damage is dealt to all adjacent enemies in the combat phase as physical damage. Doesn't hit towers.",
+      "example_cards": [
+        9015,
+        10054,
+        10133,
+        10212,
+        10344
+      ]
+    },
+    "503": {
+      "name": "Retaliate",
+      "words": [
+        "Retaliate"
+      ],
+      "glossary_key": "DCG_Glossary_Retaliate",
+      "title": "Retaliate",
+      "description": "When a unit strikes another unit with Retaliate, the striking unit takes Retaliate damage as physical damage.",
+      "example_cards": [
+        9016,
+        10174,
+        10208,
+        10281,
+        10425
+      ]
+    },
+    "504": {
+      "name": "Armor",
+      "words": [
+        "armor"
+      ],
+      "glossary_key": "DCG_Glossary_Armor",
+      "title": "Armor &#9636;",
+      "description": "Armor Armor absorbs this much incoming damage each round. If negative, amplify the first source of incoming damage by this amount.",
+      "example_cards": [
+        10028,
+        11036
+      ]
+    },
+    "505": {
+      "name": "Regeneration",
+      "words": [
+        "Regeneration"
+      ],
+      "glossary_key": "DCG_Glossary_Regeneration",
+      "title": "Regeneration",
+      "description": "The unit heals this amount during the combat phase. Regeneration is applied before checking for death.",
+      "example_cards": [
+        9009,
+        10056,
+        10134,
+        10170,
+        10220
+      ]
+    },
+    "506": {
+      "name": "Death Shield",
+      "words": [
+        "Death Shield",
+        "death shield"
+      ],
+      "glossary_key": "DCG_Glossary_DeathShield",
+      "title": "Death Shield",
+      "description": "If a unit would die, instead remove its death shield and it survives with 1 Health Health. A unit may only have one death shield at a time.",
+      "example_cards": [
+        9006,
+        10181,
+        10539,
+        10602,
+        10714
+      ]
+    },
+    "507": {
+      "name": "Damage Immunity",
+      "words": [
+        "Damage Immunity"
+      ],
+      "example_cards": [
+        9005,
+        10338,
+        10378,
+        10607,
+        10634
+      ]
+    },
+    "508": {
+      "name": "Untargetable",
+      "words": [
+        "Untargetable"
+      ],
+      "glossary_key": "DCG_Glossary_SpellImmunity",
+      "title": "Untargetable",
+      "description": "Cannot be chosen as a target by the opponent.",
+      "example_cards": [
+        10348,
+        10785,
+        11041,
+        11055
+      ]
+    },
+    "509": {
+      "name": "Piercing",
+      "words": [
+        "Piercing",
+        "piercing"
+      ],
+      "glossary_key": "DCG_Glossary_Piercing",
+      "title": "Piercing",
+      "description": "Piercing damage is not reduced by the target's Armor Armor.",
+      "example_cards": [
+        10006,
+        10007,
+        10025,
+        10028,
+        10044
+      ]
+    },
+    "510": {
+      "name": "Attack",
+      "words": [
+        "attack"
+      ],
+      "glossary_key": "DCG_Glossary_Attack",
+      "title": "Attack &#9635;",
+      "description": "Units deal their Attack Attack damage when they strike.",
+      "example_cards": [
+        10738,
+        10769
+      ]
+    },
+    "511": {
+      "name": "Health",
+      "words": [
+        "health"
+      ],
+      "glossary_key": "DCG_Glossary_Health",
+      "title": "Health &#9637;",
+      "description": "The amount of damage a unit can sustain before dying. Damage persists across rounds.",
+      "example_cards": [
+        10082,
+        10177,
+        10754,
+        10776,
+        11085
+      ]
+    },
+    "512": {
+      "name": "Max Mana",
+      "words": [
+        "Max Mana"
+      ],
+      "glossary_key": "DCG_Glossary_MaxMana",
+      "title": "Max Mana",
+      "description": "Increasing max mana adds full mana gems. Decreasing max mana removes empty gems first.",
+      "example_cards": [
+        10117,
+        10168,
+        10334,
+        10755,
+        10756
+      ]
+    },
+    "513": {
+      "name": "Mana",
+      "words": [
+        "Mana",
+        "mana"
+      ],
+      "glossary_key": "DCG_Glossary_ManaModifier",
+      "title": "Mana",
+      "description": "Current mana. Resource required to cast spells, play items, and activate abilities.",
+      "example_cards": [
+        3008,
+        6000,
+        10038,
+        10048,
+        10059
+      ]
+    },
+    "515": {
+      "name": "Rooted",
+      "words": [
+        "Rooted",
+        "rooted"
+      ],
+      "glossary_key": "DCG_Glossary_Rooted",
+      "title": "Rooted",
+      "description": "Cannot be moved or bounced. Movement spells and abilities cannot be played on rooted units unless they have additional effects.",
+      "example_cards": [
+        10252,
+        10745,
+        10870,
+        10871,
+        10963
+      ]
+    },
+    "516": {
+      "name": "Devour",
+      "words": [
+        "Devour",
+        "devour"
+      ],
+      "glossary_key": "DCG_Glossary_Devour",
+      "title": "Devour",
+      "description": "When this unit is placed on top of another unit, it gains that unit's Attack Attack and Health Health.",
+      "example_cards": [
+        10083,
+        10116,
+        10459,
+        10600,
+        10716
+      ]
+    },
+    "517": {
+      "name": "Lifesteal",
+      "words": [
+        "Lifesteal"
+      ],
+      "glossary_key": "DCG_Glossary_Lifesteal",
+      "title": "Lifesteal",
+      "description": "This unit heals equal to its Attack Attack if it survives a combat in which it damaged another unit.",
+      "example_cards": [
+        11017
+      ]
+    },
+    "518": {
+      "name": "Trample",
+      "words": [
+        "Trample"
+      ],
+      "glossary_key": "DCG_Glossary_Trample",
+      "title": "Trample",
+      "description": "Excess Attack Attack damage by this unit is dealt to the enemy tower in the combat phase.",
+      "example_cards": [
+        9007,
+        10021,
+        10102,
+        10132,
+        10497
+      ]
+    },
+    "519": {
+      "name": "Mulch",
+      "words": [
+        "Mulch"
+      ],
+      "glossary_key": "DCG_Glossary_Mulch",
+      "title": "Mulch",
+      "description": "When played, draw a card from your deck that costs less than this one.",
+      "example_cards": [
+        10142,
+        10149,
+        10358,
+        10617,
+        10771
+      ]
+    },
+    "520": {
+      "name": "Feeble",
+      "words": [
+        "Feeble",
+        "feeble"
+      ],
+      "glossary_key": "DCG_Glossary_Feeble",
+      "title": "Feeble",
+      "description": "Excess Attack Attack damage to this unit is dealt to your tower in the combat phase.",
+      "example_cards": [
+        10177,
+        10677,
+        10732,
+        10735,
+        10759
+      ]
+    },
+    "521": {
+      "name": "Pillager",
+      "words": [
+        "Pillager"
+      ],
+      "glossary_key": "DCG_Glossary_Pillager",
+      "title": "Pillager",
+      "description": "This unit steals 2 gold from the opponent whenever it damages their tower.",
+      "example_cards": [
+        10058,
+        10092,
+        10132,
+        10516,
+        10958
+      ]
+    },
+    "522": {
+      "name": "Quickstrike",
+      "words": [
+        "Quickstrike",
+        "quickstrike"
+      ],
+      "glossary_key": "DCG_Glossary_Quickstrike",
+      "title": "Quickstrike",
+      "description": "During a battle, units with quickstrike will strike first. Units that die from this damage do not strike.",
+      "example_cards": [
+        10085,
+        10129,
+        10625,
+        10974,
+        11103
+      ]
+    },
+    "523": {
+      "name": "Blocker",
+      "words": [
+        "Blocker"
+      ],
+      "glossary_key": "DCG_Glossary_Blocker",
+      "title": "Blocker",
+      "description": "Cannot move, strike, be damaged, or targeted by spells or abilities.",
+      "example_cards": [
+        10980
+      ]
+    },
+    "524": {
+      "name": "Tracked",
+      "words": [
+        "tracked"
+      ],
+      "glossary_key": "DCG_Glossary_Tracked",
+      "title": "Tracked",
+      "description": "This unit has been tracked by Bounty Hunter, has additional bounty, and takes additional damage when attacked by him.",
+      "example_cards": [
+        10783,
+        10784
+      ]
+    },
+    "525": {
+      "name": "Stunned",
+      "words": [
+        "stunned"
+      ],
+      "glossary_key": "DCG_Glossary_Stunned",
+      "title": "Stunned",
+      "description": "Cannot be a caster and cannot use active abilities or active abilities of items. Cannot strike. When attacked, it still deals retaliate damage.",
+      "example_cards": [
+        10016,
+        10431,
+        10605
+      ]
+    },
+    "526": {
+      "name": "Silenced",
+      "words": [
+        "Silenced",
+        "silenced"
+      ],
+      "glossary_key": "DCG_Glossary_Silenced",
+      "title": "Silenced",
+      "description": "Cannot be a caster and cannot use active abilities or active abilities of items.",
+      "example_cards": [
+        10016,
+        10431,
+        10663,
+        10665,
+        10810
+      ]
+    },
+    "528": {
+      "name": "Reflect",
+      "words": [
+        "reflect"
+      ],
+      "glossary_key": "DCG_Glossary_Reflect",
+      "title": "Reflect",
+      "description": "When targeted or struck, non-reflected damage that would be done to this unit is instead dealt to the caster or striker.",
+      "example_cards": [
+        11058
+      ]
+    },
+    "529": {
+      "name": "Lethal to Heroes",
+      "words": [
+        "Lethal to Heroes"
+      ],
+      "glossary_key": "DCG_Glossary_LethalToHeroes",
+      "title": "Lethal to Heroes",
+      "description": "Slay each hero this unit deals physical damage to.",
+      "example_cards": [
+        10344
+      ]
+    },
+    "532": {
+      "name": "Repeated",
+      "words": [
+        "repeated"
+      ],
+      "glossary_key": "DCG_Glossary_Repeated",
+      "title": "Repeated",
+      "description": "Cast previously. Abilities with triggers ignore Repeated cards.",
+      "example_cards": [
+        10043,
+        10509
+      ]
+    },
+    "600": {
+      "name": "Adjacent enemies",
+      "words": [
+        "Adjacent enemies",
+        "adjacent enemies"
+      ],
+      "glossary_key": "DCG_Glossary_EnemyNeighbors",
+      "title": "Adjacent Enemies",
+      "description": "Any enemy in the slot across from this unit, or neighboring that slot.",
+      "example_cards": [
+        1010,
+        10004,
+        10020,
+        10024,
+        10030
+      ]
+    },
+    "601": {
+      "name": "Neighbors",
+      "words": [
+        "Neighbors",
+        "neighbor",
+        "neighbors"
+      ],
+      "glossary_key": "DCG_Glossary_AlliedNeighbors",
+      "title": "Neighbors",
+      "description": "The allied units directly to the left and right of a unit.",
+      "example_cards": [
+        6004,
+        10011,
+        10062,
+        10063,
+        10083
+      ]
+    },
+    "602": {
+      "name": "Play Effect",
+      "words": [
+        "Play Effect"
+      ],
+      "glossary_key": "DCG_Glossary_PlayEffect",
+      "title": "Play Effect",
+      "description": "An additional effect that is processed at the time you play this card.",
+      "example_cards": [
+        10082,
+        10092,
+        10095,
+        10097,
+        10118
+      ]
+    },
+    "603": {
+      "name": "Death Effect",
+      "words": [
+        "Death Effect"
+      ],
+      "glossary_key": "DCG_Glossary_DeathEffect",
+      "title": "Death Effect",
+      "description": "Triggers after this unit dies.",
+      "example_cards": [
+        10026,
+        10090,
+        10107,
+        10500,
+        10609
+      ]
+    },
+    "604": {
+      "name": "Quickcast",
+      "words": [
+        "Quickcast"
+      ],
+      "glossary_key": "DCG_Glossary_Initiative",
+      "title": "&#9634; Quickcast",
+      "description": "Take another action when you play this. If you use this action to pass, you retain initiative to act first next round.",
+      "example_cards": [
+        3008,
+        6002,
+        6003,
+        6004,
+        6005
+      ]
+    },
+    "606": {
+      "name": "Unblocked",
+      "words": [
+        "unblocked"
+      ],
+      "glossary_key": "DCG_Glossary_Unblocked",
+      "title": "Unblocked",
+      "description": "A unit is unblocked if its combat target is the tower.",
+      "example_cards": [
+        10054,
+        10162,
+        10513,
+        10745
+      ]
+    },
+    "607": {
+      "name": "Blocked",
+      "words": [
+        "blocked"
+      ],
+      "glossary_key": "DCG_Glossary_Blocked",
+      "title": "Blocked",
+      "description": "A unit is blocked if it has an enemy unit as their combat target, not a tower.",
+      "example_cards": [
+        10114,
+        10649,
+        10650,
+        10721,
+        10737
+      ]
+    },
+    "608": {
+      "name": "Unit",
+      "words": [
+        "Unit",
+        "unit"
+      ],
+      "glossary_key": "DCG_Glossary_Unit",
+      "title": "Unit",
+      "description": "A unit is any creep or hero in a combat position. Towers are not units.",
+      "example_cards": [
+        3003,
+        3004,
+        6002,
+        6004,
+        6007
+      ]
+    },
+    "610": {
+      "name": "Physical damage",
+      "words": [
+        "physical damage"
+      ],
+      "glossary_key": "DCG_Glossary_BattleDamage",
+      "title": "Physical Damage",
+      "description": "Attack Attack, Cleave, Siege, and Retaliate are physical damage.",
+      "example_cards": [
+        10030,
+        10036,
+        10070,
+        10076,
+        10097
+      ]
+    },
+    "611": {
+      "name": "Rapid Deployment",
+      "words": [
+        "Rapid Deployment",
+        "rapid deployment"
+      ],
+      "example_cards": [
+        10026,
+        10183,
+        10225,
+        10500,
+        10652
+      ]
+    },
+    "612": {
+      "name": "Pierce",
+      "words": [
+        "Pierce"
+      ],
+      "glossary_key": "DCG_Glossary_Pierce",
+      "title": "Pierce",
+      "description": "Damage from a unit with Pierce is not reduced by the target's armor.",
+      "example_cards": [
+        9014,
+        10180,
+        10466,
+        10658,
+        10662
+      ]
+    },
+    "615": {
+      "name": "Aura",
+      "words": [
+        "Aura"
+      ],
+      "glossary_key": "DCG_Glossary_Aura",
+      "title": "Aura",
+      "description": "Applies to units as long as they are within a given area.",
+      "example_cards": [
+        1010,
+        10014,
+        10032,
+        10056,
+        10086
+      ]
+    },
+    "616": {
+      "name": "Round Start",
+      "words": [
+        "Round Start"
+      ],
+      "glossary_key": "DCG_Glossary_RoundStartEffect",
+      "title": "Round Start",
+      "description": "Triggers every round after the Deployment Phase and before the Action Phase.",
+      "example_cards": [
+        10006,
+        10117,
+        10148,
+        10155,
+        10157
+      ]
+    },
+    "617": {
+      "name": "After Combat",
+      "words": [
+        "After Combat",
+        "after combat"
+      ],
+      "glossary_key": "DCG_Glossary_AfterCombatEffect",
+      "title": "After Combat",
+      "description": "Triggers every round after the Combat Phase.",
+      "example_cards": [
+        10017,
+        10055,
+        10091,
+        10111,
+        10112
+      ]
+    },
+    "618": {
+      "name": "Scheme",
+      "words": [
+        "Scheme"
+      ],
+      "glossary_key": "DCG_Glossary_SchemeEffect",
+      "title": "Scheme",
+      "description": "Triggers every time you pass.",
+      "example_cards": [
+        10310,
+        10404,
+        10790,
+        10801,
+        10802
+      ]
+    },
+    "619": {
+      "name": "Minion",
+      "words": [
+        "Minion"
+      ],
+      "glossary_key": "DCG_Glossary_Minion",
+      "title": "Minion",
+      "description": "An effect which applies to this unit when adjacent to an allied hero.",
+      "example_cards": [
+        10136,
+        10605,
+        10610
+      ]
+    },
+    "620": {
+      "name": "Decay",
+      "words": [
+        "Decay"
+      ],
+      "glossary_key": "DCG_Glossary_Decay",
+      "title": "Decay",
+      "description": "This unit will take extra damage in combat. Ignores Armor Armor entirely.",
+      "example_cards": [
+        9010,
+        10010,
+        10028,
+        10160,
+        10294
+      ]
+    },
+    "621": {
+      "name": "Ephemeral",
+      "words": [
+        "ephemeral"
+      ],
+      "glossary_key": "DCG_Glossary_Ephemeral",
+      "title": "Ephemeral",
+      "description": "Ephemeral cards disappear from your hand at the end of the round.",
+      "example_cards": [
+        10194,
+        10882
+      ]
+    },
+    "623": {
+      "name": "Repeatable",
+      "words": [
+        "Repeatable",
+        "repeated"
+      ],
+      "glossary_key": "DCG_Glossary_Repeatable",
+      "title": "Repeatable",
+      "description": "Repeatable cards may be cast multiple times in one round. Abilities with triggers ignore Repeated cards.",
+      "example_cards": [
+        10043,
+        10288,
+        10509,
+        10538,
+        10806
+      ]
+    },
+    "624": {
+      "name": "Cross Lane",
+      "words": [
+        "Cross Lane"
+      ],
+      "glossary_key": "DCG_Glossary_Inspect_Crosslane",
+      "title": "Cross Lane",
+      "description": "Can affect a lane other than the caster's.",
+      "example_cards": [
+        3007,
+        6028,
+        10004,
+        10010,
+        10018
+      ]
+    },
+    "625": {
+      "name": "Cursed",
+      "words": [
+        "Cursed",
+        "cursed"
+      ],
+      "glossary_key": "DCG_Glossary_DestroyOnBounce",
+      "title": "Cursed",
+      "description": "Destroyed when replaced by another item.",
+      "example_cards": [
+        10770,
+        10822,
+        10823,
+        10824
+      ]
+    },
+    "626": {
+      "name": "Enchant",
+      "words": [
+        "Enchant"
+      ],
+      "example_cards": [
+        10148,
+        10149,
+        10154,
+        10155,
+        10156
+      ]
+    },
+    "627": {
+      "name": "Passed",
+      "words": [
+        "passed"
+      ],
+      "glossary_key": "DCG_Glossary_Passed",
+      "title": "Passed",
+      "description": "Any unit at the starting slot, the ending slot, and all slots in between.",
+      "example_cards": [
+        10010,
+        10022,
+        10430,
+        10498
+      ]
+    },
+    "628": {
+      "name": "Unopposed",
+      "words": [
+        "unopposed"
+      ],
+      "glossary_key": "DCG_Glossary_Unopposed",
+      "title": "Unopposed",
+      "description": "A unit is unopposed if there is no enemy unit directly across from it.",
+      "example_cards": [
+        10376,
+        10774,
+        11056,
+        11057
+      ]
+    }
+  },
+  "glossary": {
+    "Creep": {
+      "title": "Creep",
+      "description": "A creep is a non-hero unit. Unlike a hero, a creep cannot equip items, and does not return to play after it is killed. It is worth 1 Bounty to the opponent when killed."
+    },
+    "Hero": {
+      "title": "Hero",
+      "description": "A hero is a unit that allows you to play cards of its color in its lane. A hero can equip items. When it is killed, it is worth 5 Bounty to the opponent and returns to the Fountain to be redeployed later."
+    },
+    "Tower": {
+      "title": "Tower",
+      "description": "Each lane contains an allied tower that must be defended and an enemy tower that must be destroyed. The objective of the game is to destroy any 2 enemy towers. The tower can be a target of some spells and abilities."
+    },
+    "Improvement": {
+      "title": "Tower Enchantment",
+      "description": "A Tower Enchantment (▩) is a spell that adds a permanent effect to a tower or lane. Tower Enchantments are not units and do not occupy combat positions."
+    },
+    "Spell": {
+      "title": "Spell",
+      "description": "A spell (▪) is a card that has a one-time effect and is then removed from the game. Spells deal damage, modify objects in play temporarily or permanently, summon units, or draw cards."
+    },
+    "Item": {
+      "title": "Item",
+      "description": "An item is a card that can be purchased during the shopping phase using gold. A Weapon, Armor, or Accessory item is equipped onto a hero to buff its stats. A consumable item has a one-time effect and is then removed from the game."
+    },
+    "WeaponItem": {
+      "title": "Weapon Item",
+      "description": "A type of item that is equipped in a hero's weapon slot. All weapons increase a hero's Attack Attack."
+    },
+    "ArmorItem": {
+      "title": "Armor Item",
+      "description": "A type of item that is equipped in a hero's armor slot. All armors increase a hero's Armor Armor."
+    },
+    "AccessoryItem": {
+      "title": "Accessory Item",
+      "description": "A type of item that is equipped in a hero's accessory slot. All accessories increase a hero's Health Health."
+    },
+    "ConsumableItem": {
+      "title": "Consumable",
+      "description": "A type of item that is not equipped and is played during the action phase like a spell. Consumables may be played without a hero in the lane."
+    },
+    "CombatPhase": {
+      "title": "Lane Phases",
+      "description": "There are four phases.\n\nBefore the action phase: Many reactive abilities trigger automatically. All triggers happen simultaneously.\nAction phase: Players alternate playing cards or abilities.\nCombat phase: Each unit strikes its combat target simultaneously.\nAfter the combat phase: Many reactive abilities trigger automatically. All triggers happen simultaneously."
+    },
+    "ActionPhase": {
+      "title": "Lane Phases",
+      "description": "There are four phases.\n\nBefore the action phase: Many reactive abilities trigger automatically. All triggers happen simultaneously.\nAction phase: Players alternate playing cards or abilities.\nCombat phase: Each unit strikes its combat target simultaneously.\nAfter the combat phase: Many reactive abilities trigger automatically. All triggers happen simultaneously."
+    },
+    "BeforeActionPhase": {
+      "title": "Lane Phases",
+      "description": "There are four phases.\n\nBefore the action phase: Many reactive abilities trigger automatically. All triggers happen simultaneously.\nAction phase: Players alternate playing cards or abilities.\nCombat phase: Each unit strikes its combat target simultaneously.\nAfter the combat phase: Many reactive abilities trigger automatically. All triggers happen simultaneously."
+    },
+    "AfterCombatPhase": {
+      "title": "Lane Phases",
+      "description": "There are four phases.\n\nBefore the action phase: Many reactive abilities trigger automatically. All triggers happen simultaneously.\nAction phase: Players alternate playing cards or abilities.\nCombat phase: Each unit strikes its combat target simultaneously.\nAfter the combat phase: Many reactive abilities trigger automatically. All triggers happen simultaneously."
+    },
+    "DeploymentPhase": {
+      "title": "Round Phases",
+      "description": "There are two phases in between rounds. These phases are played by both players simultaneously.\n\nShopping phase: Players purchase cards from the item shops using gold.\nDeployment phase: Lane creeps are revealed and players choose which lanes to deploy their ready heroes into."
+    },
+    "ShoppingPhase": {
+      "title": "Round Phases",
+      "description": "There are two phases in between rounds. These phases are played by both players simultaneously.\n\nShopping phase: Players purchase cards from the item shops using gold.\nDeployment phase: Lane creeps are revealed and players choose which lanes to deploy their ready heroes into."
+    },
+    "Fountain": {
+      "title": "Fountain",
+      "description": "When heroes die they are placed in the Fountain zone for a full round before becoming ready to redeploy. When heroes enter the Fountain they are fully healed and temporary effects on them are purged."
+    },
+    "Strike": {
+      "title": "Strike",
+      "description": "When a unit strikes another unit, it deals its Attack Attack to that unit as physical damage, unless a different amount is specified. Disarmed units and stunned units cannot strike."
+    },
+    "Battle": {
+      "title": "Battle",
+      "description": "When units battle, they strike each other, dealing their Attack Attack as physical damage."
+    },
+    "SneakAttack": {
+      "title": "Sneak Attack",
+      "description": "A unit deals its Attack damage to its target in a one-way battle. Combat attributes such as Armor, Retaliate, and Piercing are applied."
+    },
+    "Modify": {
+      "title": "Modify",
+      "description": "When an effect modifies another card it applies a permanent buff or debuff to the target. Heroes retain modifiers through death."
+    },
+    "Purge": {
+      "title": "Purge",
+      "description": "Removes modifications and temporary effects, but not damage. Purging does not affect base abilities or external effects, such as those from equipped items and continuous effects from auras."
+    },
+    "Taunt": {
+      "title": "Taunt",
+      "description": "When a unit taunts all of its adjacent enemies change their combat target to that unit. Targets reset after each round."
+    },
+    "Disarm": {
+      "title": "Disarm",
+      "description": "Disarmed units cannot strike."
+    },
+    "Stun": {
+      "title": "Stun",
+      "description": "Stunned units cannot be casters and cannot use their active abilities or active abilities of their items. Stunned units cannot strike."
+    },
+    "Silence": {
+      "title": "Silence",
+      "description": "Silenced units cannot be casters and cannot use their active abilities or active abilities of their items."
+    },
+    "Enfeeble": {
+      "title": "Enfeeble",
+      "description": "Excess Attack Attack damage to this unit is dealt to its owner's tower in the combat phase."
+    },
+    "Lock": {
+      "title": "Lock",
+      "description": "Cannot be played until lock expires. Lose 1 lock at the end of each round. When a card becomes locked, it is revealed to the opponent."
+    },
+    "Condemn": {
+      "title": "Slay",
+      "description": "Kills a unit. Death Shields may save a unit, but Damage Immunity does not."
+    },
+    "Summon": {
+      "title": "Summon",
+      "description": "Creates a unit and puts it directly into play."
+    },
+    "Slay": {
+      "title": "Slay",
+      "description": "Kill a unit. Death Shields may save it, but Damage Immunity does not."
+    },
+    "Bounce": {
+      "title": "Bounce",
+      "description": "Return to hand (if creep) or the fountain (if hero) unless rooted."
+    },
+    "Burn": {
+      "title": "Burn",
+      "description": "Spends the enemy player's mana."
+    },
+    "Give": {
+      "title": "Give",
+      "description": "Give a unit an effect that lasts for one round unless otherwise specified."
+    },
+    "Swap": {
+      "title": "Swap",
+      "description": "Move to the targeted slot. If occoupied, switch positions with that unit."
+    },
+    "Dispel": {
+      "title": "Dispel",
+      "description": "Removes an enchantment."
+    },
+    "Root": {
+      "title": "Root",
+      "description": "Prevent a unit from moving or being bounced. Lasts until the end of round by default."
+    },
+    "Clone": {
+      "title": "Clone",
+      "description": "Summon a copy of this unit."
+    },
+    "Inspect_Mana": {
+      "title": "Mana",
+      "description": "Mana is a resource used to play cards and activate abilities. Each round the amount is increased by 1 and refreshed."
+    },
+    "Inspect_Crosslane": {
+      "title": "Cross Lane",
+      "description": "Can affect a lane other than the caster's."
+    },
+    "Inspect_Initiative": {
+      "title": "&#9634; Quickcast",
+      "description": "Take another action. If you use this action to pass, you reatain the initiative to act first in the next round."
+    },
+    "Inspect_IncludedBy": {
+      "title": "Signature Card",
+      "description": "This card was automatically included in your deck by {s:includedByHeroName}."
+    },
+    "Inspect_GoldCost": {
+      "title": "Gold Cost",
+      "description": "This card costs {i:goldCost} gold to buy. Once purchased, items do not cost gold to play."
+    },
+    "Inspect_Rarity": {
+      "title": "Set Info",
+      "description": "Rarity: {s:rarity}"
+    },
+    "Focus": {
+      "title": "Focus",
+      "description": "The next time this hero casts a spell, they do this many focus attacks. A focus attack deals 1 piercing damage to the adjacent enemy with the lowest Health Health. UNUSED"
+    },
+    "Bounty": {
+      "title": "Bounty",
+      "description": "The amount of gold awarded to the opponent when this unit dies."
+    },
+    "Siege": {
+      "title": "Siege",
+      "description": "During the combat phase, deal Siege damage to the enemy tower as physical damage."
+    },
+    "Cleave": {
+      "title": "Cleave",
+      "description": "Cleave damage is dealt to all adjacent enemies in the combat phase as physical damage. Doesn't hit towers."
+    },
+    "Retaliate": {
+      "title": "Retaliate",
+      "description": "When a unit strikes another unit with Retaliate, the striking unit takes Retaliate damage as physical damage."
+    },
+    "Reflect": {
+      "title": "Reflect",
+      "description": "When targeted or struck, non-reflected damage that would be done to this unit is instead dealt to the caster or striker."
+    },
+    "Armor": {
+      "title": "Armor &#9636;",
+      "description": "Armor Armor absorbs this much incoming damage each round. If negative, amplify the first source of incoming damage by this amount."
+    },
+    "Regeneration": {
+      "title": "Regeneration",
+      "description": "The unit heals this amount during the combat phase. Regeneration is applied before checking for death."
+    },
+    "DeathShield": {
+      "title": "Death Shield",
+      "description": "If a unit would die, instead remove its death shield and it survives with 1 Health Health. A unit may only have one death shield at a time."
+    },
+    "DamageImmunity": {
+      "title": "Damage Immune",
+      "description": "A unit with Damage Immunity does not take damage. It will still die when slain."
+    },
+    "BattleDamageIsPiercing": {
+      "title": "Pierce",
+      "description": "Physical damage dealt by this unit is piercing. Piercing damage is not reduced by the target's armor."
+    },
+    "Piercing": {
+      "title": "Piercing",
+      "description": "Piercing damage is not reduced by the target's Armor Armor."
+    },
+    "Attack": {
+      "title": "Attack &#9635;",
+      "description": "Units deal their Attack Attack damage when they strike."
+    },
+    "Health": {
+      "title": "Health &#9637;",
+      "description": "The amount of damage a unit can sustain before dying. Damage persists across rounds."
+    },
+    "Mana": {
+      "title": "Mana",
+      "description": "Mana is a resource used to play cards and abilities. Each round the amount is increased by 1 and refreshed."
+    },
+    "Soulbound": {
+      "title": "Soulbound",
+      "description": "When an allied unit with soulbound dies, all other allied units in any lane with the same name also die."
+    },
+    "LethalToCreeps": {
+      "title": "Lethal to Creeps",
+      "description": "Slay each creep this unit deals physical damage to."
+    },
+    "LethalToHeroes": {
+      "title": "Lethal to Heroes",
+      "description": "Slay each hero this unit deals physical damage to."
+    },
+    "ManaModifier": {
+      "title": "Mana",
+      "description": "Current mana. Resource required to cast spells, play items, and activate abilities."
+    },
+    "Locked": {
+      "title": "Lock",
+      "description": "A delay that prevents the card from being played for that many rounds. Lock decreases at the end of the round."
+    },
+    "Pierce": {
+      "title": "Pierce",
+      "description": "Damage from a unit with Pierce is not reduced by the target's armor."
+    },
+    "NumHacks": {
+      "title": "Hacks",
+      "description": "The text of this card has been changed."
+    },
+    "NoEquipmentRestriction": {
+      "title": "No Equipped Item Restriction",
+      "description": "This hero can equip any number of items."
+    },
+    "isRevealed": {
+      "title": "Revealed",
+      "description": "Both players can see this card."
+    },
+    "Stunned": {
+      "title": "Stunned",
+      "description": "Cannot be a caster and cannot use active abilities or active abilities of items. Cannot strike. When attacked, it still deals retaliate damage."
+    },
+    "NotTargetable": {
+      "title": "Not Targetable",
+      "description": "Cannot be the target of spells or abilities."
+    },
+    "Silenced": {
+      "title": "Silenced",
+      "description": "Cannot be a caster and cannot use active abilities or active abilities of items."
+    },
+    "Disarmed": {
+      "title": "Disarmed",
+      "description": "Cannot strike. When struck, it still deals retaliate damage."
+    },
+    "Quickcast": {
+      "title": "Quickcast",
+      "description": "Gives the player another turn to take an action or pass to gain initiative."
+    },
+    "HasModifiedBounty": {
+      "title": "Bounty {s:bountyDifferential}",
+      "description": "Amount of gold awarded to the opponent when this unit dies."
+    },
+    "HasFocus": {
+      "title": "Focus {i:focus}",
+      "description": "Amount of focus."
+    },
+    "AlliedNeighbors": {
+      "title": "Neighbors",
+      "description": "The allied units directly to the left and right of a unit."
+    },
+    "EnemyNeighbors": {
+      "title": "Adjacent Enemies",
+      "description": "Any enemy in the slot across from this unit, or neighboring that slot."
+    },
+    "PlayEffect": {
+      "title": "Play Effect",
+      "description": "An additional effect that is processed at the time you play this card."
+    },
+    "EnterLaneEffect": {
+      "title": "Enter Lane Effect",
+      "description": "Triggers each time the unit is deployed or moved to a new lane."
+    },
+    "DeathEffect": {
+      "title": "Death Effect",
+      "description": "Triggers after this unit dies."
+    },
+    "Initiative": {
+      "title": "&#9634; Quickcast",
+      "description": "Take another action when you play this. If you use this action to pass, you retain initiative to act first next round."
+    },
+    "Chain": {
+      "title": "&#9634; Chain",
+      "description": "After you play this spell, you may immediately take another action, or you may finish chaining and give the opponent the initiative coin."
+    },
+    "Active": {
+      "title": "Active Ability",
+      "description": "An active ability may be used during the action phase. An active ability with a cooldown may not be used again until that number of rounds have passed. Active abilities may not be used if their owner is stunned or silenced."
+    },
+    "Unblocked": {
+      "title": "Unblocked",
+      "description": "A unit is unblocked if its combat target is the tower."
+    },
+    "Blocked": {
+      "title": "Blocked",
+      "description": "A unit is blocked if it has an enemy unit as their combat target, not a tower."
+    },
+    "Unit": {
+      "title": "Unit",
+      "description": "A unit is any creep or hero in a combat position. Towers are not units."
+    },
+    "ZToken": {
+      "title": "&#9633; Pulse",
+      "description": "A delay between effects of a spell or ability. Continuous effects are updated, reactive abilities are processed, and units that have been slain or dealt lethal damage are destroyed."
+    },
+    "BattleDamage": {
+      "title": "Physical Damage",
+      "description": "Attack Attack, Cleave, Siege, and Retaliate are physical damage."
+    },
+    "RapidDeployment": {
+      "title": "Rapid Deploy",
+      "description": "This hero can be deployed the round after it dies."
+    },
+    "Aura": {
+      "title": "Aura",
+      "description": "Applies to units as long as they are within a given area."
+    },
+    "RoundStartEffect": {
+      "title": "Round Start",
+      "description": "Triggers every round after the Deployment Phase and before the Action Phase."
+    },
+    "AfterCombatEffect": {
+      "title": "After Combat",
+      "description": "Triggers every round after the Combat Phase."
+    },
+    "SchemeEffect": {
+      "title": "Scheme",
+      "description": "Triggers every time you pass."
+    },
+    "Devour": {
+      "title": "Devour",
+      "description": "When this unit is placed on top of another unit, it gains that unit's Attack Attack and Health Health."
+    },
+    "Lifesteal": {
+      "title": "Lifesteal",
+      "description": "This unit heals equal to its Attack Attack if it survives a combat in which it damaged another unit."
+    },
+    "Feeble": {
+      "title": "Feeble",
+      "description": "Excess Attack Attack damage to this unit is dealt to your tower in the combat phase."
+    },
+    "Spectral": {
+      "title": "Spectralcaster",
+      "description": "Can cast cards of any color."
+    },
+    "Trample": {
+      "title": "Trample",
+      "description": "Excess Attack Attack damage by this unit is dealt to the enemy tower in the combat phase."
+    },
+    "Pillager": {
+      "title": "Pillager",
+      "description": "This unit steals 2 gold from the opponent whenever it damages their tower."
+    },
+    "Minion": {
+      "title": "Minion",
+      "description": "An effect which applies to this unit when adjacent to an allied hero."
+    },
+    "Mulch": {
+      "title": "Mulch",
+      "description": "When played, draw a card from your deck that costs less than this one."
+    },
+    "Tracked": {
+      "title": "Tracked",
+      "description": "This unit has been tracked by Bounty Hunter, has additional bounty, and takes additional damage when attacked by him."
+    },
+    "Decay": {
+      "title": "Decay",
+      "description": "This unit will take extra damage in combat. Ignores Armor Armor entirely."
+    },
+    "Revealed": {
+      "title": "Revealed",
+      "description": "This card is visible to both players."
+    },
+    "Ephemeral": {
+      "title": "Ephemeral",
+      "description": "Ephemeral cards disappear from your hand at the end of the round."
+    },
+    "Drain": {
+      "title": "Drain",
+      "description": "Give Decay to one unit and Regeneration to another."
+    },
+    "Displace": {
+      "title": "Push",
+      "description": "Move a unit 1 slot randomly left or right to an unoccupied spot."
+    },
+    "Hex": {
+      "title": "Hex",
+      "description": "Transform a unit into a harmless form that can perform no actions."
+    },
+    "Rooted": {
+      "title": "Rooted",
+      "description": "Cannot be moved or bounced. Movement spells and abilities cannot be played on rooted units unless they have additional effects."
+    },
+    "Repeatable": {
+      "title": "Repeatable",
+      "description": "Repeatable cards may be cast multiple times in one round. Abilities with triggers ignore Repeated cards."
+    },
+    "Repeated": {
+      "title": "Repeated",
+      "description": "Cast previously. Abilities with triggers ignore Repeated cards."
+    },
+    "Quickstrike": {
+      "title": "Quickstrike",
+      "description": "During a battle, units with quickstrike will strike first. Units that die from this damage do not strike."
+    },
+    "Jump": {
+      "title": "Jump",
+      "description": "Select a new target for this effect."
+    },
+    "Blocker": {
+      "title": "Blocker",
+      "description": "Cannot move, strike, be damaged, or targeted by spells or abilities."
+    },
+    "CombatImmunity": {
+      "title": "Combat Immune",
+      "description": "Does not take physical damage."
+    },
+    "SpellMunity": {
+      "title": "Spell Vulnerable",
+      "description": "Non-physical damage is doubled."
+    },
+    "SpellImmunity": {
+      "title": "Untargetable",
+      "description": "Cannot be chosen as a target by the opponent."
+    },
+    "DestroyOnBounce": {
+      "title": "Cursed",
+      "description": "Destroyed when replaced by another item."
+    },
+    "Enchant": {
+      "title": "Enchantment",
+      "description": "A permanent effect that attaches to a tower, caster, or unit. Can be dispelled by another effect."
+    },
+    "Passed": {
+      "title": "Passed",
+      "description": "Any unit at the starting slot, the ending slot, and all slots in between."
+    },
+    "MaxMana": {
+      "title": "Max Mana",
+      "description": "Increasing max mana adds full mana gems. Decreasing max mana removes empty gems first."
+    },
+    "DisablePassives": {
+      "title": "Break",
+      "description": "Passive abilities on this unit are disabled."
+    },
+    "Unopposed": {
+      "title": "Unopposed",
+      "description": "A unit is unopposed if there is no enemy unit directly across from it."
+    },
+    "Absorption": {
+      "title": "Absorption",
+      "description": "Damage dealt to this unit is converted to healing instead."
+    },
+    "Retaliate_Value": {
+      "title": "Retaliate ({s:PlusOrMinus}{i:StatValue})"
+    },
+    "Regeneration_Value": {
+      "title": "Regeneration ({s:PlusOrMinus}{i:StatValue})"
+    },
+    "Cleave_Value": {
+      "title": "Cleave ({s:PlusOrMinus}{i:StatValue})"
+    },
+    "Siege_Value": {
+      "title": "Siege ({s:PlusOrMinus}{i:StatValue})"
+    },
+    "Decay_Value": {
+      "title": "Decay ({s:PlusOrMinus}{i:StatValue})"
+    }
+  },
+  "community_keywords": [
+    {
+      "keyword": "After Combat",
+      "match": "After Combat",
+      "desc": "An effect that triggers after the Combat Phase.",
+      "example": [
+        "10111",
+        "10205"
+      ]
+    },
+    {
+      "hide_from_keyword_page": true,
+      "keyword": "Lethal To Heroes",
+      "match": "Lethal To Heroes",
+      "desc": "Slay each hero this unit deals physical damage to.",
+      "example": [
+        "10344"
+      ]
+    },
+    {
+      "hide_from_keyword_page": true,
+      "keyword": "Lethal To Creeps",
+      "match": "Lethal To Creeps",
+      "desc": "Slay each creep this unit deals physical damage to.",
+      "example": [
+        "10344"
+      ]
+    },
+    {
+      "keyword": "Aura",
+      "match": "Aura",
+      "desc": "Applies to units as long as they are within a given area.",
+      "example": [
+        "10086",
+        "11002"
+      ]
+    },
+    {
+      "keyword": "Bounce",
+      "match": "Bounce",
+      "desc": "Return to hand or the fountain.",
+      "example": [
+        "10766",
+        "10753"
+      ]
+    },
+    {
+      "keyword": "Burn",
+      "match": "Burn",
+      "desc": "Remove mana from the enemy player.",
+      "example": [
+        "10048",
+        "10154"
+      ]
+    },
+    {
+      "keyword": "Cleave",
+      "match": "Cleave",
+      "desc": "Cleave damage is dealt to all adjacent enemies in the combat phase. Doesn't hit towers.",
+      "example": [
+        "10133",
+        "10425"
+      ]
+    },
+    {
+      "keyword": "Cross Lane",
+      "match": "Cross Lane",
+      "desc": "Can affect a lane other than the caster's.",
+      "example": [
+        "10328",
+        "10417"
+      ]
+    },
+    {
+      "hide_from_keyword_page": true,
+      "keyword": "Cursed",
+      "match": "Cursed",
+      "desc": "Destroyed when replaced by another item.",
+      "example": [
+        "10770"
+      ]
+    },
+    {
+      "keyword": "Death Effect",
+      "match": "Death Effect",
+      "desc": "An effect that is processed after this unit dies.",
+      "example": [
+        "10794",
+        "10107"
+      ]
+    },
+    {
+      "keyword": "Decay",
+      "match": "Decay",
+      "desc": "This unit will take extra damage in combat. Ignores Armor ▤ entirely.",
+      "example": [
+        "10993",
+        "11044"
+      ]
+    },
+    {
+      "keyword": "Devour",
+      "match": "Devour",
+      "desc": "When this unit is placed on top of another unit, it gains that unit's Attack ▣ and Health ▥.",
+      "example": [
+        "10732",
+        "10116"
+      ]
+    },
+    {
+      "keyword": "Disarm",
+      "match": "Disarm",
+      "desc": "Disarmed units do not strike their target in battles or in the combat phase.",
+      "example": [
+        "10277",
+        "10155"
+      ]
+    },
+    {
+      "keyword": "Dispel",
+      "match": "Dispel",
+      "desc": "Removes an enchantment.",
+      "example": [
+        "10306",
+        "10210"
+      ]
+    },
+    {
+      "keyword": "Enchant",
+      "match": "Enchant",
+      "desc": "An enchantment lasts until dispelled, remaining even through death.",
+      "example": [
+        "10171",
+        "10608"
+      ]
+    },
+    {
+      "keyword": "Tower Enchantment",
+      "match": "Tower Enchantment",
+      "desc": "A Tower Enchantment is a spell that adds a permanent effect to a tower or lane. Tower Enchantments are not units and do not occupy combat positions.",
+      "example": [
+        "10181",
+        "10148"
+      ]
+    },
+    {
+      "keyword": "Tower",
+      "match": "(Tower)(?! Enchantment)",
+      "desc": "Each lane contains an allied tower that must be defended and an enemy tower that must be destroyed. The objective of the game is to destroy any 2 enemy towers. The tower can be a target of some spells and abilities."
+    },
+    {
+      "keyword": "Feeble",
+      "match": "Feeble",
+      "desc": "Excess Attack ▣ damage to this unit is dealt to your tower in the combat phase.",
+      "example": [
+        "11007",
+        "10789"
+      ]
+    },
+    {
+      "keyword": "Fountain",
+      "match": "Fountain",
+      "desc": "When heroes die they are placed in the Fountain zone for a full round before becoming ready to redeploy. When heroes enter the Fountain they are fully healed and temporary effects on them are purged.",
+      "example": [
+        "10654",
+        "10618"
+      ]
+    },
+    {
+      "keyword": "Jump",
+      "match": "Jump",
+      "desc": "Select a new target for this effect.",
+      "example": [
+        "10318",
+        "11013"
+      ]
+    },
+    {
+      "keyword": "Lifesteal",
+      "match": "Lifesteal",
+      "desc": "This unit heals equal to its Attack ▣ if it survives a combat in which it damaged another unit.",
+      "example": [
+        "11017"
+      ]
+    },
+    {
+      "keyword": "Lock",
+      "match": "(Lock)(?!ing)(?!ed)(?!er)(?! it)",
+      "desc": "Cards cannot be played as long as they are locked. Lock is applied for a duration in rounds. At the end of a round, all locked cards lose 1 Lock. Locked cards are revealed.",
+      "example": [
+        "10708",
+        "10782"
+      ]
+    },
+    {
+      "keyword": "Minion",
+      "match": "Minion",
+      "desc": "An effect which applies to this unit when adjacent to an allied hero.",
+      "example": [
+        "10136",
+        "10610"
+      ]
+    },
+    {
+      "keyword": "Mulch",
+      "match": "Mulch",
+      "desc": "When played, draw a card from your deck that costs less than this one.",
+      "example": [
+        "10617",
+        "10358"
+      ]
+    },
+    {
+      "keyword": "Pierce",
+      "match": "Pierce",
+      "desc": "Piercing damage is not reduced by the target's armor.",
+      "example": [
+        "10270",
+        "10007"
+      ]
+    },
+    {
+      "hide_from_keyword_page": true,
+      "keyword": "Piercing",
+      "match": "Piercing",
+      "desc": "Piercing damage is not reduced by the target's armor.",
+      "example": [
+        "10270",
+        "10007"
+      ]
+    },
+    {
+      "keyword": "Pillager",
+      "match": "Pillager(?! damaged)(?! into)",
+      "desc": "This unit steals 2 gold from the opponent whenever it damages their tower.",
+      "example": [
+        "10092",
+        "10132"
+      ]
+    },
+    {
+      "keyword": "Play Effect",
+      "match": "Play Effect",
+      "desc": "An additional effect that is processed at the time you play this card.",
+      "example": [
+        "10961",
+        "10714"
+      ]
+    },
+    {
+      "keyword": "Purge",
+      "match": "(Purge)|(Yello Everybody)",
+      "desc": "Removes modifications and temporary effects, but not damage. Purging does not affect base abilities or external effects, such as those from equipped items and continuous effects from auras.",
+      "example": [
+        "10348",
+        "10793"
+      ]
+    },
+    {
+      "keyword": "Push",
+      "match": "Push",
+      "desc": "Move a unit 1 slot randomly left or right to an unoccupied spot.",
+      "example": [
+        "10293",
+        "10928"
+      ]
+    },
+    {
+      "keyword": "Quickcast",
+      "match": "Quickcast",
+      "desc": "Take another action. If you use this action to pass, you retain the initiative to act first in the next round.",
+      "example": [
+        "10365",
+        "10374"
+      ]
+    },
+    {
+      "keyword": "Quickstrike",
+      "match": "Quickstrike",
+      "desc": "During a battle, units with quickstrike attack before units without quickstrike. Units that die from this damage do not attack.",
+      "example": [
+        "10129",
+        "10625"
+      ]
+    },
+    {
+      "keyword": "Reflect",
+      "match": "Reflect",
+      "desc": "When targeted or attacked, non-reflected damage that would be done to this unit is instead dealt to the caster or attacker.",
+      "example": [
+        "11058"
+      ]
+    },
+    {
+      "keyword": "Retaliate",
+      "match": "Retaliate",
+      "desc": "When a unit strikes another unit with Retaliate, the striking unit takes Retaliate damage as physical damage.",
+      "example": [
+        "10174",
+        "10281"
+      ]
+    },
+    {
+      "keyword": "Root",
+      "match": "(Root)(?!ed)",
+      "desc": "Prevent a unit from moving. Lasts until the end of round by default.",
+      "example": [
+        "10963",
+        "10262"
+      ]
+    },
+    {
+      "hide_from_keyword_page": true,
+      "keyword": "Rooted",
+      "match": "Rooted",
+      "desc": "Prevent a unit from moving. Lasts until the end of round by default.",
+      "example": [
+        "10963",
+        "10262"
+      ]
+    },
+    {
+      "keyword": "Scheme",
+      "match": "Scheme",
+      "desc": "An effect which triggers when the card's owner passes.",
+      "example": [
+        "10404",
+        "10790"
+      ]
+    },
+    {
+      "keyword": "Siege",
+      "match": "Siege",
+      "desc": "During the combat phase, deal Siege damage to the enemy tower as physical damage.",
+      "example": [
+        "10310",
+        "10223"
+      ]
+    },
+    {
+      "hide_from_keyword_page": true,
+      "keyword": "Sneak Attack",
+      "match": "Sneak Attack",
+      "desc": "A unit deals its Attack damage to its target in a one-way battle. Combat attributes such as Armor, Retaliate, and Piercing are applied.",
+      "example": [
+        "11056"
+      ]
+    },
+    {
+      "keyword": "Stun",
+      "match": "(Stun)(?!ned)",
+      "desc": "Stunned units can't be casters and can't use their active abilities or active abilities of their items. Stunned units can't strike in battles or in the combat phase.",
+      "example": [
+        "11033",
+        "10657"
+      ]
+    },
+    {
+      "hide_from_keyword_page": true,
+      "keyword": "Stunned",
+      "match": "Stunned",
+      "desc": "Stunned units can't be casters and can't use their active abilities or active abilities of their items. Stunned units can't strike in battles or in the combat phase.",
+      "example": [
+        "11033",
+        "10657"
+      ]
+    },
+    {
+      "keyword": "Swap",
+      "match": "(Swap)(?! colors)",
+      "desc": "Move a unit to the targeted slot. If occupied, switch positions with that unit.",
+      "example": [
+        "10080",
+        "11004"
+      ]
+    },
+    {
+      "keyword": "Taunt",
+      "match": "Taunt",
+      "desc": "When a unit taunts all of its adjacent enemies change their combat target to that unit. Targets reset after each round.",
+      "example": [
+        "10418",
+        "10208"
+      ]
+    },
+    {
+      "keyword": "Trample",
+      "match": "Trample",
+      "desc": "Excess Attack ▣ damage by this unit is dealt to the enemy tower in the combat phase.",
+      "example": [
+        "10102",
+        "10758"
+      ]
+    },
+    {
+      "keyword": "Untargetable",
+      "match": "Untargetable",
+      "desc": "Can't be chosen as a target by the opponent.",
+      "example": [
+        "10348",
+        "10785"
+      ]
+    },
+    {
+      "keyword": "Regeneration",
+      "match": "Regeneration",
+      "desc": "The unit heals this amount during the combat phase. Regeneration is applied before checking for death.",
+      "example": [
+        "10617",
+        "10220"
+      ]
+    },
+    {
+      "keyword": "Physical Damage",
+      "match": "Physical Damage",
+      "desc": "Attack ▣, Cleave, Siege, and Retaliate, are physical damage.",
+      "example": [
+        "10282",
+        "10076"
+      ]
+    },
+    {
+      "keyword": "Hero",
+      "match": "Hero",
+      "desc": "A hero is a unit that allows you to play cards of its color in its lane. A hero can equip items. When it is killed, it is worth 5 Bounty to the opponent and returns to the Fountain to be redeployed later.",
+      "example": [
+        "10783",
+        "10811"
+      ]
+    },
+    {
+      "keyword": "Creep",
+      "match": "Creep",
+      "desc": "A creep is a non-hero unit. Unlike a hero, a creep cannot equip items, and does not return to play after it is killed. It is worth 1 Bounty to the opponent when killed. When played, a creep card puts a unit into an empty combat position of your choice.",
+      "example": [
+        "10128",
+        "10118"
+      ]
+    },
+    {
+      "keyword": "Spell",
+      "match": "Spell",
+      "desc": "A spell is a card that has a one-time effect and is then removed from the game. Spells deal damage, modify objects in play temporarily or permanently, summon units, or draw cards.",
+      "example": [
+        "10402",
+        "10315"
+      ]
+    },
+    {
+      "keyword": "Silence",
+      "match": "Silence",
+      "desc": "Silenced units can't be casters and can't use their active abilities or active abilities of their items.",
+      "example": [
+        "10420",
+        "10727"
+      ]
+    },
+    {
+      "keyword": "Slay",
+      "match": "Slay",
+      "desc": "Kill a unit. Death Shields may save it, but Damage Immunity does not.",
+      "example": [
+        "10410",
+        "10308"
+      ]
+    },
+    {
+      "keyword": "Mana",
+      "match": "Mana",
+      "desc": "Mana is a resource used to play cards and activate abilities. Each round the amount is increased by 1 and refreshed.",
+      "example": [
+        "10117",
+        "10797"
+      ]
+    },
+    {
+      "keyword": "Bounty",
+      "match": "Bounty",
+      "desc": "The amount of gold awarded to the opponent when a unit dies.",
+      "example": [
+        "11096",
+        "10252"
+      ]
+    },
+    {
+      "keyword": "Armor",
+      "match": "Armor(?!:)(?!,)",
+      "desc": "Armor ▤ absorbs this much incoming damage each round. If negative, amplify the first source of incoming damage by this amount.",
+      "example": [
+        "10419",
+        "10079"
+      ]
+    },
+    {
+      "keyword": "Death Shield",
+      "match": "Death Shield",
+      "desc": "If a unit would die, instead remove its death shield and it survives with 1 Health. A unit may only have one death shield at a time.",
+      "example": [
+        "10181",
+        "10714"
+      ]
+    },
+    {
+      "keyword": "Damage Immunity",
+      "match": "Damage Immunity",
+      "desc": "A unit with Damage Immunity does not take damage. It will still die when slain.",
+      "example": [
+        "10757",
+        "10378"
+      ]
+    },
+    {
+      "keyword": "Round Start",
+      "match": "Round Start",
+      "desc": "An effect that triggers after Deployment and before the Action Phase.",
+      "example": [
+        "10291",
+        "10608"
+      ]
+    },
+    {
+      "keyword": "Summon",
+      "match": "Summon",
+      "desc": "Creates a unit puts it directly into play.",
+      "example": [
+        "10005",
+        "11100"
+      ]
+    },
+    {
+      "keyword": "Ephemeral",
+      "match": "Ephemeral",
+      "desc": "Ephemeral cards disappear from your hand at the end of the round.",
+      "example": [
+        "10194",
+        "10288"
+      ]
+    },
+    {
+      "keyword": "Clone",
+      "match": "Clone",
+      "desc": "Summon a copy of this unit.",
+      "example": [
+        "11046",
+        "11071"
+      ]
+    },
+    {
+      "keyword": "Hex",
+      "match": "Hex",
+      "desc": "Transform a unit into a harmless form that can perform no actions.",
+      "example": [
+        "10930"
+      ]
+    },
+    {
+      "keyword": "Break",
+      "match": "Break",
+      "desc": "Passive abilities on this unit are disabled.",
+      "example": [
+        "11014"
+      ]
+    },
+    {
+      "keyword": "Repeatable",
+      "match": "Repeatable",
+      "desc": "Repeatable cards may be cast multiple times in one round. Abilities with triggers ignore Repeated cards.",
+      "example": [
+        "10288",
+        "10538"
+      ]
+    },
+    {
+      "keyword": "Strike",
+      "match": "Strike",
+      "desc": "When a unit strikes another unit, it deals its Attack ▣ to that unit as physical damage, unless a different amount is specified. Disarmed units and stunned units cannot strike.",
+      "example": [
+        "10774",
+        "10418"
+      ]
+    },
+    {
+      "hide_from_keyword_page": true,
+      "keyword": "Striking",
+      "match": "Striking",
+      "desc": "When a unit strikes another unit, it deals its Attack ▣ to that unit as physical damage, unless a different amount is specified. Disarmed units and stunned units cannot strike.",
+      "example": [
+        "10774",
+        "10418"
+      ]
+    }
+  ]
+}

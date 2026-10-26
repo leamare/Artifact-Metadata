@@ -1,0 +1,1346 @@
+{
+  "3000": {
+    "id": 3000,
+    "name": "Traveler's Cloak",
+    "type": 5,
+    "type_source": "community",
+    "set": 0,
+    "collectible": false,
+    "hidden_reason": "Uncollectable",
+    "rarity": 0,
+    "gold_cost": 5,
+    "attack": 0,
+    "armor": 0,
+    "health": 3,
+    "item_subtype": "Accessory",
+    "artwork": {
+      "artwork_id": 3000
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10172
+    ]
+  },
+  "3001": {
+    "id": 3001,
+    "name": "Leather Armor",
+    "type": 5,
+    "type_source": "community",
+    "set": 0,
+    "collectible": false,
+    "hidden_reason": "Uncollectable",
+    "rarity": 0,
+    "gold_cost": 5,
+    "attack": 0,
+    "armor": 1,
+    "health": 0,
+    "item_subtype": "Armor",
+    "artwork": {
+      "artwork_id": 3001
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10172
+    ]
+  },
+  "3002": {
+    "id": 3002,
+    "name": "Short Sword",
+    "type": 5,
+    "type_source": "community",
+    "set": 0,
+    "collectible": false,
+    "hidden_reason": "Uncollectable",
+    "rarity": 0,
+    "gold_cost": 5,
+    "attack": 2,
+    "armor": 0,
+    "health": 0,
+    "item_subtype": "Weapon",
+    "artwork": {
+      "artwork_id": 3002
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10172,
+      10794
+    ]
+  },
+  "3003": {
+    "id": 3003,
+    "name": "Healing Salve",
+    "type": 5,
+    "type_source": "classic",
+    "set": 0,
+    "gold_cost": 3,
+    "item_subtype": "Consumable",
+    "artwork": {
+      "artwork_id": 3003
+    }
+  },
+  "3004": {
+    "id": 3004,
+    "name": "Fountain Flask",
+    "type": 5,
+    "type_source": "classic",
+    "set": 0,
+    "gold_cost": 4,
+    "item_subtype": "Consumable",
+    "artwork": {
+      "artwork_id": 3004
+    }
+  },
+  "3005": {
+    "id": 3005,
+    "name": "Potion of Knowledge",
+    "type": 5,
+    "type_source": "classic",
+    "set": 0,
+    "gold_cost": 5,
+    "item_subtype": "Consumable",
+    "artwork": {
+      "artwork_id": 3005
+    }
+  },
+  "3007": {
+    "id": 3007,
+    "name": "Blink Scroll",
+    "type": 5,
+    "type_source": "community",
+    "set": 0,
+    "collectible": false,
+    "hidden_reason": "Uncollectable",
+    "rarity": 0,
+    "gold_cost": 0,
+    "attack": 0,
+    "armor": 0,
+    "health": 0,
+    "crosslane": true,
+    "item_subtype": "Consumable",
+    "artwork": {
+      "artwork_id": 3007
+    },
+    "release_date": "2020-05-21"
+  },
+  "10202": {
+    "id": 10202,
+    "name": "Assassin's Veil",
+    "type": 5,
+    "type_source": "classic",
+    "set": 1,
+    "gold_cost": 4,
+    "item_subtype": "Accessory",
+    "artwork": {
+      "artwork_id": 10202
+    }
+  },
+  "10203": {
+    "id": 10203,
+    "name": "Phase Boots",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 1,
+    "gold_cost": 15,
+    "attack": 0,
+    "armor": 0,
+    "health": 3,
+    "item_subtype": "Accessory",
+    "artwork": {
+      "artwork_id": 10203
+    },
+    "release_date": "2020-05-11"
+  },
+  "10205": {
+    "id": 10205,
+    "name": "Stonehall Cloak",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 1,
+    "gold_cost": 10,
+    "attack": 0,
+    "armor": 0,
+    "health": 3,
+    "item_subtype": "Accessory",
+    "artwork": {
+      "artwork_id": 10205
+    },
+    "release_date": "2020-05-25"
+  },
+  "10206": {
+    "id": 10206,
+    "name": "Blink Dagger",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 1,
+    "gold_cost": 25,
+    "attack": 2,
+    "armor": 0,
+    "health": 0,
+    "item_subtype": "Weapon",
+    "artwork": {
+      "artwork_id": 10206
+    },
+    "release_date": "2020-05-25"
+  },
+  "10208": {
+    "id": 10208,
+    "name": "Barbed Mail",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 1,
+    "gold_cost": 10,
+    "attack": 0,
+    "armor": 0,
+    "health": 0,
+    "item_subtype": "Armor",
+    "artwork": {
+      "artwork_id": 10208
+    },
+    "release_date": "2020-05-25"
+  },
+  "10210": {
+    "id": 10210,
+    "name": "Demagicking Maul",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 2,
+    "gold_cost": 15,
+    "attack": 2,
+    "armor": 0,
+    "health": 0,
+    "item_subtype": "Weapon",
+    "artwork": {
+      "artwork_id": 10210
+    },
+    "release_date": "2020-05-25"
+  },
+  "10212": {
+    "id": 10212,
+    "name": "Blade of the Vigil",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 1,
+    "gold_cost": 15,
+    "attack": 0,
+    "armor": 0,
+    "health": 0,
+    "item_subtype": "Weapon",
+    "artwork": {
+      "artwork_id": 10212
+    },
+    "release_date": "2020-05-21"
+  },
+  "10215": {
+    "id": 10215,
+    "name": "Broadsword",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 1,
+    "gold_cost": 20,
+    "attack": 6,
+    "armor": 0,
+    "health": 0,
+    "item_subtype": "Weapon",
+    "artwork": {
+      "artwork_id": 10215
+    },
+    "release_date": "2020-05-25"
+  },
+  "10216": {
+    "id": 10216,
+    "name": "Golden Ticket",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": false,
+    "hidden_reason": "Removed",
+    "rarity": 2,
+    "gold_cost": 15,
+    "attack": 0,
+    "armor": 0,
+    "health": 0,
+    "item_subtype": "Consumable",
+    "artwork": {
+      "artwork_id": 10216
+    },
+    "release_date": "2020-05-25"
+  },
+  "10218": {
+    "id": 10218,
+    "name": "Keenfolk Musket",
+    "type": 5,
+    "type_source": "classic",
+    "set": 1,
+    "gold_cost": 6,
+    "item_subtype": "Weapon",
+    "artwork": {
+      "artwork_id": 10218
+    }
+  },
+  "10220": {
+    "id": 10220,
+    "name": "Ring of Tarrasque",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 1,
+    "gold_cost": 15,
+    "attack": 0,
+    "armor": 0,
+    "health": 3,
+    "item_subtype": "Accessory",
+    "artwork": {
+      "artwork_id": 10220
+    },
+    "release_date": "2020-05-25"
+  },
+  "10222": {
+    "id": 10222,
+    "name": "Bracers of Sacrifice",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 5,
+    "gold_cost": 10,
+    "attack": 0,
+    "armor": 1,
+    "health": 0,
+    "item_subtype": "Armor",
+    "artwork": {
+      "artwork_id": 10222
+    },
+    "release_date": "2020-05-25"
+  },
+  "10223": {
+    "id": 10223,
+    "name": "Red Mist Maul",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 2,
+    "gold_cost": 20,
+    "attack": 2,
+    "armor": 0,
+    "health": 0,
+    "item_subtype": "Weapon",
+    "artwork": {
+      "artwork_id": 10223
+    },
+    "release_date": "2020-05-25"
+  },
+  "10224": {
+    "id": 10224,
+    "name": "Helm of the Dominator",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 2,
+    "gold_cost": 30,
+    "attack": 0,
+    "armor": 2,
+    "health": 0,
+    "item_subtype": "Armor",
+    "artwork": {
+      "artwork_id": 10224
+    },
+    "release_date": "2020-05-25"
+  },
+  "10225": {
+    "id": 10225,
+    "name": "Vesture of the Tyrant",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 2,
+    "gold_cost": 40,
+    "attack": 0,
+    "armor": 3,
+    "health": 0,
+    "item_subtype": "Armor",
+    "artwork": {
+      "artwork_id": 10225
+    },
+    "release_date": "2020-05-25"
+  },
+  "10226": {
+    "id": 10226,
+    "name": "Wingfall Hammer",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 1,
+    "gold_cost": 35,
+    "attack": 4,
+    "armor": 0,
+    "health": 6,
+    "item_subtype": "Weapon",
+    "artwork": {
+      "artwork_id": 10226
+    },
+    "release_date": "2020-05-25"
+  },
+  "10230": {
+    "id": 10230,
+    "name": "Ristul Emblem",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 1,
+    "gold_cost": 20,
+    "attack": 0,
+    "armor": 2,
+    "health": 0,
+    "item_subtype": "Armor",
+    "artwork": {
+      "artwork_id": 10230
+    },
+    "release_date": "2020-05-25"
+  },
+  "10231": {
+    "id": 10231,
+    "name": "Cloak of Endless Carnage",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": false,
+    "hidden_reason": "Removed",
+    "rarity": 3,
+    "gold_cost": 15,
+    "attack": 0,
+    "armor": 0,
+    "health": 6,
+    "item_subtype": "Accessory",
+    "artwork": {
+      "artwork_id": 10231
+    },
+    "release_date": "2020-05-25"
+  },
+  "10234": {
+    "id": 10234,
+    "name": "Poaching Knife",
+    "type": 5,
+    "type_source": "classic",
+    "set": 1,
+    "gold_cost": 8,
+    "item_subtype": "Weapon",
+    "artwork": {
+      "artwork_id": 10234
+    }
+  },
+  "10238": {
+    "id": 10238,
+    "name": "Claymore",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 1,
+    "gold_cost": 30,
+    "attack": 10,
+    "armor": 0,
+    "health": 0,
+    "item_subtype": "Weapon",
+    "artwork": {
+      "artwork_id": 10238
+    },
+    "release_date": "2020-05-21"
+  },
+  "10252": {
+    "id": 10252,
+    "name": "Hooked Net",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 1,
+    "gold_cost": 15,
+    "attack": 2,
+    "armor": 0,
+    "health": 0,
+    "item_subtype": "Weapon",
+    "artwork": {
+      "artwork_id": 10252
+    },
+    "release_date": "2020-05-04"
+  },
+  "10260": {
+    "id": 10260,
+    "name": "Horn of the Alpha",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 5,
+    "gold_cost": 40,
+    "attack": 0,
+    "armor": 0,
+    "health": 6,
+    "item_subtype": "Accessory",
+    "artwork": {
+      "artwork_id": 10260
+    },
+    "release_date": "2020-05-21",
+    "search_terms": "thide thunderhide pack",
+    "related_cards": [
+      10102
+    ]
+  },
+  "10262": {
+    "id": 10262,
+    "name": "Nyctasha's Guard",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 3,
+    "gold_cost": 45,
+    "attack": 0,
+    "armor": 1,
+    "health": 0,
+    "item_subtype": "Armor",
+    "artwork": {
+      "artwork_id": 10262
+    },
+    "release_date": "2020-05-11"
+  },
+  "10263": {
+    "id": 10263,
+    "name": "Apotheosis Blade",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 4,
+    "gold_cost": 50,
+    "attack": 6,
+    "armor": 0,
+    "health": 0,
+    "item_subtype": "Weapon",
+    "artwork": {
+      "artwork_id": 10263
+    },
+    "release_date": "2020-05-25"
+  },
+  "10622": {
+    "id": 10622,
+    "name": "Demolishing Warhammer",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 1,
+    "gold_cost": 15,
+    "attack": 2,
+    "armor": 0,
+    "health": 0,
+    "item_subtype": "Weapon",
+    "artwork": {
+      "artwork_id": 10622
+    },
+    "release_date": "2020-05-25"
+  },
+  "10623": {
+    "id": 10623,
+    "name": "Main Gauche",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 2,
+    "gold_cost": 20,
+    "attack": 0,
+    "armor": 2,
+    "health": 0,
+    "item_subtype": "Armor",
+    "artwork": {
+      "artwork_id": 10623
+    },
+    "release_date": "2020-05-25"
+  },
+  "10625": {
+    "id": 10625,
+    "name": "Mortred's Dagger",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 2,
+    "gold_cost": 30,
+    "attack": 5,
+    "armor": 0,
+    "health": 0,
+    "item_subtype": "Weapon",
+    "artwork": {
+      "artwork_id": 10625
+    },
+    "release_date": "2020-05-25"
+  },
+  "10626": {
+    "id": 10626,
+    "name": "Healing Blade",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 1,
+    "gold_cost": 10,
+    "attack": 2,
+    "armor": 0,
+    "health": 0,
+    "item_subtype": "Weapon",
+    "artwork": {
+      "artwork_id": 10626
+    },
+    "release_date": "2020-05-25"
+  },
+  "10627": {
+    "id": 10627,
+    "name": "Warhorn",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 1,
+    "gold_cost": 20,
+    "attack": 0,
+    "armor": 0,
+    "health": 6,
+    "item_subtype": "Accessory",
+    "artwork": {
+      "artwork_id": 10627
+    },
+    "release_date": "2020-05-25"
+  },
+  "10628": {
+    "id": 10628,
+    "name": "Crown of the Undying",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 1,
+    "gold_cost": 15,
+    "attack": 0,
+    "armor": 0,
+    "health": 0,
+    "item_subtype": "Armor",
+    "artwork": {
+      "artwork_id": 10628
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      1009
+    ]
+  },
+  "10629": {
+    "id": 10629,
+    "name": "Artificer's Mail",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 2,
+    "gold_cost": 20,
+    "attack": 0,
+    "armor": 2,
+    "health": 0,
+    "item_subtype": "Armor",
+    "artwork": {
+      "artwork_id": 10629
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10641
+    ]
+  },
+  "10630": {
+    "id": 10630,
+    "name": "Infernal Amulet",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 3,
+    "gold_cost": 20,
+    "attack": 0,
+    "armor": 0,
+    "health": 6,
+    "item_subtype": "Accessory",
+    "artwork": {
+      "artwork_id": 10630
+    },
+    "release_date": "2020-05-25"
+  },
+  "10631": {
+    "id": 10631,
+    "name": "Revtel Mercenary Contract",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": false,
+    "hidden_reason": "Removed",
+    "rarity": 3,
+    "gold_cost": 10,
+    "attack": 0,
+    "armor": 0,
+    "health": 0,
+    "item_subtype": "Consumable",
+    "artwork": {
+      "artwork_id": 10631
+    },
+    "release_date": "2020-05-04",
+    "related_cards": [
+      10642
+    ]
+  },
+  "10635": {
+    "id": 10635,
+    "name": "Midas Greaves",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 1,
+    "gold_cost": 10,
+    "attack": 1,
+    "armor": 0,
+    "health": 0,
+    "item_subtype": "Armor",
+    "artwork": {
+      "artwork_id": 10635
+    },
+    "release_date": "2020-05-25"
+  },
+  "10727": {
+    "id": 10727,
+    "name": "Orchid",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 4,
+    "gold_cost": 20,
+    "attack": 0,
+    "armor": 2,
+    "health": 0,
+    "item_subtype": "Weapon",
+    "artwork": {
+      "artwork_id": 10727
+    },
+    "release_date": "2020-05-25"
+  },
+  "10781": {
+    "id": 10781,
+    "name": "Hero's Cape",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 1,
+    "gold_cost": 30,
+    "attack": 0,
+    "armor": 0,
+    "health": 12,
+    "item_subtype": "Accessory",
+    "artwork": {
+      "artwork_id": 10781
+    },
+    "release_date": "2020-05-25"
+  },
+  "10782": {
+    "id": 10782,
+    "name": "Claszureme Hourglass",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 5,
+    "gold_cost": 15,
+    "attack": 0,
+    "armor": 0,
+    "health": 0,
+    "item_subtype": "Accessory",
+    "artwork": {
+      "artwork_id": 10782
+    },
+    "release_date": "2020-05-11"
+  },
+  "10790": {
+    "id": 10790,
+    "name": "Sorla Khan's Spear",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 5,
+    "gold_cost": 30,
+    "attack": 2,
+    "armor": 0,
+    "health": 0,
+    "item_subtype": "Weapon",
+    "artwork": {
+      "artwork_id": 10790
+    },
+    "release_date": "2020-05-25"
+  },
+  "10793": {
+    "id": 10793,
+    "name": "Jasper Daggers",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 4,
+    "gold_cost": 25,
+    "attack": 2,
+    "armor": 0,
+    "health": 0,
+    "item_subtype": "Weapon",
+    "artwork": {
+      "artwork_id": 10793
+    },
+    "release_date": "2020-05-25"
+  },
+  "10822": {
+    "id": 10822,
+    "name": "Transmuted Weapon",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": false,
+    "hidden_reason": "Removed",
+    "rarity": 1,
+    "gold_cost": 0,
+    "attack": -1,
+    "armor": 0,
+    "health": 0,
+    "item_subtype": "Weapon",
+    "artwork": {
+      "artwork_id": 10822
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10770
+    ]
+  },
+  "10823": {
+    "id": 10823,
+    "name": "Squirmified-Straps",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": false,
+    "hidden_reason": "Removed",
+    "rarity": 1,
+    "gold_cost": 0,
+    "attack": 0,
+    "armor": -1,
+    "health": 0,
+    "item_subtype": "Armor",
+    "artwork": {
+      "artwork_id": 10823
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10770
+    ]
+  },
+  "10824": {
+    "id": 10824,
+    "name": "Malchanted Mango",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": false,
+    "hidden_reason": "Removed",
+    "rarity": 1,
+    "gold_cost": 0,
+    "attack": 0,
+    "armor": 0,
+    "health": 0,
+    "item_subtype": "Accessory",
+    "artwork": {
+      "artwork_id": 10824
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10770
+    ]
+  },
+  "10928": {
+    "id": 10928,
+    "name": "Force Staff",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 1,
+    "gold_cost": 10,
+    "attack": 2,
+    "armor": 0,
+    "health": 0,
+    "item_subtype": "Weapon",
+    "artwork": {
+      "artwork_id": 10928
+    },
+    "release_date": "2020-05-04"
+  },
+  "10930": {
+    "id": 10930,
+    "name": "Sheep Stick",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 1,
+    "gold_cost": 35,
+    "attack": 5,
+    "armor": 0,
+    "health": 0,
+    "item_subtype": "Weapon",
+    "artwork": {
+      "artwork_id": 10930
+    },
+    "release_date": "2020-04-06"
+  },
+  "10943": {
+    "id": 10943,
+    "name": "Ring of Basilius",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 1,
+    "gold_cost": 10,
+    "attack": 0,
+    "armor": 1,
+    "health": 0,
+    "item_subtype": "Armor",
+    "artwork": {
+      "artwork_id": 10943
+    },
+    "release_date": "2020-05-21"
+  },
+  "10944": {
+    "id": 10944,
+    "name": "Necronomicon",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 1,
+    "gold_cost": 15,
+    "attack": 0,
+    "armor": 0,
+    "health": 3,
+    "item_subtype": "Accessory",
+    "artwork": {
+      "artwork_id": 10944
+    },
+    "release_date": "2020-05-04",
+    "related_cards": [
+      10955
+    ]
+  },
+  "10967": {
+    "id": 10967,
+    "name": "Greevil Egg",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 1,
+    "gold_cost": 10,
+    "attack": 0,
+    "armor": 0,
+    "health": 0,
+    "item_subtype": "Consumable",
+    "artwork": {
+      "artwork_id": 10967
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10958,
+      10959,
+      10960,
+      10961,
+      10962,
+      10963,
+      10964,
+      10965,
+      10966
+    ]
+  },
+  "11013": {
+    "id": 11013,
+    "name": "Mjollnir",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 3,
+    "gold_cost": 45,
+    "attack": 5,
+    "armor": 0,
+    "health": 0,
+    "item_subtype": "Weapon",
+    "artwork": {
+      "artwork_id": 11013
+    },
+    "release_date": "2020-05-25"
+  },
+  "11014": {
+    "id": 11014,
+    "name": "Silver Edge",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 4,
+    "gold_cost": 45,
+    "attack": 5,
+    "armor": 0,
+    "health": 0,
+    "item_subtype": "Weapon",
+    "artwork": {
+      "artwork_id": 11014
+    },
+    "release_date": "2020-05-25"
+  },
+  "11015": {
+    "id": 11015,
+    "name": "Nullifier",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 4,
+    "gold_cost": 30,
+    "attack": 0,
+    "armor": 2,
+    "health": 0,
+    "item_subtype": "Armor",
+    "artwork": {
+      "artwork_id": 11015
+    },
+    "release_date": "2020-05-25"
+  },
+  "11016": {
+    "id": 11016,
+    "name": "Shield of St. Crella",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 1,
+    "gold_cost": 30,
+    "attack": 0,
+    "armor": 4,
+    "health": 0,
+    "item_subtype": "Armor",
+    "artwork": {
+      "artwork_id": 11016
+    },
+    "release_date": "2020-05-25"
+  },
+  "11017": {
+    "id": 11017,
+    "name": "Vladmir's Offering",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 3,
+    "gold_cost": 35,
+    "attack": 0,
+    "armor": 4,
+    "health": 0,
+    "item_subtype": "Armor",
+    "artwork": {
+      "artwork_id": 11017
+    },
+    "release_date": "2020-05-25"
+  },
+  "11018": {
+    "id": 11018,
+    "name": "Spirit Vessel",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 4,
+    "gold_cost": 40,
+    "attack": 0,
+    "armor": 0,
+    "health": 9,
+    "item_subtype": "Accessory",
+    "artwork": {
+      "artwork_id": 11018
+    },
+    "release_date": "2020-05-25"
+  },
+  "11019": {
+    "id": 11019,
+    "name": "Holy Locket",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 2,
+    "gold_cost": 35,
+    "attack": 0,
+    "armor": 0,
+    "health": 9,
+    "item_subtype": "Accessory",
+    "artwork": {
+      "artwork_id": 11019
+    },
+    "release_date": "2020-05-25"
+  },
+  "11020": {
+    "id": 11020,
+    "name": "Radiance",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 1,
+    "gold_cost": 50,
+    "attack": 10,
+    "armor": 0,
+    "health": 0,
+    "item_subtype": "Weapon",
+    "artwork": {
+      "artwork_id": 11020
+    },
+    "release_date": "2020-05-25"
+  },
+  "11021": {
+    "id": 11021,
+    "name": "Darkblight Shield",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 1,
+    "gold_cost": 50,
+    "attack": 0,
+    "armor": 7,
+    "health": 0,
+    "item_subtype": "Armor",
+    "artwork": {
+      "artwork_id": 11021
+    },
+    "release_date": "2020-05-25"
+  },
+  "11022": {
+    "id": 11022,
+    "name": "Refresher Orb",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 2,
+    "gold_cost": 50,
+    "attack": 0,
+    "armor": 0,
+    "health": 6,
+    "item_subtype": "Accessory",
+    "artwork": {
+      "artwork_id": 11022
+    },
+    "release_date": "2020-05-25"
+  },
+  "11023": {
+    "id": 11023,
+    "name": "Dagon",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 1,
+    "gold_cost": 50,
+    "attack": 0,
+    "armor": 0,
+    "health": 9,
+    "item_subtype": "Accessory",
+    "artwork": {
+      "artwork_id": 11023
+    },
+    "release_date": "2020-05-25"
+  },
+  "11029": {
+    "id": 11029,
+    "name": "Seraphim Shield",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 2,
+    "gold_cost": 25,
+    "attack": 0,
+    "armor": 5,
+    "health": 3,
+    "item_subtype": "Armor",
+    "artwork": {
+      "artwork_id": 11029
+    },
+    "release_date": "2020-05-25"
+  },
+  "11030": {
+    "id": 11030,
+    "name": "Gem of True Sight",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 4,
+    "gold_cost": 30,
+    "attack": 0,
+    "armor": 0,
+    "health": 6,
+    "item_subtype": "Accessory",
+    "artwork": {
+      "artwork_id": 11030
+    },
+    "release_date": "2020-05-25"
+  },
+  "11031": {
+    "id": 11031,
+    "name": "Ghost Scepter",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 5,
+    "gold_cost": 30,
+    "attack": 0,
+    "armor": 0,
+    "health": 6,
+    "item_subtype": "Accessory",
+    "artwork": {
+      "artwork_id": 11031
+    },
+    "release_date": "2020-05-25"
+  },
+  "11044": {
+    "id": 11044,
+    "name": "Noxious Talisman",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 2,
+    "gold_cost": 25,
+    "attack": 0,
+    "armor": 2,
+    "health": 0,
+    "item_subtype": "Armor",
+    "artwork": {
+      "artwork_id": 11044
+    },
+    "release_date": "2020-05-04"
+  },
+  "11073": {
+    "id": 11073,
+    "name": "Strength Potion Twin Pack",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 1,
+    "gold_cost": 15,
+    "attack": 0,
+    "armor": 0,
+    "health": 0,
+    "item_subtype": "Consumable",
+    "artwork": {
+      "artwork_id": 11073
+    },
+    "release_date": "2020-08-28"
+  },
+  "11076": {
+    "id": 11076,
+    "name": "Mazer Beam X-179",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 2,
+    "gold_cost": 15,
+    "attack": 2,
+    "armor": 0,
+    "health": 0,
+    "item_subtype": "Weapon",
+    "artwork": {
+      "artwork_id": 11076
+    },
+    "release_date": "2020-09-03",
+    "signature_of": [
+      10052
+    ]
+  },
+  "11078": {
+    "id": 11078,
+    "name": "Type XLII Kineto-Zap Harmor",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 2,
+    "gold_cost": 15,
+    "attack": 0,
+    "armor": 2,
+    "health": 0,
+    "item_subtype": "Armor",
+    "artwork": {
+      "artwork_id": 11078
+    },
+    "release_date": "2020-09-03",
+    "signature_of": [
+      10052
+    ]
+  },
+  "11080": {
+    "id": 11080,
+    "name": "Sproink Springers Mk.23",
+    "type": 5,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "rarity": 2,
+    "gold_cost": 15,
+    "attack": 0,
+    "armor": 0,
+    "health": 2,
+    "item_subtype": "Accessory",
+    "artwork": {
+      "artwork_id": 11080
+    },
+    "release_date": "2020-09-03",
+    "signature_of": [
+      10052
+    ]
+  }
+}

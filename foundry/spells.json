@@ -1,0 +1,2684 @@
+{
+  "6002": {
+    "id": 6002,
+    "name": "Cheat Whose",
+    "type": 7,
+    "type_source": "classic",
+    "set": 0,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 6002
+    }
+  },
+  "6003": {
+    "id": 6003,
+    "name": "Cheat Demolish",
+    "type": 7,
+    "type_source": "classic",
+    "set": 0,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 6003
+    }
+  },
+  "6004": {
+    "id": 6004,
+    "name": "Cheat Maneuver",
+    "type": 7,
+    "type_source": "classic",
+    "set": 0,
+    "quick": true
+  },
+  "6005": {
+    "id": 6005,
+    "name": "Cheat Destroy",
+    "type": 7,
+    "type_source": "classic",
+    "set": 0,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 6005
+    }
+  },
+  "6006": {
+    "id": 6006,
+    "name": "Cheat Rich",
+    "type": 7,
+    "type_source": "classic",
+    "set": 0,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 10463
+    }
+  },
+  "6007": {
+    "id": 6007,
+    "name": "Cheat Heal",
+    "type": 7,
+    "type_source": "classic",
+    "set": 0,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 6007
+    }
+  },
+  "6008": {
+    "id": 6008,
+    "name": "Cheat Revelation",
+    "type": 7,
+    "type_source": "classic",
+    "set": 0,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 6008
+    }
+  },
+  "6009": {
+    "id": 6009,
+    "name": "Cheat Kill",
+    "type": 7,
+    "type_source": "classic",
+    "set": 0,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 6009
+    }
+  },
+  "6022": {
+    "id": 6022,
+    "name": "Cheat LockAndReveal",
+    "type": 7,
+    "type_source": "classic",
+    "set": 0,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 6022
+    }
+  },
+  "6023": {
+    "id": 6023,
+    "name": "Cheat Stun",
+    "type": 7,
+    "type_source": "classic",
+    "set": 0,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 10323
+    }
+  },
+  "6024": {
+    "id": 6024,
+    "name": "Cheat Disarm",
+    "type": 7,
+    "type_source": "classic",
+    "set": 0,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 10497
+    }
+  },
+  "6025": {
+    "id": 6025,
+    "name": "Cheat Quick",
+    "type": 7,
+    "type_source": "classic",
+    "set": 0,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 10203
+    }
+  },
+  "6026": {
+    "id": 6026,
+    "name": "Cheat Megannihilate",
+    "type": 7,
+    "type_source": "classic",
+    "set": 0,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 6026
+    }
+  },
+  "6027": {
+    "id": 6027,
+    "name": "Cheat Silence",
+    "type": 7,
+    "type_source": "classic",
+    "set": 0,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 10327
+    }
+  },
+  "10005": {
+    "id": 10005,
+    "name": "Divided We Stand",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 5,
+    "mana_cost": 3,
+    "artwork": {
+      "artwork_id": 10005
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10004
+    ]
+  },
+  "10007": {
+    "id": 10007,
+    "name": "Eclipse",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 2,
+    "mana_cost": 6,
+    "artwork": {
+      "artwork_id": 10007
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10006
+    ]
+  },
+  "10011": {
+    "id": 10011,
+    "name": "Winter's Curse",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 4,
+    "mana_cost": 4,
+    "artwork": {
+      "artwork_id": 10011
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10010
+    ]
+  },
+  "10063": {
+    "id": 10063,
+    "name": "Mystic Flare",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 2,
+    "mana_cost": 4,
+    "artwork": {
+      "artwork_id": 10063
+    },
+    "release_date": "2018-11-28",
+    "signature_of": [
+      10062
+    ]
+  },
+  "10142": {
+    "id": 10142,
+    "name": "Corrosive Mist",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 3,
+    "mana_cost": 6,
+    "artwork": {
+      "artwork_id": 10142
+    },
+    "release_date": "2020-05-25"
+  },
+  "10160": {
+    "id": 10160,
+    "name": "Ignite",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 3,
+    "mana_cost": 2,
+    "artwork": {
+      "artwork_id": 10160
+    },
+    "release_date": "2020-05-11",
+    "signature_of": [
+      10043
+    ]
+  },
+  "10171": {
+    "id": 10171,
+    "name": "Howling Mind",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 5,
+    "mana_cost": 2,
+    "artwork": {
+      "artwork_id": 10171
+    },
+    "release_date": "2020-05-25"
+  },
+  "10192": {
+    "id": 10192,
+    "name": "Rumusque Blessing",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 2,
+    "mana_cost": 2,
+    "crosslane": true,
+    "artwork": {
+      "artwork_id": 10192
+    },
+    "release_date": "2020-05-25"
+  },
+  "10193": {
+    "id": 10193,
+    "name": "Enchant",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 2,
+    "mana_cost": 4,
+    "artwork": {
+      "artwork_id": 10193
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10036
+    ]
+  },
+  "10196": {
+    "id": 10196,
+    "name": "...And One For Me",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 2,
+    "mana_cost": 4,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 10196
+    },
+    "release_date": "2020-05-25"
+  },
+  "10270": {
+    "id": 10270,
+    "name": "Grazing Shot",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 1,
+    "mana_cost": 1,
+    "crosslane": true,
+    "artwork": {
+      "artwork_id": 10270
+    },
+    "release_date": "2020-05-25"
+  },
+  "10272": {
+    "id": 10272,
+    "name": "Assassinate",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 2,
+    "mana_cost": 7,
+    "crosslane": true,
+    "artwork": {
+      "artwork_id": 10272
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10050
+    ]
+  },
+  "10273": {
+    "id": 10273,
+    "name": "Hip Fire",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 2,
+    "mana_cost": 3,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 10273
+    },
+    "release_date": "2020-05-25"
+  },
+  "10274": {
+    "id": 10274,
+    "name": "Heartstopper Aura",
+    "type": 7,
+    "type_source": "classic",
+    "set": 1,
+    "mana_cost": 4,
+    "color": "Black",
+    "artwork": {
+      "artwork_id": 10274
+    }
+  },
+  "10277": {
+    "id": 10277,
+    "name": "Frostbite",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 1,
+    "mana_cost": 2,
+    "artwork": {
+      "artwork_id": 10277
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10064
+    ]
+  },
+  "10278": {
+    "id": 10278,
+    "name": "Thundergod's Wrath",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 2,
+    "mana_cost": 5,
+    "artwork": {
+      "artwork_id": 10278
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10065
+    ]
+  },
+  "10280": {
+    "id": 10280,
+    "name": "Shockwave",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 1,
+    "mana_cost": 2,
+    "artwork": {
+      "artwork_id": 10280
+    },
+    "release_date": "2020-10-22",
+    "signature_of": [
+      10067
+    ]
+  },
+  "10281": {
+    "id": 10281,
+    "name": "Ion Shell",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 2,
+    "mana_cost": 3,
+    "artwork": {
+      "artwork_id": 10281
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10068
+    ]
+  },
+  "10282": {
+    "id": 10282,
+    "name": "Overpower",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 2,
+    "mana_cost": 3,
+    "artwork": {
+      "artwork_id": 10282
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10070
+    ]
+  },
+  "10288": {
+    "id": 10288,
+    "name": "Culling Blade",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 2,
+    "mana_cost": 2,
+    "artwork": {
+      "artwork_id": 10288
+    },
+    "release_date": "2020-05-11",
+    "signature_of": [
+      10020
+    ]
+  },
+  "10289": {
+    "id": 10289,
+    "name": "Exsanguinate",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 2,
+    "mana_cost": 3,
+    "artwork": {
+      "artwork_id": 10289
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10018
+    ]
+  },
+  "10292": {
+    "id": 10292,
+    "name": "Double Edge",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 3,
+    "mana_cost": 1,
+    "artwork": {
+      "artwork_id": 10292
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10021
+    ]
+  },
+  "10293": {
+    "id": 10293,
+    "name": "Primal Roar",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 5,
+    "mana_cost": 3,
+    "artwork": {
+      "artwork_id": 10293
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10029
+    ]
+  },
+  "10296": {
+    "id": 10296,
+    "name": "Whirling Death",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 1,
+    "mana_cost": 2,
+    "artwork": {
+      "artwork_id": 10296
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10022
+    ]
+  },
+  "10299": {
+    "id": 10299,
+    "name": "Defend the Weak",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 2,
+    "mana_cost": 1,
+    "artwork": {
+      "artwork_id": 10299
+    },
+    "release_date": "2020-05-25"
+  },
+  "10303": {
+    "id": 10303,
+    "name": "Bellow",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 1,
+    "mana_cost": 1,
+    "crosslane": true,
+    "artwork": {
+      "artwork_id": 10303
+    },
+    "release_date": "2020-05-25"
+  },
+  "10305": {
+    "id": 10305,
+    "name": "Raze",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 4,
+    "mana_cost": 4,
+    "artwork": {
+      "artwork_id": 10305
+    },
+    "release_date": "2020-05-25"
+  },
+  "10306": {
+    "id": 10306,
+    "name": "Smash Their Defenses!",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 2,
+    "mana_cost": 2,
+    "artwork": {
+      "artwork_id": 10306
+    },
+    "release_date": "2020-05-25"
+  },
+  "10307": {
+    "id": 10307,
+    "name": "Foresight",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 1,
+    "mana_cost": 3,
+    "artwork": {
+      "artwork_id": 10307
+    },
+    "release_date": "2020-05-25"
+  },
+  "10308": {
+    "id": 10308,
+    "name": "Coup de Grace",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 1,
+    "mana_cost": 5,
+    "artwork": {
+      "artwork_id": 10308
+    },
+    "release_date": "2020-05-21",
+    "signature_of": [
+      10047
+    ]
+  },
+  "10311": {
+    "id": 10311,
+    "name": "Arm the Rebellion",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 1,
+    "faction": "Vhoul Rebellion",
+    "mana_cost": 3,
+    "artwork": {
+      "artwork_id": 10311
+    },
+    "release_date": "2020-05-25"
+  },
+  "10312": {
+    "id": 10312,
+    "name": "Arc Bolt",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 2,
+    "mana_cost": 1,
+    "artwork": {
+      "artwork_id": 10312
+    },
+    "release_date": "2020-05-25"
+  },
+  "10313": {
+    "id": 10313,
+    "name": "Poised to Strike",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 3,
+    "mana_cost": 1,
+    "artwork": {
+      "artwork_id": 10313
+    },
+    "release_date": "2020-05-25"
+  },
+  "10315": {
+    "id": 10315,
+    "name": "Annihilation",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 3,
+    "mana_cost": 6,
+    "artwork": {
+      "artwork_id": 10315
+    },
+    "release_date": "2020-05-25"
+  },
+  "10318": {
+    "id": 10318,
+    "name": "Chain Frost",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 2,
+    "mana_cost": 6,
+    "artwork": {
+      "artwork_id": 10318
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10038
+    ]
+  },
+  "10323": {
+    "id": 10323,
+    "name": "Echo Slam",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 3,
+    "mana_cost": 6,
+    "artwork": {
+      "artwork_id": 10323
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10033
+    ]
+  },
+  "10326": {
+    "id": 10326,
+    "name": "No Hesitation",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 3,
+    "mana_cost": 2,
+    "artwork": {
+      "artwork_id": 10326
+    },
+    "release_date": "2020-05-25"
+  },
+  "10327": {
+    "id": 10327,
+    "name": "Heroic Resolve",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 1,
+    "mana_cost": 2,
+    "artwork": {
+      "artwork_id": 10327
+    },
+    "release_date": "2020-05-25"
+  },
+  "10328": {
+    "id": 10328,
+    "name": "Gank",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 1,
+    "mana_cost": 3,
+    "crosslane": true,
+    "artwork": {
+      "artwork_id": 10328
+    },
+    "release_date": "2020-05-25"
+  },
+  "10330": {
+    "id": 10330,
+    "name": "God's Strength",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 2,
+    "mana_cost": 3,
+    "artwork": {
+      "artwork_id": 10330
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10054
+    ]
+  },
+  "10332": {
+    "id": 10332,
+    "name": "Murder Plot",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 2,
+    "mana_cost": 3,
+    "artwork": {
+      "artwork_id": 10332
+    },
+    "release_date": "2020-05-25"
+  },
+  "10334": {
+    "id": 10334,
+    "name": "Stars Align",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 1,
+    "mana_cost": 1,
+    "artwork": {
+      "artwork_id": 10334
+    },
+    "release_date": "2020-05-25"
+  },
+  "10335": {
+    "id": 10335,
+    "name": "Call the Reserves",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 1,
+    "mana_cost": 5,
+    "crosslane": true,
+    "artwork": {
+      "artwork_id": 10335
+    },
+    "release_date": "2020-05-25"
+  },
+  "10336": {
+    "id": 10336,
+    "name": "Better Late Than Never",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 3,
+    "mana_cost": 2,
+    "crosslane": true,
+    "artwork": {
+      "artwork_id": 10336
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10935
+    ]
+  },
+  "10338": {
+    "id": 10338,
+    "name": "Divine Intervention",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 3,
+    "mana_cost": 4,
+    "artwork": {
+      "artwork_id": 10338
+    },
+    "release_date": "2020-05-25"
+  },
+  "10339": {
+    "id": 10339,
+    "name": "Gust",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 1,
+    "mana_cost": 3,
+    "artwork": {
+      "artwork_id": 10339
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10032
+    ]
+  },
+  "10340": {
+    "id": 10340,
+    "name": "Hand of God",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 2,
+    "mana_cost": 5,
+    "crosslane": true,
+    "artwork": {
+      "artwork_id": 10340
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10017
+    ]
+  },
+  "10341": {
+    "id": 10341,
+    "name": "Duel",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 1,
+    "mana_cost": 2,
+    "artwork": {
+      "artwork_id": 10341
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10069
+    ]
+  },
+  "10342": {
+    "id": 10342,
+    "name": "Fighting Words",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 1,
+    "mana_cost": 1,
+    "artwork": {
+      "artwork_id": 10342
+    },
+    "release_date": "2020-05-25"
+  },
+  "10344": {
+    "id": 10344,
+    "name": "Clear the Deck",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 2,
+    "mana_cost": 5,
+    "artwork": {
+      "artwork_id": 10344
+    },
+    "release_date": "2020-05-25"
+  },
+  "10348": {
+    "id": 10348,
+    "name": "Repel",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 4,
+    "mana_cost": 1,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 10348
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10044
+    ]
+  },
+  "10350": {
+    "id": 10350,
+    "name": "Sucker Punch",
+    "type": 7,
+    "type_source": "classic",
+    "set": 1,
+    "mana_cost": 4,
+    "color": "Red",
+    "artwork": {
+      "artwork_id": 10350
+    }
+  },
+  "10352": {
+    "id": 10352,
+    "name": "Lightning Strike",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 1,
+    "mana_cost": 1,
+    "artwork": {
+      "artwork_id": 10352
+    },
+    "release_date": "2020-05-25"
+  },
+  "10353": {
+    "id": 10353,
+    "name": "Bolt of Damocles",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 2,
+    "mana_cost": 10,
+    "artwork": {
+      "artwork_id": 10353
+    },
+    "release_date": "2020-05-25"
+  },
+  "10354": {
+    "id": 10354,
+    "name": "Pick Off",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 1,
+    "mana_cost": 3,
+    "crosslane": true,
+    "artwork": {
+      "artwork_id": 10354
+    },
+    "release_date": "2020-05-25"
+  },
+  "10358": {
+    "id": 10358,
+    "name": "Restoration Effort",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 1,
+    "faction": "Vhoul Rebellion",
+    "mana_cost": 4,
+    "artwork": {
+      "artwork_id": 10358
+    },
+    "release_date": "2020-05-25"
+  },
+  "10359": {
+    "id": 10359,
+    "name": "Buying Time",
+    "type": 7,
+    "type_source": "classic",
+    "set": 1,
+    "mana_cost": 3,
+    "color": "Blue",
+    "artwork": {
+      "artwork_id": 10359
+    }
+  },
+  "10360": {
+    "id": 10360,
+    "name": "Friendly Fire",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 2,
+    "mana_cost": 5,
+    "artwork": {
+      "artwork_id": 10360
+    },
+    "release_date": "2020-05-25"
+  },
+  "10365": {
+    "id": 10365,
+    "name": "Juke",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 1,
+    "mana_cost": 1,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 10365
+    },
+    "release_date": "2020-05-25"
+  },
+  "10366": {
+    "id": 10366,
+    "name": "New Orders",
+    "type": 7,
+    "type_source": "classic",
+    "set": 1,
+    "mana_cost": 1,
+    "color": "Red",
+    "artwork": {
+      "artwork_id": 10366
+    }
+  },
+  "10367": {
+    "id": 10367,
+    "name": "Rend Armor",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": false,
+    "hidden_reason": "Removed",
+    "color": "Red",
+    "rarity": 3,
+    "mana_cost": 2,
+    "artwork": {
+      "artwork_id": 10367
+    },
+    "release_date": "2020-05-25"
+  },
+  "10373": {
+    "id": 10373,
+    "name": "Soul of Spring",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 4,
+    "mana_cost": 3,
+    "artwork": {
+      "artwork_id": 10373
+    },
+    "release_date": "2020-05-25"
+  },
+  "10374": {
+    "id": 10374,
+    "name": "Arcane Assault",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 1,
+    "mana_cost": 3,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 10374
+    },
+    "release_date": "2020-05-25"
+  },
+  "10376": {
+    "id": 10376,
+    "name": "Remote Detonation",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 3,
+    "mana_cost": 5,
+    "artwork": {
+      "artwork_id": 10376
+    },
+    "release_date": "2020-05-25"
+  },
+  "10377": {
+    "id": 10377,
+    "name": "Volatile Fog",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 3,
+    "mana_cost": 3,
+    "artwork": {
+      "artwork_id": 10377
+    },
+    "release_date": "2020-05-25"
+  },
+  "10378": {
+    "id": 10378,
+    "name": "Divine Purpose",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 3,
+    "mana_cost": 6,
+    "artwork": {
+      "artwork_id": 10378
+    },
+    "release_date": "2020-05-25"
+  },
+  "10379": {
+    "id": 10379,
+    "name": "Intimidation",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 1,
+    "mana_cost": 3,
+    "crosslane": true,
+    "artwork": {
+      "artwork_id": 10379
+    },
+    "release_date": "2020-05-25"
+  },
+  "10385": {
+    "id": 10385,
+    "name": "Tresdin's Standards",
+    "type": 7,
+    "type_source": "classic",
+    "set": 1,
+    "mana_cost": 4,
+    "color": "Red",
+    "artwork": {
+      "artwork_id": 10385
+    }
+  },
+  "10391": {
+    "id": 10391,
+    "name": "Compel",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 1,
+    "mana_cost": 2,
+    "artwork": {
+      "artwork_id": 10391
+    },
+    "release_date": "2020-05-25"
+  },
+  "10396": {
+    "id": 10396,
+    "name": "Caught Unprepared",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 2,
+    "mana_cost": 3,
+    "artwork": {
+      "artwork_id": 10396
+    },
+    "release_date": "2020-05-25"
+  },
+  "10402": {
+    "id": 10402,
+    "name": "Tower Barrage",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 1,
+    "mana_cost": 2,
+    "artwork": {
+      "artwork_id": 10402
+    },
+    "release_date": "2020-05-25"
+  },
+  "10403": {
+    "id": 10403,
+    "name": "Steal Strength",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 2,
+    "mana_cost": 3,
+    "artwork": {
+      "artwork_id": 10403
+    },
+    "release_date": "2020-05-25"
+  },
+  "10404": {
+    "id": 10404,
+    "name": "The Cover of Night",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 4,
+    "mana_cost": 5,
+    "crosslane": true,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 10404
+    },
+    "release_date": "2020-05-25"
+  },
+  "10410": {
+    "id": 10410,
+    "name": "Slay",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 1,
+    "mana_cost": 2,
+    "artwork": {
+      "artwork_id": 10410
+    },
+    "release_date": "2020-05-25"
+  },
+  "10411": {
+    "id": 10411,
+    "name": "Cunning Plan",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 2,
+    "mana_cost": 1,
+    "artwork": {
+      "artwork_id": 10411
+    },
+    "release_date": "2020-05-25"
+  },
+  "10412": {
+    "id": 10412,
+    "name": "Thunderstorm",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 1,
+    "mana_cost": 4,
+    "artwork": {
+      "artwork_id": 10412
+    },
+    "release_date": "2020-05-25"
+  },
+  "10417": {
+    "id": 10417,
+    "name": "Spring the Trap",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 3,
+    "mana_cost": 7,
+    "crosslane": true,
+    "artwork": {
+      "artwork_id": 10417
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10082
+    ]
+  },
+  "10418": {
+    "id": 10418,
+    "name": "Ventriloquy",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 1,
+    "mana_cost": 1,
+    "artwork": {
+      "artwork_id": 10418
+    },
+    "release_date": "2020-05-25"
+  },
+  "10419": {
+    "id": 10419,
+    "name": "Viscous Nasal Goo",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 3,
+    "mana_cost": 3,
+    "artwork": {
+      "artwork_id": 10419
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10030
+    ]
+  },
+  "10420": {
+    "id": 10420,
+    "name": "Act of Defiance",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 2,
+    "faction": "Vhoul Rebellion",
+    "mana_cost": 2,
+    "artwork": {
+      "artwork_id": 10420
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10026
+    ]
+  },
+  "10422": {
+    "id": 10422,
+    "name": "Whispers of Madness",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 5,
+    "mana_cost": 2,
+    "artwork": {
+      "artwork_id": 10422
+    },
+    "release_date": "2020-05-25"
+  },
+  "10424": {
+    "id": 10424,
+    "name": "At Any Cost",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 5,
+    "mana_cost": 3,
+    "artwork": {
+      "artwork_id": 10424
+    },
+    "release_date": "2020-05-25",
+    "search_terms": "AAC"
+  },
+  "10425": {
+    "id": 10425,
+    "name": "Time of Triumph",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 2,
+    "mana_cost": 9,
+    "artwork": {
+      "artwork_id": 10425
+    },
+    "release_date": "2020-05-25",
+    "search_terms": "TOT"
+  },
+  "10538": {
+    "id": 10538,
+    "name": "Ball Lightning",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 3,
+    "mana_cost": 2,
+    "crosslane": true,
+    "artwork": {
+      "artwork_id": 10538
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10536
+    ]
+  },
+  "10606": {
+    "id": 10606,
+    "name": "Mimicry",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 3,
+    "mana_cost": 4,
+    "artwork": {
+      "artwork_id": 10606
+    },
+    "release_date": "2020-05-25"
+  },
+  "10607": {
+    "id": 10607,
+    "name": "Flesh of Iron",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 1,
+    "mana_cost": 1,
+    "artwork": {
+      "artwork_id": 10607
+    },
+    "release_date": "2020-05-25"
+  },
+  "10608": {
+    "id": 10608,
+    "name": "Iron Sharpens Iron",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 3,
+    "mana_cost": 3,
+    "artwork": {
+      "artwork_id": 10608
+    },
+    "release_date": "2020-05-25"
+  },
+  "10613": {
+    "id": 10613,
+    "name": "Shifting Loyalties",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 5,
+    "mana_cost": 4,
+    "artwork": {
+      "artwork_id": 10613
+    },
+    "release_date": "2020-05-25"
+  },
+  "10615": {
+    "id": 10615,
+    "name": "Wave of Madness",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 3,
+    "mana_cost": 5,
+    "artwork": {
+      "artwork_id": 10615
+    },
+    "release_date": "2020-05-25"
+  },
+  "10616": {
+    "id": 10616,
+    "name": "Tower Explosion",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 2,
+    "mana_cost": 5,
+    "artwork": {
+      "artwork_id": 10616
+    },
+    "release_date": "2020-05-25"
+  },
+  "10617": {
+    "id": 10617,
+    "name": "Living Armor",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 2,
+    "mana_cost": 3,
+    "crosslane": true,
+    "artwork": {
+      "artwork_id": 10617
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10056
+    ]
+  },
+  "10618": {
+    "id": 10618,
+    "name": "Back For More",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 1,
+    "mana_cost": 5,
+    "artwork": {
+      "artwork_id": 10618
+    },
+    "release_date": "2020-05-25"
+  },
+  "10648": {
+    "id": 10648,
+    "name": "Mana Void",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 1,
+    "mana_cost": 5,
+    "artwork": {
+      "artwork_id": 10648
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10646
+    ]
+  },
+  "10651": {
+    "id": 10651,
+    "name": "Exorcism",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 5,
+    "mana_cost": 8,
+    "artwork": {
+      "artwork_id": 10651
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10649
+    ]
+  },
+  "10654": {
+    "id": 10654,
+    "name": "Hymn of St. Crella",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 3,
+    "mana_cost": 3,
+    "artwork": {
+      "artwork_id": 10654
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10652
+    ]
+  },
+  "10657": {
+    "id": 10657,
+    "name": "Sacred Arrow",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 2,
+    "mana_cost": 3,
+    "crosslane": true,
+    "artwork": {
+      "artwork_id": 10657
+    },
+    "release_date": "2020-04-06",
+    "signature_of": [
+      10655
+    ]
+  },
+  "10670": {
+    "id": 10670,
+    "name": "Spell Steal",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 5,
+    "mana_cost": 1,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 10670
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10668
+    ]
+  },
+  "10673": {
+    "id": 10673,
+    "name": "Presence of the Dark Lord",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 3,
+    "mana_cost": 3,
+    "artwork": {
+      "artwork_id": 10673
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10671
+    ]
+  },
+  "10676": {
+    "id": 10676,
+    "name": "Ice Shards",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 5,
+    "mana_cost": 1,
+    "artwork": {
+      "artwork_id": 10676
+    },
+    "release_date": "2020-05-21",
+    "related_cards": [
+      10677
+    ],
+    "signature_of": [
+      10674
+    ]
+  },
+  "10700": {
+    "id": 10700,
+    "name": "Atrophy Aura",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 4,
+    "mana_cost": 3,
+    "artwork": {
+      "artwork_id": 10700
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10678
+    ]
+  },
+  "10703": {
+    "id": 10703,
+    "name": "Void Theft",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 4,
+    "mana_cost": 3,
+    "artwork": {
+      "artwork_id": 10703
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10735
+    ],
+    "signature_of": [
+      10701
+    ]
+  },
+  "10711": {
+    "id": 10711,
+    "name": "Into the Fray",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 1,
+    "mana_cost": 1,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 10711
+    },
+    "release_date": "2020-05-25"
+  },
+  "10713": {
+    "id": 10713,
+    "name": "Team Fight",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 5,
+    "mana_cost": 6,
+    "crosslane": true,
+    "artwork": {
+      "artwork_id": 10713
+    },
+    "release_date": "2020-05-25"
+  },
+  "10719": {
+    "id": 10719,
+    "name": "Insidious Plot",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 5,
+    "mana_cost": 4,
+    "artwork": {
+      "artwork_id": 10719
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10720
+    ]
+  },
+  "10720": {
+    "id": 10720,
+    "name": "Destroyed from Within",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": false,
+    "hidden_reason": "Uncollectable",
+    "rarity": 2,
+    "mana_cost": 1,
+    "artwork": {
+      "artwork_id": 10720
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10719
+    ]
+  },
+  "10724": {
+    "id": 10724,
+    "name": "Illusion Confusion",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 2,
+    "mana_cost": 3,
+    "artwork": {
+      "artwork_id": 10724
+    },
+    "release_date": "2020-07-09",
+    "related_cards": [
+      10723
+    ],
+    "signature_of": [
+      10721
+    ]
+  },
+  "10757": {
+    "id": 10757,
+    "name": "Astral Imprisonment",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 5,
+    "mana_cost": 2,
+    "artwork": {
+      "artwork_id": 10757
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10755
+    ]
+  },
+  "10765": {
+    "id": 10765,
+    "name": "Unbreakable Column",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 4,
+    "mana_cost": 2,
+    "artwork": {
+      "artwork_id": 10765
+    },
+    "release_date": "2020-05-25"
+  },
+  "10766": {
+    "id": 10766,
+    "name": "Throw Down",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 2,
+    "mana_cost": 2,
+    "artwork": {
+      "artwork_id": 10766
+    },
+    "release_date": "2020-05-25"
+  },
+  "10768": {
+    "id": 10768,
+    "name": "Slash It!",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 1,
+    "mana_cost": 4,
+    "artwork": {
+      "artwork_id": 10768
+    },
+    "release_date": "2020-05-25"
+  },
+  "10770": {
+    "id": 10770,
+    "name": "Spriggan Mischief",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": false,
+    "hidden_reason": "Removed",
+    "color": "Green",
+    "rarity": 4,
+    "mana_cost": 3,
+    "artwork": {
+      "artwork_id": 10770
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10822,
+      10823,
+      10824
+    ]
+  },
+  "10772": {
+    "id": 10772,
+    "name": "Nature's Fury",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 3,
+    "mana_cost": 4,
+    "artwork": {
+      "artwork_id": 10772
+    },
+    "release_date": "2020-05-25"
+  },
+  "10773": {
+    "id": 10773,
+    "name": "Leech Seed",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": false,
+    "hidden_reason": "Removed",
+    "color": "Green",
+    "rarity": 1,
+    "mana_cost": 4,
+    "artwork": {
+      "artwork_id": 10773
+    },
+    "release_date": "2020-05-25"
+  },
+  "10774": {
+    "id": 10774,
+    "name": "Relentless Pursuit",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 3,
+    "mana_cost": 1,
+    "crosslane": true,
+    "artwork": {
+      "artwork_id": 10774
+    },
+    "release_date": "2020-05-25"
+  },
+  "10785": {
+    "id": 10785,
+    "name": "Shadow Walk",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 2,
+    "mana_cost": 2,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 10785
+    },
+    "release_date": "2020-05-21",
+    "signature_of": [
+      10783
+    ]
+  },
+  "10788": {
+    "id": 10788,
+    "name": "Sow Venom",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 2,
+    "mana_cost": 4,
+    "artwork": {
+      "artwork_id": 10788
+    },
+    "release_date": "2020-05-25",
+    "related_cards": [
+      10789
+    ],
+    "signature_of": [
+      10786
+    ]
+  },
+  "10796": {
+    "id": 10796,
+    "name": "Sonic Bubble",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": false,
+    "hidden_reason": "Removed",
+    "color": "Blue",
+    "rarity": 3,
+    "mana_cost": 5,
+    "artwork": {
+      "artwork_id": 10796
+    },
+    "release_date": "2020-05-25"
+  },
+  "10797": {
+    "id": 10797,
+    "name": "Mana Short",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 4,
+    "mana_cost": 4,
+    "artwork": {
+      "artwork_id": 10797
+    },
+    "release_date": "2020-05-25"
+  },
+  "10798": {
+    "id": 10798,
+    "name": "Body Modifications",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": false,
+    "hidden_reason": "Removed",
+    "color": "Blue",
+    "rarity": 3,
+    "mana_cost": 3,
+    "crosslane": true,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 10798
+    },
+    "release_date": "2020-05-25"
+  },
+  "10800": {
+    "id": 10800,
+    "name": "Essence Font",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 1,
+    "mana_cost": 6,
+    "artwork": {
+      "artwork_id": 10800
+    },
+    "release_date": "2020-05-25"
+  },
+  "10801": {
+    "id": 10801,
+    "name": "Killer Instinct",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 3,
+    "mana_cost": 1,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 10801
+    },
+    "release_date": "2020-05-25"
+  },
+  "10803": {
+    "id": 10803,
+    "name": "Greevil Shenanigans",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 4,
+    "mana_cost": 3,
+    "artwork": {
+      "artwork_id": 10803
+    },
+    "release_date": "2020-05-25"
+  },
+  "10804": {
+    "id": 10804,
+    "name": "Knives in the Dark",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 3,
+    "mana_cost": 4,
+    "artwork": {
+      "artwork_id": 10804
+    },
+    "release_date": "2020-05-25"
+  },
+  "10805": {
+    "id": 10805,
+    "name": "Objective Vision",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": false,
+    "hidden_reason": "Removed",
+    "color": "Blue",
+    "rarity": 4,
+    "mana_cost": 3,
+    "artwork": {
+      "artwork_id": 10805
+    },
+    "release_date": "2020-05-25"
+  },
+  "10806": {
+    "id": 10806,
+    "name": "Ramp Bolt",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 4,
+    "mana_cost": 1,
+    "artwork": {
+      "artwork_id": 10806
+    },
+    "release_date": "2020-05-25"
+  },
+  "10813": {
+    "id": 10813,
+    "name": "Light Strike Array",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 2,
+    "mana_cost": 2,
+    "artwork": {
+      "artwork_id": 10813
+    },
+    "release_date": "2020-05-25",
+    "search_terms": "lsa",
+    "signature_of": [
+      10811
+    ]
+  },
+  "10814": {
+    "id": 10814,
+    "name": "Dragon Slave",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 2,
+    "mana_cost": 3,
+    "artwork": {
+      "artwork_id": 10814
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10811
+    ]
+  },
+  "10815": {
+    "id": 10815,
+    "name": "Laguna Blade",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 2,
+    "mana_cost": 4,
+    "artwork": {
+      "artwork_id": 10815
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10811
+    ]
+  },
+  "10818": {
+    "id": 10818,
+    "name": "Death Pulse",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 3,
+    "mana_cost": 2,
+    "artwork": {
+      "artwork_id": 10818
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10059
+    ]
+  },
+  "10821": {
+    "id": 10821,
+    "name": "Life Drain",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 3,
+    "mana_cost": 3,
+    "artwork": {
+      "artwork_id": 10821
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10048
+    ]
+  },
+  "10908": {
+    "id": 10908,
+    "name": "Diabolic Conclusion",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 5,
+    "mana_cost": 1,
+    "artwork": {
+      "artwork_id": 10908
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10906
+    ]
+  },
+  "10938": {
+    "id": 10938,
+    "name": "Sandstorm",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 3,
+    "mana_cost": 3,
+    "artwork": {
+      "artwork_id": 10938
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10937
+    ]
+  },
+  "10942": {
+    "id": 10942,
+    "name": "Toss",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 4,
+    "mana_cost": 4,
+    "crosslane": true,
+    "artwork": {
+      "artwork_id": 10942
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10940
+    ]
+  },
+  "10974": {
+    "id": 10974,
+    "name": "Beyond the Veil",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 5,
+    "mana_cost": 3,
+    "artwork": {
+      "artwork_id": 10974
+    },
+    "release_date": "2020-05-25"
+  },
+  "10975": {
+    "id": 10975,
+    "name": "Gush",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 4,
+    "mana_cost": 3,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 10975
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10024
+    ]
+  },
+  "10993": {
+    "id": 10993,
+    "name": "Wraithfire Blast",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 3,
+    "mana_cost": 4,
+    "artwork": {
+      "artwork_id": 10993
+    },
+    "release_date": "2020-04-06",
+    "signature_of": [
+      10991
+    ]
+  },
+  "11004": {
+    "id": 11004,
+    "name": "Reckless Charge",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 1,
+    "mana_cost": 2,
+    "quick": true,
+    "artwork": {
+      "artwork_id": 11004
+    },
+    "release_date": "2020-04-27",
+    "signature_of": [
+      11003
+    ]
+  },
+  "11007": {
+    "id": 11007,
+    "name": "No Accident",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 1,
+    "mana_cost": 2,
+    "artwork": {
+      "artwork_id": 11007
+    },
+    "release_date": "2020-04-20",
+    "signature_of": [
+      11005
+    ]
+  },
+  "11010": {
+    "id": 11010,
+    "name": "Runic Instigation",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 1,
+    "mana_cost": 2,
+    "artwork": {
+      "artwork_id": 11010
+    },
+    "release_date": "2020-04-27",
+    "signature_of": [
+      11008
+    ]
+  },
+  "11033": {
+    "id": 11033,
+    "name": "Dragon Tail",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 2,
+    "mana_cost": 2,
+    "artwork": {
+      "artwork_id": 11033
+    },
+    "release_date": "2020-05-25",
+    "signature_of": [
+      10982
+    ]
+  },
+  "11034": {
+    "id": 11034,
+    "name": "Creep Reinforcements",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 2,
+    "mana_cost": 2,
+    "artwork": {
+      "artwork_id": 11034
+    },
+    "release_date": "2020-05-25"
+  },
+  "11041": {
+    "id": 11041,
+    "name": "Battle Trance",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 2,
+    "mana_cost": 3,
+    "artwork": {
+      "artwork_id": 11041
+    },
+    "release_date": "2020-09-03",
+    "signature_of": [
+      11039
+    ]
+  },
+  "11058": {
+    "id": 11058,
+    "name": "Spiked Carapace",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 5,
+    "mana_cost": 2,
+    "artwork": {
+      "artwork_id": 11058
+    },
+    "release_date": "2020-06-02",
+    "signature_of": [
+      11056
+    ]
+  },
+  "11074": {
+    "id": 11074,
+    "name": "Mist Coil",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Green",
+    "rarity": 2,
+    "mana_cost": 2,
+    "artwork": {
+      "artwork_id": 11074
+    },
+    "release_date": "2020-09-03",
+    "signature_of": [
+      10016
+    ]
+  },
+  "11075": {
+    "id": 11075,
+    "name": "Prototype Weapon",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": false,
+    "hidden_reason": "Removed",
+    "rarity": 2,
+    "mana_cost": 2,
+    "artwork": {
+      "artwork_id": 11075
+    },
+    "release_date": "2020-09-03",
+    "related_cards": [
+      11076
+    ]
+  },
+  "11077": {
+    "id": 11077,
+    "name": "Mazer Beam X-179",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": false,
+    "hidden_reason": "Removed",
+    "rarity": 2,
+    "mana_cost": 2,
+    "artwork": {
+      "artwork_id": 11077
+    },
+    "release_date": "2020-09-03",
+    "related_cards": [
+      11078
+    ]
+  },
+  "11079": {
+    "id": 11079,
+    "name": "Kineto-Zap Harmor Type XLII",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": false,
+    "hidden_reason": "Removed",
+    "rarity": 2,
+    "mana_cost": 2,
+    "artwork": {
+      "artwork_id": 11079
+    },
+    "release_date": "2020-09-03",
+    "related_cards": [
+      11080
+    ]
+  },
+  "11087": {
+    "id": 11087,
+    "name": "Burning Lesions",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 3,
+    "mana_cost": 2,
+    "artwork": {
+      "artwork_id": 11087
+    },
+    "release_date": "2020-10-01"
+  },
+  "11090": {
+    "id": 11090,
+    "name": "Raid",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 3,
+    "mana_cost": 4,
+    "artwork": {
+      "artwork_id": 11090
+    },
+    "release_date": "2020-10-01"
+  },
+  "11091": {
+    "id": 11091,
+    "name": "Pincer",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Red",
+    "rarity": 3,
+    "mana_cost": 4,
+    "artwork": {
+      "artwork_id": 11091
+    },
+    "release_date": "2020-10-01"
+  },
+  "11097": {
+    "id": 11097,
+    "name": "Corpse Horde",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Blue",
+    "rarity": 3,
+    "mana_cost": 3,
+    "artwork": {
+      "artwork_id": 11097
+    },
+    "release_date": "2020-10-01",
+    "related_cards": [
+      1009
+    ]
+  },
+  "11102": {
+    "id": 11102,
+    "name": "Vhoul Ambush",
+    "type": 7,
+    "type_source": "community",
+    "set": 1,
+    "collectible": true,
+    "color": "Black",
+    "rarity": 3,
+    "faction": "Vhoul Rebellion",
+    "mana_cost": 2,
+    "artwork": {
+      "artwork_id": 11102
+    },
+    "release_date": "2020-12-03",
+    "related_cards": [
+      11103
+    ]
+  }
+}

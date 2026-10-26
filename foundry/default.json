@@ -1,0 +1,91 @@
+{
+  "1000": {
+    "id": 1000,
+    "name": "Ancient Tower",
+    "type": 2,
+    "type_source": "classic",
+    "set": 0,
+    "health": 80,
+    "artwork": {
+      "artwork_id": 1000
+    }
+  },
+  "1001": {
+    "id": 1001,
+    "name": "Defense Tower",
+    "type": 2,
+    "type_source": "classic",
+    "set": 0,
+    "health": 40,
+    "artwork": {
+      "artwork_id": 1000,
+      "alternate_artwork_ids": [
+        1001
+      ]
+    }
+  },
+  "1002": {
+    "id": 1002,
+    "name": "Item Slot",
+    "type": 0,
+    "set": 0
+  },
+  "1003": {
+    "id": 1003,
+    "name": "Empty Slot",
+    "type": 0,
+    "set": 0
+  },
+  "1007": {
+    "id": 1007,
+    "name": "Ancient Rubble",
+    "type": 2,
+    "type_source": "classic",
+    "set": 0,
+    "artwork": {
+      "artwork_id": 1000
+    }
+  },
+  "1010": {
+    "id": 1010,
+    "name": "Putrid Mass",
+    "type": 0,
+    "set": 0
+  },
+  "1011": {
+    "id": 1011,
+    "name": "Random Black Hero",
+    "type": 0,
+    "set": 0
+  },
+  "1012": {
+    "id": 1012,
+    "name": "Random Red Hero",
+    "type": 0,
+    "set": 0
+  },
+  "1013": {
+    "id": 1013,
+    "name": "Random Blue Hero",
+    "type": 0,
+    "set": 0
+  },
+  "1014": {
+    "id": 1014,
+    "name": "Random Green Hero",
+    "type": 0,
+    "set": 0
+  },
+  "1015": {
+    "id": 1015,
+    "name": "Melee Creep Ex",
+    "type": 0,
+    "set": 0
+  },
+  "1016": {
+    "id": 1016,
+    "name": "Ranged Creep",
+    "type": 0,
+    "set": 0
+  }
+}

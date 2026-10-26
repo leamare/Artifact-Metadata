@@ -1,0 +1,867 @@
+{
+  "3006": {
+    "id": 3006,
+    "name": "Old Town Portal Scroll",
+    "type": 0,
+    "set": 0
+  },
+  "3008": {
+    "id": 3008,
+    "name": "Imbued Tower Shard",
+    "type": 0,
+    "set": 0
+  },
+  "6028": {
+    "id": 6028,
+    "name": "Cheat Move",
+    "type": 0,
+    "set": 0
+  },
+  "8000": {
+    "id": 8000,
+    "name": "Artifact",
+    "type": 0,
+    "set": 0
+  },
+  "9000": {
+    "id": 9000,
+    "name": "Disarmed",
+    "type": 0,
+    "set": 0
+  },
+  "9001": {
+    "id": 9001,
+    "name": "Silenced",
+    "type": 0,
+    "set": 0
+  },
+  "9002": {
+    "id": 9002,
+    "name": "Stunned",
+    "type": 0,
+    "set": 0
+  },
+  "9003": {
+    "id": 9003,
+    "name": "Rooted",
+    "type": 0,
+    "set": 0
+  },
+  "9004": {
+    "id": 9004,
+    "name": "Combat Immune",
+    "type": 0,
+    "set": 0
+  },
+  "9005": {
+    "id": 9005,
+    "name": "Damage Immune",
+    "type": 0,
+    "set": 0
+  },
+  "9006": {
+    "id": 9006,
+    "name": "Death Shield",
+    "type": 0,
+    "set": 0
+  },
+  "9007": {
+    "id": 9007,
+    "name": "Trample",
+    "type": 0,
+    "set": 0
+  },
+  "9008": {
+    "id": 9008,
+    "name": "Feeble",
+    "type": 0,
+    "set": 0
+  },
+  "9009": {
+    "id": 9009,
+    "name": "Regeneration",
+    "type": 0,
+    "set": 0
+  },
+  "9010": {
+    "id": 9010,
+    "name": "Decay",
+    "type": 0,
+    "set": 0
+  },
+  "9011": {
+    "id": 9011,
+    "name": "Attack",
+    "type": 0,
+    "set": 0
+  },
+  "9012": {
+    "id": 9012,
+    "name": "Armor",
+    "type": 0,
+    "set": 0
+  },
+  "9013": {
+    "id": 9013,
+    "name": "Health",
+    "type": 0,
+    "set": 0
+  },
+  "9014": {
+    "id": 9014,
+    "name": "Piercing",
+    "type": 0,
+    "set": 0
+  },
+  "9015": {
+    "id": 9015,
+    "name": "Cleave",
+    "type": 0,
+    "set": 0
+  },
+  "9016": {
+    "id": 9016,
+    "name": "Retaliate",
+    "type": 0,
+    "set": 0
+  },
+  "9017": {
+    "id": 9017,
+    "name": "Siege",
+    "type": 0,
+    "set": 0
+  },
+  "9018": {
+    "id": 9018,
+    "name": "False Flag - Bronze Legion",
+    "type": 0,
+    "set": 0
+  },
+  "9019": {
+    "id": 9019,
+    "name": "False Flag - Vhoul Rebellion",
+    "type": 0,
+    "set": 0
+  },
+  "10294": {
+    "id": 10294,
+    "name": "Nethertoxin",
+    "type": 0,
+    "set": 1
+  },
+  "10463": {
+    "id": 10463,
+    "name": "Fractured Timeline",
+    "type": 0,
+    "set": 1
+  },
+  "10621": {
+    "id": 10621,
+    "name": "Knife of the Sisterhood",
+    "type": 0,
+    "set": 1
+  },
+  "10624": {
+    "id": 10624,
+    "name": "Rumusque Scythe",
+    "type": 0,
+    "set": 1
+  },
+  "10634": {
+    "id": 10634,
+    "name": "Robes of the Envoy",
+    "type": 0,
+    "set": 1
+  },
+  "10639": {
+    "id": 10639,
+    "name": "Fell Spirit",
+    "type": 0,
+    "set": 1
+  },
+  "10640": {
+    "id": 10640,
+    "name": "Artificer's Mail",
+    "type": 0,
+    "set": 1
+  },
+  "10644": {
+    "id": 10644,
+    "name": "Robes of the Envoy",
+    "type": 0,
+    "set": 1
+  },
+  "10645": {
+    "id": 10645,
+    "name": "Unstable Elemental",
+    "type": 0,
+    "set": 1
+  },
+  "10660": {
+    "id": 10660,
+    "name": "Archon Investigation",
+    "type": 0,
+    "set": 1
+  },
+  "10667": {
+    "id": 10667,
+    "name": "The Twisted Path",
+    "type": 0,
+    "set": 1
+  },
+  "10710": {
+    "id": 10710,
+    "name": "Enemy Of My Enemy",
+    "type": 0,
+    "set": 1
+  },
+  "10712": {
+    "id": 10712,
+    "name": "Stonehall Armory",
+    "type": 0,
+    "set": 1
+  },
+  "10728": {
+    "id": 10728,
+    "name": "Orchid",
+    "type": 0,
+    "set": 1
+  },
+  "10733": {
+    "id": 10733,
+    "name": "Noxious Bloat-rat",
+    "type": 0,
+    "set": 1
+  },
+  "10737": {
+    "id": 10737,
+    "name": "Cursed Satyr",
+    "type": 0,
+    "set": 1
+  },
+  "10738": {
+    "id": 10738,
+    "name": "Marrowfell Longspear",
+    "type": 0,
+    "set": 1
+  },
+  "10740": {
+    "id": 10740,
+    "name": "Eidolon Placeholder",
+    "type": 0,
+    "set": 1
+  },
+  "10741": {
+    "id": 10741,
+    "name": "Eidolon Placeholder 2",
+    "type": 0,
+    "set": 1
+  },
+  "10762": {
+    "id": 10762,
+    "name": "Sapphire Archivist",
+    "type": 0,
+    "set": 1
+  },
+  "10763": {
+    "id": 10763,
+    "name": "Temple of War",
+    "type": 0,
+    "set": 1
+  },
+  "10764": {
+    "id": 10764,
+    "name": "Battlefield Promotion",
+    "type": 0,
+    "set": 1
+  },
+  "10769": {
+    "id": 10769,
+    "name": "Overpower2",
+    "type": 0,
+    "set": 1
+  },
+  "10771": {
+    "id": 10771,
+    "name": "Lost Woods",
+    "type": 0,
+    "set": 1
+  },
+  "10780": {
+    "id": 10780,
+    "name": "Revtel Signet Ring",
+    "type": 0,
+    "set": 1
+  },
+  "10792": {
+    "id": 10792,
+    "name": "Spot Weakness",
+    "type": 0,
+    "set": 1
+  },
+  "10799": {
+    "id": 10799,
+    "name": "Wild Magic",
+    "type": 0,
+    "set": 1
+  },
+  "10802": {
+    "id": 10802,
+    "name": "Sapper",
+    "type": 0,
+    "set": 1
+  },
+  "10807": {
+    "id": 10807,
+    "name": "Psychic Surgery",
+    "type": 0,
+    "set": 1
+  },
+  "10817": {
+    "id": 10817,
+    "name": "Battle Hunger",
+    "type": 0,
+    "set": 1
+  },
+  "10825": {
+    "id": 10825,
+    "name": "Quoidgic Outreach Coordinator",
+    "type": 0,
+    "set": 1,
+    "abilities": [
+      10826,
+      10827
+    ]
+  },
+  "10828": {
+    "id": 10828,
+    "name": "Merjuun the Gibbering",
+    "type": 0,
+    "set": 1,
+    "abilities": [
+      10868
+    ]
+  },
+  "10829": {
+    "id": 10829,
+    "name": "Living Shadow of Carter St.",
+    "type": 0,
+    "set": 1,
+    "abilities": [
+      10864
+    ]
+  },
+  "10830": {
+    "id": 10830,
+    "name": "Bodega Wraith",
+    "type": 0,
+    "set": 1,
+    "abilities": [
+      10865
+    ]
+  },
+  "10831": {
+    "id": 10831,
+    "name": "Sewer Phantom",
+    "type": 0,
+    "set": 1,
+    "abilities": [
+      10866
+    ]
+  },
+  "10832": {
+    "id": 10832,
+    "name": "Pigeon",
+    "type": 0,
+    "set": 1
+  },
+  "10835": {
+    "id": 10835,
+    "name": "Plague-Ridden Wolf",
+    "type": 0,
+    "set": 1,
+    "abilities": [
+      10836
+    ]
+  },
+  "10837": {
+    "id": 10837,
+    "name": "Gelatinous Vapor",
+    "type": 0,
+    "set": 1,
+    "abilities": [
+      10838
+    ]
+  },
+  "10839": {
+    "id": 10839,
+    "name": "Sentient Pustule",
+    "type": 0,
+    "set": 1,
+    "abilities": [
+      10840
+    ]
+  },
+  "10841": {
+    "id": 10841,
+    "name": "Tortured Soul",
+    "type": 0,
+    "set": 1
+  },
+  "10842": {
+    "id": 10842,
+    "name": "Rix, Legionnaire",
+    "type": 0,
+    "set": 1,
+    "abilities": [
+      10843
+    ]
+  },
+  "10844": {
+    "id": 10844,
+    "name": "Scout Ertun",
+    "type": 0,
+    "set": 1
+  },
+  "10845": {
+    "id": 10845,
+    "name": "Scout Qamis",
+    "type": 0,
+    "set": 1
+  },
+  "10846": {
+    "id": 10846,
+    "name": "Scout Ur Maq",
+    "type": 0,
+    "set": 1
+  },
+  "10852": {
+    "id": 10852,
+    "name": "Marcus",
+    "type": 0,
+    "set": 1,
+    "abilities": [
+      10853,
+      10854
+    ]
+  },
+  "10855": {
+    "id": 10855,
+    "name": "Vhoul Conscript",
+    "type": 0,
+    "set": 1
+  },
+  "10856": {
+    "id": 10856,
+    "name": "Alcur",
+    "type": 0,
+    "set": 1,
+    "abilities": [
+      10857,
+      10858
+    ]
+  },
+  "10859": {
+    "id": 10859,
+    "name": "Null Hero",
+    "type": 0,
+    "set": 1
+  },
+  "10860": {
+    "id": 10860,
+    "name": "Children of Necrophos",
+    "type": 0,
+    "set": 1
+  },
+  "10861": {
+    "id": 10861,
+    "name": "Caustic Insight",
+    "type": 0,
+    "set": 1
+  },
+  "10862": {
+    "id": 10862,
+    "name": "Accumulated Pigeon Rage",
+    "type": 0,
+    "set": 1,
+    "abilities": [
+      10867
+    ]
+  },
+  "10863": {
+    "id": 10863,
+    "name": "Citizen of Quoidge",
+    "type": 0,
+    "set": 1
+  },
+  "10870": {
+    "id": 10870,
+    "name": "Helpful Treant Tourist",
+    "type": 0,
+    "set": 1,
+    "abilities": [
+      10871
+    ]
+  },
+  "10872": {
+    "id": 10872,
+    "name": "Djinni Tourist",
+    "type": 0,
+    "set": 1,
+    "abilities": [
+      10873
+    ]
+  },
+  "10874": {
+    "id": 10874,
+    "name": "Disguised Lady Anshu",
+    "type": 0,
+    "set": 1
+  },
+  "10875": {
+    "id": 10875,
+    "name": "Golem Tourist",
+    "type": 0,
+    "set": 1,
+    "abilities": [
+      10876
+    ]
+  },
+  "10880": {
+    "id": 10880,
+    "name": "Ear of the Dead God",
+    "type": 0,
+    "set": 1
+  },
+  "10881": {
+    "id": 10881,
+    "name": "Hand of the Dead God",
+    "type": 0,
+    "set": 1
+  },
+  "10882": {
+    "id": 10882,
+    "name": "Mouth of the Dead God",
+    "type": 0,
+    "set": 1
+  },
+  "10883": {
+    "id": 10883,
+    "name": "Lukol-Po",
+    "type": 0,
+    "set": 1,
+    "abilities": [
+      10884,
+      10885
+    ]
+  },
+  "10886": {
+    "id": 10886,
+    "name": "Rumusque Consecration Ritual",
+    "type": 0,
+    "set": 1
+  },
+  "10887": {
+    "id": 10887,
+    "name": "Rumusque Consecration Ritual",
+    "type": 0,
+    "set": 1
+  },
+  "10900": {
+    "id": 10900,
+    "name": "Undying",
+    "type": 0,
+    "set": 1,
+    "abilities": [
+      10901
+    ]
+  },
+  "10902": {
+    "id": 10902,
+    "name": "Herald of the Dead God",
+    "type": 0,
+    "set": 1
+  },
+  "10904": {
+    "id": 10904,
+    "name": "Restless Spirit",
+    "type": 0,
+    "set": 1
+  },
+  "10911": {
+    "id": 10911,
+    "name": "Sunken Ikhshid",
+    "type": 0,
+    "set": 1,
+    "abilities": [
+      10912
+    ]
+  },
+  "10913": {
+    "id": 10913,
+    "name": "Merchant Wraith",
+    "type": 0,
+    "set": 1,
+    "abilities": [
+      10914
+    ]
+  },
+  "10915": {
+    "id": 10915,
+    "name": "Shadow Aspirant of Ra'hul",
+    "type": 0,
+    "set": 1,
+    "abilities": [
+      10916
+    ]
+  },
+  "10917": {
+    "id": 10917,
+    "name": "Fae Haunt",
+    "type": 0,
+    "set": 1,
+    "abilities": [
+      10918
+    ]
+  },
+  "10922": {
+    "id": 10922,
+    "name": "Entrail Adder",
+    "type": 0,
+    "set": 1,
+    "abilities": [
+      10923
+    ]
+  },
+  "10924": {
+    "id": 10924,
+    "name": "Ambassador of Quoidge",
+    "type": 0,
+    "set": 1,
+    "abilities": [
+      10925
+    ]
+  },
+  "10926": {
+    "id": 10926,
+    "name": "Handmaiden of the Dead God",
+    "type": 0,
+    "set": 1,
+    "abilities": [
+      10927
+    ]
+  },
+  "10929": {
+    "id": 10929,
+    "name": "Force Staff",
+    "type": 0,
+    "set": 1
+  },
+  "10931": {
+    "id": 10931,
+    "name": "Sheep Stick",
+    "type": 0,
+    "set": 1
+  },
+  "10932": {
+    "id": 10932,
+    "name": "Sheep",
+    "type": 0,
+    "set": 1
+  },
+  "10933": {
+    "id": 10933,
+    "name": "Phalangeal Horror",
+    "type": 0,
+    "set": 1,
+    "abilities": [
+      10934
+    ]
+  },
+  "10971": {
+    "id": 10971,
+    "name": "Stonehall Keep Breaker",
+    "type": 0,
+    "set": 1
+  },
+  "10972": {
+    "id": 10972,
+    "name": "Legion Consul",
+    "type": 0,
+    "set": 1
+  },
+  "10987": {
+    "id": 10987,
+    "name": "Dragon",
+    "type": 0,
+    "set": 1
+  },
+  "10999": {
+    "id": 10999,
+    "name": "Murder Creep",
+    "type": 0,
+    "set": 1
+  },
+  "11024": {
+    "id": 11024,
+    "name": "Silver Edge",
+    "type": 0,
+    "set": 1
+  },
+  "11025": {
+    "id": 11025,
+    "name": "Shield of St. Crella",
+    "type": 0,
+    "set": 1
+  },
+  "11026": {
+    "id": 11026,
+    "name": "Spirit Vessel",
+    "type": 0,
+    "set": 1
+  },
+  "11027": {
+    "id": 11027,
+    "name": "Refresher Orb",
+    "type": 0,
+    "set": 1
+  },
+  "11028": {
+    "id": 11028,
+    "name": "Dagon",
+    "type": 0,
+    "set": 1
+  },
+  "11032": {
+    "id": 11032,
+    "name": "Ghost Scepter",
+    "type": 0,
+    "set": 1
+  },
+  "11037": {
+    "id": 11037,
+    "name": "Rod of Atos",
+    "type": 0,
+    "set": 1
+  },
+  "11038": {
+    "id": 11038,
+    "name": "Rod of Atos",
+    "type": 0,
+    "set": 1
+  },
+  "11053": {
+    "id": 11053,
+    "name": "Nullifier",
+    "type": 0,
+    "set": 1
+  },
+  "11070": {
+    "id": 11070,
+    "name": "Werewolf",
+    "type": 0,
+    "set": 1
+  },
+  "11081": {
+    "id": 11081,
+    "name": "Sproink Springers Mk.23",
+    "type": 0,
+    "set": 1
+  },
+  "11082": {
+    "id": 11082,
+    "name": "Sproink Springers Mk.23",
+    "type": 0,
+    "set": 1
+  },
+  "11083": {
+    "id": 11083,
+    "name": "Kineto-Zap Harmor Type XLII",
+    "type": 0,
+    "set": 1
+  },
+  "14000": {
+    "id": 14000,
+    "name": "Mogul Khan",
+    "type": 0,
+    "set": 1
+  },
+  "14001": {
+    "id": 14001,
+    "name": "Crystal Maiden",
+    "type": 0,
+    "set": 1
+  },
+  "14002": {
+    "id": 14002,
+    "name": "Direct Damage",
+    "type": 0,
+    "set": 1
+  },
+  "14003": {
+    "id": 14003,
+    "name": "Dagger",
+    "type": 0,
+    "set": 1
+  },
+  "14004": {
+    "id": 14004,
+    "name": "Blooming Wall",
+    "type": 0,
+    "set": 1
+  },
+  "14005": {
+    "id": 14005,
+    "name": "Emboldening Presence",
+    "type": 0,
+    "set": 1
+  },
+  "14006": {
+    "id": 14006,
+    "name": "Farvhan the Dreamer",
+    "type": 0,
+    "set": 1
+  },
+  "14007": {
+    "id": 14007,
+    "name": "Tiny",
+    "type": 0,
+    "set": 1
+  },
+  "14008": {
+    "id": 14008,
+    "name": "Tusk",
+    "type": 0,
+    "set": 1
+  },
+  "14009": {
+    "id": 14009,
+    "name": "Skywrath Mage",
+    "type": 0,
+    "set": 1
+  },
+  "14010": {
+    "id": 14010,
+    "name": "Push",
+    "type": 0,
+    "set": 1
+  },
+  "14011": {
+    "id": 14011,
+    "name": "Mogul Khan",
+    "type": 0,
+    "set": 1
+  },
+  "14012": {
+    "id": 14012,
+    "name": "Fire Strike",
+    "type": 0,
+    "set": 1
+  },
+  "18001": {
+    "id": 18001,
+    "name": "Harmony in Chaos",
+    "type": 0,
+    "set": 1
+  }
+}

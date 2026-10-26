@@ -1,0 +1,2136 @@
+{
+  "10179": {
+    "id": 10179,
+    "name": "Gear Head",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 10179
+    },
+    "release_date": "2020-09-03",
+    "ability_of": [
+      10052
+    ]
+  },
+  "10290": {
+    "id": 10290,
+    "community_id": 210055,
+    "name": "Kraken Shell",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 1,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 10290
+    },
+    "release_date": "2020-05-25",
+    "is_passive": true
+  },
+  "10429": {
+    "id": 10429,
+    "community_id": 210077,
+    "name": "Poof",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 2,
+    "ability_cost": 1,
+    "artwork": {
+      "artwork_id": 10429
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10004
+    ]
+  },
+  "10430": {
+    "id": 10430,
+    "community_id": 210068,
+    "name": "Arctic Burn",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 2,
+    "ability_cost": 1,
+    "artwork": {
+      "artwork_id": 10430
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10010
+    ]
+  },
+  "10431": {
+    "id": 10431,
+    "name": "Borrowed Time",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 2,
+    "ability_cost": 1,
+    "artwork": {
+      "artwork_id": 10431
+    },
+    "release_date": "2020-09-03",
+    "ability_of": [
+      10016
+    ]
+  },
+  "10432": {
+    "id": 10432,
+    "community_id": 210078,
+    "name": "Holy Persuasion",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 3,
+    "ability_cost": 1,
+    "artwork": {
+      "artwork_id": 10432
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10017
+    ]
+  },
+  "10434": {
+    "id": 10434,
+    "community_id": 210056,
+    "name": "Ravage",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 4,
+    "ability_cost": 1,
+    "artwork": {
+      "artwork_id": 10434
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10024
+    ]
+  },
+  "10435": {
+    "id": 10435,
+    "community_id": 210067,
+    "name": "Laser",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 3,
+    "ability_cost": 1,
+    "artwork": {
+      "artwork_id": 10435
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10025
+    ]
+  },
+  "10437": {
+    "id": 10437,
+    "community_id": 210039,
+    "name": "Call of the Wild",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 2,
+    "ability_cost": 1,
+    "artwork": {
+      "artwork_id": 10437
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10029
+    ]
+  },
+  "10438": {
+    "id": 10438,
+    "community_id": 210071,
+    "name": "Fissure",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 3,
+    "ability_cost": 1,
+    "artwork": {
+      "artwork_id": 10438
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10033
+    ]
+  },
+  "10440": {
+    "id": 10440,
+    "community_id": 210060,
+    "name": "Sacrifice",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 2,
+    "ability_cost": 1,
+    "artwork": {
+      "artwork_id": 10440
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10038
+    ]
+  },
+  "10443": {
+    "id": 10443,
+    "community_id": 210043,
+    "name": "Purification",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 2,
+    "ability_cost": 1,
+    "artwork": {
+      "artwork_id": 10443
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10044
+    ]
+  },
+  "10444": {
+    "id": 10444,
+    "name": "Nether Blast",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 10444
+    },
+    "release_date": "2020-08-21",
+    "ability_of": [
+      10048
+    ]
+  },
+  "10446": {
+    "id": 10446,
+    "community_id": 210031,
+    "name": "Headshot",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 3,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 10446
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10050
+    ]
+  },
+  "10451": {
+    "id": 10451,
+    "community_id": 210030,
+    "name": "Concussive Shot",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 2,
+    "ability_cost": 1,
+    "artwork": {
+      "artwork_id": 10451
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10062
+    ]
+  },
+  "10452": {
+    "id": 10452,
+    "community_id": 210022,
+    "name": "Vacuum",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 10452
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10068
+    ]
+  },
+  "10454": {
+    "id": 10454,
+    "name": "Sister of the Void",
+    "type": 8,
+    "type_source": "classic",
+    "set": 1,
+    "artwork": {
+      "artwork_id": 10077
+    }
+  },
+  "10455": {
+    "id": 10455,
+    "name": "Rebel Decoy",
+    "type": 8,
+    "type_source": "classic",
+    "set": 1,
+    "artwork": {
+      "artwork_id": 10080
+    }
+  },
+  "10456": {
+    "id": 10456,
+    "name": "Mercenary Exiles",
+    "type": 8,
+    "type_source": "classic",
+    "set": 1,
+    "artwork": {
+      "artwork_id": 10094
+    }
+  },
+  "10457": {
+    "id": 10457,
+    "name": "Emissary of the Quorum",
+    "type": 8,
+    "type_source": "classic",
+    "set": 1,
+    "artwork": {
+      "artwork_id": 10096
+    }
+  },
+  "10459": {
+    "id": 10459,
+    "name": "Ravenous Mass",
+    "type": 8,
+    "type_source": "classic",
+    "set": 1,
+    "artwork": {
+      "artwork_id": 10116
+    }
+  },
+  "10465": {
+    "id": 10465,
+    "name": "Escape Route",
+    "type": 8,
+    "type_source": "classic",
+    "set": 1,
+    "artwork": {
+      "artwork_id": 10176
+    }
+  },
+  "10466": {
+    "id": 10466,
+    "name": "Messenger Rookery",
+    "type": 8,
+    "type_source": "classic",
+    "set": 1,
+    "artwork": {
+      "artwork_id": 10180
+    }
+  },
+  "10467": {
+    "id": 10467,
+    "name": "Keenfolk Turret",
+    "type": 8,
+    "type_source": "classic",
+    "set": 1,
+    "artwork": {
+      "artwork_id": 10184
+    }
+  },
+  "10468": {
+    "id": 10468,
+    "name": "Steam Cannon",
+    "type": 8,
+    "type_source": "classic",
+    "set": 1,
+    "crosslane": true,
+    "artwork": {
+      "artwork_id": 10185
+    }
+  },
+  "10469": {
+    "id": 10469,
+    "name": "Assassin's Veil",
+    "type": 8,
+    "type_source": "classic",
+    "set": 1,
+    "artwork": {
+      "artwork_id": 10202
+    }
+  },
+  "10470": {
+    "id": 10470,
+    "name": "Phase Boots",
+    "type": 8,
+    "type_source": "classic",
+    "set": 1,
+    "artwork": {
+      "artwork_id": 10203
+    }
+  },
+  "10471": {
+    "id": 10471,
+    "name": "Blink Dagger",
+    "type": 8,
+    "type_source": "classic",
+    "set": 1,
+    "crosslane": true,
+    "artwork": {
+      "artwork_id": 10206
+    }
+  },
+  "10474": {
+    "id": 10474,
+    "name": "Keenfolk Musket",
+    "type": 8,
+    "type_source": "classic",
+    "set": 1,
+    "artwork": {
+      "artwork_id": 10218
+    }
+  },
+  "10476": {
+    "id": 10476,
+    "name": "Bracers of Sacrifice",
+    "type": 8,
+    "type_source": "classic",
+    "set": 1,
+    "artwork": {
+      "artwork_id": 10222
+    }
+  },
+  "10477": {
+    "id": 10477,
+    "name": "Helm of the Dominator",
+    "type": 8,
+    "type_source": "classic",
+    "set": 1,
+    "artwork": {
+      "artwork_id": 10224
+    }
+  },
+  "10483": {
+    "id": 10483,
+    "name": "Horn of the Alpha",
+    "type": 8,
+    "type_source": "classic",
+    "set": 1,
+    "artwork": {
+      "artwork_id": 10260
+    }
+  },
+  "10484": {
+    "id": 10484,
+    "name": "Nyctasha's Guard",
+    "type": 8,
+    "type_source": "classic",
+    "set": 1,
+    "artwork": {
+      "artwork_id": 10262
+    }
+  },
+  "10489": {
+    "id": 10489,
+    "community_id": 210023,
+    "name": "Lucent Beam",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 10489
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10006
+    ],
+    "is_passive": true
+  },
+  "10490": {
+    "id": 10490,
+    "community_id": 210076,
+    "name": "United We Fall",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 10490
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10004
+    ]
+  },
+  "10494": {
+    "id": 10494,
+    "community_id": 210034,
+    "name": "Feral Impulse",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 10494
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10014
+    ]
+  },
+  "10496": {
+    "id": 10496,
+    "community_id": 210029,
+    "name": "Thirst",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 10496
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10018
+    ]
+  },
+  "10497": {
+    "id": 10497,
+    "community_id": 210041,
+    "name": "Stampede",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 3,
+    "ability_cost": 1,
+    "artwork": {
+      "artwork_id": 10497
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10021
+    ]
+  },
+  "10498": {
+    "id": 10498,
+    "community_id": 210008,
+    "name": "Timber Chain",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 10498
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10022
+    ]
+  },
+  "10500": {
+    "id": 10500,
+    "community_id": 210035,
+    "name": "Relentless Rebel",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 10500
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10026
+    ]
+  },
+  "10502": {
+    "id": 10502,
+    "community_id": 210004,
+    "name": "Bristleback",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 210003
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10030
+    ]
+  },
+  "10504": {
+    "id": 10504,
+    "community_id": 210028,
+    "name": "Precision Aura",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 10504
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10032
+    ]
+  },
+  "10506": {
+    "id": 10506,
+    "community_id": 210038,
+    "name": "Untouchable",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 10506
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10036
+    ],
+    "is_passive": true
+  },
+  "10509": {
+    "id": 10509,
+    "community_id": 210016,
+    "name": "Multicast",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 2,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 10509
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10043
+    ]
+  },
+  "10512": {
+    "id": 10512,
+    "community_id": 210020,
+    "name": "Efficient Killer",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 10512
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10047
+    ]
+  },
+  "10513": {
+    "id": 10513,
+    "community_id": 210026,
+    "name": "Great Cleave",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 10513
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10054
+    ]
+  },
+  "10514": {
+    "id": 10514,
+    "community_id": 210006,
+    "name": "Branches of Iron",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 10514
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10056
+    ]
+  },
+  "10516": {
+    "id": 10516,
+    "community_id": 210065,
+    "name": "Warmonger",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 10516
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10058
+    ]
+  },
+  "10517": {
+    "id": 10517,
+    "community_id": 210061,
+    "name": "Sadist",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 10517
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10059
+    ],
+    "is_passive": true
+  },
+  "10518": {
+    "id": 10518,
+    "community_id": 210027,
+    "name": "Arcane Aura",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 10518
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10064
+    ]
+  },
+  "10519": {
+    "id": 10519,
+    "community_id": 210054,
+    "name": "Static Field",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 10519
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10065
+    ],
+    "is_passive": true
+  },
+  "10520": {
+    "id": 10520,
+    "community_id": 210032,
+    "name": "Moment of Courage",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 10520
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10069
+    ],
+    "is_passive": true
+  },
+  "10521": {
+    "id": 10521,
+    "community_id": 210051,
+    "name": "Fury Swipes",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 10521
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10070
+    ],
+    "is_passive": true
+  },
+  "10523": {
+    "id": 10523,
+    "community_id": 210014,
+    "name": "Gather the Faithful",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 10523
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10053
+    ]
+  },
+  "10524": {
+    "id": 10524,
+    "name": "Ravenhook",
+    "type": 8,
+    "type_source": "classic",
+    "set": 1,
+    "artwork": {
+      "artwork_id": 10115
+    }
+  },
+  "10537": {
+    "id": 10537,
+    "community_id": 210066,
+    "name": "Static Remnant",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 10537
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10536
+    ],
+    "is_passive": true
+  },
+  "10539": {
+    "id": 10539,
+    "name": "Cheating Death",
+    "type": 8,
+    "type_source": "classic",
+    "set": 1,
+    "artwork": {
+      "artwork_id": 10181
+    }
+  },
+  "10541": {
+    "id": 10541,
+    "name": "Apotheosis Blade",
+    "type": 8,
+    "type_source": "classic",
+    "set": 1,
+    "artwork": {
+      "artwork_id": 10263
+    }
+  },
+  "10542": {
+    "id": 10542,
+    "name": "Satyr Magician",
+    "type": 8,
+    "type_source": "classic",
+    "set": 1,
+    "artwork": {
+      "artwork_id": 10137
+    }
+  },
+  "10543": {
+    "id": 10543,
+    "name": "Assassin's Apprentice",
+    "type": 8,
+    "type_source": "classic",
+    "set": 1,
+    "artwork": {
+      "artwork_id": 10129
+    }
+  },
+  "10545": {
+    "id": 10545,
+    "name": "Moonglade Fusilier",
+    "type": 8,
+    "type_source": "inferred",
+    "set": 1
+  },
+  "10647": {
+    "id": 10647,
+    "community_id": 210024,
+    "name": "Blink Strike",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 3,
+    "ability_cost": 1,
+    "artwork": {
+      "artwork_id": 10647
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10646
+    ]
+  },
+  "10650": {
+    "id": 10650,
+    "community_id": 210059,
+    "name": "Spirit Siphon",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 10650
+    },
+    "release_date": "2020-05-21",
+    "ability_of": [
+      10649
+    ],
+    "is_passive": true
+  },
+  "10653": {
+    "id": 10653,
+    "community_id": 210082,
+    "name": "Devoted Disciple",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 2,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 10653
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10652
+    ]
+  },
+  "10656": {
+    "id": 10656,
+    "community_id": 210001,
+    "name": "Leap",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 3,
+    "ability_cost": 1,
+    "artwork": {
+      "artwork_id": 10656
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10655
+    ]
+  },
+  "10659": {
+    "id": 10659,
+    "community_id": 210044,
+    "name": "Inspect",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 2,
+    "ability_cost": 1,
+    "artwork": {
+      "artwork_id": 10659
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10658
+    ]
+  },
+  "10664": {
+    "id": 10664,
+    "community_id": 210047,
+    "name": "Assault",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 2,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 10664
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10663
+    ]
+  },
+  "10665": {
+    "id": 10665,
+    "community_id": 210046,
+    "name": "Oathed",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 10665
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10663
+    ]
+  },
+  "10669": {
+    "id": 10669,
+    "community_id": 210048,
+    "name": "Telekinesis",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 3,
+    "ability_cost": 1,
+    "artwork": {
+      "artwork_id": 10669
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10668
+    ]
+  },
+  "10672": {
+    "id": 10672,
+    "community_id": 210063,
+    "name": "Requiem of Souls",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 2,
+    "ability_cost": 1,
+    "artwork": {
+      "artwork_id": 10672
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10671
+    ]
+  },
+  "10675": {
+    "id": 10675,
+    "community_id": 210058,
+    "name": "Walrus Punch",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 3,
+    "ability_cost": 1,
+    "artwork": {
+      "artwork_id": 10675
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10674
+    ]
+  },
+  "10679": {
+    "id": 10679,
+    "community_id": 210050,
+    "name": "Dark Rift",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 3,
+    "ability_cost": 1,
+    "artwork": {
+      "artwork_id": 10679
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10678
+    ]
+  },
+  "10702": {
+    "id": 10702,
+    "community_id": 210052,
+    "name": "Versatile Occultist",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 2,
+    "ability_cost": 1,
+    "artwork": {
+      "artwork_id": 10702
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10701
+    ]
+  },
+  "10705": {
+    "id": 10705,
+    "community_id": 210079,
+    "name": "Shadow Wave",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 2,
+    "ability_cost": 1,
+    "artwork": {
+      "artwork_id": 10705
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10704
+    ]
+  },
+  "10718": {
+    "id": 10718,
+    "name": "Horde Stryder",
+    "type": 8,
+    "type_source": "inferred",
+    "set": 1
+  },
+  "10722": {
+    "id": 10722,
+    "community_id": 210019,
+    "name": "Juxtapose",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 10722
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10721
+    ],
+    "is_passive": true
+  },
+  "10731": {
+    "id": 10731,
+    "community_id": 210072,
+    "name": "Skullduggery",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 2,
+    "ability_cost": 1,
+    "artwork": {
+      "artwork_id": 10731
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10730
+    ]
+  },
+  "10756": {
+    "id": 10756,
+    "community_id": 210042,
+    "name": "Arcane Flux",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 10756
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10755
+    ],
+    "is_passive": true
+  },
+  "10760": {
+    "id": 10760,
+    "name": "Arclight Elemental",
+    "type": 8,
+    "type_source": "inferred",
+    "set": 1
+  },
+  "10784": {
+    "id": 10784,
+    "community_id": 210018,
+    "name": "Track",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 210017
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10783
+    ]
+  },
+  "10787": {
+    "id": 10787,
+    "community_id": 210053,
+    "name": "Venomous Nature",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 10787
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10786
+    ],
+    "is_passive": true
+  },
+  "10812": {
+    "id": 10812,
+    "community_id": 210075,
+    "name": "Fiery Soul",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 10812
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10811
+    ],
+    "is_passive": true
+  },
+  "10816": {
+    "id": 10816,
+    "community_id": 210015,
+    "name": "Berserker's Call",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 2,
+    "ability_cost": 1,
+    "artwork": {
+      "artwork_id": 10816
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10020
+    ]
+  },
+  "10819": {
+    "id": 10819,
+    "community_id": 210064,
+    "name": "Necromastery",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 10819
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10671
+    ]
+  },
+  "10826": {
+    "id": 10826,
+    "name": "Let's Keep Moving",
+    "type": 8,
+    "type_source": "inferred",
+    "set": 1,
+    "ability_of": [
+      10825
+    ],
+    "is_passive": true
+  },
+  "10827": {
+    "id": 10827,
+    "name": "Quoidgic Hospitality",
+    "type": 8,
+    "type_source": "inferred",
+    "set": 1,
+    "ability_of": [
+      10825
+    ],
+    "is_passive": true
+  },
+  "10836": {
+    "id": 10836,
+    "name": "Infectious Bite",
+    "type": 8,
+    "type_source": "inferred",
+    "set": 1,
+    "ability_of": [
+      10835
+    ]
+  },
+  "10838": {
+    "id": 10838,
+    "name": "Pneumonic Spray",
+    "type": 8,
+    "type_source": "inferred",
+    "set": 1,
+    "ability_of": [
+      10837
+    ],
+    "is_passive": true
+  },
+  "10840": {
+    "id": 10840,
+    "name": "Burst",
+    "type": 8,
+    "type_source": "inferred",
+    "set": 1,
+    "ability_of": [
+      10839
+    ]
+  },
+  "10843": {
+    "id": 10843,
+    "name": "Kinetic Diplomacy",
+    "type": 8,
+    "type_source": "inferred",
+    "set": 1,
+    "ability_of": [
+      10842
+    ]
+  },
+  "10853": {
+    "id": 10853,
+    "name": "Out of Earshot",
+    "type": 8,
+    "type_source": "inferred",
+    "set": 1,
+    "ability_of": [
+      10852
+    ],
+    "is_passive": true
+  },
+  "10854": {
+    "id": 10854,
+    "name": "Behold my Glory",
+    "type": 8,
+    "type_source": "inferred",
+    "set": 1,
+    "ability_of": [
+      10852
+    ]
+  },
+  "10857": {
+    "id": 10857,
+    "name": "Meet the Moment",
+    "type": 8,
+    "type_source": "inferred",
+    "set": 1,
+    "ability_of": [
+      10856
+    ],
+    "is_passive": true
+  },
+  "10858": {
+    "id": 10858,
+    "name": "Fight For Roseleaf",
+    "type": 8,
+    "type_source": "inferred",
+    "set": 1,
+    "ability_of": [
+      10856
+    ]
+  },
+  "10864": {
+    "id": 10864,
+    "name": "Infectious Blight",
+    "type": 8,
+    "type_source": "inferred",
+    "set": 1,
+    "ability_of": [
+      10829
+    ]
+  },
+  "10865": {
+    "id": 10865,
+    "name": "You Are The Product",
+    "type": 8,
+    "type_source": "inferred",
+    "set": 1,
+    "ability_of": [
+      10830
+    ]
+  },
+  "10866": {
+    "id": 10866,
+    "name": "Sewer Phantom Power",
+    "type": 8,
+    "type_source": "inferred",
+    "set": 1,
+    "ability_of": [
+      10831
+    ]
+  },
+  "10867": {
+    "id": 10867,
+    "name": "Pigeon Rage Power",
+    "type": 8,
+    "type_source": "inferred",
+    "set": 1,
+    "ability_of": [
+      10862
+    ]
+  },
+  "10868": {
+    "id": 10868,
+    "name": "Marrow Rust",
+    "type": 8,
+    "type_source": "inferred",
+    "set": 1,
+    "ability_of": [
+      10828
+    ]
+  },
+  "10871": {
+    "id": 10871,
+    "name": "Calming Vines",
+    "type": 8,
+    "type_source": "inferred",
+    "set": 1,
+    "ability_of": [
+      10870
+    ]
+  },
+  "10873": {
+    "id": 10873,
+    "name": "Djinni Power",
+    "type": 8,
+    "type_source": "inferred",
+    "set": 1,
+    "ability_of": [
+      10872
+    ]
+  },
+  "10876": {
+    "id": 10876,
+    "name": "Golem Power",
+    "type": 8,
+    "type_source": "inferred",
+    "set": 1,
+    "ability_of": [
+      10875
+    ]
+  },
+  "10884": {
+    "id": 10884,
+    "name": "Cutting Boast",
+    "type": 8,
+    "type_source": "inferred",
+    "set": 1,
+    "ability_of": [
+      10883
+    ]
+  },
+  "10885": {
+    "id": 10885,
+    "name": "Sly Riposte",
+    "type": 8,
+    "type_source": "inferred",
+    "set": 1,
+    "ability_of": [
+      10883
+    ],
+    "is_passive": true
+  },
+  "10901": {
+    "id": 10901,
+    "name": "Soul Rip",
+    "type": 8,
+    "type_source": "inferred",
+    "set": 1,
+    "ability_of": [
+      10900
+    ]
+  },
+  "10905": {
+    "id": 10905,
+    "name": "Spirit Strike",
+    "type": 8,
+    "type_source": "inferred",
+    "set": 1
+  },
+  "10907": {
+    "id": 10907,
+    "community_id": 210073,
+    "name": "Bringer of Conquest",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 10907
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10906
+    ]
+  },
+  "10910": {
+    "id": 10910,
+    "community_id": 210074,
+    "name": "Prey on the Weak",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 10910
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10906
+    ],
+    "is_passive": true
+  },
+  "10912": {
+    "id": 10912,
+    "name": "Fell Edict",
+    "type": 8,
+    "type_source": "inferred",
+    "set": 1,
+    "ability_of": [
+      10911
+    ]
+  },
+  "10914": {
+    "id": 10914,
+    "name": "Wretched Coffers",
+    "type": 8,
+    "type_source": "inferred",
+    "set": 1,
+    "ability_of": [
+      10913
+    ]
+  },
+  "10916": {
+    "id": 10916,
+    "name": "Seal of Binding",
+    "type": 8,
+    "type_source": "inferred",
+    "set": 1,
+    "ability_of": [
+      10915
+    ]
+  },
+  "10918": {
+    "id": 10918,
+    "name": "Malignant Notion",
+    "type": 8,
+    "type_source": "inferred",
+    "set": 1,
+    "ability_of": [
+      10917
+    ]
+  },
+  "10919": {
+    "id": 10919,
+    "name": "Elder Mass",
+    "type": 8,
+    "type_source": "inferred",
+    "set": 1,
+    "abilities": [
+      10920,
+      10921
+    ]
+  },
+  "10920": {
+    "id": 10920,
+    "name": "Informed Consumption",
+    "type": 8,
+    "type_source": "inferred",
+    "set": 1,
+    "ability_of": [
+      10919
+    ]
+  },
+  "10921": {
+    "id": 10921,
+    "name": "Unspeakable Seepage",
+    "type": 8,
+    "type_source": "inferred",
+    "set": 1,
+    "ability_of": [
+      10919
+    ],
+    "is_passive": true
+  },
+  "10923": {
+    "id": 10923,
+    "name": "Vile Embrace",
+    "type": 8,
+    "type_source": "inferred",
+    "set": 1,
+    "ability_of": [
+      10922
+    ]
+  },
+  "10925": {
+    "id": 10925,
+    "name": "Message of Peace",
+    "type": 8,
+    "type_source": "inferred",
+    "set": 1,
+    "ability_of": [
+      10924
+    ],
+    "is_passive": true
+  },
+  "10927": {
+    "id": 10927,
+    "name": "Unclean Blessing",
+    "type": 8,
+    "type_source": "inferred",
+    "set": 1,
+    "ability_of": [
+      10926
+    ]
+  },
+  "10934": {
+    "id": 10934,
+    "name": "Boneshard Weapons",
+    "type": 8,
+    "type_source": "inferred",
+    "set": 1,
+    "ability_of": [
+      10933
+    ]
+  },
+  "10939": {
+    "id": 10939,
+    "community_id": 210049,
+    "name": "Burrowstrike",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 3,
+    "ability_cost": 1,
+    "artwork": {
+      "artwork_id": 10939
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10937
+    ]
+  },
+  "10941": {
+    "id": 10941,
+    "community_id": 210057,
+    "name": "Grow",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 3,
+    "ability_cost": 1,
+    "artwork": {
+      "artwork_id": 10941
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10940
+    ]
+  },
+  "10981": {
+    "id": 10981,
+    "community_id": 210070,
+    "name": "Aftershock",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 10981
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10033
+    ],
+    "is_passive": true
+  },
+  "10983": {
+    "id": 10983,
+    "community_id": 210081,
+    "name": "Dragon Blood",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 10983
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10982
+    ]
+  },
+  "10984": {
+    "id": 10984,
+    "community_id": 210080,
+    "name": "Dragon Form",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 3,
+    "ability_cost": 1,
+    "artwork": {
+      "artwork_id": 10984
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10982
+    ]
+  },
+  "10992": {
+    "id": 10992,
+    "name": "Reincarnation",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 10992
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10991
+    ]
+  },
+  "11001": {
+    "id": 11001,
+    "community_id": 210012,
+    "name": "Strength in Numbers",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 11001
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      11000
+    ]
+  },
+  "11006": {
+    "id": 11006,
+    "community_id": 210010,
+    "name": "Scrapper",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 210009
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      11005
+    ]
+  },
+  "11009": {
+    "id": 11009,
+    "community_id": 210013,
+    "name": "Wisdom of the Elders",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 2,
+    "ability_cost": 1,
+    "artwork": {
+      "artwork_id": 11009
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      11008
+    ]
+  },
+  "11011": {
+    "id": 11011,
+    "community_id": 210011,
+    "name": "Stop Hittin' Yourself",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 11011
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      11003
+    ]
+  },
+  "11012": {
+    "id": 11012,
+    "community_id": 210005,
+    "name": "Quill Spray",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 3,
+    "ability_cost": 1,
+    "artwork": {
+      "artwork_id": 11012
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10030
+    ]
+  },
+  "11035": {
+    "id": 11035,
+    "community_id": 210025,
+    "name": "Mana Break",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 11035
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10646
+    ]
+  },
+  "11036": {
+    "id": 11036,
+    "name": "Poison Attack",
+    "type": 8,
+    "type_source": "inferred",
+    "set": 1,
+    "ability_of": [
+      10028
+    ],
+    "is_passive": true
+  },
+  "11040": {
+    "id": 11040,
+    "name": "Fervor",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 11040
+    },
+    "release_date": "2020-09-03",
+    "ability_of": [
+      11039
+    ]
+  },
+  "11042": {
+    "id": 11042,
+    "community_id": 210062,
+    "name": "Reaper's Scythe",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 2,
+    "ability_cost": 1,
+    "artwork": {
+      "artwork_id": 11042
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10059
+    ]
+  },
+  "11047": {
+    "id": 11047,
+    "community_id": 210069,
+    "name": "Tempest Double",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 3,
+    "ability_cost": 1,
+    "artwork": {
+      "artwork_id": 11047
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      11046
+    ]
+  },
+  "11048": {
+    "id": 11048,
+    "name": "The Double",
+    "type": 8,
+    "type_source": "inferred",
+    "set": 1
+  },
+  "11050": {
+    "id": 11050,
+    "community_id": 210037,
+    "name": "Phantom Rush",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 11050
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10721
+    ]
+  },
+  "11051": {
+    "id": 11051,
+    "community_id": 210083,
+    "name": "Inner Beast",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 11051
+    },
+    "release_date": "2020-05-25",
+    "ability_of": [
+      10029
+    ]
+  },
+  "11057": {
+    "id": 11057,
+    "community_id": 210084,
+    "name": "Vendetta",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 3,
+    "ability_cost": 1,
+    "artwork": {
+      "artwork_id": 11057
+    },
+    "release_date": "2020-06-02",
+    "ability_of": [
+      11056
+    ]
+  },
+  "11061": {
+    "id": 11061,
+    "name": "Expose the Truth",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 11061
+    },
+    "release_date": "2020-06-22",
+    "ability_of": [
+      10658
+    ]
+  },
+  "11062": {
+    "id": 11062,
+    "name": "Overcharged Artificer",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 11062
+    },
+    "release_date": "2020-06-22",
+    "ability_of": [
+      10701
+    ]
+  },
+  "11063": {
+    "id": 11063,
+    "name": "Great Fortitude",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 11063
+    },
+    "release_date": "2020-07-09",
+    "ability_of": [
+      10021
+    ]
+  },
+  "11064": {
+    "id": 11064,
+    "name": "Plans Within Plans",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 11064
+    },
+    "release_date": "2020-07-16",
+    "ability_of": [
+      10730
+    ]
+  },
+  "11065": {
+    "id": 11065,
+    "name": "Anchor Smash",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 1,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 11065
+    },
+    "release_date": "2020-07-16",
+    "ability_of": [
+      10024
+    ]
+  },
+  "11067": {
+    "id": 11067,
+    "name": "Poison Sting",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 11067
+    },
+    "release_date": "2020-07-31",
+    "ability_of": [
+      10786
+    ],
+    "is_passive": true
+  },
+  "11068": {
+    "id": 11068,
+    "name": "Overload",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 11068
+    },
+    "release_date": "2020-08-21",
+    "ability_of": [
+      10536
+    ]
+  },
+  "11069": {
+    "id": 11069,
+    "name": "Pack Leadership",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 11069
+    },
+    "release_date": "2020-08-21",
+    "ability_of": [
+      10014
+    ]
+  },
+  "11072": {
+    "id": 11072,
+    "name": "Divine Favor",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 11072
+    },
+    "release_date": "2020-08-21",
+    "ability_of": [
+      10017
+    ]
+  },
+  "11084": {
+    "id": 11084,
+    "name": "Whirling Axes",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 0,
+    "ability_cost": 0,
+    "artwork": {
+      "artwork_id": 11084
+    },
+    "release_date": "2020-09-03",
+    "ability_of": [
+      11039
+    ],
+    "is_passive": true
+  },
+  "11098": {
+    "id": 11098,
+    "name": "Skewer",
+    "type": 8,
+    "type_source": "community",
+    "set": 1,
+    "cooldown": 2,
+    "ability_cost": 1,
+    "artwork": {
+      "artwork_id": 11098
+    },
+    "release_date": "2020-10-22",
+    "ability_of": [
+      10067
+    ]
+  },
+  "210036": {
+    "id": 210036,
+    "name": "Horde Stryder Active",
+    "type": 8,
+    "type_source": "community",
+    "cooldown": 1,
+    "ability_cost": 0,
+    "release_date": "2020-05-25"
+  }
+}
