@@ -1,0 +1,867 @@
+{
+  "6000": {
+    "id": 6000,
+    "name": "Cheat Mana",
+    "type": 9,
+    "set": 0,
+    "dev": true,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 6000
+    },
+    "engine": {
+      "has_modifiers": true
+    }
+  },
+  "10141": {
+    "id": 10141,
+    "name": "Assured Destruction",
+    "type": 9,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Black",
+    "mana_cost": 3,
+    "crosslane": true,
+    "illustrator": "Titus Lunter",
+    "item_def": 110141,
+    "artwork": {
+      "artwork_id": 10141
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-28",
+    "improvement_type": "Passive"
+  },
+  "10147": {
+    "id": 10147,
+    "name": "Barracks",
+    "type": 9,
+    "set": 1,
+    "collectible": false,
+    "color": "Blue",
+    "mana_cost": 5,
+    "crosslane": true,
+    "illustrator": "Lius Lasahido",
+    "artwork": {
+      "artwork_id": 10147
+    },
+    "references": [
+      1006
+    ],
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28",
+    "improvement_type": "Passive",
+    "signature_of": [
+      10053
+    ]
+  },
+  "10148": {
+    "id": 10148,
+    "name": "Fractured Timeline",
+    "type": 9,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Blue",
+    "mana_cost": 2,
+    "crosslane": true,
+    "illustrator": "Sam Carr",
+    "item_def": 110148,
+    "artwork": {
+      "artwork_id": 10148
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28",
+    "improvement_type": "Passive"
+  },
+  "10149": {
+    "id": 10149,
+    "name": "Unearthed Secrets",
+    "type": 9,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Green",
+    "mana_cost": 3,
+    "crosslane": true,
+    "illustrator": "David Palumbo",
+    "item_def": 110149,
+    "artwork": {
+      "artwork_id": 10149
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28",
+    "improvement_type": "Passive"
+  },
+  "10150": {
+    "id": 10150,
+    "name": "Path of the Cunning",
+    "type": 9,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Black",
+    "mana_cost": 3,
+    "crosslane": true,
+    "illustrator": "Alayna Danner",
+    "item_def": 110150,
+    "artwork": {
+      "artwork_id": 10150
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28",
+    "improvement_type": "Passive"
+  },
+  "10151": {
+    "id": 10151,
+    "name": "Path of the Wise",
+    "type": 9,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Blue",
+    "mana_cost": 3,
+    "crosslane": true,
+    "illustrator": "Alayna Danner",
+    "item_def": 110151,
+    "artwork": {
+      "artwork_id": 10151
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28",
+    "improvement_type": "Passive"
+  },
+  "10152": {
+    "id": 10152,
+    "name": "Path of the Dreamer",
+    "type": 9,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Green",
+    "mana_cost": 3,
+    "crosslane": true,
+    "illustrator": "Alayna Danner",
+    "item_def": 110152,
+    "artwork": {
+      "artwork_id": 10152
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28",
+    "improvement_type": "Passive"
+  },
+  "10153": {
+    "id": 10153,
+    "name": "Path of the Bold",
+    "type": 9,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Red",
+    "mana_cost": 3,
+    "crosslane": true,
+    "illustrator": "Alayna Danner",
+    "item_def": 110153,
+    "artwork": {
+      "artwork_id": 10153
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28",
+    "improvement_type": "Passive"
+  },
+  "10154": {
+    "id": 10154,
+    "name": "The Tyler Estate",
+    "type": 9,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Black",
+    "mana_cost": 4,
+    "crosslane": true,
+    "illustrator": "Dimitar Marinski",
+    "item_def": 110154,
+    "artwork": {
+      "artwork_id": 10154
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-28",
+    "improvement_type": "Passive"
+  },
+  "10155": {
+    "id": 10155,
+    "name": "Homefield Advantage",
+    "type": 9,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Green",
+    "mana_cost": 4,
+    "crosslane": true,
+    "illustrator": "Jason Kang",
+    "item_def": 110155,
+    "artwork": {
+      "artwork_id": 10155
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28",
+    "improvement_type": "Passive"
+  },
+  "10156": {
+    "id": 10156,
+    "name": "Bitter Enemies",
+    "type": 9,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Black",
+    "mana_cost": 2,
+    "charges": 3,
+    "crosslane": true,
+    "illustrator": "Lius Lasahido",
+    "item_def": 110156,
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 2,
+      "has_charges": true
+    },
+    "release_date": "2018-11-28",
+    "improvement_type": "Passive"
+  },
+  "10157": {
+    "id": 10157,
+    "name": "Conflagration",
+    "type": 9,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Blue",
+    "mana_cost": 5,
+    "crosslane": true,
+    "illustrator": "Lius Lasahido",
+    "item_def": 110157,
+    "artwork": {
+      "artwork_id": 10157
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28",
+    "improvement_type": "Passive"
+  },
+  "10160": {
+    "id": 10160,
+    "name": "Ignite",
+    "type": 9,
+    "set": 1,
+    "collectible": false,
+    "color": "Blue",
+    "mana_cost": 3,
+    "crosslane": true,
+    "illustrator": "Randy Vargas",
+    "artwork": {
+      "artwork_id": 10160
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28",
+    "improvement_type": "Passive",
+    "signature_of": [
+      10043
+    ]
+  },
+  "10161": {
+    "id": 10161,
+    "name": "Trebuchets",
+    "type": 9,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Black",
+    "mana_cost": 1,
+    "crosslane": true,
+    "illustrator": "Suzanne Helmigh",
+    "item_def": 110161,
+    "artwork": {
+      "artwork_id": 10161
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28",
+    "improvement_type": "Passive"
+  },
+  "10162": {
+    "id": 10162,
+    "name": "Unsupervised Artillery",
+    "type": 9,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Black",
+    "mana_cost": 2,
+    "crosslane": true,
+    "illustrator": "Forrest Imel",
+    "item_def": 110162,
+    "artwork": {
+      "artwork_id": 10162
+    },
+    "abilities": [
+      10462
+    ],
+    "release_date": "2018-11-28",
+    "improvement_type": "Passive"
+  },
+  "10164": {
+    "id": 10164,
+    "name": "Revtel Investments",
+    "type": 9,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Black",
+    "mana_cost": 3,
+    "crosslane": true,
+    "illustrator": "Jason Kang",
+    "item_def": 110164,
+    "artwork": {
+      "artwork_id": 10164
+    },
+    "abilities": [
+      10463
+    ],
+    "release_date": "2018-11-28",
+    "improvement_type": "Passive"
+  },
+  "10165": {
+    "id": 10165,
+    "name": "Iron Fog Goldmine",
+    "type": 9,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Black",
+    "mana_cost": 3,
+    "crosslane": true,
+    "illustrator": "James Paick",
+    "item_def": 110165,
+    "artwork": {
+      "artwork_id": 10165
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28",
+    "improvement_type": "Passive"
+  },
+  "10168": {
+    "id": 10168,
+    "name": "Selemene's Favor",
+    "type": 9,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Green",
+    "mana_cost": 4,
+    "crosslane": true,
+    "illustrator": "Tenaya Sims",
+    "item_def": 110168,
+    "artwork": {
+      "artwork_id": 10168
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-28",
+    "improvement_type": "Passive"
+  },
+  "10169": {
+    "id": 10169,
+    "name": "Mist of Avernus",
+    "type": 9,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Green",
+    "mana_cost": 3,
+    "crosslane": true,
+    "illustrator": "Joseph Meehan",
+    "item_def": 110169,
+    "artwork": {
+      "artwork_id": 10169
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28",
+    "improvement_type": "Passive"
+  },
+  "10170": {
+    "id": 10170,
+    "name": "Altar of the Mad Moon",
+    "type": 9,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Green",
+    "mana_cost": 4,
+    "crosslane": true,
+    "illustrator": "Dimitar Marinski",
+    "item_def": 110170,
+    "artwork": {
+      "artwork_id": 10170
+    },
+    "references": [
+      1006
+    ],
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-28",
+    "improvement_type": "Passive"
+  },
+  "10171": {
+    "id": 10171,
+    "name": "Howling Mind",
+    "type": 9,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Blue",
+    "mana_cost": 3,
+    "crosslane": true,
+    "illustrator": "James Paick",
+    "item_def": 110171,
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28",
+    "improvement_type": "Passive"
+  },
+  "10172": {
+    "id": 10172,
+    "name": "Temple of War",
+    "type": 9,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Red",
+    "mana_cost": 3,
+    "crosslane": true,
+    "illustrator": "Titus Lunter",
+    "item_def": 110172,
+    "artwork": {
+      "artwork_id": 10172
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-28",
+    "improvement_type": "Passive"
+  },
+  "10173": {
+    "id": 10173,
+    "name": "Nether Ward",
+    "type": 9,
+    "set": 1,
+    "collectible": false,
+    "color": "Red",
+    "mana_cost": 4,
+    "crosslane": true,
+    "illustrator": "Randy Vargas",
+    "artwork": {
+      "artwork_id": 10173
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1,
+      "cast_sound": "DCG_Spell.Nether_Ward"
+    },
+    "release_date": "2018-11-28",
+    "improvement_type": "Passive",
+    "signature_of": [
+      10048
+    ]
+  },
+  "10174": {
+    "id": 10174,
+    "name": "Burning Oil",
+    "type": 9,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Red",
+    "mana_cost": 1,
+    "crosslane": true,
+    "illustrator": "Daarken",
+    "item_def": 110174,
+    "artwork": {
+      "artwork_id": 10174
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-28",
+    "improvement_type": "Passive"
+  },
+  "10175": {
+    "id": 10175,
+    "name": "Aghanim's Sanctum",
+    "type": 9,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Blue",
+    "mana_cost": 4,
+    "crosslane": true,
+    "illustrator": "Lake Hurwitz",
+    "item_def": 110175,
+    "artwork": {
+      "artwork_id": 10175
+    },
+    "abilities": [
+      10464
+    ],
+    "release_date": "2018-11-28",
+    "improvement_type": "Passive"
+  },
+  "10176": {
+    "id": 10176,
+    "name": "Escape Route",
+    "type": 9,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Black",
+    "mana_cost": 1,
+    "crosslane": true,
+    "illustrator": "Bayard Wu",
+    "item_def": 110176,
+    "artwork": {
+      "artwork_id": 10176
+    },
+    "abilities": [
+      10465
+    ],
+    "release_date": "2018-11-28",
+    "improvement_type": "Passive"
+  },
+  "10177": {
+    "id": 10177,
+    "name": "Assault Ladders",
+    "type": 9,
+    "set": 1,
+    "collectible": false,
+    "color": "Black",
+    "mana_cost": 3,
+    "crosslane": true,
+    "illustrator": "Tyler Jacobson",
+    "artwork": {
+      "artwork_id": 10177
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-28",
+    "improvement_type": "Passive",
+    "signature_of": [
+      10058
+    ]
+  },
+  "10178": {
+    "id": 10178,
+    "name": "Grand Melee",
+    "type": 9,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Red",
+    "mana_cost": 3,
+    "crosslane": true,
+    "illustrator": "JiHun Lee",
+    "item_def": 110178,
+    "artwork": {
+      "artwork_id": 10178
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-28",
+    "improvement_type": "Passive"
+  },
+  "10179": {
+    "id": 10179,
+    "name": "Steel Reinforcement",
+    "type": 9,
+    "set": 1,
+    "collectible": false,
+    "color": "Red",
+    "mana_cost": 4,
+    "crosslane": true,
+    "illustrator": "Lius Lasahido",
+    "artwork": {
+      "artwork_id": 10179
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-28",
+    "improvement_type": "Passive",
+    "signature_of": [
+      10052
+    ]
+  },
+  "10180": {
+    "id": 10180,
+    "name": "Messenger Rookery",
+    "type": 9,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Blue",
+    "mana_cost": 1,
+    "crosslane": true,
+    "illustrator": "Forrest Imel",
+    "item_def": 110180,
+    "artwork": {
+      "artwork_id": 10180
+    },
+    "abilities": [
+      10466
+    ],
+    "release_date": "2018-11-28",
+    "improvement_type": "Passive"
+  },
+  "10181": {
+    "id": 10181,
+    "name": "Cheating Death",
+    "type": 9,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Green",
+    "mana_cost": 4,
+    "crosslane": true,
+    "illustrator": "Daarken",
+    "item_def": 110181,
+    "artwork": {
+      "artwork_id": 10181
+    },
+    "abilities": [
+      10539
+    ],
+    "release_date": "2018-11-28",
+    "improvement_type": "Passive"
+  },
+  "10182": {
+    "id": 10182,
+    "name": "The Oath",
+    "type": 9,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Black",
+    "mana_cost": 3,
+    "crosslane": true,
+    "illustrator": "Daarken",
+    "item_def": 110182,
+    "artwork": {
+      "artwork_id": 10182
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-28",
+    "improvement_type": "Passive"
+  },
+  "10183": {
+    "id": 10183,
+    "name": "The Omexe Arena",
+    "type": 9,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Red",
+    "mana_cost": 6,
+    "crosslane": true,
+    "illustrator": "Dimitar Marinski",
+    "item_def": 110183,
+    "artwork": {
+      "artwork_id": 10183
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28",
+    "improvement_type": "Passive"
+  },
+  "10184": {
+    "id": 10184,
+    "name": "Keenfolk Turret",
+    "type": 9,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Black",
+    "mana_cost": 4,
+    "crosslane": true,
+    "illustrator": "Robbie Trevino",
+    "item_def": 110184,
+    "artwork": {
+      "artwork_id": 10184
+    },
+    "abilities": [
+      10467
+    ],
+    "release_date": "2018-11-28",
+    "improvement_type": "Passive"
+  },
+  "10185": {
+    "id": 10185,
+    "name": "Steam Cannon",
+    "type": 9,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Black",
+    "mana_cost": 7,
+    "crosslane": true,
+    "illustrator": "Lake Hurwitz",
+    "item_def": 110185,
+    "artwork": {
+      "artwork_id": 10185
+    },
+    "abilities": [
+      10468
+    ],
+    "release_date": "2018-11-28",
+    "improvement_type": "Passive"
+  },
+  "10187": {
+    "id": 10187,
+    "name": "Glyph of Confusion",
+    "type": 9,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Blue",
+    "mana_cost": 6,
+    "crosslane": true,
+    "illustrator": "Stepan Alekseev",
+    "item_def": 110187,
+    "artwork": {
+      "artwork_id": 10187
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28",
+    "improvement_type": "Passive"
+  },
+  "10193": {
+    "id": 10193,
+    "name": "Verdant Refuge",
+    "type": 9,
+    "set": 1,
+    "collectible": false,
+    "color": "Green",
+    "mana_cost": 5,
+    "crosslane": true,
+    "illustrator": "Chris Rallis",
+    "artwork": {
+      "artwork_id": 10193
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-28",
+    "improvement_type": "Passive",
+    "signature_of": [
+      10036
+    ]
+  },
+  "10194": {
+    "id": 10194,
+    "name": "Watchtower",
+    "type": 9,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Blue",
+    "mana_cost": 1,
+    "crosslane": true,
+    "illustrator": "Forrest Imel",
+    "item_def": 110194,
+    "artwork": {
+      "artwork_id": 10194
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28",
+    "improvement_type": "Passive"
+  },
+  "10291": {
+    "id": 10291,
+    "name": "March of the Machines",
+    "type": 9,
+    "set": 1,
+    "collectible": false,
+    "color": "Black",
+    "mana_cost": 5,
+    "charges": 3,
+    "crosslane": true,
+    "illustrator": "James Paick",
+    "artwork": {
+      "artwork_id": 10291
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1,
+      "has_charges": true
+    },
+    "release_date": "2018-11-28",
+    "improvement_type": "Passive",
+    "signature_of": [
+      10025
+    ]
+  }
+}

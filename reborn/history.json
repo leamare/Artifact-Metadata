@@ -1,0 +1,282 @@
+{
+  "10018": [
+    {
+      "release_date": "2018-11-28",
+      "health": 6
+    },
+    {
+      "release_date": "2018-12-21",
+      "health": 7
+    }
+  ],
+  "10020": [
+    {
+      "release_date": "2018-11-28",
+      "attack": 7,
+      "health": 11
+    },
+    {
+      "release_date": "2018-12-21",
+      "attack": 6,
+      "health": 10
+    }
+  ],
+  "10046": [
+    {
+      "release_date": "2018-11-28",
+      "health": 6
+    },
+    {
+      "release_date": "2018-12-21",
+      "health": 7
+    }
+  ],
+  "10181": [
+    {
+      "release_date": "2018-11-28",
+      "cost": 5,
+      "text": "If there is an allied green hero in this lane, allies have a 50% chance of surviving with 1 Health when they would die."
+    },
+    {
+      "release_date": "2018-12-21",
+      "cost": 4,
+      "text": "Active 1: Give a unit a Death Shield this round. May only be used if there is an allied green hero in this lane."
+    }
+  ],
+  "10202": [
+    {
+      "release_date": "2018-11-18",
+      "gold_cost": 6
+    },
+    {
+      "release_date": "2019-01-28",
+      "gold_cost": 4
+    }
+  ],
+  "10203": [
+    {
+      "release_date": "2018-11-18",
+      "gold_cost": 6
+    },
+    {
+      "release_date": "2019-01-28",
+      "gold_cost": 5
+    }
+  ],
+  "10208": [
+    {
+      "release_date": "2018-11-18",
+      "gold_cost": 6
+    },
+    {
+      "release_date": "2019-01-28",
+      "gold_cost": 5
+    }
+  ],
+  "10211": [
+    {
+      "release_date": "2018-11-18",
+      "gold_cost": 10
+    },
+    {
+      "release_date": "2019-01-28",
+      "gold_cost": 9
+    }
+  ],
+  "10212": [
+    {
+      "release_date": "2018-11-18",
+      "text": "Equipped hero has +2 Attack and +2 Cleave."
+    },
+    {
+      "release_date": "2019-01-28",
+      "text": "Equipped hero has +2 Attack and +4 Cleave."
+    }
+  ],
+  "10213": [
+    {
+      "release_date": "2018-11-18",
+      "gold_cost": 7
+    },
+    {
+      "release_date": "2019-01-28",
+      "gold_cost": 6
+    }
+  ],
+  "10214": [
+    {
+      "release_date": "2018-11-18",
+      "gold_cost": 7
+    },
+    {
+      "release_date": "2019-01-28",
+      "gold_cost": 6
+    }
+  ],
+  "10215": [
+    {
+      "release_date": "2018-11-18",
+      "gold_cost": 7
+    },
+    {
+      "release_date": "2019-01-28",
+      "gold_cost": 6
+    }
+  ],
+  "10218": [
+    {
+      "release_date": "2018-11-18",
+      "gold_cost": 7
+    },
+    {
+      "release_date": "2019-01-28",
+      "gold_cost": 6
+    }
+  ],
+  "10220": [
+    {
+      "release_date": "2018-11-18",
+      "gold_cost": 12
+    },
+    {
+      "release_date": "2019-01-28",
+      "gold_cost": 10
+    }
+  ],
+  "10223": [
+    {
+      "release_date": "2018-11-18",
+      "gold_cost": 10
+    },
+    {
+      "release_date": "2019-01-28",
+      "gold_cost": 9
+    }
+  ],
+  "10231": [
+    {
+      "release_date": "2018-11-18",
+      "gold_cost": 13
+    },
+    {
+      "release_date": "2019-01-28",
+      "gold_cost": 10
+    }
+  ],
+  "10236": [
+    {
+      "release_date": "2018-11-18",
+      "gold_cost": 15
+    },
+    {
+      "release_date": "2019-01-28",
+      "gold_cost": 12
+    }
+  ],
+  "10237": [
+    {
+      "release_date": "2018-11-18",
+      "gold_cost": 15
+    },
+    {
+      "release_date": "2019-01-28",
+      "gold_cost": 12
+    }
+  ],
+  "10238": [
+    {
+      "release_date": "2018-11-18",
+      "gold_cost": 15
+    },
+    {
+      "release_date": "2019-01-28",
+      "gold_cost": 14
+    }
+  ],
+  "10252": [
+    {
+      "release_date": "2018-11-18",
+      "gold_cost": 6
+    },
+    {
+      "release_date": "2019-01-28",
+      "gold_cost": 5
+    }
+  ],
+  "10253": [
+    {
+      "release_date": "2018-11-18",
+      "gold_cost": 6
+    },
+    {
+      "release_date": "2019-01-28",
+      "gold_cost": 5
+    }
+  ],
+  "10256": [
+    {
+      "release_date": "2018-11-18",
+      "gold_cost": 7,
+      "text": "Equipped hero has +2 Attack and Pierce."
+    },
+    {
+      "release_date": "2018-12-21",
+      "gold_cost": 5,
+      "text": "Equipped hero has +2 Attack and Pierce. Equip Effect: Purge your opponent's effects from equipped hero."
+    }
+  ],
+  "10259": [
+    {
+      "release_date": "2018-11-18",
+      "text": "Equipped hero has +1 Armor./nEquipped hero has +1 Armor for each of its attackers."
+    },
+    {
+      "release_date": "2019-01-28",
+      "text": "Equipped hero has +1 Armor./nEquipped hero has +1 Armor for each of its attackers./nEquipped hero's attackers have -1 Armor."
+    }
+  ],
+  "10289": [
+    {
+      "release_date": "2018-11-28",
+      "cost": 5,
+      "is_signature": "10018_0"
+    },
+    {
+      "release_date": "2018-12-21",
+      "cost": 4,
+      "is_signature": "10018_1"
+    }
+  ],
+  "10339": [
+    {
+      "release_date": "2018-11-28",
+      "text": "Silence enemy heroes this round.",
+      "is_signature": "10032_0"
+    },
+    {
+      "release_date": "2018-12-21",
+      "text": "Silence an enemy hero and its allied neighbors this round.",
+      "is_signature": "10032_1"
+    }
+  ],
+  "10449": [
+    {
+      "release_date": "2018-11-28",
+      "text": "Deal 8 piercing damage to a unit."
+    },
+    {
+      "release_date": "2018-12-21",
+      "text": "Deal 8 piercing damage to a unit. Quicken."
+    }
+  ],
+  "10498": [
+    {
+      "release_date": "2018-11-28",
+      "text": "Timbersaw has +1 Armor for each of its attackers."
+    },
+    {
+      "release_date": "2018-12-21",
+      "text": "Timbersaw has +1 Armor for each of its attackers. Each of Timbersaw's attackers have -1 Armor."
+    }
+  ]
+}

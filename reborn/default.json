@@ -1,0 +1,109 @@
+{
+  "1000": {
+    "id": 1000,
+    "name": "Ancient Tower",
+    "type": 2,
+    "set": 0,
+    "collectible": false,
+    "health": 80,
+    "artwork": {
+      "artwork_id": 1000
+    }
+  },
+  "1001": {
+    "id": 1001,
+    "name": "Defense Tower",
+    "type": 2,
+    "set": 0,
+    "collectible": false,
+    "health": 40,
+    "artwork": {
+      "artwork_id": 1000,
+      "alternate_artwork_ids": [
+        1001
+      ]
+    }
+  },
+  "1002": {
+    "id": 1002,
+    "name": "Left Path",
+    "type": 3,
+    "set": 0,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 1002,
+      "variants": [
+        1102,
+        1202,
+        1302
+      ]
+    },
+    "engine": {
+      "path_direction": "left"
+    }
+  },
+  "1003": {
+    "id": 1003,
+    "name": "Forward Path",
+    "type": 3,
+    "set": 0,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 1003,
+      "variants": [
+        1103,
+        1203,
+        1303
+      ]
+    },
+    "engine": {
+      "path_direction": "forward"
+    }
+  },
+  "1004": {
+    "id": 1004,
+    "name": "Right Path",
+    "type": 3,
+    "set": 0,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 1004,
+      "variants": [
+        1104,
+        1204,
+        1304
+      ]
+    },
+    "engine": {
+      "path_direction": "right"
+    }
+  },
+  "1005": {
+    "id": 1005,
+    "name": "Forward Path 2",
+    "type": 3,
+    "set": 0,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 1005,
+      "variants": [
+        1105,
+        1205,
+        1305
+      ]
+    },
+    "engine": {
+      "path_direction": "forward"
+    }
+  },
+  "1007": {
+    "id": 1007,
+    "name": "Ancient Rubble",
+    "type": 2,
+    "set": 0,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 1000
+    }
+  }
+}

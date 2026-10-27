@@ -1,0 +1,128 @@
+{
+  "7000": {
+    "id": 7000,
+    "name": "Mutation Holder",
+    "type": 1,
+    "set": 0,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 7000
+    }
+  },
+  "7001": {
+    "id": 7001,
+    "name": "Mana Boost",
+    "type": 1,
+    "set": 0,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 7001
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1,
+      "has_modifiers": true
+    }
+  },
+  "7002": {
+    "id": 7002,
+    "name": "Double Bounties",
+    "type": 1,
+    "set": 0,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 7002
+    },
+    "engine": {
+      "has_modifiers": true
+    }
+  },
+  "7004": {
+    "id": 7004,
+    "name": "One Quarter Dead",
+    "type": 1,
+    "set": 0,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 7004
+    },
+    "engine": {
+      "has_modifiers": true
+    }
+  },
+  "7006": {
+    "id": 7006,
+    "name": "One Scroll, Please",
+    "type": 1,
+    "set": 0,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 7006
+    },
+    "references": [
+      3006
+    ],
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    }
+  },
+  "7007": {
+    "id": 7007,
+    "name": "Everyone's Fast",
+    "type": 1,
+    "set": 0,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 7007
+    },
+    "engine": {
+      "has_modifiers": true
+    }
+  },
+  "7009": {
+    "id": 7009,
+    "name": "Misty World",
+    "type": 1,
+    "set": 0,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 7009
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    }
+  },
+  "7010": {
+    "id": 7010,
+    "name": "Gold Rush",
+    "type": 1,
+    "set": 0,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 7010
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    }
+  },
+  "7012": {
+    "id": 7012,
+    "name": "The Factory",
+    "type": 1,
+    "set": 0,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 7012
+    },
+    "references": [
+      10216
+    ],
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    }
+  }
+}

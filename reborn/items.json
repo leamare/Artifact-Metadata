@@ -1,0 +1,1181 @@
+{
+  "3000": {
+    "id": 3000,
+    "name": "Traveler's Cloak",
+    "type": 5,
+    "set": 0,
+    "collectible": false,
+    "rarity": "Basic",
+    "gold_cost": 3,
+    "item_subtype": "Accessory",
+    "equip": {
+      "health": 4
+    },
+    "illustrator": "Julie Baroh",
+    "artwork": {
+      "artwork_id": 3000
+    },
+    "engine": {
+      "has_modifiers": true,
+      "item_kind": "Secret",
+      "basic": true
+    },
+    "release_date": "2018-11-28",
+    "hidden_reason": "Uncollectable"
+  },
+  "3001": {
+    "id": 3001,
+    "name": "Leather Armor",
+    "type": 5,
+    "set": 0,
+    "collectible": false,
+    "rarity": "Basic",
+    "gold_cost": 3,
+    "item_subtype": "Armor",
+    "equip": {
+      "armor": 1
+    },
+    "illustrator": "Pauline Voss",
+    "artwork": {
+      "artwork_id": 3001
+    },
+    "engine": {
+      "has_modifiers": true,
+      "item_kind": "Secret",
+      "basic": true
+    },
+    "release_date": "2018-11-28",
+    "hidden_reason": "Uncollectable"
+  },
+  "3002": {
+    "id": 3002,
+    "name": "Short Sword",
+    "type": 5,
+    "set": 0,
+    "collectible": false,
+    "rarity": "Basic",
+    "gold_cost": 3,
+    "item_subtype": "Weapon",
+    "equip": {
+      "attack": 2
+    },
+    "illustrator": "Tommy Arnold",
+    "artwork": {
+      "artwork_id": 3002
+    },
+    "engine": {
+      "has_modifiers": true,
+      "item_kind": "Secret",
+      "basic": true
+    },
+    "release_date": "2018-11-28",
+    "hidden_reason": "Uncollectable"
+  },
+  "3003": {
+    "id": 3003,
+    "name": "Healing Salve",
+    "type": 5,
+    "set": 0,
+    "collectible": false,
+    "rarity": "Basic",
+    "gold_cost": 3,
+    "item_subtype": "Consumable",
+    "illustrator": "Julie Baroh",
+    "artwork": {
+      "artwork_id": 3003
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_heal",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_heal",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "item_kind": "Consumable"
+    },
+    "release_date": "2018-11-28",
+    "hidden_reason": "Uncollectable"
+  },
+  "3004": {
+    "id": 3004,
+    "name": "Fountain Flask",
+    "type": 5,
+    "set": 0,
+    "collectible": false,
+    "rarity": "Basic",
+    "gold_cost": 4,
+    "item_subtype": "Consumable",
+    "illustrator": "Suzanne Helmigh",
+    "artwork": {
+      "artwork_id": 3004
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_heal",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Unit_heal",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "item_kind": "Consumable"
+    },
+    "release_date": "2018-11-28",
+    "hidden_reason": "Uncollectable"
+  },
+  "3005": {
+    "id": 3005,
+    "name": "Potion of Knowledge",
+    "type": 5,
+    "set": 0,
+    "collectible": false,
+    "rarity": "Basic",
+    "gold_cost": 5,
+    "item_subtype": "Consumable",
+    "illustrator": "Magali Villeneuve",
+    "artwork": {
+      "artwork_id": 3005
+    },
+    "engine": {
+      "item_kind": "Consumable"
+    },
+    "release_date": "2018-11-28",
+    "hidden_reason": "Uncollectable"
+  },
+  "3006": {
+    "id": 3006,
+    "name": "Town Portal Scroll",
+    "type": 5,
+    "set": 0,
+    "collectible": false,
+    "rarity": "Basic",
+    "gold_cost": 3,
+    "item_subtype": "Consumable",
+    "illustrator": "Pauline Voss",
+    "artwork": {
+      "artwork_id": 3006
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_Ally_return",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Hero_Ally_return",
+          "targets_hero_only": true,
+          "allied_only": true,
+          "mod_duration": 1
+        }
+      ],
+      "item_kind": "Consumable"
+    },
+    "release_date": "2018-11-28",
+    "hidden_reason": "Uncollectable",
+    "referenced_by": [
+      7006
+    ]
+  },
+  "10202": {
+    "id": 10202,
+    "name": "Assassin's Veil",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "gold_cost": 4,
+    "item_subtype": "Accessory",
+    "equip": {
+      "health": 4
+    },
+    "illustrator": "Pauline Voss",
+    "item_def": 110202,
+    "artwork": {
+      "artwork_id": 10202
+    },
+    "abilities": [
+      10469
+    ],
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-18"
+  },
+  "10203": {
+    "id": 10203,
+    "name": "Phase Boots",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "gold_cost": 5,
+    "item_subtype": "Accessory",
+    "equip": {
+      "health": 4
+    },
+    "illustrator": "Pauline Voss",
+    "item_def": 110203,
+    "artwork": {
+      "artwork_id": 10203
+    },
+    "abilities": [
+      10470
+    ],
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-18"
+  },
+  "10205": {
+    "id": 10205,
+    "name": "Stonehall Cloak",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "gold_cost": 5,
+    "item_subtype": "Accessory",
+    "equip": {
+      "health": 4
+    },
+    "illustrator": "Suzanne Helmigh",
+    "item_def": 110205,
+    "artwork": {
+      "artwork_id": 10205
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1,
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-18"
+  },
+  "10206": {
+    "id": 10206,
+    "name": "Blink Dagger",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "gold_cost": 7,
+    "item_subtype": "Weapon",
+    "equip": {
+      "attack": 2
+    },
+    "illustrator": "Pauline Voss",
+    "item_def": 110206,
+    "artwork": {
+      "artwork_id": 10206
+    },
+    "abilities": [
+      10471
+    ],
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-18"
+  },
+  "10207": {
+    "id": 10207,
+    "name": "Revtel Signet Ring",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "gold_cost": 4,
+    "item_subtype": "Accessory",
+    "equip": {
+      "health": 4
+    },
+    "illustrator": "JiHun Lee",
+    "item_def": 110207,
+    "artwork": {
+      "artwork_id": 10207
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-18"
+  },
+  "10208": {
+    "id": 10208,
+    "name": "Barbed Mail",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "gold_cost": 5,
+    "item_subtype": "Armor",
+    "equip": {
+      "armor": 1,
+      "keywords": {
+        "retaliate": 2
+      }
+    },
+    "illustrator": "Sam Carr",
+    "item_def": 110208,
+    "artwork": {
+      "artwork_id": 10208
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-18"
+  },
+  "10210": {
+    "id": 10210,
+    "name": "Demagicking Maul",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "gold_cost": 5,
+    "item_subtype": "Weapon",
+    "equip": {
+      "attack": 2
+    },
+    "illustrator": "Lake Hurwitz",
+    "item_def": 110210,
+    "artwork": {
+      "artwork_id": 10210
+    },
+    "abilities": [
+      10540
+    ],
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-18"
+  },
+  "10211": {
+    "id": 10211,
+    "name": "Obliterating Orb",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "gold_cost": 9,
+    "item_subtype": "Consumable",
+    "illustrator": "Forrest Imel",
+    "item_def": 110211,
+    "artwork": {
+      "artwork_id": 10211
+    },
+    "engine": {
+      "play_rules": [
+        {
+          "hint": "#DCG_ActionHint_Improvement_kill",
+          "enemy_only": true,
+          "mod_duration": 1,
+          "improvements": true
+        }
+      ],
+      "target_rules": [
+        {
+          "hint": "#DCG_ActionHint_Improvement_kill",
+          "enemy_only": true,
+          "mod_duration": 1,
+          "improvements": true
+        }
+      ]
+    },
+    "release_date": "2018-11-18"
+  },
+  "10212": {
+    "id": 10212,
+    "name": "Blade of the Vigil",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "gold_cost": 7,
+    "item_subtype": "Weapon",
+    "equip": {
+      "attack": 2,
+      "keywords": {
+        "cleave": 4
+      }
+    },
+    "illustrator": "Sam Carr",
+    "item_def": 110212,
+    "artwork": {
+      "artwork_id": 10212
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-18"
+  },
+  "10213": {
+    "id": 10213,
+    "name": "Fur-lined Mantle",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "gold_cost": 6,
+    "item_subtype": "Accessory",
+    "equip": {
+      "health": 8
+    },
+    "illustrator": "Pauline Voss",
+    "item_def": 110213,
+    "artwork": {
+      "artwork_id": 10213
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-18"
+  },
+  "10214": {
+    "id": 10214,
+    "name": "Chainmail",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "gold_cost": 6,
+    "item_subtype": "Armor",
+    "equip": {
+      "armor": 2
+    },
+    "illustrator": "Pauline Voss",
+    "item_def": 110214,
+    "artwork": {
+      "artwork_id": 10214
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-18"
+  },
+  "10215": {
+    "id": 10215,
+    "name": "Broadsword",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "gold_cost": 6,
+    "item_subtype": "Weapon",
+    "equip": {
+      "attack": 4
+    },
+    "illustrator": "Tommy Arnold",
+    "item_def": 110215,
+    "artwork": {
+      "artwork_id": 10215
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-18"
+  },
+  "10216": {
+    "id": 10216,
+    "name": "Golden Ticket",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "gold_cost": 9,
+    "item_subtype": "Consumable",
+    "illustrator": "Pauline Voss",
+    "item_def": 110216,
+    "artwork": {
+      "artwork_id": 10216
+    },
+    "release_date": "2018-11-18",
+    "referenced_by": [
+      7012
+    ]
+  },
+  "10217": {
+    "id": 10217,
+    "name": "Rumusque Vestments",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "gold_cost": 9,
+    "item_subtype": "Armor",
+    "equip": {
+      "armor": 1
+    },
+    "illustrator": "Sara Winters",
+    "item_def": 110217,
+    "artwork": {
+      "artwork_id": 10217
+    },
+    "abilities": [
+      10473
+    ],
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-18"
+  },
+  "10218": {
+    "id": 10218,
+    "name": "Keenfolk Musket",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "gold_cost": 6,
+    "item_subtype": "Weapon",
+    "equip": {
+      "attack": 2
+    },
+    "illustrator": "Mobo Boehme",
+    "item_def": 110218,
+    "artwork": {
+      "artwork_id": 10218
+    },
+    "abilities": [
+      10474
+    ],
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-18"
+  },
+  "10220": {
+    "id": 10220,
+    "name": "Ring of Tarrasque",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "gold_cost": 10,
+    "item_subtype": "Accessory",
+    "equip": {
+      "health": 4,
+      "keywords": {
+        "regeneration": 6
+      }
+    },
+    "illustrator": "Daarken",
+    "item_def": 110220,
+    "artwork": {
+      "artwork_id": 10220
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-18"
+  },
+  "10222": {
+    "id": 10222,
+    "name": "Bracers of Sacrifice",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "gold_cost": 8,
+    "item_subtype": "Armor",
+    "equip": {
+      "armor": 2
+    },
+    "illustrator": "Mark Winters",
+    "item_def": 110222,
+    "artwork": {
+      "artwork_id": 10222
+    },
+    "abilities": [
+      10476
+    ],
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-18"
+  },
+  "10223": {
+    "id": 10223,
+    "name": "Red Mist Maul",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "gold_cost": 9,
+    "item_subtype": "Weapon",
+    "equip": {
+      "attack": 2,
+      "keywords": {
+        "siege": 5
+      }
+    },
+    "illustrator": "Pauline Voss",
+    "item_def": 110223,
+    "artwork": {
+      "artwork_id": 10223
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-18"
+  },
+  "10224": {
+    "id": 10224,
+    "name": "Helm of the Dominator",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "gold_cost": 19,
+    "item_subtype": "Armor",
+    "equip": {
+      "armor": 3
+    },
+    "illustrator": "Chris Welch",
+    "item_def": 110224,
+    "artwork": {
+      "artwork_id": 10224
+    },
+    "abilities": [
+      10477
+    ],
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-18"
+  },
+  "10225": {
+    "id": 10225,
+    "name": "Vesture of the Tyrant",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "gold_cost": 19,
+    "item_subtype": "Armor",
+    "equip": {
+      "armor": 3
+    },
+    "illustrator": "Suzanne Helmigh",
+    "item_def": 110225,
+    "artwork": {
+      "artwork_id": 10225
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-18"
+  },
+  "10226": {
+    "id": 10226,
+    "name": "Wingfall Hammer",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "gold_cost": 19,
+    "item_subtype": "Weapon",
+    "equip": {
+      "attack": 4
+    },
+    "illustrator": "JiHun Lee",
+    "item_def": 110226,
+    "artwork": {
+      "artwork_id": 10226
+    },
+    "abilities": [
+      10478
+    ],
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-18"
+  },
+  "10230": {
+    "id": 10230,
+    "name": "Ristul Emblem",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "gold_cost": 4,
+    "item_subtype": "Accessory",
+    "equip": {
+      "armor": -2,
+      "health": 4
+    },
+    "illustrator": "Christine Choi",
+    "item_def": 110230,
+    "artwork": {
+      "artwork_id": 10230
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-18"
+  },
+  "10231": {
+    "id": 10231,
+    "name": "Cloak of Endless Carnage",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "gold_cost": 10,
+    "item_subtype": "Accessory",
+    "equip": {
+      "health": 8
+    },
+    "illustrator": "Daarken",
+    "item_def": 110231,
+    "artwork": {
+      "artwork_id": 10231
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1,
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-18"
+  },
+  "10232": {
+    "id": 10232,
+    "name": "Seraphim Shield",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "gold_cost": 13,
+    "item_subtype": "Armor",
+    "equip": {
+      "armor": 2
+    },
+    "illustrator": "Magali Villeneuve",
+    "item_def": 110232,
+    "artwork": {
+      "artwork_id": 10232
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-18"
+  },
+  "10234": {
+    "id": 10234,
+    "name": "Poaching Knife",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "gold_cost": 8,
+    "item_subtype": "Weapon",
+    "equip": {
+      "attack": 2
+    },
+    "illustrator": "Pauline Voss",
+    "item_def": 110234,
+    "artwork": {
+      "artwork_id": 10234
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 2,
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-18"
+  },
+  "10235": {
+    "id": 10235,
+    "name": "Book of the Dead",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "gold_cost": 10,
+    "item_subtype": "Accessory",
+    "equip": {
+      "health": 4
+    },
+    "illustrator": "Pauline Voss",
+    "item_def": 110235,
+    "artwork": {
+      "artwork_id": 10235
+    },
+    "abilities": [
+      10480
+    ],
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-18"
+  },
+  "10236": {
+    "id": 10236,
+    "name": "Hero's Cape",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "gold_cost": 12,
+    "item_subtype": "Accessory",
+    "equip": {
+      "health": 16
+    },
+    "illustrator": "Pauline Voss",
+    "item_def": 110236,
+    "artwork": {
+      "artwork_id": 10236
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-18"
+  },
+  "10237": {
+    "id": 10237,
+    "name": "Platemail",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "gold_cost": 12,
+    "item_subtype": "Armor",
+    "equip": {
+      "armor": 4
+    },
+    "illustrator": "Sam Carr",
+    "item_def": 110237,
+    "artwork": {
+      "artwork_id": 10237
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-18"
+  },
+  "10238": {
+    "id": 10238,
+    "name": "Claymore",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "gold_cost": 14,
+    "item_subtype": "Weapon",
+    "equip": {
+      "attack": 8
+    },
+    "illustrator": "Tommy Arnold",
+    "item_def": 110238,
+    "artwork": {
+      "artwork_id": 10238
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-18"
+  },
+  "10241": {
+    "id": 10241,
+    "name": "Claszureme Hourglass",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "gold_cost": 10,
+    "item_subtype": "Accessory",
+    "equip": {
+      "health": 4
+    },
+    "illustrator": "Magali Villeneuve",
+    "item_def": 110241,
+    "artwork": {
+      "artwork_id": 10241
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1,
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-18"
+  },
+  "10242": {
+    "id": 10242,
+    "name": "Shield of Basilius",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "gold_cost": 8,
+    "item_subtype": "Armor",
+    "equip": {
+      "armor": 2
+    },
+    "illustrator": "Pauline Voss",
+    "item_def": 110242,
+    "artwork": {
+      "artwork_id": 10242
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-18"
+  },
+  "10243": {
+    "id": 10243,
+    "name": "Shield of Aquila",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "gold_cost": 10,
+    "item_subtype": "Armor",
+    "equip": {
+      "armor": 2
+    },
+    "illustrator": "Anastasia Ovchinnikova",
+    "item_def": 110243,
+    "artwork": {
+      "artwork_id": 10243
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-18"
+  },
+  "10248": {
+    "id": 10248,
+    "name": "Shiva's Guard",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "gold_cost": 16,
+    "item_subtype": "Armor",
+    "equip": {
+      "armor": 2
+    },
+    "illustrator": "Magali Villeneuve",
+    "item_def": 110248,
+    "artwork": {
+      "artwork_id": 10248
+    },
+    "abilities": [
+      10481
+    ],
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-18"
+  },
+  "10252": {
+    "id": 10252,
+    "name": "Stonehall Pike",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "gold_cost": 5,
+    "item_subtype": "Weapon",
+    "equip": {
+      "attack": 2
+    },
+    "illustrator": "Robbie Trevino",
+    "item_def": 110252,
+    "artwork": {
+      "artwork_id": 10252
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1,
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-18"
+  },
+  "10253": {
+    "id": 10253,
+    "name": "Stonehall Plate",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "gold_cost": 5,
+    "item_subtype": "Armor",
+    "equip": {
+      "armor": 1
+    },
+    "illustrator": "Pauline Voss",
+    "item_def": 110253,
+    "artwork": {
+      "artwork_id": 10253
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1,
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-18"
+  },
+  "10255": {
+    "id": 10255,
+    "name": "Shop Deed",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "gold_cost": 22,
+    "item_subtype": "Deed",
+    "illustrator": "Lius Lasahido",
+    "item_def": 110255,
+    "artwork": {
+      "artwork_id": 10255
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-18"
+  },
+  "10256": {
+    "id": 10256,
+    "name": "Jasper Daggers",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "gold_cost": 5,
+    "item_subtype": "Weapon",
+    "equip": {
+      "attack": 2
+    },
+    "illustrator": "Pauline Voss",
+    "item_def": 110256,
+    "artwork": {
+      "artwork_id": 10256
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1,
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-18"
+  },
+  "10259": {
+    "id": 10259,
+    "name": "Keenfolk Plate",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "gold_cost": 8,
+    "item_subtype": "Armor",
+    "equip": {
+      "armor": 1
+    },
+    "illustrator": "James Paick",
+    "item_def": 110259,
+    "artwork": {
+      "artwork_id": 10259
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-18"
+  },
+  "10260": {
+    "id": 10260,
+    "name": "Horn of the Alpha",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "gold_cost": 25,
+    "item_subtype": "Accessory",
+    "equip": {
+      "health": 4
+    },
+    "illustrator": "Anastasia Ovchinnikova",
+    "item_def": 110260,
+    "artwork": {
+      "artwork_id": 10260
+    },
+    "abilities": [
+      10483
+    ],
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-18"
+  },
+  "10262": {
+    "id": 10262,
+    "name": "Nyctasha's Guard",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "gold_cost": 25,
+    "item_subtype": "Armor",
+    "equip": {
+      "armor": 1
+    },
+    "illustrator": "Forrest Imel",
+    "item_def": 110262,
+    "artwork": {
+      "artwork_id": 10262
+    },
+    "abilities": [
+      10484
+    ],
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-18"
+  },
+  "10263": {
+    "id": 10263,
+    "name": "Apotheosis Blade",
+    "type": 5,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "gold_cost": 25,
+    "item_subtype": "Weapon",
+    "equip": {
+      "attack": 8,
+      "keywords": {
+        "siege": 4
+      }
+    },
+    "illustrator": "Kieran Yanner",
+    "item_def": 110263,
+    "artwork": {
+      "artwork_id": 10263
+    },
+    "abilities": [
+      10541
+    ],
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-18"
+  }
+}

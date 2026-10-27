@@ -1,0 +1,43 @@
+{
+  "5": {
+    "description": "Call To Arms: pick a preconstructed deck, play until the first loss.",
+    "max_wins": 100,
+    "max_losses": 1,
+    "is_ai": false,
+    "limited_format": 0,
+    "featured": true,
+    "deck_source": "DeckSourceChoices",
+    "name": "The Long Haul",
+    "retail_name": "Call To Arms"
+  },
+  "7": {
+    "description": "Constructed: register a deck, 5 wins or 2 losses.",
+    "max_wins": 5,
+    "max_losses": 2,
+    "is_ai": false,
+    "limited_format": 0,
+    "featured": false,
+    "deck_source": "DeckSourcePlayer",
+    "name": "Constructed"
+  },
+  "8": {
+    "description": "Phantom Draft: draft 5 packs (limited.go), register a deck from the picks, 5 wins or 2 losses. The last free human config, so the second Standard Play button (`FreeDraftGauntlet`).",
+    "max_wins": 5,
+    "max_losses": 2,
+    "is_ai": false,
+    "limited_format": 1,
+    "featured": false,
+    "deck_source": "DeckSourcePlayer",
+    "name": "Phantom Draft"
+  },
+  "12": {
+    "description": "Bot Challenge: the AI gauntlet, 5 wins or 2 losses.",
+    "max_wins": 5,
+    "max_losses": 2,
+    "is_ai": true,
+    "limited_format": 0,
+    "featured": false,
+    "deck_source": "DeckSourcePlayer",
+    "name": "Bot Challenge"
+  }
+}

@@ -1,0 +1,1133 @@
+{
+  "1006": {
+    "id": 1006,
+    "name": "Melee Creep",
+    "type": 4,
+    "set": 0,
+    "collectible": false,
+    "rarity": "Basic",
+    "mana_cost": 3,
+    "attack": 2,
+    "health": 4,
+    "bounty": 1,
+    "illustrator": "Forrest Imel",
+    "artwork": {
+      "artwork_id": 1098,
+      "alternate_artwork_ids": [
+        1526
+      ]
+    },
+    "referenced_by": [
+      10103,
+      10147,
+      10170,
+      10335,
+      10336,
+      10355,
+      10480,
+      10503,
+      10523
+    ]
+  },
+  "1009": {
+    "id": 1009,
+    "name": "Zombie",
+    "type": 4,
+    "set": 0,
+    "collectible": false,
+    "rarity": "Basic",
+    "color": "Black",
+    "mana_cost": 1,
+    "attack": 2,
+    "health": 2,
+    "bounty": 1,
+    "illustrator": "Forrest Imel",
+    "artwork": {
+      "artwork_id": 1009
+    },
+    "release_date": "2018-11-28",
+    "hidden_reason": "Uncollectable",
+    "referenced_by": [
+      10114,
+      10480
+    ]
+  },
+  "4002": {
+    "id": 4002,
+    "name": "Prowler Vanguard",
+    "type": 4,
+    "set": 0,
+    "collectible": false,
+    "rarity": "Basic",
+    "color": "Green",
+    "mana_cost": 4,
+    "health": 6,
+    "bounty": 1,
+    "illustrator": "Wisnu Tan",
+    "artwork": {
+      "artwork_id": 4002
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-28",
+    "signature_of": [
+      4000
+    ]
+  },
+  "10003": {
+    "id": 10003,
+    "name": "Plague Ward",
+    "type": 4,
+    "set": 1,
+    "collectible": false,
+    "color": "Blue",
+    "mana_cost": 3,
+    "attack": 1,
+    "health": 3,
+    "bounty": 1,
+    "illustrator": "JiHun Lee",
+    "artwork": {
+      "artwork_id": 10003
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28",
+    "hidden_reason": "Uncollectable",
+    "referenced_by": [
+      10002,
+      10491
+    ]
+  },
+  "10076": {
+    "id": 10076,
+    "name": "Smeevil Armsmaster",
+    "type": 4,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Red",
+    "mana_cost": 4,
+    "attack": 2,
+    "health": 2,
+    "bounty": 1,
+    "illustrator": "Mike Azevedo",
+    "item_def": 110076,
+    "artwork": {
+      "artwork_id": 10076
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28"
+  },
+  "10077": {
+    "id": 10077,
+    "name": "Sister of the Veil",
+    "type": 4,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Black",
+    "mana_cost": 5,
+    "attack": 4,
+    "health": 5,
+    "bounty": 1,
+    "illustrator": "Anthony Palumbo",
+    "item_def": 110077,
+    "artwork": {
+      "artwork_id": 10077
+    },
+    "abilities": [
+      10454
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10078": {
+    "id": 10078,
+    "name": "Tyler Estate Censor",
+    "type": 4,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Black",
+    "mana_cost": 4,
+    "attack": 2,
+    "health": 8,
+    "bounty": 1,
+    "illustrator": "James Paick",
+    "item_def": 110078,
+    "artwork": {
+      "artwork_id": 10078
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-28"
+  },
+  "10079": {
+    "id": 10079,
+    "name": "Smeevil Blacksmith",
+    "type": 4,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Green",
+    "mana_cost": 4,
+    "attack": 2,
+    "health": 2,
+    "bounty": 1,
+    "illustrator": "Izzy",
+    "item_def": 110079,
+    "artwork": {
+      "artwork_id": 10079
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28"
+  },
+  "10080": {
+    "id": 10080,
+    "name": "Rebel Decoy",
+    "type": 4,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Green",
+    "mana_cost": 3,
+    "attack": 2,
+    "health": 3,
+    "bounty": 1,
+    "illustrator": "Jason Kang",
+    "item_def": 110080,
+    "artwork": {
+      "artwork_id": 10080
+    },
+    "abilities": [
+      10455
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10082": {
+    "id": 10082,
+    "name": "Centaur Hunter",
+    "type": 4,
+    "set": 1,
+    "collectible": false,
+    "color": "Red",
+    "mana_cost": 5,
+    "attack": 4,
+    "health": 8,
+    "bounty": 1,
+    "illustrator": "James Paick",
+    "artwork": {
+      "artwork_id": 10082
+    },
+    "release_date": "2018-11-28",
+    "referenced_by": [
+      10417
+    ]
+  },
+  "10083": {
+    "id": 10083,
+    "name": "Pit Fighter of Quoidge",
+    "type": 4,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Black",
+    "mana_cost": 4,
+    "attack": 2,
+    "health": 8,
+    "bounty": 1,
+    "illustrator": "Daarken",
+    "item_def": 110083,
+    "artwork": {
+      "artwork_id": 10083
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28"
+  },
+  "10084": {
+    "id": 10084,
+    "name": "Rebel Instigator",
+    "type": 4,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Red",
+    "mana_cost": 4,
+    "attack": 2,
+    "health": 3,
+    "bounty": 1,
+    "illustrator": "Forrest Imel",
+    "item_def": 110084,
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28"
+  },
+  "10085": {
+    "id": 10085,
+    "name": "Assassin's Shadow",
+    "type": 4,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Black",
+    "mana_cost": 7,
+    "attack": 15,
+    "health": 5,
+    "bounty": 1,
+    "illustrator": "Daniel Romanovsky",
+    "item_def": 110085,
+    "artwork": {
+      "artwork_id": 10085
+    },
+    "engine": {
+      "keywords": {
+        "siege": 5
+      },
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-28"
+  },
+  "10086": {
+    "id": 10086,
+    "name": "Disciple of Nevermore",
+    "type": 4,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Black",
+    "mana_cost": 3,
+    "attack": 4,
+    "armor": -2,
+    "health": 4,
+    "bounty": 1,
+    "illustrator": "Lius Lasahido",
+    "item_def": 110086,
+    "artwork": {
+      "artwork_id": 10086
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-28"
+  },
+  "10087": {
+    "id": 10087,
+    "name": "Legion Standard Bearer",
+    "type": 4,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Red",
+    "mana_cost": 4,
+    "health": 6,
+    "bounty": 1,
+    "illustrator": "Wisnu Tan",
+    "item_def": 110087,
+    "artwork": {
+      "artwork_id": 10087
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-28"
+  },
+  "10090": {
+    "id": 10090,
+    "name": "Relentless Zombie",
+    "type": 4,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Blue",
+    "mana_cost": 2,
+    "attack": 2,
+    "health": 2,
+    "bounty": 1,
+    "illustrator": "Lars Grant-West",
+    "item_def": 110090,
+    "artwork": {
+      "artwork_id": 10090
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28"
+  },
+  "10091": {
+    "id": 10091,
+    "name": "Revtel Convoy",
+    "type": 4,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Green",
+    "mana_cost": 5,
+    "health": 20,
+    "bounty": 1,
+    "illustrator": "Darek Zabrocki",
+    "item_def": 110091,
+    "artwork": {
+      "artwork_id": 10091
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-28"
+  },
+  "10092": {
+    "id": 10092,
+    "name": "Oglodi Vandal",
+    "type": 4,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Black",
+    "mana_cost": 4,
+    "attack": 4,
+    "health": 4,
+    "bounty": 1,
+    "illustrator": "JiHun Lee",
+    "item_def": 110092,
+    "artwork": {
+      "artwork_id": 10092
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28"
+  },
+  "10093": {
+    "id": 10093,
+    "name": "Hound of War",
+    "type": 4,
+    "set": 1,
+    "collectible": false,
+    "color": "Black",
+    "mana_cost": 3,
+    "attack": 2,
+    "health": 1,
+    "bounty": 1,
+    "illustrator": "Lake Hurwitz",
+    "artwork": {
+      "artwork_id": 10093
+    },
+    "release_date": "2018-11-28",
+    "referenced_by": [
+      10325
+    ]
+  },
+  "10094": {
+    "id": 10094,
+    "name": "Mercenary Exiles",
+    "type": 4,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Red",
+    "mana_cost": 3,
+    "attack": 2,
+    "armor": 1,
+    "health": 4,
+    "bounty": 1,
+    "illustrator": "John Stanko",
+    "item_def": 110094,
+    "artwork": {
+      "artwork_id": 10094
+    },
+    "abilities": [
+      10456
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10095": {
+    "id": 10095,
+    "name": "Keenfolk Golem",
+    "type": 4,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Red",
+    "mana_cost": 6,
+    "attack": 13,
+    "health": 13,
+    "bounty": 1,
+    "illustrator": "Wisnu Tan",
+    "item_def": 110095,
+    "artwork": {
+      "artwork_id": 10095
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28"
+  },
+  "10096": {
+    "id": 10096,
+    "name": "Emissary of the Quorum",
+    "type": 4,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Green",
+    "mana_cost": 8,
+    "attack": 1,
+    "armor": 2,
+    "health": 10,
+    "bounty": 1,
+    "illustrator": "Kieran Yanner",
+    "item_def": 110096,
+    "artwork": {
+      "artwork_id": 10096
+    },
+    "abilities": [
+      10457
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10097": {
+    "id": 10097,
+    "name": "Marrowfell Brawler",
+    "type": 4,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Red",
+    "mana_cost": 6,
+    "attack": 6,
+    "health": 16,
+    "bounty": 1,
+    "illustrator": "Vance Kovacs",
+    "item_def": 110097,
+    "artwork": {
+      "artwork_id": 10097
+    },
+    "release_date": "2018-11-28"
+  },
+  "10102": {
+    "id": 10102,
+    "name": "Thunderhide Pack",
+    "type": 4,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Green",
+    "mana_cost": 8,
+    "attack": 14,
+    "health": 14,
+    "bounty": 1,
+    "illustrator": "Lars Grant-West",
+    "item_def": 110102,
+    "artwork": {
+      "artwork_id": 10102
+    },
+    "engine": {
+      "keywords": {
+        "siege": 6
+      }
+    },
+    "release_date": "2018-11-28",
+    "referenced_by": [
+      10483
+    ]
+  },
+  "10103": {
+    "id": 10103,
+    "name": "Ogre Corpse Tosser",
+    "type": 4,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Red",
+    "mana_cost": 5,
+    "attack": 2,
+    "health": 10,
+    "bounty": 1,
+    "illustrator": "Bayard Wu",
+    "item_def": 110103,
+    "artwork": {
+      "artwork_id": 10103
+    },
+    "references": [
+      1006
+    ],
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28"
+  },
+  "10104": {
+    "id": 10104,
+    "name": "Bronze Legionnaire",
+    "type": 4,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Red",
+    "mana_cost": 2,
+    "attack": 4,
+    "armor": 2,
+    "health": 2,
+    "bounty": 1,
+    "illustrator": "Stepan Alekseev",
+    "item_def": 110104,
+    "artwork": {
+      "artwork_id": 10104
+    },
+    "release_date": "2018-11-28"
+  },
+  "10106": {
+    "id": 10106,
+    "name": "Incarnation of Selemene",
+    "type": 4,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Blue",
+    "mana_cost": 9,
+    "attack": 3,
+    "health": 11,
+    "bounty": 1,
+    "illustrator": "Anthony Palumbo",
+    "item_def": 110106,
+    "artwork": {
+      "artwork_id": 10106
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28"
+  },
+  "10107": {
+    "id": 10107,
+    "name": "Vhoul Martyr",
+    "type": 4,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Green",
+    "mana_cost": 2,
+    "attack": 2,
+    "health": 2,
+    "bounty": 1,
+    "illustrator": "Jakub Kasper",
+    "item_def": 110107,
+    "artwork": {
+      "artwork_id": 10107
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28"
+  },
+  "10108": {
+    "id": 10108,
+    "name": "Thunderhide Alpha",
+    "type": 4,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Green",
+    "mana_cost": 9,
+    "attack": 25,
+    "health": 25,
+    "bounty": 1,
+    "illustrator": "Vance Kovacs",
+    "item_def": 110108,
+    "artwork": {
+      "artwork_id": 10108
+    },
+    "release_date": "2018-11-28"
+  },
+  "10111": {
+    "id": 10111,
+    "name": "Satyr Duelist",
+    "type": 4,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Green",
+    "mana_cost": 4,
+    "attack": 3,
+    "health": 5,
+    "bounty": 1,
+    "illustrator": "Wisnu Tan",
+    "item_def": 110111,
+    "artwork": {
+      "artwork_id": 10111
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28"
+  },
+  "10112": {
+    "id": 10112,
+    "name": "Savage Wolf",
+    "type": 4,
+    "set": 1,
+    "collectible": false,
+    "color": "Green",
+    "mana_cost": 4,
+    "attack": 3,
+    "health": 3,
+    "bounty": 1,
+    "illustrator": "Ryan Pancoast",
+    "artwork": {
+      "artwork_id": 10112
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28",
+    "signature_of": [
+      10014
+    ]
+  },
+  "10113": {
+    "id": 10113,
+    "name": "Rampaging Hellbear",
+    "type": 4,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Green",
+    "mana_cost": 4,
+    "attack": 2,
+    "health": 3,
+    "bounty": 1,
+    "illustrator": "Vance Kovacs",
+    "item_def": 110113,
+    "artwork": {
+      "artwork_id": 10113
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28"
+  },
+  "10114": {
+    "id": 10114,
+    "name": "Cursed Satyr",
+    "type": 4,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Red",
+    "mana_cost": 5,
+    "attack": 6,
+    "health": 6,
+    "bounty": 1,
+    "illustrator": "Jakub Kasper",
+    "item_def": 110114,
+    "artwork": {
+      "artwork_id": 10114
+    },
+    "references": [
+      1009
+    ],
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28"
+  },
+  "10115": {
+    "id": 10115,
+    "name": "Ravenhook",
+    "type": 4,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Black",
+    "mana_cost": 6,
+    "attack": 3,
+    "health": 6,
+    "bounty": 1,
+    "illustrator": "Heonhwa Choe",
+    "item_def": 110115,
+    "artwork": {
+      "artwork_id": 10115
+    },
+    "abilities": [
+      10524
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10116": {
+    "id": 10116,
+    "name": "Ravenous Mass",
+    "type": 4,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Black",
+    "mana_cost": 4,
+    "attack": 1,
+    "health": 1,
+    "bounty": 1,
+    "illustrator": "Mike Azevedo",
+    "item_def": 110116,
+    "artwork": {
+      "artwork_id": 10116
+    },
+    "abilities": [
+      10459
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10117": {
+    "id": 10117,
+    "name": "Roseleaf Druid",
+    "type": 4,
+    "set": 1,
+    "collectible": false,
+    "color": "Green",
+    "mana_cost": 4,
+    "attack": 2,
+    "health": 6,
+    "bounty": 1,
+    "illustrator": "Alix Branwyn",
+    "artwork": {
+      "artwork_id": 10117
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "release_date": "2018-11-28",
+    "signature_of": [
+      10056
+    ]
+  },
+  "10118": {
+    "id": 10118,
+    "name": "Hellbear Crippler",
+    "type": 4,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Red",
+    "mana_cost": 3,
+    "attack": 3,
+    "health": 3,
+    "bounty": 1,
+    "illustrator": "Vance Kovacs",
+    "item_def": 110118,
+    "artwork": {
+      "artwork_id": 10118
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28"
+  },
+  "10119": {
+    "id": 10119,
+    "name": "Selfish Cleric",
+    "type": 4,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Green",
+    "mana_cost": 4,
+    "attack": 4,
+    "health": 4,
+    "bounty": 1,
+    "illustrator": "John Stanko",
+    "item_def": 110119,
+    "artwork": {
+      "artwork_id": 10119
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28"
+  },
+  "10120": {
+    "id": 10120,
+    "name": "Roseleaf Wall",
+    "type": 4,
+    "set": 1,
+    "collectible": false,
+    "color": "Green",
+    "mana_cost": 3,
+    "health": 8,
+    "bounty": 1,
+    "illustrator": "Pauline Voss",
+    "artwork": {
+      "artwork_id": 10120
+    },
+    "release_date": "2018-11-28",
+    "hidden_reason": "Uncollectable",
+    "referenced_by": [
+      10347
+    ]
+  },
+  "10127": {
+    "id": 10127,
+    "name": "Ogre Conscript",
+    "type": 4,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Red",
+    "mana_cost": 6,
+    "attack": 7,
+    "armor": 2,
+    "health": 7,
+    "bounty": 1,
+    "illustrator": "Lius Lasahido",
+    "item_def": 110127,
+    "artwork": {
+      "artwork_id": 10127
+    },
+    "release_date": "2018-11-28"
+  },
+  "10128": {
+    "id": 10128,
+    "name": "Untested Grunt",
+    "type": 4,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Black",
+    "mana_cost": 2,
+    "attack": 4,
+    "health": 2,
+    "bounty": 1,
+    "illustrator": "Jason Kang",
+    "item_def": 110128,
+    "artwork": {
+      "artwork_id": 10128
+    },
+    "release_date": "2018-11-28"
+  },
+  "10129": {
+    "id": 10129,
+    "name": "Assassin's Apprentice",
+    "type": 4,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Black",
+    "mana_cost": 2,
+    "attack": 3,
+    "health": 2,
+    "bounty": 1,
+    "illustrator": "David Palumbo",
+    "item_def": 110129,
+    "artwork": {
+      "artwork_id": 10129
+    },
+    "abilities": [
+      10543
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10131": {
+    "id": 10131,
+    "name": "Stonehall Elite",
+    "type": 4,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Red",
+    "mana_cost": 4,
+    "attack": 4,
+    "armor": 2,
+    "health": 2,
+    "bounty": 1,
+    "illustrator": "Jason Kang",
+    "item_def": 110131,
+    "artwork": {
+      "artwork_id": 10131
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28"
+  },
+  "10132": {
+    "id": 10132,
+    "name": "Red Mist Pillager",
+    "type": 4,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Red",
+    "mana_cost": 5,
+    "attack": 4,
+    "health": 2,
+    "bounty": 1,
+    "illustrator": "Anastasia Ovchinnikova",
+    "item_def": 110132,
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28"
+  },
+  "10133": {
+    "id": 10133,
+    "name": "Champion of the Ancient",
+    "type": 4,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Green",
+    "mana_cost": 7,
+    "attack": 2,
+    "health": 6,
+    "bounty": 1,
+    "illustrator": "Daarken",
+    "item_def": 110133,
+    "artwork": {
+      "artwork_id": 10133
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28"
+  },
+  "10134": {
+    "id": 10134,
+    "name": "Roseleaf Rejuvenator",
+    "type": 4,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Green",
+    "mana_cost": 7,
+    "attack": 7,
+    "health": 7,
+    "bounty": 1,
+    "illustrator": "Jakub Kasper",
+    "item_def": 110134,
+    "artwork": {
+      "artwork_id": 10134
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28"
+  },
+  "10136": {
+    "id": 10136,
+    "name": "Loyal Beast",
+    "type": 4,
+    "set": 1,
+    "collectible": false,
+    "color": "Red",
+    "mana_cost": 3,
+    "attack": 3,
+    "armor": 1,
+    "health": 3,
+    "bounty": 1,
+    "illustrator": "Clint Cearley",
+    "artwork": {
+      "artwork_id": 10136
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28",
+    "referenced_by": [
+      10437
+    ]
+  },
+  "10137": {
+    "id": 10137,
+    "name": "Satyr Magician",
+    "type": 4,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Blue",
+    "mana_cost": 5,
+    "attack": 2,
+    "health": 5,
+    "bounty": 1,
+    "illustrator": "Alix Branwyn",
+    "item_def": 110137,
+    "artwork": {
+      "artwork_id": 10137
+    },
+    "abilities": [
+      10542
+    ],
+    "release_date": "2018-11-28"
+  },
+  "10138": {
+    "id": 10138,
+    "name": "Troll Soothsayer",
+    "type": 4,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Blue",
+    "mana_cost": 6,
+    "attack": 2,
+    "health": 8,
+    "bounty": 1,
+    "illustrator": "Sam Carr",
+    "item_def": 110138,
+    "artwork": {
+      "artwork_id": 10138
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28"
+  },
+  "10310": {
+    "id": 10310,
+    "name": "Oglodi Catapult",
+    "type": 4,
+    "set": 1,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Black",
+    "mana_cost": 2,
+    "health": 4,
+    "bounty": 1,
+    "illustrator": "Mark Winters",
+    "item_def": 110310,
+    "artwork": {
+      "artwork_id": 10310
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "release_date": "2018-11-28"
+  }
+}
