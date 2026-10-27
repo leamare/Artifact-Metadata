@@ -1,0 +1,6 @@
+# tools/generate.py, scripts/*
+PyYAML
+Pillow
+numpy
+# scripts/cards_explorer.py (or PyQt6 + PyQt6-WebEngine)
+PySide6

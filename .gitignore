@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+# Valve assets and generated card images: extracted/rendered locally, never committed
+ui/assets/
+images/*/
+.env
