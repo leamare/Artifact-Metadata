@@ -1,0 +1,866 @@
+{
+  "fields": {
+    "AchievementAchieved": {
+      "1": "player_id",
+      "2": "achievement_id",
+      "3": "required_progress",
+      "4": "starting_progress",
+      "5": "current_progress",
+      "6": "delta_progress"
+    },
+    "AttributeValueChanged": {
+      "1": "attr_token",
+      "2": "value_final",
+      "3": "delta"
+    },
+    "CardBought": {
+      "1": "turn_card_entered_hand",
+      "2": "order_card_entered_hand",
+      "3": "is_drawn_shop_item",
+      "4": "shop_items_remaining"
+    },
+    "CardCreated": {
+      "1": "owner_id",
+      "2": "template_card_id",
+      "3": "card_instance_attributes",
+      "4": "card_calculated_effects",
+      "5": "is_item",
+      "6": "was_spawned_as_dire",
+      "7": "spawn_duplicate_index",
+      "8": "is_duplicate",
+      "9": "flop_entered_play"
+    },
+    "CardDiscarded": {
+      "1": "source_card_object_id",
+      "2": "template_card_id",
+      "3": "card_instance_attributes",
+      "4": "card_calculated_effects"
+    },
+    "CardDrawn": {
+      "1": "owner_id",
+      "2": "turn_card_entered_hand",
+      "3": "order_card_entered_hand",
+      "4": "drawn_source",
+      "5": "is_overdrawn"
+    },
+    "CardDuplicated": {
+      "1": "source_object_id",
+      "2": "copied_card_object_id",
+      "3": "source_effect_card_id",
+      "4": "lane_id",
+      "5": "zone_id"
+    },
+    "CardEffectCalculation": {
+      "1": "source_object_id",
+      "2": "value"
+    },
+    "CardKilled": {
+      "1": "owner_id",
+      "2": "is_creep",
+      "3": "is_hero",
+      "4": "is_combat",
+      "5": "damageContributors"
+    },
+    "CardMovedToDeck": {
+      "1": "previous_zone_id",
+      "2": "owner_id"
+    },
+    "CardMovedToDeployment": {
+      "1": "lane_id",
+      "2": "this_turn_hero_deployment_order",
+      "3": "desired_combat_position"
+    },
+    "CardMovedToHand": {
+      "1": "previous_zone_id"
+    },
+    "CardRevealed": {
+      "3": "owner_id",
+      "4": "template_card_id",
+      "5": "card_instance_attributes",
+      "6": "card_calculated_effects"
+    },
+    "CardSurvivedDeath": {
+      "1": "survival_chance",
+      "2": "source_card_id",
+      "3": "source_object_id"
+    },
+    "CardTemplateOperation": {
+      "1": "operation",
+      "2": "template_id",
+      "3": "card_template_data"
+    },
+    "CasterCasting": {
+      "1": "caster_object_id",
+      "2": "card_object_id"
+    },
+    "ChargesChanged": {
+      "1": "charge_delta",
+      "2": "new_charges"
+    },
+    "ColorsPlayableChanged": {
+      "1": "owner_id",
+      "2": "lane_id",
+      "3": "color_flags",
+      "4": "prev_color_flags"
+    },
+    "ContinuousAppliedEffectChangedEx": {
+      "1": "source_object_id",
+      "2": "source_card_id",
+      "3": "effect_source_card_id",
+      "4": "properties"
+    },
+    "DamageAttempted": {
+      "1": "source_object_id",
+      "2": "damage_attempted",
+      "3": "damage_dealt",
+      "4": "source_effect_card_id",
+      "5": "card",
+      "6": "damage_type",
+      "7": "remaining_health",
+      "8": "is_tower",
+      "9": "is_combat",
+      "10": "damage_prevented"
+    },
+    "EffectProcced": {
+      "1": "source_object_id"
+    },
+    "FocusAttack": {
+      "1": "target_object_id",
+      "2": "source_object_id"
+    },
+    "GainedAppliedEffectEx": {
+      "1": "source_object_id",
+      "2": "source_card_id",
+      "3": "effect_source_card_id",
+      "4": "properties"
+    },
+    "GoldEarned": {
+      "1": "owner_id",
+      "2": "source_object_id",
+      "3": "amount",
+      "4": "available"
+    },
+    "GoldSpent": {
+      "1": "owner_id",
+      "2": "source_object_id",
+      "3": "amount",
+      "4": "available"
+    },
+    "HeroVS": {
+      "1": "hero_ids"
+    },
+    "ImprovementDestroyed": {
+      "1": "owner_id"
+    },
+    "ImprovementEnteringPlay": {
+      "1": "new_lane_id",
+      "2": "new_improvement_position",
+      "3": "card",
+      "4": "owner_id"
+    },
+    "InnerBlock": {
+      "1": "block_id",
+      "2": "card_id",
+      "3": "script_type",
+      "4": "object_id"
+    },
+    "ItemEquipped": {
+      "1": "hero_equipped_to_id"
+    },
+    "LostAppliedEffectEx": {
+      "1": "source_object_id",
+      "2": "source_card_id",
+      "3": "effect_source_card_id",
+      "4": "properties"
+    },
+    "PathingCardChanged": {
+      "1": "new_card_id",
+      "2": "is_boundary_path",
+      "3": "is_valid_path_target"
+    },
+    "PlayerActionsAvailable": {
+      "1": "player_id",
+      "2": "phase",
+      "3": "is_shopping",
+      "4": "is_repeat_action"
+    },
+    "PlayerPassed": {
+      "1": "player_id",
+      "2": "pass_to_combat",
+      "3": "had_actions"
+    },
+    "PlayerResult": {
+      "1": "owner_id",
+      "2": "has_won"
+    },
+    "PrepareHeroForLaneAssignment": {
+      "1": "script_type",
+      "2": "card_id"
+    },
+    "PreviewDamageChanged": {
+      "1": "old_preview_damage",
+      "2": "new_preview_damage",
+      "3": "owner_id"
+    },
+    "PreviewDeathResultChanged": {
+      "1": "old_preview_death_result",
+      "2": "new_preview_death_result",
+      "3": "owner_id",
+      "4": "is_creep",
+      "5": "is_hero",
+      "6": "is_tower"
+    },
+    "RandomShopItemCreated": {
+      "1": "owner_id",
+      "2": "template_card_id"
+    },
+    "ScriptBlockBegin": {
+      "1": "script_type",
+      "2": "card_id",
+      "3": "object_id"
+    },
+    "ScriptBlockEnd": {
+      "1": "script_type"
+    },
+    "ShopEnded": {
+      "1": "owner_id"
+    },
+    "ShopHoldItemAvailable": {
+      "1": "owner_id",
+      "2": "is_available"
+    },
+    "ShoppingCardAppeared": {
+      "1": "slot"
+    },
+    "ShoppingCardShuffled": {
+      "1": "shop_order"
+    },
+    "TowerHealed": {
+      "1": "source_object_id",
+      "2": "heal",
+      "3": "source_effect_card_id"
+    },
+    "TowerKilled": {
+      "1": "owner_id",
+      "2": "is_combat",
+      "3": "is_defeat_for_owner",
+      "4": "damageContributors",
+      "5": "siegeDamageContributors"
+    },
+    "TowerManaRestored": {
+      "1": "mana_amount_restored",
+      "2": "mana_amount_restore_attempt"
+    },
+    "TowerManaSpent": {
+      "1": "source_object_id",
+      "2": "mana_spent"
+    },
+    "TriggerTriggered": {
+      "1": "source_object_id",
+      "2": "source_effect_card_id",
+      "3": "event_name",
+      "4": "related_object_id"
+    },
+    "UnitChangedCombatPosition": {
+      "1": "new_combat_position",
+      "2": "old_combat_position",
+      "3": "owner_id",
+      "4": "lane_id"
+    },
+    "UnitChangedCombatTarget": {
+      "1": "new_combat_target",
+      "2": "lane_id",
+      "3": "old_arrow_direction",
+      "4": "arrow_direction",
+      "5": "old_combat_target"
+    },
+    "UnitCondemned": {
+      "1": "source_object_id"
+    },
+    "UnitEnteringCombat": {
+      "1": "new_lane_id",
+      "2": "new_combat_position",
+      "4": "owner_id",
+      "5": "is_valid_path_target",
+      "6": "is_boundary_path"
+    },
+    "UnitHealed": {
+      "1": "source_object_id",
+      "2": "heal",
+      "3": "source_effect_card_id"
+    },
+    "UnitLeavingCombat": {
+      "1": "lane_id",
+      "2": "new_zone_id"
+    },
+    "UnitLocked": {
+      "1": "turns",
+      "2": "source_object_id"
+    },
+    "UnitReadiedForDeploymentUponDeath": {
+      "1": "source_card_id"
+    },
+    "UnitTargeted": {
+      "1": "source_object_id",
+      "2": "target_group",
+      "3": "target_group_number"
+    }
+  },
+  "messages": {
+    "AchievementAchieved": {
+      "1": "uint32 player_id",
+      "2": "uint64 achievement_id",
+      "3": "uint32 required_progress",
+      "4": "uint32 starting_progress",
+      "5": "uint32 current_progress",
+      "6": "uint32 delta_progress"
+    },
+    "AttributeValueChanged": {
+      "1": "uint32 attr_token",
+      "2": "int32 value_final",
+      "3": "int32 delta"
+    },
+    "CardBought": {
+      "1": "int32 turn_card_entered_hand",
+      "2": "int32 order_card_entered_hand",
+      "3": "bool is_drawn_shop_item",
+      "4": "int32 shop_items_remaining"
+    },
+    "CardCreated": {
+      "1": "uint32 owner_id",
+      "2": "uint32 template_card_id",
+      "3": "bytes card_instance_attributes",
+      "4": "bytes card_calculated_effects",
+      "5": "bool is_item",
+      "6": "bool was_spawned_as_dire",
+      "7": "uint32 spawn_duplicate_index",
+      "8": "bool is_duplicate",
+      "9": "bool flop_entered_play"
+    },
+    "CardDiscarded": {
+      "1": "uint32 source_card_object_id",
+      "2": "uint32 template_card_id",
+      "3": "bytes card_instance_attributes",
+      "4": "bytes card_calculated_effects"
+    },
+    "CardDuplicated": {
+      "1": "uint32 source_object_id",
+      "2": "uint32 copied_card_object_id",
+      "3": "uint32 source_effect_card_id",
+      "4": "uint32 lane_id",
+      "5": "uint32 zone_id"
+    },
+    "CardEffectCalculation": {
+      "1": "uint32 source_object_id",
+      "2": "int32 value"
+    },
+    "CardKilled": {
+      "1": "uint32 owner_id",
+      "2": "bool is_creep",
+      "3": "bool is_hero",
+      "4": "bool is_combat",
+      "5": "uint32 damageContributors"
+    },
+    "CardMovedToDeck": {
+      "1": "uint32 previous_zone_id",
+      "2": "uint32 owner_id"
+    },
+    "CardMovedToDeployment": {
+      "1": "uint32 lane_id",
+      "2": "uint32 this_turn_hero_deployment_order",
+      "3": "int32 desired_combat_position"
+    },
+    "CardMovedToHand": {
+      "1": "uint32 previous_zone_id"
+    },
+    "CardRevealed": {
+      "3": "uint32 owner_id",
+      "4": "uint32 template_card_id",
+      "5": "bytes card_instance_attributes",
+      "6": "bytes card_calculated_effects"
+    },
+    "CardSurvivedDeath": {
+      "1": "uint32 survival_chance",
+      "2": "uint32 source_card_id",
+      "3": "uint32 source_object_id"
+    },
+    "CardTemplateOperation": {
+      "1": "uint32 operation",
+      "2": "uint32 template_id",
+      "3": "bytes card_template_data"
+    },
+    "CasterCasting": {
+      "1": "uint32 caster_object_id",
+      "2": "uint32 card_object_id"
+    },
+    "ChargesChanged": {
+      "1": "int32 charge_delta",
+      "2": "uint32 new_charges"
+    },
+    "ColorsPlayableChanged": {
+      "1": "uint32 owner_id",
+      "2": "uint32 lane_id",
+      "3": "uint32 color_flags",
+      "4": "uint32 prev_color_flags"
+    },
+    "ContinuousAppliedEffectChangedEx": {
+      "1": "uint32 source_object_id",
+      "2": "uint32 source_card_id",
+      "3": "uint32 effect_source_card_id",
+      "4": ".ContinuousEffectSingleProperty properties"
+    },
+    "DamageAttempted": {
+      "1": "uint32 source_object_id",
+      "2": "uint32 damage_attempted",
+      "3": "uint32 damage_dealt",
+      "4": "uint32 source_effect_card_id",
+      "5": ".CMsg_Card card",
+      "6": "int32 damage_type",
+      "7": "int32 remaining_health",
+      "8": "bool is_tower",
+      "9": "bool is_combat",
+      "10": "uint32 damage_prevented"
+    },
+    "EffectProcced": {
+      "1": "uint32 source_object_id"
+    },
+    "FocusAttack": {
+      "1": "uint32 target_object_id",
+      "2": "uint32 source_object_id"
+    },
+    "GainedAppliedEffectEx": {
+      "1": "uint32 source_object_id",
+      "2": "uint32 source_card_id",
+      "3": "uint32 effect_source_card_id",
+      "4": ".ContinuousEffectSingleProperty properties"
+    },
+    "GoldEarned": {
+      "1": "uint32 owner_id",
+      "2": "uint32 source_object_id",
+      "3": "int32 amount",
+      "4": "int32 available"
+    },
+    "GoldSpent": {
+      "1": "uint32 owner_id",
+      "2": "uint32 source_object_id",
+      "3": "int32 amount",
+      "4": "int32 available"
+    },
+    "HeroVS": {
+      "1": "uint32 hero_ids"
+    },
+    "ImprovementDestroyed": {
+      "1": "uint32 owner_id"
+    },
+    "ImprovementEnteringPlay": {
+      "1": "uint32 new_lane_id",
+      "2": "uint32 new_improvement_position",
+      "3": ".CMsg_Card card",
+      "4": "uint32 owner_id"
+    },
+    "InnerBlock": {
+      "1": "uint32 block_id",
+      "2": "uint32 card_id",
+      "3": "uint32 script_type",
+      "4": "uint32 object_id"
+    },
+    "ItemEquipped": {
+      "1": "uint32 hero_equipped_to_id"
+    },
+    "LostAppliedEffectEx": {
+      "1": "uint32 source_object_id",
+      "2": "uint32 source_card_id",
+      "3": "uint32 effect_source_card_id",
+      "4": ".ContinuousEffectSingleProperty properties"
+    },
+    "PathingCardChanged": {
+      "1": "uint32 new_card_id",
+      "2": "bool is_boundary_path",
+      "3": "bool is_valid_path_target"
+    },
+    "PlayerActionsAvailable": {
+      "1": "uint32 player_id",
+      "2": "uint32 phase",
+      "3": "bool is_shopping",
+      "4": "bool is_repeat_action"
+    },
+    "PlayerPassed": {
+      "1": "uint32 player_id",
+      "2": "bool pass_to_combat",
+      "3": "bool had_actions"
+    },
+    "PlayerResult": {
+      "1": "uint32 owner_id",
+      "2": "bool has_won"
+    },
+    "PrepareHeroForLaneAssignment": {
+      "1": "uint32 script_type",
+      "2": "uint32 card_id"
+    },
+    "PreviewDamageChanged": {
+      "1": "uint32 old_preview_damage",
+      "2": "uint32 new_preview_damage",
+      "3": "uint32 owner_id"
+    },
+    "PreviewDeathResultChanged": {
+      "1": "uint32 old_preview_death_result",
+      "2": "uint32 new_preview_death_result",
+      "3": "uint32 owner_id",
+      "4": "bool is_creep",
+      "5": "bool is_hero",
+      "6": "bool is_tower"
+    },
+    "RandomShopItemCreated": {
+      "1": "uint32 owner_id",
+      "2": "uint32 template_card_id"
+    },
+    "ScriptBlockBegin": {
+      "1": "uint32 script_type",
+      "2": "uint32 card_id",
+      "3": "uint32 object_id"
+    },
+    "ScriptBlockEnd": {
+      "1": "uint32 script_type"
+    },
+    "ShopEnded": {
+      "1": "uint32 owner_id"
+    },
+    "ShopHoldItemAvailable": {
+      "1": "uint32 owner_id",
+      "2": "bool is_available"
+    },
+    "ShoppingCardAppeared": {
+      "1": ".EShoppingSlot slot"
+    },
+    "ShoppingCardShuffled": {
+      "1": "uint32 shop_order"
+    },
+    "TowerHealed": {
+      "1": "uint32 source_object_id",
+      "2": "uint32 heal",
+      "3": "uint32 source_effect_card_id"
+    },
+    "TowerKilled": {
+      "1": "uint32 owner_id",
+      "2": "bool is_combat",
+      "3": "bool is_defeat_for_owner",
+      "4": "uint32 damageContributors",
+      "5": "uint32 siegeDamageContributors"
+    },
+    "TowerManaRestored": {
+      "1": "uint32 mana_amount_restored",
+      "2": "uint32 mana_amount_restore_attempt"
+    },
+    "TowerManaSpent": {
+      "1": "uint32 source_object_id",
+      "2": "uint32 mana_spent"
+    },
+    "TriggerTriggered": {
+      "1": "uint32 source_object_id",
+      "2": "uint32 source_effect_card_id",
+      "3": "int32 event_name",
+      "4": "uint32 related_object_id"
+    },
+    "UnitChangedCombatPosition": {
+      "1": "uint32 new_combat_position",
+      "2": "int32 old_combat_position",
+      "3": "uint32 owner_id",
+      "4": "uint32 lane_id"
+    },
+    "UnitChangedCombatTarget": {
+      "1": "uint32 new_combat_target",
+      "2": "uint32 lane_id",
+      "3": "uint32 old_arrow_direction",
+      "4": "uint32 arrow_direction",
+      "5": "uint32 old_combat_target"
+    },
+    "UnitCondemned": {
+      "1": "uint32 source_object_id"
+    },
+    "UnitEnteringCombat": {
+      "1": "uint32 new_lane_id",
+      "2": "uint32 new_combat_position",
+      "4": "uint32 owner_id",
+      "5": "bool is_valid_path_target",
+      "6": "bool is_boundary_path"
+    },
+    "UnitHealed": {
+      "1": "uint32 source_object_id",
+      "2": "uint32 heal",
+      "3": "uint32 source_effect_card_id"
+    },
+    "UnitLeavingCombat": {
+      "1": "uint32 lane_id",
+      "2": "uint32 new_zone_id"
+    },
+    "UnitLocked": {
+      "1": "uint32 turns",
+      "2": "uint32 source_object_id"
+    },
+    "UnitReadiedForDeploymentUponDeath": {
+      "1": "uint32 source_card_id"
+    },
+    "UnitTargeted": {
+      "1": "uint32 source_object_id",
+      "2": "uint32 target_group",
+      "3": "uint32 target_group_number"
+    }
+  },
+  "script_block_types": {
+    "0": "INVALID_SCRIPT_TYPE",
+    "1": "CARD_PLAY_SCRIPT",
+    "2": "GENERIC_TRIGGER_SCRIPT",
+    "3": "SBE_UPDATE_SCRIPT",
+    "4": "DEATH_CHECK_SCRIPT",
+    "5": "COMBAT",
+    "6": "CARD_DRAW_PHASE",
+    "7": "END_OF_TURN_PHASE",
+    "8": "COLLAPSE_LANE",
+    "9": "CE_ADDED",
+    "10": "CE_REMOVED",
+    "11": "SURVIVED_DEATH",
+    "12": "DEV_COMMAND",
+    "13": "AFTER_COMBAT_PHASE",
+    "14": "UPDATE_COMBAT_PREVIEW",
+    "15": "UPDATE_OBJECT_ATTRIBUTES",
+    "16": "TRIGGER_BLOCK",
+    "17": "POST_SHOP_ITEM_PURCHASE",
+    "18": "FLOP_DEPLOYMENT_TO_COMBAT",
+    "19": "BEGINNING_OF_SPELLCASTING",
+    "20": "PREGAME",
+    "21": "RAPID_DEPLOYMENT",
+    "23": "INITIAL_FLOP",
+    "24": "CREEP_DEPLOYMENT",
+    "25": "PREPARE_HEROES_FOR_LANE_ASSIGNMENT",
+    "26": "SHOPPING_START",
+    "27": "SHOPPING_UPDATE",
+    "28": "SHOPPING_FINISHED",
+    "29": "HERO_LANE_ASSIGNMENT",
+    "30": "HERO_VS",
+    "31": "PATHING_CARD_DEPLOYMENT",
+    "32": "HACKED_EFFECT",
+    "33": "EXPORT_CARD_SET_TO_IMAGES",
+    "34": "GAME_OVER",
+    "35": "TOKEN_DEPLOYED"
+  },
+  "enums": {
+    "classic": {
+      "EActionType": {
+        "1": "k_eActionType_TurnStart",
+        "2": "k_eActionType_TurnEnd",
+        "3": "k_eActionType_ShoppingStart",
+        "4": "k_eActionType_ShoppingEnd",
+        "5": "k_eActionType_HeroPlacementStart",
+        "6": "k_eActionType_HeroPlacementEnd",
+        "7": "k_eActionType_MatchComplete",
+        "8": "k_eActionType_LaneStart",
+        "9": "k_eActionType_LaneEnd",
+        "10": "k_eActionType_LaneCombat",
+        "11": "k_eActionType_PlayerAction"
+      },
+      "EChatSource": {
+        "1": "eObjectID",
+        "2": "ePlayer",
+        "3": "eDeckImp"
+      },
+      "EStatus": {
+        "1": "k_EConnected",
+        "2": "k_EDisconnected"
+      },
+      "ECardDrawnSource": {
+        "1": "k_eCardDrawnSource_Deck",
+        "2": "k_eCardDrawnSource_ItemDeck",
+        "3": "k_eCardDrawnSource_Nowhere"
+      },
+      "EDCGGameMessages": {
+        "1": "k_EMsgGameBoardGameCommand",
+        "2": "k_EMsgGameBoardGameState",
+        "3": "k_EMsgGameBoardGameButton",
+        "4": "k_EMsgGamePlayerRequestHandoff",
+        "5": "k_EMsgGameHandoff",
+        "6": "k_EMsgGameReplayActionMarker",
+        "7": "k_EMsgGameClientToServerChatMsg",
+        "8": "k_EMsgGameServerToClientChatMsg",
+        "9": "k_EMsgGameClientToServerPauseTimer",
+        "10": "k_EMsgGameServerToClientConnectionStatus",
+        "11": "k_EMsgGameClientToServerGiveOpponentTime",
+        "12": "k_EMsgGameServerToClientInitialGameState",
+        "13": "k_EMsgGameServerToClientGameCompleted",
+        "14": "k_EMsgGameClientToServerBoardGameStateAck",
+        "15": "k_EMsgGameServerToClientGoodbye",
+        "1000": "k_EMsgTutorialEvent",
+        "1001": "k_EMsgVenchatoquistEvent"
+      },
+      "EScriptBlockType": {
+        "0": "INVALID_SCRIPT_TYPE",
+        "1": "CARD_PLAY_SCRIPT",
+        "2": "GENERIC_TRIGGER_SCRIPT",
+        "3": "SBE_UPDATE_SCRIPT",
+        "4": "DEATH_CHECK_SCRIPT",
+        "5": "COMBAT",
+        "6": "CARD_DRAW_PHASE",
+        "7": "END_OF_TURN_PHASE",
+        "8": "COLLAPSE_LANE",
+        "9": "CE_ADDED",
+        "10": "CE_REMOVED",
+        "11": "SURVIVED_DEATH",
+        "12": "DEV_COMMAND",
+        "13": "AFTER_COMBAT_PHASE",
+        "14": "UPDATE_COMBAT_PREVIEW",
+        "15": "UPDATE_OBJECT_ATTRIBUTES",
+        "16": "TRIGGER_BLOCK",
+        "17": "POST_SHOP_ITEM_PURCHASE",
+        "18": "FLOP_DEPLOYMENT_TO_COMBAT",
+        "19": "BEGINNING_OF_SPELLCASTING",
+        "20": "PREGAME",
+        "21": "RAPID_DEPLOYMENT",
+        "23": "INITIAL_FLOP",
+        "24": "CREEP_DEPLOYMENT",
+        "25": "PREPARE_HEROES_FOR_LANE_ASSIGNMENT",
+        "26": "SHOPPING_START",
+        "27": "SHOPPING_UPDATE",
+        "28": "SHOPPING_FINISHED",
+        "29": "HERO_LANE_ASSIGNMENT",
+        "30": "HERO_VS",
+        "31": "PATHING_CARD_DEPLOYMENT",
+        "32": "HACKED_EFFECT",
+        "33": "EXPORT_CARD_SET_TO_IMAGES",
+        "34": "GAME_OVER",
+        "35": "TOKEN_DEPLOYED"
+      },
+      "EShoppingSlot": {
+        "0": "eInvalidSlot",
+        "1": "eMiddleShop",
+        "2": "eSecretShop",
+        "3": "eConsumableShop"
+      },
+      "EDCGDisconnectReason": {
+        "1001": "k_EDCGDisconnectReason_UserLeaveMatch",
+        "1002": "k_EDCGDisconnectReason_UserQuitApp",
+        "1003": "k_EDCGDisconnectReason_UserCancel",
+        "1004": "k_EDCGDisconnectReason_Goodbye",
+        "2001": "k_EDCGDisconnectReason_BadMessage",
+        "2002": "k_EDCGDisconnectReason_GameDestroyedUnexpectedly",
+        "2003": "k_EDCGDisconnectReason_ChangingServer",
+        "2004": "k_EDCGDisconnectReason_OldConnection",
+        "2005": "k_EDCGDisconnectReason_GoodbyeUnrecognizedGame"
+      }
+    },
+    "foundry": {
+      "EActionType": {
+        "1": "k_eActionType_TurnStart",
+        "2": "k_eActionType_TurnEnd",
+        "3": "k_eActionType_ShoppingStart",
+        "4": "k_eActionType_ShoppingEnd",
+        "5": "k_eActionType_HeroPlacementStart",
+        "6": "k_eActionType_HeroPlacementEnd",
+        "7": "k_eActionType_MatchComplete",
+        "8": "k_eActionType_LaneStart",
+        "9": "k_eActionType_LaneEnd",
+        "10": "k_eActionType_LaneCombat",
+        "11": "k_eActionType_PlayerAction",
+        "12": "k_eActionType_TowerDestroyed",
+        "13": "k_eActionType_InitialFlopStart",
+        "14": "k_eActionType_InitialFlopEnd"
+      },
+      "EChatSource": {
+        "1": "eObjectID",
+        "2": "ePlayer",
+        "3": "eDeckImp"
+      },
+      "EGesture": {
+        "1": "eLook",
+        "2": "eStopLooking",
+        "3": "eDrag",
+        "4": "eStopDragging",
+        "5": "eInspect",
+        "6": "eStopInspecting"
+      },
+      "EStatus": {
+        "1": "k_EConnected",
+        "2": "k_EDisconnected"
+      },
+      "ECardDrawnSource": {
+        "1": "k_eCardDrawnSource_Deck",
+        "2": "k_eCardDrawnSource_ItemDeck",
+        "3": "k_eCardDrawnSource_Nowhere"
+      },
+      "EDCGGameMessages": {
+        "1": "k_EMsgGameBoardGameCommand",
+        "2": "k_EMsgGameBoardGameState",
+        "3": "k_EMsgGameBoardGameButton",
+        "4": "k_EMsgGamePlayerRequestHandoff",
+        "5": "k_EMsgGameHandoff",
+        "6": "k_EMsgGameReplayActionMarker",
+        "7": "k_EMsgGameClientToServerChatMsg",
+        "8": "k_EMsgGameServerToClientChatMsg",
+        "9": "k_EMsgGameClientToServerPauseTimer",
+        "10": "k_EMsgGameServerToClientConnectionStatus",
+        "11": "k_EMsgGameClientToServerGiveOpponentTime",
+        "12": "k_EMsgGameServerToClientInitialGameState",
+        "13": "k_EMsgGameServerToClientGameCompleted",
+        "14": "k_EMsgGameClientToServerBoardGameStateAck",
+        "15": "k_EMsgGameServerToClientGoodbye",
+        "1000": "k_EMsgTutorialEvent",
+        "1001": "k_EMsgVenchatoquistEvent"
+      },
+      "EScriptBlockType": {
+        "0": "INVALID_SCRIPT_TYPE",
+        "1": "CARD_PLAY_SCRIPT",
+        "2": "GENERIC_TRIGGER_SCRIPT",
+        "3": "SBE_UPDATE_SCRIPT",
+        "4": "DEATH_CHECK_SCRIPT",
+        "5": "COMBAT",
+        "6": "CARD_DRAW_PHASE",
+        "7": "END_OF_TURN_PHASE",
+        "8": "COLLAPSE_LANE",
+        "9": "CE_ADDED",
+        "10": "CE_REMOVED",
+        "11": "SURVIVED_DEATH",
+        "12": "DEV_COMMAND",
+        "13": "AFTER_COMBAT_PHASE",
+        "14": "UPDATE_COMBAT_PREVIEW",
+        "15": "UPDATE_OBJECT_ATTRIBUTES",
+        "16": "TRIGGER_BLOCK",
+        "17": "POST_SHOP_ITEM_PURCHASE",
+        "18": "FLOP_DEPLOYMENT_TO_COMBAT",
+        "19": "BEGINNING_OF_SPELLCASTING",
+        "20": "PREGAME",
+        "21": "RAPID_DEPLOYMENT",
+        "23": "INITIAL_FLOP",
+        "24": "CREEP_DEPLOYMENT",
+        "25": "PREPARE_HEROES_FOR_LANE_ASSIGNMENT",
+        "26": "SHOPPING_START",
+        "27": "SHOPPING_UPDATE",
+        "28": "SHOPPING_FINISHED",
+        "29": "HERO_LANE_ASSIGNMENT",
+        "30": "HERO_VS",
+        "31": "PATHING_CARD_DEPLOYMENT",
+        "32": "HACKED_EFFECT",
+        "33": "EXPORT_CARD_SET_TO_IMAGES",
+        "34": "GAME_OVER",
+        "35": "TOKEN_DEPLOYED",
+        "36": "ACHIEVEMENT_ACHIEVED",
+        "37": "TURN_ANNOUNCEMENT",
+        "38": "TOWER_DAMAGE_REWARD"
+      },
+      "EShoppingSlot": {
+        "0": "eInvalidSlot",
+        "1": "eMiddleShop",
+        "2": "eSecretShop",
+        "3": "eConsumableShop"
+      },
+      "EDCGDisconnectReason": {
+        "1001": "k_EDCGDisconnectReason_UserLeaveMatch",
+        "1002": "k_EDCGDisconnectReason_UserQuitApp",
+        "1003": "k_EDCGDisconnectReason_UserCancel",
+        "1004": "k_EDCGDisconnectReason_Goodbye",
+        "2001": "k_EDCGDisconnectReason_BadMessage",
+        "2002": "k_EDCGDisconnectReason_GameDestroyedUnexpectedly",
+        "2003": "k_EDCGDisconnectReason_ChangingServer",
+        "2004": "k_EDCGDisconnectReason_OldConnection",
+        "2005": "k_EDCGDisconnectReason_GoodbyeUnrecognizedGame"
+      }
+    }
+  }
+}

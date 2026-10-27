@@ -2945,7 +2945,7 @@
     ]
   },
   "10604": {
-    "text": " Removed from the game.",
+    "text": "Removed from the game.",
     "text_plain": "Removed from the game."
   },
   "10605": {
@@ -3783,7 +3783,7 @@
     ]
   },
   "10734": {
-    "text": " Removed from the game.",
+    "text": "Removed from the game.",
     "text_plain": "Removed from the game."
   },
   "10735": {
@@ -3794,7 +3794,7 @@
     ]
   },
   "10736": {
-    "text": " Removed from the game.",
+    "text": "Removed from the game.",
     "text_plain": "Removed from the game."
   },
   "10737": {
@@ -3817,7 +3817,7 @@
     ]
   },
   "10739": {
-    "text": " Removed from the game.",
+    "text": "Removed from the game.",
     "text_plain": "Removed from the game."
   },
   "10743": {
@@ -3846,7 +3846,7 @@
     ]
   },
   "10746": {
-    "text": " Removed from the game.",
+    "text": "Removed from the game.",
     "text_plain": "Removed from the game."
   },
   "10747": {
@@ -3873,7 +3873,7 @@
     ]
   },
   "10751": {
-    "text": " Removed from the game.",
+    "text": "Removed from the game.",
     "text_plain": "Removed from the game."
   },
   "10752": {
@@ -4066,7 +4066,7 @@
     ]
   },
   "10773": {
-    "text": " Removed from the game. ",
+    "text": "Removed from the game.",
     "text_plain": "Removed from the game."
   },
   "10774": {
@@ -4262,7 +4262,7 @@
     ]
   },
   "10796": {
-    "text": " Removed from the game.",
+    "text": "Removed from the game.",
     "text_plain": "Removed from the game."
   },
   "10797": {
@@ -6016,8 +6016,8 @@
     ]
   },
   "11075": {
-    "text": " Removed from the game. /n This card previously granted the item <a href=\"?id=11076_0\">Mazer Beam MK-179</a> to the caster.",
-    "text_plain": "Removed from the game. /n This card previously granted the item Mazer Beam MK-179 to the caster."
+    "text": "Removed from the game.<br>This card previously granted the item [[Mazer Beam MK-179]] to the caster.",
+    "text_plain": "Removed from the game.\nThis card previously granted the item Mazer Beam MK-179 to the caster."
   },
   "11076": {
     "text": "+2 [color:attribute_glyph[&#9635;]]<br><br>[activatedability[[color:ability[Active 3 &#9632;, 1 Mana:]] [g:404[Disarm]] each [g:608[unit]] pointing at equipped [g:0[hero]].]]",
@@ -6038,8 +6038,8 @@
     ]
   },
   "11078": {
-    "text": " +2[AR] /n [TG]Active 2[AC], 1 Mana:[ET] Deal damage to each unit pointing at equipped hero equal to the number of charges. /n After battling a unit, charge Type XLII Kineto-Zap Harmor, max 4.",
-    "text_plain": "+2[AR] /n [TG]Active 2[AC], 1 Mana:[ET] Deal damage to each unit pointing at equipped hero equal to the number of charges. /n After battling a unit, charge Type XLII Kineto-Zap Harmor, max 4."
+    "text": "+2&#9636;<br>[color:ability[Active &#9632;2, 1 Mana:]] Deal damage to each unit pointing at equipped hero equal to the number of charges.<br>After battling a unit, charge Type XLII Kineto-Zap Harmor, max 4.",
+    "text_plain": "+2 Armor\nActive 2, 1 Mana: Deal damage to each unit pointing at equipped hero equal to the number of charges.\nAfter battling a unit, charge Type XLII Kineto-Zap Harmor, max 4."
   },
   "11079": {
     "text": "+2 [color:attribute_glyph[&#9636;]]<br><br>[activatedability[[color:ability[Active 2 &#9632;, 1 Mana:]] Deal damage to each [g:608[unit]] pointing at equipped [g:0[hero]] equal to the number of charges. <br><br>After [g:400[battling]] a [g:608[unit]], charge {s:thisCardName}, max 4.]]",
@@ -6051,8 +6051,8 @@
     ]
   },
   "11080": {
-    "text": " +2[HP] /n [TG]Active 3[AC], 1 Mana:[ET] Move this hero to another position. It may stay in place. It taunts.",
-    "text_plain": "+2[HP] /n [TG]Active 3[AC], 1 Mana:[ET] Move this hero to another position. It may stay in place. It taunts."
+    "text": "+2&#9637;<br>[color:ability[Active &#9632;3, 1 Mana:]] Move this hero to another position. It may stay in place. It taunts.",
+    "text_plain": "+2 Health\nActive 3, 1 Mana: Move this hero to another position. It may stay in place. It taunts."
   },
   "11081": {
     "text": "+2 [color:attribute_glyph[&#9637;]]<br><br>[activatedability[[color:ability[Active 2 &#9632;, 1 Mana:]] Move this [g:0[hero]] to a position. May stay in place. It [g:403[taunts]].]]",
