@@ -1,0 +1,246 @@
+/*
+ * Card renderer: reproduces Valve's 526x890 card renders (images/classic.json "large")
+ * from the repository's data and the game's own assets (ui/assets/, extracted locally by
+ * scripts/extract_assets.py and never committed).
+ *
+ * All sizes are the render's pixels. The card body is 519x884 at (4, 2).
+ */
+@font-face { font-family: Radiance; src: url(../assets/fonts/radiance-regular.otf); font-weight: 400; }
+@font-face { font-family: Radiance; src: url(../assets/fonts/radiance-semibold.otf); font-weight: 600; }
+@font-face { font-family: Radiance; src: url(../assets/fonts/radiance-bold.otf); font-weight: 700; }
+@font-face { font-family: RadianceCondensed; src: url(../assets/fonts/radiance-regularcondensed.otf); font-weight: 400; }
+@font-face { font-family: RadianceCondensed; src: url(../assets/fonts/radiance-semiboldcondensed.otf); font-weight: 600; }
+@font-face { font-family: RadianceCondensed; src: url(../assets/fonts/radiance-boldcondensed.otf); font-weight: 700; }
+
+:root {
+  /* header colour and stat-bar colour per card colour, measured on Valve's renders */
+  --red: #912d38;    --red-bar: #621b24;
+  --blue: #225b7b;   --blue-bar: #123d54;
+  --green: #59743d;  --green-bar: #4f6832;
+  --black: #312a2e;  --black-bar: #292225;
+  --gold: #df9837;   --gold-bar: #cc821c;
+  --none: #706c66;   --none-bar: #494541;
+  --title: #fff8ec;
+  --label: #c9a07a;
+}
+
+html, body { margin: 0; background: transparent; }
+
+.render {
+  --frame: var(--none);
+  --bar: var(--none-bar);
+  position: relative;
+  width: 526px;
+  height: 890px;
+  overflow: hidden;
+  font-family: Radiance, sans-serif;
+}
+.render.red { --frame: var(--red); --bar: var(--red-bar); }
+.render.blue { --frame: var(--blue); --bar: var(--blue-bar); }
+.render.green { --frame: var(--green); --bar: var(--green-bar); }
+.render.black { --frame: var(--black); --bar: var(--black-bar); }
+.render.item { --frame: var(--gold); --bar: var(--gold-bar); }
+
+.body {
+  position: absolute;
+  left: 4px; top: 2px;
+  width: 519px; height: 884px;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #151515;
+}
+
+/* art: full_art (1024x1024) scaled and offset exactly as Valve's renders place it */
+.art { position: absolute; background-repeat: no-repeat; }
+.unit .art  { left: -81px; top: 87px; width: 681px; height: 681px; }
+.spell .art { left: -2px;  top: 21px; width: 523px; height: 523px; }
+/* path cards: art only, warmer (Valve's renders grade them by about 1.22/1.15/1.09) */
+.path .art  { left: -182px; top: 0; width: 884px; height: 884px; filter: url(#warm); }
+
+/* header */
+.header {
+  position: absolute;
+  left: 0; top: 0; width: 519px; height: 86px;
+  background: var(--frame);
+  display: flex; align-items: center;
+  color: var(--title);
+  text-shadow: 1px 2px 1px #000c, 0 0 2px #0006;
+}
+.header .cost, .header .title { position: relative; top: -1px; }
+.cost {
+  font: 400 68px/1 RadianceCondensed;
+  margin-left: 20px;
+  min-width: 46px;
+  display: flex; align-items: center; justify-content: center;
+}
+.cost .lane { width: 30px; height: 30px; margin: 0 3px 0 -6px; opacity: .6;   /* crosslane_icon, as a vector */
+              background: #fff0e0; clip-path: polygon(18.75% 50%, 75% 3%, 75% 97%); }
+.cost .lane.right { transform: rotate(180deg); margin: 0 3px 0 0; }
+.cost .quick { width: 30px; height: 45px; margin: -8px 3px 0 0; opacity: .6;   /* initiative: quick_icon after the cost */
+               background: url(../assets/classic/ui/card/quick_icon.png) center/contain no-repeat; }
+.title { font: 400 51.5px/1 RadianceCondensed; margin-left: 11px; white-space: nowrap; -webkit-text-stroke: .2px #fbf1e6;
+         /* a faint fade from the cap height to the baseline, as in Valve's renders */
+         color: transparent; -webkit-background-clip: text; background-clip: text; text-shadow: none;
+         background-image: linear-gradient(#fffdf2 8%, #f7e9de 74.5%);
+         filter: drop-shadow(1px 2px 1px #000c) drop-shadow(0 0 2px #0006); }
+.hero .title { margin-left: 16px; }
+.item .title { margin-left: 29px; }
+.cost:has(.quick) { margin-left: 18px; }
+.hero-icon {
+  position: relative;
+  flex: none;
+  width: 73px; height: 73px; margin-left: 11px; top: 3px;
+  background: url(../assets/classic/ui/card/blank_circle.png) center/contain no-repeat;
+}
+.hero-icon i { position: absolute; inset: 11px 10px 9px; background: center/contain no-repeat; }
+
+/* the frame material (ui/assets/classic/ui/frame/, baked by scripts/frame.py); the strip and
+   the bar rise in a half circle (radius 25) under the emblem */
+.material { position: absolute; inset: 0; z-index: -1; background: var(--frame-header) 0 0 / 519px 86px no-repeat; }
+.header, .bottom { isolation: isolate; }
+.bottom .material { top: -25px; background: var(--frame-bottom) 0 0 / 519px 100% no-repeat;
+                    clip-path: path('M0 25 H234.5 A25 25 0 0 1 284.5 25 H519 V200 H0 Z'); }
+
+/* type badge (top left of the art) */
+.badge { position: absolute; left: 9px; top: 93px; width: 76px; height: 76px; background: center/contain no-repeat; }
+
+/* signature hero / improvement icons */
+.signature { position: absolute; right: 12px; width: 73px; height: 73px;
+             background: url(../assets/classic/ui/card/blank_circle.png) center/contain no-repeat; }
+.signature i { position: absolute; inset: 11px 10px 9px; background: center/contain no-repeat; }
+.spell .signature { top: 388px; }
+.unit .signature { top: 388px; }
+/* improvement icon in a silver ring on the art/text seam, with three points (passive) or six
+   (an active ability); Valve's renders draw it from a 3D model, measured: icon radius 35,
+   light line at 40, band to 47.5, points to 62 */
+.improvement-ring { position: absolute; left: 211px; top: 426px; width: 96px; height: 96px; }
+.improvement-ring svg { position: absolute; left: -32px; top: -32px; width: 160px; height: 160px; overflow: visible; }
+.improvement-icon {
+  position: absolute; left: 8.5px; top: 8.5px; width: 79px; height: 79px;
+  border-radius: 50%; background: center/cover no-repeat;
+}
+.improvement-ring .rim {   /* a thin light line on the icon's edge, then the grey band */
+  position: absolute; inset: 0; border-radius: 50%;
+  background: radial-gradient(circle, #0000 0 39px, #b9bbb3 39.6px 41px, #8a8987 41.6px, #0000 42.1px),
+              linear-gradient(170deg, #747371, #484746);
+  -webkit-mask: radial-gradient(circle, #0000 0 38.8px, #000 39.3px 47.5px, #0000 48px);
+  mask: radial-gradient(circle, #0000 0 38.8px, #000 39.3px 47.5px, #0000 48px);
+}
+.has-ring .textbox { padding-top: 23.5px; }
+.improvement-ring .charges { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; }
+.improvement-ring .charges span {   /* the label colours, fading to the baseline */
+  font: 600 60px/1 RadianceCondensed; position: relative; left: 0; top: -2px;
+  color: transparent; -webkit-background-clip: text; background-clip: text;
+  background-image: linear-gradient(#fbd2a2 8%, #bf9272 74.5%);
+  filter: drop-shadow(-4px 3px 4px #000) drop-shadow(-2px 1px 2px #000); }
+
+/* text box */
+.textbox {
+  position: absolute;
+  left: 0; width: 519px;
+  display: flex; align-items: center; justify-content: center;
+  box-sizing: border-box;
+  padding: 21.5px 20px 14.5px;
+  color: #fffef6;
+  font: 400 36px/1.417 Radiance;
+  isolation: isolate;
+  text-align: center;
+}
+/* text shadow on the whole text (labels are gradient-filled, which text-shadow would cover) */
+.textbox .inner { filter: drop-shadow(1px 2px 1px #000) drop-shadow(0 0 1px #0009); }
+.spell .textbox { top: 477px; height: 376px; --fit-slack: 20px; }   /* see fitText() */
+.spell .textbox::before {   /* card_background as lit in Valve's renders (scripts/frame.py) */
+  content: ''; position: absolute; inset: 0; z-index: -1;
+  background: url(../assets/classic/ui/frame/textbox.png) 0 0 / 519px 376px no-repeat;
+}
+.stronghold .textbox::before { background: linear-gradient(#181a16, #161714); }   /* towers: a plain panel */
+.unit .textbox  { top: 477px; height: 289px; padding-top: 17.5px; padding-bottom: 18.5px; --fit-slack: 23px; }   /* Valve fits unit text in less room */
+.unit .textbox::before {   /* card_unit_background (translucent) over the art */
+  content: ''; position: absolute; inset: 0; z-index: -1;
+  height: 388px; opacity: .9;
+  background: url(../assets/classic/ui/card/card_unit_background.png) 0 0 / 519px 388px no-repeat;
+}
+.textbox b { font-weight: 700; }
+/* label colours, measured on Valve's renders: each line of a label fades from --top at the
+   cap height to --bot at the baseline (15% and 70% of Radiance's line box) */
+.textbox .label, .textbox .AbilityCardText {
+  --top: #fbd2a2; --bot: #bf9272;
+  color: transparent; -webkit-background-clip: text; background-clip: text;
+  background-image: linear-gradient(var(--top) 15%, var(--bot) 70.4%);
+  -webkit-box-decoration-break: clone; box-decoration-break: clone;
+}
+.textbox .label.play_effect, .textbox .label.death_effect, .textbox .label.equip_effect { --top: #d7c39d; --bot: #a4886f; }
+.textbox .label.red { --top: #ff473a; --bot: #c33129; }
+.textbox .label.black { --top: #9a8f9f; --bot: #756370; }
+.textbox .label.blue { --top: #4196b4; --bot: #32697f; }
+.textbox .label.green { --top: #60b945; --bot: #498131; }
+.textbox p { margin: 0; }
+.textbox p + p { margin-top: 1.222em; }
+
+.textbox .LineSpacing { color: transparent; }
+.textbox .g { font-family: Radiance; font-weight: 400; }
+
+/* bottom: thin strip (spells) or stat bar (units) */
+.bottom {
+  position: absolute; left: 0; bottom: 0; width: 519px;
+  background: var(--bar);
+}
+.spell .bottom { height: 30px; background: var(--frame); }
+.unit .bottom  { height: 117px; }
+.stats { position: absolute; left: 0; bottom: 0; width: 519px; height: 118px; color: var(--title);
+         font: 400 49px/1 Radiance; text-shadow: 2px 2px 1px #0009;
+         -webkit-text-stroke: .3px var(--title); }   /* a little heavier, like Valve's */
+.stat { position: absolute; top: 41px; display: flex; align-items: center; gap: 5px; }
+.stat.attack { left: 70px; }
+.stat.armor { left: 220px; }
+.stat.health { right: 65px; }
+.stat i { width: 45px; height: 45px; margin: -6px -5px 0; position: relative; top: -2px;
+          background: center/contain no-repeat; filter: url(#title-tint); }   /* the icons carry their shadow */
+.stat.attack i { background-image: url(../assets/classic/ui/card/cardstat_attack.png); }
+.stat.armor i  { background-image: url(../assets/classic/ui/card/cardstat_armor.png); }
+.stat.health i { background-image: url(../assets/classic/ui/card/cardstat_health.png); }
+.stat.armor.zero { visibility: hidden; }
+
+/* rarity / set emblem on the bottom edge */
+.emblem { position: absolute; left: 238px; width: 43px; height: 43px; filter: url(#warm);
+          /* the set icons have a faint black outer ring (4 of 256 px) the card model crops off */
+          background: center / 44.4px 44.4px no-repeat; clip-path: circle(21.5px); }
+.emblem::after { content: ''; position: absolute; inset: 0; border-radius: 50%;   /* its bezel, lit from the top */
+                 background: radial-gradient(circle, #0000 0 20.2px, #c8bfb466 20.8px, #c8bfb4aa 21.5px);
+                 -webkit-mask: linear-gradient(160deg, #000 15%, #0000 55%); mask: linear-gradient(160deg, #000 15%, #0000 55%); }
+.unit .emblem::after { opacity: .25; }
+.spell .emblem { top: 832px; }
+.unit .emblem  { top: 746px; }
+
+/* gold cost (items) */
+.gold { position: absolute; left: 422px; top: 795px; width: 93px; height: 93px; isolation: isolate;
+        font: 400 47px/96px Radiance; color: #dedede; text-align: center; text-shadow: 2px 2px 2px #000; }
+.gold::before { content: ''; position: absolute; inset: 0; z-index: -1; filter: brightness(.83);
+                background: url(../assets/classic/ui/card/cardstat_goldcost.png) center/contain no-repeat; }
+.gold span { display: inline-block; transform: translate(-1px, 5px); }
+
+/* hero abilities */
+.abilities { position: absolute; left: 14px; top: 520px; display: flex; gap: 18px; }
+.ability { position: relative; width: 150px; height: 150px; }
+.ability .icon { position: absolute; left: 5px; top: 4px; width: 144px; height: 144px;   /* under the frame */
+                 background: center/cover no-repeat; filter: brightness(1.08); }
+.ability .bevel { position: absolute; inset: 0; background: center/contain no-repeat; }
+
+/* cards with only a mini icon (abilities): the framed icon, twice a hero ability's size, over a blur of itself */
+.mini-art .art { overflow: hidden; }
+.mini-art .art::before { content: ''; position: absolute; inset: -40px; background: var(--mini) center/cover no-repeat;
+                         filter: blur(18px) brightness(.5); }
+.mini-art .mini-tile { position: absolute; left: 50%; top: 45%; transform: translate(-50%, -50%) scale(2); }
+
+/* small preview (Valve's "mini", 267x267): border colours and vignette measured on Valve's minis;
+   the vignette is the same fade on each edge, multiplied (overlapping alpha layers) */
+.mini { position: relative; width: 267px; height: 267px; box-sizing: border-box; border: 3px solid; overflow: hidden; }
+.mini.red { border-color: #c2352d; }   .mini.green { border-color: #479036; }
+.mini.blue { border-color: #2f7492; }  .mini.black { border-color: #736e80; }
+.mini.item { border-color: #dcaf4e; }  .mini.none { border-width: 0; }
+.mini-art-img { position: absolute; inset: 0; background: center/cover no-repeat #000; }
+.mini .vignette { position: absolute; inset: 0; --fade: rgb(0 0 0 / .96) 0, rgb(0 0 0 / .9) 2px, rgb(0 0 0 / .81) 5px,
+                  rgb(0 0 0 / .72) 10px, rgb(0 0 0 / .65) 15px, rgb(0 0 0 / .36) 20px, rgb(0 0 0 / .16) 25px,
+                  rgb(0 0 0 / .02) 30px, transparent 31px;
+                  background: linear-gradient(to bottom, var(--fade)), linear-gradient(to top, var(--fade)),
+                              linear-gradient(to right, var(--fade)), linear-gradient(to left, var(--fade)); }

@@ -1,0 +1,101 @@
+<!doctype html>
+<!--
+  Card browser: every card face drawn by ui/render (Valve's card layout, the game's own
+  assets). Serve the repository root over HTTP and extract the assets first:
+      python3 scripts/extract_assets.py
+      python3 -m http.server -d . 8000
+  then open http://localhost:8000/ui/?game=classic&type=6&lang=english
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Artifact cards</title>
+  <link rel="stylesheet" href="render/card.css">
+  <style>
+    body { background: #1c1c1c; color: #ccc; font: 14px sans-serif; margin: 0; }
+    header { position: sticky; top: 0; z-index: 2; display: flex; gap: 8px; flex-wrap: wrap; align-items: center;
+             padding: 10px 16px; background: #111; border-bottom: 1px solid #333; }
+    select, input { background: #222; color: #ddd; border: 1px solid #444; padding: 4px 6px; }
+    #count { margin-left: auto; color: #888; }
+    main { display: flex; flex-wrap: wrap; gap: 10px; padding: 12px; }
+    .slot { width: calc(526px * var(--s)); height: calc(890px * var(--s)); overflow: hidden; }
+    .slot.small { width: calc(267px * var(--s)); height: calc(267px * var(--s)); }
+    .slot > div { transform: scale(var(--s)); transform-origin: 0 0; }
+  </style>
+</head>
+<body>
+<header>
+  <select id="game"><option>classic</option><option>foundry</option><option>reborn</option></select>
+  <select id="lang"></select>
+  <select id="type">
+    <option value="">all faces</option><option value="6">Hero</option><option value="4">Creep</option>
+    <option value="7">Spell</option><option value="9">Improvement</option><option value="5">Item</option>
+    <option value="2">Stronghold</option><option value="3">Pathing</option><option value="8">Ability</option>
+  </select>
+  <select id="kind"><option value="face">card faces</option><option value="mini">small previews</option></select>
+  <input id="q" placeholder="name or id" size="24">
+  <label>scale <input type="range" id="scale" min="0.2" max="1" step="0.05" value="0.4"></label>
+  <span id="count"></span>
+</header>
+<main id="cards"></main>
+<script type="module">
+import { loadGame, render, renderMini } from './render/card.js';
+
+const LANGS = {
+  classic: ['english', 'brazilian', 'french', 'german', 'italian', 'japanese', 'koreana', 'latam', 'russian',
+            'schinese', 'spanish', 'tchinese'],
+  foundry: ['english', 'brazilian', 'french', 'german', 'italian', 'japanese', 'koreana', 'latam', 'polish',
+            'russian', 'schinese', 'spanish', 'tchinese', 'thai', 'turkish'],
+};
+const FACES = new Set([2, 3, 4, 5, 6, 7, 8, 9]);   // abilities: drawn with their mini icon
+const $ = (id) => document.getElementById(id);
+const q = new URLSearchParams(location.search);
+for (const k of ['game', 'type', 'q']) if (q.get(k)) $(k).value = q.get(k);
+let data, token = 0;
+
+async function load() {
+  const game = $('game').value;
+  const langs = LANGS[game] || LANGS.classic;
+  const want = $('lang').value || q.get('lang') || 'english';
+  $('lang').innerHTML = langs.map((l) => `<option>${l}</option>`).join('');
+  $('lang').value = langs.includes(want) ? want : 'english';
+  data = await loadGame(game, $('lang').value);
+  draw();
+}
+
+async function draw() {
+  const mine = ++token;
+  const out = $('cards');
+  out.textContent = '';
+  out.style.setProperty('--s', $('scale').value);
+  const type = $('type').value;
+  const text = $('q').value.trim().toLowerCase();
+  const ids = Object.keys(data.details).filter((id) => {
+    const c = data.details[id];
+    if (!FACES.has(c.type) || (type && c.type !== Number(type))) return false;
+    const name = (data.loc[id]?.name || c.name || '').toLowerCase();
+    return !text || id.includes(text) || name.includes(text);
+  });
+  $('count').textContent = `${ids.length} cards`;
+  for (const id of ids.slice(0, 300)) {
+    if (mine !== token) return;
+    const slot = document.createElement('div');
+    slot.className = $('kind').value === 'mini' ? 'slot small' : 'slot';
+    out.append(slot);
+    const inner = document.createElement('div');
+    slot.append(inner);
+    const paint = $('kind').value === 'mini' ? renderMini : render;
+    try { await paint(data, id, inner); } catch (e) { slot.textContent = `${id}: ${e.message}`; }
+  }
+}
+
+$('game').onchange = load;
+$('lang').onchange = load;
+$('type').onchange = draw;
+$('kind').onchange = draw;
+$('q').oninput = draw;
+$('scale').oninput = () => $('cards').style.setProperty('--s', $('scale').value);
+load();
+</script>
+</body>
+</html>

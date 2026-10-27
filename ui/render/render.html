@@ -1,0 +1,42 @@
+<!doctype html>
+<!--
+  Renders one card at Valve's render size (526x890):
+    render.html?game=classic&id=10001&lang=english
+  Needs the repository served over HTTP and ui/assets/ extracted
+  (python3 scripts/extract_assets.py). scripts/render_cards.py screenshots it.
+  &art=<artwork id> draws an alternate artwork; &kind=mini draws the 267x267 small preview. &compare=1 overlays Valve's render (images/classic/large/english/<id>.png) for checking.
+-->
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="card.css">
+  <style>
+    #stage { position: relative; width: 526px; height: 890px; }
+    #ref { position: absolute; left: 0; top: 0; opacity: .5; pointer-events: none; }
+  </style>
+</head>
+<body>
+<div id="stage"><div id="card"></div></div>
+<script type="module">
+import { loadGame, render, renderMini } from './card.js';
+const q = new URLSearchParams(location.search);
+const game = q.get('game') || 'classic';
+const data = await loadGame(game, q.get('lang') || 'english');
+try {
+  const draw = q.get('kind') === 'mini' ? renderMini : render;
+  if (q.get('kind') === 'mini') Object.assign(document.getElementById('stage').style, { width: '267px', height: '267px' });
+  await draw(data, q.get('id') || '10001', document.getElementById('card'), { art: q.get('art') || undefined });
+} catch (e) {
+  document.body.textContent = String(e);
+}
+if (q.get('compare')) {
+  const img = new Image();
+  img.id = 'ref';
+  img.src = `../../images/classic/large/english/${q.get('id')}.png`;
+  document.getElementById('stage').append(img);
+}
+window.renderDone = true;
+document.title = 'done';
+</script>
+</body>
+</html>
