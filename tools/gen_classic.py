@@ -4,7 +4,7 @@
 community database (original-meta) and the game's localization, items_game and card sets.
 Also images/classic.json, Valve's image URLs.
 
-    python3 tools/gen_classic.py          (or: python3 tools/generate.py --only classic)
+    python3 tools/gen_classic.py
 """
 from __future__ import annotations
 
@@ -13,7 +13,7 @@ import re
 
 from common import (DECK_TYPES, RARITY_BITS, Paths, by_id, card_items, card_sets, classic_convert, clean, fold,
                     history_of, items_game, keyword_table, link_reverse, link_text, load_json, load_yaml,
-                    localization, report, write, write_game)
+                    localization, report, traces, write, write_game)
 from sources import Vpk, load_tokens
 
 
@@ -218,8 +218,9 @@ def load_classic(P: Paths):
 
 def main():
     P = Paths()
-    P.need('classic', 'original_meta', 'reborn_client')
+    P.need('classic', 'original_meta', 'reborn_client', 'replay_parser')
     report('classic', build_classic(P))
+    write('classic/traces.json', traces(P)[0]['classic'])
     build_image_list(P)
 
 

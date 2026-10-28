@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """Regenerate the metadata repository from the game files and source repos.
 
-    python3 tools/generate.py                     # everything
-    python3 tools/generate.py --only reborn       # one part: commons, classic, foundry, reborn, images
+    python3 tools/generate.py                     # commons/ and reborn/
+    python3 tools/generate.py --only reborn       # one part: commons or reborn
+    python3 tools/gen_classic.py                  # classic/ and images/classic.json
+    python3 tools/gen_foundry.py                  # foundry/
 
 Source locations come from .env (copy .env.example, which has the usual Linux/Steam paths):
   ARTIFACT_CLASSIC, ARTIFACT_FOUNDRY  the game installs (localization, pak01_dir.vpk)
@@ -12,9 +14,9 @@ Source locations come from .env (copy .env.example, which has the usual Linux/St
   REBORN_GC                           artifact-reborn-gc (gauntlets, community card ids)
   REPLAY_PARSER                       replay-parser (trace tables and protos)
 
-Classic and Foundry are built by tools/gen_classic.py and tools/gen_foundry.py (also runnable
-alone); this script adds Reborn (the community patch) and the commons. commons/clusters.json
-is maintained data (not generated).
+This script writes the commons and Reborn (the community patch, read on top of Classic's
+cards); classic/ and foundry/ are written only by tools/gen_classic.py and tools/gen_foundry.py.
+commons/clusters.json is maintained data (not generated).
 """
 from __future__ import annotations
 
@@ -23,10 +25,8 @@ import collections
 import re
 
 from common import (RARITY_BITS, ROOT, Paths, _card_tokens, by_id, card_items, card_sets, items_game, keyword_table,
-                    load_json, load_yaml, report, write, write_game)
-from gen_classic import (build_classic, build_image_list, chat_wheel_classic, classic_set_of, load_classic,
-                         registry_game)
-from gen_foundry import build_foundry
+                    load_json, load_yaml, report, traces, write, write_game)
+from gen_classic import chat_wheel_classic, classic_set_of, load_classic, registry_game
 from sources import Vpk, kv_dict, kv_get, load_tokens, parse_kv, read_text
 
 
@@ -175,79 +175,23 @@ def build_commons(P: Paths):
         'client_rarity_bits': {'2': 'Common', '4': 'Uncommon', '8': 'Rare'},
         'colors': {'Common': '#b0c3d9', 'Uncommon': '#5e98d9', 'Rare': '#4b69ff'},
     })
-    ids, data = traces(P)
-    for game in ('classic', 'foundry', 'reborn'):   # Reborn runs Classic's client: Classic's ids
-        write(f'{game}/traces.json', ids['foundry' if game == 'foundry' else 'classic'])
-    write('commons/traces_data.json', data)
-    (ROOT / 'commons/traces.json').unlink(missing_ok=True)
+    write('commons/traces_data.json', traces(P)[1])
 
-
-def traces(P: Paths):
-    rp = P.replay_parser
-    src = read_text(rp / 'internal/dcg/traces.go')
-    data_src = read_text(rp / 'internal/dcg/traces_data.go')
-    msgs = read_text(rp / 'internal/dcg/messages.go')
-
-    def go_map(text, var):
-        start = text.index(f'var {var} = map[')
-        body = text[start:text.index('\n}\n', start)]
-        return {int(k): v for k, v in re.findall(r'(\d+):\s*"([^"]+)"', body)}
-
-    classic = go_map(src, 'classicTypeIDs')
-    foundry = go_map(src, 'knownTraceTypeIDs2')
-    # The parser documents 76 as CardPlayed in Classic and DamageAttempted in Foundry.
-    foundry.setdefault(76, 'DamageAttempted')
-    # The builds share the numbering except where they disagree (76 and 108); an id one
-    # build's table lacks is taken from the other's.
-    ids = {build: by_id({i: (own.get(i) or other.get(i)) for i in sorted(set(classic) | set(foundry))})
-           for build, own, other in (('classic', classic, foundry), ('foundry', foundry, classic))}
-    fields = {}
-    for name, body in re.findall(r'"(\w+)":\s*\{([^}]*)\}', data_src[data_src.index('var traceFieldNames'):]):
-        fields[name] = {k: v for k, v in re.findall(r'(\d+):\s*"(\w+)"', body)}
-    enums = {}
-    for build in ('artifact', 'artifact2'):
-        proto = rp / 'protos' / build / 'dcg_gamemessages.proto'
-        if proto.exists():
-            enums['classic' if build == 'artifact' else 'foundry'] = {
-                m[1]: {v: k for k, v in re.findall(r'(\w+)\s*=\s*(-?\d+);', m[2])}
-                for m in re.finditer(r'enum (\w+) \{([^}]*)\}', proto.read_text())}
-    trace_msgs = {}
-    proto = rp / 'protos/artifact2/dcg_gamemessages.proto'
-    if proto.exists():
-        for m in re.finditer(r'message CTraceMsg_(\w+) \{([^}]*)\}', proto.read_text()):
-            trace_msgs[m[1]] = {num: f'{typ} {name}' for typ, name, num in
-                                re.findall(r'(?:optional|repeated|required)\s+([\w.]+)\s+(\w+)\s*=\s*(\d+)', m[2])}
-    return ids, {
-        'fields': dict(sorted(fields.items())),
-        'messages': dict(sorted(trace_msgs.items())),
-        'script_block_types': by_id(go_map(msgs, 'scriptBlockNames')),
-        'enums': enums,
-    }
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument('--only', action='append', choices=['commons', 'classic', 'foundry', 'reborn', 'images'])
+    ap.add_argument('--only', action='append', choices=['commons', 'reborn'])
     args = ap.parse_args()
     P = Paths()
-    parts = set(args.only or ['commons', 'classic', 'foundry', 'reborn', 'images'])
-    need = {'commons': ('classic', 'replay_parser'), 'classic': ('classic', 'original_meta', 'reborn_client'),
-            'foundry': ('classic', 'foundry', 'original_meta', 'reborn_client'), 'images': ('original_meta',),
-            'reborn': ('classic', 'original_meta', 'reborn_client', 'reborn_gc')}
+    parts = set(args.only or ['commons', 'reborn'])
+    need = {'commons': ('classic', 'replay_parser'),
+            'reborn': ('classic', 'original_meta', 'reborn_client', 'reborn_gc', 'replay_parser')}
     P.need(*sorted({a for p in parts for a in need[p]}))
     if 'commons' in parts:
         build_commons(P)
-    if 'images' in parts:
-        build_image_list(P)
-    if parts & {'classic', 'foundry', 'reborn'}:
-        if 'classic' in parts:
-            classic = build_classic(P)
-            report('classic', classic)
-        else:   # Foundry and Reborn only need Classic's cards
-            classic = load_classic(P)
-        if 'foundry' in parts:
-            report('foundry', build_foundry(P, classic))
-        if 'reborn' in parts:
-            report('reborn', build_reborn(P, classic))
+    if 'reborn' in parts:   # on Classic's cards, read but not written
+        report('reborn', build_reborn(P, load_classic(P)))
+        write('reborn/traces.json', traces(P)[0]['classic'])   # Reborn runs Classic's client
 
 
 if __name__ == '__main__':

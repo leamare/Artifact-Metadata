@@ -28,9 +28,9 @@ the web page (`python3 -m http.server -d . 8000`, open `/ui/`).
 
 | Script | |
 |---|---|
-| `tools/generate.py` | regenerate everything (`--only commons/classic/foundry/reborn/images`): commons and Reborn itself, Classic and Foundry through the two below |
-| `tools/gen_classic.py` | Classic (client registry + Valve's card API + community database) and `images/classic.json` |
-| `tools/gen_foundry.py` | Foundry (community database + Foundry client), on top of Classic |
+| `tools/generate.py` | `commons/` and `reborn/` (`--only commons` / `--only reborn`); never writes `classic/` or `foundry/` |
+| `tools/gen_classic.py` | `classic/` (client registry + Valve's card API + community database) and `images/classic.json` |
+| `tools/gen_foundry.py` | `foundry/` (community database + Foundry client), reading Classic's cards |
 | `scripts/update_reborn.py` | regenerate `reborn/` (optionally `--pull` the patch repositories) and `changes.json` |
 | `scripts/extract_assets.py` | decode the game's textures, copy fonts and bake the frame into `ui/assets/` |
 | `scripts/frame.py` | `fit`: refit the frame and text box lighting on Valve's renders (`scripts/data/frame.json`) |

@@ -13,7 +13,7 @@ import shutil
 from pathlib import Path
 
 from markup import keyword_ids, plain
-from sources import Vpk, kv_dict, kv_get, load_tokens, parse_kv
+from sources import Vpk, kv_dict, kv_get, load_tokens, parse_kv, read_text
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -434,3 +434,49 @@ def write_game(folder, cards, loc, chat_wheel, extra):
         write(f'{folder}/localization/{lang}.json', data)
     for name, data in extra.items():
         write(f'{folder}/{name}.json', data)
+
+
+# --- replay traces --------------------------------------------------------------------------
+
+def traces(P: Paths):
+    """Trace tables of the replay parser: ({build: trace type id -> name}, the shared tables)."""
+    rp = P.replay_parser
+    src = read_text(rp / 'internal/dcg/traces.go')
+    data_src = read_text(rp / 'internal/dcg/traces_data.go')
+    msgs = read_text(rp / 'internal/dcg/messages.go')
+
+    def go_map(text, var):
+        start = text.index(f'var {var} = map[')
+        body = text[start:text.index('\n}\n', start)]
+        return {int(k): v for k, v in re.findall(r'(\d+):\s*"([^"]+)"', body)}
+
+    classic = go_map(src, 'classicTypeIDs')
+    foundry = go_map(src, 'knownTraceTypeIDs2')
+    # The parser documents 76 as CardPlayed in Classic and DamageAttempted in Foundry.
+    foundry.setdefault(76, 'DamageAttempted')
+    # The builds share the numbering except where they disagree (76 and 108); an id one
+    # build's table lacks is taken from the other's.
+    ids = {build: by_id({i: (own.get(i) or other.get(i)) for i in sorted(set(classic) | set(foundry))})
+           for build, own, other in (('classic', classic, foundry), ('foundry', foundry, classic))}
+    fields = {}
+    for name, body in re.findall(r'"(\w+)":\s*\{([^}]*)\}', data_src[data_src.index('var traceFieldNames'):]):
+        fields[name] = {k: v for k, v in re.findall(r'(\d+):\s*"(\w+)"', body)}
+    enums = {}
+    for build in ('artifact', 'artifact2'):
+        proto = rp / 'protos' / build / 'dcg_gamemessages.proto'
+        if proto.exists():
+            enums['classic' if build == 'artifact' else 'foundry'] = {
+                m[1]: {v: k for k, v in re.findall(r'(\w+)\s*=\s*(-?\d+);', m[2])}
+                for m in re.finditer(r'enum (\w+) \{([^}]*)\}', proto.read_text())}
+    trace_msgs = {}
+    proto = rp / 'protos/artifact2/dcg_gamemessages.proto'
+    if proto.exists():
+        for m in re.finditer(r'message CTraceMsg_(\w+) \{([^}]*)\}', proto.read_text()):
+            trace_msgs[m[1]] = {num: f'{typ} {name}' for typ, name, num in
+                                re.findall(r'(?:optional|repeated|required)\s+([\w.]+)\s+(\w+)\s*=\s*(\d+)', m[2])}
+    return ids, {
+        'fields': dict(sorted(fields.items())),
+        'messages': dict(sorted(trace_msgs.items())),
+        'script_block_types': by_id(go_map(msgs, 'scriptBlockNames')),
+        'enums': enums,
+    }

@@ -4,7 +4,7 @@
 client's localization, card sets and chat wheel lines. Builds on Classic (names, types,
 chat wheel) for cards the community data leaves out.
 
-    python3 tools/gen_foundry.py          (or: python3 tools/generate.py --only foundry)
+    python3 tools/gen_foundry.py
 """
 from __future__ import annotations
 
@@ -13,7 +13,7 @@ import re
 
 from common import (COLOUR_LETTERS, DECK_TYPES, Paths, card_sets, clean, community_markup, fold, history_of,
                     keyword_table, link_reverse, link_text, load_json, localization, ref_id, ref_ids,
-                    report, write_game)
+                    report, traces, write, write_game)
 from markup import ability_names
 from sources import Vpk
 from gen_classic import chat_wheel_classic, classic_set_of, load_classic
@@ -202,8 +202,9 @@ def build_foundry(P: Paths, classic_cards):
 
 def main():
     P = Paths()
-    P.need('classic', 'foundry', 'original_meta', 'reborn_client')
-    report('foundry', build_foundry(P, load_classic(P)))
+    P.need('classic', 'foundry', 'original_meta', 'reborn_client', 'replay_parser')
+    report('foundry', build_foundry(P, load_classic(P)))   # Classic's cards are read, not written
+    write('foundry/traces.json', traces(P)[0]['foundry'])
 
 
 if __name__ == '__main__':
