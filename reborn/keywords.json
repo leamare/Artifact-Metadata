@@ -236,7 +236,8 @@
       "description": "When a unit taunts all of its enemy neighbors change their combat target to that unit.",
       "example_cards": [
         10342,
-        10418
+        10418,
+        20032
       ]
     },
     "404": {
@@ -338,6 +339,18 @@
         10005,
         10029,
         10053
+      ]
+    },
+    "410": {
+      "name": "Bounce",
+      "words": [
+        "Bounce"
+      ],
+      "glossary_key": "DCG_Glossary_Bounce",
+      "title": "Bounce",
+      "description": "Return a hero to the Fountain without killing them. No bounty is awarded, and the hero can be deployed next turn.",
+      "example_cards": [
+        20014
       ]
     },
     "500": {
@@ -601,7 +614,8 @@
       "title": "Death Effect",
       "description": "An effect that is processed after this unit dies.",
       "example_cards": [
-        10107
+        10107,
+        20032
       ]
     },
     "604": {
@@ -984,6 +998,10 @@
     "RapidDeployment": {
       "title": "Rapid Deployment",
       "description": "When a hero with Rapid Deployment dies, it is immediately ready for deployment, so it can be deployed at the start of the next round."
+    },
+    "Bounce": {
+      "title": "Bounce",
+      "description": "Return a hero to the Fountain without killing them. No bounty is awarded, and the hero can be deployed next turn."
     }
   }
 }

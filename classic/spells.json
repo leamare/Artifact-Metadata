@@ -854,8 +854,8 @@
           "hint": "#DCG_ActionHint_Hero_modify",
           "targets_hero_only": true,
           "allied_only": true,
-          "mod_duration": 1,
-          "color": 3
+          "color": 3,
+          "mod_duration": 1
         }
       ],
       "target_rules": [
@@ -863,8 +863,8 @@
           "hint": "#DCG_ActionHint_Hero_modify",
           "targets_hero_only": true,
           "allied_only": true,
-          "mod_duration": 1,
-          "color": 3
+          "color": 3,
+          "mod_duration": 1
         }
       ]
     },
@@ -1042,10 +1042,10 @@
           "hint": "#DCG_ActionHint_Hero_modify",
           "targets_hero_only": true,
           "allied_only": true,
+          "color": 1,
           "mod_attack": 4,
           "mod_armor": 4,
-          "mod_duration": 2,
-          "color": 1
+          "mod_duration": 2
         }
       ],
       "target_rules": [
@@ -1053,10 +1053,10 @@
           "hint": "#DCG_ActionHint_Hero_modify",
           "targets_hero_only": true,
           "allied_only": true,
+          "color": 1,
           "mod_attack": 4,
           "mod_armor": 4,
-          "mod_duration": 2,
-          "color": 1
+          "mod_duration": 2
         }
       ]
     },
@@ -1150,16 +1150,16 @@
         {
           "hint": "#DCG_ActionHint_Unit",
           "allied_only": true,
-          "mod_duration": 2,
-          "creeps_only": true
+          "creeps_only": true,
+          "mod_duration": 2
         }
       ],
       "target_rules": [
         {
           "hint": "#DCG_ActionHint_Unit",
           "allied_only": true,
-          "mod_duration": 2,
-          "creeps_only": true
+          "creeps_only": true,
+          "mod_duration": 2
         }
       ]
     },
@@ -1226,10 +1226,10 @@
           "hint": "#DCG_ActionHint_Hero_modify",
           "targets_hero_only": true,
           "allied_only": true,
+          "color": 1,
           "mod_attack": 8,
           "mod_armor": -8,
-          "mod_duration": 2,
-          "color": 1
+          "mod_duration": 2
         }
       ],
       "target_rules": [
@@ -1237,10 +1237,10 @@
           "hint": "#DCG_ActionHint_Hero_modify",
           "targets_hero_only": true,
           "allied_only": true,
+          "color": 1,
           "mod_attack": 8,
           "mod_armor": -8,
-          "mod_duration": 2,
-          "color": 1
+          "mod_duration": 2
         }
       ]
     },
@@ -2059,8 +2059,8 @@
           "hint": "#DCG_ActionHint_Hero_Ally",
           "targets_hero_only": true,
           "allied_only": true,
-          "mod_duration": 1,
-          "color": 3
+          "color": 3,
+          "mod_duration": 1
         },
         {
           "hint": "#DCG_ActionHint_Unit_AnyLane",
@@ -2075,8 +2075,8 @@
           "hint": "#DCG_ActionHint_Hero_Ally",
           "targets_hero_only": true,
           "allied_only": true,
-          "mod_duration": 1,
-          "color": 3
+          "color": 3,
+          "mod_duration": 1
         },
         {
           "hint": "#DCG_ActionHint_Unit_AnyLane",
@@ -2877,7 +2877,6 @@
       "play_rules": [
         {
           "hint": "#DCG_ActionHint_Unit_affect",
-          "targets_hero_only": true,
           "mod_armor": -1,
           "mod_duration": 1
         }
@@ -2885,7 +2884,6 @@
       "target_rules": [
         {
           "hint": "#DCG_ActionHint_Unit_affect",
-          "targets_hero_only": true,
           "mod_armor": -1,
           "mod_duration": 1
         }
@@ -2950,9 +2948,9 @@
           "hint": "#DCG_ActionHint_Hero_modify",
           "targets_hero_only": true,
           "allied_only": true,
+          "color": 1,
           "mod_armor": 2,
-          "mod_duration": 2,
-          "color": 1
+          "mod_duration": 2
         }
       ],
       "target_rules": [
@@ -2960,9 +2958,9 @@
           "hint": "#DCG_ActionHint_Hero_modify",
           "targets_hero_only": true,
           "allied_only": true,
+          "color": 1,
           "mod_armor": 2,
-          "mod_duration": 2,
-          "color": 1
+          "mod_duration": 2
         }
       ]
     },
@@ -3771,7 +3769,6 @@
       "play_rules": [
         {
           "hint": "#DCG_ActionHint_Unit_Enemy",
-          "targets_hero_only": true,
           "enemy_only": true,
           "mod_duration": 2
         }
@@ -3779,7 +3776,6 @@
       "target_rules": [
         {
           "hint": "#DCG_ActionHint_Unit_Enemy",
-          "targets_hero_only": true,
           "enemy_only": true,
           "mod_duration": 2
         }

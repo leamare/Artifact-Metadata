@@ -2939,8 +2939,7 @@
     "20000": {
       "name": "Riki",
       "text": "[abilityname[Puñalada trasera]]{s:thisCardName} inflige el doble de daño al atacar a una [g:607[unidad]] que no lo esté atacando.",
-      "text_plain": "Puñalada trasera\nRiki inflige el doble de daño al atacar a una unidad que no lo esté atacando.",
-      "lore": "I will avenge my family's slaughter. I'm not just doing this for fun, you know. — Rikimaru, the Middle Brother"
+      "text_plain": "Puñalada trasera\nRiki inflige el doble de daño al atacar a una unidad que no lo esté atacando."
     },
     "20001": {
       "name": "Puñalada trasera",
@@ -2950,8 +2949,38 @@
     "20002": {
       "name": "Cortina de humo",
       "text": "Elige una [g:607[unidad]] enemiga. [g:406[Silencia]] a esa [g:607[unidad]] y a sus [g:601[aliados vecinos]] durante esta ronda. Esas [g:607[unidades]] pierden -1 punto de [g:504[armadura]] durante esta ronda.",
-      "text_plain": "Elige una unidad enemiga. Silencia a esa unidad y a sus aliados vecinos durante esta ronda. Esas unidades pierden -1 punto de armadura durante esta ronda.",
-      "lore": "Poof!"
+      "text_plain": "Elige una unidad enemiga. Silencia a esa unidad y a sus aliados vecinos durante esta ronda. Esas unidades pierden -1 punto de armadura durante esta ronda."
+    },
+    "20010": {
+      "name": "Imperia",
+      "text": "[abilityname[Maquinaciones]][activatedability[[color:ability[Activa &#9632;3:]] se añade +2 de [g:407[encadenamiento]] a una carta aleatoria de la mano del rival. {s:thisCardName} obtiene +X de [g:509[ataque]] durante esta ronda, donde X es el costo de maná de esa carta.]]",
+      "text_plain": "Maquinaciones\nActiva 3: se añade +2 de encadenamiento a una carta aleatoria de la mano del rival. Imperia obtiene +X de ataque durante esta ronda, donde X es el costo de maná de esa carta.",
+      "lore": "Cuando recupere mi trono, reuniré a todos los traidores, descontentos y embusteros, y los ahogaré yo misma, uno por uno, con mis propias manos. — Imperia"
+    },
+    "20011": {
+      "name": "Maquinaciones",
+      "text": "Se añade +2 de [g:407[encadenamiento]] a una carta aleatoria de la mano del rival. {s:parentCardName} obtiene +X de [g:509[ataque]] durante esta ronda, donde X es el costo de maná de esa carta.",
+      "text_plain": "Se añade +2 de encadenamiento a una carta aleatoria de la mano del rival. Imperia obtiene +X de ataque durante esta ronda, donde X es el costo de maná de esa carta."
+    },
+    "20012": {
+      "name": "Conspiración de cuervos",
+      "text": "[abilityname[Conspiración de cuervos]]Después de que {s:thisCardName} mate a una [g:607[unidad]], se añade +2 de [g:407[encadenamiento]] a una carta aleatoria de la mano del rival.",
+      "text_plain": "Conspiración de cuervos\nDespués de que Conspiración de cuervos mate a una unidad, se añade +2 de encadenamiento a una carta aleatoria de la mano del rival.",
+      "lore": "Tengo ojos en todas partes. — Imperia",
+      "effects": [
+        "Después de que {s:thisCardName} mate a una [g:607[unidad]], se añade +2 de [g:407[encadenamiento]] a una carta aleatoria de la mano del rival."
+      ]
+    },
+    "20013": {
+      "name": "Conspiración de cuervos",
+      "text": "Después de que {s:parentCardName} mate a una [g:607[unidad]], se añade +2 de [g:407[encadenamiento]] a una carta aleatoria de la mano del rival.",
+      "text_plain": "Después de que Conspiración de cuervos mate a una unidad, se añade +2 de encadenamiento a una carta aleatoria de la mano del rival."
+    },
+    "20027": {
+      "name": "Laguna Blade"
+    },
+    "20028": {
+      "name": "Light Strike Array"
     }
   },
   "voice_lines": {
@@ -3273,12 +3302,6 @@
     "revtel_convoy_hero_rival_02": "Revtel no olvida.",
     "revtel_convoy_summon_01": "Saludos desde Revtel.",
     "revtel_convoy_unique_02": "Nos dejarás pasar o morirás.",
-    "riki_at_your_service": "At your service.",
-    "riki_if_you_can_see_me": "If you can see me, you're already dead.",
-    "riki_my_skill_set": "My skill set is narrow, but very sharp.",
-    "riki_peek_a_boo": "Peek-a-boo!",
-    "riki_whom_shall_i_kill": "Whom shall I kill?",
-    "riki_why_prolong_the_inevitable": "Why prolong the inevitable?",
     "rix_kill_rival_04": "¡Jamás nos arrodillaremos!",
     "rix_kill_rival_08": "No temo a la muerte. Tú, en cambio...",
     "rix_permanent_attack_04": "Aniquilémoslos.",

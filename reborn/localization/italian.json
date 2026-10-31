@@ -2939,8 +2939,7 @@
     "20000": {
       "name": "Riki",
       "text": "[abilityname[Pugnalata alle spalle]]{s:thisCardName} infligge danni doppi quando attacca un'[g:607[unità]] che non lo sta attaccando.",
-      "text_plain": "Pugnalata alle spalle\nRiki infligge danni doppi quando attacca un'unità che non lo sta attaccando.",
-      "lore": "I will avenge my family's slaughter. I'm not just doing this for fun, you know. — Rikimaru, the Middle Brother"
+      "text_plain": "Pugnalata alle spalle\nRiki infligge danni doppi quando attacca un'unità che non lo sta attaccando."
     },
     "20001": {
       "name": "Pugnalata alle spalle",
@@ -2950,8 +2949,38 @@
     "20002": {
       "name": "Cortina fumogena",
       "text": "Scegli un'[g:607[unità]] nemica. [g:406[Silenzia]] quell'[g:607[unità]] e i suoi [g:601[vicini alleati]] in questo round. Sottrai a quelle [g:607[unità]] -1 [g:504[punti armatura]] in questo round.",
-      "text_plain": "Scegli un'unità nemica. Silenzia quell'unità e i suoi vicini alleati in questo round. Sottrai a quelle unità -1 punti armatura in questo round.",
-      "lore": "Poof!"
+      "text_plain": "Scegli un'unità nemica. Silenzia quell'unità e i suoi vicini alleati in questo round. Sottrai a quelle unità -1 punti armatura in questo round."
+    },
+    "20010": {
+      "name": "Imperia",
+      "text": "[abilityname[Macchinazioni]][activatedability[[color:ability[Attiva &#9632;3:]] Applica +2 [g:407[catene]] a una carta casuale nella mano dell'avversario. Aumenta di +X i [g:509[punti attacco]] di {s:thisCardName} in questo round, dove X è il costo in mana di quella carta.]]",
+      "text_plain": "Macchinazioni\nAttiva 3: Applica +2 catene a una carta casuale nella mano dell'avversario. Aumenta di +X i punti attacco di Imperia in questo round, dove X è il costo in mana di quella carta.",
+      "lore": "Quando reclamerò il mio trono, radunerò tutti i voltagabbana, gli scontenti e gli impostori, e li annegherò io stessa, uno per uno, con le mie mani. — Imperia"
+    },
+    "20011": {
+      "name": "Macchinazioni",
+      "text": "Applica +2 [g:407[catene]] a una carta casuale nella mano dell'avversario. Aumenta di +X i [g:509[punti attacco]] di {s:parentCardName} in questo round, dove X è il costo in mana di quella carta.",
+      "text_plain": "Applica +2 catene a una carta casuale nella mano dell'avversario. Aumenta di +X i punti attacco di Imperia in questo round, dove X è il costo in mana di quella carta."
+    },
+    "20012": {
+      "name": "Cospirazione di corvi",
+      "text": "[abilityname[Cospirazione di corvi]]Dopo che {s:thisCardName} uccide un'[g:607[unità]], applica +2 [g:407[catene]] a una carta casuale nella mano dell'avversario.",
+      "text_plain": "Cospirazione di corvi\nDopo che Cospirazione di corvi uccide un'unità, applica +2 catene a una carta casuale nella mano dell'avversario.",
+      "lore": "Ho occhi ovunque. — Imperia",
+      "effects": [
+        "Dopo che {s:thisCardName} uccide un'[g:607[unità]], applica +2 [g:407[catene]] a una carta casuale nella mano dell'avversario."
+      ]
+    },
+    "20013": {
+      "name": "Cospirazione di corvi",
+      "text": "Dopo che {s:parentCardName} uccide un'[g:607[unità]], applica +2 [g:407[catene]] a una carta casuale nella mano dell'avversario.",
+      "text_plain": "Dopo che Cospirazione di corvi uccide un'unità, applica +2 catene a una carta casuale nella mano dell'avversario."
+    },
+    "20027": {
+      "name": "Laguna Blade"
+    },
+    "20028": {
+      "name": "Light Strike Array"
     }
   },
   "voice_lines": {
@@ -3273,12 +3302,6 @@
     "revtel_convoy_hero_rival_02": "Revtel non dimentica...",
     "revtel_convoy_summon_01": "Saluti da Revtel...",
     "revtel_convoy_unique_02": "Lasciaci passare o morirai.",
-    "riki_at_your_service": "At your service.",
-    "riki_if_you_can_see_me": "If you can see me, you're already dead.",
-    "riki_my_skill_set": "My skill set is narrow, but very sharp.",
-    "riki_peek_a_boo": "Peek-a-boo!",
-    "riki_whom_shall_i_kill": "Whom shall I kill?",
-    "riki_why_prolong_the_inevitable": "Why prolong the inevitable?",
     "rix_kill_rival_04": "Non ci inginocchieremo mai!",
     "rix_kill_rival_08": "Non ho paura della morte. Tu, invece...",
     "rix_permanent_attack_04": "Facciamoli a fette.",

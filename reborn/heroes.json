@@ -1338,6 +1338,30 @@
       20001
     ]
   },
+  "20007": {
+    "id": 20007,
+    "name": "Dark Willow",
+    "type": 6,
+    "set": 2,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Blue",
+    "attack": 3,
+    "armor": 0,
+    "health": 5,
+    "bounty": 5,
+    "illustrator": "Valve",
+    "item_def": 120007,
+    "signature": [
+      {
+        "card_id": 20009,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      20008
+    ]
+  },
   "20010": {
     "id": 20010,
     "name": "Imperia",
@@ -1346,6 +1370,97 @@
     "collectible": true,
     "rarity": "Uncommon",
     "color": "Blue",
-    "item_def": 120010
+    "attack": 2,
+    "health": 8,
+    "bounty": 5,
+    "item_def": 120010,
+    "artwork": {
+      "artwork_id": 20010
+    },
+    "signature": [
+      {
+        "card_id": 20012,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      20011
+    ]
+  },
+  "20020": {
+    "id": 20020,
+    "name": "Spectre",
+    "type": 6,
+    "set": 2,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Black",
+    "attack": 2,
+    "health": 8,
+    "bounty": 5,
+    "item_def": 120020,
+    "artwork": {
+      "artwork_id": 20020
+    },
+    "signature": [
+      {
+        "card_id": 20023,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      20021,
+      20022
+    ]
+  },
+  "20026": {
+    "id": 20026,
+    "name": "Lina",
+    "type": 6,
+    "set": 2,
+    "collectible": true,
+    "rarity": "Common",
+    "color": "Blue",
+    "attack": 2,
+    "health": 5,
+    "bounty": 5,
+    "item_def": 120026,
+    "signature": [
+      {
+        "card_id": 20027,
+        "count": 1
+      },
+      {
+        "card_id": 20028,
+        "count": 1
+      },
+      {
+        "card_id": 20029,
+        "count": 1
+      }
+    ]
+  },
+  "20030": {
+    "id": 20030,
+    "name": "Ringmaster",
+    "type": 6,
+    "set": 2,
+    "collectible": true,
+    "rarity": "Uncommon",
+    "color": "Green",
+    "attack": 3,
+    "health": 6,
+    "bounty": 5,
+    "illustrator": "PLACEHOLDER, DO NOT USE, DOES NOT WORK",
+    "item_def": 120030,
+    "signature": [
+      {
+        "card_id": 20032,
+        "count": 3
+      }
+    ],
+    "abilities": [
+      20031
+    ]
   }
 }

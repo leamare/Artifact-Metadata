@@ -2939,8 +2939,7 @@
     "20000": {
       "name": "Riki",
       "text": "[abilityname[Coup dans le dos]]{s:thisCardName} inflige des dégâts doublés lorsqu'il attaque une [g:607[unité]] qui ne l'attaque pas.",
-      "text_plain": "Coup dans le dos\nRiki inflige des dégâts doublés lorsqu'il attaque une unité qui ne l'attaque pas.",
-      "lore": "I will avenge my family's slaughter. I'm not just doing this for fun, you know. — Rikimaru, the Middle Brother"
+      "text_plain": "Coup dans le dos\nRiki inflige des dégâts doublés lorsqu'il attaque une unité qui ne l'attaque pas."
     },
     "20001": {
       "name": "Coup dans le dos",
@@ -2950,8 +2949,38 @@
     "20002": {
       "name": "Écran de fumée",
       "text": "Choisissez une [g:607[unité]] ennemie. [g:406[Réduit au silence]] cette [g:607[unité]] et ses [g:601[alliés voisins]] pendant cette manche. Donne -1 d'[g:504[Armure]] à ces [g:607[unités]] pendant cette manche.",
-      "text_plain": "Choisissez une unité ennemie. Réduit au silence cette unité et ses alliés voisins pendant cette manche. Donne -1 d'Armure à ces unités pendant cette manche.",
-      "lore": "Poof!"
+      "text_plain": "Choisissez une unité ennemie. Réduit au silence cette unité et ses alliés voisins pendant cette manche. Donne -1 d'Armure à ces unités pendant cette manche."
+    },
+    "20010": {
+      "name": "Imperia",
+      "text": "[abilityname[Manigances]][activatedability[[color:ability[Active &#9632;3 :]] donne +2 de [g:407[Verrou]] à une carte de la main de l'adversaire au hasard. {s:thisCardName} gagne +X d'[g:509[Attaque]] pendant cette manche, X étant le cout en mana de cette carte.]]",
+      "text_plain": "Manigances\nActive 3: donne +2 de Verrou à une carte de la main de l'adversaire au hasard. Imperia gagne +X d'Attaque pendant cette manche, X étant le cout en mana de cette carte.",
+      "lore": "Quand j'aurai repris mon trône, je rassemblerai tous les traîtres, les mécontents et les imposteurs, et je les noierai moi-même, un par un, de mes propres mains. — Imperia"
+    },
+    "20011": {
+      "name": "Manigances",
+      "text": "Donne +2 de [g:407[Verrou]] à une carte de la main de l'adversaire au hasard. {s:parentCardName} gagne +X d'[g:509[Attaque]] pendant cette manche, X étant le cout en mana de cette carte.",
+      "text_plain": "Donne +2 de Verrou à une carte de la main de l'adversaire au hasard. Imperia gagne +X d'Attaque pendant cette manche, X étant le cout en mana de cette carte."
+    },
+    "20012": {
+      "name": "Conspiration de corbeaux",
+      "text": "[abilityname[Conspiration de corbeaux]]Après que {s:thisCardName} a tué une [g:607[unité]], donne +2 de [g:407[Verrou]] à une carte de la main de l'adversaire au hasard.",
+      "text_plain": "Conspiration de corbeaux\nAprès que Conspiration de corbeaux a tué une unité, donne +2 de Verrou à une carte de la main de l'adversaire au hasard.",
+      "lore": "J'ai des yeux partout. — Imperia",
+      "effects": [
+        "Après que {s:thisCardName} a tué une [g:607[unité]], donne +2 de [g:407[Verrou]] à une carte de la main de l'adversaire au hasard."
+      ]
+    },
+    "20013": {
+      "name": "Conspiration de corbeaux",
+      "text": "Après que {s:parentCardName} a tué une [g:607[unité]], donne +2 de [g:407[Verrou]] à une carte de la main de l'adversaire au hasard.",
+      "text_plain": "Après que Conspiration de corbeaux a tué une unité, donne +2 de Verrou à une carte de la main de l'adversaire au hasard."
+    },
+    "20027": {
+      "name": "Laguna Blade"
+    },
+    "20028": {
+      "name": "Light Strike Array"
     }
   },
   "voice_lines": {
@@ -3273,12 +3302,6 @@
     "revtel_convoy_hero_rival_02": "Revtel n'oublie pas...",
     "revtel_convoy_summon_01": "Salutations de Revtel...",
     "revtel_convoy_unique_02": "Vous allez nous laisser passer ou vous mourrez !",
-    "riki_at_your_service": "At your service.",
-    "riki_if_you_can_see_me": "If you can see me, you're already dead.",
-    "riki_my_skill_set": "My skill set is narrow, but very sharp.",
-    "riki_peek_a_boo": "Peek-a-boo!",
-    "riki_whom_shall_i_kill": "Whom shall I kill?",
-    "riki_why_prolong_the_inevitable": "Why prolong the inevitable?",
     "rix_kill_rival_04": "Nous ne nous mettrons jamais à genoux !",
     "rix_kill_rival_08": "Je ne crains pas la mort. Contrairement à toi...",
     "rix_permanent_attack_04": "Mettons-les en pièces.",

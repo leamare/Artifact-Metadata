@@ -1965,8 +1965,123 @@
     "artwork": {
       "artwork_id": 20001
     },
+    "engine": {
+      "has_modifiers": true
+    },
     "ability_of": [
       20000
+    ],
+    "is_passive": true
+  },
+  "20005": {
+    "id": 20005,
+    "name": "Smuggler's Den",
+    "type": 8,
+    "set": 2,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 10162
+    },
+    "engine": {
+      "ability_rules": [
+        {
+          "enemy_only": true,
+          "mod_duration": 1,
+          "auto": true,
+          "towers": true
+        }
+      ]
+    },
+    "cooldown": 2,
+    "ability_of": [
+      20004
+    ]
+  },
+  "20008": {
+    "id": 20008,
+    "name": "Shadow Realm",
+    "type": 8,
+    "set": 2,
+    "collectible": false,
+    "cooldown": 2,
+    "ability_of": [
+      20007
+    ]
+  },
+  "20011": {
+    "id": 20011,
+    "name": "Skulduggery",
+    "type": 8,
+    "set": 2,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 20011
+    },
+    "cooldown": 3,
+    "ability_of": [
+      20010
+    ]
+  },
+  "20013": {
+    "id": 20013,
+    "name": "Conspiracy of Ravens",
+    "type": 8,
+    "set": 2,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 20013
+    },
+    "ability_of": [
+      20012
+    ],
+    "is_passive": true
+  },
+  "20021": {
+    "id": 20021,
+    "name": "Dispersion",
+    "type": 8,
+    "set": 2,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 20021
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "ability_of": [
+      20020
+    ],
+    "is_passive": true
+  },
+  "20022": {
+    "id": 20022,
+    "name": "Desolate",
+    "type": 8,
+    "set": 2,
+    "collectible": false,
+    "artwork": {
+      "artwork_id": 20022
+    },
+    "engine": {
+      "has_modifiers": true
+    },
+    "ability_of": [
+      20020
+    ],
+    "is_passive": true
+  },
+  "20031": {
+    "id": 20031,
+    "name": "Dark Carnival Barker",
+    "type": 8,
+    "set": 2,
+    "collectible": false,
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "ability_of": [
+      20030
     ],
     "is_passive": true
   }

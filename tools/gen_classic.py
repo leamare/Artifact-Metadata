@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Artifact Classic (classic/): every descriptor of the retail client's card registry
-(artifact-reborn-client's content/cards.yaml), merged with Valve's public card API and the
-community database (original-meta) and the game's localization, items_game and card sets.
+(the content workspace's cards_index, one definition.yaml per card), merged with Valve's
+public card API and the community database (original-meta) and the game's localization,
+items_game and card sets.
 Also images/classic.json, Valve's image URLs.
 
     python3 tools/gen_classic.py
@@ -11,9 +12,9 @@ from __future__ import annotations
 import collections
 import re
 
-from common import (DECK_TYPES, RARITY_BITS, Paths, by_id, card_items, card_sets, classic_convert, clean, fold,
-                    history_of, items_game, keyword_table, link_reverse, link_text, load_json, load_yaml,
-                    localization, report, traces, write, write_game)
+from common import (DECK_TYPES, RARITY_BITS, ROOT, Paths, by_id, card_items, card_sets, chat_wheel_from_index,
+                    classic_convert, clean, content_dump, fold, history_of, items_game, keyword_table, link_reverse,
+                    link_text, load_json, localization, report, traces, write, write_game)
 from sources import Vpk, load_tokens
 
 
@@ -168,19 +169,21 @@ def classic_set_of(game_dir):
 
 
 def chat_wheel_classic(P):
-    """card id -> chat wheel lines, from the client.dll table the reborn repo extracted
-    (docs/content/chat_wheel.md). A line is the sound event; DCG_VO_<line> its subtitle."""
-    table = {}
-    doc = P.reborn_client / 'docs/content/chat_wheel.md'
-    for m in re.finditer(r'^\| (\d+) \| [^|]+ \| \w+ \| (.+) \|$', doc.read_text(), re.M):
-        table[int(m[1])] = re.findall(r'`([a-z0-9_]+)`', m[2])
+    """card id -> chat wheel lines. The retail client's table (extracted from client.dll)
+    is not published anywhere anymore, so the committed classic/chat_wheel.json is kept as
+    the base; cards_index definitions with a chat_wheel: field override and extend it."""
+    table = {int(k): v for k, v in load_json(ROOT / 'classic/chat_wheel.json').items()}
+    for cid, lines in chat_wheel_from_index(P.reborn_content).items():
+        if cid not in table or set(lines) - set(table[cid]):
+            table[cid] = lines
     return table
 
 
 def build_classic(P: Paths):
     vpk = Vpk(P.classic / 'game/dcg/pak01_dir.vpk')
     loc = localization(P.classic, vpk=vpk)
-    dump = {c['id']: c for c in load_yaml(P.reborn_client / 'content/cards.yaml')}
+    # sets 0-1 are the retail game; the content workspace's set_2 is the patch's own
+    dump = {cid: c for cid, c in content_dump(P.reborn_content).items() if c['set_id'] < 2}
     ig = items_game(vpk)
     citems = card_items(ig)
     set_of = classic_set_of(P.classic)
@@ -212,13 +215,13 @@ def load_classic(P: Paths):
     """Classic's cards without writing them (Foundry and Reborn build on them)."""
     vpk = Vpk(P.classic / 'game/dcg/pak01_dir.vpk')
     loc = localization(P.classic, vpk=vpk)
-    dump = {c['id']: c for c in load_yaml(P.reborn_client / 'content/cards.yaml')}
+    dump = {cid: c for cid, c in content_dump(P.reborn_content).items() if c['set_id'] < 2}
     return registry_game(P, dump, loc, card_items(items_game(vpk)), classic_set_of(P.classic), False)
 
 
 def main():
     P = Paths()
-    P.need('classic', 'original_meta', 'reborn_client', 'replay_parser')
+    P.need('classic', 'original_meta', 'reborn_content', 'replay_parser')
     report('classic', build_classic(P))
     write('classic/traces.json', traces(P)[0]['classic'])
     build_image_list(P)

@@ -2939,8 +2939,7 @@
     "20000": {
       "name": "力丸",
       "text": "[abilityname[背刺]]{s:thisCardName}攻击未在攻击它的[g:607[单位]]时，造成双倍伤害。",
-      "text_plain": "背刺\n力丸攻击未在攻击它的单位时，造成双倍伤害。",
-      "lore": "I will avenge my family's slaughter. I'm not just doing this for fun, you know. — Rikimaru, the Middle Brother"
+      "text_plain": "背刺\n力丸攻击未在攻击它的单位时，造成双倍伤害。"
     },
     "20001": {
       "name": "背刺",
@@ -2950,8 +2949,38 @@
     "20002": {
       "name": "烟幕",
       "text": "选择一个敌方[g:607[单位]]。在本回合[g:406[沉默]]该[g:607[单位]]及其[g:601[友方近邻]]。在本回合使这些[g:607[单位]]-1[g:504[护甲]]。",
-      "text_plain": "选择一个敌方单位。在本回合沉默该单位及其友方近邻。在本回合使这些单位-1护甲。",
-      "lore": "Poof!"
+      "text_plain": "选择一个敌方单位。在本回合沉默该单位及其友方近邻。在本回合使这些单位-1护甲。"
+    },
+    "20010": {
+      "name": "英佩瑞雅",
+      "text": "[abilityname[阴谋诡计]][activatedability[[color:ability[主动&#9632;3：]]使对手的一张随机手牌+2[g:407[锁定]]。使{s:thisCardName}在本回合+X[g:509[攻击]]，X为该卡牌的魔力消耗。]]",
+      "text_plain": "阴谋诡计\n主动3：使对手的一张随机手牌+2锁定。使英佩瑞雅在本回合+X攻击，X为该卡牌的魔力消耗。",
+      "lore": "待我夺回王座，我要把所有叛徒、不满者和骗子统统抓来，亲手一个一个地把他们淹死。 — 英佩瑞雅"
+    },
+    "20011": {
+      "name": "阴谋诡计",
+      "text": "使对手的一张随机手牌+2[g:407[锁定]]。使{s:parentCardName}在本回合+X[g:509[攻击]]，X为该卡牌的魔力消耗。",
+      "text_plain": "使对手的一张随机手牌+2锁定。使英佩瑞雅在本回合+X攻击，X为该卡牌的魔力消耗。"
+    },
+    "20012": {
+      "name": "鸦群密谋",
+      "text": "[abilityname[鸦群密谋]]{s:thisCardName}消灭一个[g:607[单位]]后，使对手的一张随机手牌+2[g:407[锁定]]。",
+      "text_plain": "鸦群密谋\n鸦群密谋消灭一个单位后，使对手的一张随机手牌+2锁定。",
+      "lore": "我的眼线无处不在。 — 英佩瑞雅",
+      "effects": [
+        "{s:thisCardName}消灭一个[g:607[单位]]后，使对手的一张随机手牌+2[g:407[锁定]]。"
+      ]
+    },
+    "20013": {
+      "name": "鸦群密谋",
+      "text": "{s:parentCardName}消灭一个[g:607[单位]]后，使对手的一张随机手牌+2[g:407[锁定]]。",
+      "text_plain": "鸦群密谋消灭一个单位后，使对手的一张随机手牌+2锁定。"
+    },
+    "20027": {
+      "name": "Laguna Blade"
+    },
+    "20028": {
+      "name": "Light Strike Array"
     }
   },
   "voice_lines": {
@@ -3273,12 +3302,6 @@
     "revtel_convoy_hero_rival_02": "瑞文泰尔不会忘记的……",
     "revtel_convoy_summon_01": "来自瑞文泰尔的问候……",
     "revtel_convoy_unique_02": "让我们过去，不然你是在找死。",
-    "riki_at_your_service": "At your service.",
-    "riki_if_you_can_see_me": "If you can see me, you're already dead.",
-    "riki_my_skill_set": "My skill set is narrow, but very sharp.",
-    "riki_peek_a_boo": "Peek-a-boo!",
-    "riki_whom_shall_i_kill": "Whom shall I kill?",
-    "riki_why_prolong_the_inevitable": "Why prolong the inevitable?",
     "rix_kill_rival_04": "我们绝不屈服！",
     "rix_kill_rival_08": "我不害怕死亡。而你嘛……",
     "rix_permanent_attack_04": "把他们撕成碎片。",

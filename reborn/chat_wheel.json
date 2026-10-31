@@ -653,5 +653,13 @@
     "riki_peek_a_boo",
     "riki_if_you_can_see_me",
     "riki_my_skill_set"
+  ],
+  "20007": [
+    "sylph_intro",
+    "sylph_intro_2",
+    "sylph_laugh",
+    "sylph_cocky",
+    "sylph_taunt",
+    "sylph_sad"
   ]
 }

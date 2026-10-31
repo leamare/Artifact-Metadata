@@ -27,7 +27,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / 'tools'))
 sys.path.insert(0, str(ROOT / 'scripts'))
-from common import Paths  # noqa: E402
+from common import Paths, content_card_folders  # noqa: E402
 from sources import Vpk  # noqa: E402
 import frame  # noqa: E402
 import vtex  # noqa: E402
@@ -88,7 +88,6 @@ def main():
     paths = Paths()   # .env (see .env.example)
     ap.add_argument('--classic', type=Path, default=paths.classic)
     ap.add_argument('--foundry', type=Path, default=paths.foundry)
-    ap.add_argument('--reborn-client', type=Path, default=paths.reborn_client)
     ap.add_argument('--dest', type=Path, default=ROOT / 'ui/assets')
     ap.add_argument('--no-art', action='store_true')
     args = ap.parse_args()
@@ -103,15 +102,21 @@ def main():
     models = args.dest / 'classic/ui/models'
     if (models / 'card_title_bg_red_color.png').exists():
         frame.bake(models, args.dest / 'classic/ui/frame')
-    # Reborn's community cards: their art is in artifact-reborn-client (card_art/<id>/<kind>.png).
+    # The content workspace is where card art is authored: cards_index/set_N/<id>_<slug>/
+    # art.png (full art), icon.png (mini icon), hero_icon.png, named by the card's artwork id.
     copied = 0
-    bases = (args.reborn_client / 'content/card_art', args.reborn_client / 'docs/content/examples/card_art') if args.reborn_client else ()
-    for base in bases:
-        for f in base.glob('*/*.png'):
-            if f.parent.name.isdigit():
-                out = args.dest / 'reborn' / 'art' / f.stem / f'{f.parent.name}.png'
+    art_names = {'art.png': 'full_art', 'icon.png': 'mini_icons', 'hero_icon.png': 'hero_icons'}
+    if paths.reborn_content:
+        from common import load_yaml
+        for cid, folder in content_card_folders(paths.reborn_content).items():
+            art_id = (load_yaml(folder / 'definition.yaml') or {}).get('artwork_id') or cid
+            for name, kind in art_names.items():
+                src = folder / name
+                if not src.is_file():
+                    continue
+                out = args.dest / 'reborn' / 'art' / kind / f'{art_id}.png'
                 out.parent.mkdir(parents=True, exist_ok=True)
-                shutil.copy2(f, out)
+                shutil.copy2(src, out)
                 copied += 1
     print(f'reborn: {copied} community art files')
 

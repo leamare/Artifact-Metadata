@@ -36,8 +36,8 @@ def _env():
 class Paths:
     """Source locations, from .env (copy .env.example and edit). The environment wins over the file."""
     _keys = {'classic': 'ARTIFACT_CLASSIC', 'foundry': 'ARTIFACT_FOUNDRY', 'dota': 'DOTA2',
-             'original_meta': 'ORIGINAL_META', 'reborn_client': 'REBORN_CLIENT', 'reborn_gc': 'REBORN_GC',
-             'replay_parser': 'REPLAY_PARSER'}
+             'original_meta': 'ORIGINAL_META', 'reborn_content': 'REBORN_CONTENT',
+             'reborn_gc': 'REBORN_GC', 'replay_parser': 'REPLAY_PARSER'}
 
     def __init__(self):
         env = _env()
@@ -49,6 +49,53 @@ class Paths:
         missing = [self._keys[a] for a in attrs if not getattr(self, a) or not getattr(self, a).exists()]
         if missing:
             raise SystemExit(f'set {", ".join(missing)} in .env (see .env.example): not found')
+
+
+def content_dump(root: Path):
+    """cards.yaml-shaped registry from the content workspace: definition.yaml of every
+    set_N/<id>_<slug> folder. id and set_id come from the folder (definition.yaml has
+    neither)."""
+    dump = {}
+    for cid, folder in content_card_folders(root).items():
+        card = dict(load_yaml(folder / 'definition.yaml') or {})
+        card['id'] = cid
+        card['set_id'] = int(folder.parent.name.removeprefix('set_'))
+        dump[cid] = card
+    return dump
+
+
+def chat_wheel_from_index(root: Path):
+    """card id -> chat wheel lines, from the cards_index definitions that carry them
+    (chat_wheel: ['#DCG_VO_...', ...]). A line is the sound event; DCG_VO_<line> its subtitle."""
+    table = {}
+    for cid, folder in content_card_folders(root).items():
+        wheel = (load_yaml(folder / 'definition.yaml') or {}).get('chat_wheel')
+        if wheel:
+            table[cid] = [str(t).lstrip('#').removeprefix('DCG_VO_') for t in wheel]
+    return table
+
+
+def content_card_folders(root: Path):
+    """set_N/<id>_<slug> folders of the content workspace that have a definition.
+
+    The folder name is the card id and its set. Saving a renamed card can leave the
+    old folder beside the new one; the newer definition is the card."""
+    index = Path(root) / 'content/cards_index'
+    chosen = {}
+    if not index.is_dir():
+        return chosen
+    for folder in index.glob('set_*/*'):
+        definition = folder / 'definition.yaml'
+        if not definition.is_file():
+            continue
+        try:
+            cid = int(folder.name.split('_', 1)[0])
+        except ValueError:
+            continue
+        prev = chosen.get(cid)
+        if prev is None or definition.stat().st_mtime >= (prev / 'definition.yaml').stat().st_mtime:
+            chosen[cid] = folder
+    return chosen
 
 
 def load_yaml(path):

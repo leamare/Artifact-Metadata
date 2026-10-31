@@ -2,9 +2,9 @@
 """Update reborn/ from the community patch repositories.
 
     python3 scripts/update_reborn.py            # regenerate reborn/ from the local checkouts
-    python3 scripts/update_reborn.py --pull     # git pull artifact-reborn-client and -gc first
+    python3 scripts/update_reborn.py --pull     # git pull the content and gc repositories first
 
-The repositories are the ones .env names (REBORN_CLIENT, REBORN_GC; see .env.example).
+The repositories are the ones .env names (REBORN_CONTENT, REBORN_GC; see .env.example).
 
 Prints which cards the patch adds or changes compared with Classic (reborn/changes.json
 keeps the list, which scripts/render_cards.py uses to render only those cards).
@@ -38,12 +38,12 @@ def load_game(folder):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument('--pull', action='store_true', help='git pull the reborn repositories first')
+    ap.add_argument('--pull', action='store_true', help='git pull the content and gc repositories first')
     args = ap.parse_args()
-    if args.pull:   # the checkouts named in .env (REBORN_CLIENT, REBORN_GC)
+    if args.pull:   # the checkouts named in .env (REBORN_CONTENT, REBORN_GC)
         P = Paths()
-        P.need('reborn_client', 'reborn_gc')
-        for repo in (P.reborn_client, P.reborn_gc):
+        P.need('reborn_content', 'reborn_gc')
+        for repo in (P.reborn_content, P.reborn_gc):
             subprocess.run(['git', '-C', str(repo), 'pull', '--ff-only'], check=True)
     subprocess.run([sys.executable, str(ROOT / 'tools/generate.py'), '--only', 'reborn'], check=True)
 

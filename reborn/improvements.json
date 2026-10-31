@@ -863,5 +863,21 @@
     "signature_of": [
       10025
     ]
+  },
+  "20004": {
+    "id": 20004,
+    "name": "Smuggler's Den",
+    "type": 9,
+    "set": 2,
+    "collectible": false,
+    "rarity": "Uncommon",
+    "color": "Black",
+    "mana_cost": 3,
+    "artwork": {
+      "artwork_id": 10162
+    },
+    "abilities": [
+      20005
+    ]
   }
 }

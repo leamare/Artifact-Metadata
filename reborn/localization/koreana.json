@@ -2939,8 +2939,7 @@
     "20000": {
       "name": "리키",
       "text": "[abilityname[등 찌르기]]{s:thisCardName}은(는) 자신을 공격하고 있지 않은 [g:607[유닛]]을 공격할 때 2배의 피해를 줍니다.",
-      "text_plain": "등 찌르기\n리키은(는) 자신을 공격하고 있지 않은 유닛을 공격할 때 2배의 피해를 줍니다.",
-      "lore": "I will avenge my family's slaughter. I'm not just doing this for fun, you know. — Rikimaru, the Middle Brother"
+      "text_plain": "등 찌르기\n리키은(는) 자신을 공격하고 있지 않은 유닛을 공격할 때 2배의 피해를 줍니다."
     },
     "20001": {
       "name": "등 찌르기",
@@ -2950,8 +2949,38 @@
     "20002": {
       "name": "연막",
       "text": "적 [g:607[유닛]] 하나를 선택합니다. 이번 라운드에 해당 [g:607[유닛]]과 그에 인접한 [g:601[이웃 아군]]을 [g:406[침묵]]시킵니다. 해당 [g:607[유닛]]들에게 이번 라운드 동안 [g:504[방어력]] -1을 부여합니다.",
-      "text_plain": "적 유닛 하나를 선택합니다. 이번 라운드에 해당 유닛과 그에 인접한 이웃 아군을 침묵시킵니다. 해당 유닛들에게 이번 라운드 동안 방어력 -1을 부여합니다.",
-      "lore": "Poof!"
+      "text_plain": "적 유닛 하나를 선택합니다. 이번 라운드에 해당 유닛과 그에 인접한 이웃 아군을 침묵시킵니다. 해당 유닛들에게 이번 라운드 동안 방어력 -1을 부여합니다."
+    },
+    "20010": {
+      "name": "임페리아",
+      "text": "[abilityname[권모술수]][activatedability[[color:ability[활성화 &#9632;3:]] 상대 패에서 카드 1장을 무작위로 선정해 [g:407[잠금]] +2를 부여합니다. 이번 라운드 동안 {s:thisCardName}에게 [g:509[공격력]] +X를 부여합니다. X는 해당 카드의 소모 마나입니다.]]",
+      "text_plain": "권모술수\n활성화 3: 상대 패에서 카드 1장을 무작위로 선정해 잠금 +2를 부여합니다. 이번 라운드 동안 임페리아에게 공격력 +X를 부여합니다. X는 해당 카드의 소모 마나입니다.",
+      "lore": "왕좌를 되찾으면 배신자와 불평분자와 기만자를 모두 모아, 하나씩 내 손으로 직접 물에 빠뜨려 죽이겠다. — 임페리아"
+    },
+    "20011": {
+      "name": "권모술수",
+      "text": "상대 패에서 카드 1장을 무작위로 선정해 [g:407[잠금]] +2를 부여합니다. 이번 라운드 동안 {s:parentCardName}에게 [g:509[공격력]] +X를 부여합니다. X는 해당 카드의 소모 마나입니다.",
+      "text_plain": "상대 패에서 카드 1장을 무작위로 선정해 잠금 +2를 부여합니다. 이번 라운드 동안 임페리아에게 공격력 +X를 부여합니다. X는 해당 카드의 소모 마나입니다."
+    },
+    "20012": {
+      "name": "까마귀 음모단",
+      "text": "[abilityname[까마귀 음모단]]{s:thisCardName}이(가) [g:607[유닛]]을 처치한 후, 상대 패에서 카드 1장을 무작위로 선정해 [g:407[잠금]] +2를 부여합니다.",
+      "text_plain": "까마귀 음모단\n까마귀 음모단이(가) 유닛을 처치한 후, 상대 패에서 카드 1장을 무작위로 선정해 잠금 +2를 부여합니다.",
+      "lore": "내 눈은 어디에나 있다. — 임페리아",
+      "effects": [
+        "{s:thisCardName}이(가) [g:607[유닛]]을 처치한 후, 상대 패에서 카드 1장을 무작위로 선정해 [g:407[잠금]] +2를 부여합니다."
+      ]
+    },
+    "20013": {
+      "name": "까마귀 음모단",
+      "text": "{s:parentCardName}이(가) [g:607[유닛]]을 처치한 후, 상대 패에서 카드 1장을 무작위로 선정해 [g:407[잠금]] +2를 부여합니다.",
+      "text_plain": "까마귀 음모단이(가) 유닛을 처치한 후, 상대 패에서 카드 1장을 무작위로 선정해 잠금 +2를 부여합니다."
+    },
+    "20027": {
+      "name": "Laguna Blade"
+    },
+    "20028": {
+      "name": "Light Strike Array"
     }
   },
   "voice_lines": {
@@ -3273,12 +3302,6 @@
     "revtel_convoy_hero_rival_02": "레브텔은 잊지 않는다...",
     "revtel_convoy_summon_01": "레브텔의 인사를 전하네...",
     "revtel_convoy_unique_02": "지나가게 해주지 않으면 죽음뿐이다.",
-    "riki_at_your_service": "At your service.",
-    "riki_if_you_can_see_me": "If you can see me, you're already dead.",
-    "riki_my_skill_set": "My skill set is narrow, but very sharp.",
-    "riki_peek_a_boo": "Peek-a-boo!",
-    "riki_whom_shall_i_kill": "Whom shall I kill?",
-    "riki_why_prolong_the_inevitable": "Why prolong the inevitable?",
     "rix_kill_rival_04": "우리는 절대 무릎 꿇지 않는다!",
     "rix_kill_rival_08": "너와 달리 난 죽음을 두려워하지 않아...",
     "rix_permanent_attack_04": "적들을 갈가리 찢어주자고.",

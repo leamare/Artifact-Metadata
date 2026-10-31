@@ -10,7 +10,8 @@ Source locations come from .env (copy .env.example, which has the usual Linux/St
   ARTIFACT_CLASSIC, ARTIFACT_FOUNDRY  the game installs (localization, pak01_dir.vpk)
   DOTA2                               Dota 2's install (regions.txt; optional)
   ORIGINAL_META                       Valve's card API dumps and the community card database
-  REBORN_CLIENT                       artifact-reborn-client (content/cards.yaml, localization, chat wheel)
+  REBORN_CONTENT                      artifact-reborn-content (cards_index definitions and
+                                      localization; card art; chat wheel lines)
   REBORN_GC                           artifact-reborn-gc (gauntlets, community card ids)
   REPLAY_PARSER                       replay-parser (trace tables and protos)
 
@@ -24,36 +25,62 @@ import argparse
 import collections
 import re
 
-from common import (RARITY_BITS, ROOT, Paths, _card_tokens, by_id, card_items, card_sets, items_game, keyword_table,
-                    load_json, load_yaml, report, traces, write, write_game)
+from common import (RARITY_BITS, ROOT, Paths, _card_tokens, by_id, card_items, card_sets, content_card_folders,
+                    content_dump, items_game, keyword_table, load_json, load_yaml, report, traces, write, write_game)
 from gen_classic import chat_wheel_classic, classic_set_of, load_classic, registry_game
 from sources import Vpk, kv_dict, kv_get, load_tokens, parse_kv, read_text
 
 
 def reborn_localization(P: Paths):
-    """The same structure, from artifact-reborn-client's content/localization YAML (the
-    patch's own text) plus the community cards' localization."""
+    """Patch text from the content workspace: shared localization YAML, then each card
+    folder's localization.yaml over it."""
     families = collections.defaultdict(dict)
-    for base in (P.reborn_client / 'content/localization', P.reborn_client / 'docs/content/examples/localization'):
-        for f in sorted(base.glob('*/*.yaml')):
-            families[f.parent.name].setdefault(f.stem, {}).update(load_yaml(f) or {})
+    base = P.reborn_content / 'content/localization'
+    for f in sorted(base.glob('*/*.yaml')):
+        families[f.parent.name].setdefault(f.stem, {}).update(load_yaml(f) or {})
+    card_text = collections.defaultdict(dict)
+    card_voice = collections.defaultdict(dict)
+    for cid, folder in content_card_folders(P.reborn_content).items():
+        path = folder / 'localization.yaml'
+        if not path.is_file():
+            continue
+        for lang, entry in (load_yaml(path) or {}).items():
+            if not isinstance(entry, dict):
+                continue
+            loc = {}
+            for key in ('name', 'text', 'lore'):
+                if entry.get(key):
+                    loc[key] = str(entry[key])
+            for key in ('effects', 'modifications'):
+                if isinstance(entry.get(key), dict) and entry[key]:
+                    loc[key] = {str(k): str(v) for k, v in entry[key].items()}
+            if loc:
+                card_text[lang][cid] = loc
+            voice = entry.get('voice')
+            if isinstance(voice, dict):
+                for key, text in voice.items():
+                    token = key if str(key).startswith('DCG_VO_') else f'DCG_VO_{key}'
+                    card_voice[lang][token] = str(text)
     english = families.get('english', {})
     out = {}
-    for lang, fams in families.items():
-        if 'cards' not in fams:
-            continue
+    langs = set(families) | set(card_text) | set(card_voice)
+    for lang in langs:
+        fams = families.get(lang, {})
         tokens = {}
         for name in ('cards', 'dcg_lore_set_00', 'dcg_lore_set_01'):
-            # The examples' other languages fall back to English (see their headers).
             tokens.update(english.get(name, {}) if lang != 'english' and name.startswith('dcg_lore') else {})
             tokens.update(fams.get(name, {}))
         cards = collections.defaultdict(dict)
         _card_tokens({k: str(v) for k, v in tokens.items()}, cards)
+        for cid, loc in card_text.get(lang, {}).items():
+            cards[cid].update(loc)
         common = {**fams.get('dcg', {}), **fams.get('dcg_common', {}), **fams.get('items', {})}
-        vo = {**english.get('dcg_vo_set_01', {}), **fams.get('dcg_vo_set_01', {})}
+        vo = {**english.get('dcg_vo_set_01', {}), **fams.get('dcg_vo_set_01', {}), **card_voice.get(lang, {})}
+        if not cards and not fams:
+            continue
         out[lang] = {'cards': dict(cards), 'glossary': fams.get('dcg_glossary', {}),
                      'common': {k: str(v) for k, v in common.items()},
-                     'vo': {k: str(v) for k, v in vo.items() if k.startswith('DCG_VO_')}}
+                     'vo': {k: str(v) for k, v in vo.items() if str(k).startswith('DCG_VO_')}}
     return out
 
 
@@ -62,20 +89,11 @@ def reborn_localization(P: Paths):
 # --- Reborn (community patch) --------------------------------------------------------------
 
 def build_reborn(P: Paths, classic_cards):
-    """The game as the community patch ships it: artifact-reborn-client's content/cards.yaml
-    (the full card list) plus the community cards the server defines, with the patch's own
-    localization."""
-    dump = {c['id']: c for c in load_yaml(P.reborn_client / 'content/cards.yaml')}
+    """The game as the community patch ships it: the content workspace's card index
+    (every card the SDK authors) and its localization."""
+    dump = content_dump(P.reborn_content)
     gc_dir = P.reborn_gc / 'internal/gc'
     gc_defs = {int(m[1]) - 100000 for m in re.finditer(r'\b(1\d{5}),', read_text(gc_dir / 'cards.go'))}
-    examples = {c['id']: c for c in load_yaml(P.reborn_client / 'docs/content/examples/cards.yaml')}
-    # The coordinator's community cards and everything they include are what the server ships
-    # (build_editions.ps1 -CustomCards); the examples' other ids are documentation samples.
-    shipped = {cid for cid in examples if cid in gc_defs}
-    for cid in list(shipped):
-        c = examples[cid]
-        shipped |= set(c.get('includes', [])) | {a['id'] for a in c.get('abilities', [])}
-    dump.update({cid: examples[cid] for cid in shipped})
     loc = reborn_localization(P)
     vpk = Vpk(P.classic / 'game/dcg/pak01_dir.vpk')
     ig = items_game(vpk)
@@ -83,7 +101,13 @@ def build_reborn(P: Paths, classic_cards):
     for cid in gc_defs:
         if cid >= 20000:
             citems.setdefault(cid, {'item_def': 100000 + cid, 'set': cid // 10000,
-                                    'rarity': RARITY_BITS.get((examples.get(cid) or {}).get('rarity_code'))})
+                                    'rarity': RARITY_BITS.get((dump.get(cid) or {}).get('rarity_code'))})
+    # Collectible community cards are listed in community_cards_gen.go, not cards.go.
+    for m in re.finditer(r'\{ID: (\d+), Name: "[^"]*", CardType: \w+, Colour: \w+, Cost: \d+, Rarity: Rarity(\w+)\}',
+                         read_text(gc_dir / 'community_cards_gen.go')):
+        cid = int(m[1])
+        citems.setdefault(cid, {'item_def': 100000 + cid, 'set': (dump.get(cid) or {}).get('set_id', cid // 10000),
+                                'rarity': RARITY_BITS.get((dump.get(cid) or {}).get('rarity_code')) or m[2]})
     set_of = classic_set_of(P.classic)
     cards = registry_game(P, dump, loc, citems, set_of, prefer_dump=True)
     # Community heroes the coordinator lists without a descriptor here (their data lives in
@@ -185,7 +209,7 @@ def main():
     P = Paths()
     parts = set(args.only or ['commons', 'reborn'])
     need = {'commons': ('classic', 'replay_parser'),
-            'reborn': ('classic', 'original_meta', 'reborn_client', 'reborn_gc', 'replay_parser')}
+            'reborn': ('classic', 'original_meta', 'reborn_content', 'reborn_gc', 'replay_parser')}
     P.need(*sorted({a for p in parts for a in need[p]}))
     if 'commons' in parts:
         build_commons(P)

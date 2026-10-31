@@ -202,7 +202,7 @@ def build_foundry(P: Paths, classic_cards):
 
 def main():
     P = Paths()
-    P.need('classic', 'foundry', 'original_meta', 'reborn_client', 'replay_parser')
+    P.need('classic', 'foundry', 'original_meta', 'reborn_content', 'replay_parser')
     report('foundry', build_foundry(P, load_classic(P)))   # Classic's cards are read, not written
     write('foundry/traces.json', traces(P)[0]['foundry'])
 

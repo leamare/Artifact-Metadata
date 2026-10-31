@@ -2939,8 +2939,7 @@
     "20000": {
       "name": "Riki",
       "text": "[abilityname[Apunhalada]]{s:thisCardName} causa dano dobrado ao atacar uma [g:607[unidade]] que não o esteja atacando.",
-      "text_plain": "Apunhalada\nRiki causa dano dobrado ao atacar uma unidade que não o esteja atacando.",
-      "lore": "I will avenge my family's slaughter. I'm not just doing this for fun, you know. — Rikimaru, the Middle Brother"
+      "text_plain": "Apunhalada\nRiki causa dano dobrado ao atacar uma unidade que não o esteja atacando."
     },
     "20001": {
       "name": "Apunhalada",
@@ -2950,8 +2949,38 @@
     "20002": {
       "name": "Cortina de Fumaça",
       "text": "Escolha uma [g:607[unidade]] inimiga. [g:406[Silencie]] essa [g:607[unidade]] e os seus [g:601[aliados adjacentes]] durante esta rodada. Cause a essas [g:607[unidades]] uma penalidade de -1 de [g:504[Armadura]] nesta rodada.",
-      "text_plain": "Escolha uma unidade inimiga. Silencie essa unidade e os seus aliados adjacentes durante esta rodada. Cause a essas unidades uma penalidade de -1 de Armadura nesta rodada.",
-      "lore": "Poof!"
+      "text_plain": "Escolha uma unidade inimiga. Silencie essa unidade e os seus aliados adjacentes durante esta rodada. Cause a essas unidades uma penalidade de -1 de Armadura nesta rodada."
+    },
+    "20010": {
+      "name": "Imperia",
+      "text": "[abilityname[Maquinação]][activatedability[[color:ability[Ativa &#9632;3:]] Conceda +2 de [g:407[Trava]] a uma carta aleatória na mão do adversário. Conceda +X de [g:509[Ataque]] a {s:thisCardName} nesta rodada, sendo X o custo de mana dessa carta.]]",
+      "text_plain": "Maquinação\nAtiva 3: Conceda +2 de Trava a uma carta aleatória na mão do adversário. Conceda +X de Ataque a Imperia nesta rodada, sendo X o custo de mana dessa carta.",
+      "lore": "Quando eu recuperar meu trono, reunirei todos os vira-casacas, os descontentes e os enganadores, e eu mesma os afogarei, um por um, com minhas próprias mãos. — Imperia"
+    },
+    "20011": {
+      "name": "Maquinação",
+      "text": "Conceda +2 de [g:407[Trava]] a uma carta aleatória na mão do adversário. Conceda +X de [g:509[Ataque]] a {s:parentCardName} nesta rodada, sendo X o custo de mana dessa carta.",
+      "text_plain": "Conceda +2 de Trava a uma carta aleatória na mão do adversário. Conceda +X de Ataque a Imperia nesta rodada, sendo X o custo de mana dessa carta."
+    },
+    "20012": {
+      "name": "Conspiração de Corvos",
+      "text": "[abilityname[Conspiração de Corvos]]Depois que {s:thisCardName} matar uma [g:607[unidade]], conceda +2 de [g:407[Trava]] a uma carta aleatória na mão do adversário.",
+      "text_plain": "Conspiração de Corvos\nDepois que Conspiração de Corvos matar uma unidade, conceda +2 de Trava a uma carta aleatória na mão do adversário.",
+      "lore": "Tenho olhos em toda parte. — Imperia",
+      "effects": [
+        "Depois que {s:thisCardName} matar uma [g:607[unidade]], conceda +2 de [g:407[Trava]] a uma carta aleatória na mão do adversário."
+      ]
+    },
+    "20013": {
+      "name": "Conspiração de Corvos",
+      "text": "Depois que {s:parentCardName} matar uma [g:607[unidade]], conceda +2 de [g:407[Trava]] a uma carta aleatória na mão do adversário.",
+      "text_plain": "Depois que Conspiração de Corvos matar uma unidade, conceda +2 de Trava a uma carta aleatória na mão do adversário."
+    },
+    "20027": {
+      "name": "Laguna Blade"
+    },
+    "20028": {
+      "name": "Light Strike Array"
     }
   },
   "voice_lines": {
@@ -3273,12 +3302,6 @@
     "revtel_convoy_hero_rival_02": "Revtel não se esquece...",
     "revtel_convoy_summon_01": "Saudações de Revtel...",
     "revtel_convoy_unique_02": "Ou você nos deixa passar, ou morre.",
-    "riki_at_your_service": "At your service.",
-    "riki_if_you_can_see_me": "If you can see me, you're already dead.",
-    "riki_my_skill_set": "My skill set is narrow, but very sharp.",
-    "riki_peek_a_boo": "Peek-a-boo!",
-    "riki_whom_shall_i_kill": "Whom shall I kill?",
-    "riki_why_prolong_the_inevitable": "Why prolong the inevitable?",
     "rix_kill_rival_04": "Nunca ficaremos de joelhos!",
     "rix_kill_rival_08": "Eu não temo a morte. Já você...",
     "rix_permanent_attack_04": "Vamos deixar todos em pedacinhos.",

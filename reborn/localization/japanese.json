@@ -2939,8 +2939,7 @@
     "20000": {
       "name": "リキ",
       "text": "[abilityname[バックスタブ]]{s:thisCardName}は、自身を攻撃していない[g:607[ユニット]]を攻撃する時、2倍のダメージを与える。",
-      "text_plain": "バックスタブ\nリキは、自身を攻撃していないユニットを攻撃する時、2倍のダメージを与える。",
-      "lore": "I will avenge my family's slaughter. I'm not just doing this for fun, you know. — Rikimaru, the Middle Brother"
+      "text_plain": "バックスタブ\nリキは、自身を攻撃していないユニットを攻撃する時、2倍のダメージを与える。"
     },
     "20001": {
       "name": "バックスタブ",
@@ -2950,8 +2949,38 @@
     "20002": {
       "name": "スモーク・スクリーン",
       "text": "敵の[g:607[ユニット]]1体を選ぶ。その[g:607[ユニット]]と[g:601[両隣の味方]]をこのラウンド、[g:406[沈黙]]させる。それらの[g:607[ユニット]]にこのラウンドの間、－1[g:504[防御力]]を与える。",
-      "text_plain": "敵のユニット1体を選ぶ。そのユニットと両隣の味方をこのラウンド、沈黙させる。それらのユニットにこのラウンドの間、－1防御力を与える。",
-      "lore": "Poof!"
+      "text_plain": "敵のユニット1体を選ぶ。そのユニットと両隣の味方をこのラウンド、沈黙させる。それらのユニットにこのラウンドの間、－1防御力を与える。"
+    },
+    "20010": {
+      "name": "インペリア",
+      "text": "[abilityname[謀略]][activatedability[[color:ability[アクティブ&#9632;3：]]対戦相手の手札のランダムなカード1枚に＋2[g:407[ロック]]を与える。このラウンドの間、{s:thisCardName}に＋X[g:509[攻撃力]]を与える。Xはそのカードのマナコストに等しい。]]",
+      "text_plain": "謀略\nアクティブ3：対戦相手の手札のランダムなカード1枚に＋2ロックを与える。このラウンドの間、インペリアに＋X攻撃力を与える。Xはそのカードのマナコストに等しい。",
+      "lore": "王座を取り戻したら、裏切り者も不満分子も欺く者もすべて集め、一人ずつ、この手で溺れさせてやろう。 — インペリア"
+    },
+    "20011": {
+      "name": "謀略",
+      "text": "対戦相手の手札のランダムなカード1枚に＋2[g:407[ロック]]を与える。このラウンドの間、{s:parentCardName}に＋X[g:509[攻撃力]]を与える。Xはそのカードのマナコストに等しい。",
+      "text_plain": "対戦相手の手札のランダムなカード1枚に＋2ロックを与える。このラウンドの間、インペリアに＋X攻撃力を与える。Xはそのカードのマナコストに等しい。"
+    },
+    "20012": {
+      "name": "大鴉の陰謀",
+      "text": "[abilityname[大鴉の陰謀]]{s:thisCardName}が[g:607[ユニット]]を倒した後、対戦相手の手札のランダムなカード1枚に＋2[g:407[ロック]]を与える。",
+      "text_plain": "大鴉の陰謀\n大鴉の陰謀がユニットを倒した後、対戦相手の手札のランダムなカード1枚に＋2ロックを与える。",
+      "lore": "私の目はどこにでもある。 — インペリア",
+      "effects": [
+        "{s:thisCardName}が[g:607[ユニット]]を倒した後、対戦相手の手札のランダムなカード1枚に＋2[g:407[ロック]]を与える。"
+      ]
+    },
+    "20013": {
+      "name": "大鴉の陰謀",
+      "text": "{s:parentCardName}が[g:607[ユニット]]を倒した後、対戦相手の手札のランダムなカード1枚に＋2[g:407[ロック]]を与える。",
+      "text_plain": "大鴉の陰謀がユニットを倒した後、対戦相手の手札のランダムなカード1枚に＋2ロックを与える。"
+    },
+    "20027": {
+      "name": "Laguna Blade"
+    },
+    "20028": {
+      "name": "Light Strike Array"
     }
   },
   "voice_lines": {
@@ -3273,12 +3302,6 @@
     "revtel_convoy_hero_rival_02": "レヴテルは忘れない…",
     "revtel_convoy_summon_01": "レヴテルから失礼する…",
     "revtel_convoy_unique_02": "私達を通すか、それとも死ぬかだ。",
-    "riki_at_your_service": "At your service.",
-    "riki_if_you_can_see_me": "If you can see me, you're already dead.",
-    "riki_my_skill_set": "My skill set is narrow, but very sharp.",
-    "riki_peek_a_boo": "Peek-a-boo!",
-    "riki_whom_shall_i_kill": "Whom shall I kill?",
-    "riki_why_prolong_the_inevitable": "Why prolong the inevitable?",
     "rix_kill_rival_04": "我らは誰にも屈従せぬ！",
     "rix_kill_rival_08": "私は死を恐れない。だがお前は…",
     "rix_permanent_attack_04": "奴らを八つ裂きにしてやろう。",

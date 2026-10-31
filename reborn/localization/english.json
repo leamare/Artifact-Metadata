@@ -3025,6 +3025,142 @@
       "text": "Choose an enemy [g:607[unit]]. [g:406[Silence]] that [g:607[unit]] and its [g:601[allied neighbors]] this round. Give those [g:607[units]] -1 [g:504[Armor]] this round.",
       "text_plain": "Choose an enemy unit. Silence that unit and its allied neighbors this round. Give those units -1 Armor this round.",
       "lore": "Poof!"
+    },
+    "20003": {
+      "name": "Shadow Initiate"
+    },
+    "20004": {
+      "name": "Smuggler's Den",
+      "text": "[activatedability[[color:ability[Active &#9632;2:]] Deal 2 damage to the enemy [g:2[tower]].]]",
+      "text_plain": "Active 2: Deal 2 damage to the enemy tower."
+    },
+    "20005": {
+      "name": "Smuggler's Den",
+      "text": "Deal 2 damage to the enemy [g:2[tower]].",
+      "text_plain": "Deal 2 damage to the enemy tower."
+    },
+    "20006": {
+      "name": "Shadow Blade",
+      "text": "Equipped [g:0[hero]] has +3 [g:509[Attack]].",
+      "text_plain": "Equipped hero has +3 Attack."
+    },
+    "20007": {
+      "name": "Dark Willow",
+      "lore": "Children love telling stories about the whimsical adventures of fairies... That's because children don't know that most fairies are spiteful jerks. And in the world of spiteful fairies there are few names spoken of with more contempt than Mireska Sunbreeze.\n\nBorn to a fae merchant king, Mireska grew up in Revtel; a cutthroat nation where manipulation and murder were the norm. But while she was quite adept at navigating the etiquette, unspoken laws, and social rituals that permeated every element of her life, she found the whole thing rather boring.\n\nSo, Mireska did what most rebellious children do: burn down her family estate and set off with her pet wisp Jex to live the life of a wandering grifter."
+    },
+    "20008": {
+      "name": "Shadow Realm",
+      "text": "This round, {s:parentCardName} cannot be attacked; units attack through her. [g:502[Cleave]] still hits her. {s:parentCardName} gains +2 [g:509[Attack]] when attacking a [g:0[hero]] this round.",
+      "text_plain": "This round, Dark Willow cannot be attacked; units attack through her. Cleave still hits her. Dark Willow gains +2 Attack when attacking a hero this round.",
+      "lore": "Recedes into the shadows and becomes untargetable. Mireska's next attack has increased attack range imbued with magical spell damage corresponding to the duration within the Shadow Realm.\n\nAttacking breaks the incantation and brings her back to the physical plane."
+    },
+    "20009": {
+      "name": "Bedlam",
+      "text": "Deploy Jex. Jex deals 1 damage to the enemy nearest to an allied Dark Willow, then jumps to a random enemy beside the last one he hit (the same one if none). Repeat 6 times.",
+      "text_plain": "Deploy Jex. Jex deals 1 damage to the enemy nearest to an allied Dark Willow, then jumps to a random enemy beside the last one he hit (the same one if none). Repeat 6 times."
+    },
+    "20010": {
+      "name": "Imperia",
+      "text": "[abilityname[Skulduggery]][activatedability[[color:ability[Active &#9632;3:]] Give a random card in opponent's hand +2 [g:407[Lock]]. Give {s:parentCardName} +X [g:509[Attack]] until [g:407[Lock]] ends, where X is that card's mana cost.",
+      "text_plain": "Skulduggery\nActive 3: Give a random card in opponent's hand +2 Lock. Give {s:parentCardName} +X Attack until Lock ends, where X is that card's mana cost.",
+      "lore": "When I reclaim my throne, I will gather all the turncoats, and malcontents, and deceivers, and I will drown them myself, one by one with my hands. — Imperia"
+    },
+    "20011": {
+      "name": "Skulduggery",
+      "text": "Give a random card in opponent's hand +2 [g:407[Lock]]. Give {s:parentCardName} +X [g:509[Attack]] until [g:407[Lock]] ends, where X is that card's mana cost.",
+      "text_plain": "Give a random card in opponent's hand +2 Lock. Give Imperia +X Attack until Lock ends, where X is that card's mana cost."
+    },
+    "20012": {
+      "name": "Conspiracy of Ravens",
+      "text": "[abilityname[Conspiracy of Ravens]]After {s:thisCardName} kills a [g:607[unit]], give a random card in opponent's hand +2 [g:407[Lock]].",
+      "text_plain": "Conspiracy of Ravens\nAfter Conspiracy of Ravens kills a unit, give a random card in opponent's hand +2 Lock.",
+      "lore": "I have eyes everywhere. — Imperia",
+      "effects": [
+        "After {s:thisCardName} kills a [g:607[unit]], give a random card in opponent's hand +2 [g:407[Lock]]."
+      ]
+    },
+    "20013": {
+      "name": "Conspiracy of Ravens",
+      "text": "After {s:parentCardName} kills a [g:607[unit]], give a random card in opponent's hand +2 [g:407[Lock]].",
+      "text_plain": "After Conspiracy of Ravens kills a unit, give a random card in opponent's hand +2 Lock."
+    },
+    "20014": {
+      "name": "Terrorize",
+      "text": "[g:410[Bounce]] all enemy [g:0[heroes]] in this lane. [g:405[Stun]] all [g:1[creeps]] in this lane.",
+      "text_plain": "Bounce all enemy heroes in this lane. Stun all creeps in this lane."
+    },
+    "20020": {
+      "name": "Spectre",
+      "text": "[abilityname[Dispersion]]{s:thisCardName} has [g:504[Armor]] equal to one eighth of its current health and [g:503[Retaliate]] equal to one quarter of its current health (both rounded down).<BR/>\n<BR/>\n[abilityname[Desolate]]{s:thisCardName} deals +2 damage when attacking a [g:607[unit]] with no [g:601[allied neighbors]].",
+      "text_plain": "Dispersion\nSpectre has Armor equal to one eighth of its current health and Retaliate equal to one quarter of its current health (both rounded down).\n\nDesolate\nSpectre deals +2 damage when attacking a unit with no allied neighbors."
+    },
+    "20021": {
+      "name": "Dispersion",
+      "text": "{s:parentCardName} has [g:504[Armor]] equal to one eighth of its current health and [g:503[Retaliate]] equal to one quarter of its current health (both rounded down).",
+      "text_plain": "Spectre has Armor equal to one eighth of its current health and Retaliate equal to one quarter of its current health (both rounded down)."
+    },
+    "20022": {
+      "name": "Desolate",
+      "text": "{s:parentCardName} deals +2 damage when attacking a [g:607[unit]] with no [g:601[allied neighbors]].",
+      "text_plain": "Spectre deals +2 damage when attacking a unit with no allied neighbors."
+    },
+    "20023": {
+      "name": "Haunt",
+      "text": "In each lane, [g:409[summon]] a [[Spectral Shard]] blocking each enemy [g:0[hero]] (or in the nearest empty combat position). Put a [[Reality]] card into your hand. They are removed at the end of the round.",
+      "text_plain": "In each lane, summon a Spectral Shard blocking each enemy hero (or in the nearest empty combat position). Put a Reality card into your hand. They are removed at the end of the round."
+    },
+    "20024": {
+      "name": "Spectral Shard",
+      "text": "Removed at the end of the round.",
+      "text_plain": "Removed at the end of the round."
+    },
+    "20025": {
+      "name": "Reality",
+      "text": "Swap an allied [[Spectre]] with a [[Spectral Shard]] in any lane. Removed at the end of the round.",
+      "text_plain": "Swap an allied Spectre with a Spectral Shard in any lane. Removed at the end of the round."
+    },
+    "20026": {
+      "name": "Lina",
+      "lore": "Fire makes a fine servant, but a harsh mistress. — Lina, the Fire Slayer"
+    },
+    "20027": {
+      "name": "Laguna Blade",
+      "text": "Deal 5 [g:508[piercing]] damage to a [g:607[unit]].",
+      "text_plain": "Deal 5 piercing damage to a unit."
+    },
+    "20028": {
+      "name": "Light Strike Array",
+      "text": "[g:405[Stun]] and deal 2 damage to a [g:607[unit]].",
+      "text_plain": "Stun and deal 2 damage to a unit."
+    },
+    "20029": {
+      "name": "Dragon Slave",
+      "text": "Deal 3 [g:508[piercing]] damage to an enemy and 1 [g:508[piercing]] damage to its [g:601[allied neighbors]].",
+      "text_plain": "Deal 3 piercing damage to an enemy and 1 piercing damage to its allied neighbors."
+    },
+    "20030": {
+      "name": "Ringmaster",
+      "lore": "I, my dear friends, am no mere emcee... No, from the smallest bunting to the grandest marquee, the screams of terror, the howls of joy -- everything you witness tonight all comes down to me. — Ringmaster, totally not a mere emcee"
+    },
+    "20031": {
+      "name": "Dark Carnival Barker",
+      "text": "After an enemy [g:0[hero]] dies in {s:parentCardName}'s lane, draw a card.",
+      "text_plain": "After an enemy hero dies in Ringmaster's lane, draw a card."
+    },
+    "20032": {
+      "name": "Wheel of Wonder",
+      "text": "[g:602[Play Effect]]: {s:thisCardName} [g:403[taunts]].<br/>[g:603[Death Effect]]: Deal 4 damage to {s:thisCardName}'s [g:600[enemy neighbors]].<br/>[g:202[After the combat phase]], [g:408[condemn]] {s:thisCardName}.",
+      "text_plain": "Play Effect: Wheel of Wonder taunts.\nDeath Effect: Deal 4 damage to Wheel of Wonder's enemy neighbors.\nAfter the combat phase, condemn Wheel of Wonder."
+    },
+    "20033": {
+      "name": "Cursed Crown",
+      "text": "Debuff an enemy [g:0[hero]] this round. At the start of the next round, [g:405[Stun]] that [g:0[hero]] and its [g:601[allied neighbors]].",
+      "text_plain": "Debuff an enemy hero this round. At the start of the next round, Stun that hero and its allied neighbors."
+    },
+    "20034": {
+      "name": "Tormentor",
+      "text": "When receives damage into its [g:504[Armor]], deal that damage to the closest attackers.<br/>[color:play_effect[[g:602[Play Effect]]:]] Double your mana pool and restore all mana. Your [g:2[tower]] gets 2 damage.<br/>[color:quick[[g:604[&#9634; Get initiative]].]]",
+      "text_plain": "When receives damage into its Armor, deal that damage to the closest attackers.\nPlay Effect: Double your mana pool and restore all mana. Your tower gets 2 damage.\nGet initiative."
     }
   },
   "voice_lines": {
@@ -3431,6 +3567,12 @@
     "sven_concerned_10": "This is but a temporary setback....",
     "sven_enigmatic_01": "I will live to get revenge...",
     "sven_enigmatic_08": "You aren't ready for what I have in store for you...",
+    "sylph_cocky": "Never had a chance.",
+    "sylph_intro": "They're not ready for what I have planned...",
+    "sylph_intro_2": "Mireska has arrived.",
+    "sylph_laugh": "Hahahaha ah hahahaha ahh hahahaha!",
+    "sylph_sad": "I won't lie. That was unexpected.",
+    "sylph_taunt": "Oh-ho. Don't mind me. Just a wee fairy going about her business.",
     "tidehunter_angry_08": "You will drown in a sea of blood...",
     "tidehunter_arrogant_04": "I will dominate the land, as I dominate the sea.",
     "tidehunter_arrogant_06": "Victory is assured.",

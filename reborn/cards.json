@@ -1651,8 +1651,112 @@
     "name": "Smoke Screen",
     "type": 7
   },
+  "20003": {
+    "name": "Shadow Initiate",
+    "type": 4
+  },
+  "20004": {
+    "name": "Smuggler's Den",
+    "type": 9
+  },
+  "20005": {
+    "name": "Smuggler's Den",
+    "type": 8
+  },
+  "20006": {
+    "name": "Shadow Blade",
+    "type": 5
+  },
+  "20007": {
+    "name": "Dark Willow",
+    "type": 6
+  },
+  "20008": {
+    "name": "Shadow Realm",
+    "type": 8
+  },
+  "20009": {
+    "name": "Bedlam",
+    "type": 7
+  },
   "20010": {
     "name": "Imperia",
     "type": 6
+  },
+  "20011": {
+    "name": "Skulduggery",
+    "type": 8
+  },
+  "20012": {
+    "name": "Conspiracy of Ravens",
+    "type": 4
+  },
+  "20013": {
+    "name": "Conspiracy of Ravens",
+    "type": 8
+  },
+  "20014": {
+    "name": "Terrorize",
+    "type": 7
+  },
+  "20020": {
+    "name": "Spectre",
+    "type": 6
+  },
+  "20021": {
+    "name": "Dispersion",
+    "type": 8
+  },
+  "20022": {
+    "name": "Desolate",
+    "type": 8
+  },
+  "20023": {
+    "name": "Haunt",
+    "type": 7
+  },
+  "20024": {
+    "name": "Spectral Shard",
+    "type": 4
+  },
+  "20025": {
+    "name": "Reality",
+    "type": 7
+  },
+  "20026": {
+    "name": "Lina",
+    "type": 6
+  },
+  "20027": {
+    "name": "Laguna Blade",
+    "type": 7
+  },
+  "20028": {
+    "name": "Light Strike Array",
+    "type": 7
+  },
+  "20029": {
+    "name": "Dragon Slave",
+    "type": 7
+  },
+  "20030": {
+    "name": "Ringmaster",
+    "type": 6
+  },
+  "20031": {
+    "name": "Dark Carnival Barker",
+    "type": 8
+  },
+  "20032": {
+    "name": "Wheel of Wonder",
+    "type": 4
+  },
+  "20033": {
+    "name": "Cursed Crown",
+    "type": 7
+  },
+  "20034": {
+    "name": "Tormentor",
+    "type": 4
   }
 }

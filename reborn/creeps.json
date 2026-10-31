@@ -1129,5 +1129,105 @@
       "trigger_count": 1
     },
     "release_date": "2018-11-28"
+  },
+  "20003": {
+    "id": 20003,
+    "name": "Shadow Initiate",
+    "type": 4,
+    "set": 2,
+    "collectible": false,
+    "rarity": "Common",
+    "color": "Black",
+    "mana_cost": 3,
+    "attack": 3,
+    "health": 3,
+    "bounty": 1,
+    "artwork": {
+      "artwork_id": 1009
+    }
+  },
+  "20012": {
+    "id": 20012,
+    "name": "Conspiracy of Ravens",
+    "type": 4,
+    "set": 2,
+    "collectible": false,
+    "rarity": "Uncommon",
+    "color": "Blue",
+    "mana_cost": 3,
+    "attack": 3,
+    "health": 3,
+    "bounty": 1,
+    "artwork": {
+      "artwork_id": 20012
+    },
+    "abilities": [
+      20013
+    ],
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    },
+    "signature_of": [
+      20010
+    ]
+  },
+  "20024": {
+    "id": 20024,
+    "name": "Spectral Shard",
+    "type": 4,
+    "set": 2,
+    "collectible": false,
+    "color": "Black",
+    "attack": 2,
+    "health": 4,
+    "artwork": {
+      "artwork_id": 20024
+    }
+  },
+  "20032": {
+    "id": 20032,
+    "name": "Wheel of Wonder",
+    "type": 4,
+    "set": 2,
+    "collectible": false,
+    "color": "Green",
+    "mana_cost": 5,
+    "attack": 0,
+    "health": 4,
+    "bounty": 1,
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 3
+    },
+    "signature_of": [
+      20030
+    ]
+  },
+  "20034": {
+    "id": 20034,
+    "name": "Tormentor",
+    "type": 4,
+    "set": 2,
+    "collectible": true,
+    "rarity": "Rare",
+    "color": "Neutral",
+    "mana_cost": 5,
+    "attack": 0,
+    "armor": 8,
+    "health": 2,
+    "bounty": 1,
+    "quick": true,
+    "item_def": 120034,
+    "artwork": {
+      "artwork_id": 20034,
+      "alternate_artwork_ids": [
+        1526
+      ]
+    },
+    "engine": {
+      "has_triggers": true,
+      "trigger_count": 1
+    }
   }
 }

@@ -1177,5 +1177,24 @@
       "has_modifiers": true
     },
     "release_date": "2018-11-18"
+  },
+  "20006": {
+    "id": 20006,
+    "name": "Shadow Blade",
+    "type": 5,
+    "set": 2,
+    "collectible": false,
+    "rarity": "Uncommon",
+    "gold_cost": 6,
+    "item_subtype": "Weapon",
+    "equip": {
+      "attack": 3
+    },
+    "artwork": {
+      "artwork_id": 3002
+    },
+    "engine": {
+      "has_modifiers": true
+    }
   }
 }

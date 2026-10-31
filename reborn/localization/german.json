@@ -2939,8 +2939,7 @@
     "20000": {
       "name": "Riki",
       "text": "[abilityname[Rückenstich]]{s:thisCardName} verursacht doppelten Schaden, wenn er eine [g:607[Einheit]] angreift, die ihn nicht angreift.",
-      "text_plain": "Rückenstich\nRiki verursacht doppelten Schaden, wenn er eine Einheit angreift, die ihn nicht angreift.",
-      "lore": "I will avenge my family's slaughter. I'm not just doing this for fun, you know. — Rikimaru, the Middle Brother"
+      "text_plain": "Rückenstich\nRiki verursacht doppelten Schaden, wenn er eine Einheit angreift, die ihn nicht angreift."
     },
     "20001": {
       "name": "Rückenstich",
@@ -2950,8 +2949,38 @@
     "20002": {
       "name": "Rauchschleier",
       "text": "Wähle eine gegnerische [g:607[Einheit]]. Lass diese [g:607[Einheit]] und ihre [g:601[benachbarten Verbündeten]] diese Runde [g:406[verstummen]]. Gib diesen [g:607[Einheiten]] diese Runde −1 [g:504[Rüstung]].",
-      "text_plain": "Wähle eine gegnerische Einheit. Lass diese Einheit und ihre benachbarten Verbündeten diese Runde verstummen. Gib diesen Einheiten diese Runde −1 Rüstung.",
-      "lore": "Poof!"
+      "text_plain": "Wähle eine gegnerische Einheit. Lass diese Einheit und ihre benachbarten Verbündeten diese Runde verstummen. Gib diesen Einheiten diese Runde −1 Rüstung."
+    },
+    "20010": {
+      "name": "Imperia",
+      "text": "[abilityname[Ränkespiel]][activatedability[[color:ability[Aktiv &#9632;3:]] Gib einer zufälligen Karte in der Hand des Gegners +2 [g:407[Sperren]]. Gib {s:thisCardName} diese Runde +X [g:509[Angriff]], wobei X die Manakosten dieser Karte sind.]]",
+      "text_plain": "Ränkespiel\nAktiv 3: Gib einer zufälligen Karte in der Hand des Gegners +2 Sperren. Gib Imperia diese Runde +X Angriff, wobei X die Manakosten dieser Karte sind.",
+      "lore": "Wenn ich meinen Thron zurückerobert habe, werde ich alle Überläufer, Unzufriedenen und Betrüger versammeln und sie selbst ertränken, einen nach dem anderen, mit meinen eigenen Händen. — Imperia"
+    },
+    "20011": {
+      "name": "Ränkespiel",
+      "text": "Gib einer zufälligen Karte in der Hand des Gegners +2 [g:407[Sperren]]. Gib {s:parentCardName} diese Runde +X [g:509[Angriff]], wobei X die Manakosten dieser Karte sind.",
+      "text_plain": "Gib einer zufälligen Karte in der Hand des Gegners +2 Sperren. Gib Imperia diese Runde +X Angriff, wobei X die Manakosten dieser Karte sind."
+    },
+    "20012": {
+      "name": "Rabenverschwörung",
+      "text": "[abilityname[Rabenverschwörung]]Nachdem {s:thisCardName} eine [g:607[Einheit]] getötet hat, gib einer zufälligen Karte in der Hand des Gegners +2 [g:407[Sperren]].",
+      "text_plain": "Rabenverschwörung\nNachdem Rabenverschwörung eine Einheit getötet hat, gib einer zufälligen Karte in der Hand des Gegners +2 Sperren.",
+      "lore": "Ich habe überall Augen. — Imperia",
+      "effects": [
+        "Nachdem {s:thisCardName} eine [g:607[Einheit]] getötet hat, gib einer zufälligen Karte in der Hand des Gegners +2 [g:407[Sperren]]."
+      ]
+    },
+    "20013": {
+      "name": "Rabenverschwörung",
+      "text": "Nachdem {s:parentCardName} eine [g:607[Einheit]] getötet hat, gib einer zufälligen Karte in der Hand des Gegners +2 [g:407[Sperren]].",
+      "text_plain": "Nachdem Rabenverschwörung eine Einheit getötet hat, gib einer zufälligen Karte in der Hand des Gegners +2 Sperren."
+    },
+    "20027": {
+      "name": "Laguna Blade"
+    },
+    "20028": {
+      "name": "Light Strike Array"
     }
   },
   "voice_lines": {
@@ -3273,12 +3302,6 @@
     "revtel_convoy_hero_rival_02": "Revtel vergisst nicht ...",
     "revtel_convoy_summon_01": "Grüße aus Revtel ...",
     "revtel_convoy_unique_02": "Du lässt uns durch oder du stirbst.",
-    "riki_at_your_service": "At your service.",
-    "riki_if_you_can_see_me": "If you can see me, you're already dead.",
-    "riki_my_skill_set": "My skill set is narrow, but very sharp.",
-    "riki_peek_a_boo": "Peek-a-boo!",
-    "riki_whom_shall_i_kill": "Whom shall I kill?",
-    "riki_why_prolong_the_inevitable": "Why prolong the inevitable?",
     "rix_kill_rival_04": "Wir werden nie unsere Knie beugen!",
     "rix_kill_rival_08": "Ich fürchte den Tod nicht. Du hingegen ...",
     "rix_permanent_attack_04": "Lasst uns sie zerreißen.",
